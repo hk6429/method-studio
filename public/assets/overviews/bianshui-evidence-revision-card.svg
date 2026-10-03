@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" role="img" aria-labelledby="bianshui-evidence-revision-card-title bianshui-evidence-revision-card-desc"><title id="bianshui-evidence-revision-card-title">讓小鎮留下自己的思考</title><desc id="bianshui-evidence-revision-card-desc">情境提問 → 原文取證 → 操作說理 → 改稿遷移</desc>
+<defs><marker id="bianshui-evidence-revision-card-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="800" height="480" fill="#f0f2e9"/>
+<text x="36" y="48" fill="#586b60" font-size="26" font-weight="500">汴水小鎮</text>
+<text x="36" y="102" fill="#193732" font-size="36" font-weight="650">讓小鎮留下自己的思考</text>
+<path d="M36 128H764" stroke="#bdcbbb"/>
+<path d="M372 216H422" fill="none" stroke="#586b60" stroke-width="2.4" marker-end="url(#bianshui-evidence-revision-card-arrow)"/>
+<path d="M600 272V278Q600 288 590 288H214Q204 288 204 298" fill="none" stroke="#586b60" stroke-width="2.4" marker-end="url(#bianshui-evidence-revision-card-arrow)"/>
+<path d="M372 366H422" fill="none" stroke="#586b60" stroke-width="2.4" marker-end="url(#bianshui-evidence-revision-card-arrow)"/>
+<rect x="36" y="160" width="328" height="112" rx="5" fill="#193732" stroke="#bdcbbb"/>
+<text x="56" y="200" fill="#d4e2d4" font-size="23" font-weight="500">01</text>
+<text x="56" y="245" fill="#fffef9" font-size="38" font-weight="650">情境提問</text>
+<rect x="436" y="160" width="328" height="112" rx="5" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="456" y="200" fill="#586b60" font-size="23" font-weight="500">02</text>
+<text x="456" y="245" fill="#193732" font-size="38" font-weight="650">原文取證</text>
+<rect x="36" y="310" width="328" height="112" rx="5" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="56" y="350" fill="#586b60" font-size="23" font-weight="500">03</text>
+<text x="56" y="395" fill="#193732" font-size="38" font-weight="650">操作說理</text>
+<rect x="436" y="310" width="328" height="112" rx="5" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="456" y="350" fill="#586b60" font-size="23" font-weight="500">04</text>
+<text x="456" y="395" fill="#193732" font-size="38" font-weight="650">改稿遷移</text>
+<text x="36" y="465" fill="#586b60" font-size="24" font-weight="500">方法概覽 · 依文章內容編輯整理</text>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 1000" role="img" aria-labelledby="bianshui-evidence-revision-mobile-title bianshui-evidence-revision-mobile-desc"><title id="bianshui-evidence-revision-mobile-title">從一段原文，走到有據說理</title><desc id="bianshui-evidence-revision-mobile-desc">情境提問 → 原文取證 → 操作說理 → 改稿遷移；新線索或理由不足時，回到原文重新判斷。</desc>
+<defs><marker id="bianshui-evidence-revision-mobile-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="640" height="1000" fill="#f0f2e9"/>
+<text x="40" y="64" fill="#586b60" font-size="25" font-weight="500">汴水小鎮 · 文學探究路線</text>
+<text x="40" y="127" fill="#193732" font-size="40" font-weight="650">從一段原文，</text>
+<text x="40" y="183" fill="#193732" font-size="40" font-weight="650">走到有據說理</text>
+<rect x="40" y="220" width="530" height="150" rx="5" fill="#193732" stroke="#bdcbbb"/><text x="62" y="254" fill="#d4e2d4" font-size="20" font-weight="500">01</text><text x="62" y="305" fill="#fffef9" font-size="32" font-weight="650">情境提問</text><text x="62" y="345" fill="#d4e2d4" font-size="23" font-weight="500">聽見不同需要</text>
+<path d="M304 373v16" fill="none" stroke="#586b60" stroke-width="2.4" marker-end="url(#bianshui-evidence-revision-mobile-arrow)"/>
+<rect x="40" y="394" width="530" height="150" rx="5" fill="#fffef9" stroke="#bdcbbb"/><text x="62" y="428" fill="#586b60" font-size="20" font-weight="500">02</text><text x="62" y="479" fill="#193732" font-size="32" font-weight="650">原文取證</text><text x="62" y="519" fill="#586b60" font-size="23" font-weight="500">引文連到判斷</text>
+<path d="M304 547v16" fill="none" stroke="#586b60" stroke-width="2.4" marker-end="url(#bianshui-evidence-revision-mobile-arrow)"/>
+<rect x="40" y="568" width="530" height="150" rx="5" fill="#fffef9" stroke="#bdcbbb"/><text x="62" y="602" fill="#586b60" font-size="20" font-weight="500">03</text><text x="62" y="653" fill="#193732" font-size="32" font-weight="650">操作說理</text><text x="62" y="693" fill="#586b60" font-size="23" font-weight="500">解釋條件取捨</text>
+<path d="M304 721v16" fill="none" stroke="#586b60" stroke-width="2.4" marker-end="url(#bianshui-evidence-revision-mobile-arrow)"/>
+<rect x="40" y="742" width="530" height="150" rx="5" fill="#fffef9" stroke="#bdcbbb"/><text x="62" y="776" fill="#586b60" font-size="20" font-weight="500">04</text><text x="62" y="827" fill="#193732" font-size="32" font-weight="650">改稿遷移</text><text x="62" y="867" fill="#586b60" font-size="23" font-weight="500">修訂再換情境</text>
+<path d="M574 812H594Q608 812 608 798V476Q608 462 594 462H577" fill="none" stroke="#586b60" stroke-width="2.4" marker-end="url(#bianshui-evidence-revision-mobile-arrow)"/>
+<text x="40" y="941" fill="#193732" font-size="29" font-weight="600">新線索 → 回原文再判斷</text>
+<text x="40" y="978" fill="#586b60" font-size="25" font-weight="500">建築進度，不代替閱讀理解。</text>
+</svg>
