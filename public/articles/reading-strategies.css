@@ -1,0 +1,84 @@
+/* Reading workshop notes use the shared paper, ink and article framework. */
+.reading-strategies { line-height: 1.95; }
+.reading-strategies .method-kicker { column-gap: 5px; }
+.reading-strategies .method-kicker .topic-label { margin-left: 9px; }
+.reading-strategies #source-note { max-width: 960px; font-size: 13px; }
+.reading-strategies .section { margin-bottom: 52px; }
+.reading-strategies .section-heading { align-items: baseline; flex-wrap: wrap; gap: 10px 15px; padding-bottom: 18px; }
+.reading-strategies .section-heading > span:not(.section-index) { color: var(--muted); font-size: 12px; }
+.reading-strategies .section > p { max-width: 900px; margin-bottom: 20px; }
+.reading-strategies .meta { color: var(--muted); font-size: 13px; }
+.reading-strategies .cards { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
+.reading-strategies .strategy { display: flex; flex-direction: column; min-width: 0; padding: 25px 28px 21px; background: var(--white); border: 1px solid var(--line); border-top: 3px solid var(--green); border-radius: 3px; }
+.reading-strategies .strategy:nth-child(even) { border-top-color: var(--orange); }
+.reading-strategies .card-header { display: flex; align-items: baseline; gap: 14px; margin-bottom: 16px; }
+.reading-strategies .number { color: var(--muted); font-size: 13px; font-variant-numeric: tabular-nums; }
+.reading-strategies .strategy h3 { font-size: 23px; }
+.reading-strategies .strategy p { margin-bottom: 9px; }
+.reading-strategies .strategy .meta { margin-bottom: 19px; }
+.reading-strategies .strategy a { display: inline-flex; align-items: center; align-self: flex-start; min-height: 44px; margin-top: auto; color: var(--green); font-size: 13px; font-weight: 600; }
+.reading-strategies .details-list { display: grid; gap: 12px; }
+.reading-strategies details { overflow-wrap: anywhere; background: var(--white); border: 1px solid var(--line); border-radius: 3px; scroll-margin-top: 112px; }
+.reading-strategies summary { min-height: 58px; padding: 17px 24px; cursor: pointer; color: var(--ink); font-weight: 650; line-height: 1.7; }
+.reading-strategies summary::marker { color: var(--green); font-size: 12px; }
+.reading-strategies summary:hover { background: var(--green-wash); }
+.reading-strategies details[open] > summary { background: var(--green-wash); border-bottom: 1px solid var(--line); }
+.reading-strategies .detail-body { padding: 26px 30px 28px; }
+.reading-strategies .detail-body p { max-width: 850px; margin-bottom: 18px; }
+.reading-strategies .detail-body p:last-child { margin-bottom: 0; }
+.reading-strategies .detail-body h3 { margin-top: 24px; margin-bottom: 12px; font-size: 17px; }
+.reading-strategies .detail-body ol { padding-left: 24px; margin-bottom: 16px; list-style: decimal; }
+.reading-strategies .detail-body li { padding-left: 5px; margin-bottom: 9px; }
+.reading-strategies .detail-body li::marker { color: var(--green); font-size: 13px; font-weight: 650; }
+.reading-strategies .detail-body a, .reading-strategies .sources a { color: var(--green); overflow-wrap: anywhere; }
+.reading-strategies .badge { display: inline-block; padding: 3px 10px; margin-bottom: 12px; background: var(--green-wash); border: 1px solid #cbd7c8; color: var(--green); font-size: 12px; line-height: 1.7; }
+.reading-strategies .badge.extension { background: var(--orange-wash); border-color: #e7c9b3; color: var(--orange); }
+.reading-strategies .example { padding: 20px 24px; margin: 24px 0 16px; background: var(--paper); border-left: 3px solid var(--green); }
+.reading-strategies .example h3 { margin-top: 0; }
+.reading-strategies .feedback { padding: 28px 32px; margin-bottom: 8px; background: var(--green-wash); border-left: 3px solid var(--green); }
+.reading-strategies .feedback h3 { margin: 10px 0 14px; font-size: 23px; }
+.reading-strategies .feedback p:last-child { max-width: 880px; }
+.reading-strategies .application { display: grid; grid-template-columns: 150px minmax(0, 1fr); gap: 24px; padding: 24px 0; border-bottom: 1px solid var(--line); }
+.reading-strategies .application strong { color: var(--green); font-size: 15px; }
+.reading-strategies .application p { max-width: 840px; }
+.reading-strategies .note { padding: 22px 26px; margin-bottom: 20px; background: var(--orange-wash); border-left: 3px solid var(--orange); }
+.reading-strategies .note h3 { font-size: 19px; margin-bottom: 10px; }
+.reading-strategies #classroom > details { margin-top: 12px; }
+.reading-strategies .rubric-note { margin-top: 20px; }
+.reading-strategies .sources { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px 26px; padding: 0; margin: 28px 0; list-style: none; }
+.reading-strategies .sources li { padding: 17px 20px; background: var(--white); border: 1px solid var(--line); border-radius: 3px; }
+.reading-strategies .sources a { display: inline-flex; align-items: center; min-height: 44px; font-weight: 600; }
+.reading-strategies .coverage { padding-top: 24px; border-top: 1px solid var(--line); color: var(--muted); font-size: 13px; }
+.reading-strategies .coverage p { max-width: 900px; margin-bottom: 17px; }
+.reading-strategies .footer { margin-top: 28px; font-size: 12px; }
+@media (max-width: 800px) {
+  .reading-strategies details { scroll-margin-top: 138px; }
+  .reading-strategies .section { scroll-margin-top: 138px; }
+  .reading-strategies .strategy { padding: 22px; }
+  .reading-strategies .application { grid-template-columns: 120px minmax(0, 1fr); gap: 20px; }
+}
+@media (max-width: 560px) {
+  .reading-strategies { font-size: 14px; }
+  .reading-strategies .cards, .reading-strategies .sources { grid-template-columns: 1fr; }
+  .reading-strategies .section { margin-bottom: 38px; }
+  .reading-strategies .section-heading { gap: 8px 11px; }
+  .reading-strategies .section-heading > span:not(.section-index) { flex-basis: 100%; padding-left: 42px; }
+  .reading-strategies .strategy h3 { font-size: 21px; }
+  .reading-strategies .strategy .meta { margin-bottom: 10px; }
+  .reading-strategies summary { padding: 16px 17px; font-size: 14px; }
+  .reading-strategies .detail-body { padding: 22px 19px; }
+  .reading-strategies .detail-body h3 { font-size: 16px; }
+  .reading-strategies .example { padding: 17px; }
+  .reading-strategies .feedback { padding: 23px; }
+  .reading-strategies .feedback h3 { font-size: 21px; }
+  .reading-strategies .application { grid-template-columns: 1fr; gap: 7px; padding: 20px 0; }
+  .reading-strategies .note { padding: 20px; }
+  .reading-strategies .sources { gap: 12px; }
+  .reading-strategies .meta, .reading-strategies #source-note, .reading-strategies .coverage { font-size: 12px; }
+}
+@media print {
+  .reading-strategies .cards, .reading-strategies .sources { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .reading-strategies .strategy, .reading-strategies .example { break-inside: avoid; }
+  .reading-strategies details { break-inside: auto; }
+  .reading-strategies .detail-body { display: block; }
+}

@@ -3,7 +3,7 @@
   "site": {
     "name": "方法練習室",
     "tagline": "把看過的方法，變成做得到的步驟。",
-    "description": "收藏學習 AI 與英文的方法文章，用清楚步驟、圖解與練習，把理解帶到行動。"
+    "description": "收藏學習 AI、英文與閱讀的方法文章，用清楚步驟、圖解與練習，把理解帶到行動。"
   },
   "categories": [
     {
@@ -53,6 +53,21 @@
         {
           "id": "habits",
           "name": "學習習慣"
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "name": "閱讀與學習",
+      "description": "從理解文本到課堂實作，留下有依據的閱讀方法。",
+      "topics": [
+        {
+          "id": "strategies",
+          "name": "閱讀策略"
+        },
+        {
+          "id": "teaching",
+          "name": "教學應用"
         }
       ]
     }
@@ -235,6 +250,158 @@
       },
       "supplements": [],
       "articlePath": "/articles/dragon-english-memory.html"
+    },
+    {
+      "id": "reading-strategies",
+      "title": "閱讀策略備課室：摘要、分析、推論與比較",
+      "summary": "把四場國中國文研習整理成閱讀步驟、文本示例與課堂活動。保留七個可展開區塊，從學生的理由與證據觀察理解。",
+      "categoryId": "reading",
+      "topicIds": [
+        "strategies",
+        "teaching"
+      ],
+      "level": "入門",
+      "minutes": 15,
+      "output": "一項閱讀活動，以及學生可供回饋的理由與證據",
+      "audience": "想把閱讀策略帶進國中國文課堂的教師",
+      "status": "ready",
+      "contentType": "article_method",
+      "reviewedAt": "2026-10-03",
+      "sourceCoverage": "依使用者提供的「閱讀策略備課室」完成稿收錄；保留來源整理、教學延伸、署名及原稿閱讀範圍。本次未重新核對四場全部講義與影音，不新增影片或時間碼。",
+      "coverLabel": "閱讀策略・課堂實作",
+      "sources": [
+        {
+          "id": "original-article",
+          "title": "閱讀策略備課室（原整理頁）",
+          "url": "https://reading-strategy-workbench.naicheng.chatgpt.site/",
+          "kind": "article",
+          "note": "使用者提供的完整整理稿；原頁需以 ChatGPT 登入。文中已讀與查核範圍沿用原稿紀錄。"
+        },
+        {
+          "id": "summary-workshop",
+          "title": "摘要篇研習活動頁",
+          "url": "https://hsinchu-chinese.notion.site/1141017-1f6844ea454380a59f3dcbf7d4a58093",
+          "kind": "official",
+          "note": "沿用完成稿的研習來源連結；本次收錄未重新查讀全部講義、照片與影音。"
+        },
+        {
+          "id": "analysis-workshop",
+          "title": "分析篇研習活動頁",
+          "url": "https://hsinchu-chinese.notion.site/1141226-6Cs-1f6844ea4543809ea180c2bab9df8196",
+          "kind": "official",
+          "note": "沿用完成稿的研習來源連結；本次收錄未重新查讀全部講義、照片與影音。"
+        },
+        {
+          "id": "inference-workshop",
+          "title": "多文本閱讀策略之初階推論",
+          "url": "https://hsinchu-chinese.notion.site/1131030-cb703966349241e995219752f798067c",
+          "kind": "official",
+          "note": "沿用完成稿的研習來源連結；本次收錄未重新查讀全部講義、照片與影音。"
+        },
+        {
+          "id": "comparison-workshop",
+          "title": "多文本閱讀策略之進階比較",
+          "url": "https://hsinchu-chinese.notion.site/1131127-90feaa37134440d58fc72d7c4910ed5b",
+          "kind": "official",
+          "note": "沿用完成稿的研習來源連結；本次收錄未重新查讀全部講義、照片與影音。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "choose",
+          "title": "先選一個閱讀目標",
+          "action": "依文本與學生需求，從摘要、分析、推論、比較選一項；四種策略不是固定的四階段順序。",
+          "why": "依使用者完成稿整理的閱讀與備課路線。",
+          "example": "短篇且主題句清楚時，可先用摘要的主題句解法。",
+          "check": "我能說明這次要觀察學生哪一種理解。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "original-article",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "model",
+          "title": "對照步驟與文本示例",
+          "action": "展開所選策略，對照原整理稿保留的步驟名稱、講義案例與教學延伸。",
+          "why": "依使用者完成稿整理的閱讀與備課路線。",
+          "example": "分析可用「文本依據／訊息關係／安排作用」三欄，連結寫法與效果。",
+          "check": "我的提問要求學生回到具體文本。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "original-article",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "try",
+          "title": "挑一個課堂活動試做",
+          "action": "選用摘要15分鐘、分析20分鐘活動，或跨文本的推論與比較句架。",
+          "why": "依使用者完成稿整理的閱讀與備課路線。",
+          "example": "摘要活動：3分鐘個讀、3分鐘同儕討論、5分鐘改寫、4分鐘出口檢核。",
+          "check": "我已選定一項活動，沒有把四套流程全部塞入同一堂課。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "original-article",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "review",
+          "title": "收回理由與學習證據",
+          "action": "檢查證據是否可定位、關係是否合理，以及結論有沒有超出文本。",
+          "why": "依使用者完成稿整理的閱讀與備課路線。",
+          "example": "除了摘要，也收回一次刪去細節的理由與一處修訂理由。",
+          "check": "我能根據學生留下的理由提出具體回饋。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "original-article",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        }
+      ],
+      "visuals": [],
+      "validation": [
+        {
+          "claim": "使用四種閱讀策略就能保證提升每位學生的閱讀表現。",
+          "status": "unverified",
+          "explanation": "本文提供教學步驟與可觀察的學習證據，沒有提供對照研究或成效保證。應依學生表現調整活動。",
+          "sourceIds": [
+            "original-article"
+          ],
+          "checkedAt": "2026-10-03"
+        }
+      ],
+      "pitfalls": [
+        "把四種策略誤當成每篇文章都必須依序完成的四階段。",
+        "只要求學生寫術語或結論，沒有留下理由與文本依據。",
+        "比較雙方時使用不同面向，或把推論擴張成文本沒有的事實。"
+      ],
+      "practice": {
+        "title": "摘要：留下什麼，為什麼？",
+        "minutes": 15,
+        "prompt": "依原整理稿的15分鐘活動，選一篇班級正在閱讀的短文，讓學生圈必留訊息、討論刪除理由、改寫摘要，再核對關係詞。",
+        "deliverable": "摘要、一次刪除理由與一處修訂理由。",
+        "checklist": [
+          "重要訊息完整，未加入自己的立場。",
+          "能說明刪去細節的理由。",
+          "新增的關係詞未改變原文意思。"
+        ]
+      },
+      "supplements": [],
+      "articlePath": "/articles/reading-strategies.html"
     }
   ],
   "demo": {

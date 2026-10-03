@@ -40,6 +40,7 @@ export function validateCatalog(catalog) {
   function validateMethod(method, path, demo) {
     if (!method || typeof method !== 'object') { error(path, '文章格式錯誤'); return; }
     if (!slug(method.id)) error(path, '文章 ID 必須是英文小寫 slug');
+    if (!['video_method','article_method','editorial_example'].includes(method.contentType)) error(path, '文章類型無效');
     if (method.articlePath != null && (typeof method.articlePath !== 'string' || !/^\/articles\/[a-z0-9-]+\.html$/.test(method.articlePath))) error(path, '獨立文章路徑須為 /articles/slug.html');
     for (const field of ['title','summary','output','audience','sourceCoverage']) if (!text(method[field])) error(`${path}.${field}`, '必填');
     if (!Number.isFinite(method.minutes) || method.minutes <= 0) error(path, '練習時間須大於 0');
@@ -51,7 +52,7 @@ export function validateCatalog(catalog) {
       if (!slug(source.id) || sourceIds.has(source.id)) error(path, '來源 ID 無效或重複');
       sourceIds.add(source.id);
       if (!text(source.title) || !isHttpsUrl(source.url)) error(path, '來源須有標題及安全的 https 網址');
-      if (!['video','official','research'].includes(source.kind)) error(path, '來源類型無效');
+      if (!['video','article','official','research'].includes(source.kind)) error(path, '來源類型無效');
       if (source.kind === 'video' && (!/^[\w-]{11}$/.test(source.videoId || '') || !isHttpsUrl(source.url) || !['youtube.com','www.youtube.com','youtu.be'].includes(new URL(source.url).hostname))) error(path, '影片來源須有有效 YouTube ID 與網址');
       if (source.kind === 'video' && isHttpsUrl(source.url)) {
         const url = new URL(source.url);
@@ -59,7 +60,8 @@ export function validateCatalog(catalog) {
         if (linkedId !== source.videoId) error(path, '影片網址與影片 ID 不一致');
       }
     }
-    if (!demo && !sources.some(s => s.kind === 'video')) error(path, '正式影片方法須標明原片');
+    if (!demo && method.contentType === 'video_method' && !sources.some(s => s.kind === 'video')) error(path, '正式影片方法須標明原片');
+    if (!demo && method.contentType === 'article_method' && !sources.some(s => s.kind === 'article')) error(path, '正式文章方法須標明原整理頁');
     const steps = list(method.steps), stepIds = new Set();
     if (steps.length < 2) error(path, '至少需要兩個可執行步驟');
     for (const step of steps) {

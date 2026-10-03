@@ -41,7 +41,7 @@ function setActiveNav(name) {
 function renderHero() {
   const hero = el('section', { class: 'hero page-width', 'aria-labelledby': 'home-title' },
     el('div', { class: 'hero-copy' },
-      el('div', { class: 'eyebrow hero-kicker' }, el('span', { class: 'tiny-line', 'aria-hidden': 'true' }), '學習 AI・學習英文・練習成長'),
+      el('div', { class: 'eyebrow hero-kicker' }, el('span', { class: 'tiny-line', 'aria-hidden': 'true' }), '學習 AI・學習英文・閱讀與學習'),
       el('h1', { id: 'home-title' }, '把看過的方法，', el('br'), el('span', {}, '變成做得到的步驟。')),
       el('p', { class: 'hero-description' }, '把值得留下的學習文章，整理成清楚的步驟、圖解與練習。找一個現在用得上的方法，今天就動手做一次。'),
       el('div', { class: 'hero-actions' }, el('a', { class: 'button button-primary', href: '#library' }, '找一個方法開始', icon('arrow')), catalog.demo ? el('a', { class: 'text-button', href: '#preview' }, '看看文章版型', icon('arrow')) : null),
@@ -73,8 +73,8 @@ function renderMethodCard(method, index, updateResults) {
   const bookmark = el('button', { type: 'button', class: `card-bookmark${favorite ? ' is-saved' : ''}`, 'aria-label': `${favorite ? '取消收藏' : '收藏'}：${method.title}`, 'aria-pressed': String(favorite), onClick: () => { toggleFavorite(method.id); updateResults(); } }, icon('bookmark'));
   const link = articlePath(method) || `#method=${encodeURIComponent(method.id)}`;
   const sourceLabel = method.contentType === 'editorial_example' ? '編輯示範' : method.coverLabel || '方法筆記';
-  return el('article', { class: `method-card category-${method.categoryId === 'english' ? 'english' : 'ai'}` },
-    el('div', { class: 'card-top' }, el('span', { class: 'card-index' }, String(index + 1).padStart(2, '0')), el('span', { class: 'card-category' }, category?.name || (method.categoryId === 'english' ? '學習英文' : '學習 AI')), bookmark),
+  return el('article', { class: `method-card category-${category?.id || 'other'}` },
+    el('div', { class: 'card-top' }, el('span', { class: 'card-index' }, String(index + 1).padStart(2, '0')), el('span', { class: 'card-category' }, category?.name || '其他方法'), bookmark),
     el('div', { class: 'card-body' }, el('div', { class: 'card-topics' }, ...topicLabels.map(topic => el('span', {}, topic))), el('h3', {}, el('a', { href: link }, method.title)), textBlockOrSummary(method.summary), el('div', { class: 'card-output' }, el('span', {}, '做完帶走'), el('strong', {}, method.output || '一份自己的練習成果'))),
     el('div', { class: 'card-bottom' }, el('div', { class: 'card-meta' }, method.minutes ? el('span', {}, icon('clock'), `${method.minutes} 分鐘`) : null, method.level ? el('span', {}, method.level) : null), el('a', { href: link, class: 'card-read', 'aria-label': `開始練習：${method.title}` }, icon('arrow'))),
     el('div', { class: 'card-source-status' }, el('span', {}, sourceLabel), method.sourceCoverage ? el('p', {}, method.sourceCoverage) : null)

@@ -39,3 +39,17 @@ test('獨立HTML文章只接受受限的站內路徑',()=>{
   const catalog=publishedCatalog();catalog.methods[0].articlePath='/articles/dragon-english-memory.html';assert.deepEqual(validateCatalog(catalog),[]);
   for(const path of ['https://example.com/x','//example.com/x','/articles/../x.html','javascript:alert(1)']){catalog.methods[0].articlePath=path;assert.ok(validateCatalog(catalog).length);}
 });
+
+test('文章方法保留原文來源，不冒充影片；影片仍必須有原片',()=>{
+  const catalog=publishedCatalog(), method=catalog.methods[0];
+  method.contentType='article_method';
+  method.sources=[{id:'article',title:'原整理頁',kind:'article',url:'https://example.com/reading'}];
+  assert.deepEqual(validateCatalog(catalog),[]);
+  method.sources=[];
+  assert.ok(validateCatalog(catalog).some(error=>error.includes('原整理頁')));
+  method.sources=[{id:'article',title:'原整理頁',kind:'article',url:'https://example.com/reading'}];
+  method.contentType='video_method';
+  assert.ok(validateCatalog(catalog).some(error=>error.includes('須標明原片')));
+  method.contentType='unknown';
+  assert.ok(validateCatalog(catalog).some(error=>error.includes('文章類型無效')));
+});
