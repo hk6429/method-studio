@@ -11,6 +11,9 @@ for(const method of catalog.methods)if(method.articlePath){
   if(!(await fs.stat(article)).isFile())throw new Error(`找不到文章檔案：${method.articlePath}`);
 }
 const temporary=await fs.mkdtemp(path.join(root,'.build-'));
+for(const method of catalog.methods)if(method.overview){
+  for(const field of ['image','mobileImage'])await fs.access(path.join(root,'public',method.overview[field].slice(1)));
+}
 try {
   await fs.cp(path.join(root,'public'),temporary,{recursive:true,filter:source=>!source.endsWith('.DS_Store')});
   await fs.mkdir(path.join(temporary,'data'),{recursive:true});

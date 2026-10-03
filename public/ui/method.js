@@ -176,6 +176,13 @@ export function renderMethod(method, options = {}) {
   const heading = el('header', { class: 'method-heading page-width' },
     el('div', { class: 'method-kicker' }, el('span', { class: 'eyebrow' }, preview ? 'READING PREVIEW / 文章版型' : `${categoryName} / 方法筆記`), ...topics.map(topic => el('span', { class: 'topic-label' }, topic))),
     el('h1', {}, method.title),
+    method.overview ? el('figure', { class: 'article-overview' },
+      el('picture', {},
+        el('source', { media: '(max-width: 600px)', srcset: method.overview.mobileImage }),
+        el('img', { src: method.overview.image, width: 1200, height: 568, alt: method.overview.alt, decoding: 'async', fetchpriority: 'high' })
+      ),
+      el('figcaption', {}, method.overview.caption)
+    ) : null,
     textBlock(method.summary, 'method-summary'),
     el('div', { class: 'method-meta' },
       method.minutes ? el('span', {}, icon('clock'), `練習約 ${method.minutes} 分鐘`) : null,

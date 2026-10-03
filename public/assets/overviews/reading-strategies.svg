@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 568" role="img" aria-labelledby="reading-strategies-title reading-strategies-desc">
+<title id="reading-strategies-title">依閱讀目標，選一條路</title>
+<desc id="reading-strategies-desc">四種策略依目標選用，沒有固定先後；共同回到文本與證據。 摘要：留下核心訊息；分析：看關係與作用；推論：依線索說理由；比較：對齊比較面向</desc>
+<defs><marker id="reading-strategies-arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M1 1 L6 4 L1 7" fill="none" stroke="#2c6254" stroke-width="1.3"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC","Microsoft JhengHei",sans-serif}</style>
+<rect width="1200" height="568" fill="#f0f2e9"/>
+<path d="M36 40H1164" stroke="#c6d0c1"/>
+<text x="36" y="78" font-size="19" font-weight="600" fill="#2c6254" text-anchor="start">閱讀策略 · 選擇地圖</text>
+<text x="1164" y="78" font-size="17" font-weight="500" fill="#637168" text-anchor="end">方法練習室</text>
+<text x="36" y="145" font-size="40" font-weight="650" fill="#193732" text-anchor="start">依閱讀目標，選一條路</text>
+<text x="36" y="193" font-size="22" font-weight="400" fill="#637168" text-anchor="start">先決定這次想理解什麼，再選用適合的策略。</text>
+<g data-node="1"><rect x="36" y="230" width="252" height="210" rx="6" fill="#fffef9" stroke="#c6d0c1"/>
+<path d="M5 6h12l4 4 4-4h12v32H25l-4 3-4-3H5z M21 10v31 M10 15h7 M10 22h7 M25 15h7 M25 22h7" transform="translate(58 252) scale(.9)" fill="none" stroke="#193732" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="266" y="275" font-size="21" font-weight="500" fill="#637168" text-anchor="end"></text>
+<text x="58" y="337" font-size="29" font-weight="650" fill="#193732" text-anchor="start">摘要</text>
+<text x="58" y="381" font-size="21" font-weight="400" fill="#637168" text-anchor="start">留下核心訊息</text>
+</g>
+<g data-node="2"><rect x="328" y="230" width="252" height="210" rx="6" fill="#fffef9" stroke="#c6d0c1"/>
+<path d="M6 8h12v10H6z M27 8h12v10H27z M17 31h12v10H17z M12 18v7h21v-7 M23 25v6" transform="translate(350 252) scale(.9)" fill="none" stroke="#193732" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="558" y="275" font-size="21" font-weight="500" fill="#637168" text-anchor="end"></text>
+<text x="350" y="337" font-size="29" font-weight="650" fill="#193732" text-anchor="start">分析</text>
+<text x="350" y="381" font-size="21" font-weight="400" fill="#637168" text-anchor="start">看關係與作用</text>
+</g>
+<g data-node="3"><rect x="620" y="230" width="252" height="210" rx="6" fill="#fffef9" stroke="#c6d0c1"/>
+<path d="M30 28a14 14 0 1 0-2 2 M28 28l12 12 M10 16h12 M10 22h7" transform="translate(642 252) scale(.9)" fill="none" stroke="#193732" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="850" y="275" font-size="21" font-weight="500" fill="#637168" text-anchor="end"></text>
+<text x="642" y="337" font-size="29" font-weight="650" fill="#193732" text-anchor="start">推論</text>
+<text x="642" y="381" font-size="21" font-weight="400" fill="#637168" text-anchor="start">依線索說理由</text>
+</g>
+<g data-node="4"><rect x="912" y="230" width="252" height="210" rx="6" fill="#fffef9" stroke="#c6d0c1"/>
+<path d="M5 8h13v29H5z M27 8h13v29H27z M18 15h9 M18 30h9 M9 14h5 M31 14h5 M9 23h5 M31 23h5" transform="translate(934 252) scale(.9)" fill="none" stroke="#193732" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="1142" y="275" font-size="21" font-weight="500" fill="#637168" text-anchor="end"></text>
+<text x="934" y="337" font-size="29" font-weight="650" fill="#193732" text-anchor="start">比較</text>
+<text x="934" y="381" font-size="21" font-weight="400" fill="#637168" text-anchor="start">對齊比較面向</text>
+</g>
+<path d="M36 482H1164" stroke="#c6d0c1"/>
+<text x="36" y="525" font-size="22" font-weight="500" fill="#2c6254" text-anchor="start">四種策略沒有固定先後 · 共同回到文本、理由與證據</text>
+<text x="1164" y="525" font-size="18" font-weight="400" fill="#637168" text-anchor="end">操作概覽 / 編輯整理</text>
+</svg>

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 568" role="img" aria-labelledby="error-notebook-speaking-title error-notebook-speaking-desc">
+<title id="error-notebook-speaking-title">把一個卡點，練成一句話</title>
+<desc id="error-notebook-speaking-desc">影片方法的編輯圖解；完整操作與自訂練習安排見下文。 整句保留：留下句意與卡點；遮答回想：先回答，再核對；錯因歸類：集中練同類問題；情境開口：用在真實場合</desc>
+<defs><marker id="error-notebook-speaking-arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M1 1 L6 4 L1 7" fill="none" stroke="#2c6254" stroke-width="1.3"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC","Microsoft JhengHei",sans-serif}</style>
+<rect width="1200" height="568" fill="#f0f2e9"/>
+<path d="M36 40H1164" stroke="#c6d0c1"/>
+<text x="36" y="78" font-size="19" font-weight="600" fill="#2c6254" text-anchor="start">錯題筆記 · 方法概覽</text>
+<text x="1164" y="78" font-size="17" font-weight="500" fill="#637168" text-anchor="end">方法練習室</text>
+<text x="36" y="145" font-size="40" font-weight="650" fill="#193732" text-anchor="start">把一個卡點，練成一句話</text>
+<path d="M295 335H319" fill="none" stroke="#2c6254" stroke-width="1.8" marker-end="url(#error-notebook-speaking-arrow)"/>
+<path d="M587 335H611" fill="none" stroke="#2c6254" stroke-width="1.8" marker-end="url(#error-notebook-speaking-arrow)"/>
+<path d="M879 335H903" fill="none" stroke="#2c6254" stroke-width="1.8" marker-end="url(#error-notebook-speaking-arrow)"/>
+<g data-node="1"><rect x="36" y="230" width="252" height="210" rx="6" fill="#193732" stroke="#c6d0c1"/>
+<path d="M5 6h12l4 4 4-4h12v32H25l-4 3-4-3H5z M21 10v31 M10 15h7 M10 22h7 M25 15h7 M25 22h7" transform="translate(58 252) scale(.9)" fill="none" stroke="#fffef9" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="266" y="275" font-size="21" font-weight="500" fill="#d4e2d4" text-anchor="end">01</text>
+<text x="58" y="337" font-size="29" font-weight="650" fill="#fffef9" text-anchor="start">整句保留</text>
+<text x="58" y="381" font-size="21" font-weight="400" fill="#d4e2d4" text-anchor="start">留下句意與卡點</text>
+</g>
+<g data-node="2"><rect x="328" y="230" width="252" height="210" rx="6" fill="#fffef9" stroke="#c6d0c1"/>
+<path d="M6 7h31v31H6z M13 15h16 M13 23h16 M13 31h10 M17 20h22v12H17z" transform="translate(350 252) scale(.9)" fill="none" stroke="#193732" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="558" y="275" font-size="21" font-weight="500" fill="#637168" text-anchor="end">02</text>
+<text x="350" y="337" font-size="29" font-weight="650" fill="#193732" text-anchor="start">遮答回想</text>
+<text x="350" y="381" font-size="21" font-weight="400" fill="#637168" text-anchor="start">先回答，再核對</text>
+</g>
+<g data-node="3"><rect x="620" y="230" width="252" height="210" rx="6" fill="#fffef9" stroke="#c6d0c1"/>
+<path d="M6 8h12v10H6z M27 8h12v10H27z M17 31h12v10H17z M12 18v7h21v-7 M23 25v6" transform="translate(642 252) scale(.9)" fill="none" stroke="#193732" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="850" y="275" font-size="21" font-weight="500" fill="#637168" text-anchor="end">03</text>
+<text x="642" y="337" font-size="29" font-weight="650" fill="#193732" text-anchor="start">錯因歸類</text>
+<text x="642" y="381" font-size="21" font-weight="400" fill="#637168" text-anchor="start">集中練同類問題</text>
+</g>
+<g data-node="4"><rect x="912" y="230" width="252" height="210" rx="6" fill="#fffef9" stroke="#c6d0c1"/>
+<rect x="912" y="230" width="4" height="210" fill="#af492f"/>
+<path d="M6 8h34v25H23l-10 8v-8H6z M14 17h18 M14 24h11" transform="translate(934 252) scale(.9)" fill="none" stroke="#193732" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="1142" y="275" font-size="21" font-weight="500" fill="#637168" text-anchor="end">04</text>
+<text x="934" y="337" font-size="29" font-weight="650" fill="#193732" text-anchor="start">情境開口</text>
+<text x="934" y="381" font-size="21" font-weight="400" fill="#637168" text-anchor="start">用在真實場合</text>
+</g>
+<path d="M36 482H1164" stroke="#c6d0c1"/>
+<text x="36" y="525" font-size="22" font-weight="500" fill="#2c6254" text-anchor="start">理解方法 → 親手練習 → 留下可回看的成果</text>
+<text x="1164" y="525" font-size="18" font-weight="400" fill="#637168" text-anchor="end">操作概覽 / 編輯整理</text>
+</svg>

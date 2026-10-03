@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 820" role="img" aria-labelledby="dragon-english-memory-title dragon-english-memory-desc">
+<title id="dragon-english-memory-title">從理解一句，到自己寫出來</title>
+<desc id="dragon-english-memory-desc">看中文 → 寫英文 → 對答案；四格為編輯整理的練習路線。 讀懂句意：確認意思與情境；遮住英文：保留中文提示；獨立默寫：寫下第一次答案；核對重練：標差異，再試一次</desc>
+<defs><marker id="dragon-english-memory-arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M1 1 L6 4 L1 7" fill="none" stroke="#2c6254" stroke-width="1.3"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC","Microsoft JhengHei",sans-serif}</style>
+<rect width="640" height="820" fill="#f0f2e9"/>
+<path d="M36 40H604" stroke="#c6d0c1"/>
+<text x="36" y="78" font-size="24" font-weight="600" fill="#2c6254" text-anchor="start">暗記暗誦 · 方法概覽</text>
+<text x="604" y="78" font-size="20" font-weight="500" fill="#637168" text-anchor="end">方法練習室</text>
+<text x="36" y="136" font-size="36" font-weight="650" fill="#193732" text-anchor="start">從理解一句，</text>
+<text x="36" y="182" font-size="36" font-weight="650" fill="#193732" text-anchor="start">到自己寫出來</text>
+<path d="M300 342H336" fill="none" stroke="#2c6254" stroke-width="1.8" marker-end="url(#dragon-english-memory-arrow)"/>
+<path d="M474 442V450Q474 462 462 462H178Q166 462 166 474" fill="none" stroke="#2c6254" stroke-width="1.8" marker-end="url(#dragon-english-memory-arrow)"/>
+<path d="M300 574H336" fill="none" stroke="#2c6254" stroke-width="1.8" marker-end="url(#dragon-english-memory-arrow)"/>
+<g data-node="1"><rect x="36" y="246" width="260" height="192" rx="6" fill="#193732" stroke="#c6d0c1"/>
+<path d="M5 6h12l4 4 4-4h12v32H25l-4 3-4-3H5z M21 10v31 M10 15h7 M10 22h7 M25 15h7 M25 22h7" transform="translate(58 268) scale(.9)" fill="none" stroke="#fffef9" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="274" y="291" font-size="21" font-weight="500" fill="#d4e2d4" text-anchor="end">01</text>
+<text x="58" y="353" font-size="32" font-weight="650" fill="#fffef9" text-anchor="start">讀懂句意</text>
+<text x="58" y="397" font-size="26" font-weight="400" fill="#d4e2d4" text-anchor="start">確認意思與情境</text>
+</g>
+<g data-node="2"><rect x="344" y="246" width="260" height="192" rx="6" fill="#fffef9" stroke="#c6d0c1"/>
+<path d="M6 7h31v31H6z M13 15h16 M13 23h16 M13 31h10 M17 20h22v12H17z" transform="translate(366 268) scale(.9)" fill="none" stroke="#193732" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="582" y="291" font-size="21" font-weight="500" fill="#637168" text-anchor="end">02</text>
+<text x="366" y="353" font-size="32" font-weight="650" fill="#193732" text-anchor="start">遮住英文</text>
+<text x="366" y="397" font-size="26" font-weight="400" fill="#637168" text-anchor="start">保留中文提示</text>
+</g>
+<g data-node="3"><rect x="36" y="478" width="260" height="192" rx="6" fill="#fffef9" stroke="#c6d0c1"/>
+<path d="M7 34l3-10L29 5l9 9-19 19-12 1z M25 9l9 9 M10 24l9 9 M6 41h33" transform="translate(58 500) scale(.9)" fill="none" stroke="#193732" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="274" y="523" font-size="21" font-weight="500" fill="#637168" text-anchor="end">03</text>
+<text x="58" y="585" font-size="32" font-weight="650" fill="#193732" text-anchor="start">獨立默寫</text>
+<text x="58" y="629" font-size="26" font-weight="400" fill="#637168" text-anchor="start">寫下第一次答案</text>
+</g>
+<g data-node="4"><rect x="344" y="478" width="260" height="192" rx="6" fill="#fffef9" stroke="#c6d0c1"/>
+<rect x="344" y="478" width="4" height="192" fill="#af492f"/>
+<path d="M7 7h24v32H7z M14 17l4 4 13-13 M14 29h10 M30 29l5 5 8-9" transform="translate(366 500) scale(.9)" fill="none" stroke="#193732" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="582" y="523" font-size="21" font-weight="500" fill="#637168" text-anchor="end">04</text>
+<text x="366" y="585" font-size="32" font-weight="650" fill="#193732" text-anchor="start">核對重練</text>
+<text x="366" y="629" font-size="26" font-weight="400" fill="#637168" text-anchor="start">標差異，再試一次</text>
+</g>
+<path d="M36 758H604" stroke="#c6d0c1"/>
+<text x="36" y="793" font-size="24" font-weight="400" fill="#637168" text-anchor="start">先看全貌，再跟著文章動手練習</text>
+</svg>

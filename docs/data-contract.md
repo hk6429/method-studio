@@ -8,6 +8,7 @@
 首頁與搜尋只使用 methods（正式ready文章）；demo獨立以 #preview 閱讀，明標文章版型示範、不計入收錄數、不冒充使用者文章。目前收錄英文與國文閱讀方法，原始版型示範維持獨立。
 
 Method:
+- overview（可選）：`{image,mobileImage,alt,caption}`。image 與 mobileImage 使用 `/assets/overviews/<slug>.svg`，圖說區分編輯整理；手機須有可讀排版。獨立 HTML 同步放入相同圖檔，結構化文章由閱讀版型自動顯示。
 - articlePath（可選）：`/articles/<slug>.html`，保留使用者交付的完整 HTML；首頁卡片與文章路由導向此站內頁面。未提供時使用結構化閱讀版型。
 - id (slug), title, summary, categoryId (`ai`/`english`/`reading`), topicIds (string[]), level (`入門`/`進階`), minutes(number), output(string), audience(string), status(`ready`/`draft`), contentType(`video_method`/`article_method`/`editorial_example`), reviewedAt (YYYY-MM-DD)
 - sourceCoverage (string，明示使用者提供整理稿、逐字稿或僅公開說明)，coverLabel (短字)
