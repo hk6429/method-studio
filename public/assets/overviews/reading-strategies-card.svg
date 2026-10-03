@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" role="img" aria-labelledby="reading-strategies-card-title reading-strategies-card-desc"><title id="reading-strategies-card-title">依閱讀目標，選一條路</title><desc id="reading-strategies-card-desc">四種策略依目標選用，並無固定先後。</desc>
+<defs><marker id="reading-strategies-card-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="800" height="480" fill="#f0f2e9"/>
+<text x="36" y="48" fill="#586b60" font-size="26" font-weight="500">閱讀策略</text>
+<text x="36" y="102" fill="#193732" font-size="36" font-weight="650">依閱讀目標，選一條路</text>
+<path d="M36 128H764" stroke="#bdcbbb"/>
+<rect x="36" y="160" width="328" height="112" rx="5" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="56" y="200" fill="#586b60" font-size="23" font-weight="500">選用</text>
+<text x="56" y="245" fill="#193732" font-size="38" font-weight="650">摘要</text>
+<rect x="436" y="160" width="328" height="112" rx="5" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="456" y="200" fill="#586b60" font-size="23" font-weight="500">選用</text>
+<text x="456" y="245" fill="#193732" font-size="38" font-weight="650">分析</text>
+<rect x="36" y="310" width="328" height="112" rx="5" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="56" y="350" fill="#586b60" font-size="23" font-weight="500">選用</text>
+<text x="56" y="395" fill="#193732" font-size="38" font-weight="650">推論</text>
+<rect x="436" y="310" width="328" height="112" rx="5" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="456" y="350" fill="#586b60" font-size="23" font-weight="500">選用</text>
+<text x="456" y="395" fill="#193732" font-size="38" font-weight="650">比較</text>
+<text x="36" y="465" fill="#586b60" font-size="24" font-weight="500">依目標選用・共同回到文本</text>
+</svg>

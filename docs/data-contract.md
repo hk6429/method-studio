@@ -8,7 +8,7 @@
 首頁與搜尋只使用 methods（正式ready文章）；demo獨立以 #preview 閱讀，明標文章版型示範、不計入收錄數、不冒充使用者文章。目前收錄英文與國文閱讀方法，原始版型示範維持獨立。
 
 Method:
-- overview（可選）：`{image,mobileImage,alt,caption}`。image 與 mobileImage 使用 `/assets/overviews/<slug>.svg`，圖說區分編輯整理；手機須有可讀排版。獨立 HTML 同步放入相同圖檔，結構化文章由閱讀版型自動顯示。
+- overview（正式文章必填，demo 可省略）：`{image,mobileImage,cardImage,alt,caption}`。image、mobileImage 與 cardImage 使用 `/assets/overviews/<slug>.svg`，圖說區分編輯整理；手機須有可讀排版。獨立 HTML 同步放入相同圖檔，結構化文章由閱讀版型自動顯示。
 - articlePath（可選）：`/articles/<slug>.html`，保留使用者交付的完整 HTML；首頁卡片與文章路由導向此站內頁面。未提供時使用結構化閱讀版型。
 - id (slug), title, summary, categoryId (`ai`/`english`/`reading`), topicIds (string[]), level (`入門`/`進階`), minutes(number), output(string), audience(string), status(`ready`/`draft`), contentType(`video_method`/`article_method`/`editorial_example`), reviewedAt (YYYY-MM-DD)
 - sourceCoverage (string，明示使用者提供整理稿、逐字稿或僅公開說明)，coverLabel (短字)
@@ -31,3 +31,5 @@ Method:
 非影片完成稿使用 `article_method`，須保留 `kind: article` 的原整理頁；`video_method` 仍須保留 YouTube 原片。不得為非影片文章捏造影片或時間碼。獨立文章共用 /styles.css 與站頭站尾，特殊版面採 scoped CSS。
 
 講者或作者直接交付、未公開的整理稿可用 `kind: manuscript`，省略 url；必填 channel（提供者）、note（活動日期、取得方式與未核對範圍）。有 url 時仍須 HTTPS。前端以純文字顯示無網址來源，不捏造公開連結。article_method 可引用 article 或 manuscript；其他來源仍須網址，影片方法仍須原片。
+
+cardImage 為列表專用精簡圖解（800 × 480），不可直接把含大量小字的完整圖縮成封面；image／mobileImage 分別為文章桌面與手機圖解。所有正式文章缺少配圖時拒絕驗證，建置檢查三種圖檔均存在。

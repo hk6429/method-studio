@@ -254,7 +254,8 @@
         "image": "/assets/overviews/dragon-english-memory.svg",
         "mobileImage": "/assets/overviews/dragon-english-memory-mobile.svg",
         "alt": "從理解一句，到自己寫出來。讀懂句意：確認意思與情境；遮住英文：保留中文提示；獨立默寫：寫下第一次答案；核對重練：標差異，再試一次。",
-        "caption": "看中文 → 寫英文 → 對答案；四格為編輯整理的練習路線。"
+        "caption": "看中文 → 寫英文 → 對答案；四格為編輯整理的練習路線。",
+        "cardImage": "/assets/overviews/dragon-english-memory-card.svg"
       }
     },
     {
@@ -412,7 +413,8 @@
         "image": "/assets/overviews/reading-strategies.svg",
         "mobileImage": "/assets/overviews/reading-strategies-mobile.svg",
         "alt": "依閱讀目標，選一條路。摘要：留下核心訊息；分析：看關係與作用；推論：依線索說理由；比較：對齊比較面向。四種策略沒有固定先後。",
-        "caption": "四種策略依目標選用，沒有固定先後；共同回到文本與證據。"
+        "caption": "四種策略依目標選用，沒有固定先後；共同回到文本與證據。",
+        "cardImage": "/assets/overviews/reading-strategies-card.svg"
       }
     },
     {
@@ -711,7 +713,8 @@
         "image": "/assets/overviews/error-notebook-speaking.svg",
         "mobileImage": "/assets/overviews/error-notebook-speaking-mobile.svg",
         "alt": "把一個卡點，練成一句話。整句保留：留下句意與卡點；遮答回想：先回答，再核對；錯因歸類：集中練同類問題；情境開口：用在真實場合。",
-        "caption": "影片方法的編輯圖解；完整操作與自訂練習安排見下文。"
+        "caption": "影片方法的編輯圖解；完整操作與自訂練習安排見下文。",
+        "cardImage": "/assets/overviews/error-notebook-speaking-card.svg"
       }
     },
     {
@@ -1065,7 +1068,14 @@
           ],
           "checkedAt": "2026-10-03"
         }
-      ]
+      ],
+      "overview": {
+        "cardImage": "/assets/overviews/ai-differentiated-teaching-card.svg",
+        "image": "/assets/overviews/ai-differentiated-teaching.svg",
+        "mobileImage": "/assets/overviews/ai-differentiated-teaching-mobile.svg",
+        "alt": "共同目標 → 素材聚焦 → 分層支持 → 試教回饋；依作答觀察回到任務調整。",
+        "caption": "依 10 月 2 日高雄研習編輯整理：先聚焦共同目標，再依學生作答調整支持；流程圖不代表成效驗證。"
+      }
     }
   ],
   "demo": {

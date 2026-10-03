@@ -74,6 +74,7 @@ function renderMethodCard(method, index, updateResults) {
   const link = articlePath(method) || `#method=${encodeURIComponent(method.id)}`;
   const sourceLabel = method.contentType === 'editorial_example' ? '編輯示範' : method.coverLabel || '方法筆記';
   return el('article', { class: `method-card category-${category?.id || 'other'}` },
+    method.overview ? el('a', { href: link, class: 'card-illustration', tabindex: '-1', 'aria-hidden': 'true' }, el('img', { src: method.overview.cardImage, alt: '', width: 800, height: 480, loading: 'lazy', decoding: 'async' })) : null,
     el('div', { class: 'card-top' }, el('span', { class: 'card-index' }, String(index + 1).padStart(2, '0')), el('span', { class: 'card-category' }, category?.name || '其他方法'), bookmark),
     el('div', { class: 'card-body' }, el('div', { class: 'card-topics' }, ...topicLabels.map(topic => el('span', {}, topic))), el('h3', {}, el('a', { href: link }, method.title)), textBlockOrSummary(method.summary), el('div', { class: 'card-output' }, el('span', {}, '做完帶走'), el('strong', {}, method.output || '一份自己的練習成果'))),
     el('div', { class: 'card-bottom' }, el('div', { class: 'card-meta' }, method.minutes ? el('span', {}, icon('clock'), `${method.minutes} 分鐘`) : null, method.level ? el('span', {}, method.level) : null), el('a', { href: link, class: 'card-read', 'aria-label': `開始練習：${method.title}` }, icon('arrow'))),

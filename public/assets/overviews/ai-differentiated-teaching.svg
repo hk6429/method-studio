@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 568" role="img" aria-labelledby="ai-differentiated-teaching-title ai-differentiated-teaching-desc"><title id="ai-differentiated-teaching-title">從一份素材，走到差異化教學</title><desc id="ai-differentiated-teaching-desc">共同目標 → 素材聚焦 → 分層支持 → 試教回饋；依作答觀察回到任務調整。</desc>
+<defs><marker id="ai-differentiated-teaching-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="1200" height="568" fill="#f0f2e9"/>
+<text x="36" y="64" fill="#586b60" font-size="22" font-weight="500">高雄研習 · 教學工作流程</text>
+<text x="36" y="133" fill="#193732" font-size="43" font-weight="650">從一份素材，走到差異化教學</text>
+<text x="36" y="181" fill="#586b60" font-size="25" font-weight="500">同一個學習目標，提供不同支持；先試做，再依證據調整。</text>
+<path d="M295 310h24" fill="none" stroke="#586b60" stroke-width="2.4" marker-end="url(#ai-differentiated-teaching-arrow)"/>
+<path d="M587 310h24" fill="none" stroke="#586b60" stroke-width="2.4" marker-end="url(#ai-differentiated-teaching-arrow)"/>
+<path d="M879 310h24" fill="none" stroke="#586b60" stroke-width="2.4" marker-end="url(#ai-differentiated-teaching-arrow)"/>
+<path d="M1038 400V438Q1038 454 1022 454H762Q746 454 746 438V406" fill="none" stroke="#586b60" stroke-width="2.4" marker-end="url(#ai-differentiated-teaching-arrow)"/>
+<rect x="36" y="230" width="252" height="170" rx="5" fill="#193732" stroke="#bdcbbb"/><text x="58" y="264" fill="#d4e2d4" font-size="20" font-weight="500">01</text><text x="58" y="315" fill="#fffef9" font-size="32" font-weight="650">共同目標</text><text x="58" y="355" fill="#d4e2d4" font-size="23" font-weight="500">先看學習困難</text>
+<rect x="328" y="230" width="252" height="170" rx="5" fill="#fffef9" stroke="#bdcbbb"/><text x="350" y="264" fill="#586b60" font-size="20" font-weight="500">02</text><text x="350" y="315" fill="#193732" font-size="32" font-weight="650">素材聚焦</text><text x="350" y="355" fill="#586b60" font-size="23" font-weight="500">審大綱與風格</text>
+<rect x="620" y="230" width="252" height="170" rx="5" fill="#fffef9" stroke="#bdcbbb"/><text x="642" y="264" fill="#586b60" font-size="20" font-weight="500">03</text><text x="642" y="315" fill="#193732" font-size="32" font-weight="650">分層支持</text><text x="642" y="355" fill="#586b60" font-size="23" font-weight="500">提示逐步提供</text>
+<rect x="912" y="230" width="252" height="170" rx="5" fill="#fffef9" stroke="#bdcbbb"/><text x="934" y="264" fill="#586b60" font-size="20" font-weight="500">04</text><text x="934" y="315" fill="#193732" font-size="32" font-weight="650">試教回饋</text><text x="934" y="355" fill="#586b60" font-size="23" font-weight="500">留下作答證據</text>
+<text x="785" y="443" fill="#586b60" font-size="23" font-weight="500">調整任務與提示</text>
+<path d="M36 489H1164" stroke="#bdcbbb"/>
+<text x="36" y="533" fill="#193732" font-size="25" font-weight="500">有互動需求，再製作網站；先完成一輪，再擴充功能。</text>
+</svg>

@@ -658,3 +658,7 @@ progress::-moz-progress-bar { background: var(--green); }
   .source-section { padding-top: 4px; }
   input[type="checkbox"] { width: 13px; height: 13px; }
 }
+
+/* Compact content diagrams at the top of every library card. */
+.card-illustration { display: block; border-bottom: 1px solid var(--line); background: var(--green-wash); }
+.card-illustration img { display: block; width: 100%; height: auto; aspect-ratio: 5 / 3; }

@@ -5,6 +5,7 @@ import {validateCatalog} from '../scripts/catalog.mjs';
 const initial=JSON.parse(await fs.readFile(new URL('../data/catalog.json',import.meta.url),'utf8'));
 function publishedCatalog(){
   const catalog=structuredClone(initial),method=structuredClone(catalog.demo);
+  method.overview=structuredClone(initial.methods[0].overview);
   method.id='test-method';method.status='ready';method.contentType='video_method';
   method.sources=[{id:'video',title:'測試來源',kind:'video',videoId:'njhGvYkfPYM',url:'https://www.youtube.com/watch?v=njhGvYkfPYM'}];
   catalog.methods=[method];return catalog;
@@ -66,4 +67,16 @@ test('講者提供稿可無網址，但必須可辨識來源，不能取代影�
   delete source.note; assert.ok(validateCatalog(catalog).length); source.note='未核對錄音';
   method.contentType='video_method'; assert.ok(validateCatalog(catalog).length);
   method.contentType='article_method'; source.kind='article'; assert.ok(validateCatalog(catalog).length);
+});
+
+
+test('每篇正式文章都必須有桌面、手機與列表配圖，不能漏圖或連外',()=>{
+  const missing=publishedCatalog();delete missing.methods[0].overview;
+  assert.ok(validateCatalog(missing).some(e=>e.includes('必須提供文章概覽圖')));
+  for(const field of ['image','mobileImage','cardImage']){
+    for(const bad of [undefined,'javascript:alert(1)','/assets/overviews/../x.svg','https://example.com/image.svg']){
+      const c=publishedCatalog();c.methods[0].overview[field]=bad;
+      assert.ok(validateCatalog(c).some(e=>e.includes('概覽圖須使用站內')));
+    }
+  }
 });

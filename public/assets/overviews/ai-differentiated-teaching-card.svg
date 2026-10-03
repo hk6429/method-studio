@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" role="img" aria-labelledby="ai-differentiated-teaching-card-title ai-differentiated-teaching-card-desc"><title id="ai-differentiated-teaching-card-title">讓素材走到學生的學習</title><desc id="ai-differentiated-teaching-card-desc">共同目標 → 素材聚焦 → 分層支持 → 試教回饋</desc>
+<defs><marker id="ai-differentiated-teaching-card-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="800" height="480" fill="#f0f2e9"/>
+<text x="36" y="48" fill="#586b60" font-size="26" font-weight="500">AI × 差異化教學</text>
+<text x="36" y="102" fill="#193732" font-size="36" font-weight="650">讓素材走到學生的學習</text>
+<path d="M36 128H764" stroke="#bdcbbb"/>
+<path d="M372 216H422" fill="none" stroke="#586b60" stroke-width="2.4" marker-end="url(#ai-differentiated-teaching-card-arrow)"/>
+<path d="M600 272V278Q600 288 590 288H214Q204 288 204 298" fill="none" stroke="#586b60" stroke-width="2.4" marker-end="url(#ai-differentiated-teaching-card-arrow)"/>
+<path d="M372 366H422" fill="none" stroke="#586b60" stroke-width="2.4" marker-end="url(#ai-differentiated-teaching-card-arrow)"/>
+<rect x="36" y="160" width="328" height="112" rx="5" fill="#193732" stroke="#bdcbbb"/>
+<text x="56" y="200" fill="#d4e2d4" font-size="23" font-weight="500">01</text>
+<text x="56" y="245" fill="#fffef9" font-size="38" font-weight="650">共同目標</text>
+<rect x="436" y="160" width="328" height="112" rx="5" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="456" y="200" fill="#586b60" font-size="23" font-weight="500">02</text>
+<text x="456" y="245" fill="#193732" font-size="38" font-weight="650">素材聚焦</text>
+<rect x="36" y="310" width="328" height="112" rx="5" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="56" y="350" fill="#586b60" font-size="23" font-weight="500">03</text>
+<text x="56" y="395" fill="#193732" font-size="38" font-weight="650">分層支持</text>
+<rect x="436" y="310" width="328" height="112" rx="5" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="456" y="350" fill="#586b60" font-size="23" font-weight="500">04</text>
+<text x="456" y="395" fill="#193732" font-size="38" font-weight="650">試教回饋</text>
+<text x="36" y="465" fill="#586b60" font-size="24" font-weight="500">方法概覽 · 依文章內容編輯整理</text>
+</svg>

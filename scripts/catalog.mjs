@@ -42,8 +42,9 @@ export function validateCatalog(catalog) {
     if (!slug(method.id)) error(path, '文章 ID 必須是英文小寫 slug');
     if (!['video_method','article_method','editorial_example'].includes(method.contentType)) error(path, '文章類型無效');
     if (method.articlePath != null && (typeof method.articlePath !== 'string' || !/^\/articles\/[a-z0-9-]+\.html$/.test(method.articlePath))) error(path, '獨立文章路徑須為 /articles/slug.html');
+    if (!demo && method.overview == null) error(path, '正式文章必須提供文章概覽圖與列表配圖');
     if (method.overview != null) {
-      for (const field of ['image', 'mobileImage']) {
+      for (const field of ['image', 'mobileImage', 'cardImage']) {
         if (!/^\/assets\/overviews\/[a-z0-9-]+\.svg$/.test(method.overview[field] || '')) error(path, '概覽圖須使用站內 SVG 圖檔');
       }
       if (!text(method.overview.alt) || !text(method.overview.caption)) error(path, '概覽圖須提供替代文字與圖說');
