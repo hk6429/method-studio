@@ -62,12 +62,16 @@ function renderHero() {
   return hero;
 }
 
+function articlePath(method) {
+  return typeof method?.articlePath === 'string' && /^\/articles\/[a-z0-9-]+\.html$/.test(method.articlePath) ? method.articlePath : null;
+}
+
 function renderMethodCard(method, index, updateResults) {
   const category = catalog.categories.find(item => item.id === method.categoryId);
   const topicLabels = (method.topicIds || []).map(id => category?.topics?.find(topic => topic.id === id)?.name || id);
   const favorite = favorites.has(method.id);
   const bookmark = el('button', { type: 'button', class: `card-bookmark${favorite ? ' is-saved' : ''}`, 'aria-label': `${favorite ? '取消收藏' : '收藏'}：${method.title}`, 'aria-pressed': String(favorite), onClick: () => { toggleFavorite(method.id); updateResults(); } }, icon('bookmark'));
-  const link = `#method=${encodeURIComponent(method.id)}`;
+  const link = articlePath(method) || `#method=${encodeURIComponent(method.id)}`;
   const sourceLabel = method.contentType === 'editorial_example' ? '編輯示範' : method.coverLabel || '方法筆記';
   return el('article', { class: `method-card category-${method.categoryId === 'english' ? 'english' : 'ai'}` },
     el('div', { class: 'card-top' }, el('span', { class: 'card-index' }, String(index + 1).padStart(2, '0')), el('span', { class: 'card-category' }, category?.name || (method.categoryId === 'english' ? '學習英文' : '學習 AI')), bookmark),
@@ -222,6 +226,7 @@ function renderRoute({ focus = true } = {}) {
   let title = '方法練習室 — 把看過的方法，變成做得到的步驟';
   if (methodId) {
     const method = readyMethods().find(item => item.id === methodId);
+    if (articlePath(method)) { window.location.replace(articlePath(method)); return; }
     page = method ? renderMethod(method, { categories: catalog.categories, isFavorite: id => favorites.has(id), onFavoriteToggle: toggleFavorite }) : renderNotFound();
     title = method ? `${method.title} — 方法練習室` : '找不到這篇方法 — 方法練習室';
     setActiveNav(method?.categoryId);

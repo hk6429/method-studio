@@ -57,7 +57,186 @@
       ]
     }
   ],
-  "methods": [],
+  "methods": [
+    {
+      "id": "dragon-english-memory",
+      "title": "《龍櫻》暗記暗誦法：視覺化手冊與互動練習",
+      "summary": "以完成稿的深色視覺化版型呈現句子記憶方法，包含操作步驟、雷達示意圖、複習排程與三題英文默寫互動。附原影片連結與來源說明。",
+      "categoryId": "english",
+      "topicIds": [
+        "memory",
+        "writing"
+      ],
+      "level": "入門",
+      "minutes": 15,
+      "output": "一份句子默寫紀錄與個人複習安排",
+      "audience": "能讀懂所選例句、想練習從提示寫出完整英文的人",
+      "status": "ready",
+      "contentType": "video_method",
+      "reviewedAt": "2026-10-03",
+      "sourceCoverage": "使用者提供的 HTML 完成稿；保留圖文與互動版型。原片公開說明可核對看中文、寫英文、對答案三個動作；其他操作安排標為整理稿建議，圖表數字為示意。",
+      "coverLabel": "圖文來稿・含互動練習",
+      "sources": [
+        {
+          "id": "original-video",
+          "title": "《龍櫻》原型名師的「暗記暗誦法」：只靠100句極限默寫，徹底治好啞巴英語",
+          "url": "https://www.youtube.com/watch?v=njhGvYkfPYM",
+          "kind": "video",
+          "channel": "brain 學霸",
+          "videoId": "njhGvYkfPYM",
+          "publishedAt": "2026-09-28",
+          "note": "三個核心動作取自影片公開說明。原片標題中的口說成效屬頻道主張，本篇未取得足以驗證該效果的研究。"
+        },
+        {
+          "id": "publisher-original",
+          "title": "講談社：《ドラゴン・イングリッシュ基本英文100》",
+          "url": "https://www.kodansha.co.jp/book/products/0000182885",
+          "kind": "official",
+          "note": "用來核對作者與以100句整理英作文技巧的書籍設計；不是這個練習的成效研究。"
+        },
+        {
+          "id": "publisher-pocket",
+          "title": "講談社：《ポケット版 ドラゴン・イングリッシュ 基本英文100』",
+          "url": "https://www.kodansha.co.jp/book/products/0000208044",
+          "kind": "official",
+          "note": "出版社強調理解解說與英文思考；不宜把方法縮成不理解意思的死背。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "select",
+          "title": "篩選練習材料",
+          "action": "選擇自己能理解、具有可靠參考答案的句子。",
+          "why": "依提供稿編排的練習建議，尚未核對為原作者的逐字指示。",
+          "example": "從一個想練習的搭配開始，例如 take ... for granted。",
+          "check": "我理解句意，並已準備可核對的參考句。",
+          "contribution": "editorial",
+          "sourceRefs": []
+        },
+        {
+          "id": "read",
+          "title": "朗讀與確認意思",
+          "action": "按自己的需要朗讀，注意停頓、重音與句子意思。",
+          "why": "依提供稿編排的練習建議，尚未核對為原作者的逐字指示。",
+          "example": "先讀懂，再試著不看文字說出大意；次數可依情況調整。",
+          "check": "我能說明句意，並知道尚不熟悉的地方。",
+          "contribution": "editorial",
+          "sourceRefs": []
+        },
+        {
+          "id": "recall",
+          "title": "遮住英文，自己寫",
+          "action": "看中文提示或回想句意，留下自己的第一次作答。",
+          "why": "依提供稿編排的練習建議，尚未核對為原作者的逐字指示。",
+          "example": "使用文章內的三題互動練習，先輸入完整英文句。",
+          "check": "我先作答，再查看參考句。",
+          "contribution": "editorial",
+          "sourceRefs": []
+        },
+        {
+          "id": "review",
+          "title": "核對與安排複習",
+          "action": "比對參考句，釐清差異，再安排下一次練習。",
+          "why": "依提供稿編排的練習建議，尚未核對為原作者的逐字指示。",
+          "example": "文字不同也可能是正確表達；互動工具僅能核對與參考句是否一致。",
+          "check": "我記錄差異與原因，並安排下一次試做。",
+          "contribution": "editorial",
+          "sourceRefs": []
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "提供稿的四步練習安排",
+          "note": "整理稿的操作示意，不代表已驗證成效。",
+          "nodes": [
+            {
+              "id": "select",
+              "label": "篩選練習材料",
+              "detail": "選擇自己能理解、具有可靠參考答案的句子。"
+            },
+            {
+              "id": "read",
+              "label": "朗讀與確認意思",
+              "detail": "按自己的需要朗讀，注意停頓、重音與句子意思。"
+            },
+            {
+              "id": "recall",
+              "label": "遮住英文，自己寫",
+              "detail": "看中文提示或回想句意，留下自己的第一次作答。"
+            },
+            {
+              "id": "review",
+              "label": "核對與安排複習",
+              "detail": "比對參考句，釐清差異，再安排下一次練習。"
+            }
+          ],
+          "edges": [
+            {
+              "from": "select",
+              "to": "read"
+            },
+            {
+              "from": "read",
+              "to": "recall"
+            },
+            {
+              "from": "recall",
+              "to": "review"
+            }
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "原書以100句整理英作文技巧。",
+          "status": "supported",
+          "explanation": "講談社原版書介支持這項書籍設計資訊；這不等於完成100句就能保證口說流利。",
+          "sourceIds": [
+            "publisher-original"
+          ],
+          "checkedAt": "2026-10-03"
+        },
+        {
+          "claim": "理解句意與解說，不能由不理解的死背取代。",
+          "status": "supported",
+          "explanation": "講談社口袋版書介強調解說與英文思考。這裡引用的是出版社對書籍學習方式的介紹，不是獨立實驗結論。",
+          "sourceIds": [
+            "publisher-pocket"
+          ],
+          "checkedAt": "2026-10-03"
+        },
+        {
+          "claim": "只靠默寫100句，就能解決所有人的口說困難。",
+          "status": "unverified",
+          "explanation": "這類口說效果出現在原片標題與介紹中。本篇未取得受試者、對照資料或適用條件，不能將它寫成保證，也不能把書寫練習直接等同口說能力。",
+          "sourceIds": [
+            "original-video"
+          ],
+          "checkedAt": "2026-10-03"
+        }
+      ],
+      "pitfalls": [
+        "只在看答案時覺得熟悉，卻沒有留下自己獨立寫出的第一版。",
+        "把所有與參考句不同的表達都當成錯誤；比對後仍須核對語意、文法與其他可接受說法。",
+        "例句太難，還沒理解就急著背；先換成讀得懂、有可靠解釋的材料。",
+        "把完成三句或100句直接視為口說流利的證明。"
+      ],
+      "practice": {
+        "title": "試做文章內的互動題",
+        "minutes": 15,
+        "prompt": "選一題中文提示，先寫自己的英文，再與參考句比較。這是整理稿的練習安排，時間僅為示意。",
+        "deliverable": "一份作答、差異說明與下一次複習安排。",
+        "checklist": [
+          "先自行作答，再核對。",
+          "能說明句意與差異。",
+          "沒有把字串一致當成英文能力測量。"
+        ]
+      },
+      "supplements": [],
+      "articlePath": "/articles/dragon-english-memory.html"
+    }
+  ],
   "demo": {
     "id": "article-layout-preview",
     "title": "版型示範：把一篇教學變成行動卡",

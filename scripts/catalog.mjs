@@ -40,6 +40,7 @@ export function validateCatalog(catalog) {
   function validateMethod(method, path, demo) {
     if (!method || typeof method !== 'object') { error(path, '文章格式錯誤'); return; }
     if (!slug(method.id)) error(path, '文章 ID 必須是英文小寫 slug');
+    if (method.articlePath != null && (typeof method.articlePath !== 'string' || !/^\/articles\/[a-z0-9-]+\.html$/.test(method.articlePath))) error(path, '獨立文章路徑須為 /articles/slug.html');
     for (const field of ['title','summary','output','audience','sourceCoverage']) if (!text(method[field])) error(`${path}.${field}`, '必填');
     if (!Number.isFinite(method.minutes) || method.minutes <= 0) error(path, '練習時間須大於 0');
     const category = categories.find(c => c.id === method.categoryId);

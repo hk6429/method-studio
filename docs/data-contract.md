@@ -8,6 +8,7 @@
 首頁與搜尋只使用 methods（正式ready文章）；demo獨立以 #preview 閱讀，明標文章版型示範、不計入收錄數、不冒充使用者文章。正式資料初始 methods:[]。
 
 Method:
+- articlePath（可選）：`/articles/<slug>.html`，保留使用者交付的完整 HTML；首頁卡片與文章路由導向此站內頁面。未提供時使用結構化閱讀版型。
 - id (slug), title, summary, categoryId (`ai`/`english`), topicIds (string[]), level (`入門`/`進階`), minutes(number), output(string), audience(string), status(`ready`/`draft`), contentType(`video_method`/`editorial_example`), reviewedAt (YYYY-MM-DD)
 - sourceCoverage (string，明示使用者提供整理稿、逐字稿或僅公開說明)，coverLabel (短字)
 - sources: [{id,title,url,kind:`video`|`official`|`research`,channel?,videoId?,publishedAt?,note?}]

@@ -6,6 +6,10 @@ const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const catalog=JSON.parse(await fs.readFile(path.join(root,'data/catalog.json'),'utf8'));
 const errors=validateCatalog(catalog);if(errors.length)throw new Error(errors.join('\n'));
 for(const name of ['index.html','styles.css','app.js'])await fs.access(path.join(root,'public',name));
+for(const method of catalog.methods)if(method.articlePath){
+  const article=path.join(root,'public',method.articlePath.slice(1));
+  if(!(await fs.stat(article)).isFile())throw new Error(`找不到文章檔案：${method.articlePath}`);
+}
 const temporary=await fs.mkdtemp(path.join(root,'.build-'));
 try {
   await fs.cp(path.join(root,'public'),temporary,{recursive:true,filter:source=>!source.endsWith('.DS_Store')});

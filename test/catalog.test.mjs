@@ -9,8 +9,8 @@ function publishedCatalog(){
   method.sources=[{id:'video',title:'測試來源',kind:'video',videoId:'njhGvYkfPYM',url:'https://www.youtube.com/watch?v=njhGvYkfPYM'}];
   catalog.methods=[method];return catalog;
 }
-test('初版不把示範冒充正式文章；完整合法文章可加入資料',()=>{
-  assert.equal(initial.methods.length,0);assert.deepEqual(validateCatalog(initial),[]);assert.deepEqual(validateCatalog(publishedCatalog()),[]);
+test('正式文章與示範分開；完整合法文章可加入資料',()=>{
+  assert.ok(initial.methods.every(method=>method.id!==initial.demo.id && method.status==='ready'));assert.deepEqual(validateCatalog(initial),[]);assert.deepEqual(validateCatalog(publishedCatalog()),[]);
 });
 test('拒絕沒有原片、引用失聯、憑空時間碼及無來源的成效背書',()=>{
   for(const mutate of [c=>c.methods[0].sources=[],c=>c.methods[0].steps[0].sourceRefs=[{sourceId:'missing',startSeconds:null,endSeconds:null}],c=>c.methods[0].steps[0].sourceRefs=[{sourceId:'video',startSeconds:40,endSeconds:10}],c=>c.methods[0].validation[0].status='supported']){
@@ -33,4 +33,9 @@ test('來源影片網址不能與嵌入影片ID不一致',()=>{
 test('可把程式碼當教學文字保存，前端應以純文字呈現',()=>{
   const catalog=publishedCatalog();catalog.methods[0].steps[0].example='<script>alert("教學範例")</script>';
   assert.deepEqual(validateCatalog(catalog),[]);
+});
+
+test('獨立HTML文章只接受受限的站內路徑',()=>{
+  const catalog=publishedCatalog();catalog.methods[0].articlePath='/articles/dragon-english-memory.html';assert.deepEqual(validateCatalog(catalog),[]);
+  for(const path of ['https://example.com/x','//example.com/x','/articles/../x.html','javascript:alert(1)']){catalog.methods[0].articlePath=path;assert.ok(validateCatalog(catalog).length);}
 });

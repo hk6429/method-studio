@@ -1,0 +1,847 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>《龍櫻》名師竹岡廣信「暗記暗誦法」知識圖譜與全景手冊</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Chart.js CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&family=Noto+Sans+TC:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Plus Jakarta Sans', 'Noto Sans TC', sans-serif;
+      background-color: #0b0f19;
+      color: #e2e8f0;
+      scroll-behavior: smooth;
+    }
+    .glass-card {
+      background: rgba(17, 24, 39, 0.7);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.5);
+    }
+    .glass-card-hover {
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .glass-card-hover:hover {
+      transform: translateY(-4px);
+      border-color: rgba(99, 102, 241, 0.3);
+      box-shadow: 0 25px 50px -12px rgba(99, 102, 241, 0.15);
+    }
+    .gradient-text {
+      background: linear-gradient(135deg, #60a5fa 0%, #a855f7 50%, #f43f5e 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .gradient-border-b {
+      border-bottom: 2px solid;
+      border-image: linear-gradient(to right, #3b82f6, #8b5cf6, transparent) 1;
+    }
+    .code-block {
+      background: #060913;
+      border: 1px solid rgba(255, 255, 255, 0.06);
+    }
+    .badge-glow {
+      box-shadow: 0 0 15px rgba(99, 102, 241, 0.4);
+    }
+    .tab-btn.active {
+      background: #4f46e5;
+      color: #ffffff;
+      box-shadow: 0 0 20px rgba(79, 70, 229, 0.4);
+    }
+  </style>
+</head>
+<body class="min-h-screen antialiased selection:bg-indigo-500 selection:text-white">
+
+  <!-- 背景光暈裝飾 -->
+  <div class="fixed inset-0 pointer-events-none overflow-hidden z-0">
+    <div class="absolute -top-40 -left-40 w-96 h-96 bg-indigo-600/15 rounded-full blur-3xl"></div>
+    <div class="absolute top-1/3 -right-40 w-96 h-96 bg-rose-600/10 rounded-full blur-3xl"></div>
+    <div class="absolute -bottom-40 left-1/3 w-96 h-96 bg-purple-600/15 rounded-full blur-3xl"></div>
+  </div>
+
+  <!-- 主容器 -->
+  <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+
+    <!-- Header 頂部導航與大標題 -->
+    <header class="text-center max-w-4xl mx-auto mb-14">
+      <nav aria-label="文章導覽" class="flex flex-wrap justify-center gap-4 mb-6 text-sm text-indigo-300">
+        <a href="/#library" class="underline underline-offset-4">← 回方法練習室</a>
+        <a href="https://www.youtube.com/watch?v=njhGvYkfPYM" target="_blank" rel="noopener noreferrer" class="underline underline-offset-4">觀看原影片 ↗</a>
+      </nav>
+
+      <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-indigo-950/80 border border-indigo-500/30 text-indigo-300 text-xs font-semibold mb-6 badge-glow">
+        <i data-lucide="sparkles" class="w-3.5 h-3.5 text-indigo-400"></i>
+        <span>使用者提供稿・《龍櫻》名師學習方法整理</span>
+      </div>
+
+      <h1 class="text-3xl sm:text-5xl font-black tracking-tight leading-tight mb-5">
+        日劇《龍櫻》原型名師的<br>
+        <span class="gradient-text">「暗記暗誦法」全景視覺化圖表</span>
+      </h1>
+
+      <p class="text-base sm:text-lg text-slate-400 font-normal leading-relaxed mb-6">
+        以日本英語教師 <span class="text-indigo-400 font-semibold">竹岡廣信</span> 的 100 句教材為起點，練習「看中文 → 寫英文 → 對答案」。本篇保留提供稿的圖文架構，將延伸操作與示意圖標明，方便實際練習。
+      </p>
+
+      <aside id="source-note" class="glass-card p-4 rounded-xl text-left text-xs sm:text-sm text-slate-300 leading-relaxed mb-6">
+        <strong class="text-indigo-300">來源與整理範圍：</strong>本篇以使用者提供的 HTML 為主。原影片的公開說明僅能核對「看中文 → 寫英文 → 對答案」；沒有全片字幕／時間碼可供逐段核對，本篇無影片時間碼。四步 SOP、朗讀 10 遍與 5 次複習排程為編輯整理，尚未核對為原作者原話。出版社教材為 100 句，並非 100 篇；圖中的分數與毫秒都是示意。
+      </aside>
+
+      <!-- 快速指標列 -->
+      <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 text-left">
+        <div class="glass-card p-3.5 rounded-xl border border-white/5">
+          <div class="text-xs text-slate-400 mb-1 flex items-center gap-1.5">
+            <i data-lucide="book-open" class="w-3.5 h-3.5 text-blue-400"></i> 核心教材
+          </div>
+          <div class="text-sm font-bold text-slate-200">《Dragon English 100》</div>
+        </div>
+        <div class="glass-card p-3.5 rounded-xl border border-white/5">
+          <div class="text-xs text-slate-400 mb-1 flex items-center gap-1.5">
+            <i data-lucide="flame" class="w-3.5 h-3.5 text-rose-400"></i> 核心機制
+          </div>
+          <div class="text-sm font-bold text-slate-200">白紙審判・主動提取</div>
+        </div>
+        <div class="glass-card p-3.5 rounded-xl border border-white/5">
+          <div class="text-xs text-slate-400 mb-1 flex items-center gap-1.5">
+            <i data-lucide="zap" class="w-3.5 h-3.5 text-amber-400"></i> 編輯練習素材
+          </div>
+          <div class="text-sm font-bold text-slate-200">短句起步，可延伸短文</div>
+        </div>
+        <div class="glass-card p-3.5 rounded-xl border border-white/5">
+          <div class="text-xs text-slate-400 mb-1 flex items-center gap-1.5">
+            <i data-lucide="repeat" class="w-3.5 h-3.5 text-emerald-400"></i> 編輯複習排程
+          </div>
+          <div class="text-sm font-bold text-slate-200">滾雪球 5 次白紙還原</div>
+        </div>
+      </div>
+    </header>
+
+    <!-- 導航選單 / 錨點切換 -->
+    <div class="flex flex-wrap items-center justify-center gap-2 mb-12 sticky top-4 z-40 bg-slate-950/80 backdrop-blur-md p-2 rounded-2xl border border-white/10 max-w-4xl mx-auto shadow-2xl">
+      <a href="#architecture" class="tab-btn px-4 py-2 rounded-xl text-xs sm:text-sm font-medium text-slate-300 hover:text-white transition">
+        1. 雙死結與認知架構
+      </a>
+      <a href="#comparison" class="tab-btn px-4 py-2 rounded-xl text-xs sm:text-sm font-medium text-slate-300 hover:text-white transition">
+        2. 三大方法全維度雷達
+      </a>
+      <a href="#sop" class="tab-btn px-4 py-2 rounded-xl text-xs sm:text-sm font-medium text-slate-300 hover:text-white transition">
+        3. 四步極限默寫閉環
+      </a>
+      <a href="#pitfalls" class="tab-btn px-4 py-2 rounded-xl text-xs sm:text-sm font-medium text-slate-300 hover:text-white transition">
+        4. 撞牆期解藥與遺忘曲線
+      </a>
+      <a href="#simulator" class="tab-btn px-4 py-2 rounded-xl text-xs sm:text-sm font-medium text-slate-300 hover:text-white transition">
+        5. 白紙審判互動模擬器
+      </a>
+    </div>
+
+    <!-- 區塊 1: 雙死結與神經認知架構 -->
+    <section id="architecture" class="mb-16 scroll-mt-24">
+      <div class="flex items-center gap-3 mb-6">
+        <div class="w-8 h-8 rounded-lg bg-indigo-500/20 text-indigo-400 flex items-center justify-center font-bold text-sm border border-indigo-500/30">
+          01
+        </div>
+        <div>
+          <h2 class="text-xl sm:text-2xl font-bold text-slate-100">雙死結破解：為什麼你學了十幾年英文還是「開不了口」？</h2>
+          <p class="text-xs sm:text-sm text-slate-400">原稿用「逐字翻譯」與「提取熟悉句型」比較兩種練習思路</p>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+        <!-- 死結一 -->
+        <div class="glass-card p-6 rounded-2xl glass-card-hover border-l-4 border-l-rose-500">
+          <div class="flex items-center justify-between mb-3">
+            <span class="text-xs font-semibold px-2.5 py-1 rounded bg-rose-500/10 text-rose-400 border border-rose-500/20">死結一：背誦的「苦」</span>
+            <i data-lucide="alert-triangle" class="w-4 h-4 text-rose-400"></i>
+          </div>
+          <h3 class="text-lg font-bold text-slate-200 mb-2">長篇大論背到崩潰，半途而廢</h3>
+          <p class="text-sm text-slate-400 leading-relaxed mb-4">
+            長篇背誦對部分學習者可能造成負擔。原稿未提供放棄比例、所需天數或課次的資料來源；可先縮小篇幅，再依自己的程度調整。
+          </p>
+          <div class="p-3 rounded-xl bg-slate-900/60 border border-white/5 text-xs text-indigo-300 flex items-center gap-2">
+            <i data-lucide="check-circle" class="w-4 h-4 text-emerald-400 shrink-0"></i>
+            <span><strong>編輯練習建議：</strong>從短句開始，或自選 50～80 字短文；安排約 15 分鐘練習，再對照檢查。此長度與時間不是已核對的教材規格。</span>
+          </div>
+        </div>
+
+        <!-- 死結二 -->
+        <div class="glass-card p-6 rounded-2xl glass-card-hover border-l-4 border-l-amber-500">
+          <div class="flex items-center justify-between mb-3">
+            <span class="text-xs font-semibold px-2.5 py-1 rounded bg-amber-500/10 text-amber-400 border border-amber-500/20">死結二：刷劇的「窄」</span>
+            <i data-lucide="film" class="w-4 h-4 text-amber-400"></i>
+          </div>
+          <h3 class="text-lg font-bold text-slate-200 mb-2">100LS 刷一部電影，場景過於單一</h3>
+          <p class="text-sm text-slate-400 leading-relaxed mb-4">
+            反覆觀看同一部電影，可作為熟悉語音與情境的練習；若目標包含考試、職場或學術表達，還需依目標補充不同語料。這是原稿的比較觀點，並非實測優劣。
+          </p>
+          <div class="p-3 rounded-xl bg-slate-900/60 border border-white/5 text-xs text-indigo-300 flex items-center gap-2">
+            <i data-lucide="check-circle" class="w-4 h-4 text-emerald-400 shrink-0"></i>
+            <span><strong>教材規格更正：</strong>《Dragon English》是 100 句，並非 100 篇短文。可觀察句型與動詞搭配，再練習自己的表達。</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- 神經傳導視覺化對比卡片 -->
+      <div class="glass-card p-6 sm:p-8 rounded-2xl">
+        <h3 class="text-base sm:text-lg font-bold text-slate-200 mb-6 flex items-center gap-2">
+          <i data-lucide="activity" class="w-5 h-5 text-indigo-400"></i>
+          輸出思路對比：逐字拼裝 vs. 提取熟悉句型
+        </h3>
+        <p id="path-disclaimer" class="mb-5 text-xs text-amber-300">原稿示意，非研究數據。下列毫秒不是實測，也不代表神經傳導速度。</p>
+
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+          <!-- 路徑 A: 普通人 -->
+          <div class="p-5 rounded-xl bg-rose-950/20 border border-rose-500/30">
+            <div class="flex items-center gap-2 text-rose-400 font-bold text-sm mb-3">
+              <span class="w-2.5 h-2.5 rounded-full bg-rose-500"></span> 逐字拼裝的思路示意
+            </div>
+            <!-- 流程圖 -->
+            <div class="space-y-2 text-xs">
+              <div class="p-2.5 rounded bg-slate-900/80 border border-white/5 flex items-center justify-between">
+                <span>1. 產生母語意圖（中文思考）</span>
+                <span class="text-slate-500 font-mono">0ms</span>
+              </div>
+              <div class="text-center text-rose-400 font-bold">↓ 翻找單字字典（逐字對譯）</div>
+              <div class="p-2.5 rounded bg-slate-900/80 border border-white/5 flex items-center justify-between">
+                <span>2. 搜尋個別單字（vocabulary lookup）</span>
+                <span class="text-rose-400 font-mono">+1200ms</span>
+              </div>
+              <div class="text-center text-rose-400 font-bold">↓ 拼裝文法與時態檢查（高認知負荷）</div>
+              <div class="p-2.5 rounded bg-slate-900/80 border border-white/5 flex items-center justify-between">
+                <span>3. 猶豫介系詞/單複數/時態規則</span>
+                <span class="text-rose-400 font-mono">+2000ms</span>
+              </div>
+              <div class="text-center text-rose-400 font-bold">↓ 產出結果</div>
+              <div class="p-3 rounded bg-rose-900/40 border border-rose-500/40 text-rose-200 font-medium">
+                可能遇到的困難：需要較多時間搜尋單字與檢查文法。
+              </div>
+            </div>
+          </div>
+
+          <!-- 路徑 B: 竹岡暗記暗誦法 -->
+          <div class="p-5 rounded-xl bg-indigo-950/20 border border-indigo-500/30">
+            <div class="flex items-center gap-2 text-indigo-400 font-bold text-sm mb-3">
+              <span class="w-2.5 h-2.5 rounded-full bg-emerald-400 animate-pulse"></span> 熟悉句型的提取示意（Chunk & Pattern）
+            </div>
+            <!-- 流程圖 -->
+            <div class="space-y-2 text-xs">
+              <div class="p-2.5 rounded bg-slate-900/80 border border-white/5 flex items-center justify-between">
+                <span>1. 產生表達意圖（意念）</span>
+                <span class="text-slate-500 font-mono">0ms</span>
+              </div>
+              <div class="text-center text-emerald-400 font-bold">↓ 嘗試提取熟悉的語塊（Chunks）</div>
+              <div class="p-2.5 rounded bg-slate-900/80 border border-white/5 flex items-center justify-between">
+                <span>2. 調用預存 100 句核心骨架（Pattern Recognition）</span>
+                <span class="text-emerald-400 font-mono">+150ms</span>
+              </div>
+              <div class="text-center text-emerald-400 font-bold">↓ 隨插即用的替換變量（Slot-filling）</div>
+              <div class="p-2.5 rounded bg-slate-900/80 border border-white/5 flex items-center justify-between">
+                <span>3. 配合音韻節奏組織完整句子</span>
+                <span class="text-emerald-400 font-mono">+300ms</span>
+              </div>
+              <div class="text-center text-emerald-400 font-bold">↓ 產出結果</div>
+              <div class="p-3 rounded bg-emerald-900/40 border border-emerald-500/40 text-emerald-200 font-medium">
+                練習目標：更熟悉句型提取；流暢度與正確性仍需個別檢查。
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 認知神經學原理提醒框 -->
+        <div class="mt-6 p-4 rounded-xl bg-slate-900/80 border border-indigo-500/20 text-xs sm:text-sm text-slate-300 flex items-start gap-3">
+          <i data-lucide="dna" class="w-5 h-5 text-indigo-400 shrink-0 mt-0.5"></i>
+          <div>
+            <span class="text-indigo-300 font-bold">原稿比喻待核對：認知摩擦與髓鞘質</span>
+            <p class="text-slate-400 mt-1">
+              原稿以「認知摩擦」與「髓鞘質生長痛」形容回想的困難；本篇沒有可支持「痛苦才會分泌髓鞘質」或「傳導速度提升百倍」的研究來源，不能視為已證實結論。練習時可把卡住的位置當作下一次複習的線索。
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 區塊 2: 三大方法全維度雷達圖與評測 -->
+    <section id="comparison" class="mb-16 scroll-mt-24">
+      <div class="flex items-center gap-3 mb-6">
+        <div class="w-8 h-8 rounded-lg bg-indigo-500/20 text-indigo-400 flex items-center justify-center font-bold text-sm border border-indigo-500/30">
+          02
+        </div>
+        <div>
+          <h2 class="text-xl sm:text-2xl font-bold text-slate-100">三大英語學習路徑：多維度視覺化示意</h2>
+          <p class="text-xs sm:text-sm text-slate-400">比較新概念長文背誦、100LS 刷電影法與竹岡 100 句白紙審判法</p>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-center">
+        <!-- 雷達圖 Canvas -->
+        <div class="lg:col-span-6 glass-card p-6 rounded-2xl flex flex-col items-center">
+          <h3 class="text-sm font-bold text-slate-300 mb-4 flex items-center gap-2">
+            <i data-lucide="radar" class="w-4 h-4 text-purple-400"></i>
+            學習路徑能力維度雷達圖
+          </h3>
+          <p id="radar-disclaimer" class="mb-3 text-xs text-amber-300">原稿示意，非研究數據。分數只保留原稿的視覺比較，不作成效排名。</p>
+          <div class="w-full max-w-md h-72 sm:h-80">
+            <canvas id="radarChart" role="img" aria-label="三種學習路徑的原稿示意雷達圖，非研究數據" aria-describedby="radar-disclaimer"></canvas>
+          </div>
+          <div class="flex flex-wrap justify-center gap-4 text-xs mt-3">
+            <span class="flex items-center gap-1.5"><span class="w-3 h-3 rounded-full bg-rose-500"></span> 新概念長篇背誦</span>
+            <span class="flex items-center gap-1.5"><span class="w-3 h-3 rounded-full bg-amber-400"></span> 100LS 刷電影法</span>
+            <span class="flex items-center gap-1.5"><span class="w-3 h-3 rounded-full bg-indigo-500"></span> 竹岡 100 句極限默寫</span>
+          </div>
+        </div>
+
+        <!-- 綜合評估卡片 -->
+        <div class="lg:col-span-6 space-y-4">
+          <div class="glass-card p-4 rounded-xl border border-white/5">
+            <div class="flex items-center justify-between text-xs mb-1">
+              <span class="font-bold text-rose-400">傳統長文背誦（如新概念英語）</span>
+              <span class="text-rose-400 font-mono">原稿觀點</span>
+            </div>
+            <p class="text-xs text-slate-400 leading-relaxed">
+              <strong>優勢：</strong>語料正統、文學性強。<br>
+              <strong>留意：</strong>篇幅過長可能增加負擔，可按程度分段。
+            </p>
+          </div>
+
+          <div class="glass-card p-4 rounded-xl border border-white/5">
+            <div class="flex items-center justify-between text-xs mb-1">
+              <span class="font-bold text-amber-400">100LS 刷電影法（單一電影 100 遍）</span>
+              <span class="text-amber-400 font-mono">原稿觀點</span>
+            </div>
+            <p class="text-xs text-slate-400 leading-relaxed">
+              <strong>優勢：</strong>語音語調生動、適合破冰開口恐懼。<br>
+              <strong>留意：</strong>單一影片的語料有限，需依學習目標補充。
+            </p>
+          </div>
+
+          <div class="glass-card p-4 rounded-xl border-2 border-indigo-500/50 bg-indigo-950/20">
+            <div class="flex items-center justify-between text-xs mb-1">
+              <span class="font-bold text-indigo-300">竹岡廣信「Dragon English 100 句」</span>
+              <span class="text-emerald-400 font-mono font-bold">練習方向</span>
+            </div>
+            <p class="text-xs text-slate-300 leading-relaxed">
+              <strong>練習方向：</strong>以 100 句為素材，寫出後立即核對。可自訂約 15 分鐘練習；這是編輯安排，不保證通關速度或適用所有情境。
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 區塊 3: 四步極限默寫閉環 SOP -->
+    <section id="sop" class="mb-16 scroll-mt-24">
+      <div class="flex items-center gap-3 mb-6">
+        <div class="w-8 h-8 rounded-lg bg-indigo-500/20 text-indigo-400 flex items-center justify-center font-bold text-sm border border-indigo-500/30">
+          03
+        </div>
+        <div>
+          <h2 class="text-xl sm:text-2xl font-bold text-slate-100">四步默寫練習 SOP（編輯整理）</h2>
+          <p class="text-xs sm:text-sm text-slate-400">以下四步與朗讀 10 遍為提供稿的操作設計，尚未核對為原作者原話；請依程度調整。</p>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+        <!-- 步驟 1 -->
+        <div class="glass-card p-5 rounded-2xl relative flex flex-col justify-between glass-card-hover border-t-2 border-t-blue-500">
+          <div>
+            <div class="flex items-center justify-between mb-3">
+              <span class="text-2xl font-black text-blue-400">01</span>
+              <i data-lucide="filter" class="w-5 h-5 text-blue-400"></i>
+            </div>
+            <h3 class="text-base font-bold text-slate-200 mb-2">篩選模體</h3>
+            <p class="text-xs text-blue-300/80 mb-3 font-semibold">拒絕無效的垃圾輸入</p>
+            <ul class="text-xs text-slate-400 space-y-2 mb-4">
+              <li>❌ <strong>嚴格反對：</strong>隨意默寫新聞（生僻詞過多）或零碎口語（太多文法省略）。</li>
+              <li>✅ <strong>編輯建議：</strong>先選一句，再視需要延伸至 50～80 字短文（約 3～5 句）；這不是 100 句教材的篇幅規格。</li>
+              <li>🎯 <strong>核心特徵：</strong>必須具備嚴密邏輯詞（therefore, not only...but also）與道地動詞搭配（take for granted, attribute to）。</li>
+            </ul>
+          </div>
+          <div class="p-2.5 rounded-lg bg-blue-950/40 text-blue-300 text-xs border border-blue-500/20">
+            💡 原則：寧精勿濫，每一句都是語法骨架
+          </div>
+        </div>
+
+        <!-- 步驟 2 -->
+        <div class="glass-card p-5 rounded-2xl relative flex flex-col justify-between glass-card-hover border-t-2 border-t-purple-500">
+          <div>
+            <div class="flex items-center justify-between mb-3">
+              <span class="text-2xl font-black text-purple-400">02</span>
+              <i data-lucide="headphones" class="w-5 h-5 text-purple-400"></i>
+            </div>
+            <h3 class="text-base font-bold text-slate-200 mb-2">聲音錨定</h3>
+            <p class="text-xs text-purple-300/80 mb-3 font-semibold">切斷視覺符號的依賴</p>
+            <ul class="text-xs text-slate-400 space-y-2 mb-4">
+              <li>❌ <strong>致命誤區：</strong>看兩眼覺得懂了，就開始動筆背寫。</li>
+              <li>✅ <strong>朗讀練習：</strong>動筆前以舒適、清晰的音量<strong>朗讀 10 遍</strong>（編輯安排，可調整）。</li>
+              <li>🎵 <strong>音樂化節奏：</strong>體會連讀、弱讀與濁化，像唱一首歌一樣留意語音節奏。</li>
+              <li>🛡️ <strong>救命稻草：</strong>稍後在白紙上卡住時，救你的是「聲音節奏」，絕非中文字！</li>
+            </ul>
+          </div>
+          <div class="p-2.5 rounded-lg bg-purple-950/40 text-purple-300 text-xs border border-purple-500/20">
+            💡 編輯提醒：搭配聲音與文字，找出適合自己的提示
+          </div>
+        </div>
+
+        <!-- 步驟 3 -->
+        <div class="glass-card p-5 rounded-2xl relative flex flex-col justify-between glass-card-hover border-t-2 border-t-rose-500">
+          <div>
+            <div class="flex items-center justify-between mb-3">
+              <span class="text-2xl font-black text-rose-400">03</span>
+              <i data-lucide="file-edit" class="w-5 h-5 text-rose-400"></i>
+            </div>
+            <h3 class="text-base font-bold text-slate-200 mb-2">白紙審判</h3>
+            <p class="text-xs text-rose-300/80 mb-3 font-semibold">找出回想時不確定的位置</p>
+            <ul class="text-xs text-slate-400 space-y-2 mb-4">
+              <li>🚫 <strong>清空桌面：</strong>收起所有教材與提示，面前只留一張純白紙與一隻黑筆。</li>
+              <li>⚡ <strong>嚴禁作弊：</strong>看中文題幹或憑腦中意圖，嘗試在白紙上還原全句。</li>
+              <li>🧗 <strong>回想難點：</strong>一動筆立刻卡住？是過去式還是分詞？該加 the 嗎？</li>
+              <li>🔥 <strong>編輯提醒：</strong>卡住不代表失敗；記下疑點，再對照答案。痛苦程度不能用來判斷神經變化。</li>
+            </ul>
+          </div>
+          <div class="p-2.5 rounded-lg bg-rose-950/40 text-rose-300 text-xs border border-rose-500/20">
+            💡 編輯提醒：先嘗試回想，再核對差異
+          </div>
+        </div>
+
+        <!-- 步驟 4 -->
+        <div class="glass-card p-5 rounded-2xl relative flex flex-col justify-between glass-card-hover border-t-2 border-t-emerald-500">
+          <div>
+            <div class="flex items-center justify-between mb-3">
+              <span class="text-2xl font-black text-emerald-400">04</span>
+              <i data-lucide="refresh-cw" class="w-5 h-5 text-emerald-400"></i>
+            </div>
+            <h3 class="text-base font-bold text-slate-200 mb-2">核對再寫</h3>
+            <p class="text-xs text-emerald-300/80 mb-3 font-semibold">零容忍與單句強制複寫</p>
+            <ul class="text-xs text-slate-400 space-y-2 mb-4">
+              <li>⚖️ <strong>紅筆嚴審：</strong>漏掉冠詞 the、單複數寫反、介系詞用錯，全部判定為錯！</li>
+              <li>❌ <strong>嚴禁只打叉：</strong>絕不可只在旁邊打個叉、抄上正確答案了事。</li>
+              <li>🔄 <strong>單句隔離：</strong>挑出錯誤整句，大聲朗讀正確版 3 遍。</li>
+              <li>📄 <strong>全新白紙重寫：</strong>換全新白紙單獨默寫該句，直到完全無誤，確認自己是否能獨立寫出。</li>
+            </ul>
+          </div>
+          <div class="p-2.5 rounded-lg bg-emerald-950/40 text-emerald-300 text-xs border border-emerald-500/20">
+            💡 編輯提醒：核對冠詞、時態與搭配，記錄下一次要練的地方
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 區塊 4: 撞牆期解藥與滾雪球循環 -->
+    <section id="pitfalls" class="mb-16 scroll-mt-24">
+      <div class="flex items-center gap-3 mb-6">
+        <div class="w-8 h-8 rounded-lg bg-indigo-500/20 text-indigo-400 flex items-center justify-center font-bold text-sm border border-indigo-500/30">
+          04
+        </div>
+        <div>
+          <h2 class="text-xl sm:text-2xl font-bold text-slate-100">新手撞牆期防坑指南與滾雪球複習模型</h2>
+          <p class="text-xs sm:text-sm text-slate-400">以下是提供稿的複習設計與編輯提醒，並非保證成效的研究結論</p>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+        <!-- 陷阱一與解藥 -->
+        <div class="glass-card p-6 rounded-2xl border-l-4 border-l-purple-500">
+          <div class="flex items-center gap-2 mb-3">
+            <span class="w-6 h-6 rounded-full bg-purple-500/20 text-purple-400 text-xs flex items-center justify-center font-bold">A</span>
+            <h3 class="text-base font-bold text-slate-200">阻礙一：練習初期的不熟悉與自我懷疑</h3>
+          </div>
+          <p class="text-xs sm:text-sm text-slate-400 mb-4 leading-relaxed">
+            第一天拿白紙默寫，你常會發現連 50 字都寫得支離破碎，單字拼錯、文法全亂。這時大腦會產生極度強烈的自我懷疑：「我是不是英文笨蛋？」
+          </p>
+          <div class="p-4 rounded-xl bg-purple-950/30 border border-purple-500/20 space-y-2">
+            <div class="text-xs font-bold text-purple-300 flex items-center gap-1.5">
+              <i data-lucide="shield-alert" class="w-4 h-4 text-purple-400"></i> 編輯練習提醒：
+            </div>
+            <p class="text-xs text-slate-300 leading-relaxed">
+              原稿把初期困難比作「生長痛」，並描述第 11、12 篇突然順暢的情境；<strong>這是未核對的比喻，沒有人人必然頓悟的固定篇數。</strong><br>
+              可先縮短素材、記錄常錯處，依自己的表現調整練習量。
+            </p>
+          </div>
+        </div>
+
+        <!-- 陷阱二與解藥 -->
+        <div class="glass-card p-6 rounded-2xl border-l-4 border-l-cyan-500">
+          <div class="flex items-center gap-2 mb-3">
+            <span class="w-6 h-6 rounded-full bg-cyan-500/20 text-cyan-400 text-xs flex items-center justify-center font-bold">B</span>
+            <h3 class="text-base font-bold text-slate-200">阻礙二：遺忘曲線反噬（今天寫完三天後全忘）</h3>
+          </div>
+          <p class="text-xs sm:text-sm text-slate-400 mb-4 leading-relaxed">
+            很多人把 100 句當成「通關遊戲」，寫過一篇就打勾不再管，三天後重新默寫又漏洞百出，挫敗感直接拉滿。
+          </p>
+          <div class="p-4 rounded-xl bg-cyan-950/30 border border-cyan-500/20 space-y-2">
+            <div class="text-xs font-bold text-cyan-300 flex items-center gap-1.5">
+              <i data-lucide="repeat" class="w-4 h-4 text-cyan-400"></i> 編輯練習提醒：滾雪球循環機制
+            </div>
+            <p class="text-xs text-slate-300 leading-relaxed">
+              <strong>「滾雪球複習」：</strong>今天默寫第 3 篇前，先拿白紙快速把第 1、2 篇再默寫一遍。<br>
+              <strong>編輯排程：</strong>安排不同日子的 <strong>5 次</strong>回想與核對，觀察還有哪些地方不熟悉。5 次是提供稿的練習設計，不能保證終身不忘，也尚未核對為原作者原話。
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- 滾雪球 5 次還原法圖表展示 -->
+      <div class="glass-card p-6 rounded-2xl">
+        <h3 class="text-sm sm:text-base font-bold text-slate-200 mb-4 flex items-center gap-2">
+          <i data-lucide="layers" class="w-4 h-4 text-indigo-400"></i>
+          「滾雪球 5 次還原法」時間軸進度規劃表（編輯整理）
+        </h3>
+
+        <div class="overflow-x-auto">
+          <table class="w-full text-left text-xs sm:text-sm">
+            <thead>
+              <tr class="border-b border-white/10 text-slate-400">
+                <th class="py-2.5 px-3">第 N 次還原</th>
+                <th class="py-2.5 px-3">時間間隔</th>
+                <th class="py-2.5 px-3">還原目標</th>
+                <th class="py-2.5 px-3">可觀察的練習紀錄</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-white/5 text-slate-300">
+              <tr>
+                <td class="py-2.5 px-3 font-bold text-indigo-400">第 1 次</td>
+                <td class="py-2.5 px-3">當天學習當下</td>
+                <td class="py-2.5 px-3">朗讀 10 遍後首次默寫（遍數可調整）</td>
+                <td class="py-2.5 px-3 text-slate-400">記錄首次寫出的情況</td>
+              </tr>
+              <tr>
+                <td class="py-2.5 px-3 font-bold text-blue-400">第 2 次</td>
+                <td class="py-2.5 px-3">隔天開始新進度前</td>
+                <td class="py-2.5 px-3">拿全新白紙快速盲寫昨天內容</td>
+                <td class="py-2.5 px-3 text-slate-400">比較隔天仍能寫出的部分</td>
+              </tr>
+              <tr>
+                <td class="py-2.5 px-3 font-bold text-emerald-400">第 3 次</td>
+                <td class="py-2.5 px-3">第 3 天 / 第 4 天</td>
+                <td class="py-2.5 px-3">滾雪球串聯前 3 篇連續默寫</td>
+                <td class="py-2.5 px-3 text-slate-400">整理重複出錯的語塊</td>
+              </tr>
+              <tr>
+                <td class="py-2.5 px-3 font-bold text-amber-400">第 4 次</td>
+                <td class="py-2.5 px-3">第 7 天（週末週回顧）</td>
+                <td class="py-2.5 px-3">打亂順序隨機抽測白紙默寫</td>
+                <td class="py-2.5 px-3 text-slate-400">觀察打亂順序後的表現</td>
+              </tr>
+              <tr>
+                <td class="py-2.5 px-3 font-bold text-rose-400">第 5 次</td>
+                <td class="py-2.5 px-3">第 21 天至 30 天</td>
+                <td class="py-2.5 px-3">看到中文後嘗試口說或默寫，不限秒數</td>
+                <td class="py-2.5 px-3 text-emerald-400 font-bold">檢查保留情況，安排後續複習</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- 區塊 5: 白紙審判互動實戰模擬器 -->
+    <section id="simulator" class="mb-16 scroll-mt-24">
+      <div class="flex items-center gap-3 mb-6">
+        <div class="w-8 h-8 rounded-lg bg-indigo-500/20 text-indigo-400 flex items-center justify-center font-bold text-sm border border-indigo-500/30">
+          05
+        </div>
+        <div>
+          <h2 class="text-xl sm:text-2xl font-bold text-slate-100">白紙審判・即刻實戰體驗小工具</h2>
+          <p class="text-xs sm:text-sm text-slate-400">親身體驗「看中文 → 零提示白紙輸入 → 紅筆審判校對」的認知摩擦！</p>
+        </div>
+      </div>
+
+      <div class="glass-card p-6 sm:p-8 rounded-2xl border-2 border-indigo-500/30">
+        <p id="matching-note" class="mb-5 text-xs sm:text-sm text-amber-300">這三題是編輯範例。核對只比較與參考例句的文字一致性（忽略大小寫、部分標點與多餘空白），不能判斷其他正確表達，也不評量語意、文法能力、反應速度或記憶成效。</p>
+        <!-- 題目選擇 -->
+        <div class="flex flex-wrap items-center gap-2 mb-6">
+          <span class="text-xs text-slate-400 font-medium mr-2">選擇實戰題型：</span>
+          <button onclick="selectQuestion(0)" id="qbtn-0" class="px-3 py-1.5 rounded-lg text-xs font-semibold bg-indigo-600 text-white transition">範例 1：take for granted (理所當然)</button>
+          <button onclick="selectQuestion(1)" id="qbtn-1" class="px-3 py-1.5 rounded-lg text-xs font-semibold bg-slate-800 text-slate-300 hover:bg-slate-700 transition">範例 2：not only... but also (並列強邏輯)</button>
+          <button onclick="selectQuestion(2)" id="qbtn-2" class="px-3 py-1.5 rounded-lg text-xs font-semibold bg-slate-800 text-slate-300 hover:bg-slate-700 transition">範例 3：attribute to (歸因於)</button>
+        </div>
+
+        <!-- 題目題幹卡片 -->
+        <div class="p-4 rounded-xl bg-slate-900 border border-white/5 mb-4">
+          <div class="text-xs text-indigo-400 font-bold mb-1">【母語中文題意】請嘗試在下方輸入框中默寫英文：</div>
+          <div id="target-chinese" class="text-base sm:text-lg font-bold text-slate-100">
+            我們常常把父母對我們的愛視為理所當然。
+          </div>
+          <div id="target-hint" class="text-xs text-slate-500 mt-1">
+            提示：使用核心動詞片語「take ... for granted」，注意人稱與時態。
+          </div>
+        </div>
+
+        <!-- 白紙輸入區 -->
+        <div class="mb-4">
+          <label for="user-input" class="block text-xs font-semibold text-slate-300 mb-2 flex items-center justify-between">
+            <span>✍️ 你的白紙輸入區（請完全憑記憶輸入完整英文句子）：</span>
+            <span id="char-count" class="text-slate-500 font-mono text-xs">0 chars</span>
+          </label>
+          <textarea
+            id="user-input" aria-describedby="matching-note"
+            rows="3"
+            class="w-full rounded-xl bg-slate-950 border border-white/10 p-3.5 text-sm text-slate-100 placeholder-slate-600 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent font-mono transition"
+            placeholder="請在此處鍵入英文句子... (例: We often take...)"
+            oninput="document.getElementById('char-count').innerText = this.value.length + ' chars'"
+          ></textarea>
+        </div>
+
+        <!-- 操作按鈕 -->
+        <div class="flex items-center gap-3 mb-6">
+          <button onclick="judgeAnswer()" class="px-5 py-2.5 rounded-xl bg-gradient-to-r from-indigo-600 to-rose-600 text-white text-xs sm:text-sm font-bold flex items-center gap-2 hover:opacity-95 shadow-lg transition">
+            <i data-lucide="check-square" class="w-4 h-4"></i>
+            進入白紙審判（紅筆核對）
+          </button>
+          <button onclick="resetQuestion()" class="px-4 py-2.5 rounded-xl bg-slate-800 text-slate-300 text-xs sm:text-sm font-medium hover:bg-slate-700 transition">
+            清空重測
+          </button>
+        </div>
+
+        <!-- 審判結果面板 -->
+        <div id="result-panel" aria-live="polite" class="hidden p-5 rounded-xl bg-slate-900/90 border transition-all">
+          <div class="flex items-center justify-between mb-3">
+            <h4 id="result-status" class="text-sm font-bold flex items-center gap-2"></h4>
+            <span id="match-rate" class="text-xs font-mono px-2 py-0.5 rounded bg-white/5 text-slate-300"></span>
+          </div>
+
+          <div class="space-y-3 text-xs sm:text-sm">
+            <div>
+              <span class="text-slate-400 block mb-1">【你的輸出】：</span>
+              <div id="diff-user" class="p-3 rounded-lg bg-black/40 font-mono border border-white/5 break-words"></div>
+            </div>
+            <div>
+              <span class="text-slate-400 block mb-1">【本工具的參考例句（編輯範例）】：</span>
+              <div id="diff-standard" class="p-3 rounded-lg bg-emerald-950/30 text-emerald-300 font-mono border border-emerald-500/20 break-words"></div>
+            </div>
+            <div id="explanation-box" class="p-3 rounded-lg bg-indigo-950/30 text-indigo-300 border border-indigo-500/20 text-xs leading-relaxed">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 區塊 6: 今晚就能開始的 35+ / 零基礎落地藍圖 -->
+    <section id="start-tonight" class="mb-16">
+      <div class="glass-card p-6 sm:p-8 rounded-2xl bg-gradient-to-br from-indigo-950/40 via-slate-900/80 to-purple-950/40 border border-indigo-500/20">
+        <div class="flex items-center gap-3 mb-4">
+          <i data-lucide="rocket" class="w-6 h-6 text-indigo-400"></i>
+          <h2 class="text-lg sm:text-xl font-bold text-slate-100">今晚就能啟動的「3 步練習指南」</h2>
+        </div>
+        <p class="text-xs sm:text-sm text-slate-300 mb-6 leading-relaxed">
+          不論你是 35 歲以上職場人士、零基礎重拾英語、或是準備托福/雅思/學測的考生，今晚不要等「準備好」，照著這張清單立刻開始：
+        </p>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-xs sm:text-sm">
+          <div class="p-4 rounded-xl bg-slate-900/80 border border-white/5">
+            <div class="font-bold text-indigo-400 mb-1">Step 1：備妥素材</div>
+            <p class="text-slate-400 leading-relaxed">
+              使用合法取得的《Dragon English 100》教材，或自選一句／一段適合程度的英文。今晚先完成 <strong>第一份素材</strong>。
+            </p>
+          </div>
+          <div class="p-4 rounded-xl bg-slate-900/80 border border-white/5">
+            <div class="font-bold text-purple-400 mb-1">Step 2：大聲朗讀 10 遍</div>
+            <p class="text-slate-400 leading-relaxed">
+              以舒適、清晰的聲音朗讀 10 遍，留意停頓、重音與音韻。這是編輯整理的起步安排，遍數可依程度調整。
+            </p>
+          </div>
+          <div class="p-4 rounded-xl bg-slate-900/80 border border-white/5">
+            <div class="font-bold text-rose-400 mb-1">Step 3：關燈/收書，白紙審判</div>
+            <p class="text-slate-400 leading-relaxed">
+              收起手機與課本，拿出一張純白 A4 紙，在沒有任何提示下寫出全篇。拿起紅筆對照，有錯即單獨白紙重默！
+            </p>
+          </div>
+        </div>
+
+        <div class="mt-6 pt-4 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-400">
+          <div>
+            📌 編輯提醒：<span class="text-slate-200 font-semibold">先自己試寫，再核對與修正，留下下一次練習的線索。</span>
+          </div>
+          <div class="text-indigo-400 font-mono">
+            Read, Recall, Write, Review
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center text-xs text-slate-500 py-6 border-t border-white/5">
+      <p>內容來源：使用者提供稿；影片公開說明與編輯整理範圍見頁首。</p>
+      <nav aria-label="文章導覽" class="flex flex-wrap justify-center gap-4 mb-6 text-sm text-indigo-300">
+        <a href="/#library" class="underline underline-offset-4">← 回方法練習室</a>
+        <a href="https://www.youtube.com/watch?v=njhGvYkfPYM" target="_blank" rel="noopener noreferrer" class="underline underline-offset-4">觀看原影片 ↗</a>
+      </nav>
+
+      <p class="mt-1">圖表設計與互動系統製作：Antigravity Agentic Assistant・2026</p>
+    </footer>
+
+  </div>
+
+  <!-- 互動邏輯 JavaScript -->
+  <script>
+    // 初始化 Lucide Icons
+    if (window.lucide) lucide.createIcons();
+
+    // 初始化雷達圖
+    const ctx = document.getElementById('radarChart').getContext('2d');
+    const radarChart = window.Chart ? new Chart(ctx, {
+      type: 'radar',
+      data: {
+        labels: [
+          '持續練習門檻（示意）',
+          '文法精密嚴謹度',
+          '口說熟悉度（示意）',
+          '場景泛化能力',
+          '反覆練習安排（示意）',
+          '即時正向回饋感'
+        ],
+        datasets: [
+          {
+            label: '新概念長篇背誦',
+            data: [20, 85, 40, 75, 45, 25],
+            fill: true,
+            backgroundColor: 'rgba(244, 63, 94, 0.15)',
+            borderColor: '#f43f5e',
+            pointBackgroundColor: '#f43f5e',
+            pointBorderColor: '#fff',
+            borderWidth: 2
+          },
+          {
+            label: '100LS 刷電影法',
+            data: [55, 35, 85, 30, 60, 70],
+            fill: true,
+            backgroundColor: 'rgba(251, 191, 36, 0.15)',
+            borderColor: '#fbbf24',
+            pointBackgroundColor: '#fbbf24',
+            pointBorderColor: '#fff',
+            borderWidth: 2
+          },
+          {
+            label: '竹岡 100 句白紙審判法',
+            data: [90, 95, 90, 90, 95, 90],
+            fill: true,
+            backgroundColor: 'rgba(99, 102, 241, 0.25)',
+            borderColor: '#6366f1',
+            pointBackgroundColor: '#6366f1',
+            pointBorderColor: '#fff',
+            borderWidth: 2.5
+          }
+        ]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        scales: {
+          r: {
+            angleLines: { color: 'rgba(255, 255, 255, 0.08)' },
+            grid: { color: 'rgba(255, 255, 255, 0.08)' },
+            pointLabels: {
+              color: '#94a3b8',
+              font: { size: 10, family: "'Plus Jakarta Sans', 'Noto Sans TC'" }
+            },
+            ticks: { display: false, max: 100, min: 0 }
+          }
+        },
+        plugins: {
+          legend: { display: false }
+        }
+      }
+    }) : null;
+
+    // 互動實戰題目資料庫
+    const questions = [
+      {
+        chinese: "我們常常把父母對我們的愛視為理所當然。",
+        hint: "提示：使用核心動詞片語「take ... for granted」，注意人稱與時態。",
+        standard: "We often take our parents' love for granted.",
+        cleanStandard: "we often take our parents love for granted",
+        explanation: "關鍵語塊【take A for granted】（將 A 視為理所當然）。容易出錯點：parents' 的撇號所有格位置，以及 often 頻率副詞在一般動詞前的語序。"
+      },
+      {
+        chinese: "這本書不僅提供了實用的英語學習策略，而且激勵了無數讀者勇敢開口。",
+        hint: "提示：使用強邏輯連接詞「Not only... but also...」，注意時態一致與倒裝結構可選。",
+        standard: "This book not only provides practical strategies for learning English, but also inspires countless readers to speak up.",
+        cleanStandard: "this book not only provides practical strategies for learning english but also inspires countless readers to speak up",
+        explanation: "關鍵架構【not only A, but also B】並列主詞第三人稱單數動詞（provides / inspires）。若使用句首倒裝則為：Not only does this book provide..."
+      },
+      {
+        chinese: "許多人將他的巨大成功歸因於堅持不懈，而非單純的運氣。",
+        hint: "提示：使用核心片語「attribute A to B」，而非為「rather than」。",
+        standard: "Many people attribute his great success to perseverance rather than mere luck.",
+        cleanStandard: "many people attribute his great success to perseverance rather than mere luck",
+        explanation: "關鍵動詞搭配【attribute A to B】（將 A 歸因於 B），常考介系詞 to 接名詞/動名詞。此處 rather than 引導對比項，是高分作文必備骨架。"
+      }
+    ];
+
+    let currentQ = 0;
+
+    function selectQuestion(idx) {
+      currentQ = idx;
+      for (let i = 0; i < 3; i++) {
+        const btn = document.getElementById(`qbtn-${i}`);
+        if (i === idx) {
+          btn.className = "px-3 py-1.5 rounded-lg text-xs font-semibold bg-indigo-600 text-white transition";
+        } else {
+          btn.className = "px-3 py-1.5 rounded-lg text-xs font-semibold bg-slate-800 text-slate-300 hover:bg-slate-700 transition";
+        }
+      }
+      document.getElementById('target-chinese').innerText = questions[idx].chinese;
+      document.getElementById('target-hint').innerText = questions[idx].hint;
+      resetQuestion();
+    }
+
+    function resetQuestion() {
+      document.getElementById('user-input').value = '';
+      document.getElementById('char-count').innerText = '0 chars';
+      document.getElementById('result-panel').classList.add('hidden');
+    }
+
+    function cleanString(str) {
+      return str.toLowerCase().replace(/['".,\/#!$%\^&\*;:{}=\-_`~()]/g, "").replace(/\s+/g, " ").trim();
+    }
+
+    function judgeAnswer() {
+      const userInput = document.getElementById('user-input').value.trim();
+      if (!userInput) {
+        alert("請先在白紙輸入框中寫下你的英文默寫！體驗不偷看的主動提取。");
+        return;
+      }
+
+      const q = questions[currentQ];
+      const cleanUser = cleanString(userInput);
+      const cleanStd = q.cleanStandard;
+
+      const panel = document.getElementById('result-panel');
+      const status = document.getElementById('result-status');
+      const matchRate = document.getElementById('match-rate');
+      const diffUser = document.getElementById('diff-user');
+      const diffStandard = document.getElementById('diff-standard');
+      const explanation = document.getElementById('explanation-box');
+
+      panel.classList.remove('hidden');
+
+      // 只核對正規化後的例句文字；使用者輸入一律作為文字呈現。
+      diffUser.innerText = userInput;
+      diffStandard.innerText = q.standard;
+      explanation.innerText = `💡 編輯範例說明：\n${q.explanation}`;
+
+      if (cleanUser === cleanStd) {
+        status.innerText = '與參考例句的文字一致（經正規化）';
+        panel.className = "p-5 rounded-xl bg-emerald-950/20 border border-emerald-500/40";
+        matchRate.innerText = '文字一致';
+        matchRate.className = "text-xs font-mono px-2 py-0.5 rounded bg-emerald-500/20 text-emerald-300";
+      } else {
+        status.innerText = '與參考例句有文字差異，請自行對照';
+        panel.className = "p-5 rounded-xl bg-rose-950/20 border border-rose-500/40";
+        matchRate.innerText = '文字不同';
+        matchRate.className = "text-xs font-mono px-2 py-0.5 rounded bg-rose-500/20 text-rose-300";
+        explanation.innerText += '\n\n編輯提醒：其他表達也可能正確，本工具無法判斷。若正在練習這個例句，可核對差異後再次試寫。';
+      }
+      if (window.lucide) lucide.createIcons();
+    }
+  </script>
+</body>
+</html>

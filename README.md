@@ -10,8 +10,12 @@
 - 分類與關鍵字搜尋、方法詳頁、逐步勾選、個人收藏、列印版。
 - 每篇可包含步驟、流程圖、排程表、實作練習、常見誤區與來源。
 - 區分影片原述、編輯補充、外部佐證；沒有佐證時不宣稱成效已驗證。
-- 初始正式文章數為 **0**，另有清楚標示的版型示範。使用者提供的範例影片尚未被冒充為已完成文章。
+- 已收錄 **1 篇**來稿：《龍櫻》暗記暗誦法視覺化手冊。保留使用者交付 HTML 的圖文版型與互動，附原片與示意資料說明；另有獨立版型示範。
 - 收藏與練習進度僅存於目前瀏覽器；不跨裝置同步。
+
+## 正式文章
+
+[《龍櫻》暗記暗誦法：視覺化手冊與互動練習](https://method-studio-7dm.pages.dev/articles/dragon-english-memory.html)
 
 ## 本機預覽
 
@@ -34,7 +38,7 @@ npm test
 npm run build
 ```
 
-`dist/` 是完整靜態發布內容，可放在 Cloudflare Pages、Netlify 或其他靜態主機；第一版尚未公開部署。僅發布 `dist/`，不發布專案根目錄、研究筆記或 scratch。
+`dist/` 是完整靜態發布內容，可放在 Cloudflare Pages、Netlify 或其他靜態主機；正式站為 https://method-studio-7dm.pages.dev/。僅發布 `dist/`，不發布專案根目錄、研究筆記或 scratch。
 
 檢查會拒絕正式清單中的草稿、版型示範、重複 ID、缺失來源、不安全來源網址、失聯引用與流程連線，以及無來源的成效背書。檢查不代替內容審閱。
 
@@ -54,7 +58,7 @@ npm run build
 
 ## 檔案
 
-- `public/`：頁面、樣式與瀏覽器程式。
+- `public/`：頁面、樣式與瀏覽器程式；`public/articles/` 保留完成 HTML 來稿。
 - `data/catalog.json`：網站設定、分類、正式文章及獨立版型。
 - `scripts/catalog.mjs`：文章與來源關聯檢查。
 - `scripts/serve.mjs`：只讀、僅本機預覽。
@@ -65,3 +69,7 @@ npm run build
 ## 內容與來源
 
 YouTube 影片仍屬原創作者。網站保留原片連結與可核對的來源；不以標明出處替代授權，也不複製整本書或長篇逐字稿。AI 整理與資訊圖表只是呈現方式，不能自行證明方法有效。
+
+## 發布
+
+Cloudflare Pages 專案：`method-studio`；production branch：`main`。建置並驗證後使用 `wrangler pages deploy dist --project-name method-studio --branch main`。回復前一版本時重新建置該 Git 提交並部署，發布後讀回首頁、文章與來源連結。

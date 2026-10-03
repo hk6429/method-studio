@@ -5,3 +5,5 @@ scratch/
 .env
 .env.*
 .build-*/
+
+.wrangler/
