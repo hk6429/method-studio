@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 1000" role="img" aria-labelledby="cap-guowen-error-analysis-mobile-title cap-guowen-error-analysis-mobile-desc"><title id="cap-guowen-error-analysis-mobile-title">從一次答錯，走到判斷修正</title><desc id="cap-guowen-error-analysis-mobile-desc">縮小範圍 → 獨立作答 → 找出錯因 → 換題驗證；依新結果回到範圍選擇，調整下一輪練習。</desc>
+<defs><marker id="cap-guowen-error-analysis-mobile-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="640" height="1000" fill="#f0f2e9"/>
+<text x="40" y="64" fill="#586b60" font-size="25" font-weight="500">會考國文 · 分類修正路線</text>
+<text x="40" y="127" fill="#193732" font-size="40" font-weight="650">從一次答錯，</text>
+<text x="40" y="183" fill="#193732" font-size="40" font-weight="650">走到判斷修正</text>
+<rect x="40" y="220" width="530" height="150" rx="5" fill="#193732" stroke="#bdcbbb"/><text x="62" y="254" fill="#d4e2d4" font-size="20" font-weight="500">01</text><text x="62" y="305" fill="#fffef9" font-size="32" font-weight="650">縮小範圍</text><text x="62" y="345" fill="#d4e2d4" font-size="23" font-weight="500">分類年份題量</text>
+<path d="M304 373v16" fill="none" stroke="#586b60" stroke-width="2.4" marker-end="url(#cap-guowen-error-analysis-mobile-arrow)"/>
+<rect x="40" y="394" width="530" height="150" rx="5" fill="#fffef9" stroke="#bdcbbb"/><text x="62" y="428" fill="#586b60" font-size="20" font-weight="500">02</text><text x="62" y="479" fill="#193732" font-size="32" font-weight="650">獨立作答</text><text x="62" y="519" fill="#586b60" font-size="23" font-weight="500">先留自己的理由</text>
+<path d="M304 547v16" fill="none" stroke="#586b60" stroke-width="2.4" marker-end="url(#cap-guowen-error-analysis-mobile-arrow)"/>
+<rect x="40" y="568" width="530" height="150" rx="5" fill="#fffef9" stroke="#bdcbbb"/><text x="62" y="602" fill="#586b60" font-size="20" font-weight="500">03</text><text x="62" y="653" fill="#193732" font-size="32" font-weight="650">找出錯因</text><text x="62" y="693" fill="#586b60" font-size="23" font-weight="500">補一個具體動作</text>
+<path d="M304 721v16" fill="none" stroke="#586b60" stroke-width="2.4" marker-end="url(#cap-guowen-error-analysis-mobile-arrow)"/>
+<rect x="40" y="742" width="530" height="150" rx="5" fill="#fffef9" stroke="#bdcbbb"/><text x="62" y="776" fill="#586b60" font-size="20" font-weight="500">04</text><text x="62" y="827" fill="#193732" font-size="32" font-weight="650">換題驗證</text><text x="62" y="867" fill="#586b60" font-size="23" font-weight="500">重做之後換新題</text>
+<path d="M574 812H594Q608 812 608 798V302Q608 288 594 288H577" fill="none" stroke="#586b60" stroke-width="2.4" marker-end="url(#cap-guowen-error-analysis-mobile-arrow)"/>
+<text x="40" y="941" fill="#193732" font-size="29" font-weight="600">新結果 → 調整練習範圍</text>
+<text x="40" y="978" fill="#586b60" font-size="25" font-weight="500">錯因要具體，修正才有方向。</text>
+</svg>
