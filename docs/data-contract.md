@@ -1,6 +1,6 @@
 # 靜態文章資料契約 v1（使用者已澄清）
 
-網站只收錄使用者已透過AI整理、交付的文章；不搜尋YouTube、不自動讀影片、不串接AI，不含登入或收錄後台。根代理未來依使用者貼入的完成稿整理資料，再進行發布。
+網站收錄代理依影片逐字稿整理的方法文章，也接受使用者提供的逐字稿、完成稿、HTML 與文章網址。取得字幕、必要的本機轉錄、方法編排與心得撰寫都在編輯階段完成；訪客網站不搜尋 YouTube、不串接 AI，不含登入或收錄後台。
 
 前端 fetch('/data/catalog.json')：
 `{schemaVersion:1,site:{name,tagline,description},categories:[{id,name,description,topics:[{id,name}]}],methods:Method[],demo:Method}`。
@@ -18,6 +18,8 @@ Method:
 - pitfalls:string[]
 - practice:{title,minutes,prompt,deliverable,checklist:string[]}
 - supplements:[{title,text,sourceIds:string[]}]
+
+以逐字稿編成的文章需包含方法步驟、具體例子、實作判準及心得。心得可使用 supplements，標題明示「我的心得」或「編輯觀點」；個人看法不偽裝成影片原話或親身成效。sourceCoverage 記錄人工／自動字幕或本機轉錄、覆蓋範圍與未確認處；時間碼只使用真實字幕或轉錄時間，不由篇幅推算。完整逐字稿留於 scratch，不作為文章全文公開。
 
 來源url僅https；YouTube videoId須11碼合法ID。前端以textContent/安全DOM渲染資料，不插入未信任HTML。來源時間只有有根據的秒數才可帶跳轉；null就連整部影片。
 
