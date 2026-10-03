@@ -1,0 +1,16 @@
+[
+  {
+    "file": "concept-16x9.png",
+    "bytes": 2843683,
+    "width": 1672,
+    "height": 941,
+    "sha256": "262a783107718e514ba3e1847ca473bef6440f0414c714de28b3fed19c7915b4"
+  },
+  {
+    "file": "concept-9x16.png",
+    "bytes": 2882320,
+    "width": 941,
+    "height": 1672,
+    "sha256": "604681dbb33c608829e362e6c7ccd132d001857533f8b9d3a9495f6ef8a9fac7"
+  }
+]
