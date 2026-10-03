@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 1000" role="img" aria-labelledby="daily-english-listen-recall-mobile-title daily-english-listen-recall-mobile-desc"><title id="daily-english-listen-recall-mobile-title">從聽懂五句，走到自己開口</title><desc id="daily-english-listen-recall-mobile-desc">盲聽核對 → 跟讀接話 → 撤除提示 → 測驗回訪；依卡點回到所需的提示重新練習。</desc>
+<defs><marker id="daily-english-listen-recall-mobile-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="640" height="1000" fill="#f0f2e9"/>
+<text x="40" y="64" fill="#586b60" font-size="25" font-weight="500">英語日日聽 · 聽說練習路線</text>
+<text x="40" y="127" fill="#193732" font-size="40" font-weight="650">從聽懂五句，</text>
+<text x="40" y="183" fill="#193732" font-size="40" font-weight="650">走到自己開口</text>
+<rect x="40" y="220" width="530" height="150" rx="5" fill="#193732" stroke="#bdcbbb"/><text x="62" y="254" fill="#d4e2d4" font-size="20" font-weight="500">01</text><text x="62" y="305" fill="#fffef9" font-size="32" font-weight="650">盲聽核對</text><text x="62" y="345" fill="#d4e2d4" font-size="23" font-weight="500">卡住才揭開字</text>
+<path d="M304 373v16" fill="none" stroke="#586b60" stroke-width="2.4" marker-end="url(#daily-english-listen-recall-mobile-arrow)"/>
+<rect x="40" y="394" width="530" height="150" rx="5" fill="#fffef9" stroke="#bdcbbb"/><text x="62" y="428" fill="#586b60" font-size="20" font-weight="500">02</text><text x="62" y="479" fill="#193732" font-size="32" font-weight="650">跟讀接話</text><text x="62" y="519" fill="#586b60" font-size="23" font-weight="500">留白時實際說</text>
+<path d="M304 547v16" fill="none" stroke="#586b60" stroke-width="2.4" marker-end="url(#daily-english-listen-recall-mobile-arrow)"/>
+<rect x="40" y="568" width="530" height="150" rx="5" fill="#fffef9" stroke="#bdcbbb"/><text x="62" y="602" fill="#586b60" font-size="20" font-weight="500">03</text><text x="62" y="653" fill="#193732" font-size="32" font-weight="650">撤除提示</text><text x="62" y="693" fill="#586b60" font-size="23" font-weight="500">由看字到回想</text>
+<path d="M304 721v16" fill="none" stroke="#586b60" stroke-width="2.4" marker-end="url(#daily-english-listen-recall-mobile-arrow)"/>
+<rect x="40" y="742" width="530" height="150" rx="5" fill="#fffef9" stroke="#bdcbbb"/><text x="62" y="776" fill="#586b60" font-size="20" font-weight="500">04</text><text x="62" y="827" fill="#193732" font-size="32" font-weight="650">測驗回訪</text><text x="62" y="867" fill="#586b60" font-size="23" font-weight="500">找到卡點重練</text>
+<path d="M574 812H594Q608 812 608 798V650Q608 636 594 636H577" fill="none" stroke="#586b60" stroke-width="2.4" marker-end="url(#daily-english-listen-recall-mobile-arrow)"/>
+<text x="40" y="941" fill="#193732" font-size="29" font-weight="600">回看卡點 → 按需退回提示</text>
+<text x="40" y="978" fill="#586b60" font-size="25" font-weight="500">隔天回來，再試一次。</text>
+</svg>
