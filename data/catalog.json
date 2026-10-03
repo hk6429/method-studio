@@ -256,7 +256,15 @@
         "alt": "從理解一句，到自己寫出來。讀懂句意：確認意思與情境；遮住英文：保留中文提示；獨立默寫：寫下第一次答案；核對重練：標差異，再試一次。",
         "caption": "看中文 → 寫英文 → 對答案；四格為編輯整理的練習路線。",
         "cardImage": "/assets/overviews/dragon-english-memory-card.svg"
-      }
+      },
+      "publishedAt": "2026-10-03T11:43:07+08:00",
+      "keywords": [
+        "龍櫻",
+        "暗記暗誦",
+        "英文默寫",
+        "句子記憶",
+        "間隔複習"
+      ]
     },
     {
       "id": "reading-strategies",
@@ -415,7 +423,16 @@
         "alt": "依閱讀目標，選一條路。摘要：留下核心訊息；分析：看關係與作用；推論：依線索說理由；比較：對齊比較面向。四種策略沒有固定先後。",
         "caption": "四種策略依目標選用，沒有固定先後；共同回到文本與證據。",
         "cardImage": "/assets/overviews/reading-strategies-card.svg"
-      }
+      },
+      "publishedAt": "2026-10-03T12:59:56+08:00",
+      "keywords": [
+        "國中國文",
+        "閱讀理解",
+        "摘要",
+        "分析",
+        "推論",
+        "比較"
+      ]
     },
     {
       "id": "error-notebook-speaking",
@@ -715,7 +732,15 @@
         "alt": "把一個卡點，練成一句話。整句保留：留下句意與卡點；遮答回想：先回答，再核對；錯因歸類：集中練同類問題；情境開口：用在真實場合。",
         "caption": "影片方法的編輯圖解；完整操作與自訂練習安排見下文。",
         "cardImage": "/assets/overviews/error-notebook-speaking-card.svg"
-      }
+      },
+      "publishedAt": "2026-10-03T14:56:08+08:00",
+      "keywords": [
+        "錯題筆記",
+        "口說",
+        "句卡",
+        "主動回想",
+        "情境練習"
+      ]
     },
     {
       "id": "ai-differentiated-teaching",
@@ -1075,7 +1100,16 @@
         "mobileImage": "/assets/overviews/ai-differentiated-teaching-mobile.svg",
         "alt": "共同目標 → 素材聚焦 → 分層支持 → 試教回饋；依作答觀察回到任務調整。",
         "caption": "依 10 月 2 日高雄研習編輯整理：先聚焦共同目標，再依學生作答調整支持；流程圖不代表成效驗證。"
-      }
+      },
+      "publishedAt": "2026-10-03T20:07:09+08:00",
+      "keywords": [
+        "差異化教學",
+        "NotebookLM",
+        "YAML",
+        "AI 備課",
+        "鷹架",
+        "任務卡"
+      ]
     },
     {
       "id": "daily-english-listen-recall",
@@ -1510,7 +1544,15 @@
         "cardImage": "/assets/overviews/daily-english-listen-recall-card.svg",
         "alt": "盲聽核對 → 跟讀接話 → 撤除提示 → 測驗回訪；依卡點回到所需的提示重新練習。",
         "caption": "依「英語日日聽」實際功能編輯整理：把提示逐步收回，再用作答與開口表現決定下一輪練習。"
-      }
+      },
+      "publishedAt": "2026-10-03T23:09:26+08:00",
+      "keywords": [
+        "英語日日聽",
+        "聽力",
+        "跟讀",
+        "角色接話",
+        "提示漸退"
+      ]
     },
     {
       "id": "vocab-duel-recall-repair",
@@ -1950,7 +1992,15 @@
         "cardImage": "/assets/overviews/vocab-duel-recall-repair-card.svg",
         "alt": "定量起步 → 主動作答 → 錯字攻克 → 到期再練；答錯回查，答對也保留後續複習。",
         "caption": "依字鬥英雄正式功能編輯整理：用小量任務起步，把錯字帶入拼字攻克，再用後續回訪檢查。"
-      }
+      },
+      "publishedAt": "2026-10-03T23:17:47+08:00",
+      "keywords": [
+        "字鬥英雄",
+        "英文單字",
+        "拼字",
+        "錯字修正",
+        "間隔複習"
+      ]
     },
     {
       "id": "bianshui-evidence-revision",
@@ -2396,7 +2446,15 @@
         "cardImage": "/assets/overviews/bianshui-evidence-revision-card.svg",
         "alt": "情境提問 → 原文取證 → 操作說理 → 改稿遷移；新線索或理由不足時，回到原文重新判斷。",
         "caption": "依汴水小鎮功能編輯整理：情境帶出問題，原文支持判斷，作品保留修改與生活應用。"
-      }
+      },
+      "publishedAt": "2026-10-03T23:22:54+08:00",
+      "keywords": [
+        "汴水小鎮",
+        "情境閱讀",
+        "文本證據",
+        "說理",
+        "作品修訂"
+      ]
     }
   ],
   "demo": {

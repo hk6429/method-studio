@@ -4,6 +4,18 @@ export const isHttpsUrl = value => {
 const slug = value => typeof value === 'string' && /^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(value);
 const text = value => typeof value === 'string' && value.trim().length > 0;
 const list = value => Array.isArray(value) ? value : [];
+const publishedDateTime = value => {
+  if (typeof value !== 'string') return false;
+  const match = /^(\d{4})-(\d{2})-(\d{2})[Tt](\d{2}):(\d{2}):(\d{2})(?:\.\d+)?(?:[Zz]|([+-])(\d{2}):(\d{2}))$/.exec(value);
+  if (!match) return false;
+  const [, year, month, day, hour, minute, second, , offsetHour, offsetMinute] = match;
+  const leapYear = +year % 4 === 0 && (+year % 100 !== 0 || +year % 400 === 0);
+  const days = [31, leapYear ? 29 : 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
+  return +month >= 1 && +month <= 12 && +day >= 1 && +day <= days[+month - 1]
+    && +hour <= 23 && +minute <= 59 && +second <= 59
+    && (offsetHour === undefined || (+offsetHour <= 23 && +offsetMinute <= 59))
+    && Number.isFinite(Date.parse(value));
+};
 export function validateCatalog(catalog) {
   const errors = [];
   const error = (path, message) => errors.push(`${path}：${message}`);
@@ -41,6 +53,10 @@ export function validateCatalog(catalog) {
     if (!method || typeof method !== 'object') { error(path, '文章格式錯誤'); return; }
     if (!slug(method.id)) error(path, '文章 ID 必須是英文小寫 slug');
     if (!['video_method','article_method','editorial_example'].includes(method.contentType)) error(path, '文章類型無效');
+    if ((!demo || Object.hasOwn(method, 'publishedAt')) && !publishedDateTime(method.publishedAt)) error(`${path}.publishedAt`, '須為有效且含時區的 RFC 3339 收錄時間');
+    if (Object.hasOwn(method, 'pinned') && typeof method.pinned !== 'boolean') error(`${path}.pinned`, '置頂設定須為布林值');
+    if (Object.hasOwn(method, 'pinOrder') && (method.pinned !== true || !Number.isSafeInteger(method.pinOrder) || method.pinOrder <= 0)) error(`${path}.pinOrder`, '置頂順序須為正整數，且 pinned 必須為 true');
+    if (Object.hasOwn(method, 'keywords') && (!Array.isArray(method.keywords) || method.keywords.some(keyword => !text(keyword)))) error(`${path}.keywords`, '關鍵字須為非空白字串陣列');
     if (method.articlePath != null && (typeof method.articlePath !== 'string' || !/^\/articles\/[a-z0-9-]+\.html$/.test(method.articlePath))) error(path, '獨立文章路徑須為 /articles/slug.html');
     if (!demo && method.overview == null) error(path, '正式文章必須提供文章概覽圖與列表配圖');
     if (method.overview != null) {

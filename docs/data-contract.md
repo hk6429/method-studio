@@ -11,6 +11,9 @@ Method:
 - overview（正式文章必填，demo 可省略）：`{image,mobileImage,cardImage,alt,caption}`。image、mobileImage 與 cardImage 使用 `/assets/overviews/<slug>.svg`，圖說區分編輯整理；手機須有可讀排版。獨立 HTML 同步放入相同圖檔，結構化文章由閱讀版型自動顯示。
 - articlePath（可選）：`/articles/<slug>.html`，保留使用者交付的完整 HTML；首頁卡片與文章路由導向此站內頁面。未提供時使用結構化閱讀版型。
 - id (slug), title, summary, categoryId (`ai`/`english`/`reading`), topicIds (string[]), level (`入門`/`進階`), minutes(number), output(string), audience(string), status(`ready`/`draft`), contentType(`video_method`/`article_method`/`editorial_example`), reviewedAt (YYYY-MM-DD)
+- publishedAt（正式文章必填）：首次收錄於本站的 RFC 3339 日期時間，必須包含時區，例如 `2026-10-03T23:22:54+08:00`；使用有效日曆日期與 00–23 時、00–59 分秒。來源發布日期仍屬於 `sources[].publishedAt`，文章修訂日期仍使用 `reviewedAt`，兩者都不能代替首次收錄時間。
+- pinned（可選 boolean，預設未置頂）：只有明確設為 `true` 才列入全站置頂專區。pinOrder（可選正整數）只能與 `pinned: true` 一起使用；小者在前，未提供者放最後，同值保留傳入陣列順序。未指定的真實文章不自行置頂。
+- keywords（可選 string[]）：供搜尋使用的精簡關鍵字，每一項都必須是非空白字串；不代替既有分類與子題。
 - sourceCoverage (string，明示使用者提供整理稿、逐字稿或僅公開說明)，coverLabel (短字)
 - sources: [{id,title,url,kind:`video`|`article`|`official`|`research`|`manuscript`,channel?,videoId?,publishedAt?,note?}]
 - steps: [{id,title,action,why,example,check,contribution:`source`|`editorial`,sourceRefs:[{sourceId,startSeconds:number|null,endSeconds:number|null}]}]
@@ -24,7 +27,25 @@ Method:
 
 來源url僅https；YouTube videoId須11碼合法ID。前端以textContent/安全DOM渲染資料，不插入未信任HTML。來源時間只有有根據的秒數才可帶跳轉；null就連整部影片。
 
-網站搜尋範圍：已收錄文章的標題、摘要、子題與步驟；不串接外部搜尋。收藏/步驟完成狀態只存使用者localStorage。
+網站搜尋只涵蓋已收錄 `ready` 文章：標題、摘要、分類與已指定子題名稱、文章類型中文名稱、keywords、適用對象、產出、步驟、練習、圖說、圖解文字、補充閱讀、來源說明與佐證文字。查詢與文字都先作 NFKC 正規化並轉小寫，再以空白拆詞，每個詞都需出現在同一篇文章的搜尋文字中；不同詞可分布於不同欄位。網址、內部 ID 與未指定的子題不作搜尋詞。不串接外部搜尋。收藏/步驟完成狀態只存使用者localStorage。
+
+文章庫純函式位於 `public/ui/library.js`：
+- `CONTENT_TYPES = [{id:'video_method',name:'影片方法'},{id:'article_method',name:'主題文章'}]`。
+- `selectMethods(methods, categories, filters = {}, favorites = new Set())` 回傳符合條件的正式文章新陣列，不修改資料或優先置頂。filters 為 `{category:'all',topic:'all',contentType:'all',query:'',saved:false,sort:'newest'}`；分類、子題、內容類型、查詢及收藏採交集。
+- `sort` 支援 `newest`（收錄時間新到舊）、`oldest`（舊到新）、`shortest`（練習時間短到長）與 `title`（繁體中文標題順序）。收錄時間相同時，newest 採原資料陣列後加入者優先，oldest 採原順序；shortest 與 title 同分以 newest 決定。僅供舊測試資料相容時，缺少 publishedAt 才退回 reviewedAt；正式資料驗證仍要求 publishedAt。
+- `splitMethods(methods, {showLatest = false} = {})` 回傳 `{pinned,latest,remaining}`，依前述 pinOrder 分出置頂文章；啟用 showLatest 時，剩餘陣列前三篇進 latest，其餘進 remaining。以 id 去重，三區不重複。最新版排序先由 selectMethods 完成，分組不另改普通文章順序。
+
+既有七篇文章的 publishedAt 由 Git 歷史逐版確認各 id 首次出現的提交時間，並非原來源發布日期：
+
+| 文章 id | 首次加入提交 | publishedAt |
+|---|---|---|
+| dragon-english-memory | bec8419 | 2026-10-03T11:43:07+08:00 |
+| reading-strategies | 3bac330 | 2026-10-03T12:59:56+08:00 |
+| error-notebook-speaking | 7d9491b | 2026-10-03T14:56:08+08:00 |
+| ai-differentiated-teaching | 73bd1d1 | 2026-10-03T20:07:09+08:00 |
+| daily-english-listen-recall | 8db9835 | 2026-10-03T23:09:26+08:00 |
+| vocab-duel-recall-repair | 22f4831 | 2026-10-03T23:17:47+08:00 |
+| bianshui-evidence-revision | 8643afd | 2026-10-03T23:22:54+08:00 |
 
 入口public/index.html、styles.css、app.js與可選ui/*.js。hash路由 #method=<id> 與 #preview。收錄後台、JSON輸入、API狀態、AI生成按鈕全部取消。
 

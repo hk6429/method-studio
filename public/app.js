@@ -1,5 +1,6 @@
 import { el, icon, readStored, writeStored, toast } from './ui/dom.js';
 import { renderMethod } from './ui/method.js';
+import { CONTENT_TYPES, selectMethods, splitMethods } from './ui/library.js';
 
 const main = document.getElementById('main');
 const FAVORITES_KEY = 'method-studio:favorites:v1';
@@ -7,7 +8,7 @@ const savedValue = readStored(FAVORITES_KEY, []);
 let favorites = new Set(Array.isArray(savedValue) ? savedValue.filter(id => typeof id === 'string') : []);
 let catalog = null;
 let searchTimer;
-const filters = { category: 'all', topic: 'all', query: '', saved: false };
+const filters = { category: 'all', topic: 'all', contentType: 'all', query: '', saved: false, sort: 'newest' };
 
 function readyMethods() {
   return catalog.methods.filter(method => method.status === 'ready');
@@ -70,15 +71,22 @@ function renderMethodCard(method, index, updateResults) {
   const category = catalog.categories.find(item => item.id === method.categoryId);
   const topicLabels = (method.topicIds || []).map(id => category?.topics?.find(topic => topic.id === id)?.name || id);
   const favorite = favorites.has(method.id);
-  const bookmark = el('button', { type: 'button', class: `card-bookmark${favorite ? ' is-saved' : ''}`, 'aria-label': `${favorite ? '取消收藏' : '收藏'}：${method.title}`, 'aria-pressed': String(favorite), onClick: () => { toggleFavorite(method.id); updateResults(); } }, icon('bookmark'));
+  const bookmark = el('button', { type: 'button', class: `card-bookmark${favorite ? ' is-saved' : ''}`, 'aria-label': `${favorite ? '取消收藏' : '收藏'}：${method.title}`, 'aria-pressed': String(favorite), onClick: () => {
+    toggleFavorite(method.id);
+    updateResults();
+    const replacement = [...document.querySelectorAll('[data-method-id]')].find(card => card.dataset.methodId === method.id);
+    (replacement?.querySelector('.card-bookmark') || document.getElementById('method-search'))?.focus({ preventScroll: true });
+  } }, icon('bookmark'));
   const link = articlePath(method) || `#method=${encodeURIComponent(method.id)}`;
   const sourceLabel = method.contentType === 'editorial_example' ? '編輯示範' : method.coverLabel || '方法筆記';
-  return el('article', { class: `method-card category-${category?.id || 'other'}` },
+  const typeName = CONTENT_TYPES.find(type => type.id === method.contentType)?.name;
+  const date = method.publishedAt ? new Intl.DateTimeFormat('zh-TW', { timeZone: 'Asia/Taipei', year: 'numeric', month: '2-digit', day: '2-digit' }).format(new Date(method.publishedAt)) : '';
+  return el('article', { class: `method-card category-${category?.id || 'other'}`, 'data-method-id': method.id },
     method.overview ? el('a', { href: link, class: 'card-illustration', tabindex: '-1', 'aria-hidden': 'true' }, el('img', { src: method.overview.cardImage, alt: '', width: 800, height: 480, loading: 'lazy', decoding: 'async' })) : null,
-    el('div', { class: 'card-top' }, el('span', { class: 'card-index' }, String(index + 1).padStart(2, '0')), el('span', { class: 'card-category' }, category?.name || '其他方法'), bookmark),
-    el('div', { class: 'card-body' }, el('div', { class: 'card-topics' }, ...topicLabels.map(topic => el('span', {}, topic))), el('h3', {}, el('a', { href: link }, method.title)), textBlockOrSummary(method.summary), el('div', { class: 'card-output' }, el('span', {}, '做完帶走'), el('strong', {}, method.output || '一份自己的練習成果'))),
+    el('div', { class: 'card-top' }, el('span', { class: 'card-index' }, String(index + 1).padStart(2, '0')), el('span', { class: 'card-category' }, category?.name || '其他方法'), method.pinned ? el('span', { class: 'pinned-badge' }, '置頂') : null, bookmark),
+    el('div', { class: 'card-body' }, el('div', { class: 'card-topics' }, ...topicLabels.map(topic => el('span', {}, topic))), el('h4', { class: 'card-title' }, el('a', { href: link }, method.title)), textBlockOrSummary(method.summary), el('div', { class: 'card-output' }, el('span', {}, '做完帶走'), el('strong', {}, method.output || '一份自己的練習成果'))),
     el('div', { class: 'card-bottom' }, el('div', { class: 'card-meta' }, method.minutes ? el('span', {}, icon('clock'), `${method.minutes} 分鐘`) : null, method.level ? el('span', {}, method.level) : null), el('a', { href: link, class: 'card-read', 'aria-label': `開始練習：${method.title}` }, icon('arrow'))),
-    el('div', { class: 'card-source-status' }, el('span', {}, sourceLabel), method.sourceCoverage ? el('p', {}, method.sourceCoverage) : null)
+    el('div', { class: 'card-source-status' }, el('span', {}, typeName ? `${typeName} · ${sourceLabel}` : sourceLabel), date ? el('time', { class: 'card-date', datetime: method.publishedAt }, `${date} 發布`) : null, method.sourceCoverage ? el('p', {}, method.sourceCoverage) : null)
   );
 }
 
@@ -88,8 +96,8 @@ function textBlockOrSummary(text) {
 
 function emptyState(hasQuery, clearFilters) {
   const isCompletelyEmpty = readyMethods().length === 0;
-  const title = filters.saved ? '留給下次的好方法，都會在這裡。' : hasQuery ? '還沒找到符合的方法。' : '第一篇方法，正在準備中。';
-  const copy = filters.saved ? '看到想練習的文章，按下收藏；下一次回來，就從這裡開始。' : hasQuery ? '換個關鍵字，或調整分類再試試。' : '這裡會收錄已經整理好的學習文章。你可以先看看文章版型，試著勾選步驟，走一遍練習流程。';
+  const title = hasQuery ? '還沒找到符合的方法。' : filters.saved ? '留給下次的好方法，都會在這裡。' : '第一篇方法，正在準備中。';
+  const copy = hasQuery ? '換個關鍵字，或調整分類再試試。' : filters.saved ? '看到想練習的文章，按下收藏；下一次回來，就從這裡開始。' : '這裡會收錄已經整理好的學習文章。你可以先看看文章版型，試著勾選步驟，走一遍練習流程。';
   const box = el('div', { class: 'empty-state' },
     el('div', { class: 'empty-drawing', 'aria-hidden': 'true' }, el('div', { class: 'empty-sheet sheet-back' }), el('div', { class: 'empty-sheet sheet-front' }, icon(filters.saved ? 'bookmark' : hasQuery ? 'search' : 'book'), el('i'), el('i'), el('i'))),
     el('div', { class: 'empty-copy' }, el('span', { class: 'eyebrow' }, filters.saved ? 'YOUR COLLECTION' : hasQuery ? 'KEEP EXPLORING' : 'A PLACE TO BEGIN'), el('h3', {}, title), el('p', {}, copy),
@@ -107,7 +115,7 @@ function renderHome() {
   const section = el('section', { class: `library page-width${filters.saved ? ' saved-library' : ''}`, id: 'library', 'aria-labelledby': 'library-title' });
   const heading = el('div', { class: 'library-heading' },
     el('div', {}, el('span', { class: 'eyebrow' }, filters.saved ? 'SAVED FOR YOUR NEXT STEP' : 'THE METHOD LIBRARY'), el('h2', { id: 'library-title' }, filters.saved ? '我的收藏' : '從你想練習的開始。')),
-    el('p', {}, filters.saved ? '把有用的方法留下，找時間慢慢練。' : '兩個學習方向，一個小小的開始。')
+    el('p', {}, filters.saved ? '把有用的方法留下，找時間慢慢練。' : '依主題找方向，依關鍵字找做法。')
   );
   section.append(heading);
   const categoryButtons = [];
@@ -116,13 +124,23 @@ function renderHome() {
   const countLabel = el('p', { class: 'results-count', role: 'status', 'aria-live': 'polite', 'aria-atomic': 'true' });
   const searchInput = el('input', { id: 'method-search', type: 'search', name: 'q', placeholder: '搜尋工具、主題，或你想做到的事…', value: filters.query, autocomplete: 'off', 'aria-label': '搜尋站內方法文章' });
   const clearSearch = el('button', { type: 'button', class: 'clear-search', 'aria-label': '清除搜尋文字', hidden: !filters.query, onClick: () => { searchInput.value = ''; filters.query = ''; updateResults(); searchInput.focus(); } }, icon('cross'));
+  const typeSelect = el('select', { id: 'method-type', name: 'type', onChange: event => { filters.contentType = event.target.value; updateResults(); } },
+    [{ id: 'all', name: '全部種類' }, ...CONTENT_TYPES].map(type => el('option', { value: type.id }, type.name)));
+  const sortSelect = el('select', { id: 'method-sort', name: 'sort', onChange: event => { filters.sort = event.target.value; updateResults(); } },
+    [['newest', '最新發布'], ['oldest', '最早發布'], ['shortest', '練習時間：短到長'], ['title', '文章標題']].map(([value, label]) => el('option', { value }, label)));
+  typeSelect.value = filters.contentType;
+  sortSelect.value = filters.sort;
+  const resetButton = el('button', { type: 'button', class: 'reset-filters', onClick: clearFilters }, '清除篩選', icon('cross'));
 
   function clearFilters() {
-    filters.category = 'all'; filters.topic = 'all'; filters.query = '';
+    filters.category = 'all'; filters.topic = 'all'; filters.query = ''; filters.contentType = 'all'; filters.sort = 'newest';
     searchInput.value = '';
+    typeSelect.value = 'all'; sortSelect.value = 'newest';
+    if (!filters.saved) setActiveNav(null);
     updateCategoryButtons();
     updateTopics();
     updateResults();
+    searchInput.focus();
   }
 
   function updateCategoryButtons() {
@@ -159,22 +177,29 @@ function renderHome() {
 
   function updateResults() {
     updateCategoryButtons();
-    const query = filters.query.trim().toLocaleLowerCase('zh-TW');
-    const words = query.split(/\s+/).filter(Boolean);
-    const methods = readyMethods().filter(method => {
-      if (filters.saved && !favorites.has(method.id)) return false;
-      if (filters.category !== 'all' && method.categoryId !== filters.category) return false;
-      if (filters.topic !== 'all' && !(method.topicIds || []).includes(filters.topic)) return false;
-      const category = catalog.categories.find(item => item.id === method.categoryId);
-      const topics = (method.topicIds || []).map(id => category?.topics?.find(topic => topic.id === id)?.name || id).join(' ');
-      const haystack = [method.title, method.summary, method.output, method.audience, topics, ...(method.steps || []).map(step => [step.title, step.action, step.example].join(' '))].join(' ').toLocaleLowerCase('zh-TW');
-      return words.every(word => haystack.includes(word));
-    });
+    const query = filters.query.trim();
+    const methods = selectMethods(catalog.methods, catalog.categories, filters, favorites);
     clearSearch.hidden = !filters.query;
     const categoryName = catalog.categories.find(item => item.id === filters.category)?.name;
-    countLabel.replaceChildren(el('strong', {}, `${methods.length}`), ` 篇${filters.saved ? '收藏' : '方法'}${categoryName ? ` · ${categoryName}` : ''}${query ? ` · 搜尋「${filters.query.trim()}」` : ''}`);
-    const hasQuery = Boolean(query || filters.category !== 'all' || filters.topic !== 'all');
-    results.replaceChildren(methods.length ? el('div', { class: 'method-grid' }, methods.map((method, index) => renderMethodCard(method, index, updateResults))) : emptyState(hasQuery, clearFilters));
+    const typeName = CONTENT_TYPES.find(type => type.id === filters.contentType)?.name;
+    countLabel.replaceChildren(el('strong', {}, `${methods.length}`), ` 篇${filters.saved ? '收藏' : '方法'}${categoryName ? ` · ${categoryName}` : ''}${typeName ? ` · ${typeName}` : ''}${query ? ` · 搜尋「${query}」` : ''}`);
+    const hasQuery = Boolean(query || filters.category !== 'all' || filters.topic !== 'all' || filters.contentType !== 'all');
+    resetButton.hidden = !hasQuery && filters.sort === 'newest';
+    if (!methods.length) { results.replaceChildren(emptyState(hasQuery, clearFilters)); return; }
+    const showLatest = !filters.saved && !hasQuery && filters.sort === 'newest';
+    const groups = splitMethods(methods, { showLatest });
+    let cardIndex = 0;
+    function group(key, title, description) {
+      if (!groups[key].length) return null;
+      return el('section', { class: `library-group ${key}-group`, 'aria-labelledby': `${key}-title`, 'data-library-group': key },
+        el('div', { class: 'library-group-heading' }, el('h3', { id: `${key}-title` }, title, el('span', {}, `${groups[key].length} 篇`)), el('p', {}, description)),
+        el('div', { class: 'method-grid' }, groups[key].map(method => renderMethodCard(method, cardIndex++, updateResults))));
+    }
+    results.replaceChildren(...[
+      group('pinned', '置頂文章', '站長選定，值得先讀的方法。'),
+      group('latest', '最新三篇', groups.pinned.length ? '最新收錄的方法，已置頂文章不重複列出。' : '從最近加入的方法，找一個新的練習。'),
+      group('remaining', showLatest ? '更多方法' : filters.saved ? '收藏文章' : '篩選結果', `${sortSelect.selectedOptions[0].textContent}排列${groups.pinned.length ? '，置頂文章另列於上方' : ''}。`),
+    ].filter(Boolean));
   }
 
   const tabs = el('div', { class: 'category-tabs', role: 'group', 'aria-label': '依學習方向篩選' });
@@ -198,7 +223,11 @@ function renderHome() {
     searchTimer = setTimeout(updateResults, 100);
   });
   const search = el('form', { class: 'search-box', role: 'search', onSubmit: event => { event.preventDefault(); filters.query = searchInput.value; clearTimeout(searchTimer); updateResults(); } }, icon('search'), searchInput, clearSearch);
-  section.append(el('div', { class: 'library-controls' }, tabs, search), topicArea, el('div', { class: 'results-toolbar' }, countLabel, el('p', { class: 'results-note' }, filters.saved ? '收藏保留在目前瀏覽器' : '收藏喜歡的，練習用得上的')), results);
+  section.append(el('div', { class: 'library-controls' }, tabs, search), topicArea,
+    el('div', { class: 'library-options' },
+      el('label', { class: 'library-select', for: 'method-type' }, el('span', {}, '文章種類'), typeSelect),
+      el('label', { class: 'library-select', for: 'method-sort' }, el('span', {}, '排序'), sortSelect), resetButton),
+    el('div', { class: 'results-toolbar' }, countLabel, el('p', { class: 'results-note' }, filters.saved ? '收藏保留在目前瀏覽器' : '搜尋標題、主題、步驟與心得')), results);
   updateTopics();
   updateResults();
   home.append(section);
@@ -238,9 +267,9 @@ function renderRoute({ focus = true } = {}) {
   } else {
     const category = params.get('category');
     if (category && catalog.categories.some(item => item.id === category)) {
-      filters.category = category; filters.topic = 'all'; filters.query = '';
+      filters.category = category; filters.topic = 'all'; filters.query = ''; filters.contentType = 'all'; filters.sort = 'newest';
     } else if (hash === '' || hash === 'saved') {
-      filters.category = 'all'; filters.topic = 'all'; filters.query = '';
+      filters.category = 'all'; filters.topic = 'all'; filters.query = ''; filters.contentType = 'all'; filters.sort = 'newest';
     }
     filters.saved = hash === 'saved';
     page = renderHome();

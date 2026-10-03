@@ -7,6 +7,7 @@ function publishedCatalog(){
   const catalog=structuredClone(initial),method=structuredClone(catalog.demo);
   method.overview=structuredClone(initial.methods[0].overview);
   method.id='test-method';method.status='ready';method.contentType='video_method';
+  method.publishedAt='2026-10-03T10:00:00+08:00';
   method.sources=[{id:'video',title:'測試來源',kind:'video',videoId:'njhGvYkfPYM',url:'https://www.youtube.com/watch?v=njhGvYkfPYM'}];
   catalog.methods=[method];return catalog;
 }
@@ -79,4 +80,28 @@ test('每篇正式文章都必須有桌面、手機與列表配圖，不能漏�
       assert.ok(validateCatalog(c).some(e=>e.includes('概覽圖須使用站內')));
     }
   }
+});
+
+test('收錄時間必須包含時區，並拒絕不存在的日期與時間',()=>{
+  for(const value of [undefined,null,'','2026-10-03','2026-10-03T10:00:00','2026-02-29T10:00:00+08:00','2026-04-31T10:00:00Z','2026-13-01T10:00:00Z','2026-00-01T10:00:00Z','2026-10-00T10:00:00Z','2026-10-03T24:00:00Z','2026-10-03T10:60:00Z','2026-10-03T10:00:60Z','2026-10-03T10:00:00+24:00','2026-10-03T10:00:00+08:60']){
+    const catalog=publishedCatalog();catalog.methods[0].publishedAt=value;
+    assert.ok(validateCatalog(catalog).some(error=>error.includes('publishedAt')),String(value));
+  }
+  for(const value of ['2024-02-29T10:00:00Z','2026-10-03T10:00:00.125+08:00','2026-10-03T10:00:00-05:30']){
+    const catalog=publishedCatalog();catalog.methods[0].publishedAt=value;
+    assert.deepEqual(validateCatalog(catalog),[]);
+  }
+});
+
+test('置頂與關鍵字欄位需符合明確型別，置頂順序只能給置頂文章',()=>{
+  for(const patch of [{pinned:'true'},{pinned:1},{pinned:null},{pinOrder:1},{pinned:false,pinOrder:1},{pinned:true,pinOrder:0},{pinned:true,pinOrder:-1},{pinned:true,pinOrder:1.5},{pinned:true,pinOrder:'1'},{pinned:true,pinOrder:null},{keywords:'練習'},{keywords:null},{keywords:[1]},{keywords:['']} ,{keywords:['   ']}]){
+    const catalog=publishedCatalog();Object.assign(catalog.methods[0],patch);
+    assert.ok(validateCatalog(catalog).some(error=>/pinned|pinOrder|keywords/.test(error)),JSON.stringify(patch));
+  }
+  for(const patch of [{pinned:false,keywords:[]},{pinned:true},{pinned:true,pinOrder:2,keywords:['回想','AI']}]){
+    const catalog=publishedCatalog();Object.assign(catalog.methods[0],patch);
+    assert.deepEqual(validateCatalog(catalog),[]);
+  }
+  assert.ok(initial.methods.every(method=>!method.pinned),'未指定任何真實文章置頂');
+  assert.ok(initial.methods.every(method=>method.keywords?.length),'每篇正式文章都有搜尋關鍵字');
 });
