@@ -125,7 +125,7 @@ function linkedSources(ids, sources) {
 
 function sourceCard(source, index) {
   const videoId = typeof source.videoId === 'string' && /^[A-Za-z0-9_-]{11}$/.test(source.videoId) ? source.videoId : null;
-  const kindNames = { video: '影片來源', official: '官方文件', research: '研究資料', article: '文章來源' };
+  const kindNames = { video: '影片來源', official: '官方文件', research: '研究資料', article: '文章來源', manuscript: '講者／作者提供稿' };
   const box = el('article', { class: 'source-card' },
     el('span', { class: 'eyebrow' }, `${String(index + 1).padStart(2, '0')} / ${kindNames[source.kind] || '參考來源'}`),
     el('h3', {}, sourceLink(source, source.title)),

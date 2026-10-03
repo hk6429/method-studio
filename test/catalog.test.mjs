@@ -53,3 +53,17 @@ test('文章方法保留原文來源，不冒充影片；影片仍必須有原�
   method.contentType='unknown';
   assert.ok(validateCatalog(catalog).some(error=>error.includes('文章類型無效')));
 });
+
+
+test('講者提供稿可無網址，但必須可辨識來源，不能取代影片原片',()=>{
+  const catalog=publishedCatalog(), method=catalog.methods[0];
+  method.contentType='article_method';
+  method.sources=[{id:'notes',kind:'manuscript',title:'研習紀錄',channel:'講者提供',note:'講者貼入整理稿；未核對錄音。'}];
+  assert.deepEqual(validateCatalog(catalog),[]);
+  const source=method.sources[0];
+  source.url='javascript:alert(1)'; assert.ok(validateCatalog(catalog).length); delete source.url;
+  delete source.channel; assert.ok(validateCatalog(catalog).length); source.channel='講者提供';
+  delete source.note; assert.ok(validateCatalog(catalog).length); source.note='未核對錄音';
+  method.contentType='video_method'; assert.ok(validateCatalog(catalog).length);
+  method.contentType='article_method'; source.kind='article'; assert.ok(validateCatalog(catalog).length);
+});

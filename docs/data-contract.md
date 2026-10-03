@@ -12,7 +12,7 @@ Method:
 - articlePath（可選）：`/articles/<slug>.html`，保留使用者交付的完整 HTML；首頁卡片與文章路由導向此站內頁面。未提供時使用結構化閱讀版型。
 - id (slug), title, summary, categoryId (`ai`/`english`/`reading`), topicIds (string[]), level (`入門`/`進階`), minutes(number), output(string), audience(string), status(`ready`/`draft`), contentType(`video_method`/`article_method`/`editorial_example`), reviewedAt (YYYY-MM-DD)
 - sourceCoverage (string，明示使用者提供整理稿、逐字稿或僅公開說明)，coverLabel (短字)
-- sources: [{id,title,url,kind:`video`|`article`|`official`|`research`,channel?,videoId?,publishedAt?,note?}]
+- sources: [{id,title,url,kind:`video`|`article`|`official`|`research`|`manuscript`,channel?,videoId?,publishedAt?,note?}]
 - steps: [{id,title,action,why,example,check,contribution:`source`|`editorial`,sourceRefs:[{sourceId,startSeconds:number|null,endSeconds:number|null}]}]
 - visuals: [{type:`flow`,title,note,nodes:[{id,label,detail}],edges:[{from,to,label?}]}]；另支援 `{type:"schedule",title,note,columns:[string],rows:[{label,cells:[string]}]}`。圖解不等同證明成效。
 - validation: [{claim,status:`supported`|`partial`|`unverified`,explanation,sourceIds:string[],checkedAt}]
@@ -29,3 +29,5 @@ Method:
 入口public/index.html、styles.css、app.js與可選ui/*.js。hash路由 #method=<id> 與 #preview。收錄後台、JSON輸入、API狀態、AI生成按鈕全部取消。
 
 非影片完成稿使用 `article_method`，須保留 `kind: article` 的原整理頁；`video_method` 仍須保留 YouTube 原片。不得為非影片文章捏造影片或時間碼。獨立文章共用 /styles.css 與站頭站尾，特殊版面採 scoped CSS。
+
+講者或作者直接交付、未公開的整理稿可用 `kind: manuscript`，省略 url；必填 channel（提供者）、note（活動日期、取得方式與未核對範圍）。有 url 時仍須 HTTPS。前端以純文字顯示無網址來源，不捏造公開連結。article_method 可引用 article 或 manuscript；其他來源仍須網址，影片方法仍須原片。
