@@ -1,6 +1,7 @@
 import { el, icon, readStored, writeStored, toast } from './ui/dom.js';
 import { renderMethod } from './ui/method.js';
 import { CONTENT_TYPES, selectMethods, splitMethods } from './ui/library.js';
+import { characterImage, renderCompanions } from './ui/brand.js';
 
 const main = document.getElementById('main');
 const FAVORITES_KEY = 'method-studio:favorites:v1';
@@ -40,25 +41,17 @@ function setActiveNav(name) {
 }
 
 function renderHero() {
-  const hero = el('section', { class: 'hero page-width', 'aria-labelledby': 'home-title' },
+  const hero = el('section', { class: 'hero ink-hero page-width', 'aria-labelledby': 'home-title' },
     el('div', { class: 'hero-copy' },
-      el('div', { class: 'eyebrow hero-kicker' }, el('span', { class: 'tiny-line', 'aria-hidden': 'true' }), '學習 AI・學習英文・閱讀與學習'),
+      el('div', { class: 'eyebrow hero-kicker' }, el('span', { class: 'tiny-line', 'aria-hidden': 'true' }), '一間，把方法帶進生活的書院'),
       el('h1', { id: 'home-title' }, '把看過的方法，', el('br'), el('span', {}, '變成做得到的步驟。')),
-      el('p', { class: 'hero-description' }, '把值得留下的學習文章，整理成清楚的步驟、圖解與練習。找一個現在用得上的方法，今天就動手做一次。'),
+      el('p', { class: 'hero-description' }, '學習 AI、練習英文，也一起讀懂世界。把值得留下的方法，整理成步驟、圖解與練習，今天就從一件小事開始。'),
       el('div', { class: 'hero-actions' }, el('a', { class: 'button button-primary', href: '#library' }, '找一個方法開始', icon('arrow')), catalog.demo ? el('a', { class: 'text-button', href: '#preview' }, '看看文章版型', icon('arrow')) : null),
       el('p', { class: 'hero-footnote' }, el('span', { class: 'little-spark', 'aria-hidden': 'true' }, '✳'), '一次一個方法，留一點時間給練習。')
     ),
-    el('div', { class: 'hero-notebook', 'aria-label': '方法練習室的閱讀方式' },
-      el('div', { class: 'notebook-top' }, el('span', {}, '一份方法筆記'), el('span', { 'aria-hidden': 'true' }, 'FIELD NOTES / 01')),
-      el('div', { class: 'notebook-title' }, '從「我看過了」', el('br'), '走到「我做到了」'),
-      el('ol', { class: 'notebook-stages' }, [
-        ['01', '找到方法', '從現在想解決的問題開始。'],
-        ['02', '照著練習', '有步驟、有範例，知道怎樣算完成。'],
-        ['03', '帶走成果', '勾選進度，留下自己的實作。'],
-      ].map(([number, title, text]) => el('li', {}, el('span', { class: 'notebook-number', 'aria-hidden': 'true' }, number), el('div', {}, el('strong', {}, title), el('p', {}, text))))),
-      el('div', { class: 'notebook-bottom' }, icon('check'), '讓學習，有一個可以開始的地方。'),
-      el('span', { class: 'notebook-tab', 'aria-hidden': 'true' }, '動手試試')
-    )
+    el('figure', { class: 'hero-art' },
+      el('img', { src: '/assets/brand/companions-hero.webp', srcset: '/assets/brand/companions-hero-small.webp 768w, /assets/brand/companions-hero.webp 1536w', sizes: '(max-width: 800px) calc(100vw - 40px), 58vw', width: 1536, height: 1024, fetchpriority: 'high', decoding: 'async', alt: '臺灣國風水墨書院：阿問、知行、以澄、小硯與臺灣犬墨丸，一起拿著筆記與步驟圖。' }),
+      el('figcaption', {}, el('span', {}, '提問'), el('span', {}, '拆解'), el('span', {}, '試做'), el('span', {}, '回看')))
   );
   return hero;
 }
@@ -99,7 +92,7 @@ function emptyState(hasQuery, clearFilters) {
   const title = hasQuery ? '還沒找到符合的方法。' : filters.saved ? '留給下次的好方法，都會在這裡。' : '第一篇方法，正在準備中。';
   const copy = hasQuery ? '換個關鍵字，或調整分類再試試。' : filters.saved ? '看到想練習的文章，按下收藏；下一次回來，就從這裡開始。' : '這裡會收錄已經整理好的學習文章。你可以先看看文章版型，試著勾選步驟，走一遍練習流程。';
   const box = el('div', { class: 'empty-state' },
-    el('div', { class: 'empty-drawing', 'aria-hidden': 'true' }, el('div', { class: 'empty-sheet sheet-back' }), el('div', { class: 'empty-sheet sheet-front' }, icon(filters.saved ? 'bookmark' : hasQuery ? 'search' : 'book'), el('i'), el('i'), el('i'))),
+    el('div', { class: 'empty-companion', 'aria-hidden': 'true' }, characterImage('mowan', { size: 180, eager: true })),
     el('div', { class: 'empty-copy' }, el('span', { class: 'eyebrow' }, filters.saved ? 'YOUR COLLECTION' : hasQuery ? 'KEEP EXPLORING' : 'A PLACE TO BEGIN'), el('h3', {}, title), el('p', {}, copy),
       hasQuery ? el('button', { type: 'button', class: 'button button-quiet button-small', onClick: clearFilters }, '清除篩選，看看全部方法', icon('arrow')) : null,
       catalog.demo && (isCompletelyEmpty || filters.saved) ? el('a', { href: '#preview', class: 'button button-quiet button-small' }, '看看文章版型', icon('arrow')) : null,
@@ -115,7 +108,7 @@ function renderHome() {
   const section = el('section', { class: `library page-width${filters.saved ? ' saved-library' : ''}`, id: 'library', 'aria-labelledby': 'library-title' });
   const heading = el('div', { class: 'library-heading' },
     el('div', {}, el('span', { class: 'eyebrow' }, filters.saved ? 'SAVED FOR YOUR NEXT STEP' : 'THE METHOD LIBRARY'), el('h2', { id: 'library-title' }, filters.saved ? '我的收藏' : '從你想練習的開始。')),
-    el('p', {}, filters.saved ? '把有用的方法留下，找時間慢慢練。' : '依主題找方向，依關鍵字找做法。')
+    el('div', { class: 'library-greeting' }, characterImage('awen', { size: 72 }), el('p', {}, filters.saved ? '把有用的方法留下，找時間慢慢練。' : '阿問陪你找：今天想練習什麼？'))
   );
   section.append(heading);
   const categoryButtons = [];
@@ -232,7 +225,7 @@ function renderHome() {
   updateResults();
   home.append(section);
 
-  if (!filters.saved) home.append(el('section', { class: 'reading-guide page-width', 'aria-labelledby': 'reading-guide-title' },
+  if (!filters.saved) home.append(renderCompanions(), el('section', { class: 'reading-guide page-width', 'aria-labelledby': 'reading-guide-title' },
     el('div', { class: 'guide-intro' }, el('span', { class: 'eyebrow' }, 'A LITTLE PRACTICE, EVERY TIME'), el('h2', { id: 'reading-guide-title' }, '讓每一次閱讀，', el('br'), '多往前走一小步。'), el('p', {}, '清楚的出處、做得到的動作，還有留給自己的練習時間。')),
     el('div', { class: 'guide-items' }, [
       ['01', '知道方法從哪裡來', '原始出處與編輯補充清楚標示，可以回去查、接著讀。'],

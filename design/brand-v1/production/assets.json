@@ -1,0 +1,100 @@
+[
+  {
+    "file": "public/assets/brand/companions-hero.webp",
+    "bytes": 407136,
+    "sha256": "a11e00f333bbce1ac52c9216df49d3c3c4d68d6021cc0122fe27b08cd9d21ace",
+    "sourceSize": [
+      1536,
+      1024
+    ],
+    "size": [
+      1536,
+      1024
+    ],
+    "sourceHasAlpha": false
+  },
+  {
+    "file": "public/assets/brand/companions-hero-small.webp",
+    "bytes": 121620,
+    "sha256": "8dfa14801b4543f9ea24fecf3753c23c30219e72511c1185f1c28194a313945a",
+    "sourceSize": [
+      1536,
+      1024
+    ],
+    "size": [
+      768,
+      512
+    ],
+    "sourceHasAlpha": false
+  },
+  {
+    "file": "public/assets/brand/zhixing.webp",
+    "bytes": 27320,
+    "sha256": "450598d41f185ebe7b6d23aeeac47304a189a4e33f934f0027c242e769c39136",
+    "sourceSize": [
+      1254,
+      1254
+    ],
+    "size": [
+      384,
+      384
+    ],
+    "sourceHasAlpha": true
+  },
+  {
+    "file": "public/assets/brand/yicheng.webp",
+    "bytes": 29658,
+    "sha256": "0bb1e08edc6de515634752eebdacf5d8700bc3c15e18196413793c753a80b802",
+    "sourceSize": [
+      1254,
+      1254
+    ],
+    "size": [
+      384,
+      384
+    ],
+    "sourceHasAlpha": true
+  },
+  {
+    "file": "public/assets/brand/awen.webp",
+    "bytes": 27714,
+    "sha256": "080ae1297bcd5a3de253fee7a528c7fd9f7623d69712a0d8f6f862c0eb77c584",
+    "sourceSize": [
+      1254,
+      1254
+    ],
+    "size": [
+      384,
+      384
+    ],
+    "sourceHasAlpha": true
+  },
+  {
+    "file": "public/assets/brand/xiaoyan.webp",
+    "bytes": 32450,
+    "sha256": "5cdf7c6e8c1f2a57d62546b418f7e5e55c763dee5195247e8b140f068e5826e1",
+    "sourceSize": [
+      1254,
+      1254
+    ],
+    "size": [
+      384,
+      384
+    ],
+    "sourceHasAlpha": true
+  },
+  {
+    "file": "public/assets/brand/mowan.webp",
+    "bytes": 25690,
+    "sha256": "0dc20dad8c785103c72e820b71ced6311fd4a4477cb83448ef1a24c6e3f1276c",
+    "sourceSize": [
+      1254,
+      1254
+    ],
+    "size": [
+      384,
+      384
+    ],
+    "sourceHasAlpha": true
+  }
+]

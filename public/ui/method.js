@@ -1,4 +1,5 @@
 import { el, icon, sourceLink, timecode, safeURL, textBlock, readStored, writeStored, toast } from './dom.js';
+import { characterCue } from './brand.js';
 
 const SVG = 'http://www.w3.org/2000/svg';
 let diagramSequence = 0;
@@ -214,6 +215,7 @@ export function renderMethod(method, options = {}) {
   content.append(outputBox);
 
   const stepsSection = el('section', { class: 'reading-section steps-section', id: 'method-steps' }, sectionHeading('01', '跟著步驟做', '每一步都有具體動作；符合完成判準，再繼續下一步。'));
+  if (steps.length) stepsSection.append(characterCue('yicheng', '先看這一步要做什麼，再對照完成判準。把大方法拆小，就有地方開始。', { className: 'method-character-cue', compact: true }));
   if (!steps.length) stepsSection.append(el('p', { class: 'muted' }, '這篇文章目前尚未提供操作步驟。'));
   steps.forEach((step, index) => {
     const checkbox = el('input', { type: 'checkbox', checked: completed.has(step.id), 'aria-label': `標記步驟 ${index + 1}：${step.title} 已完成` });
@@ -256,6 +258,7 @@ export function renderMethod(method, options = {}) {
     const practiceChecks = new Set(Array.isArray(savedChecks) ? savedChecks : []);
     const practiceBox = el('section', { class: 'reading-section practice-section', id: 'method-practice' },
       sectionHeading('03', '輪到你試一次', practice.minutes ? `留 ${practice.minutes} 分鐘，把方法用在自己的情境。` : '把方法用在自己的情境。'),
+      characterCue('zhixing', '挑一個你正在面對的情境，照著做一次。先留下自己的成果，再回頭檢查。', { className: 'method-character-cue', compact: true }),
       el('div', { class: 'practice-paper' }, el('span', { class: 'eyebrow' }, 'YOUR TURN / 實作練習'), el('h3', {}, practice.title), textBlock(practice.prompt, 'practice-prompt'), el('div', { class: 'practice-deliverable' }, el('strong', {}, '這次交給自己的成果'), textBlock(practice.deliverable)), el('fieldset', { class: 'practice-checklist' }, el('legend', {}, '完成前，自己檢查'), (practice.checklist || []).map((item, index) => {
         const input = el('input', { type: 'checkbox', checked: practiceChecks.has(index), onChange: event => {
           if (event.target.checked) practiceChecks.add(index); else practiceChecks.delete(index);
@@ -273,6 +276,7 @@ export function renderMethod(method, options = {}) {
   ));
 
   const sourcesSection = el('section', { class: 'reading-section source-section', id: 'method-sources' }, sectionHeading('05', '出處與可信範圍', '分清楚原始說法、編輯補充，以及目前能支持到哪裡。'),
+    characterCue('xiaoyan', '想把方法用得踏實，先看取材範圍，再循連結回到原始資料。', { className: 'method-character-cue', compact: true }),
     el('div', { class: 'coverage-note' }, el('strong', {}, '這篇內容如何整理'), textBlock(method.sourceCoverage || '尚未提供取材範圍，請搭配原始來源閱讀。')),
     sources.length ? el('div', { class: 'sources-list' }, sources.map(sourceCard)) : el('p', { class: 'no-source-note' }, preview ? '版型示範沒有對應的原始影片；正式文章會在這裡列出出處。' : '目前未附外部來源，請將本文視為編輯整理。'),
     el('h3', { class: 'validation-heading' }, '佐證與限制'),
@@ -285,6 +289,7 @@ export function renderMethod(method, options = {}) {
   content.append(sourcesSection);
 
   const sidebarInner = el('div', { class: 'sidebar-inner' }, el('span', { class: 'eyebrow' }, '我的練習進度'), el('div', { class: 'progress-heading' }, el('strong', {}, '一步一步來'), progressText), progressBar, progressStatus);
+  sidebarInner.append(characterCue('mowan', '今天先練這一步，也很好。做完再留下記號，下次回來接著走。', { className: 'progress-character-cue', compact: true }));
   sidebarInner.append(el('p', { class: 'storage-note' }, preview ? '示範進度獨立儲存在目前瀏覽器。' : '進度儲存在目前瀏覽器，可隨時回來接著做。'));
   const actions = el('div', { class: 'sidebar-actions' });
   if (!preview) {

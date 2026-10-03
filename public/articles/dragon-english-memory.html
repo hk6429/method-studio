@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>《龍櫻》暗記暗誦法｜方法練習室</title>
   <meta name="theme-color" content="#f7f5ed">
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23193732'/%3E%3Cpath d='M17 18h13v28H17zm20 0h10v12H37zm0 19h10v9H37z' fill='%23f7f5ed'/%3E%3C/svg%3E">
+  <link rel="icon" href="/assets/brand/favicon.svg">
   <!-- Tailwind CSS CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
   <script>tailwind.config = { corePlugins: { preflight: false } };</script>
@@ -19,9 +19,9 @@
 </head>
 <body>
   <a class="skip-link" href="#main">跳到主要內容</a>
-    <header class="site-header">
+    <header class="site-header" data-brand-header>
       <a class="brand" href="/" aria-label="方法練習室，回首頁">
-        <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>
+        <span class="brand-mark brand-seal" aria-hidden="true">方法</span>
         <span>方法練習室<small>METHOD STUDIO</small></span>
       </a>
       <nav class="header-nav" aria-label="主要導覽">
@@ -60,6 +60,10 @@
         <span>入門練習</span><span>閱讀約 15 分鐘</span><span>含 3 題互動默寫</span>
         <a href="https://www.youtube.com/watch?v=njhGvYkfPYM" target="_blank" rel="noopener noreferrer">觀看原影片 ↗</a>
       </div>
+      <aside class="character-cue article-character-cue" data-brand-reading-cue>
+        <img class="character-portrait" src="/assets/brand/xiaoyan.webp" alt="" width="96" height="96" loading="lazy">
+        <div><strong>小硯 · 一起查出處</strong><p>先看看這篇能核對到哪裡。原始說法、編輯安排與示意圖，都在下方說明。</p></div>
+      </aside>
       <aside id="source-note" class="reading-card p-4 rounded-sm text-left text-xs sm:text-sm text-ink leading-relaxed mb-6">
         <strong class="text-brand">來源與整理範圍：</strong>本篇以使用者提供的 HTML 為主。原影片的公開說明僅能核對「看中文 → 寫英文 → 對答案」；沒有全片字幕／時間碼可供逐段核對，本篇無影片時間碼。四步 SOP、朗讀 10 遍與 5 次複習排程為編輯整理，尚未核對為原作者原話。出版社教材為 100 句，並非 100 篇；圖中的分數與毫秒都是示意。
       </aside>
@@ -300,6 +304,10 @@
           <p class="text-xs sm:text-sm text-muted">以下四步與朗讀 10 遍為提供稿的操作設計，尚未核對為原作者原話；請依程度調整。</p>
         </div>
       </div>
+      <aside class="character-cue article-character-cue">
+        <img class="character-portrait" src="/assets/brand/yicheng.webp" alt="" width="96" height="96" loading="lazy">
+        <div><strong>以澄 · 一起拆步驟</strong><p>從一句開始，把理解、試寫與核對分開做。先走過一輪，再調整適合自己的練習量。</p></div>
+      </aside>
 
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
         <!-- 步驟 1 -->
@@ -502,6 +510,10 @@
           <p class="text-xs sm:text-sm text-muted">親身體驗「看中文 → 零提示白紙輸入 → 紅筆審判校對」的認知摩擦！</p>
         </div>
       </div>
+      <aside class="character-cue article-character-cue">
+        <img class="character-portrait" src="/assets/brand/zhixing.webp" alt="" width="96" height="96" loading="lazy">
+        <div><strong>知行 · 一起動手做</strong><p>選一題，先寫下自己的答案，再核對參考例句。把需要修正的地方，留作下一次練習的線索。</p></div>
+      </aside>
 
       <div class="reading-card p-6 sm:p-8 rounded-sm border-2 border-line">
         <p id="matching-note" class="mb-5 text-xs sm:text-sm text-accent">這三題是編輯範例。核對只比較與參考例句的文字一致性（忽略大小寫、部分標點與多餘空白），不能判斷其他正確表達，也不評量語意、文法能力、反應速度或記憶成效。</p>
@@ -616,6 +628,11 @@
       </div>
     </section>
 
+    <aside class="character-cue article-character-cue article-ending-cue">
+      <img class="character-portrait" src="/assets/brand/mowan.webp" alt="" width="96" height="96" loading="lazy">
+      <div><strong>墨丸 · 記下一小步</strong><p>今天完成一句、發現一個常錯處，都值得記下。下次就從這裡接著練。</p></div>
+    </aside>
+
     <!-- Footer -->
     <footer class="text-center text-xs text-muted py-6 border-t border-line">
       <p>內容來源：使用者提供稿；影片公開說明與編輯整理範圍見頁首。</p>
@@ -629,7 +646,7 @@
 
   </main>
 
-    <footer class="site-footer">
+    <footer class="site-footer" data-brand-footer>
       <a class="footer-name" href="/">方法練習室<span>METHOD STUDIO</span></a>
       <p>一次練一個方法，慢慢變成自己的能力。</p>
       <p class="footer-note">收藏與練習進度儲存在目前瀏覽器。</p>

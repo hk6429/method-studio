@@ -687,3 +687,111 @@ progress::-moz-progress-bar { background: var(--green); }
 /* Compact content diagrams at the top of every library card. */
 .card-illustration { display: block; border-bottom: 1px solid var(--line); background: var(--green-wash); }
 .card-illustration img { display: block; width: 100%; height: auto; aspect-ratio: 5 / 3; }
+
+/* Taiwanese ink-wash identity: expressive art around calm reading surfaces. */
+:root { --display: "Iowan Old Style", "Songti TC", "Noto Serif TC", "PMingLiU", serif; }
+body { background-color: var(--paper); background-image: radial-gradient(ellipse at 0 8%, #b19b7310, transparent 52%), radial-gradient(ellipse at 100% 40%, #59765f08, transparent 48%); }
+.brand, .footer-name { font-family: var(--display); }
+.brand-mark.brand-seal { display: flex; align-items: center; justify-content: center; width: 40px; height: 48px; padding: 2px; writing-mode: vertical-rl; white-space: nowrap; background: var(--orange); color: var(--paper); border: 1px solid var(--paper); outline: 1px solid var(--orange); outline-offset: 2px; border-radius: 3px 1px 4px 1px; font-family: var(--display); font-size: 17px; font-weight: 700; letter-spacing: 2px; line-height: 1; transform: rotate(-4deg); }
+.site-header { border-bottom-color: #8a9b8540; background: #f7f5edf5; }
+.ink-hero { grid-template-columns: .9fr 1.2fr; gap: 30px; padding-block: 62px 58px; }
+.ink-hero h1 { font-family: var(--display); font-size: clamp(32px, 3.2vw, 46px); font-weight: 800; letter-spacing: -.025em; line-height: 1.5; }
+.ink-hero .hero-kicker { letter-spacing: .08em; font-size: 11px; }
+.ink-hero .hero-description { font-size: 14px; }
+.ink-hero .hero-footnote { color: #7b6758; }
+.hero-art { min-width: 0; position: relative; }
+.hero-art > img { display: block; width: 100%; height: auto; border-radius: 24% 3% 17% 2% / 3% 15% 3% 14%; }
+.hero-art figcaption { display: flex; justify-content: center; gap: 0; margin-top: 10px; color: #637168; font-family: var(--display); font-size: 13px; letter-spacing: .12em; }
+.hero-art figcaption span + span::before { content: '・'; margin: 0 17px; color: var(--orange); }
+.button-primary { border-radius: 2px 5px 3px 6px; box-shadow: 2px 3px 0 #19373216; }
+.library { position: relative; border-top: 2px solid #8f9c8250; }
+.library::before { content: ''; position: absolute; top: -2px; left: 0; width: 86px; height: 3px; background: var(--orange); border-radius: 100% 5% 60% 0; transform: rotate(-1deg); }
+.library-heading h2, .library-group-heading h3, .guide-intro h2, .method-heading h1, .section-heading h2, .companions-heading h2 { font-family: var(--display); font-weight: 750; }
+.library-greeting { display: flex; align-items: center; gap: 10px; max-width: 330px; }
+.library-greeting p { color: var(--muted); font-size: 12px; }
+.library-greeting .character-portrait { width: 62px; height: 62px; }
+.category-tab.is-active::after { height: 3px; border-radius: 60% 0 60% 0; transform: rotate(-.7deg); }
+.method-card { border-radius: 3px 3px 8px 2px; box-shadow: 2px 3px 0 #19373205; }
+.method-card .card-title { font-family: var(--display); font-weight: 700; }
+.pinned-group { background: #ebece0; border-color: #bcc8b5; }
+.library-group-heading h3 > span { font-family: var(--font); }
+.character-portrait { display: block; flex: 0 0 auto; width: 96px; height: 96px; object-fit: contain; }
+.character-cue { display: flex; align-items: center; gap: 17px; padding: 14px 20px 14px 12px; margin: 22px 0; border: 1px solid #d4dacb; border-left: 3px solid var(--orange); background: #f3f2e8; border-radius: 3px 7px 3px 6px; }
+.character-cue > div { min-width: 0; }
+.character-cue strong { display: block; margin-bottom: 5px; color: var(--ink); font-family: var(--display); font-size: 15px; font-weight: 700; }
+.character-cue p { margin: 0; color: #5b6a5e; font-size: 13px; line-height: 1.85; }
+.character-cue.is-compact .character-portrait { width: 76px; height: 76px; }
+.progress-character-cue { align-items: center; padding: 9px; gap: 8px; margin-block: 0 16px; border-left-width: 1px; }
+.progress-character-cue.is-compact .character-portrait { width: 44px; height: 58px; align-self: center; }
+.progress-character-cue p { font-size: 11px; }
+.progress-character-cue strong { font-size: 13px; }
+@media (min-width: 801px) {
+  .sidebar-inner { max-height: calc(100vh - 140px); max-height: calc(100dvh - 140px); overflow-y: auto; padding-right: 9px; scrollbar-width: thin; scrollbar-color: #bac6b3 transparent; }
+}
+.empty-companion { flex: 0 0 auto; }
+.empty-companion .character-portrait { width: 160px; height: 160px; }
+.companions { margin-top: 70px; padding-block: 34px 36px; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.companions-heading { text-align: center; }
+.companions-heading h2 { margin-top: 9px; font-size: 30px; }
+.companions-heading > p { margin-top: 9px; color: var(--muted); font-size: 13px; }
+.companion-grid { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 18px; margin-top: 30px; }
+.companion { min-width: 0; text-align: center; }
+.companion .character-portrait { width: 144px; height: 144px; max-width: 100%; margin-inline: auto; }
+.companion h3 { margin-top: 11px; font-family: var(--display); font-size: 22px; letter-spacing: .14em; }
+.companion-role { display: block; margin-top: 3px; color: var(--orange); font-size: 11px; letter-spacing: .12em; }
+.companion p { max-width: 170px; margin: 9px auto 0; color: var(--muted); font-size: 12px; line-height: 1.85; }
+.reading-guide { background: #eaeedf; border-top: 2px solid #b8c7ae; }
+.site-footer { background: #efeee2; border-top: 1px solid #bdc8b2; }
+.site-footer .footer-name { font-size: 18px; letter-spacing: .12em; }
+@media (max-width: 1100px) {
+  .ink-hero { grid-template-columns: .9fr 1.1fr; gap: 24px; }
+  .ink-hero h1 { font-size: 36px; }
+  .ink-hero .hero-kicker { font-size: 10px; letter-spacing: .02em; }
+  .ink-hero .hero-description { font-size: 13px; }
+}
+@media (max-width: 800px) {
+  .brand-mark.brand-seal { width: 32px; height: 39px; font-size: 14px; }
+  .ink-hero { grid-template-columns: 1fr; gap: 24px; padding-block: 38px 36px; }
+  .ink-hero .hero-copy { max-width: 550px; }
+  .ink-hero h1 { font-size: 37px; }
+  .ink-hero .hero-kicker { font-size: 11px; }
+  .ink-hero .hero-description { font-size: 14px; }
+  .hero-art { max-width: 620px; width: 100%; margin-inline: auto; }
+  .hero-art figcaption { font-size: 12px; margin-top: 8px; }
+  .companion-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 25px 18px; }
+  .progress-character-cue { flex-direction: row; align-items: center; gap: 12px; }
+}
+@media (max-width: 560px) {
+  .brand-mark.brand-seal { width: 27px; height: 34px; font-size: 12px; }
+  .ink-hero { padding-block: 28px 33px; gap: 18px; }
+  .ink-hero h1 { font-size: clamp(27px, 7.7vw, 35px); margin-top: 16px; }
+  .ink-hero .hero-kicker { font-size: 10px; }
+  .ink-hero .hero-description { margin-top: 17px; font-size: 13px; }
+  .ink-hero .hero-footnote { margin-top: 13px; font-size: 10px; }
+  .ink-hero .hero-actions { margin-top: 22px; }
+  .hero-art figcaption span + span::before { margin-inline: 11px; }
+  .library-greeting { margin-top: 12px; gap: 8px; }
+  .library-greeting .character-portrait { width: 52px; height: 52px; }
+  .library-greeting p { font-size: 11px; }
+  .character-cue { gap: 10px; margin-block: 18px; padding: 10px 12px 10px 6px; }
+  .character-cue .character-portrait, .character-cue.is-compact .character-portrait { width: 62px; height: 62px; }
+  .character-cue strong { font-size: 13px; }
+  .character-cue p { font-size: 12px; line-height: 1.8; }
+  .progress-character-cue { margin-top: 0; }
+  .progress-character-cue p { font-size: 11px; }
+  .empty-companion .character-portrait { width: 125px; height: 125px; }
+  .companions { margin-top: 44px; padding-block: 28px; }
+  .companions-heading h2 { font-size: 25px; }
+  .companions-heading > p { font-size: 12px; }
+  .companion-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 25px 18px; }
+  .companion:last-child { grid-column: 1 / -1; }
+  .companion .character-portrait { width: 120px; height: 120px; }
+  .companion h3 { font-size: 21px; }
+  .companion p { font-size: 11px; }
+  .category-tabs { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); width: 100%; gap: 0 20px; }
+  .category-tab { justify-content: flex-start; min-height: 47px; padding-block: 9px; font-size: 12px; }
+}
+@media print {
+  body { background: white; }
+  .character-cue, .library-greeting, .companions, .hero-art { display: none !important; }
+}
