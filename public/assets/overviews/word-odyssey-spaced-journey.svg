@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 568" role="img" aria-labelledby="word-odyssey-spaced-journey-title word-odyssey-spaced-journey-desc"><title id="word-odyssey-spaced-journey-title">一次十字，隔次再遇見</title><desc id="word-odyssey-spaced-journey-desc">先舊再新 → 連結語境 → 獨立作答 → 到期回訪；下一輪回到舊字，區分首答與重試。</desc>
+<defs><marker id="word-odyssey-spaced-journey-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="1200" height="568" fill="#f0f2e9"/>
+<text x="36" y="64" fill="#586b60" font-size="22" font-weight="500">字旅 · 微任務複習路線</text>
+<text x="36" y="133" fill="#193732" font-size="43" font-weight="650">一次十字，隔次再遇見</text>
+<text x="36" y="181" fill="#586b60" font-size="25" font-weight="500">先重溫舊字，再學新字；完成保存，隔次再回想。</text>
+<path d="M295 310h24" fill="none" stroke="#586b60" stroke-width="2.4" marker-end="url(#word-odyssey-spaced-journey-arrow)"/>
+<path d="M587 310h24" fill="none" stroke="#586b60" stroke-width="2.4" marker-end="url(#word-odyssey-spaced-journey-arrow)"/>
+<path d="M879 310h24" fill="none" stroke="#586b60" stroke-width="2.4" marker-end="url(#word-odyssey-spaced-journey-arrow)"/>
+<path d="M1038 400V438Q1038 454 1022 454H178Q162 454 162 438V406" fill="none" stroke="#586b60" stroke-width="2.4" marker-end="url(#word-odyssey-spaced-journey-arrow)"/>
+<rect x="36" y="230" width="252" height="170" rx="5" fill="#193732" stroke="#bdcbbb"/><text x="58" y="264" fill="#d4e2d4" font-size="20" font-weight="500">01</text><text x="58" y="315" fill="#fffef9" font-size="32" font-weight="650">先舊再新</text><text x="58" y="355" fill="#d4e2d4" font-size="23" font-weight="500">每小關最多十字</text>
+<rect x="328" y="230" width="252" height="170" rx="5" fill="#fffef9" stroke="#bdcbbb"/><text x="350" y="264" fill="#586b60" font-size="20" font-weight="500">02</text><text x="350" y="315" fill="#193732" font-size="32" font-weight="650">連結語境</text><text x="350" y="355" fill="#586b60" font-size="23" font-weight="500">字義連到情境</text>
+<rect x="620" y="230" width="252" height="170" rx="5" fill="#fffef9" stroke="#bdcbbb"/><text x="642" y="264" fill="#586b60" font-size="20" font-weight="500">03</text><text x="642" y="315" fill="#193732" font-size="32" font-weight="650">獨立作答</text><text x="642" y="355" fill="#586b60" font-size="23" font-weight="500">分清首答與重試</text>
+<rect x="912" y="230" width="252" height="170" rx="5" fill="#fffef9" stroke="#bdcbbb"/><text x="934" y="264" fill="#586b60" font-size="20" font-weight="500">04</text><text x="934" y="315" fill="#193732" font-size="32" font-weight="650">到期回訪</text><text x="934" y="355" fill="#586b60" font-size="23" font-weight="500">完成保存再回想</text>
+<text x="565" y="443" fill="#586b60" font-size="23" font-weight="500">下一輪先重溫</text>
+<path d="M36 489H1164" stroke="#bdcbbb"/>
+<text x="36" y="533" fill="#193732" font-size="25" font-weight="500">小關完成不等於熟練；到期首答，再檢查一次。</text>
+</svg>

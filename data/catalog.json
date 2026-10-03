@@ -2874,6 +2874,457 @@
         "分類練習",
         "誘答分析"
       ]
+    },
+    {
+      "id": "word-odyssey-spaced-journey",
+      "title": "一次十字，隔次再遇見：字旅的微任務與間隔回想法",
+      "summary": "每天背新字很有成就感，幾天後還能想起來嗎？字旅把大章節拆成每次最多10個新字的小關，出發前先重溫舊字，再看字卡、接受試煉，完成後保存。這篇從實際流程拆出一套可跟做的練習：把新字放進語境，把第一次作答留下來，隔次回訪時再檢查；故事與角色提供練習情境，熟悉感則要交給到期複習重新確認。",
+      "categoryId": "english",
+      "topicIds": [
+        "memory",
+        "reading",
+        "habits"
+      ],
+      "keywords": [
+        "字旅",
+        "Word Odyssey",
+        "單字",
+        "間隔複習",
+        "微任務"
+      ],
+      "level": "入門",
+      "minutes": 15,
+      "output": "一個小關的完成紀錄，以及一張區分首答、重試與到期回訪的練習卡",
+      "audience": "容易只背新字、想建立持續複習習慣的英文學習者，以及陪伴練習的教師與家長",
+      "status": "ready",
+      "contentType": "article_method",
+      "publishedAt": "2026-10-03T23:42:39+08:00",
+      "reviewedAt": "2026-10-03",
+      "coverLabel": "專案分析 · 單字旅程",
+      "sourceCoverage": "依字旅正式站、公開程式與專案README整理。已操作獨立測試存檔的第一小關入口、展開故事及閱讀任務，並核對正式app.js、engine.js、story.js與本機版本一致。複習排程、題型、熟練與保存條件依程式查核；未走完所有小關，也未實測Google登入、跨裝置同步、全部語音與教材。15分鐘安排、自我說明與練習卡為編輯補充，不是實證成效或保證完成時間。",
+      "sources": [
+        {
+          "id": "word-site",
+          "title": "字旅：英文英雄之旅",
+          "url": "https://word-odyssey.hk6429.workers.dev/",
+          "kind": "article",
+          "channel": "大乃老師",
+          "note": "正式學習介面；本文以獨立測試存檔觀察第一小關入口與閱讀任務。"
+        },
+        {
+          "id": "word-engine",
+          "title": "字旅練習引擎",
+          "url": "https://word-odyssey.hk6429.workers.dev/engine.js",
+          "kind": "official",
+          "note": "查核小關、複習順序、首答、重試、熟練與保存規則。"
+        },
+        {
+          "id": "word-app",
+          "title": "字旅介面與題型實作",
+          "url": "https://word-odyssey.hk6429.workers.dev/app.js",
+          "kind": "official",
+          "note": "查核字義辨認、拼字、閱讀與成長手札呈現。"
+        },
+        {
+          "id": "word-readme",
+          "title": "字旅專案說明（取材版本）",
+          "url": "https://github.com/hk6429/word-odyssey/blob/54974c2/README.md",
+          "kind": "official",
+          "note": "說明章節設計、詞目範圍與資料保存界線；不等同全部功能已實測。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "small-quest",
+          "title": "把今天的目標縮成一個小關",
+          "action": "從冒險地圖開啟目前可挑戰的小關，先看本次新字與複習字數。每小關最多10個新字，大章節還會分成多個小關。可以完成一小關就休息，不必一次清掉整個章節。",
+          "why": "編輯分析：小關提供明確的停點，但有舊字時，整輪題量會超過10題；答錯也會重排。安排時間時要把複習與試煉一起算進來。",
+          "example": "編輯示範：今天只安排「小屋早餐」這一小關。若畫面顯示10個新字與20個舊字，就知道今天不只是看10張卡片；時間不足可先做複習，再另找完整時段開新關。",
+          "check": "知道本輪新字、舊字數量，也知道完成小關才是新字保存點。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "word-site",
+              "startSeconds": null,
+              "endSeconds": null
+            },
+            {
+              "sourceId": "word-engine",
+              "startSeconds": null,
+              "endSeconds": null
+            },
+            {
+              "sourceId": "word-app",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "review-first",
+          "title": "先重溫舊字，保留第一次作答的真實結果",
+          "action": "有舊字時，系統先安排上一小任務的字，再補入到期字，去重後每輪最多20字；第一次出發沒有舊字，就直接進新字。先自己作答，再看回饋；不要為了讓紀錄好看而預先翻答案。",
+          "why": "編輯分析：上一輪剛學的字與隔了一段時間的到期字，回答的是不同問題。到期字第一次能否答對，比當場重試成功更能顯示這次能否獨立想起；本文不把一次結果當能力定論。",
+          "example": "編輯示範：某字第一次想不起來，讀完提示後第二次答對。紀錄寫「首答未想起，重試完成」，不把它改記為原本就會。若到期字超過20個，可分輪處理。",
+          "check": "能分開描述首答與重試，不把同一輪反覆答對當成多次間隔複習。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "word-site",
+              "startSeconds": null,
+              "endSeconds": null
+            },
+            {
+              "sourceId": "word-engine",
+              "startSeconds": null,
+              "endSeconds": null
+            },
+            {
+              "sourceId": "word-app",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "context-card",
+          "title": "看字卡時，把字形、字義與語境接起來",
+          "action": "在新字卡觀察字形、詞性、字義與情境內容，依需要播放單字或例句語音。不要只按下一張；編輯建議停一下，說出這個字在眼前情境中指什麼。遇到不確定的解釋，先標記再查。",
+          "why": "編輯分析：聲音與插圖提供線索，是否掌握仍要到後面的作答檢查。語音播放不是口說辨識，系統沒有因為你跟讀就判定發音正確。",
+          "example": "編輯示範：以自編句「I carry a bag.」練carry：指出誰拿、拿什麼，再遮住英文回想carry。這是編輯補充示範，不是第一小關指定教材或網站自動評分項目。",
+          "check": "不只認得插圖，還能說出字義與一個使用情境。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "word-site",
+              "startSeconds": null,
+              "endSeconds": null
+            },
+            {
+              "sourceId": "word-engine",
+              "startSeconds": null,
+              "endSeconds": null
+            },
+            {
+              "sourceId": "word-app",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "retrieve",
+          "title": "離開字卡後再作答，錯了就看清楚差在哪裡",
+          "action": "新字試煉通常從字義辨認開始；後續複習依單字的題型狀態交替安排辨認與回想拼字。錯題會排回隊列，讀完回饋再繼續。新字要全部通過，這一小關才完成。",
+          "why": "編輯分析：看選項認得與沒有選項時拼出來，要求不同。不能說新字第一次過關就已通過主動拼字；英文介面缺少英文釋義時另有抄寫練習，也不能把抄寫當獨立回想。",
+          "example": "編輯示範：看到carry能選出「攜帶」，不代表看到「攜帶」就能拼出carry。若拼成cary，讀完回饋後重試；另記自己漏了一個r，下一次到期時再檢查。",
+          "check": "能區分辨認、回想與抄寫；答錯後知道修正什麼，不只記住選項位置。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "word-site",
+              "startSeconds": null,
+              "endSeconds": null
+            },
+            {
+              "sourceId": "word-engine",
+              "startSeconds": null,
+              "endSeconds": null
+            },
+            {
+              "sourceId": "word-app",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "read-evidence",
+          "title": "把章節閱讀當作另一種練習：回原句找依據",
+          "action": "在小關入口展開本章故事與閱讀任務，先讀英文，需要時再展開中文對照。章節有3個任務詞與閱讀小挑戰；編輯建議回答時指出支持答案的原句，再說明詞義如何配合句子。",
+          "why": "編輯分析：故事與任務詞提供閱讀情境，不代表每個小關的新字都出現在同一篇故事。閱讀小挑戰與劇情選擇也不直接解鎖單字；兩種進度要分開看。",
+          "example": "編輯示範：第一章介面出現bridge、help、story三個任務詞。可以從其中一句找出動作與對象，說明該字在句中的意思；不要因為完成這三個閱讀任務，就宣稱10個新字全都已會。",
+          "check": "至少說明一個詞在原句中的意思，並知道閱讀完成與單字通關不同。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "word-site",
+              "startSeconds": null,
+              "endSeconds": null
+            },
+            {
+              "sourceId": "word-engine",
+              "startSeconds": null,
+              "endSeconds": null
+            },
+            {
+              "sourceId": "word-app",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "save-check",
+          "title": "完成小關後確認保存，隔次出發再核對",
+          "action": "完成整個小任務的新字試煉後，查看已學單字、單字行囊與成長手札。本次尚未完成的小關，重開時要重新開始；已完成的小關會保留。XP是首次收錄新字的進度獎勵，重做或純複習不重複給。",
+          "why": "編輯分析：已學表示完成網站設定的小任務，熟練還有後續條件。訪客資料在目前瀏覽器；專案另有Google登入與雲端保存設計，本次未驗證實際帳號同步，不能由登入按鈕推論資料已存成功。",
+          "example": "編輯示範：結束時先看已學單字是否增加，下一次回來再確認小關進度。若換裝置使用，另檢查字旅帳號與同步狀態；「學習航站已連結」不等於字旅學習檔已同步。",
+          "check": "確認完成紀錄存在，且知道目前使用的是本機紀錄還是已驗證的雲端存檔。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "word-site",
+              "startSeconds": null,
+              "endSeconds": null
+            },
+            {
+              "sourceId": "word-engine",
+              "startSeconds": null,
+              "endSeconds": null
+            },
+            {
+              "sourceId": "word-app",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "spaced-return",
+          "title": "到期再回來，讓熟練建立在不同時間的首答",
+          "action": "下次開啟時查看今日到期，或從單字行囊與複習入口回訪。現行熟練顯示要求至少3次合格的到期首答正確、至少一次回想，並達到目前熟練狀態；答錯會影響狀態，因此不是湊滿次數就永久熟練。",
+          "why": "編輯分析：同一輪錯後答對仍是有用的修正，但不算新的到期首答。網站熟練標記只是內部練習規則；要了解能否運用，還可另換句子或閱讀材料檢查。",
+          "example": "編輯示範：昨天剛過關，今天仍能選對，不急著說永久記住。到期時先自己想；若失敗就修正並再回訪。編輯補充：另用新句確認詞義，避免只靠熟悉的卡片。",
+          "check": "記下一次到期回訪的首答結果；不把XP、角色特質或熟練圖示當正式英語能力評定。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "word-site",
+              "startSeconds": null,
+              "endSeconds": null
+            },
+            {
+              "sourceId": "word-engine",
+              "startSeconds": null,
+              "endSeconds": null
+            },
+            {
+              "sourceId": "word-app",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "把今天的小步，接回下一次練習",
+          "note": "依字旅流程編輯整理；情境自述與另外換句檢查是編輯補充。",
+          "nodes": [
+            {
+              "id": "old",
+              "label": "先舊再新",
+              "detail": "最多20舊字，最多10新字"
+            },
+            {
+              "id": "context",
+              "label": "連結語境",
+              "detail": "字形字義與句子一起看"
+            },
+            {
+              "id": "answer",
+              "label": "獨立作答",
+              "detail": "區分首答、回饋與重試"
+            },
+            {
+              "id": "return",
+              "label": "到期回訪",
+              "detail": "完成保存，再隔次檢查"
+            }
+          ],
+          "edges": [
+            {
+              "from": "old",
+              "to": "context",
+              "label": "小關提供起點"
+            },
+            {
+              "from": "context",
+              "to": "answer",
+              "label": "離開卡片再想"
+            },
+            {
+              "from": "answer",
+              "to": "return",
+              "label": "全數通過才存新字"
+            },
+            {
+              "from": "return",
+              "to": "old",
+              "label": "下輪先重溫"
+            }
+          ]
+        },
+        {
+          "type": "schedule",
+          "title": "三種紀錄，回答三個不同問題",
+          "note": "依目前專案規則整理，不是正式英文能力認證。",
+          "columns": [
+            "代表什麼",
+            "還不能證明什麼"
+          ],
+          "rows": [
+            {
+              "label": "已學／XP",
+              "cells": [
+                "首次完成新字小任務",
+                "隔天仍能獨立想起"
+              ]
+            },
+            {
+              "label": "複習首答與重試",
+              "cells": [
+                "本輪第一次表現與後續修正",
+                "換語境仍然能用"
+              ]
+            },
+            {
+              "label": "熟練標記",
+              "cells": [
+                "達到到期首答、回想與熟練狀態條件",
+                "永久記憶或正式檢定程度"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "schedule",
+          "title": "15分鐘的練習安排",
+          "note": "編輯建議：不是網站保證的完成時間。舊字多或閱讀較長時可另排時間；未完成的新字小關會重開，不要為趕時間亂選。",
+          "columns": [
+            "做什麼",
+            "留下什麼"
+          ],
+          "rows": [
+            {
+              "label": "0–4分鐘",
+              "cells": [
+                "先做這輪舊字，不預先翻答案",
+                "首答卡點"
+              ]
+            },
+            {
+              "label": "4–10分鐘",
+              "cells": [
+                "看新字情境並完成試煉",
+                "一小關的完成或待完成狀態"
+              ]
+            },
+            {
+              "label": "10–13分鐘",
+              "cells": [
+                "選一個閱讀任務，指出句中線索",
+                "一個語境說明"
+              ]
+            },
+            {
+              "label": "13–15分鐘",
+              "cells": [
+                "看行囊與手札，記下一次回訪",
+                "保存確認與練習卡"
+              ]
+            }
+          ]
+        }
+      ],
+      "practice": {
+        "title": "我的小關與回訪卡",
+        "minutes": 15,
+        "prompt": "編輯設計：每輪只記最需要回訪的1–3個字，不必抄完整題目。\n\n日期／章節／小關：\n這輪新字與舊字數：\n本次練習方式（辨認／回想／抄寫）：\n第一次卡在哪裡：\n看回饋後修正什麼：\n該字在句中是什麼意思：\n小關是否完成並保存：\n下次回訪日期：\n到期首答結果（與重試分開）：\n換句之後，還有哪裡不確定：",
+        "deliverable": "一張能追蹤小關完成、首答卡點與隔次回訪的練習卡。",
+        "checklist": [
+          "看過本輪舊字與新字數。",
+          "把首答與重試分開記。",
+          "能說明至少一個詞的使用情境。",
+          "確認已完成的小關紀錄。",
+          "下次回訪時先自己回想。"
+        ]
+      },
+      "pitfalls": [
+        "只開新關，不處理到期字：讓每次出發保留回頭看的空間。",
+        "把10個新字當成整輪只有10題：還有舊字與答錯重試。",
+        "卡片看完就關掉：新字需要整個小關試煉完成才保存。",
+        "把字義選對當成一定會拼：辨認與回想分別檢查。",
+        "反覆刷同一輪以為能累積熟練：重試不等於新的到期首答。",
+        "把3個閱讀任務詞當成覆蓋整小關：故事與單字練習範圍不同。",
+        "把角色特質、XP或詞目總數當英語等級：它們是站內設計與進度資訊。",
+        "看到Google登入或學習航站標示就以為已同步：應確認字旅本身的保存與重新讀取結果。"
+      ],
+      "supplements": [
+        {
+          "title": "編輯觀點：微任務要有完整的收尾",
+          "text": "把大任務切小，重點不只是縮短開始的時間，也要讓人知道什麼時候可以安心停下來。字旅的停點是完成小關並保存；若只看過字卡就離開，下一次還不能把它當已完成。\n教師可以把「看今天學了幾個字」改成「今天哪個字第一次想不起來，後來怎麼修正」。這是編輯建議，不是已完成班級成效驗證。",
+          "sourceIds": [
+            "word-site",
+            "word-engine"
+          ]
+        },
+        {
+          "title": "編輯應用：同一目標，提供不同支持",
+          "text": "需要較多支持的學生，可先使用中文對照、較慢語音與句中線索，說清楚詞義後再獨立作答；已有把握的學生，可以收起提示後回想，再換句說明。\n老師另安排的口頭說明或造句，需要人工回饋，不能說網站會自動評分。若今天時間只能容納複習，就完成一輪複習；不用為了每天都有新字而急著亂選。",
+          "sourceIds": [
+            "word-site",
+            "word-app"
+          ]
+        },
+        {
+          "title": "內容、帳號與紀錄的界線",
+          "text": "專案詞目與閱讀教材包含自編、模型協助整理的內容，不代表每則定義、例句與語音皆已由真人逐一審訂。遇到疑義應回查可靠辭典或向教師確認。\n訪客主要使用目前瀏覽器的存檔；字旅有自己的Google登入與雲端學習檔。學習航站連結記錄的是到訪等資訊，不等於讀寫字旅全部進度。本篇尚未實測跨帳號、跨裝置與離線衝突處理，也不據此宣稱同步已驗收。",
+          "sourceIds": [
+            "word-readme",
+            "word-app"
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "小關最多10新字，先複習舊字，新字需整關通過後保存。",
+          "status": "supported",
+          "explanation": "正式第一小關介面與公開引擎一致；保存條件由completeQuest查核，未走完全部小關。",
+          "sourceIds": [
+            "word-site",
+            "word-engine"
+          ],
+          "checkedAt": "2026-10-03"
+        },
+        {
+          "claim": "熟練不能靠同輪重試累積，必須滿足到期首答與回想等條件。",
+          "status": "supported",
+          "explanation": "依updateReview與masteryLevel核對；未以多日真人練習驗證學習效果。",
+          "sourceIds": [
+            "word-engine"
+          ],
+          "checkedAt": "2026-10-03"
+        },
+        {
+          "claim": "每天完成小關就能保證長期記住或提升正式英文程度。",
+          "status": "unverified",
+          "explanation": "尚無可核對的前後測與長期成效資料；遊戲進度與熟練規則不等於能力評定。",
+          "sourceIds": [
+            "word-site"
+          ],
+          "checkedAt": "2026-10-03"
+        }
+      ],
+      "overview": {
+        "image": "/assets/overviews/word-odyssey-spaced-journey.svg",
+        "mobileImage": "/assets/overviews/word-odyssey-spaced-journey-mobile.svg",
+        "cardImage": "/assets/overviews/word-odyssey-spaced-journey-card.svg",
+        "alt": "先舊再新 → 連結語境 → 獨立作答 → 到期回訪；下一輪回到舊字，區分首答與重試。",
+        "caption": "依字旅功能編輯整理：小關完成才存新字，隔次到期再回想；通關、XP與熟練標記不等於學習成效證明。"
+      }
     }
   ],
   "demo": {
