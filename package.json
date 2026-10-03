@@ -1,0 +1,14 @@
+{
+  "name": "method-studio",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "方法練習室：AI 與英文學習方法的靜態文章網站",
+  "engines": {"node": ">=22"},
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "validate": "node scripts/validate.mjs",
+    "test": "node --test test/*.test.mjs && node scripts/validate.mjs",
+    "build": "node scripts/build.mjs"
+  }
+}

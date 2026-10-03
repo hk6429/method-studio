@@ -1,0 +1,253 @@
+{
+  "schemaVersion": 1,
+  "site": {
+    "name": "方法練習室",
+    "tagline": "把看過的方法，變成做得到的步驟。",
+    "description": "收藏學習 AI 與英文的方法文章，用清楚步驟、圖解與練習，把理解帶到行動。"
+  },
+  "categories": [
+    {
+      "id": "ai",
+      "name": "學習 AI",
+      "description": "從工具操作到工作流程，留下能重複使用的方法。",
+      "topics": [
+        {
+          "id": "claude",
+          "name": "Claude"
+        },
+        {
+          "id": "chatgpt",
+          "name": "ChatGPT"
+        },
+        {
+          "id": "gemini",
+          "name": "Gemini"
+        },
+        {
+          "id": "workflow",
+          "name": "工作流程"
+        }
+      ]
+    },
+    {
+      "id": "english",
+      "name": "學習英文",
+      "description": "把學習策略拆成每天做得到的練習。",
+      "topics": [
+        {
+          "id": "memory",
+          "name": "記憶與複習"
+        },
+        {
+          "id": "speaking",
+          "name": "口說與聽力"
+        },
+        {
+          "id": "reading",
+          "name": "閱讀"
+        },
+        {
+          "id": "writing",
+          "name": "寫作"
+        },
+        {
+          "id": "habits",
+          "name": "學習習慣"
+        }
+      ]
+    }
+  ],
+  "methods": [],
+  "demo": {
+    "id": "article-layout-preview",
+    "title": "版型示範：把一篇教學變成行動卡",
+    "summary": "看看一篇方法文章，如何從重點摘要一路帶到步驟、圖解、範例與試做。這不是正式收錄文章。",
+    "categoryId": "ai",
+    "topicIds": [
+      "workflow"
+    ],
+    "level": "入門",
+    "minutes": 15,
+    "output": "一張能照著執行的三欄行動卡",
+    "audience": "想先了解文章呈現方式的讀者",
+    "status": "draft",
+    "contentType": "editorial_example",
+    "reviewedAt": "2026-10-03",
+    "sourceCoverage": "這是版型示範，不是影片解析。正式文章會使用你提供的完成稿與來源；此處的時長、排程及例子都是編排示意。",
+    "coverLabel": "文章版型示範",
+    "sources": [],
+    "steps": [
+      {
+        "id": "choose",
+        "title": "先選一個想解決的問題",
+        "action": "讀之前，寫下這次最想學會的一件事。範圍縮到可以在一個練習時段內試做。",
+        "why": "讓後面的筆記圍繞一個明確用途。",
+        "example": "示範問題：讀完教學後，我能不能自己做出一份每週閱讀安排？",
+        "check": "我已經寫出一個具體問題。",
+        "contribution": "editorial",
+        "sourceRefs": []
+      },
+      {
+        "id": "read",
+        "title": "只記下真正用得到的做法",
+        "action": "閱讀你選好的文章，把材料、操作順序和容易出錯的地方分開記下。",
+        "why": "整理操作資訊，之後才容易照著重做。",
+        "example": "示範筆記：材料＝一本書與行事曆；操作＝先排時段，再寫每次的小任務。",
+        "check": "我能指出需要哪些材料，以及先做哪一步。",
+        "contribution": "editorial",
+        "sourceRefs": []
+      },
+      {
+        "id": "rewrite",
+        "title": "改寫成自己的步驟",
+        "action": "闔上原文，用自己的話寫出步驟一、步驟二、步驟三；再回去比對，補上遺漏。",
+        "why": "讓筆記成為操作說明，而不是只有漂亮句子。",
+        "example": "步驟一：選週三晚上的15分鐘。步驟二：寫進行事曆。步驟三：把「讀書」改成「讀第1節，寫一句重點」。",
+        "check": "每一步都有一個動作與可看見的結果。",
+        "contribution": "editorial",
+        "sourceRefs": []
+      },
+      {
+        "id": "try",
+        "title": "排入一次小規模試做",
+        "action": "把第一個可執行動作寫進行事曆，註明開始時間與預期產出。",
+        "why": "先做一次，再判斷方法是否適合自己的情境。",
+        "example": "週三20:30–20:45：讀第1節，完成一張三欄行動卡。這個時長只是示範，可自行調整。",
+        "check": "行事曆上有明確時段與任務。",
+        "contribution": "editorial",
+        "sourceRefs": []
+      },
+      {
+        "id": "review",
+        "title": "留下結果與下一次調整",
+        "action": "試做後記錄「完成了什麼、卡在哪裡、下次改哪一點」。保留原文連結，方便回查。",
+        "why": "把一次閱讀留下的想法，變成下次可修正的做法。",
+        "example": "示範回顧：只讀完半節；下次先把範圍改小，維持相同時段。",
+        "check": "我記下了一項觀察，以及一個下次要調整的地方。",
+        "contribution": "editorial",
+        "sourceRefs": []
+      }
+    ],
+    "visuals": [
+      {
+        "type": "flow",
+        "title": "一眼看懂：從閱讀到一次試做",
+        "note": "編輯示意流程，呈現文章如何圖解；不表示已經過成效驗證。",
+        "nodes": [
+          {
+            "id": "choose",
+            "label": "選問題",
+            "detail": "想解決哪件事？"
+          },
+          {
+            "id": "read",
+            "label": "讀方法",
+            "detail": "找到材料與順序"
+          },
+          {
+            "id": "rewrite",
+            "label": "寫步驟",
+            "detail": "寫成自己看得懂的動作"
+          },
+          {
+            "id": "try",
+            "label": "排試做",
+            "detail": "放進一個可執行的時段"
+          },
+          {
+            "id": "review",
+            "label": "回看結果",
+            "detail": "記下完成、卡點與調整"
+          }
+        ],
+        "edges": [
+          {
+            "from": "choose",
+            "to": "read"
+          },
+          {
+            "from": "read",
+            "to": "rewrite"
+          },
+          {
+            "from": "rewrite",
+            "to": "try"
+          },
+          {
+            "from": "try",
+            "to": "review"
+          }
+        ]
+      },
+      {
+        "type": "schedule",
+        "title": "範例：把模糊計畫寫成具體安排",
+        "note": "這是可修改的排程示例，不是固定課表或研究結果。",
+        "columns": [
+          "行事曆上的時段",
+          "具體動作",
+          "完成後留下什麼"
+        ],
+        "rows": [
+          {
+            "label": "第一次",
+            "cells": [
+              "週三 20:30–20:45",
+              "讀一小節，圈出一項可用做法",
+              "一句問題＋三個步驟"
+            ]
+          },
+          {
+            "label": "第二次",
+            "cells": [
+              "週五 20:30–20:45",
+              "照自己的步驟試做一次",
+              "一項完成結果"
+            ]
+          },
+          {
+            "label": "回顧",
+            "cells": [
+              "週日 10分鐘",
+              "看卡點，改動一個步驟",
+              "下一週的一個調整"
+            ]
+          }
+        ]
+      }
+    ],
+    "validation": [
+      {
+        "claim": "這個版型能不能保證學習成效？",
+        "status": "unverified",
+        "explanation": "不能。這裡示範文章如何區分操作建議與證據；正式內容若有研究或查證資料，會在這裡寫清楚支持範圍與限制。",
+        "sourceIds": [],
+        "checkedAt": "2026-10-03"
+      }
+    ],
+    "pitfalls": [
+      "只寫「多讀書」，沒有說明何時做、做哪一段。",
+      "照抄原文，卻沒有確認自己能不能照著操作。",
+      "把一次練習完成，當作方法對所有人都有效。"
+    ],
+    "practice": {
+      "title": "做一張自己的行動卡",
+      "minutes": 15,
+      "prompt": "選一篇你已經讀過的教學文章，寫出問題、三個步驟，再安排一次試做。",
+      "deliverable": "三欄行動卡：問題｜具體步驟｜下次試做",
+      "checklist": [
+        "問題夠具體",
+        "每一步都有動作",
+        "有安排試做時間",
+        "有保留原文出處"
+      ]
+    },
+    "supplements": [
+      {
+        "title": "這裡會放補充，而不是替影片代言",
+        "text": "若文章需要額外的工具、例子或教學改編，會在這裡標清楚。補充內容和原作者的說法會分開呈現。",
+        "sourceIds": []
+      }
+    ]
+  }
+}
