@@ -1,0 +1,11 @@
+# 沉浸式首頁主視覺
+
+工具：內建 imagegen。參考圖：`../brand-v1/production/companions-hero.png`。
+輸出原圖：`immersive-hero.png`；網頁版本：`public/assets/brand/immersive-hero.webp`（2048×1024）與 `immersive-hero-medium.webp`（1440×720）。
+
+## 完整提示詞
+
+Edit the supplied brand artwork into an immersive full-bleed WEBSITE HERO BACKGROUND, panoramic landscape 2:1 aspect ratio, ideally 2048x1024. Preserve exactly these five established characters and this exquisite Taiwanese ink-and-watercolor illustration identity: 4 two-head-tall chibi humans (head:body 1:1), tousled brown-haired boy with ochre clothing and question notebook; black-haired glasses boy in deep green with book; ponytail girl with vermilion ribbon and indigo top holding blank step diagram; bob-haired girl in sage and vermilion scarf with magnifier; one slim black TAIWAN DOG with erect triangular ears and thin curved tail, red bandana. Preserve facial identities, clothes, warmth, painterly detail; no extra people or pets.
+Recompose into an edge-to-edge wide Taiwanese riverside academy scene. Important UI composition: LEFT 0–44% must be quiet warm ivory rice paper and VERY FAINT mist / mountains / lake only, no characters, no branches, no dark splashes or high contrast details there, so actual dark HTML headline and buttons will be readable. Character group gathered together across RIGHT 50–94%, their heads around vertical 42–57%, feet around 85%, fully visible from head to toe. Keep generous air above them. Behind the right group continue old Taiwanese red brick academy wall with iron window grille, warm green trees, distant riverside hills. Across bottom, quiet stone path and delicate dry-brush texture naturally flows to left. All FOUR humans AND the Taiwan dog clearly visible, equally polished.
+The scene extends completely to all four edges, with soft organic ink transitions. This is one continuous environment, NOT an illustration inside a rounded card, no frame, no white border, no isolated rectangular art pasted onto a background. Rich visible scenery and character color on the right, restful luminous paper on the left. Restrained forest green, vermilion, sage, ochre, cream. Professionally art-directed, welcoming educational website. NO readable text, NO headings, NO logos, NO watermark; leave all typography to HTML.
+

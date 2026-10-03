@@ -41,16 +41,18 @@ function setActiveNav(name) {
 }
 
 function renderHero() {
-  const hero = el('section', { class: 'hero ink-hero page-width', 'aria-labelledby': 'home-title' },
+  const hero = el('section', { class: 'hero ink-hero', 'aria-labelledby': 'home-title' },
     el('div', { class: 'hero-copy' },
       el('div', { class: 'eyebrow hero-kicker' }, el('span', { class: 'tiny-line', 'aria-hidden': 'true' }), '一間，把方法帶進生活的書院'),
       el('h1', { id: 'home-title' }, '把看過的方法，', el('br'), el('span', {}, '變成做得到的步驟。')),
       el('p', { class: 'hero-description' }, '學習 AI、練習英文，也一起讀懂世界。把值得留下的方法，整理成步驟、圖解與練習，今天就從一件小事開始。'),
-      el('div', { class: 'hero-actions' }, el('a', { class: 'button button-primary', href: '#library' }, '找一個方法開始', icon('arrow')), catalog.demo ? el('a', { class: 'text-button', href: '#preview' }, '看看文章版型', icon('arrow')) : null),
+      el('div', { class: 'hero-actions' }, el('a', { class: 'button button-primary', href: '#library' }, '找一個方法開始', icon('arrow')), el('a', { class: 'text-button', href: '#companions' }, '認識練習夥伴', icon('arrow'))),
       el('p', { class: 'hero-footnote' }, el('span', { class: 'little-spark', 'aria-hidden': 'true' }, '✳'), '一次一個方法，留一點時間給練習。')
     ),
     el('figure', { class: 'hero-art' },
-      el('img', { src: '/assets/brand/companions-hero.webp', srcset: '/assets/brand/companions-hero-small.webp 768w, /assets/brand/companions-hero.webp 1536w', sizes: '(max-width: 800px) calc(100vw - 40px), 58vw', width: 1536, height: 1024, fetchpriority: 'high', decoding: 'async', alt: '臺灣國風水墨書院：阿問、知行、以澄、小硯與臺灣犬墨丸，一起拿著筆記與步驟圖。' }),
+      el('picture', {},
+        el('source', { media: '(min-width: 801px)', srcset: '/assets/brand/immersive-hero-medium.webp 1440w, /assets/brand/immersive-hero.webp 2048w', sizes: '100vw', width: 2048, height: 1024 }),
+        el('img', { src: '/assets/brand/companions-hero-small.webp', srcset: '/assets/brand/companions-hero-small.webp 768w, /assets/brand/companions-hero.webp 1536w', sizes: '100vw', width: 1536, height: 1024, fetchpriority: 'high', decoding: 'async', alt: '臺灣國風水墨書院：阿問、知行、以澄、小硯與臺灣犬墨丸，在山水與紅磚書院間一起練習。' })),
       el('figcaption', {}, el('span', {}, '提問'), el('span', {}, '拆解'), el('span', {}, '試做'), el('span', {}, '回看')))
   );
   return hero;
@@ -225,7 +227,7 @@ function renderHome() {
   updateResults();
   home.append(section);
 
-  if (!filters.saved) home.append(renderCompanions(), el('section', { class: 'reading-guide page-width', 'aria-labelledby': 'reading-guide-title' },
+  if (!filters.saved) home.append(renderCompanions(), el('section', { class: 'reading-guide', 'aria-labelledby': 'reading-guide-title' },
     el('div', { class: 'guide-intro' }, el('span', { class: 'eyebrow' }, 'A LITTLE PRACTICE, EVERY TIME'), el('h2', { id: 'reading-guide-title' }, '讓每一次閱讀，', el('br'), '多往前走一小步。'), el('p', {}, '清楚的出處、做得到的動作，還有留給自己的練習時間。')),
     el('div', { class: 'guide-items' }, [
       ['01', '知道方法從哪裡來', '原始出處與編輯補充清楚標示，可以回去查、接著讀。'],
@@ -275,6 +277,7 @@ function renderRoute({ focus = true } = {}) {
   if (focus) main.focus({ preventScroll: true });
   requestAnimationFrame(() => {
     if (hash === 'library' || params.has('category')) document.getElementById('library')?.scrollIntoView({ block: 'start' });
+    else if (hash === 'companions') document.getElementById('companions')?.scrollIntoView({ block: 'start' });
     else window.scrollTo({ top: 0, behavior: 'instant' });
   });
 }

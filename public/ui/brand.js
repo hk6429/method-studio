@@ -25,7 +25,7 @@ export function characterCue(id, text, { className = '', compact = false } = {})
 }
 
 export function renderCompanions() {
-  return el('section', { class: 'companions page-width', 'aria-labelledby': 'companions-title' },
+  return el('section', { class: 'companions', id: 'companions', 'aria-labelledby': 'companions-title' },
     el('div', { class: 'companions-heading' }, el('span', { class: 'eyebrow' }, '同路的學習夥伴'), el('h2', { id: 'companions-title' }, '有人提問，有人陪你試。'), el('p', {}, '四位書院夥伴，加上臺灣犬墨丸。陪你找方法，也陪你慢慢練。')),
     el('div', { class: 'companion-grid' }, characters.map(character => el('article', { class: 'companion', 'data-character': character.id },
       characterImage(character.id, { size: 144 }),

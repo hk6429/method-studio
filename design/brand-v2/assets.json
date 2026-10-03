@@ -1,0 +1,22 @@
+[
+  {
+    "file": "design/brand-v2/immersive-hero.png",
+    "bytes": 3004155,
+    "sha256": "a1efb88158a1b61225011438920235ed4e14be00ce116ba5d3f89c4031f048ad"
+  },
+  {
+    "file": "design/brand-v2/prompt.md",
+    "bytes": 2373,
+    "sha256": "009fd884401e579cca220b1aa12d7b725e2d107d0346f90f21f64b1a4d2e4693"
+  },
+  {
+    "file": "public/assets/brand/immersive-hero.webp",
+    "bytes": 383750,
+    "sha256": "1a5b8dab45867390775db3bc25c83137d9708fbbaedc1cd84d6a545f48fda60f"
+  },
+  {
+    "file": "public/assets/brand/immersive-hero-medium.webp",
+    "bytes": 230964,
+    "sha256": "945ac75fdf915577fba7e25820891a3499bdbfe776c975255d61d900bd923123"
+  }
+]
