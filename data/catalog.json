@@ -3325,6 +3325,406 @@
         "alt": "先舊再新 → 連結語境 → 獨立作答 → 到期回訪；下一輪回到舊字，區分首答與重試。",
         "caption": "依字旅功能編輯整理：小關完成才存新字，隔次到期再回想；通關、XP與熟練標記不等於學習成效證明。"
       }
+    },
+    {
+      "id": "interact-think-first-classroom",
+      "title": "先想，再互動：用 INTERACT 把課堂回應變成教學調整",
+      "summary": "投票很熱鬧，學生真的懂了嗎？這篇依 interACT 研習筆記，從能力目標開始，安排獨立先答、交換理由、回看證據與換情境再答。AI 在需要出題或整理時協助，教師保留判準與追問。最後把課後報告寫成下一節的調整，不把作答次數或 AI 摘要當成學習成效。",
+      "categoryId": "ai",
+      "topicIds": [
+        "gemini",
+        "workflow"
+      ],
+      "keywords": [
+        "INTERACT",
+        "interACT",
+        "課堂互動",
+        "Think First",
+        "先想再答",
+        "形成性評量",
+        "國文課",
+        "Exit Ticket"
+      ],
+      "level": "入門",
+      "minutes": 20,
+      "output": "一份有初答、理由、再答與次課調整的課堂設計表，以及一張離堂小檢核",
+      "audience": "想把 AI 與即時互動接回教學判斷的國中教師；也可供其他學段調整素材與支持方式",
+      "status": "ready",
+      "contentType": "article_method",
+      "publishedAt": "2026-10-04T10:47:58+08:00",
+      "reviewedAt": "2026-10-04",
+      "coverLabel": "研習筆記 · 課堂方法",
+      "sourceCoverage": "依使用者提供的繁體中文〈interACT 研習筆記〉完整可見文字整理，原稿標示康軒教師研習、2026-10-04；它是整理稿，不是影片逐字稿，未取得講者原始簡報或錄影。INTERACT 八階段與現場觀察歸於筆記來源；所選工具功能另核對 InterAct 公開 README 與教學功能手冊的取材版本。未安裝或實測 InterAct，也沒有班級試教、前後測或長期成效資料。20 分鐘備課練習、45 分鐘課堂排程、自編國文例子與支持方式均為編輯補充，不是原研習的 60 分鐘流程或完成時間保證。",
+      "sources": [
+        {
+          "id": "workshop-notes",
+          "title": "interACT 研習筆記：康軒教師研習（2026-10-04）",
+          "kind": "manuscript",
+          "channel": "大乃老師提供的研習整理稿",
+          "note": "由使用者透過私人 Claude Artifact 交付，已讀完整可見內容；原稿未公開，因此不提供公開連結。本文不宣稱已核對講者原始簡報、影片或現場統計。"
+        },
+        {
+          "id": "interact-readme",
+          "title": "InterAct 官方專案說明（取材版本）",
+          "kind": "official",
+          "url": "https://github.com/lienyujen/InterAct/blob/1e80bff90d5f691925b2dc7a6ac88eeb562c07d4/README.md",
+          "note": "核對講師端、學員加入方式、資料保存與設定說明；文件說明不等於代理已安裝或功能實測。"
+        },
+        {
+          "id": "interact-manual",
+          "title": "InterAct 教學功能手冊（取材版本）",
+          "kind": "official",
+          "url": "https://github.com/lienyujen/InterAct/blob/1e80bff90d5f691925b2dc7a6ac88eeb562c07d4/docs/InterAct-%E6%95%99%E5%AD%B8%E5%8A%9F%E8%83%BD%E6%89%8B%E5%86%8A.md",
+          "note": "核對討論板自行作答、再做一次、Exit Ticket、報告與 AI 草稿可由教師調整的說明。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "intent-need",
+          "title": "先定能力與問題，讓學生知道最後要交什麼",
+          "action": "依筆記的 Intent 與 Need，先寫一個可觀察的能力目標，再選一段短素材與一個需要判斷的問題。教師先準備判準：哪些答案需要文本證據，什麼情況要追問。不要只寫「認識推論」或「使用 AI」。",
+          "why": "編輯觀點：先決定要看見的學習行動，才知道該用投票、句子排序、討論板或紙本；工具不能代替目標。",
+          "example": "編輯示範：自編文本「雨停了，小晴收起傘，看見同學的袖口還在滴水。」目標寫「能區分文中明說與依線索推論」。開場問：「同學的衣服被雨淋濕了」是文本直接說出，還是根據袖口滴水推論？請附一個線索。",
+          "check": "已寫出能力目標、題目與完成判準；學生知道要交答案及理由。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "workshop-notes",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "think-first",
+          "title": "先讓每個人獨立回答，再開提示或討論",
+          "action": "依 Think First，選一種先做的動作：先選、先排、先寫、先畫或先問。先保留每個人的初始判斷，不立刻展示標準答案、同學答案或 AI 解答。需要支持時可以降低表達負擔，但保留自己判斷的機會。",
+          "why": "編輯觀點：先答留下的是學生此刻如何理解，不是用來抓錯。這份起點才方便後面辨識修正；猜中選項仍需要追問理由。",
+          "example": "編輯示範：學生先勾「明說／推論／還不確定」，寫「我看到的線索是＿＿」。編輯補充：寫字吃力者可以指向句子或先口述；這是替代回應方式，不是降低核心目標。",
+          "check": "能看到每位學生的初始回答，並保留「還不確定」的選項；尚未用同儕或 AI 答案替他作答。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "workshop-notes",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "exchange-respond",
+          "title": "先各自寫，再揭示答案，交換的是理由",
+          "action": "把筆記的 Exchange 與 Respond 合在一個可觀察任務：先收每個人的回答，再展示不同理由。使用 InterAct 討論板時，可先開「自行作答」，等學生完成後再揭示；沒有工具時，可用遮住的紙卡或先寫後談。",
+          "why": "編輯觀點：把「我也選這個」換成「哪一句支持這個判斷」。先寫再揭示可讓原本的想法有位置，但是否能減少模仿或提升理解，仍需課堂觀察。",
+          "example": "編輯示範：兩人先比對自己的線索，完成「我們相同的是＿＿；不同的是＿＿；還要確認＿＿」。老師展示兩種理由，不公布學生姓名，請大家指出哪一種把猜測當成了文本明說。",
+          "check": "留下至少兩種理由與一個待確認處，而不只是一張選項票數圖。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "workshop-notes",
+              "startSeconds": null,
+              "endSeconds": null
+            },
+            {
+              "sourceId": "interact-manual",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "inspect-with-ai",
+          "title": "看回應後才決定 AI 要協助什麼",
+          "action": "依筆記的 AI 與 Check，在關鍵素材處截圖派題，提示寫清楚內容、能力與難度。教師先檢查 AI 題目、答案與解析，再交給學生。收答後回看理由，必要時讓 AI 協助整理共同疑點；教師逐條回到素材核對。",
+          "why": "編輯觀點：AI 可以協助整理或產生草稿，不能因為回答流暢就取代文本判準；「超難」也不足以說明要測哪種思考。",
+          "example": "編輯示範提示詞：「根據這段自編文本，出一題區分明說與推論的國中題。提供三個選項、正答、各選項的判斷理由。干擾項要來自把合理猜測當成明說；不增加文本沒有的資訊。」教師先檢查是否只有一個正答，再派題。",
+          "check": "題目已經人工核對；AI 歸納的每個疑點都能連回學生實際回答，不能把未作答直接判定為不懂。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "workshop-notes",
+              "startSeconds": null,
+              "endSeconds": null
+            },
+            {
+              "sourceId": "interact-manual",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "check-transfer",
+          "title": "有疑點就補支持，再用新情境確認",
+          "action": "若理由不足，先釐清卡在哪裡：未看懂題目、設備問題、表達困難，或概念混淆。提供線索或重新示範後再答。接著依 Transfer 換一段新素材，使用相同判準，確認學生能否再次指出依據。",
+          "why": "編輯觀點：同題改對與換情境能用，回答不同問題；一次再答或一張 exit ticket，都不能當成長期學會的保證。",
+          "example": "編輯示範：第一輪混淆時，把「文中有這句話」與「需要推理才知道」分成兩欄。再換自編句「午休鐘響，走廊的人聲漸漸變小。」問「有人開始安靜下來」屬哪一欄，仍要求指出線索。編輯補充：需要較多支持者可先用口述或標記回答。",
+          "check": "記錄原判斷、提供過的支持與新情境回答，分清同題修正和遷移表現。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "workshop-notes",
+              "startSeconds": null,
+              "endSeconds": null
+            },
+            {
+              "sourceId": "interact-manual",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "report-next-step",
+          "title": "把課後報告改成下一節真的會做的事",
+          "action": "下課前用 exit ticket 收一個新情境判斷與一個理由；若使用 InterAct，可參照實際課堂內容生成草稿，先檢查再派送。課後把原始回答、AI 分析與教師判斷分開，選出下一節要複習、補支持或延伸的具體動作。",
+          "why": "編輯觀點：報告的用途是決定下一個教學行動，不是把 AI 的摘要直接當成班級學習成果。實際部署、權限與功能需依工具文件另行確認。",
+          "example": "編輯示範：報告寫「部分回答只說結論，沒有指出線索」。教師回看兩則去識別化回答後，記下「下節開頭先示範一句有線索的理由，再收每人一個理由」。沒有取得回答時就寫「尚無資料」，不補出比例。",
+          "check": "留下至少一個有實際回答支撐的觀察，以及下一節的可執行動作。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "workshop-notes",
+              "startSeconds": null,
+              "endSeconds": null
+            },
+            {
+              "sourceId": "interact-manual",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "先取得自己的答案，再決定怎麼教",
+          "note": "依研習筆記編輯整理：理由或回應不足，先調整支持，再回到獨立作答與證據檢查；已能說明理由則換情境。圖中的「再答再查」表示重複這個檢查循環，不是練習到此停止。支持方式為編輯補充，AI 不取代教師判準。",
+          "nodes": [
+            {
+              "id": "goal",
+              "label": "定目標",
+              "detail": "能力、問題與交付判準"
+            },
+            {
+              "id": "think",
+              "label": "獨立先答",
+              "detail": "選、排、寫、畫或問"
+            },
+            {
+              "id": "share",
+              "label": "交換理由",
+              "detail": "先收答，再揭示"
+            },
+            {
+              "id": "judge",
+              "label": "檢查證據",
+              "detail": "回看回答與文本依據"
+            },
+            {
+              "id": "support",
+              "label": "調整支持",
+              "detail": "先釐清卡點"
+            },
+            {
+              "id": "transfer",
+              "label": "換境再答",
+              "detail": "新素材、同一判準"
+            },
+            {
+              "id": "retry",
+              "label": "再答再查",
+              "detail": "回到先答與證據檢查"
+            },
+            {
+              "id": "next",
+              "label": "次課調整",
+              "detail": "留下觀察與具體動作"
+            }
+          ],
+          "edges": [
+            {
+              "from": "goal",
+              "to": "think"
+            },
+            {
+              "from": "think",
+              "to": "share"
+            },
+            {
+              "from": "share",
+              "to": "judge"
+            },
+            {
+              "from": "judge",
+              "to": "support",
+              "label": "理由或回應不足"
+            },
+            {
+              "from": "judge",
+              "to": "transfer",
+              "label": "可以進一步檢查"
+            },
+            {
+              "from": "support",
+              "to": "retry",
+              "label": "給獨立回應機會"
+            },
+            {
+              "from": "transfer",
+              "to": "next",
+              "label": "原答與新答分開記"
+            }
+          ]
+        },
+        {
+          "type": "schedule",
+          "title": "45 分鐘課堂示意排程",
+          "note": "編輯補充：這是可調整的一節課設計，不是原研習實際時程。工具尚未設定時可先用紙本；首次部署不計入本排程。",
+          "columns": [
+            "學生與教師做什麼",
+            "留下什麼"
+          ],
+          "rows": [
+            {
+              "label": "0–5 分鐘",
+              "cells": [
+                "說明目標，獨立先答一個判斷",
+                "每人的初答與線索"
+              ]
+            },
+            {
+              "label": "5–10 分鐘",
+              "cells": [
+                "先收答再揭示，交換不同理由",
+                "相同、不同與待確認處"
+              ]
+            },
+            {
+              "label": "10–24 分鐘",
+              "cells": [
+                "正常教學，關鍵素材派題與回看",
+                "回答連回文本的依據"
+              ]
+            },
+            {
+              "label": "24–35 分鐘",
+              "cells": [
+                "釐清卡點，給支持後再答",
+                "支持方式與修正紀錄"
+              ]
+            },
+            {
+              "label": "35–40 分鐘",
+              "cells": [
+                "換新素材，用相同判準檢查",
+                "新情境的答案與理由"
+              ]
+            },
+            {
+              "label": "40–45 分鐘",
+              "cells": [
+                "離堂小檢核，結束課堂並保存",
+                "待課後人工核對的原始紀錄"
+              ]
+            }
+          ]
+        }
+      ],
+      "practice": {
+        "title": "20 分鐘備課練習：一張先答、再答與調整表",
+        "minutes": 20,
+        "prompt": "編輯設計：挑一個正在教的概念，先不追求用完所有工具。這 20 分鐘用來寫課堂計畫，不是 InterAct 安裝或試教時間。\n\n能力目標：學生最後能＿＿。\n素材與判斷題：＿＿。\n學生先做哪一種動作（選／排／寫／畫／問）：＿＿。\n初答需要留下的理由或線索：＿＿。\n何時揭示同儕回答：＿＿。\nAI 協助什麼，教師要核對什麼：＿＿。\n理由不足或未作答時，先查哪些卡點：＿＿。\n提供支持後，如何再答：＿＿。\n換一個新情境：＿＿。\nExit Ticket 的題目與判準：＿＿。\n課後觀察（原始證據／AI 草稿／教師判斷分列）：＿＿。\n下一節的一個具體動作：＿＿。",
+        "deliverable": "一張可用紙本或 InterAct 實作的課堂設計表，附一個新情境離堂小檢核。",
+        "checklist": [
+          "目標是可以觀察的能力，不是工具名稱。",
+          "先獨立作答，再揭示提示、AI 或同儕答案。",
+          "例子、題目與答案均已人工核對。",
+          "未作答者有設備、閱讀或表達困難的查核與支持。",
+          "同題修正與新情境回答分開記。",
+          "課後報告最後寫出下一節的具體動作。"
+        ]
+      },
+      "pitfalls": [
+        "把互動次數、速度或徽章當作理解：回到理由、文本依據與新情境表現。",
+        "一開始就給 AI 解答：先收獨立回答，AI 協助放在明確需要的階段；教師備課使用 AI 仍須自己核對。",
+        "只用「出超難題」當提示：交代素材、能力與難度，並檢查題目是否有一致判準。",
+        "沒作答就認定不專心，或以抽問代替支持：先查設備、理解與表達卡點，再給回應機會。",
+        "把空白或無關上傳直接算零分當通用規則：先釐清任務與困難，評分依事先說明的判準人工確認。",
+        "同題第二輪答對就說學會了：再換情境，且不把一次結果當長期成效。",
+        "AI 報告看起來完整就直接公開：回查原始紀錄，去識別化並確認分享範圍。",
+        "以為名單留本機就代表所有資料都不上雲：回答、貼文與錄音仍可能存入老師的 Supabase 專案。"
+      ],
+      "supplements": [
+        {
+          "title": "核心觀點：INTERACT 是流程，InterAct 是工具",
+          "text": "提供稿以 Intent、Need、Think First、Exchange、Respond、AI、Check、Transfer 描述教學流程。這八項是研習筆記整理的框架，本文未另取得講者原始簡報；公開 README 對 InterAct 名稱有另一段全稱說明，不能把兩者混成同一份官方定義。\n方法的骨架是先取得學生自己的判斷，交換理由後回看證據，最後換情境確認並調整教學。即使不用軟體，也可以先用紙卡與口頭理由練這條流程。",
+          "sourceIds": [
+            "workshop-notes",
+            "interact-readme"
+          ]
+        },
+        {
+          "title": "編輯觀點：最值得帶回教室的是停下來判斷",
+          "text": "這份筆記的啟發，是把檢核放進教學中途，而不是等到作業或段考才發現卡點。教師可以只選一段素材、一個概念，設計一次有理由的回應；不必同時開啟所有題型。\n在國文課，先找一段證據再說明判斷，比只問「懂不懂」更容易看見理解過程。這是編輯分析，不是大乃老師已完成試教或本篇已有成效實驗。",
+          "sourceIds": [
+            "workshop-notes"
+          ]
+        },
+        {
+          "title": "編輯補充：回應方式可以不同，核心判準一致",
+          "text": "閱讀或表達需要較多支持的學生，可先圈線索、指向選項或用口述回答；較有把握者則說明不同答案為何不成立。兩者都圍繞同一個能力目標。\n如果要用錄音、上傳或公開討論板，先說明誰看得到、保存多久及如何回饋。本文的自編短句與匿名比對是示範，沒有使用真實學生作品、姓名或課堂錄音。",
+          "sourceIds": [
+            "workshop-notes"
+          ]
+        },
+        {
+          "title": "工具準備與資料界線",
+          "text": "依官方說明，教師需先取得講師端，設定自己的 Supabase 與 AI 服務；學生可用瀏覽器加入。若工具尚未準備好，可先用紙本完成相同教學流程，首次部署不算入本篇的備課或課堂時間。\n班級名單與學生上傳、討論、錄音是不同資料類型，不能把「名單留在本機」解讀成所有課堂資料不會上雲。使用、安裝、版本與授權請回看官方文件；本篇未替讀者安裝或部署服務，也不承諾免費方案能支撐特定班級人數。",
+          "sourceIds": [
+            "interact-readme",
+            "interact-manual"
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "文件描述了討論板先自行作答再揭示、同題再做一次及課後報告等功能。",
+          "status": "supported",
+          "explanation": "已核對取材版本的官方 README 與教學功能手冊。這是文件層級查核，未安裝、部署或實測軟體。",
+          "sourceIds": [
+            "interact-readme",
+            "interact-manual"
+          ],
+          "checkedAt": "2026-10-04"
+        },
+        {
+          "claim": "INTERACT 八階段是這份研習筆記呈現的教學框架。",
+          "status": "partial",
+          "explanation": "提供稿完整列出八階段，但未取得講者原始簡報或錄影；不宣稱公開專案文件已驗證同一框架。",
+          "sourceIds": [
+            "workshop-notes"
+          ],
+          "checkedAt": "2026-10-04"
+        },
+        {
+          "claim": "先答、互動與 AI 報告能保證提高學習成效。",
+          "status": "unverified",
+          "explanation": "沒有前後測、對照組或長期追蹤。研習中的作答次數與回應比例不等於學習效果，本文不把示意排程或圖解當成成效證據。",
+          "sourceIds": [
+            "workshop-notes"
+          ],
+          "checkedAt": "2026-10-04"
+        }
+      ],
+      "overview": {
+        "image": "/assets/overviews/interact-think-first-classroom.svg",
+        "mobileImage": "/assets/overviews/interact-think-first-classroom-mobile.svg",
+        "cardImage": "/assets/overviews/interact-think-first-classroom-card.svg",
+        "alt": "定目標、先想再說、看證據、換境再驗；理由不足時調整支持，回到獨立作答。",
+        "caption": "依研習筆記編輯整理：先留下自己的判斷，再決定支持與下一節調整。範例及示意排程為編輯補充，圖解不是成效證明。"
+      }
     }
   ],
   "demo": {
