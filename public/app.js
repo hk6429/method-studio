@@ -45,7 +45,7 @@ function renderHero() {
     el('div', { class: 'hero-copy' },
       el('div', { class: 'eyebrow hero-kicker' }, el('span', { class: 'tiny-line', 'aria-hidden': 'true' }), '一間，把方法帶進生活的書院'),
       el('h1', { id: 'home-title' }, '把看過的方法，', el('br'), el('span', {}, '變成做得到的步驟。')),
-      el('p', { class: 'hero-description' }, '學習 AI、練習英文，也一起讀懂世界。把值得留下的方法，整理成步驟、圖解與練習，今天就從一件小事開始。'),
+      el('p', { class: 'hero-description' }, '學習 AI、練習英文、讀懂世界，也照顧身體。把值得留下的方法，整理成步驟、圖解與練習，今天就從一件小事開始。'),
       el('div', { class: 'hero-actions' }, el('a', { class: 'button button-primary', href: '#library' }, '找一個方法開始', icon('arrow')), el('a', { class: 'text-button', href: '#companions' }, '認識練習夥伴', icon('arrow'))),
       el('p', { class: 'hero-footnote' }, el('span', { class: 'little-spark', 'aria-hidden': 'true' }, '✳'), '一次一個方法，留一點時間給練習。')
     ),

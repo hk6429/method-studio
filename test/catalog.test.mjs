@@ -11,6 +11,19 @@ function publishedCatalog(){
   method.sources=[{id:'video',title:'測試來源',kind:'video',videoId:'njhGvYkfPYM',url:'https://www.youtube.com/watch?v=njhGvYkfPYM'}];
   catalog.methods=[method];return catalog;
 }
+test('Facebook 影片保留平台與正式 ID，不冒充 YouTube，也拒絕錯配及偽造網域',()=>{
+  const catalog=publishedCatalog(), source=catalog.methods[0].sources[0];
+  Object.assign(source,{provider:'facebook',videoId:'28006664108962276',url:'https://www.facebook.com/reel/28006664108962276'});
+  assert.deepEqual(validateCatalog(catalog),[]);
+  source.url='https://www.facebook.com/watch/?v=28006664108962276';
+  assert.deepEqual(validateCatalog(catalog),[]);
+  for(const url of ['https://www.facebook.com/reel/123','https://facebook.com.evil.test/reel/28006664108962276','https://www.facebook.com/share/v/1HNrJXoNmZ/','javascript:alert(1)','https://www.youtube.com/watch?v=28006664108962276']){
+    source.url=url;assert.ok(validateCatalog(catalog).length>0);
+  }
+  source.url='https://www.facebook.com/reel/28006664108962276';
+  delete source.provider;assert.ok(validateCatalog(catalog).length>0);
+  source.provider='unknown';assert.ok(validateCatalog(catalog).length>0);
+});
 test('正式文章與示範分開；完整合法文章可加入資料',()=>{
   assert.ok(initial.methods.every(method=>method.id!==initial.demo.id && method.status==='ready'));assert.deepEqual(validateCatalog(initial),[]);assert.deepEqual(validateCatalog(publishedCatalog()),[]);
 });

@@ -77,8 +77,15 @@ export function validateCatalog(catalog) {
       if (!text(source.title) || (source.kind === 'manuscript' && source.url == null ? false : !isHttpsUrl(source.url))) error(path, '來源須有標題及安全的 https 網址');
       if (!['video','article','official','research','manuscript'].includes(source.kind)) error(path, '來源類型無效');
       if (source.kind === 'manuscript' && (!text(source.channel) || !text(source.note))) error(path, '提供稿須註明提供者與取材說明');
-      if (source.kind === 'video' && (!/^[\w-]{11}$/.test(source.videoId || '') || !isHttpsUrl(source.url) || !['youtube.com','www.youtube.com','youtu.be'].includes(new URL(source.url).hostname))) error(path, '影片來源須有有效 YouTube ID 與網址');
-      if (source.kind === 'video' && isHttpsUrl(source.url)) {
+      if (source.kind === 'video' && source.provider === 'facebook') {
+        const url = isHttpsUrl(source.url) ? new URL(source.url) : null;
+        const linkedId = url && (/^\/reel\/(\d+)\/?$/.exec(url.pathname)?.[1] || (url.pathname === '/watch/' ? url.searchParams.get('v') : null));
+        if (!/^\d+$/.test(source.videoId || '') || !url || !['facebook.com','www.facebook.com'].includes(url.hostname) || linkedId !== source.videoId) error(path, 'Facebook 影片須有相符的數字 ID 與正式 reel 或 watch 網址');
+      } else if (source.kind === 'video') {
+        if (source.provider != null && source.provider !== 'youtube') error(path, '影片平台無效');
+        if (!/^[\w-]{11}$/.test(source.videoId || '') || !isHttpsUrl(source.url) || !['youtube.com','www.youtube.com','youtu.be'].includes(new URL(source.url).hostname)) error(path, '影片來源須有有效 YouTube ID 與網址');
+      }
+      if (source.kind === 'video' && source.provider !== 'facebook' && isHttpsUrl(source.url)) {
         const url = new URL(source.url);
         const linkedId = url.hostname === 'youtu.be' ? url.pathname.slice(1) : url.searchParams.get('v') || (/^\/(?:shorts|embed)\/([\w-]{11})$/.exec(url.pathname)?.[1]);
         if (linkedId !== source.videoId) error(path, '影片網址與影片 ID 不一致');

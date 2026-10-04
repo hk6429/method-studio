@@ -10,12 +10,12 @@
 Method:
 - overview（正式文章必填，demo 可省略）：`{image,mobileImage,cardImage,alt,caption}`。image、mobileImage 與 cardImage 使用 `/assets/overviews/<slug>.svg`，圖說區分編輯整理；手機須有可讀排版。獨立 HTML 同步放入相同圖檔，結構化文章由閱讀版型自動顯示。
 - articlePath（可選）：`/articles/<slug>.html`，保留使用者交付的完整 HTML；首頁卡片與文章路由導向此站內頁面。未提供時使用結構化閱讀版型。
-- id (slug), title, summary, categoryId (`ai`/`english`/`reading`), topicIds (string[]), level (`入門`/`進階`), minutes(number), output(string), audience(string), status(`ready`/`draft`), contentType(`video_method`/`article_method`/`editorial_example`), reviewedAt (YYYY-MM-DD)
+- id (slug), title, summary, categoryId（對應 categories，目前為 `ai`/`english`/`reading`/`movement`）, topicIds (string[]), level (`入門`/`進階`), minutes(number), output(string), audience(string), status(`ready`/`draft`), contentType(`video_method`/`article_method`/`editorial_example`), reviewedAt (YYYY-MM-DD)
 - publishedAt（正式文章必填）：首次收錄於本站的 RFC 3339 日期時間，必須包含時區，例如 `2026-10-03T23:22:54+08:00`；使用有效日曆日期與 00–23 時、00–59 分秒。來源發布日期仍屬於 `sources[].publishedAt`，文章修訂日期仍使用 `reviewedAt`，兩者都不能代替首次收錄時間。
 - pinned（可選 boolean，預設未置頂）：只有明確設為 `true` 才列入全站置頂專區。pinOrder（可選正整數）只能與 `pinned: true` 一起使用；小者在前，未提供者放最後，同值保留傳入陣列順序。未指定的真實文章不自行置頂。
 - keywords（可選 string[]）：供搜尋使用的精簡關鍵字，每一項都必須是非空白字串；不代替既有分類與子題。
 - sourceCoverage (string，明示使用者提供整理稿、逐字稿或僅公開說明)，coverLabel (短字)
-- sources: [{id,title,url,kind:`video`|`article`|`official`|`research`|`manuscript`,channel?,videoId?,publishedAt?,note?}]
+- sources: [{id,title,url,kind:`video`|`article`|`official`|`research`|`manuscript`,channel?,provider?:`youtube`|`facebook`,videoId?,publishedAt?,note?}]
 - steps: [{id,title,action,why,example,check,contribution:`source`|`editorial`,sourceRefs:[{sourceId,startSeconds:number|null,endSeconds:number|null}]}]
 - visuals: [{type:`flow`,title,note,nodes:[{id,label,detail}],edges:[{from,to,label?}]}]；另支援 `{type:"schedule",title,note,columns:[string],rows:[{label,cells:[string]}]}`。圖解不等同證明成效。
 - validation: [{claim,status:`supported`|`partial`|`unverified`,explanation,sourceIds:string[],checkedAt}]
@@ -25,7 +25,7 @@ Method:
 
 以逐字稿編成的文章需包含方法步驟、具體例子、實作判準及心得。心得可使用 supplements，標題明示「我的心得」或「編輯觀點」；個人看法不偽裝成影片原話或親身成效。sourceCoverage 記錄人工／自動字幕或本機轉錄、覆蓋範圍與未確認處；時間碼只使用真實字幕或轉錄時間，不由篇幅推算。完整逐字稿留於 scratch，不作為文章全文公開。
 
-來源url僅https；YouTube videoId須11碼合法ID。前端以textContent/安全DOM渲染資料，不插入未信任HTML。來源時間只有有根據的秒數才可帶跳轉；null就連整部影片。
+來源url僅https；影片 provider 省略時沿用 YouTube，videoId 須為 11 碼合法 ID；Facebook 必填 provider: facebook，videoId 為數字字串且須與 facebook.com 或 www.facebook.com 的 /reel/<id> 或 /watch/?v=<id> 相符。分享短網址先解析為正式網址。Facebook 只連回原片，不載入 YouTube 播放器；ASR 時間碼供人工對照，不承諾跳轉。前端以textContent/安全DOM渲染資料，不插入未信任HTML。來源時間只有有根據的秒數才可帶跳轉；null就連整部影片。
 
 網站搜尋只涵蓋已收錄 `ready` 文章：標題、摘要、分類與已指定子題名稱、文章類型中文名稱、keywords、適用對象、產出、步驟、練習、圖說、圖解文字、補充閱讀、來源說明與佐證文字。查詢與文字都先作 NFKC 正規化並轉小寫，再以空白拆詞，每個詞都需出現在同一篇文章的搜尋文字中；不同詞可分布於不同欄位。網址、內部 ID 與未指定的子題不作搜尋詞。不串接外部搜尋。收藏/步驟完成狀態只存使用者localStorage。
 
@@ -49,7 +49,7 @@ Method:
 
 入口public/index.html、styles.css、app.js與可選ui/*.js。hash路由 #method=<id> 與 #preview。收錄後台、JSON輸入、API狀態、AI生成按鈕全部取消。
 
-非影片完成稿使用 `article_method`，須保留 `kind: article` 的原整理頁；`video_method` 仍須保留 YouTube 原片。不得為非影片文章捏造影片或時間碼。獨立文章共用 /styles.css 與站頭站尾，特殊版面採 scoped CSS。
+非影片完成稿使用 `article_method`，須保留 `kind: article` 的原整理頁；`video_method` 仍須保留可核對的 YouTube 或 Facebook 原片。不得為非影片文章捏造影片或時間碼。獨立文章共用 /styles.css 與站頭站尾，特殊版面採 scoped CSS。
 
 講者或作者直接交付、未公開的整理稿可用 `kind: manuscript`，省略 url；必填 channel（提供者）、note（活動日期、取得方式與未核對範圍）。有 url 時仍須 HTTPS。前端以純文字顯示無網址來源，不捏造公開連結。article_method 可引用 article 或 manuscript；其他來源仍須網址，影片方法仍須原片。
 

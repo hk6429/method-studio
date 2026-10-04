@@ -134,7 +134,7 @@ function sourceCard(source, index) {
     source.publishedAt ? el('p', { class: 'source-date' }, `發布日期：${source.publishedAt}`) : null,
     source.note ? textBlock(source.note, 'source-note') : null
   );
-  if (source.kind === 'video' && videoId && safeURL(source.url)) {
+  if (source.kind === 'video' && source.provider !== 'facebook' && videoId && safeURL(source.url)) {
     const player = el('div', { class: 'video-placeholder' });
     const loadButton = el('button', { class: 'button button-small button-quiet', type: 'button', onClick: () => {
       const iframe = el('iframe', {
