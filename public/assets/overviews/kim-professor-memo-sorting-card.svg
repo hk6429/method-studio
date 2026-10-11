@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" role="img" aria-labelledby="kim-professor-memo-sorting-c-title kim-professor-memo-sorting-c-desc"><title id="kim-professor-memo-sorting-c-title">不分類的筆記法</title><desc id="kim-professor-memo-sorting-c-desc">寫就寫 → 一條流 → 每週回讀 → 精華重記；日常不分類，整理交給每週固定時段的回讀。</desc>
+<defs><marker id="kim-professor-memo-sorting-c-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="800" height="480" fill="#f0f2e9"/>
+<text x="36" y="48" fill="#586b60" font-size="26">不分類筆記 · 編輯整理</text>
+<text x="36" y="100" fill="#193732" font-size="36" font-weight="650">先全部寫進同一本</text>
+<path d="M36 126H764" stroke="#bdcbbb"/>
+<path d="M371.0 216.0H424.0" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#kim-professor-memo-sorting-c-arrow)"/>
+<path d="M371.0 366.0H424.0" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#kim-professor-memo-sorting-c-arrow)"/>
+<path d="M600.0 277V290H200.0V300" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#kim-professor-memo-sorting-c-arrow)"/>
+<rect x="36" y="160" width="328.0" height="112" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="56" y="195" fill="#d4e2d4" font-size="23">01</text>
+<text x="56" y="245" fill="#fffef9" font-size="38" font-weight="650">寫就寫</text>
+<rect x="436.0" y="160" width="328.0" height="112" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="456.0" y="195" fill="#586b60" font-size="23">02</text>
+<text x="456.0" y="245" fill="#193732" font-size="38" font-weight="650">一條流</text>
+<rect x="36" y="310" width="328.0" height="112" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="56" y="345" fill="#586b60" font-size="23">03</text>
+<text x="56" y="395" fill="#193732" font-size="38" font-weight="650">每週回讀</text>
+<rect x="436.0" y="310" width="328.0" height="112" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="456.0" y="345" fill="#586b60" font-size="23">04</text>
+<text x="456.0" y="395" fill="#193732" font-size="38" font-weight="650">精華重記</text>
+<text x="36" y="455" fill="#586b60" font-size="23">不分類地寫 → 每週回讀 → 篩出精華</text>
+</svg>

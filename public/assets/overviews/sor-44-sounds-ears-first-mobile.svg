@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 800" role="img" aria-labelledby="sor-44-sounds-ears-first-m-title sor-44-sounds-ears-first-m-desc"><title id="sor-44-sounds-ears-first-m-title">44 音盤點法：耳朵先於眼睛</title><desc id="sor-44-sounds-ears-first-m-desc">第 0 天自測 → 單音盤點 → 合音拆音 → 掀開拼寫與複測；沒進步回到單音盤點。</desc>
+<defs><marker id="sor-44-sounds-ears-first-m-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="480" height="800" fill="#f0f2e9"/>
+<text x="28" y="48" fill="#586b60" font-size="22">SoR 44 音盤點法 · 編輯整理</text>
+<text x="28" y="100" fill="#193732" font-size="27" font-weight="650">先聽見差別，再對嘴，最後綁文字</text>
+<path d="M28 126H452" stroke="#bdcbbb"/>
+<path d="M240.0 274V291" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#sor-44-sounds-ears-first-m-arrow)"/>
+<path d="M240.0 420V437" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#sor-44-sounds-ears-first-m-arrow)"/>
+<path d="M240.0 566V583" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#sor-44-sounds-ears-first-m-arrow)"/>
+<rect x="28" y="154" width="424" height="115" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="48" y="189" fill="#d4e2d4" font-size="21">01 · 第 0 天</text>
+<text x="48" y="230" fill="#fffef9" font-size="30" font-weight="650">自測起跑線</text>
+<text x="48" y="256" fill="#d4e2d4" font-size="20">十組最小音對，只聽不看</text>
+<rect x="28" y="300" width="424" height="115" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="335" fill="#586b60" font-size="21">02 · 第 1–2 天</text>
+<text x="48" y="376" fill="#193732" font-size="30" font-weight="650">盤點單音</text>
+<text x="48" y="402" fill="#586b60" font-size="20">多人聽、跟念、錄音比對</text>
+<rect x="28" y="446" width="424" height="115" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="481" fill="#586b60" font-size="21">03 · 第 3–4 天</text>
+<text x="48" y="522" fill="#193732" font-size="30" font-weight="650">合音拆音</text>
+<text x="48" y="548" fill="#586b60" font-size="20">CVC 當積木，替換首尾音</text>
+<rect x="28" y="592" width="424" height="115" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="627" fill="#586b60" font-size="21">04 · 第 5–7 天</text>
+<text x="48" y="668" fill="#193732" font-size="30" font-weight="650">掀字、複測</text>
+<text x="48" y="694" fill="#586b60" font-size="20">聽對才看拼寫，換聲音再測</text>
+<text x="28" y="741" fill="#586b60" font-size="18">圖解為編輯整理，並非成效證明</text>
+<text x="28" y="775" fill="#586b60" font-size="19">沒進步就回到單音盤點，檢查是否偷看拼寫</text>
+</svg>

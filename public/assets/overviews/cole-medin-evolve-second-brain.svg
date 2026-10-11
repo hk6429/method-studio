@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 650" role="img" aria-labelledby="cole-medin-evolve-second-brain-title cole-medin-evolve-second-brain-desc"><title id="cole-medin-evolve-second-brain-title">從個人第二大腦到團隊大腦</title><desc id="cole-medin-evolve-second-brain-desc">留下 agent → 一張表 → 貼標籤 → 閘門在資料庫 → MCP 入口 → 混合檢索附來源；個人系統不推翻，只集中知識庫。</desc>
+<defs><marker id="cole-medin-evolve-second-brain-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="1200" height="650" fill="#f0f2e9"/>
+<text x="36" y="48" fill="#586b60" font-size="26">TEAM BRAIN · 編輯整理</text>
+<text x="36" y="100" fill="#193732" font-size="42" font-weight="650">個人 agent 不動，只把知識庫集中</text>
+<path d="M36 126H1164" stroke="#bdcbbb"/>
+<path d="M388 248H420" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#cole-medin-evolve-second-brain-arrow)"/>
+<path d="M780 248H812" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#cole-medin-evolve-second-brain-arrow)"/>
+<path d="M988 336V354H212V368" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#cole-medin-evolve-second-brain-arrow)"/>
+<path d="M388 466H420" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#cole-medin-evolve-second-brain-arrow)"/>
+<path d="M780 466H812" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#cole-medin-evolve-second-brain-arrow)"/>
+<rect x="36" y="160" width="352" height="176" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="56" y="195" fill="#d4e2d4" font-size="23">01</text>
+<text x="56" y="245" fill="#fffef9" font-size="36" font-weight="650">留下 agent</text>
+<text x="56" y="292" fill="#d4e2d4" font-size="25">個性、記憶、介面都保留</text>
+<rect x="428" y="160" width="352" height="176" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="448" y="195" fill="#586b60" font-size="23">02</text>
+<text x="448" y="245" fill="#193732" font-size="36" font-weight="650">一張表</text>
+<text x="448" y="292" fill="#586b60" font-size="25">所有來源同一格式</text>
+<rect x="820" y="160" width="344" height="176" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="840" y="195" fill="#586b60" font-size="23">03</text>
+<text x="840" y="245" fill="#193732" font-size="36" font-weight="650">入庫貼標籤</text>
+<text x="840" y="292" fill="#586b60" font-size="25">來源對應群組</text>
+<rect x="36" y="378" width="352" height="176" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="56" y="413" fill="#586b60" font-size="23">04</text>
+<text x="56" y="463" fill="#193732" font-size="36" font-weight="650">閘門在資料庫</text>
+<text x="56" y="510" fill="#586b60" font-size="25">金鑰→群組→列層級過濾</text>
+<rect x="428" y="378" width="352" height="176" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="448" y="413" fill="#586b60" font-size="23">05</text>
+<text x="448" y="463" fill="#193732" font-size="36" font-weight="650">MCP 入口</text>
+<text x="448" y="510" fill="#586b60" font-size="25">五個工具＋個人 token</text>
+<rect x="820" y="378" width="344" height="176" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="840" y="413" fill="#586b60" font-size="23">06</text>
+<text x="840" y="463" fill="#193732" font-size="36" font-weight="650">混合檢索</text>
+<text x="840" y="510" fill="#586b60" font-size="25">關鍵字＋語意，附來源</text>
+<text x="36" y="591" fill="#586b60" font-size="23">圖解為編輯整理，並非成效證明</text>
+<text x="36" y="625" fill="#586b60" font-size="23">權限閘門放資料庫，個人 agent 只多一個工具</text>
+</svg>

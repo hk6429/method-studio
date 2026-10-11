@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 800" role="img" aria-labelledby="justin-sung-11-micro-habits-m-title justin-sung-11-micro-habits-m-desc"><title id="justin-sung-11-micro-habits-m-title">先產出、再吸收：11 個學習習慣排成六步</title><desc id="justin-sung-11-micro-habits-m-desc">先猜先畫 → 自己講一次 → 類比加邊界 → 提早自測 → 找反證留問題 → 無聊即警訊；無聊時回到主動產出。</desc>
+<defs><marker id="justin-sung-11-micro-habits-m-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="480" height="800" fill="#f0f2e9"/>
+<text x="28" y="44" fill="#586b60" font-size="20">Justin Sung · 11 個微小習慣 · 編輯整理</text>
+<text x="28" y="90" fill="#193732" font-size="27" font-weight="650">先產出、再吸收：六步</text>
+<path d="M28 112H452" stroke="#bdcbbb"/>
+<path d="M240 218V229" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#justin-sung-11-micro-habits-m-arrow)"/>
+<path d="M240 318V329" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#justin-sung-11-micro-habits-m-arrow)"/>
+<path d="M240 418V429" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#justin-sung-11-micro-habits-m-arrow)"/>
+<path d="M240 518V529" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#justin-sung-11-micro-habits-m-arrow)"/>
+<path d="M240 618V629" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#justin-sung-11-micro-habits-m-arrow)"/>
+<rect x="28" y="130" width="424" height="88" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="48" y="158" fill="#d4e2d4" font-size="18">01</text>
+<text x="48" y="190" fill="#fffef9" font-size="27" font-weight="650">先猜先畫</text>
+<text x="48" y="211" fill="#d4e2d4" font-size="17">翻書前預測重點、草擬模型</text>
+<rect x="28" y="230" width="424" height="88" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="258" fill="#586b60" font-size="18">02</text>
+<text x="48" y="290" fill="#193732" font-size="27" font-weight="650">自己講一次</text>
+<text x="48" y="311" fill="#586b60" font-size="17">延伸、解釋，不重讀</text>
+<rect x="28" y="330" width="424" height="88" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="358" fill="#586b60" font-size="18">03</text>
+<text x="48" y="390" fill="#193732" font-size="27" font-weight="650">類比加邊界</text>
+<text x="48" y="411" fill="#586b60" font-size="17">像什麼，哪裡不像</text>
+<rect x="28" y="430" width="424" height="88" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="458" fill="#586b60" font-size="18">04</text>
+<text x="48" y="490" fill="#193732" font-size="27" font-weight="650">提早自測</text>
+<text x="48" y="511" fill="#586b60" font-size="17">白紙回憶，圈出缺口</text>
+<rect x="28" y="530" width="424" height="88" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="558" fill="#586b60" font-size="18">05</text>
+<text x="48" y="590" fill="#193732" font-size="27" font-weight="650">找反證留問題</text>
+<text x="48" y="611" fill="#586b60" font-size="17">問自己答不出的題</text>
+<rect x="28" y="630" width="424" height="88" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="658" fill="#586b60" font-size="18">06</text>
+<text x="48" y="690" fill="#193732" font-size="27" font-weight="650">無聊即警訊</text>
+<text x="48" y="711" fill="#586b60" font-size="17">停下來，換主動動作</text>
+<text x="28" y="752" fill="#586b60" font-size="17">察覺無聊就回到主動產出</text>
+<text x="28" y="780" fill="#586b60" font-size="17">圖解為編輯整理，並非成效證明</text>
+</svg>

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 800" role="img" aria-labelledby="jeff-su-chatgpt-20-minutes-title jeff-su-chatgpt-20-minutes-desc"><title id="jeff-su-chatgpt-20-minutes-title">ChatGPT Work 六步工作區</title><desc id="jeff-su-chatgpt-20-minutes-desc">掛資料夾 → 教它規則 → 拆工具規則 → 側邊面板 → 改稿技能 → 路由分流；每次改稿都把經驗寫回規則。</desc>
+<defs><marker id="jeff-su-chatgpt-20-minutes-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="480" height="800" fill="#f0f2e9"/>
+<text x="28" y="48" fill="#586b60" font-size="22">CHATGPT WORK · 編輯整理</text>
+<text x="28" y="100" fill="#193732" font-size="27" font-weight="650">掛資料夾，教它記住規則</text>
+<path d="M28 126H452" stroke="#bdcbbb"/>
+<path d="M240 236V247" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#jeff-su-chatgpt-20-minutes-arrow)"/>
+<rect x="28" y="154" width="424" height="80" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="48" y="188" fill="#d4e2d4" font-size="18">01</text>
+<text x="88" y="190" fill="#fffef9" font-size="26" font-weight="650">掛資料夾</text>
+<text x="48" y="218" fill="#d4e2d4" font-size="18">桌面版＋agents.md</text>
+<path d="M240 332V343" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#jeff-su-chatgpt-20-minutes-arrow)"/>
+<rect x="28" y="250" width="424" height="80" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="284" fill="#586b60" font-size="18">02</text>
+<text x="88" y="286" fill="#193732" font-size="26" font-weight="650">教它規則</text>
+<text x="48" y="314" fill="#586b60" font-size="18">「記住這條規則」</text>
+<path d="M240 428V439" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#jeff-su-chatgpt-20-minutes-arrow)"/>
+<rect x="28" y="346" width="424" height="80" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="380" fill="#586b60" font-size="18">03</text>
+<text x="88" y="382" fill="#193732" font-size="26" font-weight="650">拆工具規則</text>
+<text x="48" y="410" fill="#586b60" font-size="18">tool-conventions.md</text>
+<path d="M240 524V535" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#jeff-su-chatgpt-20-minutes-arrow)"/>
+<rect x="28" y="442" width="424" height="80" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="476" fill="#586b60" font-size="18">04</text>
+<text x="88" y="478" fill="#193732" font-size="26" font-weight="650">側邊面板</text>
+<text x="48" y="506" fill="#586b60" font-size="18">預覽／瀏覽／側聊</text>
+<path d="M240 620V631" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#jeff-su-chatgpt-20-minutes-arrow)"/>
+<rect x="28" y="538" width="424" height="80" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="572" fill="#586b60" font-size="18">05</text>
+<text x="88" y="574" fill="#193732" font-size="26" font-weight="650">改稿技能</text>
+<text x="48" y="602" fill="#586b60" font-size="18">定稿比初稿，學口吻</text>
+<rect x="28" y="634" width="424" height="80" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="668" fill="#586b60" font-size="18">06</text>
+<text x="88" y="670" fill="#193732" font-size="26" font-weight="650">路由分流</text>
+<text x="48" y="698" fill="#586b60" font-size="18">子資料夾各管一塊</text>
+<text x="28" y="748" fill="#586b60" font-size="18">圖解為編輯整理，並非成效證明</text>
+<text x="28" y="778" fill="#586b60" font-size="18">改完稿就把差異寫回規則</text>
+</svg>

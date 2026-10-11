@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 650" role="img" aria-labelledby="darenxue-ep700-title darenxue-ep700-desc"><title id="darenxue-ep700-title">先定義問題，再指揮 AI</title><desc id="darenxue-ep700-desc">寫規格書 → 餵脈絡 → 問該怎麼想 → 多輪再檢驗；動手前先問有人做過嗎，沒把握處回到規格書重看。</desc>
+<defs><marker id="darenxue-ep700-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="1200" height="650" fill="#f0f2e9"/>
+<text x="36" y="48" fill="#586b60" font-size="26">大人學 EP700 · 李佳達專訪 · 編輯整理</text>
+<text x="36" y="100" fill="#193732" font-size="42" font-weight="650">先定義問題，再指揮 AI</text>
+<path d="M36 126H1164" stroke="#bdcbbb"/>
+<path d="M571.0 248.0H624.0" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#darenxue-ep700-arrow)"/>
+<path d="M571.0 466.0H624.0" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#darenxue-ep700-arrow)"/>
+<path d="M900.0 341V354H300.0V368" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#darenxue-ep700-arrow)"/>
+<rect x="36" y="160" width="528.0" height="176" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="56" y="195" fill="#d4e2d4" font-size="23">01</text>
+<text x="56" y="245" fill="#fffef9" font-size="38" font-weight="650">寫問題規格書</text>
+<text x="56" y="292" fill="#d4e2d4" font-size="27">目標・痛點・限制・障礙・成功標準</text>
+<rect x="636.0" y="160" width="528.0" height="176" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="656.0" y="195" fill="#586b60" font-size="23">02</text>
+<text x="656.0" y="245" fill="#193732" font-size="38" font-weight="650">先餵脈絡</text>
+<text x="656.0" y="292" fill="#586b60" font-size="27">流程、真實紀錄、不能破的規則</text>
+<rect x="36" y="378" width="528.0" height="176" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="56" y="413" fill="#586b60" font-size="23">03</text>
+<text x="56" y="463" fill="#193732" font-size="38" font-weight="650">問該用哪種思考方法</text>
+<text x="56" y="510" fill="#586b60" font-size="27">請 AI 推薦，再指定它照做</text>
+<rect x="636.0" y="378" width="528.0" height="176" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="656.0" y="413" fill="#586b60" font-size="23">04</text>
+<text x="656.0" y="463" fill="#193732" font-size="38" font-weight="650">多輪追問，過檢驗者</text>
+<text x="656.0" y="510" fill="#586b60" font-size="27">卡住就反轉論述；沒把握交人判斷</text>
+<text x="36" y="591" fill="#586b60" font-size="23">圖解為編輯整理，並非成效證明</text>
+<text x="36" y="625" fill="#586b60" font-size="23">動手前先問「有人做過嗎」，只補差距；用真問題把方法學進腦袋</text>
+</svg>

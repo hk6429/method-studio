@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" role="img" aria-labelledby="cole-medin-second-brain-rot-title cole-medin-second-brain-rot-desc"><title id="cole-medin-second-brain-rot-title">AI 第二大腦防腐爛：狀態／事件分流</title><desc id="cole-medin-second-brain-rot-desc">認清三層 → 事實題體檢 → 分狀態或事件 → 人在迴圈審計 → 拆狀態區與事件日誌 → 寫進入庫流程。</desc>
+<defs><marker id="cole-medin-second-brain-rot-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="800" height="480" fill="#f0f2e9"/>
+<text x="36" y="48" fill="#586b60" font-size="26">第二大腦防腐爛 · 編輯整理</text>
+<text x="36" y="100" fill="#193732" font-size="36" font-weight="650">狀態就覆寫，事件才追加</text>
+<path d="M36 126H764" stroke="#bdcbbb"/>
+<path d="M266 216H290" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#cole-medin-second-brain-rot-arrow)"/>
+<path d="M514 216H538" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#cole-medin-second-brain-rot-arrow)"/>
+<path d="M650 272V290H150V300" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#cole-medin-second-brain-rot-arrow)"/>
+<path d="M266 366H290" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#cole-medin-second-brain-rot-arrow)"/>
+<path d="M514 366H538" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#cole-medin-second-brain-rot-arrow)"/>
+<rect x="36" y="160" width="228" height="112" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="52" y="195" fill="#d4e2d4" font-size="22">01</text>
+<text x="52" y="245" fill="#fffef9" font-size="34" font-weight="650">認清三層</text>
+<rect x="286" y="160" width="228" height="112" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="302" y="195" fill="#586b60" font-size="22">02</text>
+<text x="302" y="245" fill="#193732" font-size="34" font-weight="650">事實題體檢</text>
+<rect x="536" y="160" width="228" height="112" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="552" y="195" fill="#586b60" font-size="22">03</text>
+<text x="552" y="245" fill="#193732" font-size="34" font-weight="650">狀態或事件</text>
+<rect x="36" y="310" width="228" height="112" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="52" y="345" fill="#586b60" font-size="22">04</text>
+<text x="52" y="395" fill="#193732" font-size="34" font-weight="650">人在迴圈審計</text>
+<rect x="286" y="310" width="228" height="112" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="302" y="345" fill="#586b60" font-size="22">05</text>
+<text x="302" y="395" fill="#193732" font-size="34" font-weight="650">拆檔案格式</text>
+<rect x="536" y="310" width="228" height="112" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="552" y="345" fill="#586b60" font-size="22">06</text>
+<text x="552" y="395" fill="#193732" font-size="34" font-weight="650">寫進入庫流程</text>
+<text x="36" y="455" fill="#586b60" font-size="23">審計清單先看過再放行 → 定期重跑體檢</text>
+</svg>

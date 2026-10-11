@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" role="img" aria-labelledby="liam-ottley-learn-ai-22min-title liam-ottley-learn-ai-22min-desc"><title id="liam-ottley-learn-ai-22min-title">把 Claude 當助理：六級階梯</title><desc id="liam-ottley-learn-ai-22min-desc">設定助理 → 三個習慣 → 新任務新對話 → 建立記憶 → 接上工具 → 技能與排程；每一級升級知識或工具其中一樣。</desc>
+<defs><marker id="liam-ottley-learn-ai-22min-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="800" height="480" fill="#f0f2e9"/>
+<text x="36" y="48" fill="#586b60" font-size="26">CLAUDE 階梯 · 編輯整理</text>
+<text x="36" y="100" fill="#193732" font-size="36" font-weight="650">助理只需要知識與工具</text>
+<path d="M36 126H764" stroke="#bdcbbb"/>
+<path d="M274 210H276" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#liam-ottley-learn-ai-22min-arrow)"/>
+<path d="M522 210H524" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#liam-ottley-learn-ai-22min-arrow)"/>
+<path d="M274 350H276" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#liam-ottley-learn-ai-22min-arrow)"/>
+<path d="M522 350H524" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#liam-ottley-learn-ai-22min-arrow)"/>
+<path d="M648 264V282H152V292" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#liam-ottley-learn-ai-22min-arrow)"/>
+<rect x="36" y="160" width="232" height="100" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="56" y="192" fill="#d4e2d4" font-size="21">01</text>
+<text x="56" y="228" fill="#fffef9" font-size="28" font-weight="650">設定助理</text>
+<rect x="284" y="160" width="232" height="100" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="304" y="192" fill="#586b60" font-size="21">02</text>
+<text x="304" y="228" fill="#193732" font-size="28" font-weight="650">三個習慣</text>
+<rect x="532" y="160" width="232" height="100" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="552" y="192" fill="#586b60" font-size="21">03</text>
+<text x="552" y="228" fill="#193732" font-size="28" font-weight="650">新任務新對話</text>
+<rect x="36" y="300" width="232" height="100" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="56" y="332" fill="#586b60" font-size="21">04</text>
+<text x="56" y="368" fill="#193732" font-size="28" font-weight="650">建立記憶</text>
+<rect x="284" y="300" width="232" height="100" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="304" y="332" fill="#586b60" font-size="21">05</text>
+<text x="304" y="368" fill="#193732" font-size="28" font-weight="650">接上工具</text>
+<rect x="532" y="300" width="232" height="100" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="552" y="332" fill="#586b60" font-size="21">06</text>
+<text x="552" y="368" fill="#193732" font-size="28" font-weight="650">技能與排程</text>
+<text x="36" y="455" fill="#586b60" font-size="23">升級知識 → 升級工具 → 技能排程；出錯退回手動</text>
+</svg>

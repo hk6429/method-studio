@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 800" role="img" aria-labelledby="draw-andrew-should-i-quit-mobile-title draw-andrew-should-i-quit-mobile-desc"><title id="draw-andrew-should-i-quit-mobile-title">該不該辭職的三問清單</title><desc id="draw-andrew-should-i-quit-mobile-desc">分清狀態 → 認出週期 → 三問檢查 → 寫下目的地 → 進行中小專案；三問至少一項還在就留下，三項全空才考慮離開。</desc>
+<defs><marker id="draw-andrew-should-i-quit-mobile-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="480" height="800" fill="#f0f2e9"/>
+<text x="28" y="48" fill="#586b60" font-size="22">DRAW ANDREW · 編輯整理</text>
+<text x="28" y="100" fill="#193732" font-size="27" font-weight="650">該不該走？先問三個問題</text>
+<path d="M28 126H452" stroke="#bdcbbb"/>
+<path d="M240 253V267" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#draw-andrew-should-i-quit-mobile-arrow)"/>
+<path d="M240 369V383" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#draw-andrew-should-i-quit-mobile-arrow)"/>
+<path d="M240 485V499" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#draw-andrew-should-i-quit-mobile-arrow)"/>
+<path d="M240 601V615" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#draw-andrew-should-i-quit-mobile-arrow)"/>
+<rect x="28" y="154" width="424" height="96" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="48" y="185" fill="#d4e2d4" font-size="19">01</text>
+<text x="48" y="218" fill="#fffef9" font-size="27" font-weight="650">分清狀態</text>
+<text x="48" y="242" fill="#d4e2d4" font-size="18">想休息，還是想找方向</text>
+<rect x="28" y="270" width="424" height="96" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="301" fill="#586b60" font-size="19">02</text>
+<text x="48" y="334" fill="#193732" font-size="27" font-weight="650">認出週期</text>
+<text x="48" y="358" fill="#586b60" font-size="18">上手了、回報沒跟上，不等於不適合</text>
+<rect x="28" y="386" width="424" height="96" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="417" fill="#586b60" font-size="19">03</text>
+<text x="48" y="450" fill="#193732" font-size="27" font-weight="650">三問檢查</text>
+<text x="48" y="474" fill="#586b60" font-size="18">享受？擅長？學得到？每欄寫證據</text>
+<rect x="28" y="502" width="424" height="96" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="533" fill="#586b60" font-size="19">04</text>
+<text x="48" y="566" fill="#193732" font-size="27" font-weight="650">寫下目的地</text>
+<text x="48" y="590" fill="#586b60" font-size="18">一項還在就留下，補最弱的那一欄</text>
+<rect x="28" y="618" width="424" height="96" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="649" fill="#586b60" font-size="19">05</text>
+<text x="48" y="682" fill="#193732" font-size="27" font-weight="650">進行中小專案</text>
+<text x="48" y="706" fill="#586b60" font-size="18">不求完美、不設截止日，找回享受</text>
+<text x="28" y="745" fill="#586b60" font-size="18">圖解為編輯整理，並非成效證明</text>
+<text x="28" y="775" fill="#586b60" font-size="19">三項全空才考慮離開；三個月後重填再比對</text>
+</svg>

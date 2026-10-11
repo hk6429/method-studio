@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 650" role="img" aria-labelledby="brain-fourth-pass-rule-title brain-fourth-pass-rule-desc"><title id="brain-fourth-pass-rule-title">從第 4 遍開始的單字方法</title><desc id="brain-fourth-pass-rule-desc">十秒認字 → 音節重音 → 高頻回想 → 真實再遇見；前三遍是認得，第四遍才用得出。</desc>
+<defs><marker id="brain-fourth-pass-rule-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="1200" height="650" fill="#f0f2e9"/>
+<text x="36" y="48" fill="#586b60" font-size="26">四遍學習法 · 編輯整理</text>
+<text x="36" y="100" fill="#193732" font-size="42" font-weight="650">真正的學習，從第 4 遍開始</text>
+<path d="M36 126H1164" stroke="#bdcbbb"/>
+<path d="M571.0 248.0H624.0" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#brain-fourth-pass-rule-arrow)"/>
+<path d="M571.0 466.0H624.0" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#brain-fourth-pass-rule-arrow)"/>
+<path d="M900.0 341V354H300.0V368" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#brain-fourth-pass-rule-arrow)"/>
+<rect x="36" y="160" width="528.0" height="176" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="56" y="195" fill="#d4e2d4" font-size="23">01 · 第 1 遍</text>
+<text x="56" y="245" fill="#fffef9" font-size="38" font-weight="650">十秒認字</text>
+<text x="56" y="292" fill="#d4e2d4" font-size="27">看整體、跟著念、只抓一個意思</text>
+<rect x="636.0" y="160" width="528.0" height="176" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="656.0" y="195" fill="#586b60" font-size="23">02 · 第 2 遍</text>
+<text x="656.0" y="245" fill="#193732" font-size="38" font-weight="650">音節與重音</text>
+<text x="656.0" y="292" fill="#586b60" font-size="27">念對發音、拆音節、標重音</text>
+<rect x="36" y="378" width="528.0" height="176" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="56" y="413" fill="#586b60" font-size="23">03 · 第 3 遍</text>
+<text x="56" y="463" fill="#193732" font-size="38" font-weight="650">高頻回想</text>
+<text x="56" y="510" fill="#586b60" font-size="27">遮意思回想、分段推進、熟字做記號</text>
+<rect x="636.0" y="378" width="528.0" height="176" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="656.0" y="413" fill="#586b60" font-size="23">04 · 第 4 遍</text>
+<text x="656.0" y="463" fill="#193732" font-size="38" font-weight="650">真實再遇見</text>
+<text x="656.0" y="510" fill="#586b60" font-size="27">影片、文章裡認出它，抄下原句</text>
+<text x="36" y="591" fill="#586b60" font-size="23">圖解為編輯整理，數字為影片所稱，並非成效證明</text>
+<text x="36" y="625" fill="#586b60" font-size="23">增加遇見單字的次數，而不是延長盯著它的時間</text>
+</svg>

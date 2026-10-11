@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" role="img" aria-labelledby="brain-pause-map-listening-title brain-pause-map-listening-desc"><title id="brain-pause-map-listening-title">別只聽單字，聽停頓：30 秒三遍停頓地圖</title><desc id="brain-pause-map-listening-desc">換聽的對象 → 第一遍畫停頓地圖 → 第二遍核對意思邊界 → 第三遍連停頓一起跟讀 → 口說切塊 → 單字三問。</desc>
+<defs><marker id="brain-pause-map-listening-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="800" height="480" fill="#f0f2e9"/>
+<text x="36" y="48" fill="#586b60" font-size="26">停頓地圖 · 編輯整理</text>
+<text x="36" y="100" fill="#193732" font-size="36" font-weight="650">別只聽單字，聽停頓</text>
+<path d="M36 126H764" stroke="#bdcbbb"/>
+<rect x="36" y="156" width="226" height="108" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="56" y="188" fill="#d4e2d4" font-size="21">01</text>
+<text x="56" y="234" fill="#fffef9" font-size="30" font-weight="650">換聽的對象</text>
+<rect x="287" y="156" width="226" height="108" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="307" y="188" fill="#586b60" font-size="21">02</text>
+<text x="307" y="234" fill="#193732" font-size="30" font-weight="650">第一遍畫地圖</text>
+<rect x="538" y="156" width="226" height="108" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="558" y="188" fill="#586b60" font-size="21">03</text>
+<text x="558" y="234" fill="#193732" font-size="30" font-weight="650">第二遍核對</text>
+<rect x="36" y="300" width="226" height="108" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="56" y="332" fill="#586b60" font-size="21">04</text>
+<text x="56" y="378" fill="#193732" font-size="30" font-weight="650">第三遍跟讀</text>
+<rect x="287" y="300" width="226" height="108" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="307" y="332" fill="#586b60" font-size="21">05</text>
+<text x="307" y="378" fill="#193732" font-size="30" font-weight="650">口說切塊</text>
+<rect x="538" y="300" width="226" height="108" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="558" y="332" fill="#586b60" font-size="21">06</text>
+<text x="558" y="378" fill="#193732" font-size="30" font-weight="650">單字三問</text>
+<path d="M266 210H280" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#brain-pause-map-listening-arrow)"/>
+<path d="M517 210H531" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#brain-pause-map-listening-arrow)"/>
+<path d="M266 354H280" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#brain-pause-map-listening-arrow)"/>
+<path d="M517 354H531" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#brain-pause-map-listening-arrow)"/>
+<path d="M651 267V282H149V294" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#brain-pause-map-listening-arrow)"/>
+<text x="36" y="455" fill="#586b60" font-size="22">關字幕畫斜槓 → 開字幕核對 → 連停頓一起跟讀</text>
+</svg>

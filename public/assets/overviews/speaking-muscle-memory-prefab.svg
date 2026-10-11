@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 650" role="img" aria-labelledby="speaking-muscle-memory-prefab-title speaking-muscle-memory-prefab-desc"><title id="speaking-muscle-memory-prefab-title">語塊先備好的口說練習法</title><desc id="speaking-muscle-memory-prefab-desc">選框不選詞 → 大聲二十遍 → 兩分鐘輸出 → 紅框再練；卡殼的框隔天回到二十遍。</desc>
+<defs><marker id="speaking-muscle-memory-prefab-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="1200" height="650" fill="#f0f2e9"/>
+<text x="36" y="48" fill="#586b60" font-size="26">語塊口說 · 編輯整理</text>
+<text x="36" y="100" fill="#193732" font-size="42" font-weight="650">先備好語塊，再開口</text>
+<path d="M36 126H1164" stroke="#bdcbbb"/>
+<path d="M571.0 248.0H624.0" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#speaking-muscle-memory-prefab-arrow)"/>
+<path d="M571.0 466.0H624.0" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#speaking-muscle-memory-prefab-arrow)"/>
+<path d="M900.0 341V354H300.0V368" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#speaking-muscle-memory-prefab-arrow)"/>
+<rect x="36" y="160" width="528.0" height="176" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="56" y="195" fill="#d4e2d4" font-size="23">01</text>
+<text x="56" y="245" fill="#fffef9" font-size="38" font-weight="650">選框不選詞</text>
+<text x="56" y="292" fill="#d4e2d4" font-size="27">十個有洞的句框，對應七天情境</text>
+<rect x="636.0" y="160" width="528.0" height="176" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="656.0" y="195" fill="#586b60" font-size="23">02</text>
+<text x="656.0" y="245" fill="#193732" font-size="38" font-weight="650">大聲二十遍</text>
+<text x="656.0" y="292" fill="#586b60" font-size="27">釘死框，只換空格的詞</text>
+<rect x="36" y="378" width="528.0" height="176" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="56" y="413" fill="#586b60" font-size="23">03</text>
+<text x="56" y="463" fill="#193732" font-size="38" font-weight="650">兩分鐘輸出</text>
+<text x="56" y="510" fill="#586b60" font-size="27">出聲串起今天一件事，錄音</text>
+<rect x="636.0" y="378" width="528.0" height="176" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="656.0" y="413" fill="#586b60" font-size="23">04</text>
+<text x="656.0" y="463" fill="#193732" font-size="38" font-weight="650">紅框再練</text>
+<text x="656.0" y="510" fill="#586b60" font-size="27">隔天只練卡住的框，補新框</text>
+<text x="36" y="625" fill="#586b60" font-size="23">卡殼的框回到二十遍，不卡的退場</text>
+<text x="36" y="591" fill="#586b60" font-size="23">圖解為編輯整理，並非成效證明</text>
+</svg>

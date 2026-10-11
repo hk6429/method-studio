@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 800" role="img" aria-labelledby="justin-sung-thinking-habits-m-title justin-sung-thinking-habits-m-desc"><title id="justin-sung-thinking-habits-m-title">讓思考被看見的五個說話習慣</title><desc id="justin-sung-thinking-habits-m-desc">重述問題 → 先定結論 → 分開觀察 → 加反方條件 → 壓成一兩句；每天記下使用，下週換一個習慣。</desc>
+<defs><marker id="justin-sung-thinking-habits-m-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="480" height="800" fill="#f0f2e9"/>
+<text x="28" y="48" fill="#586b60" font-size="22">五個思考習慣 · 編輯整理</text>
+<text x="28" y="100" fill="#193732" font-size="27" font-weight="650">先說結論，再談理由</text>
+<path d="M28 126H452" stroke="#bdcbbb"/>
+<path d="M240 240V252" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#justin-sung-thinking-habits-m-arrow)"/>
+<path d="M240 346V358" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#justin-sung-thinking-habits-m-arrow)"/>
+<path d="M240 452V464" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#justin-sung-thinking-habits-m-arrow)"/>
+<path d="M240 558V570" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#justin-sung-thinking-habits-m-arrow)"/>
+<rect x="28" y="150" width="424" height="90" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="48" y="180" fill="#d4e2d4" font-size="19">01</text>
+<text x="48" y="211" fill="#fffef9" font-size="27" font-weight="650">重述問題</text>
+<text x="200" y="211" fill="#d4e2d4" font-size="18">你真正問的是？拆開談</text>
+<rect x="28" y="256" width="424" height="90" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="286" fill="#586b60" font-size="19">02</text>
+<text x="48" y="317" fill="#193732" font-size="27" font-weight="650">先定結論</text>
+<text x="200" y="317" fill="#586b60" font-size="18">不確定也放進結論說</text>
+<rect x="28" y="362" width="424" height="90" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="392" fill="#586b60" font-size="19">03</text>
+<text x="48" y="423" fill="#193732" font-size="27" font-weight="650">分開觀察</text>
+<text x="200" y="423" fill="#586b60" font-size="18">我看到＿，所以我認為＿</text>
+<rect x="28" y="468" width="424" height="90" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="498" fill="#586b60" font-size="19">04</text>
+<text x="48" y="529" fill="#193732" font-size="27" font-weight="650">加反方條件</text>
+<text x="200" y="529" fill="#586b60" font-size="18">出現＿，我會改變決定</text>
+<rect x="28" y="574" width="424" height="90" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="604" fill="#586b60" font-size="19">05</text>
+<text x="48" y="635" fill="#193732" font-size="27" font-weight="650">壓成一兩句</text>
+<text x="200" y="635" fill="#586b60" font-size="18">先講短版，追問再展開</text>
+<rect x="28" y="680" width="424" height="56" rx="7" fill="#d4e2d4" stroke="#bdcbbb"/>
+<text x="48" y="715" fill="#193732" font-size="20" font-weight="650">每天記下使用；一週只練一個習慣</text>
+<text x="28" y="775" fill="#586b60" font-size="18">圖解為編輯整理，並非成效證明</text>
+</svg>

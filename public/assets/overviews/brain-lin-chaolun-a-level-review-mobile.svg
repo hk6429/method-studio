@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 800" role="img" aria-labelledby="brain-lin-chaolun-a-level-review-title brain-lin-chaolun-a-level-review-desc"><title id="brain-lin-chaolun-a-level-review-title">說完英語一定要檢討：縫隙日記＋14 天一句型</title><desc id="brain-lin-chaolun-a-level-review-desc">說完就檢討 → 抓住糾正 → 縫隙日記 → 14 天一句型 → 主動卡殼 → 結案換題；結案後回到日記挑下一個。</desc>
+<defs><marker id="brain-lin-chaolun-a-level-review-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="480" height="800" fill="#f0f2e9"/>
+<text x="28" y="48" fill="#586b60" font-size="22">林超倫檢討法 · 編輯整理</text>
+<text x="28" y="100" fill="#193732" font-size="27" font-weight="650">說完英語，一定要檢討</text>
+<path d="M28 126H452" stroke="#bdcbbb"/>
+<rect x="28" y="146" width="424" height="86" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="48" y="174" fill="#d4e2d4" font-size="18">01</text>
+<text x="48" y="204" fill="#fffef9" font-size="26" font-weight="650">說完就檢討</text>
+<text x="240" y="224" fill="#d4e2d4" font-size="16">重播一次，找錯位</text>
+<path d="M240 234V245" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#brain-lin-chaolun-a-level-review-arrow)"/>
+<rect x="28" y="248" width="424" height="86" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="276" fill="#586b60" font-size="18">02</text>
+<text x="48" y="306" fill="#193732" font-size="26" font-weight="650">抓住糾正</text>
+<text x="240" y="326" fill="#586b60" font-size="16">對方那一句，立刻複述</text>
+<path d="M240 336V347" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#brain-lin-chaolun-a-level-review-arrow)"/>
+<rect x="28" y="350" width="424" height="86" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="378" fill="#586b60" font-size="18">03</text>
+<text x="48" y="408" fill="#193732" font-size="26" font-weight="650">縫隙日記</text>
+<text x="240" y="428" fill="#586b60" font-size="16">左我的說法，右地道說法</text>
+<path d="M240 438V449" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#brain-lin-chaolun-a-level-review-arrow)"/>
+<rect x="28" y="452" width="424" height="86" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="480" fill="#586b60" font-size="18">04</text>
+<text x="48" y="510" fill="#193732" font-size="26" font-weight="650">14 天一句型</text>
+<text x="240" y="530" fill="#586b60" font-size="16">每天 3–5 個情境替換</text>
+<path d="M240 540V551" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#brain-lin-chaolun-a-level-review-arrow)"/>
+<rect x="28" y="554" width="424" height="86" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="582" fill="#586b60" font-size="18">05</text>
+<text x="48" y="612" fill="#193732" font-size="26" font-weight="650">主動卡殼</text>
+<text x="240" y="632" fill="#586b60" font-size="16">難題硬講，換一句總結</text>
+<path d="M240 642V653" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#brain-lin-chaolun-a-level-review-arrow)"/>
+<rect x="28" y="656" width="424" height="86" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="684" fill="#586b60" font-size="18">06</text>
+<text x="48" y="714" fill="#193732" font-size="26" font-weight="650">結案換題</text>
+<text x="240" y="734" fill="#586b60" font-size="16">打勾，挑下一個</text>
+<text x="28" y="768" fill="#586b60" font-size="17">結案後回到縫隙日記挑下一個；圖解為編輯整理，並非成效證明</text>
+</svg>

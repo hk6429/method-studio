@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 650" role="img" aria-labelledby="brain-pause-map-listening-title brain-pause-map-listening-desc"><title id="brain-pause-map-listening-title">別只聽單字，聽停頓：30 秒三遍停頓地圖</title><desc id="brain-pause-map-listening-desc">換聽的對象 → 第一遍畫停頓地圖 → 第二遍核對意思邊界 → 第三遍連停頓一起跟讀 → 口說切塊 → 單字三問。</desc>
+<defs><marker id="brain-pause-map-listening-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="1200" height="650" fill="#f0f2e9"/>
+<text x="36" y="48" fill="#586b60" font-size="26">停頓地圖 · 編輯整理</text>
+<text x="36" y="100" fill="#193732" font-size="42" font-weight="650">別只聽單字，聽停頓：30 秒三遍練法</text>
+<path d="M36 126H1164" stroke="#bdcbbb"/>
+<rect x="36" y="160" width="348" height="160" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="56" y="192" fill="#d4e2d4" font-size="23">01</text>
+<text x="56" y="234" fill="#fffef9" font-size="34" font-weight="650">換聽的對象</text>
+<text x="56" y="296" fill="#d4e2d4" font-size="24">單字→語塊→停頓</text>
+<rect x="426" y="160" width="348" height="160" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="446" y="192" fill="#586b60" font-size="23">02</text>
+<text x="446" y="234" fill="#193732" font-size="34" font-weight="650">第一遍畫地圖</text>
+<text x="446" y="296" fill="#586b60" font-size="24">關字幕，停頓畫斜槓</text>
+<rect x="816" y="160" width="348" height="160" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="836" y="192" fill="#586b60" font-size="23">03</text>
+<text x="836" y="234" fill="#193732" font-size="34" font-weight="650">第二遍核對</text>
+<text x="836" y="296" fill="#586b60" font-size="24">開字幕，對意思邊界</text>
+<rect x="36" y="370" width="348" height="160" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="56" y="402" fill="#586b60" font-size="23">04</text>
+<text x="56" y="444" fill="#193732" font-size="34" font-weight="650">第三遍跟讀</text>
+<text x="56" y="506" fill="#586b60" font-size="24">關字幕，連停頓一起模仿</text>
+<rect x="426" y="370" width="348" height="160" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="446" y="402" fill="#586b60" font-size="23">05</text>
+<text x="446" y="444" fill="#193732" font-size="34" font-weight="650">口說切塊</text>
+<text x="446" y="506" fill="#586b60" font-size="24">短塊、停、再接</text>
+<rect x="816" y="370" width="348" height="160" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="836" y="402" fill="#586b60" font-size="23">06</text>
+<text x="836" y="444" fill="#193732" font-size="34" font-weight="650">單字三問</text>
+<text x="836" y="506" fill="#586b60" font-size="24">描述什麼／對應／多一層</text>
+<path d="M390 240H418" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#brain-pause-map-listening-arrow)"/>
+<path d="M780 240H808" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#brain-pause-map-listening-arrow)"/>
+<path d="M390 450H418" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#brain-pause-map-listening-arrow)"/>
+<path d="M780 450H808" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#brain-pause-map-listening-arrow)"/>
+<path d="M990 324V344H210V364" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#brain-pause-map-listening-arrow)"/>
+<text x="36" y="591" fill="#586b60" font-size="23">圖解為編輯整理，並非成效證明</text>
+<text x="36" y="625" fill="#586b60" font-size="23">第一遍只畫斜槓不查字；換下一段 30 秒就回到第一遍</text>
+</svg>

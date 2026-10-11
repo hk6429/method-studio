@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" role="img" aria-labelledby="jeff-su-chatgpt-20-minutes-title jeff-su-chatgpt-20-minutes-desc"><title id="jeff-su-chatgpt-20-minutes-title">ChatGPT Work 六步工作區</title><desc id="jeff-su-chatgpt-20-minutes-desc">掛資料夾 → 教它規則 → 拆工具規則 → 側邊面板 → 改稿技能 → 路由分流；每次改稿都把經驗寫回規則。</desc>
+<defs><marker id="jeff-su-chatgpt-20-minutes-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="800" height="480" fill="#f0f2e9"/>
+<text x="36" y="48" fill="#586b60" font-size="26">CHATGPT WORK · 編輯整理</text>
+<text x="36" y="100" fill="#193732" font-size="36" font-weight="650">掛資料夾，教它記住規則</text>
+<path d="M36 126H764" stroke="#bdcbbb"/>
+<path d="M263 216.0H279" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#jeff-su-chatgpt-20-minutes-arrow)"/>
+<path d="M516 216.0H532" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#jeff-su-chatgpt-20-minutes-arrow)"/>
+<path d="M263 356.0H279" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#jeff-su-chatgpt-20-minutes-arrow)"/>
+<path d="M516 356.0H532" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#jeff-su-chatgpt-20-minutes-arrow)"/>
+<path d="M653.0 277V286H147.0V290" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#jeff-su-chatgpt-20-minutes-arrow)"/>
+<rect x="36" y="160" width="222" height="112" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="56" y="192" fill="#d4e2d4" font-size="21">01</text>
+<text x="56" y="238" fill="#fffef9" font-size="30" font-weight="650">掛資料夾</text>
+<rect x="289" y="160" width="222" height="112" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="309" y="192" fill="#586b60" font-size="21">02</text>
+<text x="309" y="238" fill="#193732" font-size="30" font-weight="650">教它規則</text>
+<rect x="542" y="160" width="222" height="112" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="562" y="192" fill="#586b60" font-size="21">03</text>
+<text x="562" y="238" fill="#193732" font-size="30" font-weight="650">拆工具規則</text>
+<rect x="36" y="300" width="222" height="112" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="56" y="332" fill="#586b60" font-size="21">04</text>
+<text x="56" y="378" fill="#193732" font-size="30" font-weight="650">側邊面板</text>
+<rect x="289" y="300" width="222" height="112" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="309" y="332" fill="#586b60" font-size="21">05</text>
+<text x="309" y="378" fill="#193732" font-size="30" font-weight="650">改稿技能</text>
+<rect x="542" y="300" width="222" height="112" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="562" y="332" fill="#586b60" font-size="21">06</text>
+<text x="562" y="378" fill="#193732" font-size="30" font-weight="650">路由分流</text>
+<text x="36" y="455" fill="#586b60" font-size="23">掛資料夾 → 教規則 → 拆檔分流 → 改稿寫回規則</text>
+</svg>

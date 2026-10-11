@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 800" role="img" aria-labelledby="liam-ottley-learn-ai-22min-title liam-ottley-learn-ai-22min-desc"><title id="liam-ottley-learn-ai-22min-title">把 Claude 當助理：六級階梯</title><desc id="liam-ottley-learn-ai-22min-desc">設定助理 → 三個習慣 → 新任務新對話 → 建立記憶 → 接上工具 → 技能與排程；每一級升級知識或工具其中一樣。</desc>
+<defs><marker id="liam-ottley-learn-ai-22min-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="480" height="800" fill="#f0f2e9"/>
+<text x="28" y="48" fill="#586b60" font-size="22">CLAUDE 階梯 · 編輯整理</text>
+<text x="28" y="100" fill="#193732" font-size="27" font-weight="650">助理只需要知識與工具</text>
+<path d="M28 126H452" stroke="#bdcbbb"/>
+<path d="M240 232V243" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#liam-ottley-learn-ai-22min-arrow)"/>
+<rect x="28" y="148" width="424" height="82" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="48" y="172" fill="#d4e2d4" font-size="17">01</text>
+<text x="110" y="178" fill="#fffef9" font-size="24" font-weight="650">設定助理</text>
+<text x="48" y="212" fill="#d4e2d4" font-size="19">App、工具、隱私開關</text>
+<path d="M240 330V341" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#liam-ottley-learn-ai-22min-arrow)"/>
+<rect x="28" y="246" width="424" height="82" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="270" fill="#586b60" font-size="17">02</text>
+<text x="110" y="276" fill="#193732" font-size="24" font-weight="650">三個習慣</text>
+<text x="48" y="310" fill="#586b60" font-size="19">說完整、先訪談、正反舉證</text>
+<path d="M240 428V439" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#liam-ottley-learn-ai-22min-arrow)"/>
+<rect x="28" y="344" width="424" height="82" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="368" fill="#586b60" font-size="17">03</text>
+<text x="110" y="374" fill="#193732" font-size="24" font-weight="650">新任務新對話</text>
+<text x="48" y="408" fill="#586b60" font-size="19">查資料交給深度研究</text>
+<path d="M240 526V537" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#liam-ottley-learn-ai-22min-arrow)"/>
+<rect x="28" y="442" width="424" height="82" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="466" fill="#586b60" font-size="17">04</text>
+<text x="110" y="472" fill="#193732" font-size="24" font-weight="650">建立記憶</text>
+<text x="48" y="506" fill="#586b60" font-size="19">規則、腦內傾倒、專案</text>
+<path d="M240 624V635" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#liam-ottley-learn-ai-22min-arrow)"/>
+<rect x="28" y="540" width="424" height="82" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="564" fill="#586b60" font-size="17">05</text>
+<text x="110" y="570" fill="#193732" font-size="24" font-weight="650">接上工具</text>
+<text x="48" y="604" fill="#586b60" font-size="19">信箱、行事曆、成品</text>
+<rect x="28" y="638" width="424" height="82" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="662" fill="#586b60" font-size="17">06</text>
+<text x="110" y="668" fill="#193732" font-size="24" font-weight="650">技能與排程</text>
+<text x="48" y="702" fill="#586b60" font-size="19">手動→協助→自動</text>
+<text x="28" y="763" fill="#586b60" font-size="17">圖解為編輯整理，並非成效證明</text>
+<text x="28" y="788" fill="#586b60" font-size="17">技能穩定後才排程，出錯退回手動修正</text>
+</svg>
