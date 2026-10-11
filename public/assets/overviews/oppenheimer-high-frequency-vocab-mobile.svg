@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 800" role="img" aria-labelledby="oppenheimer-high-frequency-vocab-m-title oppenheimer-high-frequency-vocab-m-desc"><title id="oppenheimer-high-frequency-vocab-m-title">不學整個英文：十週只練一個場景</title><desc id="oppenheimer-high-frequency-vocab-m-desc">扔：鎖定場景 → 抓：高頻語塊 → 熟：十週接觸表 → 盤點再選；每天 30 分鐘。</desc>
+<defs><marker id="oppenheimer-high-frequency-vocab-m-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="480" height="800" fill="#f0f2e9"/>
+<text x="28" y="48" fill="#586b60" font-size="22">扔 · 抓 · 熟 · 編輯整理</text>
+<text x="28" y="100" fill="#193732" font-size="27" font-weight="650">放掉 99%，練熟一個小場景</text>
+<path d="M28 126H452" stroke="#bdcbbb"/>
+<path d="M240.0 274V291" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#oppenheimer-high-frequency-vocab-m-arrow)"/>
+<path d="M240.0 420V437" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#oppenheimer-high-frequency-vocab-m-arrow)"/>
+<path d="M240.0 566V583" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#oppenheimer-high-frequency-vocab-m-arrow)"/>
+<rect x="28" y="154" width="424" height="115" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="48" y="189" fill="#d4e2d4" font-size="21">01</text>
+<text x="48" y="230" fill="#fffef9" font-size="30" font-weight="650">扔：鎖定一個場景</text>
+<text x="48" y="256" fill="#d4e2d4" font-size="20">先寫下這十週不學什麼</text>
+<rect x="28" y="300" width="424" height="115" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="335" fill="#586b60" font-size="21">02</text>
+<text x="48" y="376" fill="#193732" font-size="30" font-weight="650">抓：高頻語塊</text>
+<text x="48" y="402" fill="#586b60" font-size="20">30 到 100 個整句，不是單字</text>
+<rect x="28" y="446" width="424" height="115" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="481" fill="#586b60" font-size="21">03</text>
+<text x="48" y="522" fill="#193732" font-size="30" font-weight="650">熟：十週接觸表</text>
+<text x="48" y="548" fill="#586b60" font-size="20">看懂 → 聽出 → 跟讀 → 脫口</text>
+<rect x="28" y="592" width="424" height="115" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="627" fill="#586b60" font-size="21">04</text>
+<text x="48" y="668" fill="#193732" font-size="30" font-weight="650">盤點再選</text>
+<text x="48" y="694" fill="#586b60" font-size="20">數認得幾句，換下一個場景</text>
+<text x="28" y="741" fill="#586b60" font-size="18">圖解為編輯整理，並非成效證明</text>
+<text x="28" y="775" fill="#586b60" font-size="19">三行紙：目標／本週句子／今天 30 分鐘</text>
+</svg>

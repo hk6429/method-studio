@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 650" role="img" aria-labelledby="ali-abdaal-learn-with-ai-title ali-abdaal-learn-with-ai-desc"><title id="ali-abdaal-learn-with-ai-title">把 AI 當家教：專案式邊做邊學</title><desc id="ali-abdaal-learn-with-ai-desc">選專案 → 開口問 → 追好奇 → 找爭議 → 先說再測 → 拍照問；覺得夠了就停，寫下下一個專案。</desc>
+<defs><marker id="ali-abdaal-learn-with-ai-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="1200" height="650" fill="#f0f2e9"/>
+<text x="36" y="48" fill="#586b60" font-size="26">AI 家教 · 編輯整理</text>
+<text x="36" y="100" fill="#193732" font-size="42" font-weight="650">從一個想做的專案出發，邊做邊學</text>
+<path d="M36 126H1164" stroke="#bdcbbb"/>
+<path d="M399 248H429" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#ali-abdaal-learn-with-ai-arrow)"/>
+<path d="M795 248H825" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#ali-abdaal-learn-with-ai-arrow)"/>
+<path d="M399 466H429" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#ali-abdaal-learn-with-ai-arrow)"/>
+<path d="M795 466H825" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#ali-abdaal-learn-with-ai-arrow)"/>
+<path d="M996 341V354H216V368" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#ali-abdaal-learn-with-ai-arrow)"/>
+<rect x="36" y="160" width="360" height="176" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="56" y="195" fill="#d4e2d4" font-size="23">01</text>
+<text x="56" y="245" fill="#fffef9" font-size="38" font-weight="650">選專案</text>
+<text x="56" y="292" fill="#d4e2d4" font-size="25">想做出什麼、想弄懂什麼</text>
+<rect x="432" y="160" width="360" height="176" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="452" y="195" fill="#586b60" font-size="23">02</text>
+<text x="452" y="245" fill="#193732" font-size="38" font-weight="650">開口問</text>
+<text x="452" y="292" fill="#586b60" font-size="25">用說的，一次只給一塊</text>
+<rect x="828" y="160" width="336" height="176" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="848" y="195" fill="#586b60" font-size="23">03</text>
+<text x="848" y="245" fill="#193732" font-size="38" font-weight="650">追好奇</text>
+<text x="848" y="292" fill="#586b60" font-size="25">要圖解、要熟悉的比喻</text>
+<rect x="36" y="378" width="360" height="176" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="56" y="413" fill="#586b60" font-size="23">04</text>
+<text x="56" y="463" fill="#193732" font-size="38" font-weight="650">找爭議</text>
+<text x="56" y="510" fill="#586b60" font-size="25">兩邊最強理由，依風險查證</text>
+<rect x="432" y="378" width="360" height="176" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="452" y="413" fill="#586b60" font-size="23">05</text>
+<text x="452" y="463" fill="#193732" font-size="38" font-weight="650">先說再測</text>
+<text x="452" y="510" fill="#586b60" font-size="25">我先講你糾正，再一題一題考</text>
+<rect x="828" y="378" width="336" height="176" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="848" y="413" fill="#586b60" font-size="23">06</text>
+<text x="848" y="463" fill="#193732" font-size="38" font-weight="650">拍照問</text>
+<text x="848" y="510" fill="#586b60" font-size="25">卡住拍現況，夠了就停</text>
+<text x="36" y="591" fill="#586b60" font-size="23">圖解為編輯整理，並非成效證明</text>
+<text x="36" y="625" fill="#586b60" font-size="23">覺得夠了就停，寫下下一個專案，隔日再測一次</text>
+</svg>

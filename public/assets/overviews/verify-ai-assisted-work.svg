@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 650" role="img" aria-labelledby="verify-ai-assisted-work-title verify-ai-assisted-work-desc"><title id="verify-ai-assisted-work-title">分辨 AI 代工還是真功夫的檢核方法</title><desc id="verify-ai-assisted-work-desc">換驗收標準 → 蓋起報告講 → 扮客戶追問 → 丟新資訊看判斷；最後算總產出不算工時。講不出來是搬運工訊號，講得出來再深一層。</desc>
+<defs><marker id="verify-ai-assisted-work-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="1200" height="650" fill="#f0f2e9"/>
+<text x="36" y="48" fill="#586b60" font-size="26">AI 協作驗收 · 編輯整理</text>
+<text x="36" y="100" fill="#193732" font-size="42" font-weight="650">把報告蓋起來，用自己的話講</text>
+<path d="M36 126H1164" stroke="#bdcbbb"/>
+<path d="M571.0 248.0H624.0" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#verify-ai-assisted-work-arrow)"/>
+<path d="M571.0 466.0H624.0" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#verify-ai-assisted-work-arrow)"/>
+<path d="M900.0 341V354H300.0V368" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#verify-ai-assisted-work-arrow)"/>
+<rect x="36" y="160" width="528.0" height="176" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="56" y="195" fill="#d4e2d4" font-size="23">01</text>
+<text x="56" y="245" fill="#fffef9" font-size="38" font-weight="650">換驗收標準</text>
+<text x="56" y="292" fill="#d4e2d4" font-size="27">不問工時排版，問成果與理解</text>
+<rect x="636.0" y="160" width="528.0" height="176" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="656.0" y="195" fill="#586b60" font-size="23">02</text>
+<text x="656.0" y="245" fill="#193732" font-size="38" font-weight="650">蓋起報告講</text>
+<text x="656.0" y="292" fill="#586b60" font-size="27">不念簡報，用自己的話說結論</text>
+<rect x="36" y="378" width="528.0" height="176" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="56" y="413" fill="#586b60" font-size="23">03</text>
+<text x="56" y="463" fill="#193732" font-size="38" font-weight="650">扮客戶追問</text>
+<text x="56" y="510" fill="#586b60" font-size="27">為什麼不是 B？否決了什麼？</text>
+<rect x="636.0" y="378" width="528.0" height="176" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="656.0" y="413" fill="#586b60" font-size="23">04</text>
+<text x="656.0" y="463" fill="#193732" font-size="38" font-weight="650">丟新資訊</text>
+<text x="656.0" y="510" fill="#586b60" font-size="27">結論會不會動？再算總產出</text>
+<text x="36" y="625" fill="#586b60" font-size="23">講不出來是搬運工訊號；講得出來，再深一層；老師看 AI 作業同一套問法</text>
+<text x="36" y="591" fill="#586b60" font-size="23">圖解為編輯整理，並非成效證明</text>
+</svg>

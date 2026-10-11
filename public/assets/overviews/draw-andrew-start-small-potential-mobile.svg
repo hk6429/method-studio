@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 1000" role="img" aria-labelledby="draw-andrew-start-small-potential-m-title draw-andrew-start-small-potential-m-desc"><title id="draw-andrew-start-small-potential-m-title">把自己拆成幾個角色，一天只做一件事</title><desc id="draw-andrew-start-small-potential-m-desc">認出擋路句 → 切出新身分 → 拆成角色 → 一天一角色 → 先查再做 → 雜務交出去。</desc>
+<defs><marker id="draw-andrew-start-small-potential-m-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="480" height="1000" fill="#f0f2e9"/>
+<text x="28" y="48" fill="#586b60" font-size="22">身分拆解 · 編輯整理</text>
+<text x="28" y="100" fill="#193732" font-size="27" font-weight="650">今天是誰，就只做一件事</text>
+<path d="M28 126H452" stroke="#bdcbbb"/>
+<path d="M240 264V281" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#draw-andrew-start-small-potential-m-arrow)"/>
+<path d="M240 400V417" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#draw-andrew-start-small-potential-m-arrow)"/>
+<path d="M240 536V553" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#draw-andrew-start-small-potential-m-arrow)"/>
+<path d="M240 672V689" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#draw-andrew-start-small-potential-m-arrow)"/>
+<path d="M240 808V825" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#draw-andrew-start-small-potential-m-arrow)"/>
+<rect x="28" y="154" width="424" height="105" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="48" y="187" fill="#d4e2d4" font-size="21">01</text>
+<text x="48" y="222" fill="#fffef9" font-size="30" font-weight="650">認出擋路句</text>
+<text x="48" y="248" fill="#d4e2d4" font-size="20">寫下讓你關機的那句話</text>
+<rect x="28" y="290" width="424" height="105" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="323" fill="#586b60" font-size="21">02</text>
+<text x="48" y="358" fill="#193732" font-size="30" font-weight="650">切出新身分</text>
+<text x="48" y="384" fill="#586b60" font-size="20">白天是誰，晚上是誰</text>
+<rect x="28" y="426" width="424" height="105" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="459" fill="#586b60" font-size="21">03</text>
+<text x="48" y="494" fill="#193732" font-size="30" font-weight="650">拆成角色</text>
+<text x="48" y="520" fill="#586b60" font-size="20">三到四個，各一行職責</text>
+<rect x="28" y="562" width="424" height="105" rx="7" fill="#d4e2d4" stroke="#bdcbbb"/>
+<text x="48" y="595" fill="#586b60" font-size="21">04</text>
+<text x="48" y="630" fill="#193732" font-size="30" font-weight="650">一天一角色</text>
+<text x="48" y="656" fill="#586b60" font-size="20">只接一個任務</text>
+<rect x="28" y="698" width="424" height="105" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="731" fill="#586b60" font-size="21">05</text>
+<text x="48" y="766" fill="#193732" font-size="30" font-weight="650">先查再做</text>
+<text x="48" y="792" fill="#586b60" font-size="20">三個問題，三份說明</text>
+<rect x="28" y="834" width="424" height="105" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="867" fill="#586b60" font-size="21">06</text>
+<text x="48" y="902" fill="#193732" font-size="30" font-weight="650">雜務交出去</text>
+<text x="48" y="928" fill="#586b60" font-size="20">固定時段或範本</text>
+<text x="28" y="975" fill="#586b60" font-size="18">圖解為編輯整理，並非成效證明</text>
+</svg>

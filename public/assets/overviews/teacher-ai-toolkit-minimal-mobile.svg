@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 930" role="img" aria-labelledby="teacher-ai-toolkit-minimal-m-title teacher-ai-toolkit-minimal-m-desc"><title id="teacher-ai-toolkit-minimal-m-title">開學不用一百個 AI 工具：把 AI 當學生帶</title><desc id="teacher-ai-toolkit-minimal-m-desc">放下清單 → 說清楚 → 給教材 → 讓 AI 先問 → 先規劃 → 一句結構：已知＋任務＋請你和我一起完成＋限制。</desc>
+<defs><marker id="teacher-ai-toolkit-minimal-m-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="480" height="930" fill="#f0f2e9"/>
+<text x="28" y="48" fill="#586b60" font-size="22">AI 溝通 · 編輯整理</text>
+<text x="28" y="100" fill="#193732" font-size="27" font-weight="650">不用一百個工具，把 AI 當學生帶</text>
+<path d="M28 126H452" stroke="#bdcbbb"/>
+<path d="M240 252V268" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#teacher-ai-toolkit-minimal-m-arrow)"/>
+<path d="M240 370V386" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#teacher-ai-toolkit-minimal-m-arrow)"/>
+<path d="M240 488V504" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#teacher-ai-toolkit-minimal-m-arrow)"/>
+<path d="M240 606V622" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#teacher-ai-toolkit-minimal-m-arrow)"/>
+<path d="M240 724V740" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#teacher-ai-toolkit-minimal-m-arrow)"/>
+<rect x="28" y="154" width="424" height="96" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="184" fill="#586b60" font-size="20">01</text>
+<text x="48" y="216" fill="#193732" font-size="27" font-weight="650">放下清單</text>
+<text x="48" y="240" fill="#586b60" font-size="18">介面不同，背後同一類 AI</text>
+<rect x="28" y="272" width="424" height="96" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="302" fill="#586b60" font-size="20">02</text>
+<text x="48" y="334" fill="#193732" font-size="27" font-weight="650">說清楚</text>
+<text x="48" y="358" fill="#586b60" font-size="18">我的問題＋想要的結果</text>
+<rect x="28" y="390" width="424" height="96" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="420" fill="#586b60" font-size="20">03</text>
+<text x="48" y="452" fill="#193732" font-size="27" font-weight="650">給教材</text>
+<text x="48" y="476" fill="#586b60" font-size="18">文字、截圖、照片、檔案</text>
+<rect x="28" y="508" width="424" height="96" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="538" fill="#586b60" font-size="20">04</text>
+<text x="48" y="570" fill="#193732" font-size="27" font-weight="650">讓 AI 先問</text>
+<text x="48" y="594" fill="#586b60" font-size="18">不確定的地方先確認</text>
+<rect x="28" y="626" width="424" height="96" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="656" fill="#586b60" font-size="20">05</text>
+<text x="48" y="688" fill="#193732" font-size="27" font-weight="650">先規劃</text>
+<text x="48" y="712" fill="#586b60" font-size="18">「先不要做」，拆步驟</text>
+<rect x="28" y="744" width="424" height="96" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="48" y="774" fill="#d4e2d4" font-size="20">06</text>
+<text x="48" y="806" fill="#fffef9" font-size="27" font-weight="650">一句結構</text>
+<text x="48" y="830" fill="#d4e2d4" font-size="18">已知＋任務＋一起完成＋限制</text>
+<text x="28" y="880" fill="#586b60" font-size="18">圖解為編輯整理，並非成效證明</text>
+<text x="28" y="908" fill="#586b60" font-size="18">練熟後只用第 06 句開場；不對就回到 04</text>
+</svg>

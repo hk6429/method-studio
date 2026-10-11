@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" role="img" aria-labelledby="tiago-forte-annual-review-c-title tiago-forte-annual-review-c-desc"><title id="tiago-forte-annual-review-c-title">年度回顧六步：先看清楚，再定方向</title><desc id="tiago-forte-annual-review-c-desc">排時間 → 攤素材 → 先感謝 → 問清單 → 找人聊 → 定方向。</desc>
+<defs><marker id="tiago-forte-annual-review-c-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="800" height="480" fill="#f0f2e9"/>
+<text x="36" y="48" fill="#586b60" font-size="26">年度回顧 · 編輯整理</text>
+<text x="36" y="100" fill="#193732" font-size="36" font-weight="650">先看清楚，再定方向</text>
+<path d="M36 126H764" stroke="#bdcbbb"/>
+<path d="M266 216H284" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#tiago-forte-annual-review-c-arrow)"/>
+<path d="M516 216H534" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#tiago-forte-annual-review-c-arrow)"/>
+<path d="M650 277V290H150V300" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#tiago-forte-annual-review-c-arrow)"/>
+<path d="M266 366H284" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#tiago-forte-annual-review-c-arrow)"/>
+<path d="M516 366H534" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#tiago-forte-annual-review-c-arrow)"/>
+<rect x="36" y="160" width="228" height="112" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="56" y="195" fill="#d4e2d4" font-size="23">01</text>
+<text x="56" y="245" fill="#fffef9" font-size="36" font-weight="650">排時間</text>
+<rect x="286" y="160" width="228" height="112" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="306" y="195" fill="#586b60" font-size="23">02</text>
+<text x="306" y="245" fill="#193732" font-size="36" font-weight="650">攤素材</text>
+<rect x="536" y="160" width="228" height="112" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="556" y="195" fill="#586b60" font-size="23">03</text>
+<text x="556" y="245" fill="#193732" font-size="36" font-weight="650">先感謝</text>
+<rect x="36" y="310" width="228" height="112" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="56" y="345" fill="#586b60" font-size="23">04</text>
+<text x="56" y="395" fill="#193732" font-size="36" font-weight="650">問清單</text>
+<rect x="286" y="310" width="228" height="112" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="306" y="345" fill="#586b60" font-size="23">05</text>
+<text x="306" y="395" fill="#193732" font-size="36" font-weight="650">找人聊</text>
+<rect x="536" y="310" width="228" height="112" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="556" y="345" fill="#d4e2d4" font-size="23">06</text>
+<text x="556" y="395" fill="#fffef9" font-size="36" font-weight="650">定方向</text>
+<text x="36" y="455" fill="#586b60" font-size="23">前五步看清楚 → 最後才寫三目標一意圖</text>
+</svg>
