@@ -7,24 +7,24 @@
 2. 補舊：`"方法室" IS NULL AND datetime(createdTime) < datetime('now','-36 hours') ORDER BY createdTime LIMIT 120`（最舊優先）。
 3. 依標題／作者判斷是否屬「方法」四類：學習／思考法、工作／生產力法、教學／親子法、理財／人生法。排除：新聞、產品發表、純故事或訪談感想、Shorts（片長 <3 分）、廣告、財經行情、純工具功能介紹。同一集的 YouTube／Podcast 重複筆、直播與 EP 重播只選一筆為主、其餘列為重複 page id。
 4. 不屬方法的，用 notion-update-page 把「方法室」設 `不適用`（一次全部處理掉，之後不再重掃）。
-5. 選題上限：新片全選 ＋ 補舊最多 10 篇。沒有可做的就直接到第四步回報。
+5. 選題上限：每晚總共最多 8 篇（新片優先，不足再用補舊補滿，新片超過 8 篇就只取最新 8 篇）。沒有可做的就直接到第四步回報。
 
 ## 二、撰稿（平行子代理）
-每篇用 Agent 工具派一個 general-purpose 子代理，提示詞固定為：
+每篇用 Agent 工具派一個 general-purpose 子代理，**一律指定 model: "sonnet"**，提示詞固定為：
 「先完整讀 /Users/naichengchen/projects/method-studio/automation/brief.md 並照做。OUT=<WORK>/out  TX=<WORK>/tx
 指派：Notion page id <id>（<作者>〈<標題>〉，<youtube/podcast>）。建議 slug：<英文小寫slug>；分類建議 <categoryId / topicIds>。重複 page id：<無或列出>。」
-同時最多 5 個子代理，等一批完成再派下一批。子代理回報「不適用／失敗」就略過。
+同時最多 3 個子代理，等一批完成再派下一批。子代理回報「不適用／失敗」就略過。
 
 ## 三、合併、驗證、部署
 ```bash
 cd ~/projects/method-studio
 node automation/merge.mjs <WORK>/out ~/projects/method-studio   # 沒有 json 就跳過後續
 npm test && npm run build
-/usr/bin/git add -A && /usr/bin/git commit -m "feat(catalog): 每日自動新增 N 篇方法文章（YYYY-MM-DD）" -m "Co-Authored-By: Claude Fable 5.1 <noreply@anthropic.com>"
+/usr/bin/git add -A && /usr/bin/git commit -m "feat(catalog): 每日自動新增 N 篇方法文章（YYYY-MM-DD）" -m "Co-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>"
 npx wrangler pages deploy dist --project-name method-studio --branch main
 ```
 部署後必驗：`curl -s https://method-studio-7dm.pages.dev/data/catalog.json | md5` 須等於 `md5 -q dist/data/catalog.json`；不等就等 60 秒再試三次，仍不等要回報失敗。
-測試或驗證失敗：把有問題的那篇 json 移出 out/ 再重跑 merge（先 `git checkout data/catalog.json public/assets/overviews` 還原），並把該篇 Notion「方法室」改 `失敗`。
+測試或驗證失敗（同一篇最多重試一次，第二次仍失敗就放棄，不要再試）：把有問題的那篇 json 移出 out/ 再重跑 merge（先 `git checkout data/catalog.json public/assets/overviews` 還原），並把該篇 Notion「方法室」改 `失敗`。
 **絕對不要 git push、不要碰 Vercel。**
 
 ## 四、回報

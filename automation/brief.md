@@ -10,8 +10,12 @@
 3. Podcast：SoundOn 頁面 `player.soundon.fm/p/<podcastId>/episodes/<episodeId>` → RSS `https://feeds.soundon.fm/podcasts/<podcastId>.xml` → 找該集 `<enclosure url>` → `automation/fetch-podcast.sh <mp3url> TX/<episodeId>.txt`。其他平台（Firstory／Apple／Spotify）先找 RSS 的 enclosure，找不到就試 `yt-dlp -x`；兩種都失敗 → 在 Notion 把「方法室」設為 `失敗`，回報原因後結束。
 4. 逐字稿是英／日／韓文時照常處理（翻譯改述），sourceCoverage 要寫明語言與辨識方式（Whisper 自動辨識、未逐字人工聽打、簡轉繁等）。
 
+## 0.5 壓縮逐字稿（省 token，必做）
+逐字稿取得後先跑：`node ~/projects/method-studio/automation/compress-transcript.mjs TX/<id>.txt TX/<id>.digest.md`。
+**只讀 `.digest.md`**（帶真實起訖時間的分段要點），不要整份讀原稿。需要引用原話或確認某步的秒數時，才用 `grep`／`sed -n` 取原稿的相關幾行。sourceRefs 的秒數仍須來自原稿真實存在的 [mm:ss]。
+
 ## 1. 判斷
-整段讀完。若內容其實不是「可照做的方法」（新聞、純故事／訪談感想、產品廣告、純工具功能介紹沒有操作步驟）→ Notion「方法室」設 `不適用`，回報一句理由後結束，不要硬寫。
+讀完 digest。若內容其實不是「可照做的方法」（新聞、純故事／訪談感想、產品廣告、純工具功能介紹沒有操作步驟）→ Notion「方法室」設 `不適用`，回報一句理由後結束，不要硬寫。
 
 ## 2. 輸出檔案（寫到 OUT/）
 1. `<slug>.json` — 一個 Method 物件（不是陣列），欄位契約見 `docs/data-contract.md`；完整範例用 node 取 `data/catalog.json` 中 id 為 `interact-think-first-classroom` 與 `teacher-ai-toolkit-minimal` 的條目。slug 不得與 catalog 既有 id 重複。
@@ -28,7 +32,7 @@
 - `steps` 4–6 步，每步 title/action/why/example/check 齊全；編輯自訂例子標「編輯示範」。另需 `minutes`、`level`(入門／進階)、`output`、`audience`、`sourceCoverage`、`coverLabel`、`keywords[]`、`summary`。
 - 全文繁體中文（台灣用語）、禁簡體；外語原文翻譯改述，每步引用原話不超過一句。影片數字註「影片稱」。真實校內老師姓名可寫講者公開姓名，但不要寫入未公開的學生姓名。
 
-## 4. 自驗（全部通過才算完成）
+## 4. 自驗（全部通過才算完成；同一篇修正最多兩輪，第二輪仍失敗就停手：Notion「方法室」設 `失敗`，回報原因後結束，不要繼續重試）
 ```bash
 node -e 'JSON.parse(require("fs").readFileSync("OUT/<slug>.json","utf8"))'
 # 併入 catalog 複本跑 validateCatalog（publishedAt 暫填合法時間），需 0 errors：

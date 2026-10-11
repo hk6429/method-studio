@@ -10,5 +10,5 @@ if [ -e "$LOCK" ] && kill -0 "$(cat "$LOCK")" 2>/dev/null; then echo "$(date '+%
 echo $$ > "$LOCK"; trap 'rm -f "$LOCK"' EXIT
 echo "=== method-digest $(date '+%F %T') ===" >> "$LOG"
 cd "$REPO" || exit 1
-/Users/naichengchen/.local/bin/claude -p "$(cat "$REPO/automation/prompt.md")" --dangerously-skip-permissions --max-turns 400 >> "$LOG" 2>&1
+/Users/naichengchen/.local/bin/claude -p "$(cat "$REPO/automation/prompt.md")" --dangerously-skip-permissions --model sonnet --max-turns 150 --max-budget-usd 15 >> "$LOG" 2>&1
 echo "=== done exit=$? $(date '+%F %T') ===" >> "$LOG"
