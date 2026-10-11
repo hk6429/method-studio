@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 800" role="img" aria-labelledby="wu-danru-kids-money-talk-title wu-danru-kids-money-talk-desc"><title id="wu-danru-kids-money-talk-title">你怎麼談錢，孩子就怎麼看錢</title><desc id="wu-danru-kids-money-talk-desc">聽見錢話 → 換掉買不起 → 規則說清楚 → 拿掉設限話；用換句卡一週練一句，再回到觀察。</desc>
+<defs><marker id="wu-danru-kids-money-talk-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="480" height="800" fill="#f0f2e9"/>
+<text x="28" y="48" fill="#586b60" font-size="22">親子金錢觀 · 編輯整理</text>
+<text x="28" y="100" fill="#193732" font-size="27" font-weight="650">換一句，談錢的方式</text>
+<path d="M28 126H452" stroke="#bdcbbb"/>
+<path d="M240.0 274V291" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#wu-danru-kids-money-talk-arrow)"/>
+<path d="M240.0 420V437" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#wu-danru-kids-money-talk-arrow)"/>
+<path d="M240.0 566V583" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#wu-danru-kids-money-talk-arrow)"/>
+<rect x="28" y="154" width="424" height="115" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="48" y="189" fill="#d4e2d4" font-size="21">01</text>
+<text x="48" y="230" fill="#fffef9" font-size="30" font-weight="650">聽見錢話</text>
+<text x="48" y="256" fill="#d4e2d4" font-size="20">一週記下原話與語氣</text>
+<rect x="28" y="300" width="424" height="115" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="335" fill="#586b60" font-size="21">02</text>
+<text x="48" y="376" fill="#193732" font-size="30" font-weight="650">換掉買不起</text>
+<text x="48" y="402" fill="#586b60" font-size="20">改問需不需要、要不要等</text>
+<rect x="28" y="446" width="424" height="115" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="481" fill="#586b60" font-size="21">03</text>
+<text x="48" y="522" fill="#193732" font-size="30" font-weight="650">規則說清楚</text>
+<text x="48" y="548" fill="#586b60" font-size="20">零用錢講明，爭執避開孩子</text>
+<rect x="28" y="592" width="424" height="115" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="627" fill="#586b60" font-size="21">04</text>
+<text x="48" y="668" fill="#193732" font-size="30" font-weight="650">拿掉設限話</text>
+<text x="48" y="694" fill="#586b60" font-size="20">借貸投資講成可以學的事</text>
+<text x="28" y="775" fill="#586b60" font-size="19">換句卡一週練一句，說錯就補</text>
+<text x="28" y="741" fill="#586b60" font-size="18">圖解為編輯整理，並非成效證明</text>
+</svg>

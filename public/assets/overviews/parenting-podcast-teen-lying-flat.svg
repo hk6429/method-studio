@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 650" role="img" aria-labelledby="parenting-podcast-teen-lying-flat-title parenting-podcast-teen-lying-flat-desc"><title id="parenting-podcast-teen-lying-flat-title">孩子躺平背後的原因與情緒五步</title><desc id="parenting-podcast-teen-lying-flat-desc">五面盤點 → 聽出害怕 → 看餘裕 → 先玩再談 → 可樂五步 → 找出口；關係夠了才帶情緒活動。</desc>
+<defs><marker id="parenting-podcast-teen-lying-flat-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="1200" height="650" fill="#f0f2e9"/>
+<text x="36" y="48" fill="#586b60" font-size="26">親子天下 Podcast · 編輯整理</text>
+<text x="36" y="100" fill="#193732" font-size="42" font-weight="650">孩子躺平不是懶，是怕努力也沒用</text>
+<path d="M36 126H1164" stroke="#bdcbbb"/>
+<path d="M386 245H420" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#parenting-podcast-teen-lying-flat-arrow)"/>
+<path d="M778 245H812" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#parenting-podcast-teen-lying-flat-arrow)"/>
+<path d="M386 463H420" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#parenting-podcast-teen-lying-flat-arrow)"/>
+<path d="M778 463H812" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#parenting-podcast-teen-lying-flat-arrow)"/>
+<path d="M992 335V350H208V370" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#parenting-podcast-teen-lying-flat-arrow)"/>
+<rect x="36" y="160" width="344" height="170" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="56" y="195" fill="#d4e2d4" font-size="23">01</text>
+<text x="56" y="250" fill="#fffef9" font-size="36" font-weight="650">五面盤點</text>
+<text x="56" y="295" fill="#d4e2d4" font-size="22">人性、家庭、制度、手機、AI</text>
+<rect x="428" y="160" width="344" height="170" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="448" y="195" fill="#586b60" font-size="23">02</text>
+<text x="448" y="250" fill="#193732" font-size="36" font-weight="650">聽出害怕</text>
+<text x="448" y="295" fill="#586b60" font-size="22">不行動是自我保護</text>
+<rect x="820" y="160" width="344" height="170" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="840" y="195" fill="#586b60" font-size="23">03</text>
+<text x="840" y="250" fill="#193732" font-size="36" font-weight="650">看餘裕</text>
+<text x="840" y="295" fill="#586b60" font-size="22">本少就給小嘗試</text>
+<rect x="36" y="378" width="344" height="170" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="56" y="413" fill="#586b60" font-size="23">04</text>
+<text x="56" y="468" fill="#193732" font-size="36" font-weight="650">先玩再談</text>
+<text x="56" y="513" fill="#586b60" font-size="22">遊戲建立關係</text>
+<rect x="428" y="378" width="344" height="170" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="448" y="413" fill="#586b60" font-size="23">05</text>
+<text x="448" y="468" fill="#193732" font-size="36" font-weight="650">可樂五步</text>
+<text x="448" y="513" fill="#586b60" font-size="22">距離覺察試探放鬆時機</text>
+<rect x="820" y="378" width="344" height="170" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="840" y="413" fill="#586b60" font-size="23">06</text>
+<text x="840" y="468" fill="#193732" font-size="36" font-weight="650">找出口</text>
+<text x="840" y="513" fill="#586b60" font-size="22">礦泉水對照，大人示範</text>
+<text x="36" y="591" fill="#586b60" font-size="23">圖解為編輯整理，並非成效證明</text>
+<text x="36" y="625" fill="#586b60" font-size="23">關係夠了再帶情緒活動；有自傷跡象請找專業協助</text>
+</svg>

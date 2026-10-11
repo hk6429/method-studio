@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 900" role="img" aria-labelledby="sanshiba-smarter-ai-less-effort-title sanshiba-smarter-ai-less-effort-desc"><title id="sanshiba-smarter-ai-less-effort-title">AI 越聰明，你越省力：例行工作交給代理、老師當審稿人</title><desc id="sanshiba-smarter-ai-less-effort-desc">搬進對話窗 → 專業下規格 → 你來稽核 → 先問代理、先試做 → 寫成說明檔；稽核錯處補回規格。</desc>
+<defs><marker id="sanshiba-smarter-ai-less-effort-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="480" height="900" fill="#f0f2e9"/>
+<text x="28" y="48" fill="#586b60" font-size="22">三師爸直播 · 編輯整理</text>
+<text x="28" y="100" fill="#193732" font-size="27" font-weight="650">AI 越聰明，你越省力</text>
+<path d="M28 126H452" stroke="#bdcbbb"/>
+<path d="M240 252V269" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#sanshiba-smarter-ai-less-effort-arrow)"/>
+<rect x="28" y="150" width="424" height="100" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="48" y="180" fill="#d4e2d4" font-size="19">01</text>
+<text x="48" y="214" fill="#fffef9" font-size="28" font-weight="650">搬進對話窗</text>
+<text x="48" y="238" fill="#d4e2d4" font-size="19">一件工作，一個對話</text>
+<path d="M240 376V393" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#sanshiba-smarter-ai-less-effort-arrow)"/>
+<rect x="28" y="274" width="424" height="100" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="304" fill="#586b60" font-size="19">02</text>
+<text x="48" y="338" fill="#193732" font-size="28" font-weight="650">專業下規格</text>
+<text x="48" y="362" fill="#586b60" font-size="19">範圍、層次、版面</text>
+<path d="M240 500V517" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#sanshiba-smarter-ai-less-effort-arrow)"/>
+<rect x="28" y="398" width="424" height="100" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="428" fill="#586b60" font-size="19">03</text>
+<text x="48" y="462" fill="#193732" font-size="28" font-weight="650">你來稽核</text>
+<text x="48" y="486" fill="#586b60" font-size="19">看關鍵處再放行</text>
+<path d="M240 624V641" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#sanshiba-smarter-ai-less-effort-arrow)"/>
+<rect x="28" y="522" width="424" height="100" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="552" fill="#586b60" font-size="19">04</text>
+<text x="48" y="586" fill="#193732" font-size="28" font-weight="650">先問、先試做</text>
+<text x="48" y="610" fill="#586b60" font-size="19">不動原專案</text>
+<rect x="28" y="646" width="424" height="100" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="676" fill="#586b60" font-size="19">05</text>
+<text x="48" y="710" fill="#193732" font-size="28" font-weight="650">寫成說明檔</text>
+<text x="48" y="734" fill="#586b60" font-size="19">agents.md 可重現</text>
+<text x="28" y="808" fill="#586b60" font-size="18">圖解為編輯整理，並非成效證明</text>
+<text x="28" y="842" fill="#586b60" font-size="19">稽核抓到的錯，補回下一次規格</text>
+</svg>

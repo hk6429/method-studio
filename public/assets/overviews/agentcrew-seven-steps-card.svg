@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" role="img" aria-labelledby="agentcrew-seven-steps-title agentcrew-seven-steps-desc"><title id="agentcrew-seven-steps-title">導入 AI 前的六步流程盤點</title><desc id="agentcrew-seven-steps-desc">拆步驟 → 標性質 → 問責任 → 一次問完 → 餵脈絡 → 誠實復盤；復盤後回頭重標步驟。</desc>
+<defs><marker id="agentcrew-seven-steps-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="800" height="480" fill="#f0f2e9"/>
+<text x="36" y="48" fill="#586b60" font-size="26">AgentCrew Academy · 編輯整理</text>
+<text x="36" y="100" fill="#193732" font-size="36" font-weight="650">導入 AI 前，先盤點流程</text>
+<path d="M36 126H764" stroke="#bdcbbb"/>
+<path d="M258 216H284" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#agentcrew-seven-steps-arrow)"/>
+<path d="M514 216H540" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#agentcrew-seven-steps-arrow)"/>
+<path d="M258 356H284" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#agentcrew-seven-steps-arrow)"/>
+<path d="M514 356H540" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#agentcrew-seven-steps-arrow)"/>
+<path d="M656 277V288H144V299" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#agentcrew-seven-steps-arrow)"/>
+<rect x="36" y="160" width="216" height="112" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="54" y="194" fill="#d4e2d4" font-size="21">01</text>
+<text x="54" y="244" fill="#fffef9" font-size="34" font-weight="650"></text>
+<rect x="292" y="160" width="216" height="112" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="310" y="194" fill="#586b60" font-size="21">02</text>
+<text x="310" y="244" fill="#193732" font-size="34" font-weight="650">拆步驟</text>
+<rect x="548" y="160" width="216" height="112" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="566" y="194" fill="#586b60" font-size="21">03</text>
+<text x="566" y="244" fill="#193732" font-size="34" font-weight="650">標性質</text>
+<rect x="36" y="300" width="216" height="112" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="54" y="334" fill="#586b60" font-size="21">04</text>
+<text x="54" y="384" fill="#193732" font-size="34" font-weight="650">問責任</text>
+<rect x="292" y="300" width="216" height="112" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="310" y="334" fill="#586b60" font-size="21">05</text>
+<text x="310" y="384" fill="#193732" font-size="34" font-weight="650">一次問完</text>
+<rect x="548" y="300" width="216" height="112" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="566" y="334" fill="#586b60" font-size="21">06</text>
+<text x="566" y="384" fill="#193732" font-size="34" font-weight="650">餵脈絡</text>
+<text x="36" y="455" fill="#586b60" font-size="22">做錯了誰負責 → 眼睛要經過 → 不可逆不自動化</text>
+</svg>

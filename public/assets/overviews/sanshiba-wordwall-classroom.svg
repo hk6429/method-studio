@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 650" role="img" aria-labelledby="sanshiba-wordwall-classroom-title sanshiba-wordwall-classroom-desc"><title id="sanshiba-wordwall-classroom-title">讓 AI Agent 幫老師在 Wordwall 出題</title><desc id="sanshiba-wordwall-classroom-desc">先問介面 → 裝 CLI 技能 → 選等級 → 丟教材規劃 → 檢查再釋出 → 座號與交辦；題目或版面不對時回到規劃。</desc>
+<defs><marker id="sanshiba-wordwall-classroom-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="1200" height="650" fill="#f0f2e9"/>
+<text x="36" y="48" fill="#586b60" font-size="26">Wordwall × AI Agent · 編輯整理</text>
+<text x="36" y="100" fill="#193732" font-size="42" font-weight="650">沒有連結器，也能把出題交給 Agent</text>
+<path d="M36 126H1164" stroke="#bdcbbb"/>
+<path d="M396.0 236.0H424.0" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#sanshiba-wordwall-classroom-arrow)"/>
+<path d="M776.0 236.0H804.0" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#sanshiba-wordwall-classroom-arrow)"/>
+<path d="M984.0 312V336H216.0V358" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#sanshiba-wordwall-classroom-arrow)"/>
+<path d="M396.0 448.0H424.0" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#sanshiba-wordwall-classroom-arrow)"/>
+<path d="M776.0 448.0H804.0" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#sanshiba-wordwall-classroom-arrow)"/>
+<rect x="36" y="160" width="360" height="152" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="56" y="195" fill="#d4e2d4" font-size="23">01</text>
+<text x="56" y="242" fill="#fffef9" font-size="36" font-weight="650">先問介面</text>
+<text x="56" y="286" fill="#d4e2d4" font-size="25">有 API／MCP／登入權限嗎</text>
+<rect x="420" y="160" width="360" height="152" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="440" y="195" fill="#586b60" font-size="23">02</text>
+<text x="440" y="242" fill="#193732" font-size="36" font-weight="650">裝 CLI 技能</text>
+<text x="440" y="286" fill="#586b60" font-size="25">本人登入＋瀏覽器自動化</text>
+<rect x="804" y="160" width="360" height="152" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="824" y="195" fill="#586b60" font-size="23">03</text>
+<text x="824" y="242" fill="#193732" font-size="36" font-weight="650">選等級</text>
+<text x="824" y="286" fill="#586b60" font-size="25">純文字／考卷截圖／AI 生圖</text>
+<rect x="36" y="372" width="360" height="152" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="56" y="407" fill="#586b60" font-size="23">04</text>
+<text x="56" y="454" fill="#193732" font-size="36" font-weight="650">丟教材規劃</text>
+<text x="56" y="498" fill="#586b60" font-size="25">Agent 先列題，老師確認</text>
+<rect x="420" y="372" width="360" height="152" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="440" y="407" fill="#586b60" font-size="23">05</text>
+<text x="440" y="454" fill="#193732" font-size="36" font-weight="650">檢查再釋出</text>
+<text x="440" y="498" fill="#586b60" font-size="25">題目、答案、版面、題型</text>
+<rect x="804" y="372" width="360" height="152" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="824" y="407" fill="#d4e2d4" font-size="23">06</text>
+<text x="824" y="454" fill="#fffef9" font-size="36" font-weight="650">座號＋交辦</text>
+<text x="824" y="498" fill="#d4e2d4" font-size="25">去識別化，重複事交給 Agent</text>
+<text x="36" y="591" fill="#586b60" font-size="23">圖解為編輯整理，並非成效證明</text>
+<text x="36" y="625" fill="#586b60" font-size="23">題目或版面不對 → 回到規劃；建立一律私有，老師看過才公開</text>
+</svg>

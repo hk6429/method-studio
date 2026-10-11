@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 650" role="img" aria-labelledby="ted-messy-middle-title ted-messy-middle-desc"><title id="ted-messy-middle-title">撐過混亂中段的五個動作</title><desc id="ted-messy-middle-desc">認出中段 → 成果微光 → 團隊微光 → 自己微光 → 慶祝小勝；每週回頭再找一輪。</desc>
+<defs><marker id="ted-messy-middle-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="1200" height="650" fill="#f0f2e9"/>
+<text x="36" y="48" fill="#586b60" font-size="26">TED · 混亂中段 · 編輯整理</text>
+<text x="36" y="100" fill="#193732" font-size="42" font-weight="650">山頂看不到時，先找進步的微光</text>
+<path d="M36 126H1164" stroke="#bdcbbb"/>
+<rect x="36" y="160" width="1128" height="110" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="56" y="195" fill="#d4e2d4" font-size="23">01</text>
+<text x="110" y="212" fill="#fffef9" font-size="36" font-weight="650">認出混亂中段</text>
+<text x="110" y="252" fill="#d4e2d4" font-size="25">熱情退、成果慢、想放棄：這是野心夠大的正常現象，不是走錯路</text>
+<path d="M600 272V300" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#ted-messy-middle-arrow)"/>
+<path d="M411 405H440" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#ted-messy-middle-arrow)"/>
+<path d="M799 405H828" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#ted-messy-middle-arrow)"/>
+<rect x="36" y="310" width="364" height="190" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="56" y="345" fill="#586b60" font-size="23">02</text>
+<text x="56" y="395" fill="#193732" font-size="36" font-weight="650">成果微光</text>
+<text x="56" y="438" fill="#586b60" font-size="25">先做最粗糙的測試</text>
+<text x="56" y="474" fill="#586b60" font-size="25">今晚就跑，下週有結果</text>
+<rect x="452" y="310" width="336" height="190" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="472" y="345" fill="#586b60" font-size="23">03</text>
+<text x="472" y="395" fill="#193732" font-size="36" font-weight="650">團隊微光</text>
+<text x="472" y="438" fill="#586b60" font-size="25">人人有旗可舉</text>
+<text x="472" y="474" fill="#586b60" font-size="25">做事的人直接報告</text>
+<rect x="840" y="310" width="324" height="190" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="860" y="345" fill="#586b60" font-size="23">04</text>
+<text x="860" y="395" fill="#193732" font-size="36" font-weight="650">自己微光</text>
+<text x="860" y="438" fill="#586b60" font-size="25">先聽、搭橋、放手</text>
+<text x="860" y="474" fill="#586b60" font-size="25">少防衛，多合作</text>
+<path d="M1002 500V522H600V536" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#ted-messy-middle-arrow)"/>
+<rect x="300" y="544" width="600" height="56" rx="7" fill="#d4e2d4" stroke="#bdcbbb"/>
+<text x="320" y="582" fill="#193732" font-size="27" font-weight="650">05 慶祝小勝，把微光變成往上爬的能量</text>
+<path d="M300 572H200V405H36" stroke="#586b60" fill="none" stroke-width="2.5" stroke-dasharray="6 6"/>
+<text x="36" y="632" fill="#586b60" font-size="23">虛線：每週回頭再找一輪 · 圖解為編輯整理，並非成效證明；案例數字為影片稱</text>
+</svg>

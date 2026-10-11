@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 650" role="img" aria-labelledby="ted-hard-feedback-4-steps-title ted-hard-feedback-4-steps-desc"><title id="ted-hard-feedback-4-steps-title">聽得進去的回饋：TACT 四步</title><desc id="ted-hard-feedback-4-steps-desc">認出那件事 → 找提醒者 → 縮小再問 → T 感謝 → A 承認、C 承諾 → T 再感謝；二次感謝讓對方下次更容易開口。</desc>
+<defs><marker id="ted-hard-feedback-4-steps-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="1200" height="650" fill="#f0f2e9"/>
+<text x="36" y="48" fill="#586b60" font-size="26">TED · TACT · 編輯整理</text>
+<text x="36" y="100" fill="#193732" font-size="42" font-weight="650">先問對問題，再用 TACT 接住別人不敢說的話</text>
+<path d="M36 126H1164" stroke="#bdcbbb"/>
+<path d="M389 248H415" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#ted-hard-feedback-4-steps-arrow)"/>
+<path d="M780 248H806" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#ted-hard-feedback-4-steps-arrow)"/>
+<path d="M991 341V354H209V368" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#ted-hard-feedback-4-steps-arrow)"/>
+<path d="M389 466H415" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#ted-hard-feedback-4-steps-arrow)"/>
+<path d="M780 466H806" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#ted-hard-feedback-4-steps-arrow)"/>
+<rect x="36" y="160" width="346" height="176" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="56" y="195" fill="#d4e2d4" font-size="23">01</text>
+<text x="56" y="245" fill="#fffef9" font-size="36" font-weight="650">認出那件事</text>
+<text x="56" y="292" fill="#d4e2d4" font-size="25">不在狀態時會做的行為</text>
+<rect x="427" y="160" width="346" height="176" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="447" y="195" fill="#586b60" font-size="23">02</text>
+<text x="447" y="245" fill="#193732" font-size="36" font-weight="650">找提醒者</text>
+<text x="447" y="292" fill="#586b60" font-size="25">一個人、一句暗號</text>
+<rect x="818" y="160" width="346" height="176" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="838" y="195" fill="#586b60" font-size="23">03</text>
+<text x="838" y="245" fill="#193732" font-size="36" font-weight="650">縮小再問</text>
+<text x="838" y="292" fill="#586b60" font-size="25">一個場合、一個建議</text>
+<rect x="36" y="378" width="346" height="176" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="56" y="413" fill="#586b60" font-size="23">04</text>
+<text x="56" y="463" fill="#193732" font-size="36" font-weight="650">T 感謝</text>
+<text x="56" y="510" fill="#586b60" font-size="25">先冷卻戰或逃，不辯解</text>
+<rect x="427" y="378" width="346" height="176" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="447" y="413" fill="#586b60" font-size="23">05</text>
+<text x="447" y="463" fill="#193732" font-size="36" font-weight="650">A 承認・C 承諾</text>
+<text x="447" y="510" fill="#586b60" font-size="25">複述感受，說清楚下一步</text>
+<rect x="818" y="378" width="346" height="176" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="838" y="413" fill="#d4e2d4" font-size="23">06</text>
+<text x="838" y="463" fill="#fffef9" font-size="36" font-weight="650">T 再感謝</text>
+<text x="838" y="510" fill="#d4e2d4" font-size="25">當天內，讓開口值得</text>
+<text x="36" y="591" fill="#586b60" font-size="23">圖解為編輯整理，並非成效證明</text>
+<text x="36" y="625" fill="#586b60" font-size="23">二次感謝之後回到「縮小再問」：對方下次更容易開口</text>
+</svg>

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 650" role="img" aria-labelledby="paul-lipsky-notebooklm-course-title paul-lipsky-notebooklm-course-desc"><title id="paul-lipsky-notebooklm-course-title">一本筆記本的 NotebookLM 方法</title><desc id="paul-lipsky-notebooklm-course-desc">開一本選來源 → 整理來源 → 限定範圍問 → 依用途產出 → 修訂迭代 → 找出缺口，再回頭補來源。</desc>
+<defs><marker id="paul-lipsky-notebooklm-course-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="1200" height="650" fill="#f0f2e9"/>
+<text x="36" y="48" fill="#586b60" font-size="26">NotebookLM · 編輯整理</text>
+<text x="36" y="100" fill="#193732" font-size="42" font-weight="650">一個主題一本，來源決定答案</text>
+<path d="M36 126H1164" stroke="#bdcbbb"/>
+<path d="M393 248H414" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#paul-lipsky-notebooklm-course-arrow)"/>
+<path d="M781 248H802" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#paul-lipsky-notebooklm-course-arrow)"/>
+<path d="M988 341V354H212V368" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#paul-lipsky-notebooklm-course-arrow)"/>
+<path d="M393 466H414" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#paul-lipsky-notebooklm-course-arrow)"/>
+<path d="M781 466H802" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#paul-lipsky-notebooklm-course-arrow)"/>
+<rect x="36" y="160" width="352" height="176" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="56" y="195" fill="#d4e2d4" font-size="23">01</text>
+<text x="56" y="248" fill="#fffef9" font-size="36" font-weight="650">開一本選來源</text>
+<text x="56" y="294" fill="#d4e2d4" font-size="24">只放信得過的</text>
+<rect x="424" y="160" width="352" height="176" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="444" y="195" fill="#586b60" font-size="23">02</text>
+<text x="444" y="248" fill="#193732" font-size="36" font-weight="650">整理來源</text>
+<text x="444" y="294" fill="#586b60" font-size="24">刪失敗、分組、改名</text>
+<rect x="812" y="160" width="352" height="176" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="832" y="195" fill="#586b60" font-size="23">03</text>
+<text x="832" y="248" fill="#193732" font-size="36" font-weight="650">限定範圍問</text>
+<text x="832" y="294" fill="#586b60" font-size="24">選來源、調長度</text>
+<rect x="36" y="378" width="352" height="176" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="56" y="413" fill="#586b60" font-size="23">04</text>
+<text x="56" y="466" fill="#193732" font-size="36" font-weight="650">依用途產出</text>
+<text x="56" y="512" fill="#586b60" font-size="24">寫清楚聚焦重點</text>
+<rect x="424" y="378" width="352" height="176" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="444" y="413" fill="#586b60" font-size="23">05</text>
+<text x="444" y="466" fill="#193732" font-size="36" font-weight="650">修訂迭代</text>
+<text x="444" y="512" fill="#586b60" font-size="24">改簡報、補弱點</text>
+<rect x="812" y="378" width="352" height="176" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="832" y="413" fill="#586b60" font-size="23">06</text>
+<text x="832" y="466" fill="#193732" font-size="36" font-weight="650">找出缺口</text>
+<text x="832" y="512" fill="#586b60" font-size="24">推薦來源再補</text>
+<text x="36" y="591" fill="#586b60" font-size="23">圖解為編輯整理，並非成效證明</text>
+<text x="36" y="625" fill="#586b60" font-size="23">產出不對先回頭檢查來源與聚焦，找到缺口就補來源再做</text>
+</svg>

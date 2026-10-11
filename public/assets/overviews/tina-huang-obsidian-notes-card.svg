@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" role="img" aria-labelledby="tina-huang-obsidian-notes-c-title tina-huang-obsidian-notes-c-desc"><title id="tina-huang-obsidian-notes-c-title">Obsidian 與 AI 整合的三個層級</title><desc id="tina-huang-obsidian-notes-c-desc">第一層 AI 讀 → 第二層 AI 寫 → 第三層 LLM wiki 由 AI 管理。</desc>
+<defs><marker id="tina-huang-obsidian-notes-c-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="800" height="480" fill="#f0f2e9"/>
+<text x="36" y="48" fill="#586b60" font-size="26">OBSIDIAN × AI · 編輯整理</text>
+<text x="36" y="100" fill="#193732" font-size="36" font-weight="650">讓 AI 讀、寫、管理筆記</text>
+<path d="M36 126H764" stroke="#bdcbbb"/>
+<path d="M264 250H288" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#tina-huang-obsidian-notes-c-arrow)"/>
+<path d="M520 250H544" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#tina-huang-obsidian-notes-c-arrow)"/>
+<rect x="36" y="160" width="220" height="180" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="56" y="195" fill="#d4e2d4" font-size="23">第一層</text>
+<text x="56" y="250" fill="#fffef9" font-size="40" font-weight="650">AI 讀</text>
+<text x="56" y="300" fill="#d4e2d4" font-size="22">你寫，AI 回答</text>
+<rect x="292" y="160" width="220" height="180" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="312" y="195" fill="#586b60" font-size="23">第二層</text>
+<text x="312" y="250" fill="#193732" font-size="40" font-weight="650">AI 寫</text>
+<text x="312" y="300" fill="#586b60" font-size="22">AI 記錄，你讀</text>
+<rect x="548" y="160" width="216" height="180" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="568" y="195" fill="#586b60" font-size="23">第三層</text>
+<text x="568" y="250" fill="#193732" font-size="40" font-weight="650">AI 管</text>
+<text x="568" y="300" fill="#586b60" font-size="22">LLM wiki 三層</text>
+<text x="36" y="400" fill="#586b60" font-size="23">一個本機資料夾＋Markdown，任何 AI 都讀得懂</text>
+<text x="36" y="455" fill="#586b60" font-size="23">匯入 → 查詢 → 健檢；index.md／log.md</text>
+</svg>

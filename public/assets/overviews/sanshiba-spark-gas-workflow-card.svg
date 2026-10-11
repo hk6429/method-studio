@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" role="img" aria-labelledby="sanshiba-spark-gas-workflow-c-title sanshiba-spark-gas-workflow-c-desc"><title id="sanshiba-spark-gas-workflow-c-title">Spark＋GAS 教師自動化六步</title><desc id="sanshiba-spark-gas-workflow-c-desc">帳號與隱私 → 專用資料夾 → 讀檔試手感 → 多步任務 → 代理寫 GAS → 排程輪詢。</desc>
+<defs><marker id="sanshiba-spark-gas-workflow-c-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="800" height="480" fill="#f0f2e9"/>
+<text x="36" y="48" fill="#586b60" font-size="26">SPARK ＋ GAS · 編輯整理</text>
+<text x="36" y="100" fill="#193732" font-size="36" font-weight="650">雜務排進雲端固定時間</text>
+<path d="M36 126H764" stroke="#bdcbbb"/>
+<path d="M256 216H280" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#sanshiba-spark-gas-workflow-c-arrow)"/>
+<path d="M512 216H536" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#sanshiba-spark-gas-workflow-c-arrow)"/>
+<path d="M656 274V290H144V302" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#sanshiba-spark-gas-workflow-c-arrow)"/>
+<path d="M256 366H280" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#sanshiba-spark-gas-workflow-c-arrow)"/>
+<path d="M512 366H536" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#sanshiba-spark-gas-workflow-c-arrow)"/>
+<rect x="36" y="160" width="216" height="112" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="56" y="195" fill="#d4e2d4" font-size="21">01</text>
+<text x="56" y="245" fill="#fffef9" font-size="30" font-weight="650">帳號與隱私</text>
+<rect x="292" y="160" width="216" height="112" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="312" y="195" fill="#586b60" font-size="21">02</text>
+<text x="312" y="245" fill="#193732" font-size="30" font-weight="650">專用資料夾</text>
+<rect x="548" y="160" width="216" height="112" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="568" y="195" fill="#586b60" font-size="21">03</text>
+<text x="568" y="245" fill="#193732" font-size="30" font-weight="650">讀檔試手感</text>
+<rect x="36" y="310" width="216" height="112" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="56" y="345" fill="#586b60" font-size="21">04</text>
+<text x="56" y="395" fill="#193732" font-size="30" font-weight="650">多步任務</text>
+<rect x="292" y="310" width="216" height="112" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="312" y="345" fill="#586b60" font-size="21">05</text>
+<text x="312" y="395" fill="#193732" font-size="30" font-weight="650">代理寫 GAS</text>
+<rect x="548" y="310" width="216" height="112" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="568" y="345" fill="#d4e2d4" font-size="21">06</text>
+<text x="568" y="395" fill="#fffef9" font-size="30" font-weight="650">排程輪詢</text>
+<text x="36" y="455" fill="#586b60" font-size="23">代理寫 GAS → 學生填表 → Spark 定時讀表回覆 → 老師抽查</text>
+</svg>

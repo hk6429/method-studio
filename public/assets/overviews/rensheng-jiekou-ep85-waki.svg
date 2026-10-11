@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 650" role="img" aria-labelledby="rensheng-jiekou-ep85-waki-title rensheng-jiekou-ep85-waki-desc"><title id="rensheng-jiekou-ep85-waki-title">把 AI 當思考陪練的六步</title><desc id="rensheng-jiekou-ep85-waki-desc">個人化提問 → 拉離討好結尾 → 建專案包 → 對話陪練／情緒覺察／智囊團 → 自己過濾決定。</desc>
+<defs><marker id="rensheng-jiekou-ep85-waki-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="1200" height="650" fill="#f0f2e9"/>
+<text x="36" y="48" fill="#586b60" font-size="26">人生解扣方程式 EP85 瓦基 · 編輯整理</text>
+<text x="36" y="100" fill="#193732" font-size="42" font-weight="650">別只拿 AI 找答案，讓它陪你想清楚</text>
+<path d="M36 126H1164" stroke="#bdcbbb"/>
+<path d="M400 236H436" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#rensheng-jiekou-ep85-waki-arrow)"/>
+<path d="M800 236H836" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#rensheng-jiekou-ep85-waki-arrow)"/>
+<path d="M1000 312V330H200V348" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#rensheng-jiekou-ep85-waki-arrow)"/>
+<path d="M400 436H436" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#rensheng-jiekou-ep85-waki-arrow)"/>
+<path d="M800 436H836" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#rensheng-jiekou-ep85-waki-arrow)"/>
+<rect x="36" y="160" width="364" height="152" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="56" y="195" fill="#d4e2d4" font-size="23">01</text>
+<text x="56" y="243" fill="#fffef9" font-size="36" font-weight="650">個人化提問</text>
+<text x="56" y="288" fill="#d4e2d4" font-size="25">我是誰、為什麼、要解決什麼</text>
+<rect x="436" y="160" width="364" height="152" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="456" y="195" fill="#586b60" font-size="23">02</text>
+<text x="456" y="243" fill="#193732" font-size="36" font-weight="650">拉離討好結尾</text>
+<text x="456" y="288" fill="#586b60" font-size="25">有沒有我還沒想到的？</text>
+<rect x="836" y="160" width="328" height="152" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="856" y="195" fill="#586b60" font-size="23">03</text>
+<text x="856" y="243" fill="#193732" font-size="36" font-weight="650">建專案包</text>
+<text x="856" y="288" fill="#586b60" font-size="25">埋框架，先給選項再開放</text>
+<rect x="36" y="360" width="364" height="152" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="56" y="395" fill="#586b60" font-size="23">04</text>
+<text x="56" y="443" fill="#193732" font-size="36" font-weight="650">對話陪練</text>
+<text x="56" y="488" fill="#586b60" font-size="25">困難對話開會前先預演</text>
+<rect x="436" y="360" width="364" height="152" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="456" y="395" fill="#586b60" font-size="23">05</text>
+<text x="456" y="443" fill="#193732" font-size="36" font-weight="650">情緒覺察</text>
+<text x="456" y="488" fill="#586b60" font-size="25">卡住時先倒五分鐘再拆</text>
+<rect x="836" y="360" width="328" height="152" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="856" y="395" fill="#586b60" font-size="23">06</text>
+<text x="856" y="443" fill="#193732" font-size="36" font-weight="650">智囊團</text>
+<text x="856" y="488" fill="#586b60" font-size="25">十個人設，再自己過濾</text>
+<text x="36" y="591" fill="#586b60" font-size="23">圖解為編輯整理，並非成效證明</text>
+<text x="36" y="625" fill="#586b60" font-size="23">AI 給角度、給選項；最後的決定由自己寫下，新學到的再埋回專案包</text>
+</svg>

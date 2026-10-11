@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 800" role="img" aria-labelledby="darenxue-workplace-player-not-npc-m-title darenxue-workplace-player-not-npc-m-desc"><title id="darenxue-workplace-player-not-npc-m-title">當職場的玩家，不當 NPC</title><desc id="darenxue-workplace-player-not-npc-m-desc">盤點角色 → 看懂規則 → 列關鍵字 → 集點卡 → 調頻率 → 累積籌碼；調頻率結果回頭修正關鍵字，卡快蓋滿時決定續卡或下一站。</desc>
+<defs><marker id="darenxue-workplace-player-not-npc-m-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="480" height="800" fill="#f0f2e9"/>
+<text x="28" y="48" fill="#586b60" font-size="22">大人學 EP694 · 編輯整理</text>
+<text x="28" y="96" fill="#193732" font-size="27" font-weight="650">當職場的玩家，不當 NPC</text>
+<path d="M28 120H452" stroke="#bdcbbb"/>
+<path d="M240 220V231" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#darenxue-workplace-player-not-npc-m-arrow)"/>
+<rect x="28" y="138" width="424" height="80" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="48" y="185" fill="#d4e2d4" font-size="21">01</text>
+<text x="92" y="174" fill="#fffef9" font-size="26" font-weight="650">盤點角色</text>
+<text x="92" y="202" fill="#d4e2d4" font-size="18">這個決定是誰做的</text>
+<path d="M240 316V327" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#darenxue-workplace-player-not-npc-m-arrow)"/>
+<rect x="28" y="234" width="424" height="80" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="281" fill="#586b60" font-size="21">02</text>
+<text x="92" y="270" fill="#193732" font-size="26" font-weight="650">看懂規則</text>
+<text x="92" y="298" fill="#586b60" font-size="18">嘴上規則 vs 實際規則</text>
+<path d="M240 412V423" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#darenxue-workplace-player-not-npc-m-arrow)"/>
+<rect x="28" y="330" width="424" height="80" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="377" fill="#586b60" font-size="21">03</text>
+<text x="92" y="366" fill="#193732" font-size="26" font-weight="650">列關鍵字</text>
+<text x="92" y="394" fill="#586b60" font-size="18">完美工作長什麼樣</text>
+<path d="M240 508V519" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#darenxue-workplace-player-not-npc-m-arrow)"/>
+<rect x="28" y="426" width="424" height="80" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="473" fill="#586b60" font-size="21">04</text>
+<text x="92" y="462" fill="#193732" font-size="26" font-weight="650">集點卡</text>
+<text x="92" y="490" fill="#586b60" font-size="18">每份工作兩年要蓋的點</text>
+<path d="M240 604V615" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#darenxue-workplace-player-not-npc-m-arrow)"/>
+<rect x="28" y="522" width="424" height="80" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="569" fill="#586b60" font-size="21">05</text>
+<text x="92" y="558" fill="#193732" font-size="26" font-weight="650">調頻率</text>
+<text x="92" y="586" fill="#586b60" font-size="18">每半小時記成就感</text>
+<rect x="28" y="618" width="424" height="80" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="665" fill="#586b60" font-size="21">06</text>
+<text x="92" y="654" fill="#193732" font-size="26" font-weight="650">累積籌碼</text>
+<text x="92" y="682" fill="#586b60" font-size="18">錢以外的經驗與人脈</text>
+<text x="28" y="740" fill="#586b60" font-size="18">調頻率結果回頭修正關鍵字</text>
+<text x="28" y="768" fill="#586b60" font-size="18">卡快蓋滿時，決定續卡或下一站</text>
+<text x="28" y="792" fill="#586b60" font-size="15">圖解為編輯整理，並非成效證明</text>
+</svg>

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" role="img" aria-labelledby="sanshiba-wordwall-classroom-title sanshiba-wordwall-classroom-desc"><title id="sanshiba-wordwall-classroom-title">讓 AI Agent 幫老師在 Wordwall 出題</title><desc id="sanshiba-wordwall-classroom-desc">先問介面 → 裝技能 → 選等級 → 規劃確認 → 檢查釋出 → 座號交辦。</desc>
+<defs><marker id="sanshiba-wordwall-classroom-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="800" height="480" fill="#f0f2e9"/>
+<text x="36" y="48" fill="#586b60" font-size="26">Wordwall × Agent · 編輯整理</text>
+<text x="36" y="100" fill="#193732" font-size="36" font-weight="650">沒有連結器，也能交給 Agent</text>
+<path d="M36 126H764" stroke="#bdcbbb"/>
+<path d="M264.0 216.0H292.0" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#sanshiba-wordwall-classroom-arrow)"/>
+<path d="M508.0 216.0H536.0" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#sanshiba-wordwall-classroom-arrow)"/>
+<path d="M650.0 272V290H150.0V304" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#sanshiba-wordwall-classroom-arrow)"/>
+<path d="M264.0 364.0H292.0" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#sanshiba-wordwall-classroom-arrow)"/>
+<path d="M508.0 364.0H536.0" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#sanshiba-wordwall-classroom-arrow)"/>
+<rect x="36" y="160" width="228" height="112" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="56" y="195" fill="#d4e2d4" font-size="23">01</text>
+<text x="56" y="245" fill="#fffef9" font-size="34" font-weight="650">先問介面</text>
+<rect x="292" y="160" width="216" height="112" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="312" y="195" fill="#586b60" font-size="23">02</text>
+<text x="312" y="245" fill="#193732" font-size="34" font-weight="650">裝技能</text>
+<rect x="536" y="160" width="228" height="112" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="556" y="195" fill="#586b60" font-size="23">03</text>
+<text x="556" y="245" fill="#193732" font-size="34" font-weight="650">選等級</text>
+<rect x="36" y="308" width="228" height="112" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="56" y="343" fill="#586b60" font-size="23">04</text>
+<text x="56" y="393" fill="#193732" font-size="34" font-weight="650">規劃確認</text>
+<rect x="292" y="308" width="216" height="112" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="312" y="343" fill="#586b60" font-size="23">05</text>
+<text x="312" y="393" fill="#193732" font-size="34" font-weight="650">檢查釋出</text>
+<rect x="536" y="308" width="228" height="112" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="556" y="343" fill="#d4e2d4" font-size="23">06</text>
+<text x="556" y="393" fill="#fffef9" font-size="34" font-weight="650">座號交辦</text>
+<text x="36" y="455" fill="#586b60" font-size="23">私有建立 → 老師看過 → 才公開</text>
+</svg>

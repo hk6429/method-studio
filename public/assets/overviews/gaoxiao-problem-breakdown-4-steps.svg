@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 650" role="img" aria-labelledby="gaoxiao-problem-breakdown-4-steps-title gaoxiao-problem-breakdown-4-steps-desc"><title id="gaoxiao-problem-breakdown-4-steps-title">知道問題卻想不出解法的四步驟</title><desc id="gaoxiao-problem-breakdown-4-steps-desc">先問先搜 → 寫下問題 → 第一步並復盤 → 追問本質；重複出現的事持續改善，下次更輕鬆。</desc>
+<defs><marker id="gaoxiao-problem-breakdown-4-steps-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="1200" height="650" fill="#f0f2e9"/>
+<text x="36" y="48" fill="#586b60" font-size="26">高效人生商學院 EP.0670 · 編輯整理</text>
+<text x="36" y="100" fill="#193732" font-size="42" font-weight="650">不找最好的解法，先找現在能做的一步</text>
+<path d="M36 126H1164" stroke="#bdcbbb"/>
+<path d="M571.0 248.0H624.0" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#gaoxiao-problem-breakdown-4-steps-arrow)"/>
+<path d="M571.0 466.0H624.0" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#gaoxiao-problem-breakdown-4-steps-arrow)"/>
+<path d="M900.0 341V354H300.0V368" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#gaoxiao-problem-breakdown-4-steps-arrow)"/>
+<rect x="36" y="160" width="528.0" height="176" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="56" y="195" fill="#d4e2d4" font-size="23">01</text>
+<text x="56" y="245" fill="#fffef9" font-size="38" font-weight="650">先問先搜</text>
+<text x="56" y="292" fill="#d4e2d4" font-size="27">有經驗的人、書、五秒搜尋</text>
+<rect x="636.0" y="160" width="528.0" height="176" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="656.0" y="195" fill="#586b60" font-size="23">02</text>
+<text x="656.0" y="245" fill="#193732" font-size="38" font-weight="650">寫下問題</text>
+<text x="656.0" y="292" fill="#586b60" font-size="27">現況、目標與中間的落差</text>
+<rect x="36" y="378" width="528.0" height="176" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="56" y="413" fill="#586b60" font-size="23">03</text>
+<text x="56" y="463" fill="#193732" font-size="38" font-weight="650">第一步＋復盤</text>
+<text x="56" y="510" fill="#586b60" font-size="27">做完就回頭看，長出下一步</text>
+<rect x="636.0" y="378" width="528.0" height="176" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="656.0" y="413" fill="#586b60" font-size="23">04</text>
+<text x="656.0" y="463" fill="#193732" font-size="38" font-weight="650">追問本質</text>
+<text x="656.0" y="510" fill="#586b60" font-size="27">真正想要的成果是什麼</text>
+<text x="36" y="625" fill="#586b60" font-size="23">要改善問題，而不是解決問題：重複的事，下次做輕鬆一點</text>
+<text x="36" y="591" fill="#586b60" font-size="23">圖解為編輯整理，並非成效證明</text>
+</svg>

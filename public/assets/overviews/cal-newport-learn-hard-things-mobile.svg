@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 800" role="img" aria-labelledby="cal-newport-learn-hard-things-title cal-newport-learn-hard-things-desc"><title id="cal-newport-learn-hard-things-title">學會難的東西：一階一階往上爬</title><desc id="cal-newport-learn-hard-things-desc">換模型 → 選難事 → 畫樓梯 → 刻意練習 → 挪時間 → 排行事曆；站上一階，再畫下一階。</desc>
+<defs><marker id="cal-newport-learn-hard-things-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="480" height="800" fill="#f0f2e9"/>
+<text x="28" y="48" fill="#586b60" font-size="22">Deep Questions · 編輯整理</text>
+<text x="28" y="100" fill="#193732" font-size="27" font-weight="650">學會難的東西</text>
+<path d="M28 126H452" stroke="#bdcbbb"/>
+<path d="M240 230V241" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#cal-newport-learn-hard-things-arrow)"/>
+<path d="M240 329V340" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#cal-newport-learn-hard-things-arrow)"/>
+<path d="M240 428V439" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#cal-newport-learn-hard-things-arrow)"/>
+<path d="M240 527V538" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#cal-newport-learn-hard-things-arrow)"/>
+<path d="M240 626V637" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#cal-newport-learn-hard-things-arrow)"/>
+<rect x="28" y="145" width="424" height="82" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="48" y="181" fill="#d4e2d4" font-size="21">01</text>
+<text x="94" y="182" fill="#fffef9" font-size="27" font-weight="650">換模型</text>
+<text x="94" y="211" fill="#d4e2d4" font-size="19">是時間，不是腦力</text>
+<rect x="28" y="244" width="424" height="82" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="280" fill="#586b60" font-size="21">02</text>
+<text x="94" y="281" fill="#193732" font-size="27" font-weight="650">選難事</text>
+<text x="94" y="310" fill="#586b60" font-size="19">工作一件、生活一件</text>
+<rect x="28" y="343" width="424" height="82" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="379" fill="#586b60" font-size="21">03</text>
+<text x="94" y="380" fill="#193732" font-size="27" font-weight="650">畫樓梯</text>
+<text x="94" y="409" fill="#586b60" font-size="19">只看下一階</text>
+<rect x="28" y="442" width="424" height="82" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="478" fill="#586b60" font-size="21">04</text>
+<text x="94" y="479" fill="#193732" font-size="27" font-weight="650">刻意練習</text>
+<text x="94" y="508" fill="#586b60" font-size="19">做得到，但不輕鬆</text>
+<rect x="28" y="541" width="424" height="82" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="577" fill="#586b60" font-size="21">05</text>
+<text x="94" y="578" fill="#193732" font-size="27" font-weight="650">挪時間</text>
+<text x="94" y="607" fill="#586b60" font-size="19">手機放玄關</text>
+<rect x="28" y="640" width="424" height="82" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="676" fill="#586b60" font-size="21">06</text>
+<text x="94" y="677" fill="#193732" font-size="27" font-weight="650">排行事曆</text>
+<text x="94" y="706" fill="#586b60" font-size="19">太擠就放慢、分季</text>
+<text x="28" y="741" fill="#586b60" font-size="18">圖解為編輯整理，並非成效證明</text>
+<text x="28" y="775" fill="#586b60" font-size="19">站上一階，再畫下一階</text>
+</svg>

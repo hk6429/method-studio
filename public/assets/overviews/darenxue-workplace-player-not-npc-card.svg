@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" role="img" aria-labelledby="darenxue-workplace-player-not-npc-c-title darenxue-workplace-player-not-npc-c-desc"><title id="darenxue-workplace-player-not-npc-c-title">當職場的玩家，不當 NPC</title><desc id="darenxue-workplace-player-not-npc-c-desc">盤點角色 → 看懂規則 → 列關鍵字 → 集點卡 → 調頻率 → 累積籌碼；調頻率結果回頭修正關鍵字，卡快蓋滿時決定續卡或下一站。</desc>
+<defs><marker id="darenxue-workplace-player-not-npc-c-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="800" height="480" fill="#f0f2e9"/>
+<text x="36" y="48" fill="#586b60" font-size="26">大人學 EP694 · 編輯整理</text>
+<text x="36" y="100" fill="#193732" font-size="36" font-weight="650">當職場的玩家，不當 NPC</text>
+<path d="M36 126H764" stroke="#bdcbbb"/>
+<path d="M263 212H282" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#darenxue-workplace-player-not-npc-c-arrow)"/>
+<path d="M515 212H534" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#darenxue-workplace-player-not-npc-c-arrow)"/>
+<path d="M263 356H282" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#darenxue-workplace-player-not-npc-c-arrow)"/>
+<path d="M515 356H534" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#darenxue-workplace-player-not-npc-c-arrow)"/>
+<path d="M652 271V284H148V294" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#darenxue-workplace-player-not-npc-c-arrow)"/>
+<rect x="36" y="156" width="224" height="112" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="56" y="194" fill="#d4e2d4" font-size="22">01</text>
+<text x="56" y="242" fill="#fffef9" font-size="32" font-weight="650">盤點角色</text>
+<rect x="288" y="156" width="224" height="112" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="308" y="194" fill="#586b60" font-size="22">02</text>
+<text x="308" y="242" fill="#193732" font-size="32" font-weight="650">看懂規則</text>
+<rect x="540" y="156" width="224" height="112" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="560" y="194" fill="#586b60" font-size="22">03</text>
+<text x="560" y="242" fill="#193732" font-size="32" font-weight="650">列關鍵字</text>
+<rect x="36" y="300" width="224" height="112" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="56" y="338" fill="#586b60" font-size="22">04</text>
+<text x="56" y="386" fill="#193732" font-size="32" font-weight="650">集點卡</text>
+<rect x="288" y="300" width="224" height="112" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="308" y="338" fill="#586b60" font-size="22">05</text>
+<text x="308" y="386" fill="#193732" font-size="32" font-weight="650">調頻率</text>
+<rect x="540" y="300" width="224" height="112" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="560" y="338" fill="#586b60" font-size="22">06</text>
+<text x="560" y="386" fill="#193732" font-size="32" font-weight="650">累積籌碼</text>
+<text x="36" y="452" fill="#586b60" font-size="22">記錄成就感 → 修正關鍵字 → 續卡或下一站</text>
+</svg>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" role="img" aria-labelledby="sanshiba-smarter-ai-less-effort-title sanshiba-smarter-ai-less-effort-desc"><title id="sanshiba-smarter-ai-less-effort-title">AI 越聰明，你越省力：例行工作交給代理、老師當審稿人</title><desc id="sanshiba-smarter-ai-less-effort-desc">搬進對話窗 → 專業下規格 → 你來稽核 → 先問代理、先試做 → 寫成說明檔；稽核錯處補回規格。</desc>
+<defs><marker id="sanshiba-smarter-ai-less-effort-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="800" height="480" fill="#f0f2e9"/>
+<text x="36" y="48" fill="#586b60" font-size="26">三師爸直播 · 編輯整理</text>
+<text x="36" y="100" fill="#193732" font-size="36" font-weight="650">例行工作交給代理，你審</text>
+<path d="M36 126H764" stroke="#bdcbbb"/>
+<path d="M253 206H291" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#sanshiba-smarter-ai-less-effort-arrow)"/>
+<path d="M509 206H547" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#sanshiba-smarter-ai-less-effort-arrow)"/>
+<path d="M656 263V280H144V298" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#sanshiba-smarter-ai-less-effort-arrow)"/>
+<path d="M253 356H291" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#sanshiba-smarter-ai-less-effort-arrow)"/>
+<rect x="36" y="150" width="216" height="112" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="56" y="185" fill="#d4e2d4" font-size="22">01</text>
+<text x="56" y="232" fill="#fffef9" font-size="28" font-weight="650">搬進對話窗</text>
+<rect x="292" y="150" width="216" height="112" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="312" y="185" fill="#586b60" font-size="22">02</text>
+<text x="312" y="232" fill="#193732" font-size="28" font-weight="650">專業下規格</text>
+<rect x="548" y="150" width="216" height="112" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="568" y="185" fill="#586b60" font-size="22">03</text>
+<text x="568" y="232" fill="#193732" font-size="28" font-weight="650">你來稽核</text>
+<rect x="36" y="300" width="216" height="112" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="56" y="335" fill="#586b60" font-size="22">04</text>
+<text x="56" y="382" fill="#193732" font-size="28" font-weight="650">先問、先試做</text>
+<rect x="292" y="300" width="216" height="112" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="312" y="335" fill="#586b60" font-size="22">05</text>
+<text x="312" y="382" fill="#193732" font-size="28" font-weight="650">寫成說明檔</text>
+<text x="548" y="340" fill="#586b60" font-size="22">稽核錯處</text>
+<text x="548" y="372" fill="#586b60" font-size="22">→ 補回規格</text>
+<text x="36" y="455" fill="#586b60" font-size="22">代理產出 · 老師下規格與把關 · 寫下來才省力</text>
+</svg>

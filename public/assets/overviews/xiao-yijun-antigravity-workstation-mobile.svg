@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 800" role="img" aria-labelledby="xiao-yijun-antigravity-workstation-title xiao-yijun-antigravity-workstation-desc"><title id="xiao-yijun-antigravity-workstation-title">用 AI 代理把一份教材變成整套考卷</title><desc id="xiao-yijun-antigravity-workstation-desc">開專案定規則 → 轉 JSON → @ 檔案衍生 → 逐份驗收 → 存成 Skill；驗收不過就給範例重做。</desc>
+<defs><marker id="xiao-yijun-antigravity-workstation-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="480" height="800" fill="#f0f2e9"/>
+<text x="28" y="48" fill="#586b60" font-size="20">Antigravity 備課工作站 · 編輯整理</text>
+<text x="28" y="98" fill="#193732" font-size="27" font-weight="650">一份教材，長出整套考卷</text>
+<path d="M28 122H452" stroke="#bdcbbb"/>
+<path d="M240 236V250" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#xiao-yijun-antigravity-workstation-arrow)"/>
+<path d="M240 352V366" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#xiao-yijun-antigravity-workstation-arrow)"/>
+<path d="M240 468V482" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#xiao-yijun-antigravity-workstation-arrow)"/>
+<path d="M240 584V598" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#xiao-yijun-antigravity-workstation-arrow)"/>
+<rect x="28" y="138" width="424" height="96" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="48" y="166" fill="#d4e2d4" font-size="19">01</text>
+<text x="48" y="198" fill="#fffef9" font-size="27" font-weight="650">開專案定規則</text>
+<text x="48" y="222" fill="#d4e2d4" font-size="18">產出一律放 output</text>
+<rect x="28" y="254" width="424" height="96" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="282" fill="#586b60" font-size="19">02</text>
+<text x="48" y="314" fill="#193732" font-size="27" font-weight="650">先轉 JSON</text>
+<text x="48" y="338" fill="#586b60" font-size="18">指定頁數，再出題</text>
+<rect x="28" y="370" width="424" height="96" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="398" fill="#586b60" font-size="19">03</text>
+<text x="48" y="430" fill="#193732" font-size="27" font-weight="650">@ 檔案衍生</text>
+<text x="48" y="454" fill="#586b60" font-size="18">Word、B 卷、分層、Kahoot</text>
+<rect x="28" y="486" width="424" height="96" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="514" fill="#586b60" font-size="19">04</text>
+<text x="48" y="546" fill="#193732" font-size="27" font-weight="650">逐份驗收</text>
+<text x="48" y="570" fill="#586b60" font-size="18">錯了給範例檔重做</text>
+<rect x="28" y="602" width="424" height="96" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="630" fill="#586b60" font-size="19">05</text>
+<text x="48" y="662" fill="#193732" font-size="27" font-weight="650">存成 Skill</text>
+<text x="48" y="686" fill="#586b60" font-size="18">走熟的流程，自訂關鍵字</text>
+<text x="28" y="741" fill="#586b60" font-size="18">圖解為編輯整理，並非成效證明</text>
+<text x="28" y="775" fill="#586b60" font-size="18">每份成品都要親自打開審過</text>
+</svg>

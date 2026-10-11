@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 800" role="img" aria-labelledby="agentcrew-ai-collaboration-method-m-title agentcrew-ai-collaboration-method-m-desc"><title id="agentcrew-ai-collaboration-method-m-title">AI 協作六步：從除錯工變回指揮官</title><desc id="agentcrew-ai-collaboration-method-m-desc">講意圖 → 先計劃 → 驗證據 → 管桌面 → 寫 harness → 定邊界；AI 可以做但不能負責，人負責指揮與驗收。</desc>
+<defs><marker id="agentcrew-ai-collaboration-method-m-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="480" height="800" fill="#f0f2e9"/>
+<text x="28" y="48" fill="#586b60" font-size="22">AGENTCREW · 編輯整理</text>
+<text x="28" y="100" fill="#193732" font-size="27" font-weight="650">AI 可以做，但不能負責</text>
+<path d="M28 126H452" stroke="#bdcbbb"/>
+<path d="M240 232V245" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#agentcrew-ai-collaboration-method-m-arrow)"/>
+<path d="M240 326V339" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#agentcrew-ai-collaboration-method-m-arrow)"/>
+<path d="M240 420V433" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#agentcrew-ai-collaboration-method-m-arrow)"/>
+<path d="M240 514V527" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#agentcrew-ai-collaboration-method-m-arrow)"/>
+<path d="M240 608V621" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#agentcrew-ai-collaboration-method-m-arrow)"/>
+<rect x="28" y="150" width="424" height="80" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="48" y="180" fill="#d4e2d4" font-size="19">01</text>
+<text x="100" y="182" fill="#fffef9" font-size="26" font-weight="650">講意圖</text>
+<text x="48" y="214" fill="#d4e2d4" font-size="18">痛點＋期望結果＋驗收標準</text>
+<rect x="28" y="244" width="424" height="80" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="274" fill="#586b60" font-size="19">02</text>
+<text x="100" y="276" fill="#193732" font-size="26" font-weight="650">先計劃</text>
+<text x="48" y="308" fill="#586b60" font-size="18">計劃模式，看懂同意八成放行</text>
+<rect x="28" y="338" width="424" height="80" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="368" fill="#586b60" font-size="19">03</text>
+<text x="100" y="370" fill="#193732" font-size="26" font-weight="650">驗證據</text>
+<text x="48" y="402" fill="#586b60" font-size="18">翻工具鏈，或請獨立子代理審</text>
+<rect x="28" y="432" width="424" height="80" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="462" fill="#586b60" font-size="19">04</text>
+<text x="100" y="464" fill="#193732" font-size="26" font-weight="650">管桌面</text>
+<text x="48" y="496" fill="#586b60" font-size="18">一對話一任務，進度規格寫文件</text>
+<rect x="28" y="526" width="424" height="80" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="556" fill="#586b60" font-size="19">05</text>
+<text x="100" y="558" fill="#193732" font-size="26" font-weight="650">寫 harness</text>
+<text x="48" y="590" fill="#586b60" font-size="18">全域／Rules／Skills／memory／hook</text>
+<rect x="28" y="620" width="424" height="80" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="650" fill="#586b60" font-size="19">06</text>
+<text x="100" y="652" fill="#193732" font-size="26" font-weight="650">定邊界</text>
+<text x="48" y="684" fill="#586b60" font-size="18">可逆×可驗證放權，三步糾錯</text>
+<text x="28" y="741" fill="#586b60" font-size="18">圖解為編輯整理，並非成效證明</text>
+<text x="28" y="775" fill="#586b60" font-size="19">宣稱不等於事實；寫進檔案才算記住</text>
+</svg>

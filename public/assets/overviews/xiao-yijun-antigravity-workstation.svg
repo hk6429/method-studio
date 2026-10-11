@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 650" role="img" aria-labelledby="xiao-yijun-antigravity-workstation-title xiao-yijun-antigravity-workstation-desc"><title id="xiao-yijun-antigravity-workstation-title">用 AI 代理把一份教材變成整套考卷</title><desc id="xiao-yijun-antigravity-workstation-desc">開專案定規則 → 轉 JSON → @ 檔案衍生 → 逐份驗收 → 存成 Skill；驗收不過就給範例重做。</desc>
+<defs><marker id="xiao-yijun-antigravity-workstation-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="1200" height="650" fill="#f0f2e9"/>
+<text x="36" y="48" fill="#586b60" font-size="26">Antigravity 備課工作站 · 編輯整理</text>
+<text x="36" y="100" fill="#193732" font-size="42" font-weight="650">一份教材，在專案資料夾長出整套考卷</text>
+<path d="M36 126H1164" stroke="#bdcbbb"/>
+<path d="M389 248H418" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#xiao-yijun-antigravity-workstation-arrow)"/>
+<path d="M777 248H806" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#xiao-yijun-antigravity-workstation-arrow)"/>
+<path d="M988 341V356H312V370" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#xiao-yijun-antigravity-workstation-arrow)"/>
+<path d="M585 466H610" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#xiao-yijun-antigravity-workstation-arrow)"/>
+<rect x="36" y="160" width="352" height="176" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="56" y="195" fill="#d4e2d4" font-size="23">01</text>
+<text x="56" y="245" fill="#fffef9" font-size="36" font-weight="650">開專案定規則</text>
+<text x="56" y="292" fill="#d4e2d4" font-size="24">產出一律放 output</text>
+<rect x="424" y="160" width="352" height="176" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="444" y="195" fill="#586b60" font-size="23">02</text>
+<text x="444" y="245" fill="#193732" font-size="36" font-weight="650">先轉 JSON</text>
+<text x="444" y="292" fill="#586b60" font-size="24">指定頁數，再出題</text>
+<rect x="812" y="160" width="352" height="176" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="832" y="195" fill="#586b60" font-size="23">03</text>
+<text x="832" y="245" fill="#193732" font-size="36" font-weight="650">@ 檔案衍生</text>
+<text x="832" y="292" fill="#586b60" font-size="24">Word、B 卷、分層、Kahoot</text>
+<rect x="36" y="378" width="548" height="176" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="56" y="413" fill="#586b60" font-size="23">04</text>
+<text x="56" y="463" fill="#193732" font-size="36" font-weight="650">逐份驗收</text>
+<text x="56" y="510" fill="#586b60" font-size="24">錯了給範例檔重做，必要時換模型</text>
+<rect x="616" y="378" width="548" height="176" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="636" y="413" fill="#586b60" font-size="23">05</text>
+<text x="636" y="463" fill="#193732" font-size="36" font-weight="650">存成 Skill</text>
+<text x="636" y="510" fill="#586b60" font-size="24">走熟的流程，自訂關鍵字呼叫</text>
+<text x="36" y="591" fill="#586b60" font-size="23">圖解為編輯整理，並非成效證明</text>
+<text x="36" y="625" fill="#586b60" font-size="23">教材是你的、產出是代理的：每份成品都要親自打開審過</text>
+</svg>

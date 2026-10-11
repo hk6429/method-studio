@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 800" role="img" aria-labelledby="tina-huang-obsidian-notes-m-title tina-huang-obsidian-notes-m-desc"><title id="tina-huang-obsidian-notes-m-title">Obsidian 與 AI 整合的三個層級</title><desc id="tina-huang-obsidian-notes-m-desc">建儲存庫 → 連結筆記 → 第一層 AI 讀 → 第二層 AI 寫 → 第三層 LLM wiki → 三種操作與兩個檔。</desc>
+<defs><marker id="tina-huang-obsidian-notes-m-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="480" height="800" fill="#f0f2e9"/>
+<text x="28" y="48" fill="#586b60" font-size="22">OBSIDIAN × AI · 編輯整理</text>
+<text x="28" y="100" fill="#193732" font-size="27" font-weight="650">讓 AI 讀、寫、管理筆記</text>
+<path d="M28 126H452" stroke="#bdcbbb"/>
+<path d="M240 230V246" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#tina-huang-obsidian-notes-m-arrow)"/>
+<path d="M240 328V344" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#tina-huang-obsidian-notes-m-arrow)"/>
+<path d="M240 426V442" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#tina-huang-obsidian-notes-m-arrow)"/>
+<path d="M240 524V540" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#tina-huang-obsidian-notes-m-arrow)"/>
+<path d="M240 622V638" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#tina-huang-obsidian-notes-m-arrow)"/>
+<rect x="28" y="150" width="424" height="80" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="48" y="176" fill="#d4e2d4" font-size="17">01</text>
+<text x="48" y="201" fill="#fffef9" font-size="24" font-weight="650">建儲存庫</text>
+<text x="48" y="222" fill="#d4e2d4" font-size="16">本機資料夾＋.md 純文字檔</text>
+<rect x="28" y="248" width="424" height="80" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="274" fill="#586b60" font-size="17">02</text>
+<text x="48" y="299" fill="#193732" font-size="24" font-weight="650">連結筆記</text>
+<text x="48" y="320" fill="#586b60" font-size="16">[[雙括號]]＋關係圖</text>
+<rect x="28" y="346" width="424" height="80" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="372" fill="#586b60" font-size="17">03</text>
+<text x="48" y="397" fill="#193732" font-size="24" font-weight="650">第一層 AI 讀</text>
+<text x="48" y="418" fill="#586b60" font-size="16">你寫筆記，AI 讀庫回答</text>
+<rect x="28" y="444" width="424" height="80" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="470" fill="#586b60" font-size="17">04</text>
+<text x="48" y="495" fill="#193732" font-size="24" font-weight="650">第二層 AI 寫</text>
+<text x="48" y="516" fill="#586b60" font-size="16">AI 替你寫紀錄進同一庫</text>
+<rect x="28" y="542" width="424" height="80" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="568" fill="#586b60" font-size="17">05</text>
+<text x="48" y="593" fill="#193732" font-size="24" font-weight="650">第三層 LLM wiki</text>
+<text x="48" y="614" fill="#586b60" font-size="16">原始來源／wiki／規則檔三層</text>
+<rect x="28" y="640" width="424" height="80" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="666" fill="#586b60" font-size="17">06</text>
+<text x="48" y="691" fill="#193732" font-size="24" font-weight="650">三種操作＋兩個檔</text>
+<text x="48" y="712" fill="#586b60" font-size="16">匯入、查詢、健檢；index.md／log.md</text>
+<text x="28" y="748" fill="#586b60" font-size="18">圖解為編輯整理，並非成效證明</text>
+<text x="28" y="778" fill="#586b60" font-size="18">可停在任一層；原始來源區 AI 只讀不改</text>
+</svg>

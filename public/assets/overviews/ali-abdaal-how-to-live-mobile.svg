@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 1090" role="img" aria-labelledby="ali-abdaal-how-to-live-m-title ali-abdaal-how-to-live-m-desc"><title id="ali-abdaal-how-to-live-m-title">人生該怎麼過：拆領域、寫夢想、看三條路</title><desc id="ali-abdaal-how-to-live-m-desc">拆領域 → 想要／不想要 → 問為什麼 → 夢想清單 → 三條路 → 拉遠鏡頭；答案是快照，定期回看方向。</desc>
+<defs><marker id="ali-abdaal-how-to-live-m-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="480" height="1090" fill="#f0f2e9"/>
+<text x="28" y="48" fill="#586b60" font-size="22">人生方向 · 編輯整理</text>
+<text x="28" y="100" fill="#193732" font-size="27" font-weight="650">把大問題拆成答得出來的小問題</text>
+<path d="M28 126H452" stroke="#bdcbbb"/>
+<path d="M240 274V291" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#ali-abdaal-how-to-live-m-arrow)"/>
+<path d="M240 420V437" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#ali-abdaal-how-to-live-m-arrow)"/>
+<path d="M240 566V583" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#ali-abdaal-how-to-live-m-arrow)"/>
+<path d="M240 712V729" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#ali-abdaal-how-to-live-m-arrow)"/>
+<path d="M240 858V875" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#ali-abdaal-how-to-live-m-arrow)"/>
+<rect x="28" y="154" width="424" height="115" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="48" y="189" fill="#d4e2d4" font-size="21">01</text>
+<text x="48" y="230" fill="#fffef9" font-size="30" font-weight="650">拆領域</text>
+<text x="48" y="256" fill="#d4e2d4" font-size="20">工作、健康、關係、興趣、成長、家</text>
+<rect x="28" y="300" width="424" height="115" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="335" fill="#586b60" font-size="21">02</text>
+<text x="48" y="376" fill="#193732" font-size="30" font-weight="650">想要／不想要</text>
+<text x="48" y="402" fill="#586b60" font-size="20">幾十年後的特徵，不寫職稱</text>
+<rect x="28" y="446" width="424" height="115" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="481" fill="#586b60" font-size="21">03</text>
+<text x="48" y="522" fill="#193732" font-size="30" font-weight="650">問為什麼</text>
+<text x="48" y="548" fill="#586b60" font-size="20">找背後的感受，貼成願景板</text>
+<rect x="28" y="592" width="424" height="115" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="627" fill="#586b60" font-size="21">04</text>
+<text x="48" y="668" fill="#193732" font-size="30" font-weight="650">夢想清單</text>
+<text x="48" y="694" fill="#586b60" font-size="20">20 分鐘不設限，再歸類</text>
+<rect x="28" y="738" width="424" height="115" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="773" fill="#586b60" font-size="21">05</text>
+<text x="48" y="814" fill="#193732" font-size="30" font-weight="650">三條路</text>
+<text x="48" y="840" fill="#586b60" font-size="20">五年後：現在的路、換路、不管錢</text>
+<rect x="28" y="884" width="424" height="115" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="919" fill="#586b60" font-size="21">06</text>
+<text x="48" y="960" fill="#193732" font-size="30" font-weight="650">拉遠鏡頭</text>
+<text x="48" y="986" fill="#586b60" font-size="20">TED、40 小時服務、悼詞</text>
+<text x="28" y="1035" fill="#586b60" font-size="18">圖解為編輯整理，並非成效證明</text>
+<text x="28" y="1066" fill="#586b60" font-size="19">答案是快照，重要的是方向；三個月回看</text>
+</svg>

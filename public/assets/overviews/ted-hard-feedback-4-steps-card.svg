@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" role="img" aria-labelledby="ted-hard-feedback-4-steps-title ted-hard-feedback-4-steps-desc"><title id="ted-hard-feedback-4-steps-title">聽得進去的回饋：TACT 四步</title><desc id="ted-hard-feedback-4-steps-desc">認出那件事 → 找提醒者 → 縮小再問 → T 感謝 → A 承認、C 承諾 → T 再感謝。</desc>
+<defs><marker id="ted-hard-feedback-4-steps-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="800" height="480" fill="#f0f2e9"/>
+<text x="36" y="48" fill="#586b60" font-size="26">TED · TACT · 編輯整理</text>
+<text x="36" y="100" fill="#193732" font-size="36" font-weight="650">先問對問題，再用 TACT 接住</text>
+<path d="M36 126H764" stroke="#bdcbbb"/>
+<path d="M265 216H281" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#ted-hard-feedback-4-steps-arrow)"/>
+<path d="M518 216H534" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#ted-hard-feedback-4-steps-arrow)"/>
+<path d="M653 277V290H147V300" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#ted-hard-feedback-4-steps-arrow)"/>
+<path d="M265 366H281" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#ted-hard-feedback-4-steps-arrow)"/>
+<path d="M518 366H534" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#ted-hard-feedback-4-steps-arrow)"/>
+<rect x="36" y="160" width="222" height="112" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="56" y="195" fill="#d4e2d4" font-size="23">01</text>
+<text x="56" y="245" fill="#fffef9" font-size="32" font-weight="650">認出那件事</text>
+<rect x="289" y="160" width="222" height="112" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="309" y="195" fill="#586b60" font-size="23">02</text>
+<text x="309" y="245" fill="#193732" font-size="32" font-weight="650">找提醒者</text>
+<rect x="542" y="160" width="222" height="112" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="562" y="195" fill="#586b60" font-size="23">03</text>
+<text x="562" y="245" fill="#193732" font-size="32" font-weight="650">縮小再問</text>
+<rect x="36" y="310" width="222" height="112" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="56" y="345" fill="#586b60" font-size="23">04</text>
+<text x="56" y="395" fill="#193732" font-size="32" font-weight="650">T 感謝</text>
+<rect x="289" y="310" width="222" height="112" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="309" y="345" fill="#586b60" font-size="23">05</text>
+<text x="309" y="395" fill="#193732" font-size="32" font-weight="650">A 承認・C 承諾</text>
+<rect x="542" y="310" width="222" height="112" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="562" y="345" fill="#d4e2d4" font-size="23">06</text>
+<text x="562" y="395" fill="#fffef9" font-size="32" font-weight="650">T 再感謝</text>
+<text x="36" y="455" fill="#586b60" font-size="23">再感謝 → 下次更容易開口 → 回到縮小再問</text>
+</svg>

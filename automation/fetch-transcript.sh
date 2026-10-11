@@ -22,7 +22,7 @@ else
   set -a; . "$HOME/.claude/channels/telegram/.env"; set +a
   URL="https://www.youtube.com/watch?v=$VID"
   yt-dlp -q -x --audio-format mp3 --postprocessor-args "-ac 1 -ar 16000 -b:a 32k" -o "$TMP/a.%(ext)s" "$URL" \
-    || { echo "yt-dlp 預設格式失敗，改用 -f ba 重試" >&2; rm -f "$TMP"/a.*; yt-dlp -q -f ba -o "$TMP/raw.%(ext)s" "$URL" && ffmpeg -loglevel error -y -i "$TMP"/raw.* -ac 1 -ar 16000 -b:a 32k "$TMP/a.mp3"; } \
+    || { echo "yt-dlp 預設格式失敗，改用 -f ba 重試" >&2; rm -f "$TMP"/a.* "$TMP"/raw.*; yt-dlp -q -f ba -o "$TMP/raw.%(ext)s" "$URL" && ffmpeg -loglevel error -y -i "$TMP"/raw.* -ac 1 -ar 16000 -b:a 32k "$TMP/a.mp3"; } \
     || { echo "yt-dlp failed" >&2; exit 2; }
   curl -fsS https://api.groq.com/openai/v1/audio/transcriptions -H "Authorization: Bearer $GROQ_API_KEY" \
     -F model=whisper-large-v3-turbo -F response_format=verbose_json -F "file=@$TMP/a.mp3" > "$TMP/v.json" || { echo "groq failed" >&2; exit 3; }

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 800" role="img" aria-labelledby="xiayiben-most-ambitious-day-title xiayiben-most-ambitious-day-desc"><title id="xiayiben-most-ambitious-day-title">別被合理的事塞滿一整天</title><desc id="xiayiben-most-ambitious-day-desc">挑三件事 → 接上價值觀 → 合理先過濾 → 卡住換一件 → 刻意留白 → 硬撐先判斷；隔天重新挑三件。</desc>
+<defs><marker id="xiayiben-most-ambitious-day-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="480" height="800" fill="#f0f2e9"/>
+<text x="28" y="44" fill="#586b60" font-size="20">下一本讀什麼 EP.660 · 編輯整理</text>
+<text x="28" y="88" fill="#193732" font-size="27" font-weight="650">別被合理的事塞滿一天</text>
+<path d="M28 110H452" stroke="#bdcbbb"/>
+<path d="M240 212V224" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#xiayiben-most-ambitious-day-arrow)"/>
+<rect x="28" y="128" width="424" height="82" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="408" y="166" fill="#d4e2d4" font-size="18">01</text>
+<text x="48" y="166" fill="#fffef9" font-size="25" font-weight="650">挑三件事</text>
+<text x="48" y="194" fill="#d4e2d4" font-size="18">接到這個月的目標</text>
+<path d="M240 310V322" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#xiayiben-most-ambitious-day-arrow)"/>
+<rect x="28" y="226" width="424" height="82" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="408" y="264" fill="#586b60" font-size="18">02</text>
+<text x="48" y="264" fill="#193732" font-size="25" font-weight="650">接上價值觀</text>
+<text x="48" y="292" fill="#586b60" font-size="18">自主、享樂、成就</text>
+<path d="M240 408V420" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#xiayiben-most-ambitious-day-arrow)"/>
+<rect x="28" y="324" width="424" height="82" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="408" y="362" fill="#586b60" font-size="18">03</text>
+<text x="48" y="362" fill="#193732" font-size="25" font-weight="650">合理先過濾</text>
+<text x="48" y="390" fill="#586b60" font-size="18">問：它通往哪裡？</text>
+<path d="M240 506V518" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#xiayiben-most-ambitious-day-arrow)"/>
+<rect x="28" y="422" width="424" height="82" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="408" y="460" fill="#586b60" font-size="18">04</text>
+<text x="48" y="460" fill="#193732" font-size="25" font-weight="650">卡住換一件</text>
+<text x="48" y="488" fill="#586b60" font-size="18">A 不想做就做 B</text>
+<path d="M240 604V616" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#xiayiben-most-ambitious-day-arrow)"/>
+<rect x="28" y="520" width="424" height="82" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="408" y="558" fill="#586b60" font-size="18">05</text>
+<text x="48" y="558" fill="#193732" font-size="25" font-weight="650">刻意留白</text>
+<text x="48" y="586" fill="#586b60" font-size="18">不帶手機去散步</text>
+<rect x="28" y="618" width="424" height="82" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="408" y="656" fill="#586b60" font-size="18">06</text>
+<text x="48" y="656" fill="#193732" font-size="25" font-weight="650">硬撐先判斷</text>
+<text x="48" y="684" fill="#586b60" font-size="18">我還在學習嗎？</text>
+<text x="28" y="740" fill="#586b60" font-size="18">圖解為編輯整理，並非成效證明</text>
+<text x="28" y="774" fill="#586b60" font-size="19">搶走時間的常不是懶惰，而是「合理」</text>
+</svg>
