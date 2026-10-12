@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" role="img" aria-labelledby="tackling-ai-brain-rot-title tackling-ai-brain-rot-desc"><title id="tackling-ai-brain-rot-title">認知健身五個動作</title><desc id="tackling-ai-brain-rot-desc">盤點用途、畫保留清單、代寫標示、讀人寫的原文，最後每週回顧，五個動作維持認知健身。</desc>
+<defs><marker id="tackling-ai-brain-rot-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="800" height="480" fill="#f0f2e9"/>
+<text x="36" y="48" fill="#586b60" font-size="26">CAL NEWPORT · 編輯整理</text>
+<text x="36" y="100" fill="#193732" font-size="34" font-weight="650">瑣事給 AI，費力思考自己來</text>
+<path d="M36 126H764" stroke="#bdcbbb"/>
+<path d="M264 215H282" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#tackling-ai-brain-rot-arrow)"/>
+<path d="M514 215H532" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#tackling-ai-brain-rot-arrow)"/>
+<path d="M650 270V290H275V304" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#tackling-ai-brain-rot-arrow)"/>
+<path d="M389 365H407" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#tackling-ai-brain-rot-arrow)"/>
+<rect x="36" y="160" width="228" height="110" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="52" y="190" fill="#d4e2d4" font-size="19">01</text>
+<text x="52" y="232" fill="#fffef9" font-size="26" font-weight="650">盤點用途</text>
+<rect x="286" y="160" width="228" height="110" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="302" y="190" fill="#586b60" font-size="19">02</text>
+<text x="302" y="232" fill="#193732" font-size="26" font-weight="650">保留清單</text>
+<rect x="536" y="160" width="228" height="110" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="552" y="190" fill="#586b60" font-size="19">03</text>
+<text x="552" y="232" fill="#193732" font-size="26" font-weight="650">代寫標示</text>
+<rect x="161" y="310" width="228" height="110" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="177" y="340" fill="#586b60" font-size="19">04</text>
+<text x="177" y="382" fill="#193732" font-size="26" font-weight="650">讀人寫的原文</text>
+<rect x="411" y="310" width="228" height="110" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="427" y="340" fill="#586b60" font-size="19">05</text>
+<text x="427" y="382" fill="#193732" font-size="26" font-weight="650">每週回顧</text>
+<text x="36" y="455" fill="#586b60" font-size="22">每週回顧後調整清單，再回到盤點</text>
+</svg>

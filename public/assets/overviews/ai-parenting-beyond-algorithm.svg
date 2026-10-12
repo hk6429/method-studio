@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 650" role="img" aria-labelledby="ai-parenting-beyond-algorithm-title ai-parenting-beyond-algorithm-desc"><title id="ai-parenting-beyond-algorithm-title">演算法不會推薦的世界：六步擴大孩子的世界</title><desc id="ai-parenting-beyond-algorithm-desc">改問題、盤點現況、打破同溫層、旁聽大人、不審問、月底檢查；六步擴大孩子接觸的世界。</desc>
+<defs><marker id="ai-parenting-beyond-algorithm-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="1200" height="650" fill="#f0f2e9"/>
+<text x="48" y="64" fill="#586b60" font-size="26">AI 親職學 · 編輯整理</text>
+<text x="48" y="118" fill="#193732" font-size="44" font-weight="650">演算法不會推薦的世界</text>
+<path d="M48 144H1152" stroke="#bdcbbb"/>
+<rect x="48" y="180" width="320" height="150" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="66" y="212" fill="#d4e2d4" font-size="20">01</text>
+<text x="66" y="273" fill="#fffef9" font-size="40" font-weight="650">改問題</text>
+<text x="66" y="316" fill="#d4e2d4" font-size="18">有哪些世界</text>
+<rect x="440" y="180" width="320" height="150" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="458" y="212" fill="#586b60" font-size="20">02</text>
+<text x="458" y="273" fill="#193732" font-size="40" font-weight="650">盤點現況</text>
+<text x="458" y="316" fill="#586b60" font-size="18">人地活動內容</text>
+<rect x="832" y="180" width="320" height="150" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="850" y="212" fill="#586b60" font-size="20">03</text>
+<text x="850" y="273" fill="#193732" font-size="40" font-weight="650">破同溫層</text>
+<text x="850" y="316" fill="#586b60" font-size="18">每月一件新體驗</text>
+<rect x="48" y="390" width="320" height="150" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="66" y="422" fill="#586b60" font-size="20">04</text>
+<text x="66" y="483" fill="#193732" font-size="40" font-weight="650">旁聽大人</text>
+<text x="66" y="526" fill="#586b60" font-size="18">聽不同人聊天</text>
+<rect x="440" y="390" width="320" height="150" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="458" y="422" fill="#586b60" font-size="20">05</text>
+<text x="458" y="483" fill="#193732" font-size="40" font-weight="650">不審問</text>
+<text x="458" y="526" fill="#586b60" font-size="18">當作種子</text>
+<rect x="832" y="390" width="320" height="150" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="850" y="422" fill="#586b60" font-size="20">06</text>
+<text x="850" y="483" fill="#193732" font-size="40" font-weight="650">月底檢查</text>
+<text x="850" y="526" fill="#586b60" font-size="18">知不知道不知道</text>
+<path d="M368 255H416" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#ai-parenting-beyond-algorithm-arrow)"/>
+<path d="M760 255H808" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#ai-parenting-beyond-algorithm-arrow)"/>
+<path d="M1000 330V345H208V380" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#ai-parenting-beyond-algorithm-arrow)"/>
+<path d="M368 465H416" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#ai-parenting-beyond-algorithm-arrow)"/>
+<path d="M760 465H808" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#ai-parenting-beyond-algorithm-arrow)"/>
+<text x="48" y="610" fill="#586b60" font-size="24">月底檢查 → 調整下月計畫 → 回到第 1 步</text>
+</svg>

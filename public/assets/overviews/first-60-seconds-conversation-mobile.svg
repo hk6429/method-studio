@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 800" role="img" aria-labelledby="first-60-seconds-conversation-title first-60-seconds-conversation-desc"><title id="first-60-seconds-conversation-title">開口前的 60 秒：TIP</title><desc id="first-60-seconds-conversation-desc">主題、意圖、重點三句開場，送出前再檢查一次。</desc>
+<defs><marker id="first-60-seconds-conversation-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs><style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="480" height="800" fill="#f0f2e9"/>
+<text x="24" y="44" fill="#586b60" font-size="22">TED · 編輯整理</text>
+<text x="24" y="92" fill="#193732" font-size="34" font-weight="650">先說清楚，再說細節</text>
+<path d="M24 112H456" stroke="#bdcbbb"/>
+<rect x="24" y="140" width="432" height="120" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="44" y="172" fill="#d4e2d4" font-size="20">01</text>
+<text x="44" y="212" fill="#fffef9" font-size="34" font-weight="650">T 主題</text>
+<text x="44" y="244" fill="#d4e2d4" font-size="22">我想談什麼</text>
+<path d="M240 260V282" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#first-60-seconds-conversation-arrow)"/>
+<rect x="24" y="282" width="432" height="120" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="44" y="314" fill="#586b60" font-size="20">02</text>
+<text x="44" y="354" fill="#193732" font-size="34" font-weight="650">I 意圖</text>
+<text x="44" y="386" fill="#586b60" font-size="22">希望對方做什麼</text>
+<path d="M240 402V424" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#first-60-seconds-conversation-arrow)"/>
+<rect x="24" y="424" width="432" height="120" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="44" y="456" fill="#586b60" font-size="20">03</text>
+<text x="44" y="496" fill="#193732" font-size="34" font-weight="650">P 重點</text>
+<text x="44" y="528" fill="#586b60" font-size="22">最重要的一句結論</text>
+<path d="M240 544V566" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#first-60-seconds-conversation-arrow)"/>
+<rect x="24" y="566" width="432" height="120" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="44" y="598" fill="#586b60" font-size="20">04</text>
+<text x="44" y="638" fill="#193732" font-size="34" font-weight="650">送出前檢查</text>
+<text x="44" y="670" fill="#586b60" font-size="22">三題都答得出來</text>
+<text x="24" y="738" fill="#586b60" font-size="20">細節放在三句之後補充</text>
+<text x="24" y="768" fill="#586b60" font-size="20">圖解為編輯整理，並非成效證明</text>
+</svg>

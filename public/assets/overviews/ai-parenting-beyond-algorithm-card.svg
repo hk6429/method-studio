@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" role="img" aria-labelledby="ai-parenting-beyond-algorithm-title ai-parenting-beyond-algorithm-desc"><title id="ai-parenting-beyond-algorithm-title">演算法不會推薦的世界：六步擴大孩子的世界</title><desc id="ai-parenting-beyond-algorithm-desc">改問題、盤點現況、打破同溫層、旁聽大人、不審問、月底檢查；六步擴大孩子接觸的世界。</desc>
+<defs><marker id="ai-parenting-beyond-algorithm-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="800" height="480" fill="#f0f2e9"/>
+<text x="36" y="48" fill="#586b60" font-size="26">AI 親職學 · 編輯整理</text>
+<text x="36" y="100" fill="#193732" font-size="36" font-weight="650">演算法不會推薦的世界</text>
+<path d="M36 126H764" stroke="#bdcbbb"/>
+<rect x="36" y="160" width="224" height="150" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="52" y="192" fill="#d4e2d4" font-size="22">01</text>
+<text x="52" y="250" fill="#fffef9" font-size="24" font-weight="650">改問「有哪些世界」</text>
+<rect x="292" y="160" width="224" height="150" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="308" y="192" fill="#586b60" font-size="22">02</text>
+<text x="308" y="250" fill="#193732" font-size="26" font-weight="650">每月一件新體驗</text>
+<rect x="548" y="160" width="224" height="150" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="564" y="192" fill="#586b60" font-size="22">03</text>
+<text x="564" y="250" fill="#193732" font-size="26" font-weight="650">事後不審問</text>
+<path d="M262 235H284" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#ai-parenting-beyond-algorithm-arrow)"/>
+<path d="M518 235H540" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#ai-parenting-beyond-algorithm-arrow)"/>
+<text x="36" y="372" fill="#193732" font-size="28" font-weight="650">讓世界變大，再看孩子自己選</text>
+<text x="36" y="420" fill="#586b60" font-size="22">盤點 → 破同溫層 → 旁聽大人 → 月底檢查</text>
+</svg>
