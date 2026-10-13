@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" role="img" aria-labelledby="serhant-get-to-yes-ct serhant-get-to-yes-cd"><title id="serhant-get-to-yes-ct">勾住、幫忙、請求、跟進</title><desc id="serhant-get-to-yes-cd">先勾住、再幫忙、信任後請求，之後長期跟進；對方說停就停。</desc>
+<defs><marker id="serhant-get-to-yes-c-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="800" height="480" fill="#f0f2e9"/>
+<text x="36" y="48" fill="#586b60" font-size="26">Ryan Serhant · 編輯整理</text>
+<text x="36" y="100" fill="#193732" font-size="36" font-weight="650">先勾住，再幫忙</text>
+<path d="M36 126H764" stroke="#bdcbbb"/>
+<rect x="36" y="160" width="328" height="112" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="56" y="194" fill="#d4e2d4" font-size="20">01</text>
+<text x="56" y="229.44" fill="#fffef9" font-size="34" font-weight="650">勾住</text>
+<text x="56" y="256" fill="#d4e2d4" font-size="17">誇一句、找共同點</text>
+<rect x="436" y="160" width="328" height="112" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="456" y="194" fill="#586b60" font-size="20">02</text>
+<text x="456" y="229.44" fill="#193732" font-size="34" font-weight="650">幫忙</text>
+<text x="456" y="256" fill="#586b60" font-size="17">先給一個小忙</text>
+<rect x="36" y="310" width="328" height="112" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="56" y="344" fill="#586b60" font-size="20">03</text>
+<text x="56" y="379.44" fill="#193732" font-size="34" font-weight="650">請求</text>
+<text x="56" y="406" fill="#586b60" font-size="17">具體，說清下一步</text>
+<rect x="436" y="310" width="328" height="112" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="456" y="344" fill="#586b60" font-size="20">04</text>
+<text x="456" y="379.44" fill="#193732" font-size="34" font-weight="650">跟進</text>
+<text x="456" y="406" fill="#586b60" font-size="17">三個 F，不夾帶請求</text>
+<path d="M364 216H424" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#serhant-get-to-yes-c-arrow)"/>
+<path d="M600 272V290H200V300" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#serhant-get-to-yes-c-arrow)"/>
+<path d="M364 366H424" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#serhant-get-to-yes-c-arrow)"/>
+<text x="36" y="455" fill="#586b60" font-size="23">對方說停就停</text>
+</svg>

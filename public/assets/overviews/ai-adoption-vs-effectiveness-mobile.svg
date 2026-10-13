@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 800" role="img" aria-labelledby="ai-adoption-vs-effectiveness-m-title ai-adoption-vs-effectiveness-m-desc"><title id="ai-adoption-vs-effectiveness-m-title">分清 adoption 與 effectiveness</title><desc id="ai-adoption-vs-effectiveness-m-desc">定目標 → 三群清單 → 盤三職能 → 拆驗收 → 排產能 → 分開量；全員會用不等於績效有感。</desc>
+<defs><marker id="ai-adoption-vs-effectiveness-m-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="480" height="800" fill="#f0f2e9"/>
+<text x="24" y="44" fill="#586b60" font-size="18">AI 導入 · 編輯整理</text>
+<text x="24" y="86" fill="#193732" font-size="28" font-weight="650">全員會用，不等於績效有感</text>
+<path d="M24 104H456" stroke="#bdcbbb"/>
+<rect x="24" y="124" width="432" height="80" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="42" y="156" fill="#d4e2d4" font-size="16">01</text>
+<text x="84" y="160" fill="#fffef9" font-size="26" font-weight="650">定目標</text>
+<text x="84" y="188" fill="#d4e2d4" font-size="17">adoption 或 effectiveness</text>
+<path d="M240 206V222" stroke="#586b60" fill="none" stroke-width="2" marker-end="url(#ai-adoption-vs-effectiveness-m-arrow)"/>
+<rect x="24" y="224" width="432" height="80" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="42" y="256" fill="#586b60" font-size="16">02</text>
+<text x="84" y="260" fill="#193732" font-size="26" font-weight="650">三群清單</text>
+<text x="84" y="288" fill="#586b60" font-size="17">學會用、驗、選</text>
+<path d="M240 306V322" stroke="#586b60" fill="none" stroke-width="2" marker-end="url(#ai-adoption-vs-effectiveness-m-arrow)"/>
+<rect x="24" y="324" width="432" height="80" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="42" y="356" fill="#586b60" font-size="16">03</text>
+<text x="84" y="360" fill="#193732" font-size="26" font-weight="650">盤三職能</text>
+<text x="84" y="388" fill="#586b60" font-size="17">場景、開發、AI PM</text>
+<path d="M240 406V422" stroke="#586b60" fill="none" stroke-width="2" marker-end="url(#ai-adoption-vs-effectiveness-m-arrow)"/>
+<rect x="24" y="424" width="432" height="80" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="42" y="456" fill="#586b60" font-size="16">04</text>
+<text x="84" y="460" fill="#193732" font-size="26" font-weight="650">拆驗收</text>
+<text x="84" y="488" fill="#586b60" font-size="17">門檻與人工檢查</text>
+<path d="M240 506V522" stroke="#586b60" fill="none" stroke-width="2" marker-end="url(#ai-adoption-vs-effectiveness-m-arrow)"/>
+<rect x="24" y="524" width="432" height="80" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="42" y="556" fill="#586b60" font-size="16">05</text>
+<text x="84" y="560" fill="#193732" font-size="26" font-weight="650">排產能</text>
+<text x="84" y="588" fill="#586b60" font-size="17">省下的時間去哪</text>
+<path d="M240 606V622" stroke="#586b60" fill="none" stroke-width="2" marker-end="url(#ai-adoption-vs-effectiveness-m-arrow)"/>
+<rect x="24" y="624" width="432" height="80" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="42" y="656" fill="#586b60" font-size="16">06</text>
+<text x="84" y="660" fill="#193732" font-size="26" font-weight="650">分開量</text>
+<text x="84" y="688" fill="#586b60" font-size="17">兩條線各有指標</text>
+<text x="24" y="765" fill="#586b60" font-size="16">圖解為編輯整理，並非成效證明</text>
+</svg>

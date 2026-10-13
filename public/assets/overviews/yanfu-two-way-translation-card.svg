@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" role="img" aria-labelledby="yanfu-two-way-translation-title yanfu-two-way-translation-desc"><title id="yanfu-two-way-translation-title">長難句先抓承重牆：嚴復式四招精讀</title><desc id="yanfu-two-way-translation-desc">綁定任務 → 結構掃描 → 深度查詢 → 雙向回譯 → 一週輪替。</desc>
+<defs><marker id="yanfu-two-way-translation-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="800" height="480" fill="#f0f2e9"/>
+<text x="32" y="48" fill="#586b60" font-size="22">嚴復式精讀 · 編輯整理</text>
+<text x="32" y="100" fill="#193732" font-size="38" font-weight="650">長難句先抓承重牆</text>
+<text x="32" y="146" fill="#586b60" font-size="22">200 字雙向回譯，看見自己的盲點</text>
+<path d="M32 166H768" stroke="#bdcbbb"/>
+<rect x="32" y="200" width="172" height="130" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="48" y="236" fill="#d4e2d4" font-size="20">01</text>
+<text x="48" y="290" fill="#fffef9" font-size="28" font-weight="650">綁定任務</text>
+<path d="M206 265H218" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#yanfu-two-way-translation-arrow)"/>
+<rect x="220" y="200" width="172" height="130" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="236" y="236" fill="#586b60" font-size="20">02</text>
+<text x="236" y="290" fill="#193732" font-size="28" font-weight="650">結構掃描</text>
+<path d="M394 265H406" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#yanfu-two-way-translation-arrow)"/>
+<rect x="408" y="200" width="172" height="130" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="424" y="236" fill="#586b60" font-size="20">03</text>
+<text x="424" y="290" fill="#193732" font-size="28" font-weight="650">深度查詞</text>
+<path d="M582 265H594" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#yanfu-two-way-translation-arrow)"/>
+<rect x="596" y="200" width="172" height="130" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="612" y="236" fill="#586b60" font-size="20">04</text>
+<text x="612" y="290" fill="#193732" font-size="28" font-weight="650">雙向回譯</text>
+<text x="32" y="420" fill="#586b60" font-size="20">圖解為編輯整理，並非成效證明</text>
+</svg>

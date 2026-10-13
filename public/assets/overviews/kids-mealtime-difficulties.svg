@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 650" role="img" aria-labelledby="kids-mealtime-difficulties-title kids-mealtime-difficulties-desc"><title id="kids-mealtime-difficulties-title">孩子吃飯難，先別急著催</title><desc id="kids-mealtime-difficulties-desc">餐桌記憶 → 餐具坐姿 → 咀嚼循序 → 少催少令 → 固定流程 → 一次一兩項。</desc>
+<defs><marker id="kids-mealtime-difficulties-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="1200" height="650" fill="#f0f2e9"/>
+<text x="36" y="48" fill="#586b60" font-size="26">親子餐桌 · 編輯整理</text>
+<text x="36" y="100" fill="#193732" font-size="42" font-weight="650">孩子吃飯難，先別急著催</text>
+<path d="M36 126H1164" stroke="#bdcbbb"/>
+<rect x="36" y="150" width="528" height="122" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="56" y="180" fill="#d4e2d4" font-size="22">01</text>
+<text x="56" y="222" fill="#fffef9" font-size="34" font-weight="650">餐桌記憶</text>
+<text x="56" y="256" fill="#d4e2d4" font-size="24">先問十年後想留下什麼</text>
+<rect x="636" y="150" width="528" height="122" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="656" y="180" fill="#586b60" font-size="22">02</text>
+<text x="656" y="222" fill="#193732" font-size="34" font-weight="650">餐具坐姿</text>
+<text x="656" y="256" fill="#586b60" font-size="24">好握、不滑、腳踩穩</text>
+<rect x="36" y="290" width="528" height="122" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="56" y="320" fill="#586b60" font-size="22">03</text>
+<text x="56" y="362" fill="#193732" font-size="34" font-weight="650">咀嚼循序</text>
+<text x="56" y="396" fill="#586b60" font-size="24">硬度與塊狀慢慢加</text>
+<rect x="636" y="290" width="528" height="122" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="656" y="320" fill="#586b60" font-size="22">04</text>
+<text x="656" y="362" fill="#193732" font-size="34" font-weight="650">少催少令</text>
+<text x="656" y="396" fill="#586b60" font-size="24">一個人說話，規則先約</text>
+<rect x="36" y="430" width="528" height="122" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="56" y="460" fill="#586b60" font-size="22">05</text>
+<text x="56" y="502" fill="#193732" font-size="34" font-weight="650">固定流程</text>
+<text x="56" y="536" fill="#586b60" font-size="24">洗手、擺餐具、30 分鐘</text>
+<rect x="636" y="430" width="528" height="122" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="656" y="460" fill="#586b60" font-size="22">06</text>
+<text x="656" y="502" fill="#193732" font-size="34" font-weight="650">一次一兩項</text>
+<text x="656" y="536" fill="#586b60" font-size="24">一半愛吃，不求每餐完美</text>
+<path d="M564 211H636" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#kids-mealtime-difficulties-arrow)"/>
+<path d="M900 272V290H300V291" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#kids-mealtime-difficulties-arrow)"/>
+<path d="M564 351H636" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#kids-mealtime-difficulties-arrow)"/>
+<path d="M900 412V430H300V431" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#kids-mealtime-difficulties-arrow)"/>
+<path d="M564 491H636" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#kids-mealtime-difficulties-arrow)"/>
+<text x="36" y="600" fill="#586b60" font-size="23">圖解為編輯整理，並非成效證明或醫療建議</text>
+<text x="36" y="632" fill="#586b60" font-size="23">一次只調一兩項，每週回頭看一次</text>
+</svg>

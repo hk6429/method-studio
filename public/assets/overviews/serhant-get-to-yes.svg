@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 650" role="img" aria-labelledby="serhant-get-to-yest serhant-get-to-yesd"><title id="serhant-get-to-yest">勾住、幫忙、請求、跟進</title><desc id="serhant-get-to-yesd">先勾住、再幫忙、信任後請求，之後長期跟進；對方說停就停。</desc>
+<defs><marker id="serhant-get-to-yes-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="1200" height="650" fill="#f0f2e9"/>
+<text x="48" y="72" fill="#586b60" font-size="28">Ryan Serhant · 編輯整理</text>
+<text x="48" y="130" fill="#193732" font-size="46" font-weight="650">先勾住，再幫忙，最後才開口</text>
+<path d="M48 160H1152" stroke="#bdcbbb"/>
+<rect x="48" y="230" width="240" height="200" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="68" y="264" fill="#d4e2d4" font-size="20">01</text>
+<text x="68" y="354" fill="#fffef9" font-size="40" font-weight="650">勾住</text>
+<text x="68" y="414" fill="#d4e2d4" font-size="17">誇一句、找共同點</text>
+<path d="M288 330H324" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#serhant-get-to-yes-arrow)"/>
+<rect x="330" y="230" width="240" height="200" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="350" y="264" fill="#586b60" font-size="20">02</text>
+<text x="350" y="354" fill="#193732" font-size="40" font-weight="650">幫忙</text>
+<text x="350" y="414" fill="#586b60" font-size="17">先給一個小忙</text>
+<path d="M570 330H606" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#serhant-get-to-yes-arrow)"/>
+<rect x="612" y="230" width="240" height="200" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="632" y="264" fill="#586b60" font-size="20">03</text>
+<text x="632" y="354" fill="#193732" font-size="40" font-weight="650">請求</text>
+<text x="632" y="414" fill="#586b60" font-size="17">具體，說清下一步</text>
+<path d="M852 330H888" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#serhant-get-to-yes-arrow)"/>
+<rect x="894" y="230" width="240" height="200" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="914" y="264" fill="#586b60" font-size="20">04</text>
+<text x="914" y="354" fill="#193732" font-size="40" font-weight="650">跟進</text>
+<text x="914" y="414" fill="#586b60" font-size="17">三個 F，不夾帶請求</text>
+<text x="48" y="520" fill="#586b60" font-size="26">對方說停就停；有新動態，再回到勾住。</text>
+<text x="48" y="580" fill="#586b60" font-size="20">圖解為編輯整理，不是成效證明。</text>
+</svg>
