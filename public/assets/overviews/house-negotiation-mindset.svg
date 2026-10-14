@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 650" role="img" aria-labelledby="house-negotiation-mindset-title house-negotiation-mindset-desc"><title id="house-negotiation-mindset-title">買房談判的心態與節奏</title><desc id="house-negotiation-mindset-desc">定底線、多間比較、第二份出價、冷靜撤回、讓對方說價、慢拒絕；超出區間就放手。</desc>
+<defs><marker id="house-negotiation-mindset-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="1200" height="650" fill="#f0f2e9"/>
+<text x="48" y="64" fill="#586b60" font-size="26">EP2541 · 編輯整理</text>
+<text x="48" y="118" fill="#193732" font-size="44" font-weight="650">不急著買，才有談判桌</text>
+<path d="M48 146H1152" stroke="#bdcbbb"/>
+<rect x="48" y="190" width="320" height="140" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="68" y="224" fill="#d4e2d4" font-size="22">01</text>
+<text x="68" y="294" fill="#fffef9" font-size="34" font-weight="650">定底線</text>
+<text x="68" y="324" fill="#d4e2d4" font-size="18">上限價＋放手條件</text>
+<path d="M370 260H420" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#house-negotiation-mindset-arrow)"/>
+<rect x="424" y="190" width="320" height="140" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="444" y="224" fill="#586b60" font-size="22">02</text>
+<text x="444" y="294" fill="#193732" font-size="34" font-weight="650">多間比較</text>
+<text x="444" y="324" fill="#586b60" font-size="18">找最急的屋主</text>
+<path d="M746 260H796" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#house-negotiation-mindset-arrow)"/>
+<rect x="800" y="190" width="320" height="140" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="820" y="224" fill="#586b60" font-size="22">03</text>
+<text x="820" y="294" fill="#193732" font-size="34" font-weight="650">第二份出價</text>
+<text x="820" y="324" fill="#586b60" font-size="18">打破高錨點</text>
+<rect x="48" y="380" width="320" height="140" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="68" y="414" fill="#586b60" font-size="22">04</text>
+<text x="68" y="484" fill="#193732" font-size="34" font-weight="650">冷靜撤回</text>
+<text x="68" y="514" fill="#586b60" font-size="18">平靜、不威脅</text>
+<path d="M370 450H420" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#house-negotiation-mindset-arrow)"/>
+<rect x="424" y="380" width="320" height="140" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="444" y="414" fill="#586b60" font-size="22">05</text>
+<text x="444" y="484" fill="#193732" font-size="34" font-weight="650">讓對方說價</text>
+<text x="444" y="514" fill="#586b60" font-size="18">不先吐最高價</text>
+<path d="M746 450H796" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#house-negotiation-mindset-arrow)"/>
+<rect x="800" y="380" width="320" height="140" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="820" y="414" fill="#586b60" font-size="22">06</text>
+<text x="820" y="484" fill="#193732" font-size="34" font-weight="650">慢拒絕</text>
+<text x="820" y="514" fill="#586b60" font-size="18">不立刻點頭</text>
+<path d="M208 380V400V402" stroke="none"/>
+<path d="M964 330V350H208V360" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#house-negotiation-mindset-arrow)"/>
+<text x="48" y="580" fill="#586b60" font-size="26">價格在區間內才成交，超出就放手找下一間</text>
+</svg>

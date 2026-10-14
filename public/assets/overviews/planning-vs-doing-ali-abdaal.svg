@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 650" role="img" aria-labelledby="planning-vs-doing-ali-abdaal-title planning-vs-doing-ali-abdaal-desc"><title id="planning-vs-doing-ali-abdaal-title">95/5 法則：計畫最多 5%</title><desc id="planning-vs-doing-ali-abdaal-desc">定 95/5 → 認出計畫 → 算小時 → 動手做 → 週回顧；計畫最多 5%，其餘 95% 動手。</desc>
+<defs><marker id="planning-vs-doing-ali-abdaal-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="1200" height="650" fill="#f0f2e9"/>
+<text x="36" y="48" fill="#586b60" font-size="26">95/5 · 編輯整理</text>
+<text x="36" y="100" fill="#193732" font-size="42" font-weight="650">計畫最多 5%，其餘動手做</text>
+<path d="M36 126H1164" stroke="#bdcbbb"/>
+<path d="M240 300H267" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#planning-vs-doing-ali-abdaal-arrow)"/>
+<rect x="36" y="200" width="204" height="200" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="52" y="236" fill="#d4e2d4" font-size="22">01</text>
+<text x="52" y="290" fill="#fffef9" font-size="32" font-weight="650">定 95/5</text>
+<text x="52" y="336" fill="#d4e2d4" font-size="20">計畫上限 5%</text>
+<path d="M471 300H498" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#planning-vs-doing-ali-abdaal-arrow)"/>
+<rect x="267" y="200" width="204" height="200" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="283" y="236" fill="#586b60" font-size="22">02</text>
+<text x="283" y="290" fill="#193732" font-size="32" font-weight="650">認出計畫</text>
+<text x="283" y="336" fill="#586b60" font-size="20">沒碰到現實就是</text>
+<text x="283" y="364" fill="#586b60" font-size="20">計畫</text>
+<path d="M702 300H729" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#planning-vs-doing-ali-abdaal-arrow)"/>
+<rect x="498" y="200" width="204" height="200" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="514" y="236" fill="#586b60" font-size="22">03</text>
+<text x="514" y="290" fill="#193732" font-size="32" font-weight="650">算小時</text>
+<text x="514" y="336" fill="#586b60" font-size="20">配額寫成數字</text>
+<path d="M933 300H960" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#planning-vs-doing-ali-abdaal-arrow)"/>
+<rect x="729" y="200" width="204" height="200" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="745" y="236" fill="#586b60" font-size="22">04</text>
+<text x="745" y="290" fill="#193732" font-size="32" font-weight="650">動手做</text>
+<text x="745" y="336" fill="#586b60" font-size="20">每段留下成果</text>
+<rect x="960" y="200" width="204" height="200" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="976" y="236" fill="#586b60" font-size="22">05</text>
+<text x="976" y="290" fill="#193732" font-size="32" font-weight="650">週回顧</text>
+<text x="976" y="336" fill="#586b60" font-size="20">檢查實際比例</text>
+<path d="M1062 400V450H138V412" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#planning-vs-doing-ali-abdaal-arrow)"/>
+<text x="600" y="482" text-anchor="middle" fill="#586b60" font-size="22">計畫超標就下調上限，下週重來</text>
+<text x="36" y="591" fill="#586b60" font-size="23">影片稱：每週 20 小時，19 小時做事、約 1 小時規劃</text>
+<text x="36" y="625" fill="#586b60" font-size="23">圖解為編輯整理，並非成效證明</text>
+</svg>

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 800" role="img" aria-labelledby="personal-agents-explained-jeff-su-title personal-agents-explained-jeff-su-desc"><title id="personal-agents-explained-jeff-su-title">讓 AI 記得你的 DIY 代理</title><desc id="personal-agents-explained-jeff-su-desc">判斷層級 → 建資料夾 → 寫規則與記憶兩個檔 → 一句話交辦並更新記憶 → 串接外部服務與選路線。</desc>
+<defs><marker id="personal-agents-explained-jeff-su-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="480" height="800" fill="#f0f2e9"/>
+<text x="28" y="48" fill="#586b60" font-size="22">JEFF SU · 編輯整理</text>
+<text x="28" y="100" fill="#193732" font-size="27" font-weight="650">讓 AI 記得你</text>
+<path d="M28 126H452" stroke="#bdcbbb"/>
+<rect x="28" y="148" width="424" height="92" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="48" y="178" fill="#d4e2d4" font-size="19">01</text>
+<text x="48" y="214" fill="#fffef9" font-size="26" font-weight="650">判斷層級</text>
+
+<text x="166" y="214" fill="#586b60" font-size="18">一次性聊天，反覆用代理</text>
+<path d="M240 240V256" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#personal-agents-explained-jeff-su-arrow)"/>
+<rect x="28" y="258" width="424" height="92" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="288" fill="#586b60" font-size="19">02</text>
+<text x="48" y="324" fill="#193732" font-size="26" font-weight="650">建資料夾</text>
+
+<text x="166" y="324" fill="#586b60" font-size="18">一個領域一個</text>
+<path d="M240 350V366" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#personal-agents-explained-jeff-su-arrow)"/>
+<rect x="28" y="368" width="424" height="92" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="398" fill="#586b60" font-size="19">03</text>
+<text x="48" y="434" fill="#193732" font-size="26" font-weight="650">寫兩個檔</text>
+
+<text x="166" y="434" fill="#586b60" font-size="18">agent.md ＋ memory.md</text>
+<path d="M240 460V476" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#personal-agents-explained-jeff-su-arrow)"/>
+<rect x="28" y="478" width="424" height="92" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="508" fill="#586b60" font-size="19">04</text>
+<text x="48" y="544" fill="#193732" font-size="26" font-weight="650">一句話交辦</text>
+
+<text x="192" y="544" fill="#586b60" font-size="18">先讀檔，做完更新</text>
+<path d="M240 570V586" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#personal-agents-explained-jeff-su-arrow)"/>
+<rect x="28" y="588" width="424" height="92" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="618" fill="#586b60" font-size="19">05</text>
+<text x="48" y="654" fill="#193732" font-size="26" font-weight="650">串接與選路</text>
+
+<text x="192" y="654" fill="#586b60" font-size="18">日曆、信箱；DIY 或個人</text>
+<text x="28" y="741" fill="#586b60" font-size="18">圖解為編輯整理，並非成效證明</text>
+<text x="28" y="775" fill="#586b60" font-size="19">做完更新 memory.md，下次更完整</text>
+</svg>
