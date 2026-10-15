@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 800" role="img" aria-labelledby="huang-body-boundary-talk-title huang-body-boundary-talk-desc"><title id="huang-body-boundary-talk-title">先共情，再教身體界線</title><desc id="huang-body-boundary-talk-desc">接住開心 → 覺察停損點 → 穩住反應 → 借物練習 → 信任圈。</desc>
+<defs><marker id="huang-body-boundary-talk-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="480" height="800" fill="#f0f2e9"/>
+<text x="28" y="48" fill="#586b60" font-size="22">身體界線 · 編輯整理</text>
+<text x="28" y="100" fill="#193732" font-size="27" font-weight="650">先共情，再教身體界線</text>
+<path d="M28 126H452" stroke="#bdcbbb"/>
+<rect x="28" y="146" width="424" height="94" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="48" y="176" fill="#d4e2d4" font-size="21">01</text>
+<text x="48" y="208" fill="#fffef9" font-size="28" font-weight="650">接住開心</text>
+<text x="48" y="230" fill="#d4e2d4" font-size="18">先問經過與感受</text>
+<path d="M240 241V257" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#huang-body-boundary-talk-arrow)"/>
+<rect x="28" y="258" width="424" height="94" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="288" fill="#586b60" font-size="21">02</text>
+<text x="48" y="320" fill="#193732" font-size="28" font-weight="650">覺察停損點</text>
+<text x="48" y="342" fill="#586b60" font-size="18">畫出不舒服的地方</text>
+<path d="M240 353V369" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#huang-body-boundary-talk-arrow)"/>
+<rect x="28" y="370" width="424" height="94" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="400" fill="#586b60" font-size="21">03</text>
+<text x="48" y="432" fill="#193732" font-size="28" font-weight="650">穩住反應</text>
+<text x="48" y="454" fill="#586b60" font-size="18">不暴怒，孩子才敢說</text>
+<path d="M240 465V481" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#huang-body-boundary-talk-arrow)"/>
+<rect x="28" y="482" width="424" height="94" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="512" fill="#586b60" font-size="21">04</text>
+<text x="48" y="544" fill="#193732" font-size="28" font-weight="650">借物練習</text>
+<text x="48" y="566" fill="#586b60" font-size="18">可借、不借的界線</text>
+<path d="M240 577V593" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#huang-body-boundary-talk-arrow)"/>
+<rect x="28" y="594" width="424" height="94" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="624" fill="#586b60" font-size="21">05</text>
+<text x="48" y="656" fill="#193732" font-size="28" font-weight="650">建立信任圈</text>
+<text x="48" y="678" fill="#586b60" font-size="18">排好求助對象</text>
+<text x="28" y="765" fill="#586b60" font-size="18">圖解為編輯整理，並非成效證明</text>
+</svg>

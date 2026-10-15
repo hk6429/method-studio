@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 800" role="img" aria-labelledby="energy-compounding-choice-skills-title energy-compounding-choice-skills-desc"><title id="energy-compounding-choice-skills-title">高壓下不硬撐的能量盤點</title><desc id="energy-compounding-choice-skills-desc">認出內耗 → 分影響圈 → 白紙寫需求 → 應該換我可以 → 排進行事曆；情緒卡住時先聽懂再轉念。</desc>
+<defs><marker id="energy-compounding-choice-skills-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="480" height="800" fill="#f0f2e9"/>
+<text x="28" y="48" fill="#586b60" font-size="22">能量複利 · 編輯整理</text>
+<text x="28" y="96" fill="#193732" font-size="27" font-weight="650">把「應該」換成「我可以」</text>
+<path d="M28 118H452" stroke="#bdcbbb"/>
+<rect x="28" y="134" width="424" height="82" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="166" fill="#586b60" font-size="20">01</text>
+<text x="92" y="170" fill="#193732" font-size="28" font-weight="650">認出內耗</text>
+<text x="92" y="198" fill="#586b60" font-size="19">哪一刻覺得跑不夠快</text>
+<path d="M240 218V232" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#energy-compounding-choice-skills-arrow)"/>
+<rect x="28" y="234" width="424" height="82" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="266" fill="#586b60" font-size="20">02</text>
+<text x="92" y="270" fill="#193732" font-size="28" font-weight="650">分影響圈</text>
+<text x="92" y="298" fill="#586b60" font-size="19">管得到與管不到</text>
+<path d="M240 318V332" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#energy-compounding-choice-skills-arrow)"/>
+<rect x="28" y="334" width="424" height="82" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="366" fill="#586b60" font-size="20">03</text>
+<text x="92" y="370" fill="#193732" font-size="28" font-weight="650">白紙寫需求</text>
+<text x="92" y="398" fill="#586b60" font-size="19">不舒服背後缺什麼</text>
+<path d="M240 418V432" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#energy-compounding-choice-skills-arrow)"/>
+<rect x="28" y="434" width="424" height="82" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="48" y="466" fill="#d4e2d4" font-size="20">04</text>
+<text x="92" y="470" fill="#fffef9" font-size="28" font-weight="650">應該換我可以</text>
+<text x="92" y="498" fill="#d4e2d4" font-size="19">找到自己能做的事</text>
+<path d="M240 518V532" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#energy-compounding-choice-skills-arrow)"/>
+<rect x="28" y="534" width="424" height="82" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="566" fill="#586b60" font-size="20">05</text>
+<text x="92" y="570" fill="#193732" font-size="28" font-weight="650">排進行事曆</text>
+<text x="92" y="598" fill="#586b60" font-size="19">重要不緊急先留位</text>
+<path d="M240 618V632" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#energy-compounding-choice-skills-arrow)"/>
+<rect x="28" y="634" width="424" height="82" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="666" fill="#586b60" font-size="20">06</text>
+<text x="92" y="670" fill="#193732" font-size="28" font-weight="650">先聽懂情緒</text>
+<text x="92" y="698" fill="#586b60" font-size="19">再決定要不要轉念</text>
+<text x="28" y="765" fill="#586b60" font-size="18">情緒卡住時，先承認與命名，再談轉念</text>
+<text x="28" y="789" fill="#586b60" font-size="17">圖解為編輯整理，並非成效證明</text>
+</svg>

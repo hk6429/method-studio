@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 650" role="img" aria-labelledby="claude-code-18-tips-ep431-t claude-code-18-tips-ep431-d"><title id="claude-code-18-tips-ep431-t">Claude Code 上手路線</title><desc id="claude-code-18-tips-ep431-d">懂專案 → 給它看 → 自我驗收 → 交出去；先讓它能自己檢查，再把重複的事交出去。</desc>
+<defs><marker id="claude-code-18-tips-ep431-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="1200" height="650" fill="#f0f2e9"/>
+<text x="36" y="48" fill="#586b60" font-size="26">AI 懶人報 EP431 · 編輯整理</text>
+<text x="36" y="100" fill="#193732" font-size="42" font-weight="650">讓它自己驗收，你才能起身倒水</text>
+<path d="M36 126H1164" stroke="#bdcbbb"/>
+<path d="M564.0 248.0H624.0" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#claude-code-18-tips-ep431-arrow)"/>
+<path d="M564.0 466.0H624.0" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#claude-code-18-tips-ep431-arrow)"/>
+<path d="M900.0 336V354H300.0V368" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#claude-code-18-tips-ep431-arrow)"/>
+<rect x="36" y="160" width="528" height="176" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="56" y="195" fill="#d4e2d4" font-size="23">01</text>
+<text x="56" y="245" fill="#fffef9" font-size="38" font-weight="650">懂專案</text>
+<text x="56" y="292" fill="#d4e2d4" font-size="27">瘦身 CLAUDE.md、plan mode</text>
+<rect x="636" y="160" width="528" height="176" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="656" y="195" fill="#586b60" font-size="23">02</text>
+<text x="656" y="245" fill="#193732" font-size="38" font-weight="650">給它看</text>
+<text x="656" y="292" fill="#586b60" font-size="27">檔案、截圖、先訪談寫規格</text>
+<rect x="36" y="378" width="528" height="176" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="56" y="413" fill="#586b60" font-size="23">03</text>
+<text x="56" y="463" fill="#193732" font-size="38" font-weight="650">自我驗收</text>
+<text x="56" y="510" fill="#586b60" font-size="27">條件加證據，做完就 /clear</text>
+<rect x="636" y="378" width="528" height="176" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="656" y="413" fill="#586b60" font-size="23">04</text>
+<text x="656" y="463" fill="#193732" font-size="38" font-weight="650">交出去</text>
+<text x="656" y="510" fill="#586b60" font-size="27">skill、hook、subagent</text>
+<text x="36" y="591" fill="#586b60" font-size="23">圖解為編輯整理，並非成效證明</text>
+<text x="36" y="625" fill="#586b60" font-size="23">糾正兩次還錯就 /clear 重開；一定要發生的規則改成 hook</text>
+</svg>

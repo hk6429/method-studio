@@ -34611,6 +34611,2162 @@
         "alt": "蓋章、十章換抽卡、換禮物與特權、學期回顧調整，四步形成循環。",
         "caption": "依影片編輯整理：從蓋章到兌換再回顧調整。圖解為示意，不是成效證明。"
       }
+    },
+    {
+      "id": "claude-code-18-tips-ep431",
+      "title": "Claude Code 上手路線：先讓它能自己驗收，再把重複的事交出去",
+      "summary": "與其一直盯著 Claude Code 問「真的修好了嗎」，不如先處理兩件事：對話空間會滿，以及它缺少自我檢查的方法。這篇依 AI 懶人報 EP431 整理成六個步驟：精簡 CLAUDE.md 與切換模式、用檔案和截圖給它看、先訪談寫規格、驗收與清理對話、把重複流程改成 skill 與 hook、需要時分工給 subagent、/goal 與 worktree。",
+      "categoryId": "ai",
+      "topicIds": [
+        "workflow",
+        "claude"
+      ],
+      "keywords": [
+        "Claude Code",
+        "CLAUDE.md",
+        "plan mode",
+        "context",
+        "/clear",
+        "驗收",
+        "skill",
+        "hook",
+        "subagent",
+        "worktree",
+        "AI 工作流"
+      ],
+      "level": "入門",
+      "minutes": 30,
+      "output": "一份自己專案的 Claude Code 設定清單：精簡後的 CLAUDE.md、一條可驗收的任務要求，以及一項待升級的 hook 或 skill",
+      "audience": "剛開始用 Claude Code 的人，以及每天在用、想少盯一點的進階使用者；不寫程式的老師若用它處理檔案或腳本，也可借用其中的驗收與清理習慣",
+      "status": "ready",
+      "contentType": "article_method",
+      "publishedAt": "2026-10-15T23:24:28+08:00",
+      "reviewedAt": "2026-10-15",
+      "coverLabel": "Podcast · AI 工作流",
+      "sourceCoverage": "依 AI 懶人報 EP431（約 10 分 21 秒）Whisper 自動辨識的繁體中文逐字稿整理，未逐字人工聽打，也未核對節目資訊欄所附的官方文件連結；辨識稿有錯字與斷句錯誤（例如 Claude 被聽成 cloud、/goal 被聽成「斜線 Go」），已依上下文還原。節目所稱的模型版本、預設 effort 與各指令行為，以節目當時說法為準，未在本機實測，實際介面請以官方文件為準。節目標題說 18 個用法，本文把它們歸併成六個步驟，完整清單仍請回聽節目。",
+      "sources": [
+        {
+          "id": "podcast-ep431",
+          "title": "EP431 – Claude Code 18 個用法：小白第一天就該會的，跟贏過 80% 人的進階技巧",
+          "kind": "article",
+          "url": "https://player.soundon.fm/p/ca974d36-6fcc-46fc-a339-ba7ed8902c80/episodes/132e5c40-73dd-4d3c-b346-f3a5bb729156",
+          "channel": "AI懶人報",
+          "publishedAt": "2026-10-15",
+          "note": "Podcast 集數頁；本文時間碼對應音檔的 Whisper 逐字稿，非影片。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "slim-claude-md",
+          "title": "先瘦身 CLAUDE.md，修改多檔前切到 plan mode",
+          "action": "在專案資料夾執行 /init 讓它產生 CLAUDE.md 草稿，再逐句自問：拿掉這句，Claude 會不會做錯？不會就刪。只留它從程式碼猜不到的東西，例如跑測試的指令、和一般寫法不同的規定、環境裡容易踩到的坑。要改好幾個檔案，或自己也不確定怎麼做時，按 Shift+Tab 切到 plan mode，讓它只讀檔、回答和寫計畫，不動手改。",
+          "why": "節目稱，這份檔案太長，重要規則反而會被忽略；plan mode 讓你在它動手前先看到方向。能用一句話講完的小改動（改錯字、換變數名）則直接交辦，不必每次都先規劃。",
+          "example": "編輯示範：草稿裡有「本專案使用 React」，它讀程式碼就看得出來，刪掉；保留「測試要用 npm run test:unit，不要跑 e2e」，因為這是它猜不到的。",
+          "check": "CLAUDE.md 每一句都通過「拿掉會不會做錯」的檢查；下一次要動多個檔案時，你先看過計畫才允許它修改。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "podcast-ep431",
+              "startSeconds": 73,
+              "endSeconds": 135
+            }
+          ]
+        },
+        {
+          "id": "show-dont-tell",
+          "title": "用檔案、截圖和完整錯誤訊息給它看，做壞了就停或退",
+          "action": "要它看某個檔案，用 @檔名；畫面跑版，直接貼截圖；程式出錯，貼整段錯誤訊息，再加一句「修好它，確認 build 會過，要修根本原因」。方向不對時按一次 Esc 讓它停下，對話還在，直接告訴它改去哪裡；已經改壞，連按兩下 Esc（或輸入 /rewind）選擇把對話、程式碼或兩者退回之前某個時間點。",
+          "why": "節目稱，描述不如直接給證據；而 rewind 只記得它用編輯工具改過的檔案，透過指令改掉的（例如資料庫）退不回來，所以 git 仍要照常使用。",
+          "example": "編輯示範：不要只說「網頁怪怪的」，改成貼上跑版截圖，並附一句「標題超出邊界，請只修這個元件的 CSS」。",
+          "check": "你能說出一件它會「退得回來」、一件「退不回來」的操作，而且重要檔案已有 git 紀錄。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "podcast-ep431",
+              "startSeconds": 136,
+              "endSeconds": 192
+            }
+          ]
+        },
+        {
+          "id": "interview-then-spec",
+          "title": "大功能先讓它訪談你，把規格寫成檔案，再開新對話實作",
+          "action": "動手做較大的功能前，對它說：我想做某某功能，用 AskUserQuestion 工具仔細問我問題，技術做法、畫面、邊界情況、取捨都要問，不要問太明顯的，挖我沒想到的地方。問完後請它把完成的規格寫進 spec.md，然後開一個新對話，要它照這份規格實作。需要時再用 /model 換模型、/effort 調思考深度。",
+          "why": "節目稱，新對話很乾淨，空間都留給實作。節目也提到 effort 不是越高越好：簡單工作用低一點又快又省，真卡住再往上調；多數寫程式工作用 Sonnet 就夠，複雜架構決定再換 Opus。",
+          "example": "編輯示範：想做「班級作業繳交統計表」，先讓它問你資料從哪來、缺交怎麼標、要不要匯出，答完後產生 spec.md，再在新對話貼上「請照 spec.md 實作」。",
+          "check": "存在一份你讀過並確認的 spec.md；實作是在新對話開始，而不是接在長長的訪談後面。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "podcast-ep431",
+              "startSeconds": 193,
+              "endSeconds": 249
+            }
+          ]
+        },
+        {
+          "id": "self-verify-and-clean",
+          "title": "把驗收條件寫進要求，要它貼證據；一件事一個對話",
+          "action": "任務要求不要只寫「幫我寫一個驗證 email 的函式」，而是寫明：三個範例，前兩個要通過、第三個要擋下，寫完跑測試，並把你跑了哪個指令、輸出什麼貼出來。做完一件事、換不相關的事之前輸入 /clear；用 /context 看空間被什麼佔用；同一個錯糾正兩次還錯，就 /clear 後重寫一個更具體的開頭。長對話要壓縮時用 /compact 並指定要留什麼，也可在 CLAUDE.md 先寫明壓縮時必須保留改過的檔案清單和測試指令。小問題用 /btw，不會寫進對話記錄。",
+          "why": "節目稱，這是整集最重要的一點：Claude 覺得做完就會停，沒東西可檢查，你就變成檢查的人。看證據比自己再跑一次快；乾淨的對話加較好的開頭，通常勝過被糾正很多次的長對話。",
+          "example": "編輯示範：「寫 validateEmail。範例 a@b.com 與 x@y.org 要通過，abc 要被擋。寫完執行 npm test，貼出指令與結果；有失敗就修到全過。」",
+          "check": "它回覆中附有指令與實際輸出，而不是只說「做好了」；換主題前你確實執行過 /clear。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "podcast-ep431",
+              "startSeconds": 259,
+              "endSeconds": 359
+            }
+          ]
+        },
+        {
+          "id": "repeat-to-skill-hook",
+          "title": "重複的流程寫成 skill，一定要發生的規則改成 hook",
+          "action": "把一直重複的流程寫成 SKILL.md，放在專案的 .claude/skills/ 資料夾，之後用 /技能名 呼叫；會造成改不回來結果的流程（部署、發文），在開頭加 disable-model-invocation: true，只讓你手動觸發。某條規則 Claude 一直漏掉，或每次都必須發生，就從 CLAUDE.md 拿掉，直接對它說「寫一個 hook，每次改完檔案就跑 lint」，再用 /hooks 檢視。",
+          "why": "節目稱，skill 平常只有說明留在 context，用到才載入全文，偶爾才用的流程放這裡比塞進 CLAUDE.md 好；CLAUDE.md 的規則對 Claude 只是建議，可能被忘記，hook 是在固定時間點一定會跑的程式。",
+          "example": "編輯示範：每週都要把週報整理成固定格式，就寫成 /weekly-report；「不准寫進 migration 資料夾」這種一次都不能破的規則，改成 hook 攔截。",
+          "check": "至少挑出一個「這週做了三次以上」的流程，與一條「它一直漏掉」的規則，分別決定改成 skill 或 hook。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "podcast-ep431",
+              "startSeconds": 398,
+              "endSeconds": 459
+            }
+          ]
+        },
+        {
+          "id": "delegate-and-parallel",
+          "title": "需要時分工：subagent 調查、換一雙眼睛審查、/goal 與 worktree",
+          "action": "要讀大量程式碼時，在要求前加「用 subagent 去調查……」，只拿回摘要；常用的角色可放在 .claude/agents/ 自訂。寫完用 /code-review 讓全新的 subagent 只看這次修改，並叮嚀它「只回報影響正確性或違反需求的問題」。要離開一陣子時，用 /goal 寫一個可驗證條件（例如全部測試通過、沒有型別錯誤），讓另一個模型每輪檢查。想同時做兩件事，用 claude --worktree 名稱 開獨立副本與分支；大批檔案用 claude -p 寫進腳本，先拿兩三個檔案試跑、調好 prompt 再全跑。",
+          "why": "節目稱，審查者被要求找問題時，就算沒問題也常會挑出幾個，全部照改反而讓程式越寫越複雜，所以要先講清楚範圍；先小量試跑，能在大批工作前抓到 prompt 的錯。",
+          "example": "編輯示範：「用 subagent 調查登入系統怎麼處理 token 更新，只回報結論。」做完後：「/goal 全部測試通過且沒有型別錯誤。」",
+          "check": "每項委派都有明確範圍（只看這次修改／達成條件是什麼）；批次工作先有 2–3 個檔案的試跑紀錄。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "podcast-ep431",
+              "startSeconds": 471,
+              "endSeconds": 573
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "從「盯著它」到「它自己驗收」",
+          "note": "依節目歸併的編輯整理圖：先讓它懂專案，再讓它能自我檢查，最後把重複與高風險的事交給 skill、hook 與分工。圖解不是成效證明。",
+          "nodes": [
+            {
+              "id": "setup",
+              "label": "懂專案",
+              "detail": "精簡 CLAUDE.md、plan mode"
+            },
+            {
+              "id": "show",
+              "label": "給它看",
+              "detail": "@檔案、截圖、完整錯誤"
+            },
+            {
+              "id": "spec",
+              "label": "先訪談寫規格",
+              "detail": "spec.md，新對話實作"
+            },
+            {
+              "id": "verify",
+              "label": "自我驗收",
+              "detail": "條件加證據，貼出輸出"
+            },
+            {
+              "id": "clean",
+              "label": "清理對話",
+              "detail": "/clear、糾正兩次就重開"
+            },
+            {
+              "id": "automate",
+              "label": "交出去",
+              "detail": "skill、hook、subagent"
+            }
+          ],
+          "edges": [
+            {
+              "from": "setup",
+              "to": "show"
+            },
+            {
+              "from": "show",
+              "to": "spec",
+              "label": "大功能"
+            },
+            {
+              "from": "spec",
+              "to": "verify"
+            },
+            {
+              "from": "verify",
+              "to": "clean",
+              "label": "一件事做完"
+            },
+            {
+              "from": "clean",
+              "to": "automate",
+              "label": "反覆出現的事"
+            }
+          ]
+        },
+        {
+          "type": "schedule",
+          "title": "一週導入進度（編輯建議）",
+          "note": "編輯補充：節目依熟練程度分三段，這張表把它排成一週的練習節奏，非節目原定時程。",
+          "columns": [
+            "今天做什麼",
+            "留下什麼"
+          ],
+          "rows": [
+            {
+              "label": "第 1 天",
+              "cells": [
+                "/init，把 CLAUDE.md 刪到只剩猜不到的內容",
+                "一份精簡後的 CLAUDE.md"
+              ]
+            },
+            {
+              "label": "第 2–3 天",
+              "cells": [
+                "多檔修改前先 Shift+Tab 進 plan mode；貼截圖與完整錯誤",
+                "一次看過計畫再放行的紀錄"
+              ]
+            },
+            {
+              "label": "第 4–5 天",
+              "cells": [
+                "每個任務都寫驗收條件並要求貼證據；做完就 /clear",
+                "一則含指令與輸出的驗收回覆"
+              ]
+            },
+            {
+              "label": "週末",
+              "cells": [
+                "挑一條常被漏掉的規則改成 hook，一個週做三次的流程寫成 skill",
+                "一個 hook 或 skill 草稿"
+              ]
+            }
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "節目所述 Claude Code 的指令與功能（如 /goal、--worktree、-p、auto 模式、/code-review）在目前版本中的行為。",
+          "status": "unverified",
+          "explanation": "僅依節目口述與自動辨識稿整理，未實際安裝或操作，也未逐一對照官方文件；指令名稱與預設值可能隨版本變動，請以官方文件為準。",
+          "sourceIds": [
+            "podcast-ep431"
+          ],
+          "checkedAt": "2026-10-15"
+        },
+        {
+          "claim": "讓 AI 自我驗收、乾淨對話與 hook 能減少人工盯看時間。",
+          "status": "partial",
+          "explanation": "節目轉述官方最佳實踐的建議，並以開場的對比情境說明；沒有提供量化數據，本文也沒有前後測或自己的實測紀錄。",
+          "sourceIds": [
+            "podcast-ep431"
+          ],
+          "checkedAt": "2026-10-15"
+        }
+      ],
+      "pitfalls": [
+        "CLAUDE.md 越寫越長：每句都問「拿掉會不會做錯」，讓它只留猜不到的規則。",
+        "只說「修好了嗎」就接受答案：要求貼出測試指令與輸出，缺證據就不算完成。",
+        "同一個錯糾正第三次、第四次：糾正兩次還錯，就 /clear 並寫一個更具體的新開頭。",
+        "以為 rewind 什麼都能退：用指令改掉的資料庫之類退不回來，重要變更前先用 git。",
+        "審查者被要求找問題就全部照改：先限定「只回報影響正確性或違反需求的問題」。"
+      ],
+      "practice": {
+        "title": "30 分鐘練習：替一個專案做「能自己驗收」的設定",
+        "minutes": 30,
+        "prompt": "挑一個你正在做的小專案，依序完成：\n1. 執行 /init，刪到每一句都通過「拿掉會不會做錯」。\n2. 為下一個任務寫出三個驗收範例（兩個通過、一個應被擋下）與測試指令。\n3. 要求 Claude 完成後貼出指令與輸出。\n4. 做完後 /clear，再寫下一件你最近重複做了三次以上的流程，判斷它該是 skill 還是 hook。",
+        "deliverable": "一份精簡的 CLAUDE.md、一則含驗收條件的任務要求，以及「要做成 skill 或 hook」的一行決定",
+        "checklist": [
+          "CLAUDE.md 只留下它猜不到的內容。",
+          "任務要求含具體的通過與不通過範例。",
+          "回覆附有實際指令與輸出。",
+          "換主題前已 /clear。",
+          "已選出一個要升級成 skill 或 hook 的項目。"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "我的心得：先處理「檢查成本」，再追求炫技",
+          "text": "這集 18 個用法乍看很多，我覺得真正的主線只有兩條：別讓對話變髒，以及讓檢查能自動發生。如果只想先做一件事，我會先練「驗收條件加貼證據」，因為其他功能多半是在替這件事鋪路。以上是我整理後的編輯觀點，並非講者原話，也不代表我已完成長期實測。",
+          "sourceIds": [
+            "podcast-ep431"
+          ]
+        }
+      ],
+      "overview": {
+        "image": "/assets/overviews/claude-code-18-tips-ep431.svg",
+        "mobileImage": "/assets/overviews/claude-code-18-tips-ep431-mobile.svg",
+        "cardImage": "/assets/overviews/claude-code-18-tips-ep431-card.svg",
+        "alt": "懂專案、給它看並訪談寫規格、自我驗收與清理對話、把重複的事交給 skill 與 hook。",
+        "caption": "依 AI 懶人報 EP431 編輯整理：把 18 個用法歸併成四個階段。圖解不是成效證明。"
+      }
+    },
+    {
+      "id": "energy-compounding-choice-skills",
+      "title": "高壓下不硬撐：用白紙盤點情緒需求，把「應該」換成「我可以」",
+      "summary": "越努力越疲憊，常常不是能力不夠，而是被「我應該」綁住、又把精力花在管不到的事上。這篇依《能量複利》作者鄭婉婷的專訪，整理六個小動作：辨認內耗訊號、只顧影響圈、拿白紙把不舒服寫成需求、把「應該」換成「所以我可以」、先把重要不緊急的事排進年度行事曆、讓情緒先被聽見再談轉念。最後用 20 分鐘寫出一張自己的能量盤點表。",
+      "categoryId": "reading",
+      "topicIds": [
+        "mindset"
+      ],
+      "keywords": [
+        "能量複利",
+        "鄭婉婷",
+        "能量赤字",
+        "影響圈",
+        "應該",
+        "我可以",
+        "情緒需求",
+        "動態平衡",
+        "年度行事曆",
+        "高壓",
+        "閱讀人"
+      ],
+      "level": "入門",
+      "minutes": 20,
+      "output": "一張寫著不舒服、背後需求、「所以我可以」行動，以及一個已排進行事曆的重要不緊急事項的能量盤點表",
+      "audience": "責任感強、習慣自己扛的老師、家長與上班族；想在忙碌中找回選擇權的成人自學者",
+      "status": "ready",
+      "contentType": "video_method",
+      "publishedAt": "2026-10-15T23:24:29+08:00",
+      "reviewedAt": "2026-10-15",
+      "coverLabel": "訪談方法 · 能量管理",
+      "sourceCoverage": "依 YouTube 自動字幕（約 59 分鐘、繁體中文，未逐字人工聽打）取得逐字稿，經壓縮摘要後再回查原稿相關段落；07:56–13:11 段的摘要缺漏，已直接讀原稿補齊。涵蓋 03:00 至 59:00 的訪談主體；書中各章表格、作者的測驗網站與讀書會問答只在影片中被提及，未核對書本原文。影片稱線上有 200 多位學員同步參與。六個步驟由訪談內容整理，練習時間、表格欄位與例子標示為編輯示範，不是講者的原定流程。",
+      "sources": [
+        {
+          "id": "video-main",
+          "title": "閱讀人專題讀書會《能量複利：在高壓中兼顧成就、自我與關係的選擇技術》專訪 鄭婉婷",
+          "url": "https://www.youtube.com/watch?v=b4yLUqS7SEU",
+          "kind": "video",
+          "provider": "youtube",
+          "videoId": "b4yLUqS7SEU",
+          "channel": "閱讀人 鄭俊德",
+          "publishedAt": "2026-10-15",
+          "note": "自動字幕，簡轉繁；時間碼取自字幕檔。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "spot-drain",
+          "title": "先認出「越努力越累」的內耗訊號",
+          "action": "睡前或下班後，花兩分鐘問自己：今天哪一個時刻覺得自己「跑得不夠快」？是看到別人的成就、被誰比較，還是又把責任全扛下來？把那個瞬間寫成一句話，不評價，只記錄。",
+          "why": "影片稱，作者做的能量帳戶測驗中，不少人的能量赤字前兩名裡有「成就」；她自己也曾把努力當成價值觀，量體超過負荷時反而責怪自己。胃痛是訊號，被罵一句「這麼小的事也受不了」只會更耗。先看見，才談得上調整。",
+          "example": "編輯示範：晚上滑到同事分享的研習照片，心裡冒出「我是不是太慢了」。寫下「看到別人成果後質疑自己的速度」，而不是直接說「我不夠努力」。",
+          "check": "你能用一句話描述「是什麼情境讓我開始懷疑自己」，而且句子裡沒有「我很糟」這類評價。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "video-main",
+              "startSeconds": 624,
+              "endSeconds": 786
+            }
+          ]
+        },
+        {
+          "id": "influence-circle",
+          "title": "把精力拉回影響圈，守住自己的價值觀",
+          "action": "拿出便條，左欄寫「我管得到的」，右欄寫「我管不到的」。把人際摩擦、選邊站的壓力逐項歸位，接下來的一週只挑左欄一件事行動，例如主動找對方聊一次，右欄的事刻意不去消耗。",
+          "why": "影片中作者說，不論怎麼做都會有人不喜歡你，不可能討好所有人，所以她把精力和注意力放在自己的影響圈裡，並守住價值觀。這能減少在別人的評價上空轉。",
+          "example": "編輯示範：同事之間有小圈圈。右欄寫「誰和誰比較好」，左欄寫「我可以主動跟他說明我的做法，並在自己負責的案子裡把話講清楚」。",
+          "check": "左欄至少有一件下週能做的小行動；右欄的項目你已決定不再花時間反覆想。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "video-main",
+              "startSeconds": 1180,
+              "endSeconds": 1211
+            }
+          ]
+        },
+        {
+          "id": "paper-needs",
+          "title": "拿一張白紙，把不舒服寫成「未被滿足的需求」",
+          "action": "一張白紙、一支筆。先寫「我哪裡不舒服」，每一項後面問「這個情緒背後，我有什麼需求沒被滿足？」，再問「所以我可以做什麼？」。寫完把需求圈出來，挑一個能開口談或能自己調整的。",
+          "why": "影片稱，作者的做法是不壓抑也不放任情緒，而是聽它想傳達什麼；她也強調只有寫下來才有解方，放在腦中想只會失眠。一旦看到需求，路就不只一條。",
+          "example": "編輯示範：寫「下班還要煮飯又倒垃圾，很煩」，背後需求是「需要有人分擔、也要有一點自己的時間」。行動：今晚坐下來，和家人談好倒垃圾的分工。",
+          "check": "紙上每個不舒服都對應一個需求和一個「我可以」的行動，而且至少一個行動可以在三天內開始。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "video-main",
+              "startSeconds": 1383,
+              "endSeconds": 1488
+            }
+          ]
+        },
+        {
+          "id": "should-to-can",
+          "title": "抓出抱怨裡的「應該」，換成「所以我可以」",
+          "action": "回想最近一次抱怨，圈出裡面的「應該」（他應該、我應該、孩子應該）。接著照三段句寫：我覺得他應該＿＿；所以我背後的需求是＿＿；所以我可以＿＿。最後一句必須是自己能動手的事。",
+          "why": "影片中作者把「應該」比喻成一條指定路線，要去歐洲不是只能坐船或飛機；不執著路徑，就會出現更多工具和方式。切換成「我可以」，就開始拿回選擇權，從受害者視角走向主導者視角。",
+          "example": "編輯示範：「孩子應該一回家就寫功課」→ 需求是「希望晚上不要吵架、有喘息時間」→「所以我可以先約好回家後半小時休息，再一起排功課順序」。",
+          "check": "改寫後的句子主詞是「我」，動作是你自己能完成的，不是要別人先改變。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "video-main",
+              "startSeconds": 1550,
+              "endSeconds": 1656
+            }
+          ]
+        },
+        {
+          "id": "calendar-first",
+          "title": "把重要不緊急的事先排進年度行事曆",
+          "action": "拿出行事曆，先寫下你想成為什麼樣子的人，再把「重要但不緊急、常被工作擠掉」的事先排進去，例如一門課、一趟家族旅行、固定的閱讀時間。排好之後，再把工作填進剩下的空檔。",
+          "why": "影片稱，作者曾把行程全塞滿工作，沒有餘裕支援其他角色，結果消耗殆盡，與人生願景相抵觸。她後來讓人生規劃大於職業規劃，並把這些事先排進年度行事曆，才能全心投入當下的工作。她也說平衡不是把蛋糕切一樣大，而是動態的。",
+          "example": "編輯示範：先把三月的週末親子行程和每週三晚上的閱讀時間寫進月曆，再回頭排學校的研習與會議。",
+          "check": "行事曆上至少有一格是「為自己或關係」保留的時間，而且已在今天寫進去，不是等有空再說。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "video-main",
+              "startSeconds": 2179,
+              "endSeconds": 2241
+            }
+          ]
+        },
+        {
+          "id": "feel-before-reframe",
+          "title": "情緒卡住時，先不要硬轉念，先聽懂它",
+          "action": "遇到讓你不舒服的人或事，先對自己說：「我現在不舒服，我想知道為什麼。」不帶批評地問：這份情緒背後是生氣還是害怕？我需要什麼？寫出答案後，再決定要不要轉念或採取行動。",
+          "why": "影片中作者說，她曾經一直逼自己轉念、正念，做不到就懷疑自己不夠努力，情緒反而過不去。她舉例，父母突然發怒，背後可能是擔心孩子生病；拖延也可能來自恐懼或能力不足。先理解情緒，才轉得過去。",
+          "example": "編輯示範：被主管當眾糾正後很火大。先寫「我火大，是因為怕被認為不專業」，需求是「想被尊重、想知道期待是什麼」，接著才決定私下約主管確認標準。",
+          "check": "你能說出情緒底下的另一種感受（如害怕、擔心、委屈），並寫出一件對應的行動。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "video-main",
+              "startSeconds": 3247,
+              "endSeconds": 3391
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "從內耗到選擇：能量盤點的流程",
+          "note": "依訪談內容編輯整理。情緒先被理解，才進入「我可以」；行事曆是把選擇固定下來的方法，圖解不等於成效證明。",
+          "nodes": [
+            {
+              "id": "notice",
+              "label": "認出內耗",
+              "detail": "哪一刻覺得自己不夠快"
+            },
+            {
+              "id": "circle",
+              "label": "分影響圈",
+              "detail": "管得到與管不到"
+            },
+            {
+              "id": "write",
+              "label": "白紙寫需求",
+              "detail": "不舒服背後缺什麼"
+            },
+            {
+              "id": "can",
+              "label": "應該換我可以",
+              "detail": "找到自己能做的事"
+            },
+            {
+              "id": "calendar",
+              "label": "排進行事曆",
+              "detail": "重要不緊急先留位"
+            },
+            {
+              "id": "feel",
+              "label": "先聽懂情緒",
+              "detail": "再決定要不要轉念"
+            }
+          ],
+          "edges": [
+            {
+              "from": "notice",
+              "to": "circle"
+            },
+            {
+              "from": "circle",
+              "to": "write"
+            },
+            {
+              "from": "write",
+              "to": "can",
+              "label": "看見需求"
+            },
+            {
+              "from": "can",
+              "to": "calendar",
+              "label": "選一件行動"
+            },
+            {
+              "from": "write",
+              "to": "feel",
+              "label": "情緒卡住"
+            },
+            {
+              "from": "feel",
+              "to": "can",
+              "label": "情緒疏通後"
+            }
+          ]
+        },
+        {
+          "type": "schedule",
+          "title": "20 分鐘練習排程",
+          "note": "編輯補充：這是自學用的示意時間，不是影片或書中的原定流程。",
+          "columns": [
+            "要做什麼",
+            "留下什麼"
+          ],
+          "rows": [
+            {
+              "label": "0–4 分鐘",
+              "cells": [
+                "寫出最近一次覺得自己跑不夠快的情境",
+                "一句不帶評價的描述"
+              ]
+            },
+            {
+              "label": "4–8 分鐘",
+              "cells": [
+                "把煩惱分到「管得到／管不到」兩欄",
+                "兩欄清單"
+              ]
+            },
+            {
+              "label": "8–14 分鐘",
+              "cells": [
+                "白紙寫不舒服、需求與「所以我可以」",
+                "至少三組需求與行動"
+              ]
+            },
+            {
+              "label": "14–20 分鐘",
+              "cells": [
+                "挑一個行動，並把一件重要不緊急的事排進行事曆",
+                "已寫入行事曆的一格時間"
+              ]
+            }
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "影片中作者提出的做法（影響圈、白紙寫需求、把「應該」換成「我可以」、先排重要不緊急的事、先聽懂情緒再轉念）。",
+          "status": "partial",
+          "explanation": "已依字幕核對各做法在訪談中的說法與時間碼；但字幕為自動辨識，且未對照書本原文，細節措辭可能與書稿不同。",
+          "sourceIds": [
+            "video-main"
+          ],
+          "checkedAt": "2026-10-15"
+        },
+        {
+          "claim": "這些做法能降低內耗、改善健康或提升表現。",
+          "status": "unverified",
+          "explanation": "影片是作者的經驗分享與讀書會訪談，沒有對照研究、前後測或追蹤資料；本文不把個人經驗當成成效證明。",
+          "sourceIds": [
+            "video-main"
+          ],
+          "checkedAt": "2026-10-15"
+        }
+      ],
+      "pitfalls": [
+        "把白紙盤點寫成自我批評清單：每一項不舒服都要接到需求與行動，而不是再加一句「都是我的錯」。",
+        "把「我可以」寫成要別人先改變：改成自己能開口、能調整、能安排的事。",
+        "情緒還在翻騰就逼自己轉念：先承認與命名情緒，再看需求，否則容易卡更久。",
+        "把管不到的事當成每天的待辦：回到影響圈，不替別人的評價負責。",
+        "行事曆只排工作：先留位給重要不緊急的事，否則總是被緊急的事擠掉。"
+      ],
+      "practice": {
+        "title": "20 分鐘能量盤點：一張白紙、一格行事曆",
+        "minutes": 20,
+        "prompt": "編輯設計：找一個最近讓你耗能的情境，照下面寫。\n1. 情境（一句話，不評價）：＿＿\n2. 影響圈：我管得到的＿＿；我管不到的＿＿\n3. 不舒服：＿＿ → 背後需求：＿＿\n4. 我覺得＿＿應該＿＿；所以我可以＿＿\n5. 一件重要不緊急的事，我要在行事曆上留的時間：＿＿",
+        "deliverable": "一張寫完的白紙盤點表，以及行事曆上已預留的一個時段。",
+        "checklist": [
+          "情境描述沒有「我很糟」之類的評價。",
+          "每一個不舒服都對應一個需求。",
+          "「所以我可以」的主詞是我，行動三天內可開始。",
+          "管不到的事不再列為待辦。",
+          "行事曆上已經寫入一格為自己或關係保留的時間。"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "我的心得：最實用的是把「應該」拆開看",
+          "text": "編輯觀點：整支訪談我最想帶走的是這個小動作——聽到自己說「應該」，就停下來問：這句話背後是什麼需求？我不是講者，也沒有宣稱已用這套方法改善任何人的狀況，只是覺得它對責任感強的老師很友善：不用先改變想法，先寫下來就好。",
+          "sourceIds": [
+            "video-main"
+          ]
+        },
+        {
+          "title": "編輯補充：這不是叫你都靠自己",
+          "text": "影片裡作者也提到善用槓桿資源與 AI 工具、重成果而非過程，並說世界沒有你仍會運轉。所以「我可以」不是「全部我來」，也包含開口請人分擔、把事情交給工具。這是編輯對訪談的整理，書中完整論述請以原書為準。",
+          "sourceIds": [
+            "video-main"
+          ]
+        }
+      ],
+      "overview": {
+        "image": "/assets/overviews/energy-compounding-choice-skills.svg",
+        "mobileImage": "/assets/overviews/energy-compounding-choice-skills-mobile.svg",
+        "cardImage": "/assets/overviews/energy-compounding-choice-skills-card.svg",
+        "alt": "認出內耗、分影響圈、白紙寫需求、應該換成我可以；情緒卡住時先聽懂再轉念。",
+        "caption": "依鄭婉婷專訪編輯整理：先看見需求，再選擇自己能做的行動。圖解與練習排程為編輯補充，不是成效證明。"
+      }
+    },
+    {
+      "id": "huang-body-boundary-talk",
+      "title": "先共情，再聊保護自己：用黃瑽寧醫師的五個動作教孩子身體界線",
+      "summary": "孩子玩鬧時常不小心越界，大人一緊張就罵或一刀切禁止，孩子反而不敢說。這篇整理親子天下 Podcast 的訪談：先接住孩子的情緒，再用孩子的標準練習說「不要」、尊重別人、挑選可信任的大人，並維持穩定的反應。",
+      "categoryId": "reading",
+      "topicIds": [
+        "parenting"
+      ],
+      "keywords": [
+        "身體界線",
+        "親子教養",
+        "黃瑽寧",
+        "自我保護",
+        "共情",
+        "說不要",
+        "信任圈",
+        "Podcast"
+      ],
+      "level": "入門",
+      "minutes": 20,
+      "output": "一張家庭用的「界線對話卡」：孩子的停損點、可說的拒絕句、信任圈名單與家長第一句回應",
+      "audience": "家有幼兒到國小中年級孩子的家長，以及想在班上談身體界線與人際界線的導師",
+      "status": "ready",
+      "contentType": "article_method",
+      "publishedAt": "2026-10-15T23:24:30+08:00",
+      "reviewedAt": "2026-10-15",
+      "coverLabel": "親子 Podcast · 身體界線",
+      "sourceCoverage": "依親子天下 Podcast〈親子FUN LIFE #小孩玩什麼 EP.25〉音檔，經 Groq Whisper 自動辨識中文並簡轉繁，約 37 分鐘，未逐字人工聽打，人名與數字可能有辨識誤差。結尾約 2 分鐘為節目活動宣傳，未納入方法。步驟順序與例子中標「編輯示範」者為編輯整理，不是講者原話。",
+      "sources": [
+        {
+          "id": "episode",
+          "title": "孩子的身體界線怎麼教？黃瑽寧醫師：先共情，再聊保護自己的原則｜親子FUN LIFE #小孩玩什麼 EP.25",
+          "kind": "article",
+          "url": "https://player.soundon.fm/p/f5ef415f-481b-4374-a939-1dfb794d847e/episodes/cc933235-7913-4a01-b562-af4c7c93b24c",
+          "channel": "親子天下Podcast",
+          "note": "SoundOn 集數頁；以 RSS 音檔自動轉錄，時間碼為轉錄時間。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "joy-first",
+          "title": "先接住孩子的開心，再談界線",
+          "action": "孩子帶著玩鬧的事回家（同學在衣服上塗鴉、被借東西），先問「好玩嗎？」聽完經過，再教。若對方一再要求、孩子已說「玩一次就好」，才引導孩子練習說「不要」，並告訴家長。",
+          "why": "講者說身體界線沒有標準答案，因人、因文化而異；界線拉得太死，連溫暖的互動也會被阻斷。先共情，孩子才願意把細節說出來。",
+          "example": "編輯示範：孩子說「同學在我外套畫了星星」。家長先回「你看起來很開心」，再問「你想讓他畫嗎？如果他一直想畫，你可以怎麼說？」",
+          "check": "家長的第一句話是情緒回應，不是「誰准你讓他碰的」。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "episode",
+              "startSeconds": 237,
+              "endSeconds": 478
+            }
+          ]
+        },
+        {
+          "id": "stop-point",
+          "title": "用孩子的標準，練覺察與停損點",
+          "action": "依序做三件事：先讓孩子感到安全，再教他覺察「哪裡開始不舒服」並畫出自己的身體界線，最後教他尊重別人，碰人之前先問。可用角色遊戲演練求救，並讓孩子選一位最放心的老師。",
+          "why": "講者提到洗澡、泳衣等做法沒有一刀切的年齡，界線要跟著孩子的發育與感受調整；孩子說「你出去」時，大人要尊重並給他表達的出口。",
+          "example": "編輯示範：玩「外星人」遊戲，孩子把全身包起來只露一隻手，大家只能碰那隻手；換角色再玩一次，並練習「我要先問可不可以」。",
+          "check": "孩子能說出「我不舒服的地方在哪」，也能說出一句碰別人前要問的話。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "episode",
+              "startSeconds": 479,
+              "endSeconds": 721
+            }
+          ]
+        },
+        {
+          "id": "calm-reaction",
+          "title": "聽到壞消息時，先穩住自己的反應",
+          "action": "孩子說出被要求脫褲子之類的事，先深呼吸，問「你當時覺得怎麼樣？有沒有委屈？」確認孩子的感受，再決定要不要找老師。避免當場暴怒、責備孩子或大聲指責對方。",
+          "why": "講者提醒家長反應過度，孩子下次就不敢講，看不到真實狀況；慌張的大人，孩子也不敢求救。",
+          "example": "編輯示範：家長用同一句開場「謝謝你告訴我，你當時怎麼想？」，把想罵的話留到孩子睡著後再處理。",
+          "check": "孩子講完之後，家長還沒下結論，而且孩子願意補充細節。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "episode",
+              "startSeconds": 721,
+              "endSeconds": 938
+            }
+          ]
+        },
+        {
+          "id": "borrow-lend",
+          "title": "從借東西練人際界線",
+          "action": "孩子借出文具不還，先問他的感受，再一起決定：不願意借的東西可以不借，珍貴紀念品乾脆不帶到學校，不舒服時找大人，並事先選好可信任的老師。年幼時有效的借東西招數，到了十歲可能碰壁，要隨年齡調整。",
+          "why": "每個人在乎的東西不同，借出的物品不要超過自己能承受的損失，這是低風險的界線練習，也讓孩子知道求助不丟臉。",
+          "example": "編輯示範：橡皮擦被借走不還，與孩子約定「只借一個，不借整盒」，若對方再要，就用「這個我要自己用」回答。",
+          "check": "孩子能說出哪些東西可以借、哪些不借，以及不舒服時要找誰。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "episode",
+              "startSeconds": 1196,
+              "endSeconds": 1406
+            }
+          ]
+        },
+        {
+          "id": "circle-of-trust",
+          "title": "抓大放小，建立可排序的信任圈",
+          "action": "先分辨哪些是大事（例如手扶梯亂跑），哪些可放小，減少反覆負面提醒。再和孩子畫出信任圈：成績找爸爸、吃的找阿公阿嬤等，並說明嚴重時求救，不嚴重先離開。",
+          "why": "講者說反覆負面提醒會讓孩子自動關耳朵，並提到正向與糾正約 7:1；熟人也可能有風險，所以信任圈要事先排好，不是等出事才臨時找人。",
+          "example": "編輯示範：把家人與老師名字寫在三圈同心圓，內圈寫「馬上能找的人」，外圈寫「先離開再說」的情境。",
+          "check": "孩子能說出至少兩位可求助的大人，家長能數出今天的稱讚比糾正多。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "episode",
+              "startSeconds": 1668,
+              "endSeconds": 2156
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "先共情，再教界線",
+          "note": "依 Podcast 內容編輯整理；圖解不等同證明成效。",
+          "nodes": [
+            {
+              "id": "joy",
+              "label": "接住開心",
+              "detail": "先問經過與感受"
+            },
+            {
+              "id": "stop",
+              "label": "覺察停損點",
+              "detail": "畫出不舒服的地方"
+            },
+            {
+              "id": "calm",
+              "label": "穩住反應",
+              "detail": "不暴怒，孩子才敢說"
+            },
+            {
+              "id": "borrow",
+              "label": "借物練習",
+              "detail": "可借、不借的界線"
+            },
+            {
+              "id": "trust",
+              "label": "信任圈",
+              "detail": "排好求助對象"
+            }
+          ],
+          "edges": [
+            {
+              "from": "joy",
+              "to": "stop",
+              "label": "再教"
+            },
+            {
+              "from": "stop",
+              "to": "calm"
+            },
+            {
+              "from": "calm",
+              "to": "borrow",
+              "label": "遇到事件"
+            },
+            {
+              "from": "borrow",
+              "to": "trust"
+            }
+          ]
+        },
+        {
+          "type": "schedule",
+          "title": "一週家庭練習示意",
+          "note": "編輯補充：這是可調整的一週安排，不是講者的原定課程。",
+          "columns": [
+            "做什麼",
+            "留下什麼"
+          ],
+          "rows": [
+            {
+              "label": "第 1–2 天",
+              "cells": [
+                "玩外星人遊戲，練說「不要」與「可以先問嗎」",
+                "孩子的停損點一句話"
+              ]
+            },
+            {
+              "label": "第 3–4 天",
+              "cells": [
+                "聊借東西的經驗，決定可借與不借",
+                "兩樣不借的東西清單"
+              ]
+            },
+            {
+              "label": "第 5–6 天",
+              "cells": [
+                "畫信任圈，演練找人求救",
+                "信任圈名單"
+              ]
+            },
+            {
+              "label": "第 7 天",
+              "cells": [
+                "家長回顧本週反應，數稱讚與糾正",
+                "一個下週要改的反應"
+              ]
+            }
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "講者建議的做法在孩子身上能預防不當碰觸。",
+          "status": "unverified",
+          "explanation": "Podcast 為訪談分享，沒有提供研究或追蹤資料；本文不把它當成預防成效的證據。",
+          "sourceIds": [
+            "episode"
+          ],
+          "checkedAt": "2026-10-15"
+        },
+        {
+          "claim": "正向與糾正約 7:1、年齡階段（5 歲前、10 歲前、11–12 歲）等說法。",
+          "status": "partial",
+          "explanation": "影片稱的經驗性比例與年齡分期，未查證原始研究；使用時請當作參考。",
+          "sourceIds": [
+            "episode"
+          ],
+          "checkedAt": "2026-10-15"
+        }
+      ],
+      "pitfalls": [
+        "把界線拉成死規則：界線因人與年齡而異，一刀切反而讓孩子不敢分享。",
+        "聽到事件就暴怒：孩子下次選擇不說，大人反而看不到真實狀況。",
+        "只教孩子拒絕，不教他尊重別人：碰人之前先問，也是界線教育的一半。",
+        "把求助對象留到出事才想：平時就排好信任圈，並確認孩子真的信任那個人。",
+        "只談陌生人：講者提醒熟人也可能有風險，不能只用外貌判斷。"
+      ],
+      "practice": {
+        "title": "20 分鐘：做一張界線對話卡",
+        "minutes": 20,
+        "prompt": "和孩子一起坐下，完成下列四格：\n1. 我不舒服的地方在哪（孩子自己畫或說）。\n2. 我可以說的拒絕句（至少一句）。\n3. 我的信任圈（至少兩位大人，並寫上遇到什麼事找誰）。\n4. 家長的第一句回應（先共情，例如「謝謝你告訴我」）。",
+        "deliverable": "一張寫有四格內容的對話卡，貼在孩子看得到的地方。",
+        "checklist": [
+          "先問孩子的感受，再談規則。",
+          "拒絕句由孩子自己用得出口的話寫成。",
+          "信任圈包含至少兩位大人。",
+          "家長練習過一次不暴怒的開場白。",
+          "孩子的年齡與發育階段有被考慮。"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "我的心得：先共情，是為了讓孩子繼續說",
+          "text": "聽完這集，我最有感的不是哪個遊戲，而是「大人先別慌」這件事。界線教育最怕的是孩子覺得說了會被罵。我自己把這集當成家長的反應練習：第一句話先放情緒，不放判斷。這是我的編輯觀點，不代表講者原話，也不是我已經試過的成效。",
+          "sourceIds": [
+            "episode"
+          ]
+        }
+      ],
+      "overview": {
+        "image": "/assets/overviews/huang-body-boundary-talk.svg",
+        "mobileImage": "/assets/overviews/huang-body-boundary-talk-mobile.svg",
+        "cardImage": "/assets/overviews/huang-body-boundary-talk-card.svg",
+        "alt": "接住開心、覺察停損點、穩住反應、借物練習、建立信任圈，五個動作的流程圖。",
+        "caption": "依親子天下 Podcast 編輯整理：先共情，再教界線與求助。圖解為編輯整理，不是成效證明。"
+      }
+    },
+    {
+      "id": "palmer-sentence-frame-lego",
+      "title": "先固定母框，再替換積木：用帕默的樂高替換法練出不翻譯的口說反射",
+      "summary": "單字背了一堆，一開口卻要先在腦中拼文法。這篇依 brain 學霸介紹哈羅德・帕默（Harold Palmer）「句型替換表」的影片整理：把常用句子挖空成固定的母框，先替換一個積木快速念，再同時換主詞、肯定否定與疑問，最後用五組母框當場驗收。重點是讓母框變成一個整體，注意力只放在最後那塊積木。附一週練習表，自學者與英語老師帶學生都能直接照做。",
+      "categoryId": "english",
+      "topicIds": [
+        "speaking",
+        "memory"
+      ],
+      "keywords": [
+        "帕默",
+        "Harold Palmer",
+        "樂高替換法",
+        "句型替換",
+        "Substitution Tables",
+        "母框",
+        "chunking",
+        "口說",
+        "FSI",
+        "brain 學霸"
+      ],
+      "level": "入門",
+      "minutes": 20,
+      "output": "一張十個母框的替換卡（每框至少五個積木），以及一組已跑過肯定、否定、疑問的多變數練習",
+      "audience": "單字文法都學過、一開口就卡住的成人自學者；也適合英語老師帶國高中生做每天五分鐘的句型反射練習",
+      "status": "ready",
+      "contentType": "video_method",
+      "publishedAt": "2026-10-15T23:24:31+08:00",
+      "reviewedAt": "2026-10-15",
+      "coverLabel": "影片方法 · 句型反射",
+      "sourceCoverage": "影片無人工字幕（僅有韓文自動字幕，內容為翻譯殘片，未採用），改以 Groq Whisper 自動辨識全片約 20 分 19 秒的中文旁白，再以 OpenCC 簡轉繁；未逐字人工聽打。辨識有同音誤差（如「句型」被記為「巨型」、「母框」為「母體／字框」、「語法」為「文法」混用、Palmer 記為 Parmer／帕馬），已依語境改述。影片中的英文例句有部分語法瑕疵（如 I'm planning to learning、she didn't used to、wants mending 為英式舊用法），本文改為常見正確寫法並在例子中註明。七加減二、八小時、80%、100 個母框、百萬播放等數字均為影片稱，未另行查核；歷史敘事（日本 1922、FSI 採用）亦為影片稱。五步編排、一週表與自編例子為編輯整理。",
+      "sources": [
+        {
+          "id": "brain-palmer",
+          "title": "只靠 100 個萬能母框徹底治好啞巴英語，流利度瞬間翻倍，百年語言教父帕默的「樂高替換法」",
+          "url": "https://www.youtube.com/watch?v=Os643TqF8wM",
+          "kind": "video",
+          "channel": "brain 學霸",
+          "videoId": "Os643TqF8wM",
+          "publishedAt": "2026-10-15",
+          "note": "本文主要來源。影片介紹句型替換表（母框加積木）的由來、背後的 chunking 原理，與在家練習的三步驟及五組示範母框。帕默的生平與 FSI 採用經過，本文未另行查核，均標「影片稱」。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "see-the-chunk",
+          "title": "先弄懂原理：把整句當一塊，注意力只給最後一個積木",
+          "action": "先讀懂一個觀念再開練。影片說，口語流利不是靠即時拆文法，而是把常用句子當成一整塊直接取用；例如 Would you mind if I 六個字，練到像一個單位，你只需把注意力放在最後的動詞。所以練習的目標不是理解為什麼，而是讓母框能不經思考就念出口。",
+          "why": "講者引用心理學的 chunking：短期記憶容量有限（影片稱七加減二個單位），六個單字會塞滿它，被催一下就腦袋空白；打包成一塊後，佔用就縮成一個單位，把腦力空出來。",
+          "example": "編輯示範：我以前說 Would you mind if I open the window，是在腦裡一個字一個字接。現在把 Would you mind if I 念成一口氣，接 open the window 或 take a seat，只在最後換。",
+          "check": "你能用自己的話說出：母框是整塊記、積木才是現場挑，而且練習時不翻成中文。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "brain-palmer",
+              "startSeconds": 562,
+              "endSeconds": 675
+            }
+          ]
+        },
+        {
+          "id": "collect-frames",
+          "title": "收集母框：挖掉動詞與名詞，只留前半句",
+          "action": "不再背從 A 到 Z 的單字表，改收「句型的前半截」。遇到好用的句子，把後面的動詞與名詞挖掉，只留固定的前半段，依功能分類：表達感覺（I have a feeling that）、表達打算（I'm planning to）、表達花費（It takes me）、表達勸告（There is no point in）。不要查字典拆文法，也不要問為什麼，直接當成一個底座記下來。",
+          "why": "講者說日常對話大約八成來自一百個左右的核心母框（影片稱，未查核）。重點在先有底座，再談替換。",
+          "example": "編輯示範：我從今天的對話挑出十個自己真的會說的句子，例如 I'm planning to、It takes me、I can't afford to，寫在一張卡上，每個後面留一條空白線。",
+          "check": "一張卡上有十個母框，每個都按功能分類，後面是空的。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "brain-palmer",
+              "startSeconds": 703,
+              "endSeconds": 761
+            }
+          ]
+        },
+        {
+          "id": "single-swap",
+          "title": "單一變數替換：框不動，快速換積木",
+          "action": "母框固定，只換最後一塊積木，用盡量快的語速連續念，不允許停頓。以 I'm planning to 為例：quit my job、travel to Japan、learn English、buy a new car，列到五個以上，甚至一百個。講者強調嚴禁在腦中翻成中文，因為一慢下來你就開始想；把它當成口腔肌肉體操，只要符合邏輯就瘋狂替換，不必在乎意義。",
+          "why": "講者說，練到嘴巴比腦子快，母框就成為肌肉記憶，下次就會直接說出來。",
+          "example": "編輯示範：影片原句寫 I'm planning to learning English，語法應為 learn，本文已更正。我用計時器，每個母框三十秒內念完五個不同積木，卡住的框打個記號。",
+          "check": "每個母框都能用不看紙、不停頓的速度念完至少五個積木。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "brain-palmer",
+              "startSeconds": 764,
+              "endSeconds": 825
+            }
+          ]
+        },
+        {
+          "id": "multi-swap",
+          "title": "多變數加壓：同時換主詞、動詞，再變否定和疑問",
+          "action": "單一替換已經無聊時，進入加壓版：同時換兩到三個元件。以 used to 為例，依序練肯定、否定、疑問、全換：She used to work here、She didn't use to work here、Did she use to work here、Did they use to live in London。大腦會有燃燒感與不適，講者說這是正在建立新的神經連結。",
+          "why": "講者說這是當年外交官訓練的終極關卡。能在變化中仍然流暢，語言才從一本文法書變成隨時能上膛的槍。",
+          "example": "編輯示範：影片中的 didn't used to 是常見誤用，標準寫法是 didn't use to，本文以後者示範。我挑 I'm planning to 練四輪：換主詞成 She's planning to，變否定 She isn't planning to，變疑問 Is she planning to，再全換。",
+          "check": "同一個母框，能不停頓地念完肯定、否定、疑問與主詞全換四種變化。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "brain-palmer",
+              "startSeconds": 826,
+              "endSeconds": 896
+            }
+          ]
+        },
+        {
+          "id": "five-frame-test",
+          "title": "用五組示範母框當場驗收，卡住的只補那一框",
+          "action": "依影片的五個示範，立刻跑一輪：I can't afford to（make a mistake / lose you）；It is no use doing（arguing with him / trying to stop it）；There is no telling（how long the war will last / when we'll meet again）；The house needs repairing（The shoes want mending / The floor wants sweeping）；It took him three years to write the book（It took me ten years to compile that dictionary）。再試 I believe him to be honest 這類看法母框。卡住的那個框，隔天只加練它。",
+          "why": "講者把這五組選為取代複雜結構的黃金母框，例如用 It is no use doing 取代繞口的從句。直接扣上積木時，會感受到不用算文法的流暢。",
+          "example": "編輯示範：影片的 The shoes wants mending 主詞是複數，應為 want，本文已更正。我把五個框各念五個積木，用手機錄音，聽哪個框會結巴，就把它抄到明天的卡上。",
+          "check": "五個母框都能不看紙、各念至少三個不同積木，並把卡住的框寫進明天的清單。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "brain-palmer",
+              "startSeconds": 935,
+              "endSeconds": 1175
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "樂高替換法的練習迴路：收框、單換、多換、驗收",
+          "note": "依影片編輯整理：先理解整塊取用的原理，再收母框、單一替換、多變數加壓，最後驗收；卡住的框回到收框重新鎖定。圖解不等同成效證明。",
+          "nodes": [
+            {
+              "id": "understand",
+              "label": "懂原理",
+              "detail": "整句當一塊"
+            },
+            {
+              "id": "collect",
+              "label": "收母框",
+              "detail": "挖空只留前半"
+            },
+            {
+              "id": "single",
+              "label": "單一替換",
+              "detail": "快速念積木"
+            },
+            {
+              "id": "multi",
+              "label": "多變數加壓",
+              "detail": "肯定否定疑問"
+            },
+            {
+              "id": "test",
+              "label": "五框驗收",
+              "detail": "錄音檢查"
+            },
+            {
+              "id": "stuck",
+              "label": "補卡住的框",
+              "detail": "隔天只加練它"
+            }
+          ],
+          "edges": [
+            {
+              "from": "understand",
+              "to": "collect"
+            },
+            {
+              "from": "collect",
+              "to": "single"
+            },
+            {
+              "from": "single",
+              "to": "multi"
+            },
+            {
+              "from": "multi",
+              "to": "test"
+            },
+            {
+              "from": "test",
+              "to": "stuck",
+              "label": "有卡住"
+            },
+            {
+              "from": "stuck",
+              "to": "single",
+              "label": "回到快速替換"
+            }
+          ]
+        },
+        {
+          "type": "schedule",
+          "title": "一週母框排程示意",
+          "note": "編輯補充：這是可調整的一週安排，不是影片的原始時程；影片只說明三步驟，沒有規定天數。",
+          "columns": [
+            "做什麼",
+            "用多久",
+            "留下什麼"
+          ],
+          "rows": [
+            {
+              "label": "第 1 天",
+              "cells": [
+                "從日常句子挖出十個母框",
+                "15 分鐘",
+                "一張母框卡"
+              ]
+            },
+            {
+              "label": "第 2–3 天",
+              "cells": [
+                "每框單一替換五個積木，快速念",
+                "10 分鐘",
+                "卡住的框打記號"
+              ]
+            },
+            {
+              "label": "第 4–5 天",
+              "cells": [
+                "挑三個框做肯定、否定、疑問、全換",
+                "10 分鐘",
+                "多變數紀錄"
+              ]
+            },
+            {
+              "label": "第 6–7 天",
+              "cells": [
+                "跑五組示範母框並錄音",
+                "15 分鐘",
+                "隔週的補強清單"
+              ]
+            }
+          ]
+        }
+      ],
+      "practice": {
+        "title": "20 分鐘練習：做一張十框替換卡",
+        "minutes": 20,
+        "prompt": "編輯設計：準備一張紙與手機錄音，不開翻譯軟體。\n\n1. 寫下今天自己會說的十個句子，挖掉後面，只留母框（例如 I'm planning to、It takes me、I can't afford to）：＿＿。\n2. 挑三個框，每個快速念五個不同積木，錄音：＿＿。\n3. 其中一個框做四輪變化（肯定、否定、疑問、主詞全換）：＿＿。\n4. 聽錄音，標出停頓超過一秒的框：＿＿。\n5. 請 AI 或母語者檢查積木的語法（例如動詞形態、單複數）：＿＿。\n明天要加練的框：＿＿。",
+        "deliverable": "一張十個母框的卡片、三個框的錄音，以及明天要補練的框。",
+        "checklist": [
+          "十個母框都是自己真的會用的句子，不是課本抄來的。",
+          "每個框後面都留空，沒有把整句背死。",
+          "念的時候沒有翻成中文，也沒有停下來分析文法。",
+          "至少一個框做過肯定、否定、疑問、全換四種變化。",
+          "積木的語法請人或 AI 檢查過，不盲信自己念的句子。"
+        ]
+      },
+      "pitfalls": [
+        "把母框當作文法來研究：講者說不要問為什麼，一分析就退回慢速系統。",
+        "練太慢、邊想邊說：一慢下來就開始翻譯，要把速度逼到比腦子更快。",
+        "只練單一替換就停：加上主詞、否定、疑問的多變數才是加壓，不要停在舒適區。",
+        "積木語法沒檢查，把錯誤練成反射：影片例句本身就有 planning to learning 這類瑕疵，反覆念前先確認正確。",
+        "把影片的歷史敘事與數字當成保證：1922、FSI、八小時、八成對話等為影片稱，不是已驗證的成效。"
+      ],
+      "supplements": [
+        {
+          "title": "核心觀點：語言是替換積木，不是現場計算",
+          "text": "影片的主軸是兩套系統：一套是分析系統，精準但慢，適合考試與寫作；另一套是反射系統，像騎車一樣不需計算，口語靠它。句型替換表就是為了訓練反射系統而設計：把複雜的語言拆成不變的母框和可替換的積木，讓人停止思考、跟著節奏替換。\n講者也用特斯拉的整體成型來類比：零件少、整合度高，故障就少。這是講者個人的比喻，不是學理證據。",
+          "sourceIds": [
+            "brain-palmer"
+          ]
+        },
+        {
+          "title": "我的心得：最適合拿來當課堂五分鐘暖身",
+          "text": "我教國文，不是英語老師，但這支影片讓我想到的是節奏。母框加積木最適合做成每天五分鐘的暖身：老師念框，學生接積木，不評對錯，只要求快。對怕開口的孩子，這比單句翻譯友善，因為他們不用先組句。\n另一個觀察是，影片自己的例句有語法瑕疵，反而提醒我：反射練習的風險是把錯的練成自動。所以我會要求積木先經老師或 AI 過一遍。這是我的編輯觀點，不是影片原話，也不是我已實測的成效。",
+          "sourceIds": [
+            "brain-palmer"
+          ]
+        },
+        {
+          "title": "編輯補充：與既有練習的差別",
+          "text": "站內已有講預製句型與肌肉記憶的方法。這篇的獨特處在於「單一變數到多變數」的升級路線，以及用肯定、否定、疑問測試母框是否真的內化。若你已經在練句框，可直接從第四步開始。",
+          "sourceIds": [
+            "brain-palmer"
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "帕默於 1922 年受日本政府聘請，其方法後來被美國 FSI 採用並用於短期語言訓練。",
+          "status": "unverified",
+          "explanation": "為影片稱的歷史敘事，本文未查核文獻；僅作為方法脈絡。",
+          "sourceIds": [
+            "brain-palmer"
+          ],
+          "checkedAt": "2026-10-15"
+        },
+        {
+          "claim": "把常用句子打包成整體（chunking）能降低口說時的認知負荷。",
+          "status": "partial",
+          "explanation": "chunking 與工作記憶有限在認知心理學是常見概念，但影片將其直接等同於替換表的效果，並未附對照研究；本文未另行驗證。",
+          "sourceIds": [
+            "brain-palmer"
+          ],
+          "checkedAt": "2026-10-15"
+        },
+        {
+          "claim": "日常八成對話來自約一百個核心母框。",
+          "status": "unverified",
+          "explanation": "為影片稱的數字，沒有來源，本文只當作收集母框的方向，不當統計事實。",
+          "sourceIds": [
+            "brain-palmer"
+          ],
+          "checkedAt": "2026-10-15"
+        },
+        {
+          "claim": "在家複製這套練習，就能讓口語流利度瞬間翻倍。",
+          "status": "unverified",
+          "explanation": "標題為影片行銷用語，沒有成效資料；本文只整理可操作步驟，不保證結果。",
+          "sourceIds": [
+            "brain-palmer"
+          ],
+          "checkedAt": "2026-10-15"
+        }
+      ],
+      "overview": {
+        "image": "/assets/overviews/palmer-sentence-frame-lego.svg",
+        "mobileImage": "/assets/overviews/palmer-sentence-frame-lego-mobile.svg",
+        "cardImage": "/assets/overviews/palmer-sentence-frame-lego-card.svg",
+        "alt": "理解整塊取用 → 收母框 → 單一替換 → 多變數加壓 → 五框驗收；卡住的框回到快速替換。",
+        "caption": "依影片編輯整理：先固定母框，再替換積木，從單一變數練到肯定、否定、疑問，最後用五組示範母框驗收。一週表與例子為編輯補充，圖解不是成效證明。"
+      }
+    },
+    {
+      "id": "smalltalk-ep715-ai-process-bottleneck",
+      "title": "AI 讓大家變快，流程卻更塞：用六步把主管的標準綁進流程",
+      "summary": "員工用 AI 把提案從一個月縮到一天，主管桌上卻從四份變成二十份、拖了兩週才看完。這集節目的主張是：AI 只加速單點，若流程、交接與決策規則不變，瓶頸只會被推給下一關。我把方法整理成六步：分清個人與組織效率、走一遍流程找堵點、由帶頭的人重問問題、把腦中標準逐條寫出、綁進檢查表與「虛擬主管」自查、再決定 AI 該放在哪一段並回頭量成果。適合想讓團隊或教學組別把 AI 用到整個流程的主管、組長與行政人員。",
+      "categoryId": "ai",
+      "topicIds": [
+        "workflow"
+      ],
+      "keywords": [
+        "AI 導入",
+        "流程設計",
+        "區域性最佳化",
+        "瓶頸",
+        "主管",
+        "檢查表",
+        "虛擬主管",
+        "審稿標準",
+        "組織效率",
+        "Podcast"
+      ],
+      "level": "進階",
+      "minutes": 40,
+      "output": "一份標出堵點的流程圖，加上一份 7 到 8 條的審稿標準檢查表與可重複使用的「虛擬主管」審稿提示詞",
+      "audience": "要帶團隊導入 AI 的主管、處室組長、領域召集人；也適合覺得「大家都變快了，事情卻沒更順」的行政與教學團隊",
+      "status": "ready",
+      "contentType": "article_method",
+      "publishedAt": "2026-10-15T23:24:32+08:00",
+      "reviewedAt": "2026-10-15",
+      "coverLabel": "Podcast 整理 · 方法與心得",
+      "sourceCoverage": "依「大人的Small Talk」EP715 音檔以 Groq Whisper 自動辨識（中文，未逐字人工聽打），再簡轉繁；覆蓋全集約 27 分鐘，節目末段的課程預告與問卷徵詢略過，不列入方法。辨識有同音誤字（例如把「匯入」「導入」混用、「查屁股」等口語），已依語境改述。蓋洛普數字、小型軟體公司與餐廳例子皆為講者說法，本文未查證原始調查。六步的編排、教學與行政例子、檢查表範例與提示詞為編輯補充。",
+      "sources": [
+        {
+          "id": "smalltalk-ep715",
+          "title": "EP715 有了 AI，幫員工省下三天工時，提案卻在主管桌上躺了一週。為什麼大家變快，流程還是卡卡的？",
+          "kind": "article",
+          "url": "https://player.soundon.fm/p/6731d283-54f0-49ec-a040-e5a641c3125f/episodes/c36421a6-9d23-4a98-a87d-a7bd73387c1c",
+          "channel": "大人的Small Talk（大人學）",
+          "publishedAt": "2026-10-15",
+          "note": "Podcast 集數頁，非影片。講者身分與蓋洛普調查數字未另行核實；節目末段提及的流程課程仍在評估，本文不涉及。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "diagnose",
+          "title": "先分清楚：個人變快，不等於組織變快",
+          "action": "拿一張紙，左邊寫「我們導入 AI 後，誰變快了」，右邊寫「整個部門的成果有沒有跟著變多或變好」。左邊列得出來、右邊卻寫不出東西，就是節目所說的「區域性最佳化」：只讓舊流程跑得更快。",
+          "why": "節目引用蓋洛普調查（節目稱）：約 65% 員工覺得 AI 提升個人生產力，但只有 12% 強烈認同 AI 改變了組織推進工作的方式。工具換了，流程沒換，加速只停在個人身上。",
+          "example": "編輯示範：國文組導入 AI 後，每位老師出題、做學習單都快了一倍，但月考審題仍由教學組長一人逐份看，審題反而成為最慢的一關。",
+          "check": "能用一句話說出「哪些人變快了」與「部門整體成果有沒有改變」，而且兩者不是同一件事。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "smalltalk-ep715",
+              "startSeconds": 310,
+              "endSeconds": 481
+            }
+          ]
+        },
+        {
+          "id": "trace-flow",
+          "title": "把流程從頭走一遍，找出被推擠的下一關",
+          "action": "選一條最常用的流程（提案、請款、審題、公文），畫出「誰做、交給誰、誰決定」的每一格。再問：AI 加速了哪一格？這一格的產出量變多後，下一格的人要多看多少東西？",
+          "why": "講者的例子：企劃以前一個月交一份，用 AI 後一週可交五份，主管桌上從四份變成二十份；每份又從十頁變五十頁，主管稽核的負擔暴增，原本一週走完的流程拖成兩週（節目稱）。瓶頸只是被推到下一關。",
+          "example": "編輯示範：學務處收家長回條，老師用 AI 一鍵產生三十份通知，家長回覆全擠到同一位組長的信箱，他得一封封核對。要看的是組長那一格，不是老師那一格。",
+          "check": "流程圖上標得出至少一個「上游變快、下游變堵」的格子，並寫下那一格每週要多處理幾份。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "smalltalk-ep715",
+              "startSeconds": 484,
+              "endSeconds": 728
+            }
+          ]
+        },
+        {
+          "id": "ask-right",
+          "title": "主管（帶頭的人）改問第一個問題：哪些舊流程已經沒意義？",
+          "action": "不要先問「我們有沒有在用 AI」，改問：「有了 AI，我們現有的哪些流程變得沒意義、甚至變成阻礙，值得重新設計？」這個問題要由有權調整流程的人來問，並指定一個負責人。",
+          "why": "講者的比喻：只把腳踏車換成電動車，道路、紅綠燈、停車格都沒改，大家只是更快衝到同一個路口塞車。第一線員工沒有權限改流程，需要主管從宏觀處看出卡點。",
+          "example": "編輯示範：教務主任不問「各科有沒有用 AI 出題」，而問「現行的『出題、互審、組長核定、印製』四關，哪一關在 AI 之後可以刪、合併或前移」。",
+          "check": "寫得出一到兩條「可刪、可合併或必須重做」的流程，並有一位明確的負責人與檢討日期。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "smalltalk-ep715",
+              "startSeconds": 1065,
+              "endSeconds": 1103
+            }
+          ]
+        },
+        {
+          "id": "extract-standard",
+          "title": "把腦中的「好壞標準」一條一條寫出來",
+          "action": "回想最近一次你把 AI 產出打回去的經驗，把退件理由逐條列出：什麼叫好、什麼叫不好、對象最在意什麼、過去為什麼被駁回、風險在哪裡。整理成 7 到 8 條可判斷的標準，每條盡量能回答「是或否」。",
+          "why": "講者指出：資深經理和新手用同一個 AI，文字都一樣流暢，差別在資深者心裡已有客戶預算上限、過去失敗原因與風險判斷（節目稱）。這些隱形判斷若不說出來，員工只能把 AI 的半成品往上丟。",
+          "example": "編輯示範：學習單審稿標準可以是「每題對應一個學習目標、題幹不含答案線索、難度分布寫明、引用文本標出處、字級與留白適合列印」，共七條，各自可打勾。",
+          "check": "標準清單 7 到 8 條，且拿一份最近被你退回的稿子套用，能解釋它為什麼不過。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "smalltalk-ep715",
+              "startSeconds": 1300,
+              "endSeconds": 1333
+            }
+          ]
+        },
+        {
+          "id": "bind-process",
+          "title": "把標準綁進流程：檢查表加「虛擬主管」先過一關",
+          "action": "把那份標準變成固定的檢查表或表單，附在交件規定上。員工交件前，先把初稿貼給 AI，指示它扮演審稿人，逐條對照標準並指出不符之處，修到全數通過才送審。審稿提示詞要完整貼上標準，不要讓 AI 自行發揮。",
+          "why": "講者主張：與其放任大家各自用 AI，再由主管事後逐一指出這裡不對那裡沒想到，不如讓標準成為員工產出時的原生素材，標準通過後的版本才交給主管，主管的日子才會輕鬆（節目稱）。",
+          "example": "編輯示範：請貼上「你是教學組長，以下七條是審題標準。請逐條回答通過或不通過並說明理由，不要重寫題目。」再附上標準與初稿。",
+          "check": "交件規定已附上檢查表；員工交件時同時附上「七條逐項通過」的紀錄。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "smalltalk-ep715",
+              "startSeconds": 1336,
+              "endSeconds": 1374
+            }
+          ]
+        },
+        {
+          "id": "place-ai",
+          "title": "重新決定 AI 放在流程的哪一段，再回頭量一次",
+          "action": "逐段檢視流程，判斷 AI 該介入哪一段：資料蒐集、初稿生成、格式排版，或用在審稿前自查。調整後試跑兩到三輪，回頭量「下游每週要看的份數與花的時間」，沒有下降就繼續改，而不是只看上游省了幾小時。",
+          "why": "講者想帶主管做的正是這件事：拆解手上的流程、判斷 AI 該進哪一段、讓員工不必複雜判斷也能搭配 AI（節目稱）。成效要用整條流程的結果判斷，不用個人的速度判斷。",
+          "example": "編輯示範：試跑三週後比較「組長每週審題時間」與「退件率」；若審題時間沒降，就先限制只有通過自查的題目才能進組長那一關。",
+          "check": "有一組前後對照的數字（下游處理份數、等待天數或退件率），且寫明這是自己的紀錄，不是影片的數據。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "smalltalk-ep715",
+              "startSeconds": 1481,
+              "endSeconds": 1497
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "從「個人變快」到「整條流程變順」",
+          "note": "依節目內容編輯整理；圖解說明做法順序，不證明成效。",
+          "nodes": [
+            {
+              "id": "diagnose",
+              "label": "分清效率",
+              "detail": "個人 vs 組織"
+            },
+            {
+              "id": "trace",
+              "label": "走一遍流程",
+              "detail": "找被推擠的下一關"
+            },
+            {
+              "id": "ask",
+              "label": "重問問題",
+              "detail": "哪些舊流程沒意義"
+            },
+            {
+              "id": "extract",
+              "label": "寫出標準",
+              "detail": "7 到 8 條可判斷"
+            },
+            {
+              "id": "bind",
+              "label": "綁進流程",
+              "detail": "檢查表＋虛擬主管"
+            },
+            {
+              "id": "place",
+              "label": "放對位置",
+              "detail": "AI 進哪一段"
+            },
+            {
+              "id": "measure",
+              "label": "回頭量",
+              "detail": "下游份數與等待天數"
+            }
+          ],
+          "edges": [
+            {
+              "from": "diagnose",
+              "to": "trace"
+            },
+            {
+              "from": "trace",
+              "to": "ask"
+            },
+            {
+              "from": "ask",
+              "to": "extract"
+            },
+            {
+              "from": "extract",
+              "to": "bind"
+            },
+            {
+              "from": "bind",
+              "to": "place"
+            },
+            {
+              "from": "place",
+              "to": "measure"
+            },
+            {
+              "from": "measure",
+              "to": "trace",
+              "label": "堵點仍在，再走一遍"
+            }
+          ]
+        },
+        {
+          "type": "schedule",
+          "title": "40 分鐘練習示意排程",
+          "note": "編輯補充：這是一次練習的時間配置，不是節目原流程，也不保證完成時間。",
+          "columns": [
+            "你做什麼",
+            "留下什麼"
+          ],
+          "rows": [
+            {
+              "label": "0–5 分鐘",
+              "cells": [
+                "選一條真實流程，寫下誰變快、整體有沒有變",
+                "兩欄對照紙"
+              ]
+            },
+            {
+              "label": "5–15 分鐘",
+              "cells": [
+                "畫出每一格並標出下游多出來的工作量",
+                "標出堵點的流程圖"
+              ]
+            },
+            {
+              "label": "15–25 分鐘",
+              "cells": [
+                "回想最近一次退件，寫出 7 到 8 條標準",
+                "標準清單"
+              ]
+            },
+            {
+              "label": "25–35 分鐘",
+              "cells": [
+                "把標準寫成檢查表與審稿提示詞，試跑一份舊稿",
+                "檢查表＋提示詞"
+              ]
+            },
+            {
+              "label": "35–40 分鐘",
+              "cells": [
+                "決定 AI 放哪一段，訂出要量的數字",
+                "試跑計畫"
+              ]
+            }
+          ]
+        }
+      ],
+      "practice": {
+        "title": "40 分鐘練習：替一條真實流程做出「標準＋虛擬主管」自查關",
+        "minutes": 40,
+        "prompt": "編輯設計：挑一條你真的要負責的流程（審題、公文、提案、活動企劃都可以）。\n1. 左右兩欄：誰變快了？整體成果有沒有變？\n2. 畫出流程每一格，圈出被推擠的下一關。\n3. 找一份最近被你退回的稿子，列出 7 到 8 條退件理由，改寫成可打勾的標準。\n4. 貼給 AI：「你是（角色）。以下是審稿標準：（貼標準）。請逐條回答通過或不通過並說明理由，不要重寫內容。」再貼上稿件。\n5. 訂一個要回頭量的數字（下游每週份數、等待天數或退件率）。",
+        "deliverable": "一張標出堵點的流程圖、一份 7 到 8 條可打勾的標準檢查表，以及一段已試跑過的審稿提示詞。",
+        "checklist": [
+          "流程圖上圈得出至少一個上游變快、下游變堵的格子。",
+          "標準每條都能回答「是或否」，而不是「要有品質」這類形容詞。",
+          "用一份舊稿試跑，AI 的判斷與你當初退件的理由大致一致。",
+          "AI 只負責對照標準，沒有替你做最後的核定。",
+          "訂好一個要回頭量的數字與檢討日期。",
+          "提示詞貼上的標準是完整的，沒有叫 AI 自行補標準。"
+        ]
+      },
+      "pitfalls": [
+        "把「大家變快」當成成果：上游省下的時間，常變成下游多出來的審閱量；要看整條流程，而不是單點。",
+        "只辦提示詞課就以為導入完成：節目強調要改的是交付、檢查、決策與回饋方式，不是只教怎麼跟 AI 說話。",
+        "標準寫成形容詞：「有深度」「夠專業」AI 與員工都無法照做；要拆成能打勾的條件。",
+        "讓 AI 的自查取代人的決策：虛擬主管只負責逐條對照，涉及策略或高風險的核定仍須人來做，AI 也可能有幻覺。",
+        "只看上游省了幾小時就宣告成功：要回頭量下游處理份數與等待天數，沒下降就繼續改。"
+      ],
+      "supplements": [
+        {
+          "title": "核心觀點：區域性最佳化與交通比喻",
+          "text": "講者把公司比作城市、流程比作交通系統：原本的道路寬度、紅綠燈與停車位都是配合腳踏車設計的，現在人人換成電動車，道路沒變，只是更快塞在同一個路口。他也用餐廳以 AI 生成菜單照片為例，說明某一環省事，卻可能讓客人失望、客訴與流失而使整體價值為負（節目稱）。",
+          "sourceIds": [
+            "smalltalk-ep715"
+          ]
+        },
+        {
+          "title": "我的心得",
+          "text": "我最有感的是「標準要先寫出來」這一步。在學校裡，我們常憑經驗說「這份不太對」，卻說不清楚哪裡不對，現在學生和同事用 AI 交出來的東西又更漂亮，退件理由就更難講。把理由逐條寫下來，不只是替 AI 做準備，也是替我自己整理判斷。我還想補一個提醒：虛擬主管的自查也會有誤判，我會把它當作初篩，不取代人的最後核定。以上是編輯觀點，不是講者原話，也不代表我已在單位內實測成效。",
+          "sourceIds": [
+            "smalltalk-ep715"
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "約 65% 員工認為 AI 提升個人生產力，但僅 12% 強烈認同 AI 改變組織工作推進方式（蓋洛普，2026 年初）。",
+          "status": "unverified",
+          "explanation": "為講者轉述的調查數字，本文未查核原始報告與樣本範圍。",
+          "sourceIds": [
+            "smalltalk-ep715"
+          ],
+          "checkedAt": "2026-10-15"
+        },
+        {
+          "claim": "員工用 AI 加速後，主管的審閱量會暴增，使整條流程反而拖長。",
+          "status": "partial",
+          "explanation": "為講者以提案流程做的假設性舉例，邏輯合理，但未提供實際企業的量測資料；是否發生取決於各單位的流程。",
+          "sourceIds": [
+            "smalltalk-ep715"
+          ],
+          "checkedAt": "2026-10-15"
+        },
+        {
+          "claim": "把主管的判斷標準寫成檢查表，並讓 AI 先逐條自查，能降低主管的審閱負擔。",
+          "status": "unverified",
+          "explanation": "為講者的主張與做法建議，節目未提供前後對照數據；本文也未實測。",
+          "sourceIds": [
+            "smalltalk-ep715"
+          ],
+          "checkedAt": "2026-10-15"
+        }
+      ],
+      "overview": {
+        "image": "/assets/overviews/smalltalk-ep715-ai-process-bottleneck.svg",
+        "mobileImage": "/assets/overviews/smalltalk-ep715-ai-process-bottleneck-mobile.svg",
+        "cardImage": "/assets/overviews/smalltalk-ep715-ai-process-bottleneck-card.svg",
+        "alt": "分清個人與組織效率、走一遍流程找堵點、重問問題、寫出標準、綁進流程，最後決定 AI 放哪一段並回頭量成果。",
+        "caption": "依「大人的Small Talk」EP715 口述編輯整理：AI 只加速單點時，瓶頸會被推到下一關，要把標準綁進流程。圖解不是成效證明。"
+      }
+    },
+    {
+      "id": "xiaobihu-vocab-reading-writing",
+      "title": "語詞不只背：用造詞、互改與造句，讓學過的詞進到作文裡",
+      "summary": "孩子課本學了很多語詞，寫作文時卻還是用原本那幾個。這篇整理蔡孟耘老師（小壁虎老師）在直播中分享的小學語詞教學流程：先用花瓣式組詞練習，再用課堂造詞、同學互改、交換語詞累積語詞寶典，接著以你說我猜、卡牌遊戲和造句練習讓詞會用，最後用替換詞庫與指定使用語詞，把詞帶進寫作。每招練三、四次再換，慢慢累積。",
+      "categoryId": "reading",
+      "topicIds": [
+        "learning",
+        "classroom"
+      ],
+      "keywords": [
+        "語詞教學",
+        "造詞",
+        "語詞寶典",
+        "國語文",
+        "作文詞彙",
+        "小學中年級",
+        "你說我猜",
+        "造句",
+        "支援語詞"
+      ],
+      "level": "入門",
+      "minutes": 30,
+      "output": "一份班級語詞練習計畫：一堂花瓣造詞與互改，加上一個讓詞會用的遊戲與一次造句",
+      "audience": "國小國語文老師，也適合想在家陪孩子累積詞彙的家長",
+      "status": "ready",
+      "contentType": "video_method",
+      "publishedAt": "2026-10-15T23:24:33+08:00",
+      "reviewedAt": "2026-10-15",
+      "coverLabel": "國語文 · 語詞教學",
+      "sourceCoverage": "依 YouTube 直播〈小壁虎老師的閱讀寫作課～請支援語詞〉（謙懿科技頻道，約 88 分鐘，影片稱主講為宜蘭縣竹林國小蔡孟耘老師）整理。本篇逐字稿為 Groq Whisper 自動辨識（中文，分段轉錄後合併）並經簡轉繁，未人工逐字聽打，專有名詞與工具名稱可能有誤聽。影片前 10 分鐘與最後約 12 分鐘為教育科技展報名與抽獎公告，與方法無關，未納入。影片中提到的工具功能（熊筆順、Teacher Say 等）未另行安裝實測；各步驟的例子若標「編輯示範」，為編輯補充，非講者原話。沒有班級試教或成效資料。",
+      "sources": [
+        {
+          "id": "video",
+          "title": "小壁虎老師的閱讀寫作課～請支援語詞｜宜蘭縣竹林國小 蔡孟耘老師",
+          "kind": "video",
+          "channel": "謙懿科技",
+          "videoId": "vVNTVjnu0ik",
+          "url": "https://www.youtube.com/watch?v=vVNTVjnu0ik",
+          "publishedAt": "2026-10-15",
+          "note": "Whisper 自動辨識逐字稿；教學內容約在 11:00 至 75:00。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "flower-words",
+          "title": "先用花瓣式組詞，替生字找「搭檔」",
+          "action": "別只練筆順和字形。每個生字用一張「花瓣圖」：中間寫這個字，周圍寫出能搭配的詞或字。不會寫的字，低年級可先用注音代替；影片稱已學過的國字不能再用注音，四年級以上只寫國字。",
+          "why": "字只有放進詞裡才有用處，組詞練習同時復習了字形和詞彙，比只描字更接近寫作要用的能力。",
+          "example": "影片稱「竹」可以組出竹子、竹林、竹筍、竹竿、竹籤。編輯示範：「讀」字，寫出閱讀、讀書、朗讀、讀後感，寫不出來的位置先留空再補。",
+          "check": "每個生字至少有三個以上的詞，已學過的字不用注音代替。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "video",
+              "startSeconds": 1302,
+              "endSeconds": 1588
+            }
+          ]
+        },
+        {
+          "id": "class-wordmaking",
+          "title": "在教室寫造詞，同學交換找錯字，不用老師改",
+          "action": "老師先示範一次，再把全班分成小組，限時約 20 分鐘：一人寫、兩人查工具書或平板詞典。每個字在教室裡寫出大約 15 個詞。寫完後小組輪流交換，A 給 B、B 給 C，互相圈出錯別字，再發還給原作者自己訂正。",
+          "why": "抄字典的造詞作業老師難批改，孩子也不一定記住。限時在教室寫，加上同學互改，錯字會被看見，批改負擔也比較小。",
+          "example": "影片稱這樣做後學生會在不知不覺中累積大量語詞，比抄作業有效。編輯示範：四人一組，一人負責手寫、兩人查字典、一人當計時員，輪流換角色。",
+          "check": "每組交出一張詞表，錯字已被同學圈出並訂正。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "video",
+              "startSeconds": 1894,
+              "endSeconds": 2195
+            }
+          ]
+        },
+        {
+          "id": "interview-exchange",
+          "title": "訪問同學、交換語詞，做成自己的語詞寶典",
+          "action": "請學生去訪問別人，記下自己沒有想到的語詞，每人限收三個，累積成「語詞寶典」。第二招是交換語詞：隔天不改正，找同學交換各自沒寫到的詞，換不到就換一個人，不要只抄同一位同學。寫得多的學生可把換來的詞放在下方當補充加分。",
+          "why": "自己想到的詞永遠有限，從同學那裡收到不同的詞，才能擴大詞彙。限制每人三個、要換不同的人，可避免變成單純抄寫。",
+          "example": "影片稱同樣是「足」，有人想到足球，也有人想到手舞足蹈。另外還可練習「詞頭」和「詞尾」：一個字造兩個詞，一個放前面一個放後面，詞尾比較難找，全班都找不到時不必勉強。",
+          "check": "寶典上有至少三個別人提供的新詞，寫不出的欄位可以留空但不能空太多，至少寫一個。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "video",
+              "startSeconds": 2195,
+              "endSeconds": 2762
+            }
+          ]
+        },
+        {
+          "id": "word-games",
+          "title": "用遊戲讓詞活起來：你說我猜、冰果、卡牌",
+          "action": "三種都可輪流用。你說我猜：朗讀課文三次、圈出重點詞，查詞義後用描述讓同學猜。冰果遊戲：摺九格紙，聽老師說詞義，寫出對應的詞，公布答案後批改。卡牌遊戲：分析短語（副詞＋動作＋名詞），學生自製「副詞卡」與「動作卡」配對出牌，先出完者勝。",
+          "why": "猜詞速度反映解釋是否清楚；卡牌讓孩子在玩的過程中練習短語搭配，也會吸收他人卡牌上的詞。",
+          "example": "影片稱的短語例子有認真檢查作業、努力打掃教室、賣力演出話劇。最後可把全班卡牌合併，放進夾鏈袋供下課借用。",
+          "check": "遊戲結束後，每位學生能說出至少兩個別人提供的新短語。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "video",
+              "startSeconds": 2763,
+              "endSeconds": 3343
+            }
+          ]
+        },
+        {
+          "id": "use-in-sentences",
+          "title": "讓詞會用：先看情境歸納，再自己造句",
+          "action": "別直接給解釋就叫孩子造句，容易出現荒謬句。改用「顛倒」做法：先給三段情境短文，讓學生歸納詞義；再用真實生活寫短文，可先仿寫。影片主張不要用多個詞拼一段短文（容易瞎掰、難修改），改練造句：四個詞組成通順的句子，每個詞都要用。批改時用「原句修改」：可以改編不可照抄，約三課做一次。",
+          "why": "詞義要從情境中理解，造句要寫真人真事，才能避免抄課本或抄同學。控制詞數與規則，批改也比較輕鬆。",
+          "example": "影片稱曾請 AI 以「恍然大悟」寫三個情境、約 300 字、四年級能懂的短文（這是老師自己的做法）。編輯示範：給「專心、整齊、提醒、準時」四個詞，寫一個今天在教室真的發生的句子。",
+          "check": "句子寫的是真實的人事，不是抄課本；四個詞都用到。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "video",
+              "startSeconds": 3344,
+              "endSeconds": 3948
+            }
+          ]
+        },
+        {
+          "id": "word-bank-to-writing",
+          "title": "把詞帶進作文：替換詞庫、指定用詞，每招練三、四次",
+          "action": "作文裡重複用詞太多時，請同學各自提供替代詞，大家綜合後替換，累積成自己的詞庫。寫日記或作文時，指定要用某課的語詞，例如三課裡至少用到五個。寫作時可隨時翻查語詞寶庫。影片主張每招用三、四次再換下一招，一年慢慢來。",
+          "why": "孩子學了詞卻不用，是因為用詞時不會從記憶中主動提取。有明確要求、有查得到的詞庫，才會形成習慣。",
+          "example": "影片稱以披薩活動為例，用「鋪、擺、擠、加、疊」帶出動作差異，替換原本都寫成「加上」的句子。編輯示範：把「他走進教室」改成「他快步走進教室」。",
+          "check": "作文中至少用到指定語詞的數量，並能說出為什麼選這個詞。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "video",
+              "startSeconds": 3950,
+              "endSeconds": 4533
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "從認識詞，到用詞，再到寫進作文",
+          "note": "依直播內容編輯整理：每一招練三、四次，熟了再換下一招，並不是一次全部做完。",
+          "nodes": [
+            {
+              "id": "flower",
+              "label": "花瓣組詞",
+              "detail": "生字找搭檔"
+            },
+            {
+              "id": "make",
+              "label": "教室造詞",
+              "detail": "限時、同學互改"
+            },
+            {
+              "id": "exchange",
+              "label": "訪問交換",
+              "detail": "累積語詞寶典"
+            },
+            {
+              "id": "game",
+              "label": "遊戲練用",
+              "detail": "猜詞、冰果、卡牌"
+            },
+            {
+              "id": "sentence",
+              "label": "情境造句",
+              "detail": "原句修改"
+            },
+            {
+              "id": "write",
+              "label": "寫進作文",
+              "detail": "替換詞庫、指定用詞"
+            }
+          ],
+          "edges": [
+            {
+              "from": "flower",
+              "to": "make"
+            },
+            {
+              "from": "make",
+              "to": "exchange"
+            },
+            {
+              "from": "exchange",
+              "to": "game"
+            },
+            {
+              "from": "game",
+              "to": "sentence"
+            },
+            {
+              "from": "sentence",
+              "to": "write"
+            },
+            {
+              "from": "write",
+              "to": "flower",
+              "label": "換下一課再練"
+            }
+          ]
+        },
+        {
+          "type": "schedule",
+          "title": "一個月的語詞練習節奏（編輯示意）",
+          "note": "編輯補充：依影片「每招用三、四次再換招」的建議排出，不是講者原本的課表，可依班級調整。",
+          "columns": [
+            "做什麼",
+            "留下什麼"
+          ],
+          "rows": [
+            {
+              "label": "第 1 週",
+              "cells": [
+                "花瓣組詞＋教室造詞，同學互改",
+                "一張改好的詞表"
+              ]
+            },
+            {
+              "label": "第 2 週",
+              "cells": [
+                "訪問與交換語詞",
+                "語詞寶典第一頁"
+              ]
+            },
+            {
+              "label": "第 3 週",
+              "cells": [
+                "你說我猜或卡牌遊戲",
+                "全班短語卡"
+              ]
+            },
+            {
+              "label": "第 4 週",
+              "cells": [
+                "情境造句，作文指定用詞",
+                "原句修改的句子與作文"
+              ]
+            }
+          ]
+        }
+      ],
+      "practice": {
+        "title": "30 分鐘練習：設計一堂語詞課",
+        "minutes": 30,
+        "prompt": "挑一課正在教的課文。\n1. 選五個生字：＿＿。每字預備一朵花瓣圖。\n2. 選造詞方式：限時＿＿分鐘，每組＿＿人，誰負責寫、誰負責查：＿＿。\n3. 互改規則：怎麼交換、怎麼訂正：＿＿。\n4. 一個遊戲：你說我猜、冰果或卡牌，我選＿＿。\n5. 一次造句：四個詞＝＿＿，要求寫真實人事。\n6. 寫作指定：這週作文至少用＿＿個本課語詞。",
+        "deliverable": "一張可直接用於課堂的語詞練習計畫表",
+        "checklist": [
+          "每個生字都有可搭配的詞，不只是筆順。",
+          "造詞在教室限時完成，有同學互改的步驟。",
+          "交換語詞時有「每人限三個」之類的規則。",
+          "造句要求真實人事，並說明可改編但不可照抄。",
+          "作文有明確的指定用詞數量。"
+        ]
+      },
+      "pitfalls": [
+        "只讓孩子抄字典：改成教室限時造詞，再用同學互改。",
+        "一年級就要求大量造詞：影片稱一年級詞彙少、同音詞多，二年級才開始造詞較合適。",
+        "多個詞硬拼一段短文：影片主張易瞎掰、難修改，改練四個詞造句。",
+        "先給詞義再叫孩子造句：容易出現荒謬句，先給情境讓孩子歸納詞義。",
+        "一次把所有招式都用上：每招練三、四次，熟了再換，一年慢慢來。"
+      ],
+      "supplements": [
+        {
+          "title": "我的心得：語詞要「用」過才會留下",
+          "text": "我最有感的是這套方法沒有一招只要孩子背。造詞、互改、交換、遊戲、造句，每一步都讓孩子再用一次詞。這是編輯觀點，不代表我已在班級試過。",
+          "sourceIds": [
+            "video"
+          ]
+        },
+        {
+          "title": "編輯補充：影片的前後段與工具",
+          "text": "直播前後有教育科技展報名與抽獎公告，本篇未納入。影片也示範過幾個網頁工具（如熊筆順、Teacher Say），其功能我未實測，使用前請以官方說明為準。",
+          "sourceIds": [
+            "video"
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "造詞加同學互改，比抄字典更能累積語詞。",
+          "status": "unverified",
+          "explanation": "這是講者在影片中的經驗說法，本篇沒有班級前後測或研究佐證。",
+          "sourceIds": [
+            "video"
+          ],
+          "checkedAt": "2026-10-15"
+        },
+        {
+          "claim": "逐字稿內容與講者原意相符。",
+          "status": "partial",
+          "explanation": "逐字稿為 Whisper 自動辨識，未人工聽打；部分專有名詞可能誤聽，步驟依段落要點整理。",
+          "sourceIds": [
+            "video"
+          ],
+          "checkedAt": "2026-10-15"
+        }
+      ],
+      "overview": {
+        "image": "/assets/overviews/xiaobihu-vocab-reading-writing.svg",
+        "mobileImage": "/assets/overviews/xiaobihu-vocab-reading-writing-mobile.svg",
+        "cardImage": "/assets/overviews/xiaobihu-vocab-reading-writing-card.svg",
+        "alt": "六個階段：花瓣組詞、教室造詞、訪問交換、遊戲練用、情境造句、寫進作文，再回到下一課。",
+        "caption": "依直播內容編輯整理：從認識詞到把詞寫進作文，每招練三、四次再換。圖解為編輯整理，不是成效證明。"
+      }
+    },
+    {
+      "id": "yousef-focus-memory-habits",
+      "title": "專注衝刺：預約整段時間、移開手機，再用倒數與真休息守住注意力",
+      "summary": "神經科學家 Sahar Yousef 在《The Diary Of A CEO》提醒：注意力是記憶的前提，通知與手機會一直把它切碎。這篇把她談的做法整理成五步：預約專注衝刺、把目標改成可交付的產出、移開手機與通知、用倒數計時單工做完、再安排真正不吸收資訊的休息。影片稱專注衝刺可讓產出約兩倍，這是講者說法，本文沒有獨立查證。",
+      "categoryId": "reading",
+      "topicIds": [
+        "learning",
+        "mindset"
+      ],
+      "keywords": [
+        "專注力",
+        "記憶",
+        "專注衝刺",
+        "focus sprint",
+        "單工",
+        "通知管理",
+        "番茄鐘",
+        "休息",
+        "Sahar Yousef",
+        "深度工作"
+      ],
+      "level": "入門",
+      "minutes": 25,
+      "output": "一張今天的專注衝刺計畫卡：預約時段、一個可交付產出、通知與手機處理方式、倒數時間、休息方式",
+      "audience": "常被手機與訊息打斷、想把寫作、備課或讀書的整段時間找回來的教師、學生與家長",
+      "status": "ready",
+      "contentType": "video_method",
+      "publishedAt": "2026-10-15T23:24:34+08:00",
+      "reviewedAt": "2026-10-15",
+      "coverLabel": "神經科學 · 專注方法",
+      "sourceCoverage": "英文長訪談（約 2 小時 16 分），以 YouTube 自動字幕取得逐字稿，再簡轉繁並分段壓縮摘要後閱讀；未逐字人工聽打，後段廣告與閒談只略讀。秒數皆取自逐字稿真實時間碼。影片中的數字（如灰階 3 週每天少滑約 1 小時、專注衝刺產出約兩倍、47 秒被打斷）為講者說法，本文未獨立查證；中文為翻譯改述，非原話。",
+      "sources": [
+        {
+          "id": "yousef-doac",
+          "title": "No.1 Neuroscientist Reveals How To Unlock Superhuman Focus & Perfect Memory! - Dr. Sahar Yousef",
+          "kind": "video",
+          "provider": "youtube",
+          "videoId": "yePLuwL3FbM",
+          "url": "https://www.youtube.com/watch?v=yePLuwL3FbM",
+          "channel": "The Diary Of A CEO",
+          "publishedAt": "2026-10-15",
+          "note": "英文訪談；本文為翻譯改述的編輯整理，講者數字均註明影片稱。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "book-sprint",
+          "title": "先在行事曆預約一段專注衝刺，並讓別人知道",
+          "action": "挑一個你精神較好的整段時間（先從 30 到 60 分鐘開始），像開會一樣寫進行事曆。需要的話，告訴同事或家人這段時間你不回訊息。",
+          "why": "影片稱，預排時段並公開行事曆，可以減輕「沒立刻回覆別人」的罪惡感；講者也提到專注衝刺能讓產出提高、錯誤減少（影片稱，未獨立查證）。",
+          "example": "編輯示範：老師把週二第七節的空堂寫成「備課衝刺 14:10–15:00」，並在辦公室群組留一句「這節不看訊息，下課後回」。",
+          "check": "行事曆上已有明確起訖時間，且至少一位會找你的人知道這段時間不會回覆。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "yousef-doac",
+              "startSeconds": 3361,
+              "endSeconds": 3581
+            }
+          ]
+        },
+        {
+          "id": "output-goal",
+          "title": "把目標寫成「要交出什麼」，再拆成小步驟",
+          "action": "從待辦清單只挑 1 到 3 件最重要的事（講者稱 MIT）。每一件寫成可完成的產出，再拆成幾個短步驟，例如 20、15、5、3 分鐘的小任務；較瑣碎的事（LIT）留給 15 分鐘的零碎空檔。",
+          "why": "講者說，只寫「處理某件事」容易不知道下一步；寫成可衡量的產出、拆成清單，完成時比較有進展感與動力（影片說法）。",
+          "example": "編輯示範：不要寫「準備國文課」，改寫「7 分鐘完成第 3 張投影片」「寄信向教務處要第 17 頁數據」。",
+          "check": "每個 MIT 都能用一句話說出「做完會交出什麼」，且第一個小步驟可在 20 分鐘內完成。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "yousef-doac",
+              "startSeconds": 3583,
+              "endSeconds": 3934
+            }
+          ]
+        },
+        {
+          "id": "remove-noise",
+          "title": "開始前先移開手機、關通知，只留 VIP 能穿透",
+          "action": "衝刺前把手機翻面或放到視線以外，關閉大部分通知。想怕漏掉重要事的話，建立 VIP 名單（例如家人、主管），只讓他們的來電或訊息通過。夜裡意志力低、容易滑手機時，可把螢幕改成灰階。",
+          "why": "影片稱注意力是記憶的前提，沒被注意到的事難以記住；預設通知是為了增加使用黏著度而設計，不是為你的專注。講者提到有研究讓上班族把手機改灰階三週，平均每天少滑約 1 小時（影片稱）。",
+          "example": "編輯示範：在手機專注模式只允許「家人」與「學務主任」兩組聯絡人；睡前一小時改灰階，放在客廳充電。",
+          "check": "衝刺開始時桌面上沒有會亮起的手機，且通知清單裡只剩 VIP。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "yousef-doac",
+              "startSeconds": 950,
+              "endSeconds": 1091
+            },
+            {
+              "sourceId": "yousef-doac",
+              "startSeconds": 1353,
+              "endSeconds": 1464
+            },
+            {
+              "sourceId": "yousef-doac",
+              "startSeconds": 2775,
+              "endSeconds": 2885
+            }
+          ]
+        },
+        {
+          "id": "countdown-single",
+          "title": "設倒數計時器，一次只做一件事並收尾",
+          "action": "替這個 MIT 設定倒數時間，開始後只做這一件。時間到或做完一段時，刻意在心裡「關掉這個分頁」再換下一件；若想用降噪耳機，只在專注衝刺時使用，音樂選沒有歌詞的。",
+          "why": "講者說大腦本質是單工機器，多工其實是在任務間切換，切換後會帶著前一件事的殘留（影片稱注意力殘留），拖慢速度；時間限制也能讓工作不要膨脹到填滿所有時間（帕金森定律）。",
+          "example": "編輯示範：設 25 分鐘倒數寫一段家長信，寫完先在便條紙寫下「已完成，下一步是校對」，再處理下一件。",
+          "check": "計時期間沒有切去看訊息或網頁，且每次換任務前都有一句「收尾」記錄。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "yousef-doac",
+              "startSeconds": 4821,
+              "endSeconds": 5065
+            },
+            {
+              "sourceId": "yousef-doac",
+              "startSeconds": 7324,
+              "endSeconds": 7577
+            }
+          ]
+        },
+        {
+          "id": "real-break",
+          "title": "休息時刻意不吸收資訊，讓大腦真的休息",
+          "action": "衝刺結束後休息幾分鐘：看窗外的自然景色、散步、曬太陽或單純發呆；避免刷短影音、看新聞。想避免伸手拿手機，可以準備讓雙手忙碌的小事，例如泡茶、切水果。",
+          "why": "講者引用 2024 年《Nature》研究，稱看自然最能恢復，發呆次之，刷短影音最差，因為仍在持續吸收資訊（影片稱，未獨立查證）。",
+          "example": "編輯示範：衝刺後到走廊窗邊站 5 分鐘、喝水；手機留在座位上。",
+          "check": "休息的 5 分鐘裡沒有閱讀、寫作或滑手機，回座時沒有比休息前更焦躁。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "yousef-doac",
+              "startSeconds": 5288,
+              "endSeconds": 5514
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "一次專注衝刺的流程",
+          "note": "依影片內容編輯整理；「卡住就回到拆步驟」為編輯補充。",
+          "nodes": [
+            {
+              "id": "book",
+              "label": "預約時段",
+              "detail": "寫進行事曆並告知他人"
+            },
+            {
+              "id": "goal",
+              "label": "定產出",
+              "detail": "1–3 件 MIT，拆成小步驟"
+            },
+            {
+              "id": "quiet",
+              "label": "移開雜訊",
+              "detail": "手機翻面、只留 VIP"
+            },
+            {
+              "id": "timer",
+              "label": "倒數單工",
+              "detail": "一次一件，換件前收尾"
+            },
+            {
+              "id": "rest",
+              "label": "真休息",
+              "detail": "看自然、發呆，不吸收資訊"
+            },
+            {
+              "id": "review",
+              "label": "回看產出",
+              "detail": "有交出東西嗎？"
+            }
+          ],
+          "edges": [
+            {
+              "from": "book",
+              "to": "goal"
+            },
+            {
+              "from": "goal",
+              "to": "quiet"
+            },
+            {
+              "from": "quiet",
+              "to": "timer"
+            },
+            {
+              "from": "timer",
+              "to": "rest"
+            },
+            {
+              "from": "rest",
+              "to": "review"
+            },
+            {
+              "from": "review",
+              "to": "goal",
+              "label": "沒完成就重新拆步驟"
+            }
+          ]
+        },
+        {
+          "type": "schedule",
+          "title": "50 分鐘專注衝刺示意",
+          "note": "編輯補充的示範時程，不是影片規定；時間可依自己調整。",
+          "columns": [
+            "做什麼",
+            "留下什麼"
+          ],
+          "rows": [
+            {
+              "label": "0–5 分鐘",
+              "cells": [
+                "手機翻面、關通知、寫下今天的產出",
+                "一句話產出目標"
+              ]
+            },
+            {
+              "label": "5–35 分鐘",
+              "cells": [
+                "倒數計時，單工做第一個小步驟",
+                "完成的段落或清單"
+              ]
+            },
+            {
+              "label": "35–40 分鐘",
+              "cells": [
+                "收尾：寫下已完成與下一步",
+                "收尾記錄"
+              ]
+            },
+            {
+              "label": "40–50 分鐘",
+              "cells": [
+                "站起來看自然、喝水，不看螢幕",
+                "不吸收資訊的休息"
+              ]
+            }
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "手機改灰階三週，每天平均少滑約一小時。",
+          "status": "unverified",
+          "explanation": "這是講者在訪談中引述的研究說法，本文未查證原始論文與樣本，不能當成保證效果。",
+          "sourceIds": [
+            "yousef-doac"
+          ],
+          "checkedAt": "2026-10-15"
+        },
+        {
+          "claim": "專注衝刺能讓產出約兩倍、減少錯誤；看自然的休息效果優於刷短影音。",
+          "status": "partial",
+          "explanation": "講者引用研究與實驗室經驗，但本文只依逐字稿轉述，未取得原始研究細節，也沒有自己的前後比較。",
+          "sourceIds": [
+            "yousef-doac"
+          ],
+          "checkedAt": "2026-10-15"
+        }
+      ],
+      "pitfalls": [
+        "只關通知卻讓手機躺在手邊：講者提到即使關了大部分通知，仍可能忍不住拿起手機，所以要拉開距離。",
+        "把「清單很長」當成努力：待辦太多時容易挑最容易的小事，重要的事被拖，先挑 1 到 3 件。",
+        "休息時看影片或新聞：仍在吸收資訊，大腦沒有真正休息。",
+        "把降噪耳機整天戴著：講者建議只在專注衝刺使用，長時間可能讓聽覺基準改變。",
+        "把影片數字當保證：本文的百分比與倍數都是講者說法，請用自己的一週紀錄檢驗。"
+      ],
+      "practice": {
+        "title": "25 分鐘：排出你的第一次專注衝刺",
+        "minutes": 25,
+        "prompt": "編輯設計：請完成以下卡片。\n1. 我要預約的時段（日期、起訖）：＿＿\n2. 這次要交出的一個產出（一句話）：＿＿\n3. 拆成三個小步驟，各幾分鐘：＿＿\n4. 手機放在哪裡、哪些人是 VIP：＿＿\n5. 倒數時間設幾分鐘：＿＿\n6. 休息時我要做什麼（不吸收資訊）：＿＿",
+        "deliverable": "一張填好的專注衝刺計畫卡，並在行事曆建立一筆時段。",
+        "checklist": [
+          "時段已寫進行事曆，並讓一位相關的人知道。",
+          "產出是能交出的東西，不是「處理某事」。",
+          "手機已放到看不見處，VIP 名單已設。",
+          "倒數計時器已設定。",
+          "休息方式不包含短影音與新聞。"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "我的心得：先處理環境，比先靠意志力更實際",
+          "text": "我覺得這支影片最能帶走的，不是任何新知，而是順序：先把手機移開、通知關掉，再談專注。對老師與家長來說，這比要求自己「多專心」容易做到。這是我的編輯觀點，我沒有親自長期實測，也不能保證每個人都有同樣效果。",
+          "sourceIds": [
+            "yousef-doac"
+          ]
+        }
+      ],
+      "overview": {
+        "image": "/assets/overviews/yousef-focus-memory-habits.svg",
+        "mobileImage": "/assets/overviews/yousef-focus-memory-habits-mobile.svg",
+        "cardImage": "/assets/overviews/yousef-focus-memory-habits-card.svg",
+        "alt": "專注衝刺五步：預約時段、定產出、移開雜訊、倒數單工、真休息。",
+        "caption": "依影片內容編輯整理：先預約並移開手機，再倒數單工，最後用不吸收資訊的方式休息。圖解不是成效證明。"
+      }
     }
   ],
   "demo": {

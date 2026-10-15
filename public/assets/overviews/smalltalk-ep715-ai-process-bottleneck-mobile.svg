@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 800" role="img" aria-labelledby="smalltalk-ep715-ai-process-bottleneck-title smalltalk-ep715-ai-process-bottleneck-desc"><title id="smalltalk-ep715-ai-process-bottleneck-title">AI 導入的流程方法</title><desc id="smalltalk-ep715-ai-process-bottleneck-desc">分清效率 → 走流程找堵點 → 重問問題 → 寫出標準 → 綁進流程 → 放對位置並回頭量成果。</desc>
+<defs><marker id="smalltalk-ep715-ai-process-bottleneck-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="480" height="800" fill="#f0f2e9"/>
+<text x="28" y="48" fill="#586b60" font-size="22">EP715 · 編輯整理</text>
+<text x="28" y="100" fill="#193732" font-size="27" font-weight="650">個人變快，流程要變順</text>
+<path d="M28 126H452" stroke="#bdcbbb"/>
+<path d="M240 232V251" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#smalltalk-ep715-ai-process-bottleneck-arrow)"/>
+<path d="M240 334V353" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#smalltalk-ep715-ai-process-bottleneck-arrow)"/>
+<path d="M240 436V455" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#smalltalk-ep715-ai-process-bottleneck-arrow)"/>
+<path d="M240 538V557" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#smalltalk-ep715-ai-process-bottleneck-arrow)"/>
+<path d="M240 640V659" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#smalltalk-ep715-ai-process-bottleneck-arrow)"/>
+<rect x="28" y="150" width="424" height="82" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="48" y="176" fill="#d4e2d4" font-size="18">01</text>
+<text x="48" y="202" fill="#fffef9" font-size="26" font-weight="650">分清效率</text>
+<text x="48" y="224" fill="#d4e2d4" font-size="18">個人 vs 組織</text>
+<rect x="28" y="252" width="424" height="82" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="278" fill="#586b60" font-size="18">02</text>
+<text x="48" y="304" fill="#193732" font-size="26" font-weight="650">走流程找堵點</text>
+<text x="48" y="326" fill="#586b60" font-size="18">下游多了多少</text>
+<rect x="28" y="354" width="424" height="82" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="380" fill="#586b60" font-size="18">03</text>
+<text x="48" y="406" fill="#193732" font-size="26" font-weight="650">重問問題</text>
+<text x="48" y="428" fill="#586b60" font-size="18">哪些舊流程沒意義</text>
+<rect x="28" y="456" width="424" height="82" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="482" fill="#586b60" font-size="18">04</text>
+<text x="48" y="508" fill="#193732" font-size="26" font-weight="650">寫出標準</text>
+<text x="48" y="530" fill="#586b60" font-size="18">7 到 8 條可打勾</text>
+<rect x="28" y="558" width="424" height="82" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="584" fill="#586b60" font-size="18">05</text>
+<text x="48" y="610" fill="#193732" font-size="26" font-weight="650">綁進流程</text>
+<text x="48" y="632" fill="#586b60" font-size="18">檢查表＋虛擬主管</text>
+<rect x="28" y="660" width="424" height="82" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="686" fill="#586b60" font-size="18">06</text>
+<text x="48" y="712" fill="#193732" font-size="26" font-weight="650">放對位置</text>
+<text x="48" y="734" fill="#586b60" font-size="18">回頭量下游成果</text>
+<text x="28" y="775" fill="#586b60" font-size="17">圖解為編輯整理，並非成效證明</text>
+</svg>

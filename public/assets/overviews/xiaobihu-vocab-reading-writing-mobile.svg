@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 800" role="img" aria-labelledby="xiaobihu-vocab-reading-writing-title xiaobihu-vocab-reading-writing-desc"><title id="xiaobihu-vocab-reading-writing-title">語詞教學：從認識詞到寫進作文</title><desc id="xiaobihu-vocab-reading-writing-desc">花瓣組詞 → 教室造詞 → 訪問交換 → 遊戲練用 → 情境造句 → 寫進作文；每招練三、四次再換。</desc>
+<defs><marker id="xiaobihu-vocab-reading-writing-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="480" height="800" fill="#f0f2e9"/>
+<text x="36" y="48" fill="#586b60" font-size="22">直播重點 · 編輯整理</text>
+<text x="36" y="100" fill="#193732" font-size="27" font-weight="650">語詞教學</text>
+<path d="M36 126H444" stroke="#bdcbbb"/>
+<rect x="28" y="146" width="424" height="84" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="48" y="173" fill="#d4e2d4" font-size="19">01</text>
+<text x="48" y="202" fill="#fffef9" font-size="28" font-weight="650">花瓣組詞</text>
+<text x="228" y="202" fill="#d4e2d4" font-size="19">生字找搭檔</text>
+<path d="M240 232V249" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#xiaobihu-vocab-reading-writing-arrow)"/>
+<rect x="28" y="252" width="424" height="84" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="279" fill="#586b60" font-size="19">02</text>
+<text x="48" y="308" fill="#193732" font-size="28" font-weight="650">教室造詞</text>
+<text x="228" y="308" fill="#586b60" font-size="19">限時、同學互改</text>
+<path d="M240 338V355" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#xiaobihu-vocab-reading-writing-arrow)"/>
+<rect x="28" y="358" width="424" height="84" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="385" fill="#586b60" font-size="19">03</text>
+<text x="48" y="414" fill="#193732" font-size="28" font-weight="650">訪問交換</text>
+<text x="228" y="414" fill="#586b60" font-size="19">累積語詞寶典</text>
+<path d="M240 444V461" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#xiaobihu-vocab-reading-writing-arrow)"/>
+<rect x="28" y="464" width="424" height="84" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="491" fill="#586b60" font-size="19">04</text>
+<text x="48" y="520" fill="#193732" font-size="28" font-weight="650">遊戲練用</text>
+<text x="228" y="520" fill="#586b60" font-size="19">猜詞、冰果、卡牌</text>
+<path d="M240 550V567" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#xiaobihu-vocab-reading-writing-arrow)"/>
+<rect x="28" y="570" width="424" height="84" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="597" fill="#586b60" font-size="19">05</text>
+<text x="48" y="626" fill="#193732" font-size="28" font-weight="650">情境造句</text>
+<text x="228" y="626" fill="#586b60" font-size="19">原句修改</text>
+<path d="M240 656V673" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#xiaobihu-vocab-reading-writing-arrow)"/>
+<rect x="28" y="676" width="424" height="84" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="703" fill="#586b60" font-size="19">06</text>
+<text x="48" y="732" fill="#193732" font-size="28" font-weight="650">寫進作文</text>
+<text x="228" y="732" fill="#586b60" font-size="19">替換詞庫、指定用詞</text>
+<text x="28" y="781" fill="#586b60" font-size="18">圖解為編輯整理，並非成效證明</text>
+</svg>

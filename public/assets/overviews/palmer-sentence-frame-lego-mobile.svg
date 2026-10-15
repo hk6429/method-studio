@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 800" role="img" aria-labelledby="palmer-sentence-frame-lego-title palmer-sentence-frame-lego-desc"><title id="palmer-sentence-frame-lego-title">樂高替換法的母框練習</title><desc id="palmer-sentence-frame-lego-desc">懂原理 → 收母框 → 單一替換 → 多變數加壓 → 五框驗收；卡住的框回到快速替換。</desc>
+<defs><marker id="palmer-sentence-frame-lego-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="480" height="800" fill="#f0f2e9"/>
+<text x="28" y="48" fill="#586b60" font-size="22">樂高替換法 · 編輯整理</text>
+<text x="28" y="100" fill="#193732" font-size="27" font-weight="650">固定母框，替換積木</text>
+<path d="M28 126H452" stroke="#bdcbbb"/>
+<path d="M240 238V256" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#palmer-sentence-frame-lego-arrow)"/>
+<rect x="28" y="150" width="424" height="88" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="48" y="179" fill="#d4e2d4" font-size="19">01　整句當一塊</text>
+<text x="48" y="219" fill="#fffef9" font-size="28" font-weight="650">懂原理</text>
+
+<path d="M240 346V364" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#palmer-sentence-frame-lego-arrow)"/>
+<rect x="28" y="258" width="424" height="88" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="287" fill="#586b60" font-size="19">02　挖空只留前半</text>
+<text x="48" y="327" fill="#193732" font-size="28" font-weight="650">收母框</text>
+
+<path d="M240 454V472" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#palmer-sentence-frame-lego-arrow)"/>
+<rect x="28" y="366" width="424" height="88" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="395" fill="#586b60" font-size="19">03　快速念積木</text>
+<text x="48" y="435" fill="#193732" font-size="28" font-weight="650">單一替換</text>
+
+<path d="M240 562V580" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#palmer-sentence-frame-lego-arrow)"/>
+<rect x="28" y="474" width="424" height="88" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="503" fill="#586b60" font-size="19">04　肯定否定疑問</text>
+<text x="48" y="543" fill="#193732" font-size="28" font-weight="650">多變數加壓</text>
+
+<rect x="28" y="582" width="424" height="88" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="611" fill="#586b60" font-size="19">05　卡住的只補一框</text>
+<text x="48" y="651" fill="#193732" font-size="28" font-weight="650">五框驗收</text>
+
+<text x="28" y="758" fill="#586b60" font-size="18">圖解為編輯整理，並非成效證明</text>
+<text x="28" y="786" fill="#586b60" font-size="19">卡住的框，回到快速替換再練</text></svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" role="img" aria-labelledby="xiaobihu-vocab-reading-writing-title xiaobihu-vocab-reading-writing-desc"><title id="xiaobihu-vocab-reading-writing-title">語詞教學：從認識詞到寫進作文</title><desc id="xiaobihu-vocab-reading-writing-desc">花瓣組詞 → 教室造詞 → 訪問交換 → 遊戲練用 → 情境造句 → 寫進作文；每招練三、四次再換。</desc>
+<defs><marker id="xiaobihu-vocab-reading-writing-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="800" height="480" fill="#f0f2e9"/>
+<text x="36" y="48" fill="#586b60" font-size="26">語詞教學 · 編輯整理</text>
+<text x="36" y="100" fill="#193732" font-size="34" font-weight="650">從認識詞到寫進作文</text>
+<path d="M36 126H764" stroke="#bdcbbb"/>
+<rect x="36" y="150" width="228" height="128" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="56" y="178" fill="#d4e2d4" font-size="20">01</text>
+<text x="56" y="246" fill="#fffef9" font-size="32" font-weight="650">花瓣組詞</text>
+<path d="M266 214H284" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#xiaobihu-vocab-reading-writing-arrow)"/>
+<rect x="286" y="150" width="228" height="128" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="306" y="178" fill="#586b60" font-size="20">02</text>
+<text x="306" y="246" fill="#193732" font-size="32" font-weight="650">教室造詞</text>
+<path d="M516 214H534" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#xiaobihu-vocab-reading-writing-arrow)"/>
+<rect x="536" y="150" width="228" height="128" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="556" y="178" fill="#586b60" font-size="20">03</text>
+<text x="556" y="246" fill="#193732" font-size="32" font-weight="650">訪問交換</text>
+<rect x="36" y="300" width="228" height="128" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="56" y="328" fill="#586b60" font-size="20">04</text>
+<text x="56" y="396" fill="#193732" font-size="32" font-weight="650">遊戲練用</text>
+<path d="M266 364H284" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#xiaobihu-vocab-reading-writing-arrow)"/>
+<rect x="286" y="300" width="228" height="128" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="306" y="328" fill="#586b60" font-size="20">05</text>
+<text x="306" y="396" fill="#193732" font-size="32" font-weight="650">情境造句</text>
+<path d="M516 364H534" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#xiaobihu-vocab-reading-writing-arrow)"/>
+<rect x="536" y="300" width="228" height="128" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="556" y="328" fill="#586b60" font-size="20">06</text>
+<text x="556" y="396" fill="#193732" font-size="32" font-weight="650">寫進作文</text>
+<text x="36" y="455" fill="#586b60" font-size="23">每招練三、四次，熟了再換</text>
+</svg>
