@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 800" role="img" aria-labelledby="talkers-vs-doers-title talkers-vs-doers-desc"><title id="talkers-vs-doers-title">把想法變成行動證據</title><desc id="talkers-vs-doers-desc">找意義 → 做作品 → 記過程 → 留證據</desc>
+<defs><marker id="talkers-vs-doers-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="480" height="800" fill="#f0f2e9"/>
+<text x="28" y="48" fill="#586b60" font-size="22">方法練習 · 編輯整理</text>
+<text x="28" y="100" fill="#193732" font-size="27" font-weight="650">把想法變成行動證據</text>
+<path d="M28 126H452" stroke="#bdcbbb"/>
+<path d="M240.0 274V291" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#talkers-vs-doers-arrow)"/>
+<path d="M240.0 420V437" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#talkers-vs-doers-arrow)"/>
+<path d="M240.0 566V583" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#talkers-vs-doers-arrow)"/>
+<rect x="28" y="154" width="424" height="115" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="48" y="189" fill="#d4e2d4" font-size="21">01</text>
+<text x="48" y="230" fill="#fffef9" font-size="30" font-weight="650">找意義</text>
+<text x="48" y="256" fill="#d4e2d4" font-size="20">自己認同的理由</text>
+<rect x="28" y="300" width="424" height="115" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="335" fill="#586b60" font-size="21">02</text>
+<text x="48" y="376" fill="#193732" font-size="30" font-weight="650">做作品</text>
+<text x="48" y="402" fill="#586b60" font-size="20">今天可做的小成果</text>
+<rect x="28" y="446" width="424" height="115" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="481" fill="#586b60" font-size="21">03</text>
+<text x="48" y="522" fill="#193732" font-size="30" font-weight="650">記過程</text>
+<text x="48" y="548" fill="#586b60" font-size="20">進展與尚未完成處</text>
+<rect x="28" y="592" width="424" height="115" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="627" fill="#586b60" font-size="21">04</text>
+<text x="48" y="668" fill="#193732" font-size="30" font-weight="650">留證據</text>
+<text x="48" y="694" fill="#586b60" font-size="20">保存日期與行動紀錄</text>
+<text x="28" y="775" fill="#586b60" font-size="19">先留下一次紀錄，再決定下次怎麼調整</text>
+<text x="28" y="741" fill="#586b60" font-size="18">圖解為編輯整理，並非成效證明</text>
+</svg>

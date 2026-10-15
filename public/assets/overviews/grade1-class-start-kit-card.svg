@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" role="img" aria-labelledby="grade1-class-start-kit-title grade1-class-start-kit-desc"><title id="grade1-class-start-kit-title">小一新生帶班包三步驟</title><desc id="grade1-class-start-kit-desc">給家長的信、給新生的信、基本資料調查表，三份文件在開學前鋪好親師生信任。</desc>
+<defs><marker id="grade1-class-start-kit-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="800" height="480" fill="#f0f2e9"/>
+<text x="36" y="48" fill="#586b60" font-size="26">小一帶班 · 編輯整理</text>
+<text x="36" y="100" fill="#193732" font-size="36" font-weight="650">三份文件，鋪好信任</text>
+<path d="M36 126H764" stroke="#bdcbbb"/>
+<rect x="36" y="170" width="220" height="150" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="56" y="205" fill="#d4e2d4" font-size="23">01</text>
+<text x="56" y="265" fill="#fffef9" font-size="32" font-weight="650">給家長的信</text>
+<rect x="290" y="170" width="220" height="150" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="310" y="205" fill="#586b60" font-size="23">02</text>
+<text x="310" y="265" fill="#193732" font-size="32" font-weight="650">給新生的信</text>
+<rect x="544" y="170" width="220" height="150" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="564" y="205" fill="#586b60" font-size="23">03</text>
+<text x="564" y="265" fill="#193732" font-size="32" font-weight="650">調查表</text>
+<path d="M258 245H286" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#grade1-class-start-kit-arrow)"/>
+<path d="M512 245H540" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#grade1-class-start-kit-arrow)"/>
+<text x="36" y="400" fill="#586b60" font-size="23">家長、孩子、老師，先互相認識</text>
+</svg>

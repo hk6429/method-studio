@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" role="img" aria-labelledby="angry-without-regret-title angry-without-regret-desc"><title id="angry-without-regret-title">好好生氣的六步流程</title><desc id="angry-without-regret-desc">急救自己、給怒氣降落處、備降溫選項、失控用感官、事後回顧、看見背後情緒。</desc>
+<defs><marker id="angry-without-regret-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="800" height="480" fill="#f0f2e9"/>
+<text x="36" y="48" fill="#586b60" font-size="26">好好生氣 · 編輯整理</text>
+<text x="36" y="100" fill="#193732" font-size="36" font-weight="650">先急救自己，再陪孩子</text>
+<path d="M36 126H764" stroke="#bdcbbb"/>
+<path d="M260 210.0H286" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#angry-without-regret-arrow)"/>
+<path d="M512 210.0H538" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#angry-without-regret-arrow)"/>
+<path d="M260 370.0H286" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#angry-without-regret-arrow)"/>
+<path d="M512 370.0H538" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#angry-without-regret-arrow)"/>
+<path d="M652.0 270V290.0H148.0V307" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#angry-without-regret-arrow)"/>
+<rect x="36" y="150" width="224" height="120" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="54" y="182" fill="#d4e2d4" font-size="22">01</text>
+<text x="54" y="246" fill="#fffef9" font-size="28" font-weight="650">急救自己</text>
+<rect x="288" y="150" width="224" height="120" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="306" y="182" fill="#586b60" font-size="22">02</text>
+<text x="306" y="246" fill="#193732" font-size="28" font-weight="650">給怒氣降落處</text>
+<rect x="540" y="150" width="224" height="120" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="558" y="182" fill="#586b60" font-size="22">03</text>
+<text x="558" y="246" fill="#193732" font-size="28" font-weight="650">備降溫選項</text>
+<rect x="36" y="310" width="224" height="120" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="54" y="342" fill="#586b60" font-size="22">04</text>
+<text x="54" y="406" fill="#193732" font-size="28" font-weight="650">失控用感官</text>
+<rect x="288" y="310" width="224" height="120" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="306" y="342" fill="#586b60" font-size="22">05</text>
+<text x="306" y="406" fill="#193732" font-size="28" font-weight="650">事後回顧</text>
+<rect x="540" y="310" width="224" height="120" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="558" y="342" fill="#586b60" font-size="22">06</text>
+<text x="558" y="406" fill="#193732" font-size="28" font-weight="650">看見背後情緒</text>
+</svg>

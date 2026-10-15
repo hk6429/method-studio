@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 800" role="img" aria-labelledby="title desc"><title id="title">孩子問 AI 的五步引導</title><desc id="desc">示範追問 → 一起求證 → 先不禁止 → 先問我加個資線 → 變成自己的。</desc>
+<defs><marker id="kids-asking-ai-curiosity-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="480" height="800" fill="#f0f2e9"/>
+<text x="28" y="48" fill="#586b60" font-size="22">親子用 AI · 編輯整理</text>
+<text x="28" y="100" fill="#193732" font-size="27" font-weight="650">先別禁，守住好奇心</text>
+<path d="M28 126H452" stroke="#bdcbbb"/>
+<rect x="28" y="148" width="424" height="92" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="48" y="178.6" fill="#d4e2d4" font-size="21.08">01</text>
+<text x="48" y="212.6" fill="#fffef9" font-size="26" font-weight="650">示範追問</text>
+<text x="48" y="239.6" fill="#d4e2d4" font-size="18">大人先說「我不懂」</text>
+<path d="M240 240V265" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#kids-asking-ai-curiosity-arrow)"/>
+<rect x="28" y="266" width="424" height="92" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="296.6" fill="#586b60" font-size="21.08">02</text>
+<text x="48" y="330.6" fill="#193732" font-size="26" font-weight="650">一起求證</text>
+<text x="48" y="357.6" fill="#586b60" font-size="18">AI 的話不一定是真的</text>
+<path d="M240 358V383" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#kids-asking-ai-curiosity-arrow)"/>
+<rect x="28" y="384" width="424" height="92" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="414.6" fill="#586b60" font-size="21.08">03</text>
+<text x="48" y="448.6" fill="#193732" font-size="26" font-weight="650">先不禁止</text>
+<text x="48" y="475.6" fill="#586b60" font-size="18">肯定觀察，再追問</text>
+<path d="M240 476V501" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#kids-asking-ai-curiosity-arrow)"/>
+<rect x="28" y="502" width="424" height="92" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="532.6" fill="#586b60" font-size="21.08">04</text>
+<text x="48" y="566.6" fill="#193732" font-size="26" font-weight="650">先問我＋個資線</text>
+<text x="48" y="593.6" fill="#586b60" font-size="18">補背景，不輸入個資</text>
+<path d="M240 594V619" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#kids-asking-ai-curiosity-arrow)"/>
+<rect x="28" y="620" width="424" height="92" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="650.6" fill="#586b60" font-size="21.08">05</text>
+<text x="48" y="684.6" fill="#193732" font-size="26" font-weight="650">變成自己的</text>
+<text x="48" y="711.6" fill="#586b60" font-size="18">來回討論，自己說出來</text>
+<text x="28" y="770" fill="#586b60" font-size="18">圖解為編輯整理，並非成效證明</text>
+</svg>

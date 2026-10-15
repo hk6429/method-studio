@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 650" role="img" aria-labelledby="angry-without-regret-title angry-without-regret-desc"><title id="angry-without-regret-title">好好生氣的六步流程</title><desc id="angry-without-regret-desc">急救自己、給怒氣降落處、備降溫選項、失控用感官、事後回顧、看見背後情緒。</desc>
+<defs><marker id="angry-without-regret-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="1200" height="650" fill="#f0f2e9"/>
+<text x="36" y="48" fill="#586b60" font-size="26">好好生氣 · 編輯整理</text>
+<text x="36" y="100" fill="#193732" font-size="42" font-weight="650">先急救自己，再陪孩子放下怒氣</text>
+<path d="M36 126H1164" stroke="#bdcbbb"/>
+<path d="M376 238.0H426" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#angry-without-regret-arrow)"/>
+<path d="M768 238.0H818" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#angry-without-regret-arrow)"/>
+<path d="M376 474.0H426" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#angry-without-regret-arrow)"/>
+<path d="M768 474.0H818" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#angry-without-regret-arrow)"/>
+<path d="M990.0 326V356.0H206.0V383" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#angry-without-regret-arrow)"/>
+<rect x="36" y="150" width="340" height="176" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="58" y="188" fill="#d4e2d4" font-size="24">01</text>
+<text x="58" y="244" fill="#fffef9" font-size="36" font-weight="650">急救自己</text>
+<text x="58" y="280" fill="#d4e2d4" font-size="22">先冷卻，再理解孩子</text>
+<rect x="428" y="150" width="340" height="176" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="450" y="188" fill="#586b60" font-size="24">02</text>
+<text x="450" y="244" fill="#193732" font-size="36" font-weight="650">給怒氣降落處</text>
+<text x="450" y="280" fill="#586b60" font-size="22">生氣沒錯，行為要管</text>
+<rect x="820" y="150" width="340" height="176" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="842" y="188" fill="#586b60" font-size="24">03</text>
+<text x="842" y="244" fill="#193732" font-size="36" font-weight="650">備降溫選項</text>
+<text x="842" y="280" fill="#586b60" font-size="22">平時列清單，撐過高點</text>
+<rect x="36" y="386" width="340" height="176" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="58" y="424" fill="#586b60" font-size="24">04</text>
+<text x="58" y="480" fill="#193732" font-size="36" font-weight="650">失控用感官</text>
+<text x="58" y="516" fill="#586b60" font-size="22">搧風、擦汗、給水</text>
+<rect x="428" y="386" width="340" height="176" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="450" y="424" fill="#586b60" font-size="24">05</text>
+<text x="450" y="480" fill="#193732" font-size="36" font-weight="650">事後回顧</text>
+<text x="450" y="516" fill="#586b60" font-size="22">隔天整理，建溫度計</text>
+<rect x="820" y="386" width="340" height="176" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="842" y="424" fill="#586b60" font-size="24">06</text>
+<text x="842" y="480" fill="#193732" font-size="36" font-weight="650">看見背後情緒</text>
+<text x="842" y="516" fill="#586b60" font-size="22">委屈、焦慮與自己的責任</text>
+<text x="36" y="591" fill="#586b60" font-size="23">圖解為編輯整理，並非成效證明</text>
+<text x="36" y="625" fill="#586b60" font-size="23">生氣沒有錯，要處理的是生氣之後的行為</text>
+</svg>
