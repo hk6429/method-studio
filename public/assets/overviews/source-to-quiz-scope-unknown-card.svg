@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" role="img" aria-labelledby="title desc">
+<title id="title">出題先定來源範圍</title>
+<desc id="desc">定範圍 → 定交付 → 留未知 → 對原文。編輯整理，非成效證明。</desc>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="800" height="480" fill="#f0f2e9"/>
+<text x="32" y="48" font-size="22" font-weight="400" fill="#586b60">方法練習室 · 編輯整理</text>
+<text x="32" y="105" font-size="34" font-weight="650" fill="#193732">出題先定來源範圍</text>
+<path d="M32 132H768" stroke="#bdcbbb"/>
+<rect x="32" y="160" width="352" height="112" rx="8" fill="#193732" stroke="#bdcbbb"/>
+<text x="52" y="194" font-size="22" font-weight="400" fill="#d4e2d4">01</text>
+<text x="52" y="242" font-size="32" font-weight="650" fill="#fffef9">定範圍</text>
+<rect x="416" y="160" width="352" height="112" rx="8" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="436" y="194" font-size="22" font-weight="400" fill="#586b60">02</text>
+<text x="436" y="242" font-size="32" font-weight="650" fill="#193732">定交付</text>
+<rect x="32" y="302" width="352" height="112" rx="8" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="52" y="336" font-size="22" font-weight="400" fill="#586b60">03</text>
+<text x="52" y="384" font-size="32" font-weight="650" fill="#193732">留未知</text>
+<rect x="416" y="302" width="352" height="112" rx="8" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="436" y="336" font-size="22" font-weight="400" fill="#586b60">04</text>
+<text x="436" y="384" font-size="32" font-weight="650" fill="#193732">對原文</text>
+<text x="32" y="452" font-size="22" font-weight="400" fill="#586b60">依文章步驟試做，留下可回看的成果</text>
+</svg>
