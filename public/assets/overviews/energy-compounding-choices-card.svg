@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" role="img" aria-labelledby="ecc-title ecc-desc"><title id="ecc-title">累了別硬撐：從應該到我可以</title><desc id="ecc-desc">接住不舒服 → 寫出需求 → 應該變我可以 → 守住影響圈 → 先排重要事 → 每週回看。</desc>
+<defs><marker id="ecc-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="800" height="480" fill="#f0f2e9"/>
+<text x="36" y="48" fill="#586b60" font-size="26">能量複利 · 編輯整理</text>
+<text x="36" y="100" fill="#193732" font-size="36" font-weight="650">從「應該」到「我可以」</text>
+<path d="M36 126H764" stroke="#bdcbbb"/>
+<rect x="36" y="150" width="232" height="124" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="56" y="185" fill="#d4e2d4" font-size="22">01</text>
+<text x="56" y="238" fill="#fffef9" font-size="28" font-weight="650">接住不舒服</text>
+<path d="M270 212H282" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#ecc-arrow)"/>
+<rect x="284" y="150" width="232" height="124" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="304" y="185" fill="#586b60" font-size="22">02</text>
+<text x="304" y="238" fill="#193732" font-size="28" font-weight="650">寫出需求</text>
+<path d="M518 212H530" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#ecc-arrow)"/>
+<rect x="532" y="150" width="232" height="124" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="552" y="185" fill="#586b60" font-size="22">03</text>
+<text x="552" y="238" fill="#193732" font-size="28" font-weight="650">應該變我可以</text>
+<rect x="36" y="290" width="232" height="124" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="56" y="325" fill="#586b60" font-size="22">04</text>
+<text x="56" y="378" fill="#193732" font-size="28" font-weight="650">守住影響圈</text>
+<path d="M270 352H282" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#ecc-arrow)"/>
+<rect x="284" y="290" width="232" height="124" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="304" y="325" fill="#586b60" font-size="22">05</text>
+<text x="304" y="378" fill="#193732" font-size="28" font-weight="650">先排重要事</text>
+<path d="M518 352H530" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#ecc-arrow)"/>
+<rect x="532" y="290" width="232" height="124" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="552" y="325" fill="#586b60" font-size="22">06</text>
+<text x="552" y="378" fill="#193732" font-size="28" font-weight="650">每週回看</text>
+<text x="36" y="452" fill="#586b60" font-size="22">先寫下需求，再選自己能做的事</text>
+</svg>

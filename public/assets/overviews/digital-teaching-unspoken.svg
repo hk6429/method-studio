@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 650" role="img" aria-labelledby="digital-teaching-unspoken-title digital-teaching-unspoken-desc"><title id="digital-teaching-unspoken-title">數位教學導入五步</title><desc id="digital-teaching-unspoken-desc">定目標、認識與選用、實體規則、斷網備案、小步使用；每堂課之後再檢視。</desc>
+<defs><marker id="digital-teaching-unspoken-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="1200" height="650" fill="#f0f2e9"/>
+<text x="36" y="48" fill="#586b60" font-size="26">數位教學 · 編輯整理</text>
+<text x="36" y="100" fill="#193732" font-size="42" font-weight="650">帶工具進課堂前的五道準備</text>
+<path d="M36 126H1164" stroke="#bdcbbb"/>
+<path d="M396 248H418" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#digital-teaching-unspoken-arrow)"/>
+<path d="M780 248H802" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#digital-teaching-unspoken-arrow)"/>
+<path d="M984 336V357H216V376" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#digital-teaching-unspoken-arrow)"/>
+<path d="M396 466H418" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#digital-teaching-unspoken-arrow)"/>
+<rect x="36" y="160" width="360" height="176" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="56" y="195" fill="#d4e2d4" font-size="23">01</text>
+<text x="56" y="245" fill="#fffef9" font-size="34" font-weight="650">定目標</text>
+<text x="56" y="292" fill="#d4e2d4" font-size="22">三問：必要嗎、真實問題</text>
+<rect x="420" y="160" width="360" height="176" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="440" y="195" fill="#586b60" font-size="23">02</text>
+<text x="440" y="245" fill="#193732" font-size="34" font-weight="650">認識與選用</text>
+<text x="440" y="292" fill="#586b60" font-size="22">定位工具，再看班級</text>
+<rect x="804" y="160" width="360" height="176" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="824" y="195" fill="#586b60" font-size="23">03</text>
+<text x="824" y="245" fill="#193732" font-size="34" font-weight="650">實體規則</text>
+<text x="824" y="292" fill="#586b60" font-size="22">擺放、闔上、收抽屜</text>
+<rect x="36" y="378" width="360" height="176" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="56" y="413" fill="#586b60" font-size="23">04</text>
+<text x="56" y="463" fill="#193732" font-size="34" font-weight="650">斷網備案</text>
+<text x="56" y="510" fill="#586b60" font-size="22">下載、列印、內建 App</text>
+<rect x="420" y="378" width="360" height="176" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="440" y="413" fill="#586b60" font-size="23">05</text>
+<text x="440" y="463" fill="#193732" font-size="34" font-weight="650">小步使用</text>
+<text x="440" y="510" fill="#586b60" font-size="22">5 到 10 分鐘，一次一項</text>
+<text x="804" y="430" fill="#586b60" font-size="23">每堂課後再回頭檢視</text>
+<text x="36" y="591" fill="#586b60" font-size="23">圖解為編輯整理，並非成效證明</text>
+</svg>

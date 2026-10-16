@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 650" role="img" aria-labelledby="ecc-title ecc-desc"><title id="ecc-title">累了別硬撐：從應該到我可以</title><desc id="ecc-desc">接住不舒服 → 寫出需求 → 應該變我可以 → 守住影響圈 → 先排重要事 → 每週回看。</desc>
+<defs><marker id="ecc-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="1200" height="650" fill="#f0f2e9"/>
+<text x="36" y="48" fill="#586b60" font-size="26">能量複利 · 編輯整理</text>
+<text x="36" y="100" fill="#193732" font-size="42" font-weight="650">累了別硬撐：從「應該」到「我可以」</text>
+<path d="M36 126H1164" stroke="#bdcbbb"/>
+<rect x="36" y="160" width="360" height="176" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="56" y="195" fill="#d4e2d4" font-size="23">01</text>
+<text x="56" y="245" fill="#fffef9" font-size="36" font-weight="650">接住不舒服</text>
+<text x="56" y="292" fill="#d4e2d4" font-size="25">先不轉念，聽聽自己</text>
+<path d="M399 248H417" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#ecc-arrow)"/>
+<rect x="420" y="160" width="360" height="176" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="440" y="195" fill="#586b60" font-size="23">02</text>
+<text x="440" y="245" fill="#193732" font-size="36" font-weight="650">寫出需求</text>
+<text x="440" y="292" fill="#586b60" font-size="25">情緒背後缺了什麼</text>
+<path d="M783 248H801" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#ecc-arrow)"/>
+<rect x="804" y="160" width="360" height="176" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="824" y="195" fill="#586b60" font-size="23">03</text>
+<text x="824" y="245" fill="#193732" font-size="36" font-weight="650">應該變我可以</text>
+<text x="824" y="292" fill="#586b60" font-size="25">至少兩個能做的事</text>
+<rect x="36" y="378" width="360" height="176" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="56" y="413" fill="#586b60" font-size="23">04</text>
+<text x="56" y="463" fill="#193732" font-size="36" font-weight="650">守住影響圈</text>
+<text x="56" y="510" fill="#586b60" font-size="25">用願景邀請別人</text>
+<path d="M399 466H417" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#ecc-arrow)"/>
+<rect x="420" y="378" width="360" height="176" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="440" y="413" fill="#586b60" font-size="23">05</text>
+<text x="440" y="463" fill="#193732" font-size="36" font-weight="650">先排重要事</text>
+<text x="440" y="510" fill="#586b60" font-size="25">重要不緊急先入曆</text>
+<path d="M783 466H801" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#ecc-arrow)"/>
+<rect x="804" y="378" width="360" height="176" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="824" y="413" fill="#586b60" font-size="23">06</text>
+<text x="824" y="463" fill="#193732" font-size="36" font-weight="650">每週回看</text>
+<text x="824" y="510" fill="#586b60" font-size="25">時間精力投哪裡</text>
+<path d="M1020 336V357H216V371" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#ecc-arrow)"/>
+<text x="36" y="591" fill="#586b60" font-size="23">圖解為編輯整理，並非成效證明</text>
+<text x="36" y="625" fill="#586b60" font-size="23">新的不舒服出現，就回到第一步</text>
+</svg>

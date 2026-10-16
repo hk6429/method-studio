@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 800" role="img" aria-labelledby="wu-danru-stop-enduring-title wu-danru-stop-enduring-desc"><title id="wu-danru-stop-enduring-title">一次警告、二次落實的界限方法</title><desc id="wu-danru-stop-enduring-desc">辨識循環 → 定界限 → 第一次警告 → 第二次落實 → 分級與安全。</desc>
+<defs><marker id="wu-danru-stop-enduring-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="480" height="800" fill="#f0f2e9"/>
+<text x="28" y="48" fill="#586b60" font-size="22">吳淡如 · 編輯整理</text>
+<text x="28" y="100" fill="#193732" font-size="27" font-weight="650">一次警告，二次落實</text>
+<path d="M28 126H452" stroke="#bdcbbb"/>
+<rect x="28" y="146" width="424" height="92" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="48" y="181" fill="#d4e2d4" font-size="19">01</text>
+<text x="48" y="208" fill="#fffef9" font-size="28" font-weight="650">辨識循環</text>
+<text x="200" y="208" fill="#d4e2d4" font-size="20">讓步後要求升級</text>
+<path d="M240 238V258" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#wu-danru-stop-enduring-arrow)"/>
+<rect x="28" y="260" width="424" height="92" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="295" fill="#586b60" font-size="19">02</text>
+<text x="48" y="322" fill="#193732" font-size="28" font-weight="650">定界限</text>
+<text x="200" y="322" fill="#586b60" font-size="20">具體、做得到</text>
+<path d="M240 352V372" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#wu-danru-stop-enduring-arrow)"/>
+<rect x="28" y="374" width="424" height="92" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="409" fill="#586b60" font-size="19">03</text>
+<text x="48" y="436" fill="#193732" font-size="28" font-weight="650">第一次警告</text>
+<text x="200" y="436" fill="#586b60" font-size="20">原諒但說清楚</text>
+<path d="M240 466V486" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#wu-danru-stop-enduring-arrow)"/>
+<rect x="28" y="488" width="424" height="92" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="523" fill="#586b60" font-size="19">04</text>
+<text x="48" y="550" fill="#193732" font-size="28" font-weight="650">第二次落實</text>
+<text x="200" y="550" fill="#586b60" font-size="20">照說的做</text>
+<path d="M240 580V600" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#wu-danru-stop-enduring-arrow)"/>
+<rect x="28" y="602" width="424" height="92" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="637" fill="#586b60" font-size="19">05</text>
+<text x="48" y="664" fill="#193732" font-size="28" font-weight="650">分級與安全</text>
+<text x="200" y="664" fill="#586b60" font-size="20">危險處不再回去</text>
+<text x="28" y="745" fill="#586b60" font-size="18">圖解為編輯整理，並非成效證明</text>
+<text x="28" y="775" fill="#586b60" font-size="18">涉及人身安全請撥 113 或尋求專業協助</text>
+</svg>

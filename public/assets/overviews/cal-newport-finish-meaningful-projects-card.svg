@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" role="img" aria-labelledby="cal-newport-finish-meaningful-projects-title cal-newport-finish-meaningful-projects-desc"><title id="cal-newport-finish-meaningful-projects-title">把重要的事做完：生產力清除</title><desc id="cal-newport-finish-meaningful-projects-desc">認出原因 → 分欄列出 → 圈星號 → 砍與合併 → 短衝刺 → 一個月到六週只做星號專案；定期大檢視後回到清單。</desc>
+<defs><marker id="cal-newport-finish-meaningful-projects-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="800" height="480" fill="#f0f2e9"/>
+<text x="36" y="48" fill="#586b60" font-size="26">生產力清除 · 編輯整理</text>
+<text x="36" y="100" fill="#193732" font-size="38" font-weight="650">把重要的事做完</text>
+<path d="M36 126H764" stroke="#bdcbbb"/>
+<path d="M371 216H424" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#cal-newport-finish-meaningful-projects-arrow)"/>
+<path d="M600 277V290H200V300" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#cal-newport-finish-meaningful-projects-arrow)"/>
+<path d="M371 366H424" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#cal-newport-finish-meaningful-projects-arrow)"/>
+<rect x="36" y="160" width="328" height="112" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="56" y="195" fill="#d4e2d4" font-size="23">01</text>
+<text x="56" y="238" fill="#fffef9" font-size="38" font-weight="650">列出</text>
+<text x="56" y="262" fill="#d4e2d4" font-size="20">分欄倒出全部</text>
+<rect x="436" y="160" width="328" height="112" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="456" y="195" fill="#586b60" font-size="23">02</text>
+<text x="456" y="238" fill="#193732" font-size="38" font-weight="650">圈星</text>
+<text x="456" y="262" fill="#586b60" font-size="20">每欄一到兩件</text>
+<rect x="36" y="310" width="328" height="112" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="56" y="345" fill="#586b60" font-size="23">03</text>
+<text x="56" y="388" fill="#193732" font-size="38" font-weight="650">砍掉</text>
+<text x="56" y="412" fill="#586b60" font-size="20">能停就停、合併</text>
+<rect x="436" y="310" width="328" height="112" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="456" y="345" fill="#586b60" font-size="23">04</text>
+<text x="456" y="388" fill="#193732" font-size="38" font-weight="650">專注</text>
+<text x="456" y="412" fill="#586b60" font-size="20">一個月到六週</text>
+<text x="36" y="455" fill="#586b60" font-size="23">定期大檢視，再砍一輪</text>
+</svg>

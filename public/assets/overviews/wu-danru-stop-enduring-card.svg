@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" role="img" aria-labelledby="wu-danru-stop-enduring-title wu-danru-stop-enduring-desc"><title id="wu-danru-stop-enduring-title">一次警告、二次落實的界限方法</title><desc id="wu-danru-stop-enduring-desc">辨識循環 → 定界限 → 第一次警告 → 第二次落實 → 分級與安全。</desc>
+<defs><marker id="wu-danru-stop-enduring-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="800" height="480" fill="#f0f2e9"/>
+<text x="36" y="48" fill="#586b60" font-size="26">吳淡如 · 編輯整理</text>
+<text x="36" y="100" fill="#193732" font-size="36" font-weight="650">一次警告，二次落實</text>
+<path d="M36 126H764" stroke="#bdcbbb"/>
+<rect x="36" y="170" width="132" height="190" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="52" y="205" fill="#d4e2d4" font-size="20">01</text>
+<text x="52" y="260" fill="#fffef9" font-size="22" font-weight="650">辨識循環</text>
+<rect x="184" y="170" width="132" height="190" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="200" y="205" fill="#586b60" font-size="20">02</text>
+<text x="200" y="260" fill="#193732" font-size="22" font-weight="650">定界限</text>
+<rect x="332" y="170" width="132" height="190" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="348" y="205" fill="#586b60" font-size="20">03</text>
+<text x="348" y="260" fill="#193732" font-size="22" font-weight="650">第一次警告</text>
+<rect x="480" y="170" width="132" height="190" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="496" y="205" fill="#586b60" font-size="20">04</text>
+<text x="496" y="260" fill="#193732" font-size="22" font-weight="650">第二次落實</text>
+<rect x="628" y="170" width="132" height="190" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="644" y="205" fill="#586b60" font-size="20">05</text>
+<text x="644" y="260" fill="#193732" font-size="22" font-weight="650">分級與安全</text>
+<text x="36" y="420" fill="#586b60" font-size="23">第一次警告 → 第二次照做</text>
+<text x="36" y="455" fill="#586b60" font-size="18">圖解為編輯整理，並非成效證明</text>
+</svg>

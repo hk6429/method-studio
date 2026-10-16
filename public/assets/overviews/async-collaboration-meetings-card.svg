@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" role="img" aria-labelledby="async-collaboration-meetings-title async-collaboration-meetings-desc"><title id="async-collaboration-meetings-title">會前立好問題與答案，會議才短</title><desc id="async-collaboration-meetings-desc">立關鍵問題 → 備答案 → 定一小時 → 換位推演 → 簡報預問 → 以終為始。</desc>
+<defs><marker id="async-collaboration-meetings-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="800" height="480" fill="#f0f2e9"/>
+<text x="36" y="48" fill="#586b60" font-size="26">異步協作 · 編輯整理</text>
+<text x="36" y="100" fill="#193732" font-size="36" font-weight="650">先想答案，再開會</text>
+<path d="M36 126H764" stroke="#bdcbbb"/>
+<rect x="36" y="150" width="236" height="124" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="56" y="184" fill="#d4e2d4" font-size="20">01</text>
+<text x="56" y="238" fill="#fffef9" font-size="30" font-weight="650">立關鍵問題</text>
+<rect x="282" y="150" width="236" height="124" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="302" y="184" fill="#586b60" font-size="20">02</text>
+<text x="302" y="238" fill="#193732" font-size="30" font-weight="650">備答案</text>
+<rect x="528" y="150" width="236" height="124" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="548" y="184" fill="#586b60" font-size="20">03</text>
+<text x="548" y="238" fill="#193732" font-size="30" font-weight="650">定一小時</text>
+<rect x="36" y="306" width="236" height="124" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="56" y="340" fill="#586b60" font-size="20">04</text>
+<text x="56" y="394" fill="#193732" font-size="30" font-weight="650">換位推演</text>
+<rect x="282" y="306" width="236" height="124" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="302" y="340" fill="#586b60" font-size="20">05</text>
+<text x="302" y="394" fill="#193732" font-size="30" font-weight="650">簡報預問</text>
+<rect x="528" y="306" width="236" height="124" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="548" y="340" fill="#586b60" font-size="20">06</text>
+<text x="548" y="394" fill="#193732" font-size="30" font-weight="650">以終為始</text>
+<path d="M274 212H280" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#async-collaboration-meetings-arrow)"/>
+<path d="M520 212H526" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#async-collaboration-meetings-arrow)"/>
+<path d="M646 276V291H154V304" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#async-collaboration-meetings-arrow)"/>
+<path d="M274 368H280" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#async-collaboration-meetings-arrow)"/>
+<path d="M520 368H526" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#async-collaboration-meetings-arrow)"/>
+<text x="36" y="462" fill="#586b60" font-size="20">圖解為編輯整理，並非成效證明</text>
+</svg>

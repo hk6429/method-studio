@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 650" role="img" aria-labelledby="cal-newport-finish-meaningful-projects-title cal-newport-finish-meaningful-projects-desc"><title id="cal-newport-finish-meaningful-projects-title">把重要的事做完：生產力清除</title><desc id="cal-newport-finish-meaningful-projects-desc">認出原因 → 分欄列出 → 圈星號 → 砍與合併 → 短衝刺 → 一個月到六週只做星號專案；定期大檢視後回到清單。</desc>
+<defs><marker id="cal-newport-finish-meaningful-projects-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="1200" height="650" fill="#f0f2e9"/>
+<text x="36" y="56" fill="#586b60" font-size="26">生產力清除 · 編輯整理</text>
+<text x="36" y="108" fill="#193732" font-size="40" font-weight="650">把重要的事做完</text>
+<path d="M36 130H1164" stroke="#bdcbbb"/>
+<path d="M376 245H428" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#cal-newport-finish-meaningful-projects-arrow)"/>
+<path d="M770 245H822" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#cal-newport-finish-meaningful-projects-arrow)"/>
+<path d="M994 325V350H206V373" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#cal-newport-finish-meaningful-projects-arrow)"/>
+<path d="M376 455H428" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#cal-newport-finish-meaningful-projects-arrow)"/>
+<path d="M770 455H822" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#cal-newport-finish-meaningful-projects-arrow)"/>
+<rect x="36" y="165" width="340" height="160" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="56" y="203" fill="#d4e2d4" font-size="24">01</text>
+<text x="56" y="267.4" fill="#fffef9" font-size="38" font-weight="650">認出原因</text>
+<text x="56" y="311" fill="#d4e2d4" font-size="22">愛開始的快感＋小動作</text>
+<rect x="430" y="165" width="340" height="160" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="450" y="203" fill="#586b60" font-size="24">02</text>
+<text x="450" y="267.4" fill="#193732" font-size="38" font-weight="650">分欄列出</text>
+<text x="450" y="311" fill="#586b60" font-size="22">全部事項攤在紙上</text>
+<rect x="824" y="165" width="340" height="160" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="844" y="203" fill="#586b60" font-size="24">03</text>
+<text x="844" y="267.4" fill="#193732" font-size="38" font-weight="650">圈星號</text>
+<text x="844" y="311" fill="#586b60" font-size="22">每欄一到兩件</text>
+<rect x="36" y="375" width="340" height="160" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="56" y="413" fill="#586b60" font-size="24">04</text>
+<text x="56" y="477.4" fill="#193732" font-size="38" font-weight="650">砍與合併</text>
+<text x="56" y="521" fill="#586b60" font-size="22">沒有嚴重後果就停</text>
+<rect x="430" y="375" width="340" height="160" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="450" y="413" fill="#586b60" font-size="24">05</text>
+<text x="450" y="477.4" fill="#193732" font-size="38" font-weight="650">短衝刺</text>
+<text x="450" y="521" fill="#586b60" font-size="22">欠的事一到三週結案</text>
+<rect x="824" y="375" width="340" height="160" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="844" y="413" fill="#586b60" font-size="24">06</text>
+<text x="844" y="477.4" fill="#193732" font-size="38" font-weight="650">專注期</text>
+<text x="844" y="521" fill="#586b60" font-size="22">一個月到六週不開新案</text>
+<text x="36" y="595" fill="#586b60" font-size="24">每季或每學期大檢視，回到清單再砍一輪（含待定清單）</text>
+<text x="36" y="628" fill="#586b60" font-size="20">圖解為編輯整理，並非成效證明</text>
+</svg>
