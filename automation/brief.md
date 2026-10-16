@@ -1,6 +1,6 @@
 # 方法練習室 自動撰稿簡報（子代理用，v2 全自動版）
 
-你負責 **一篇** 方法文章的完整流程：抓逐字稿 → 判斷是否為方法 → 撰寫 → 自驗 → 回寫 Notion。
+你負責 **一篇** 方法文章的完整流程：抓逐字稿 → 判斷是否為方法 → 撰寫 → 自驗 → 交回待發布草稿。
 網站 repo：`~/projects/method-studio`（**不可改動 repo 任何檔案**，只寫到指派的輸出資料夾 OUT）。
 逐字稿放到指派的 TX 資料夾。今天日期以 `date +%F` 為準。
 
@@ -42,12 +42,11 @@ for f in OUT/<slug>.svg OUT/<slug>-mobile.svg OUT/<slug>-card.svg; do xmllint --
 ```
 另用腳本核對每個 sourceRefs 的秒數都存在於逐字稿 [mm:ss]。
 
-## 5. 回寫 Notion（用 notion-update-page，update_properties）
-指派的 page id 以及所有「重複 page id」都要：`{"完成":"__YES__","方法室":"已收錄","方法室連結":"https://method-studio-7dm.pages.dev/#method=<slug>"}`。
-（不適用／失敗時只設「方法室」，不勾完成。）
+## 5. 交回草稿，等待整批發布
+只回報主來源與重複 page id，不提前標記「已收錄」，不改「完成」。總管必須湊齊 20 篇、檢查並確認正式站後才回填 Notion。
 
 ## 6. 回報（10 行內）
-slug、標題、categoryId/topicIds、逐字稿來源與語言、Notion 回寫結果、不確定處。不要貼全文。
+slug、標題、categoryId/topicIds、逐字稿來源與語言、Notion page id 與待發布狀態、不確定處。不要貼全文。
 
 ## 寫法
 先讀完逐字稿，找出「要解決的問題 → 核心主張 → 可操作動作 → 例子 → 完成判準」，寫成老師帶學生／大人自學都能照做的步驟。語氣溫暖具體，像老師對朋友說話，不空談。

@@ -1,13 +1,34 @@
 import fs from 'node:fs';import path from 'node:path';
-const [,,outDir,repo]=process.argv;const cat=path.join(repo,'data/catalog.json');
-const c=JSON.parse(fs.readFileSync(cat,'utf8'));const ids=new Set(c.methods.map(m=>m.id));
-const files=fs.readdirSync(outDir).filter(f=>f.endsWith('.json')).sort();let n=0;
-const base=new Date();
-for(const f of files){const m=JSON.parse(fs.readFileSync(path.join(outDir,f),'utf8'));
-  if(ids.has(m.id)){console.log('skip existing',m.id);continue;}
-  const t=new Date(base.getTime()+n*1000);const pad=x=>String(x).padStart(2,'0');
-  m.publishedAt=`${t.getFullYear()}-${pad(t.getMonth()+1)}-${pad(t.getDate())}T${pad(t.getHours())}:${pad(t.getMinutes())}:${pad(t.getSeconds())}+08:00`;
-  for(const suf of ['','-mobile','-card']){const src=path.join(outDir,`${m.id}${suf}.svg`);if(!fs.existsSync(src))throw new Error('missing svg '+src);
-    fs.copyFileSync(src,path.join(repo,'public/assets/overviews',`${m.id}${suf}.svg`));}
-  c.methods.push(m);ids.add(m.id);n++;console.log('added',m.id,m.publishedAt);}
-fs.writeFileSync(cat,JSON.stringify(c,null,2)+'\n');console.log('total methods',c.methods.length);
+import {validateCatalog} from '../scripts/catalog.mjs';
+export function mergeBatch(outDir,repo){
+  const cat=path.join(repo,'data/catalog.json');const original=fs.readFileSync(cat,'utf8');
+  const c=JSON.parse(original);const ids=new Set(c.methods.map(m=>m.id));
+  const urls=new Set(c.methods.flatMap(m=>m.sources.map(s=>s.url).filter(Boolean)));
+  const videos=new Set(c.methods.flatMap(m=>m.sources.map(s=>s.videoId).filter(Boolean)));
+  const files=fs.readdirSync(outDir).filter(f=>f.endsWith('.json')).sort();
+  const items=files.map(f=>JSON.parse(fs.readFileSync(path.join(outDir,f),'utf8')));
+  if(items.length!==20)throw new Error(`整批發布需要 20 篇，目前 ${items.length} 篇；保留草稿，不合併。`);
+  const assets=[];const base=Date.now();
+  for(const [n,m] of items.entries()){
+    if(ids.has(m.id))throw new Error('重複文章 ID：'+m.id);ids.add(m.id);
+    for(const s of m.sources){
+      if((s.url&&urls.has(s.url))||(s.videoId&&videos.has(s.videoId)))throw new Error('已使用的來源：'+m.id);
+    }
+    for(const s of m.sources){if(s.url)urls.add(s.url);if(s.videoId)videos.add(s.videoId);}
+    m.publishedAt=new Date(base+n*1000).toISOString();
+    for(const suf of ['','-mobile','-card']){
+      const name=`${m.id}${suf}.svg`;const src=path.join(outDir,name);const dest=path.join(repo,'public/assets/overviews',name);
+      if(!fs.existsSync(src))throw new Error('缺少圖解：'+src);
+      if(fs.existsSync(dest))throw new Error('目標圖解已存在，請先確認：'+dest);
+      assets.push({dest,data:fs.readFileSync(src)});
+    }
+  }
+  c.methods.push(...items);const errors=validateCatalog(c);if(errors.length)throw new Error(errors.join('\n'));
+  if(fs.readFileSync(cat,'utf8')!==original)throw new Error('文章清單已變動，請重新去重與檢查。');
+  for(const asset of assets)fs.writeFileSync(asset.dest,asset.data,{flag:'wx'});
+  fs.writeFileSync(cat,JSON.stringify(c,null,2)+'\n');
+  console.log('已合併 20 篇；總篇數',c.methods.length);return c;
+}
+if(process.argv[1]&&path.resolve(process.argv[1])===new URL(import.meta.url).pathname){
+  const [,,outDir,repo]=process.argv;if(!outDir||!repo)throw new Error('用法：node automation/merge.mjs <outDir> <repo>');mergeBatch(outDir,repo);
+}
