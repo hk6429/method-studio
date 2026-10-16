@@ -227,6 +227,14 @@ svg { flex-shrink: 0; }
 .method-meta { display: flex; align-items: center; flex-wrap: wrap; gap: 12px 20px; margin-top: 23px; color: #6f7c66; font-size: 11px; }
 .method-meta > span { display: inline-flex; align-items: center; gap: 6px; }
 .method-meta .icon { width: 15px; height: 15px; }
+.article-attribution { margin-top: 20px; padding: 18px 22px; border-left: 3px solid var(--green); background: var(--green-wash); }
+.article-attribution .small-label { margin: 0 0 9px; }
+.attribution-item + .attribution-item { margin-top: 14px; }
+.attribution-channel { margin: 0 0 4px; font-size: 13px; font-weight: 700; color: var(--green); }
+.article-attribution .source-link { font-size: 15px; line-height: 1.7; overflow-wrap: anywhere; }
+.attribution-address { margin: 4px 0 0; font-size: 11px; color: var(--muted); overflow-wrap: anywhere; }
+.attribution-note { margin: 12px 0 8px; font-size: 12px; line-height: 1.8; color: var(--muted); }
+.attribution-details { padding: 4px 0; border: 0; background: transparent; color: var(--green); font: inherit; font-size: 12px; text-decoration: underline; cursor: pointer; }
 .method-layout { display: grid; grid-template-columns: minmax(0, 1fr) 246px; gap: 68px; padding-top: 38px; }
 .method-content { min-width: 0; }
 .output-box { padding: 25px 29px; border-left: 3px solid var(--green); background: var(--green-wash); }

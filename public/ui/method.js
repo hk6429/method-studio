@@ -177,6 +177,21 @@ export function renderMethod(method, options = {}) {
   const heading = el('header', { class: 'method-heading page-width' },
     el('div', { class: 'method-kicker' }, el('span', { class: 'eyebrow' }, preview ? 'READING PREVIEW / 文章版型' : `${categoryName} / 方法筆記`), ...topics.map(topic => el('span', { class: 'topic-label' }, topic))),
     el('h1', {}, method.title),
+    sources.length ? el('section', { class: 'article-attribution', 'aria-label': '原始出處' },
+      el('p', { class: 'small-label' }, '原始出處'),
+      sources.map(source => el('div', { class: 'attribution-item' },
+        source.channel ? el('p', { class: 'attribution-channel' }, source.channel) : null,
+        sourceLink(source, source.title),
+        safeURL(source.url) ? el('p', { class: 'attribution-address' }, new URL(source.url).hostname) : null
+      )),
+      el('p', { class: 'attribution-note' }, '本文由方法練習室整理改寫；練習與示範另有編輯補充。'),
+      el('button', { type: 'button', class: 'attribution-details', onClick: () => {
+        const target = article.querySelector('#method-sources');
+        target?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        target?.setAttribute('tabindex', '-1');
+        target?.focus({ preventScroll: true });
+      } }, '查看取材範圍與完整來源')
+    ) : null,
     method.overview ? el('figure', { class: 'article-overview' },
       el('picture', {},
         el('source', { media: '(max-width: 600px)', srcset: method.overview.mobileImage }),
