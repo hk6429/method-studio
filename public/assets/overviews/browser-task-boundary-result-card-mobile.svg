@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 960" role="img" aria-labelledby="title desc">
+<title id="title">雜務也要有操作界線</title>
+<desc id="desc">縮任務 → 列條件 → 定停止 → 留證據。編輯整理，非成效證明。</desc>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="640" height="960" fill="#f0f2e9"/>
+<text x="32" y="48" font-size="22" font-weight="400" fill="#586b60">方法練習室 · 編輯整理</text>
+<text x="32" y="105" font-size="34" font-weight="650" fill="#193732">雜務也要有操作界線</text>
+<path d="M32 132H608" stroke="#bdcbbb"/>
+<rect x="32" y="168" width="576" height="150" rx="8" fill="#193732" stroke="#bdcbbb"/>
+<text x="52" y="202" font-size="22" font-weight="400" fill="#d4e2d4">01</text>
+<text x="52" y="248" font-size="32" font-weight="650" fill="#fffef9">縮任務</text>
+<text x="52" y="293" font-size="26" font-weight="400" fill="#d4e2d4">公開網站小範圍</text>
+<path d="M320 323v18m-6-6 6 6 6-6" fill="none" stroke="#586b60" stroke-width="2"/>
+<rect x="32" y="348" width="576" height="150" rx="8" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="52" y="382" font-size="22" font-weight="400" fill="#586b60">02</text>
+<text x="52" y="428" font-size="32" font-weight="650" fill="#193732">列條件</text>
+<text x="52" y="473" font-size="26" font-weight="400" fill="#586b60">符合排除都明確</text>
+<path d="M320 503v18m-6-6 6 6 6-6" fill="none" stroke="#586b60" stroke-width="2"/>
+<rect x="32" y="528" width="576" height="150" rx="8" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="52" y="562" font-size="22" font-weight="400" fill="#586b60">03</text>
+<text x="52" y="608" font-size="32" font-weight="650" fill="#193732">定停止</text>
+<text x="52" y="653" font-size="26" font-weight="400" fill="#586b60">敏感寫入先停下</text>
+<path d="M320 683v18m-6-6 6 6 6-6" fill="none" stroke="#586b60" stroke-width="2"/>
+<rect x="32" y="708" width="576" height="150" rx="8" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="52" y="742" font-size="22" font-weight="400" fill="#586b60">04</text>
+<text x="52" y="788" font-size="32" font-weight="650" fill="#193732">留證據</text>
+<text x="52" y="833" font-size="26" font-weight="400" fill="#586b60">原頁結果能核對</text>
+<text x="32" y="932" font-size="22" font-weight="400" fill="#586b60">依文章步驟試做，留下可回看的成果</text>
+</svg>
