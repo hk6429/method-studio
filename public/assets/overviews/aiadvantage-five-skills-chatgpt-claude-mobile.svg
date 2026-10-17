@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 800" role="img" aria-labelledby="aiadvantage-five-skills-chatgpt-claude-m-title aiadvantage-five-skills-chatgpt-claude-m-desc"><title id="aiadvantage-five-skills-chatgpt-claude-m-title">把重複流程存成 Skill：五個常備技能</title><desc id="aiadvantage-five-skills-chatgpt-claude-m-desc">認識 Skill → grilling → 報告生成器 → Idea Refine → ELI5 → unslop。</desc>
+<defs><marker id="aiadvantage-five-skills-chatgpt-claude-m-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="480" height="800" fill="#f0f2e9"/>
+<text x="28" y="48" fill="#586b60" font-size="18">AI 工作流 · 編輯整理</text>
+<text x="28" y="88" fill="#193732" font-size="26" font-weight="650">把重複流程存成 Skill</text>
+<path d="M28 108H452" stroke="#bdcbbb"/>
+<rect x="28" y="132" width="424" height="84" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="46" y="168" fill="#586b60" font-size="18">01</text>
+<text x="84" y="170" fill="#193732" font-size="26" font-weight="650">認識 Skill</text>
+<text x="84" y="198" fill="#586b60" font-size="16">會用 skill creator</text>
+<path d="M240 216V234" stroke="#586b60" stroke-width="2.5" marker-end="url(#aiadvantage-five-skills-chatgpt-claude-m-arrow)"/>
+<rect x="28" y="236" width="424" height="84" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="46" y="272" fill="#586b60" font-size="18">02</text>
+<text x="84" y="274" fill="#193732" font-size="26" font-weight="650">grilling</text>
+<text x="84" y="302" fill="#586b60" font-size="16">逐輪追問想法</text>
+<path d="M240 320V338" stroke="#586b60" stroke-width="2.5" marker-end="url(#aiadvantage-five-skills-chatgpt-claude-m-arrow)"/>
+<rect x="28" y="340" width="424" height="84" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="46" y="376" fill="#586b60" font-size="18">03</text>
+<text x="84" y="378" fill="#193732" font-size="26" font-weight="650">報告生成器</text>
+<text x="84" y="406" fill="#586b60" font-size="16">六步才交成品</text>
+<path d="M240 424V442" stroke="#586b60" stroke-width="2.5" marker-end="url(#aiadvantage-five-skills-chatgpt-claude-m-arrow)"/>
+<rect x="28" y="444" width="424" height="84" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="46" y="480" fill="#586b60" font-size="18">04</text>
+<text x="84" y="482" fill="#193732" font-size="26" font-weight="650">Idea Refine</text>
+<text x="84" y="510" fill="#586b60" font-size="16">五到八種變體</text>
+<path d="M240 528V546" stroke="#586b60" stroke-width="2.5" marker-end="url(#aiadvantage-five-skills-chatgpt-claude-m-arrow)"/>
+<rect x="28" y="548" width="424" height="84" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="46" y="584" fill="#586b60" font-size="18">05</text>
+<text x="84" y="586" fill="#193732" font-size="26" font-weight="650">ELI5</text>
+<text x="84" y="614" fill="#586b60" font-size="16">複雜主題變圖解</text>
+<path d="M240 632V650" stroke="#586b60" stroke-width="2.5" marker-end="url(#aiadvantage-five-skills-chatgpt-claude-m-arrow)"/>
+<rect x="28" y="652" width="424" height="84" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="46" y="688" fill="#d4e2d4" font-size="18">06</text>
+<text x="84" y="690" fill="#fffef9" font-size="26" font-weight="650">unslop</text>
+<text x="84" y="718" fill="#d4e2d4" font-size="16">去 AI 味，先讀再裝</text>
+<text x="28" y="780" fill="#586b60" font-size="15">安裝別人的 Skill 前，先讀過全文</text>
+</svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 800" role="img" aria-labelledby="xutingshao-three-types-of-inner-friction-title xutingshao-three-types-of-inner-friction-desc"><title id="xutingshao-three-types-of-inner-friction-title">內耗回穩流程（手機版）</title><desc id="xutingshao-three-types-of-inner-friction-desc">五步：認出型態、自檢問句、呼吸安撫、問我在怕什麼、立自己的標準。</desc>
+<defs><marker id="xutingshao-three-types-of-inner-friction-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="480" height="800" fill="#f0f2e9"/>
+<text x="24" y="40" fill="#586b60" font-size="18">EP703 · 編輯整理</text>
+<text x="24" y="84" fill="#193732" font-size="30" font-weight="650">內耗不是個性</text>
+<path d="M24 104H456" stroke="#bdcbbb"/>
+<rect x="24" y="124" width="432" height="96" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="42" y="152" fill="#d4e2d4" font-size="16">01</text>
+<text x="42" y="184" fill="#fffef9" font-size="26" font-weight="650">認出型態</text>
+<text x="42" y="208" fill="#d4e2d4" font-size="17">漩渦、交戰、外界壓力</text>
+<path d="M240 220V246" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#xutingshao-three-types-of-inner-friction-arrow)"/>
+<rect x="24" y="248" width="432" height="96" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="42" y="276" fill="#586b60" font-size="16">02</text>
+<text x="42" y="308" fill="#193732" font-size="26" font-weight="650">自檢問句</text>
+<text x="42" y="332" fill="#586b60" font-size="17">讓我更喜歡自己嗎</text>
+<path d="M240 344V370" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#xutingshao-three-types-of-inner-friction-arrow)"/>
+<rect x="24" y="372" width="432" height="96" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="42" y="400" fill="#586b60" font-size="16">03</text>
+<text x="42" y="432" fill="#193732" font-size="26" font-weight="650">呼吸安撫</text>
+<text x="42" y="456" fill="#586b60" font-size="17">吸四秒、吐六秒</text>
+<path d="M240 468V494" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#xutingshao-three-types-of-inner-friction-arrow)"/>
+<rect x="24" y="496" width="432" height="96" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="42" y="524" fill="#586b60" font-size="16">04</text>
+<text x="42" y="556" fill="#193732" font-size="26" font-weight="650">問我在怕什麼</text>
+<text x="42" y="580" fill="#586b60" font-size="17">寫出具體的擔心</text>
+<path d="M240 592V618" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#xutingshao-three-types-of-inner-friction-arrow)"/>
+<rect x="24" y="620" width="432" height="96" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="42" y="648" fill="#586b60" font-size="16">05</text>
+<text x="42" y="680" fill="#193732" font-size="26" font-weight="650">立自己的標準</text>
+<text x="42" y="704" fill="#586b60" font-size="17">自己當靠山</text>
+<text x="24" y="776" fill="#586b60" font-size="16">圖解為編輯整理，並非成效證明</text>
+</svg>

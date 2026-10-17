@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 650" role="img" aria-labelledby="ai-lazy-report-zeabur-self-protection-title ai-lazy-report-zeabur-self-protection-desc"><title id="ai-lazy-report-zeabur-self-protection-title">AI 金鑰自保六步</title><desc id="ai-lazy-report-zeabur-self-protection-desc">查前端金鑰 → 查資料庫 → 設花費上限 → 另一位檢查者 → 外洩照順序處理 → 每月複查。</desc>
+<defs><marker id="ai-lazy-report-zeabur-self-protection-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="1200" height="650" fill="#f0f2e9"/>
+<text x="36" y="48" fill="#586b60" font-size="26">AI懶人報 · 編輯整理</text>
+<text x="36" y="100" fill="#193732" font-size="42" font-weight="650">金鑰會被看到，損失要有上限</text>
+<path d="M36 126H1164" stroke="#bdcbbb"/>
+<rect x="36" y="160" width="352" height="176" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="56" y="195" fill="#d4e2d4" font-size="23">01</text>
+<text x="56" y="241" fill="#fffef9" font-size="38" font-weight="650">查前端金鑰</text>
+<text x="56" y="280" fill="#d4e2d4" font-size="25">Network 搜 sk-</text>
+<rect x="424" y="160" width="352" height="176" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="444" y="195" fill="#586b60" font-size="23">02</text>
+<text x="444" y="241" fill="#193732" font-size="38" font-weight="650">查資料庫</text>
+<text x="444" y="280" fill="#586b60" font-size="25">開保護、別用管理鑰</text>
+<rect x="812" y="160" width="352" height="176" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="832" y="195" fill="#586b60" font-size="23">03</text>
+<text x="832" y="241" fill="#193732" font-size="38" font-weight="650">設花費上限</text>
+<text x="832" y="280" fill="#586b60" font-size="25">月預算、限頻、刪舊鑰</text>
+<rect x="36" y="378" width="352" height="176" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="56" y="413" fill="#586b60" font-size="23">04</text>
+<text x="56" y="459" fill="#193732" font-size="38" font-weight="650">另一位檢查者</text>
+<text x="56" y="498" fill="#586b60" font-size="25">複查並自測網址編號</text>
+<rect x="424" y="378" width="352" height="176" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="444" y="413" fill="#586b60" font-size="23">05</text>
+<text x="444" y="459" fill="#193732" font-size="38" font-weight="650">外洩照順序</text>
+<text x="444" y="498" fill="#586b60" font-size="25">先撤銷、再查帳單</text>
+<rect x="812" y="378" width="352" height="176" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="832" y="413" fill="#586b60" font-size="23">06</text>
+<text x="832" y="459" fill="#193732" font-size="38" font-weight="650">每月複查</text>
+<text x="832" y="498" fill="#586b60" font-size="25">告警與消費通知</text>
+<path d="M388 248H424" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#ai-lazy-report-zeabur-self-protection-arrow)"/>
+<path d="M776 248H812" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#ai-lazy-report-zeabur-self-protection-arrow)"/>
+<path d="M988 336V350H212V378" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#ai-lazy-report-zeabur-self-protection-arrow)"/>
+<path d="M388 466H424" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#ai-lazy-report-zeabur-self-protection-arrow)"/>
+<path d="M776 466H812" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#ai-lazy-report-zeabur-self-protection-arrow)"/>
+<text x="36" y="591" fill="#586b60" font-size="23">圖解為編輯整理，並非成效證明</text>
+<text x="36" y="625" fill="#586b60" font-size="23">只檢查自己的網站與帳號，不測試別人的系統</text>
+</svg>

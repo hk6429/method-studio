@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 800" role="img" aria-labelledby="ai-lazy-report-ep399-three-thinking-not-outsourced-title ai-lazy-report-ep399-three-thinking-not-outsourced-desc"><title id="ai-lazy-report-ep399-three-thinking-not-outsourced-title">AI 分工：哪些思考不能外包</title><desc id="ai-lazy-report-ep399-three-thinking-not-outsourced-desc">盤點待辦 → 彙報外包 → 自己寫第一稿 → AI 查證反駁 → 故事先行 → 放大嘗試。</desc>
+<defs><marker id="ai-lazy-report-ep399-three-thinking-not-outsourced-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="480" height="800" fill="#f0f2e9"/>
+<text x="28" y="48" fill="#586b60" font-size="22">AI 懶人報 EP399 · 編輯整理</text>
+<text x="28" y="100" fill="#193732" font-size="27" font-weight="650">哪些思考不能外包</text>
+<path d="M28 126H452" stroke="#bdcbbb"/>
+<rect x="28" y="154" width="424" height="82" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="48" y="182" fill="#d4e2d4" font-size="20">01</text>
+<text x="48" y="208" fill="#fffef9" font-size="28" font-weight="650">先盤點</text>
+<text x="48" y="228" fill="#d4e2d4" font-size="19">划槳或掌舵</text>
+<path d="M240 236V252" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#ai-lazy-report-ep399-three-thinking-not-outsourced-arrow)"/>
+<rect x="28" y="252" width="424" height="82" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="280" fill="#586b60" font-size="20">02</text>
+<text x="48" y="306" fill="#193732" font-size="28" font-weight="650">彙報外包</text>
+<text x="48" y="326" fill="#586b60" font-size="19">換格式交給 AI</text>
+<path d="M240 334V350" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#ai-lazy-report-ep399-three-thinking-not-outsourced-arrow)"/>
+<rect x="28" y="350" width="424" height="82" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="378" fill="#586b60" font-size="20">03</text>
+<text x="48" y="404" fill="#193732" font-size="28" font-weight="650">自己寫第一稿</text>
+<text x="48" y="424" fill="#586b60" font-size="19">思考型寫作</text>
+<path d="M240 432V448" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#ai-lazy-report-ep399-three-thinking-not-outsourced-arrow)"/>
+<rect x="28" y="448" width="424" height="82" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="476" fill="#586b60" font-size="20">04</text>
+<text x="48" y="502" fill="#193732" font-size="28" font-weight="650">AI 查證反駁</text>
+<text x="48" y="522" fill="#586b60" font-size="19">不代筆</text>
+<path d="M240 530V546" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#ai-lazy-report-ep399-three-thinking-not-outsourced-arrow)"/>
+<rect x="28" y="546" width="424" height="82" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="574" fill="#586b60" font-size="20">05</text>
+<text x="48" y="600" fill="#193732" font-size="28" font-weight="650">故事先行</text>
+<text x="48" y="620" fill="#586b60" font-size="19">定位與品位</text>
+<path d="M240 628V644" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#ai-lazy-report-ep399-three-thinking-not-outsourced-arrow)"/>
+<rect x="28" y="644" width="424" height="82" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="672" fill="#586b60" font-size="20">06</text>
+<text x="48" y="698" fill="#193732" font-size="28" font-weight="650">放大嘗試</text>
+<text x="48" y="718" fill="#586b60" font-size="19">十倍大、十倍快</text>
+<text x="28" y="741" fill="#586b60" font-size="18">圖解為編輯整理，並非成效證明</text>
+<text x="28" y="775" fill="#586b60" font-size="19">換格式的交給 AI；要觀點的，第一稿自己來</text>
+</svg>

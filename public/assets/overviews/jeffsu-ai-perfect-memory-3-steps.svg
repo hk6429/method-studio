@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 650" role="img" aria-labelledby="jeffsu-ai-perfect-memory-3-steps-title jeffsu-ai-perfect-memory-3-steps-desc"><title id="jeffsu-ai-perfect-memory-3-steps-title">讓 AI 記得你的三層記憶法</title><desc id="jeffsu-ai-perfect-memory-3-steps-desc">全域記憶 → 專案記憶 → 自建記憶；先分層，再每月回看修剪。</desc>
+<defs><marker id="jeffsu-ai-perfect-memory-3-steps-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="1200" height="650" fill="#f0f2e9"/>
+<text x="36" y="48" fill="#586b60" font-size="26">Jeff Su · 編輯整理</text>
+<text x="36" y="100" fill="#193732" font-size="42" font-weight="650">讓 AI 記得你，不必每次重講</text>
+<path d="M36 126H1164" stroke="#bdcbbb"/>
+<path d="M564 248H624" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#jeffsu-ai-perfect-memory-3-steps-arrow)"/>
+<path d="M564 466H624" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#jeffsu-ai-perfect-memory-3-steps-arrow)"/>
+<path d="M900 336V354H300V368" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#jeffsu-ai-perfect-memory-3-steps-arrow)"/>
+<rect x="36" y="160" width="528" height="176" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="56" y="195" fill="#d4e2d4" font-size="23">01</text>
+<text x="56" y="245" fill="#fffef9" font-size="38" font-weight="650">全域記憶</text>
+<text x="56" y="292" fill="#d4e2d4" font-size="27">角色與文風等大方向</text>
+<rect x="636" y="160" width="528" height="176" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="656" y="195" fill="#586b60" font-size="23">02</text>
+<text x="656" y="245" fill="#193732" font-size="38" font-weight="650">專案記憶</text>
+<text x="656" y="292" fill="#586b60" font-size="27">同領域任務的偏好</text>
+<rect x="36" y="378" width="528" height="176" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="56" y="413" fill="#586b60" font-size="23">03</text>
+<text x="56" y="463" fill="#193732" font-size="38" font-weight="650">自建記憶</text>
+<text x="56" y="510" fill="#586b60" font-size="27">你決定寫什麼</text>
+<rect x="636" y="378" width="528" height="176" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="656" y="413" fill="#586b60" font-size="23">04</text>
+<text x="656" y="463" fill="#193732" font-size="38" font-weight="650">分層與修剪</text>
+<text x="656" y="510" fill="#586b60" font-size="27">先分層，每月回看</text>
+<text x="36" y="591" fill="#586b60" font-size="23">圖解為編輯整理，並非成效證明</text>
+<text x="36" y="625" fill="#586b60" font-size="23">範圍越大，越只放高層次的事</text>
+</svg>

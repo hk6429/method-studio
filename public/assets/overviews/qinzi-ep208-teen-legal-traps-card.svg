@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" role="img" aria-labelledby="qinzi-ep208-teen-legal-traps-title qinzi-ep208-teen-legal-traps-desc"><title id="qinzi-ep208-teen-legal-traps-title">孩子說只是打工時的五個動作</title><desc id="qinzi-ep208-teen-legal-traps-desc">先敢說 → 查打工 → 穩交易 → 快報案 → 談責任；親子防詐五個動作。</desc>
+<defs><marker id="qinzi-ep208-teen-legal-traps-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="800" height="480" fill="#f0f2e9"/>
+<text x="36" y="48" fill="#586b60" font-size="26">親子天下Podcast EP.208</text>
+<text x="36" y="100" fill="#193732" font-size="36" font-weight="650">先查再聊：親子防詐</text>
+<path d="M36 126H764" stroke="#bdcbbb"/>
+<path d="M260 215H288" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#qinzi-ep208-teen-legal-traps-arrow)"/>
+<path d="M512 215H540" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#qinzi-ep208-teen-legal-traps-arrow)"/>
+<path d="M652 270V300" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#qinzi-ep208-teen-legal-traps-arrow)"/>
+<rect x="36" y="160" width="224" height="110" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="56" y="195" fill="#d4e2d4" font-size="20">01</text>
+<text x="56" y="245" fill="#fffef9" font-size="32" font-weight="650">先敢說</text>
+<rect x="288" y="160" width="224" height="110" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="308" y="195" fill="#586b60" font-size="20">02</text>
+<text x="308" y="245" fill="#193732" font-size="32" font-weight="650">查打工</text>
+<rect x="540" y="160" width="224" height="110" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="560" y="195" fill="#586b60" font-size="20">03</text>
+<text x="560" y="245" fill="#193732" font-size="32" font-weight="650">穩交易</text>
+<rect x="540" y="305" width="224" height="110" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="560" y="340" fill="#586b60" font-size="20">04</text>
+<text x="560" y="390" fill="#193732" font-size="32" font-weight="650">快報案</text>
+<rect x="288" y="305" width="224" height="110" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="308" y="340" fill="#586b60" font-size="20">05</text>
+<text x="308" y="390" fill="#193732" font-size="32" font-weight="650">談責任</text>
+<path d="M540 360H512" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#qinzi-ep208-teen-legal-traps-arrow)"/>
+<text x="36" y="455" fill="#586b60" font-size="21">編輯整理，非成效證明，非法律建議</text>
+</svg>

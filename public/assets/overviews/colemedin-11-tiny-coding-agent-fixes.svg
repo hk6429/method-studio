@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 650" role="img" aria-labelledby="colemedin-11-tiny-coding-agent-fixes-title colemedin-11-tiny-coding-agent-fixes-desc"><title id="colemedin-11-tiny-coding-agent-fixes-title">不改工作流也能更穩的六個動作</title><desc id="colemedin-11-tiny-coding-agent-fixes-desc">規則寫給 agent → 查規則漂移 → 必做改 hook → 保住脈絡額度 → 卡住就交接 → 新對話審查。</desc>
+<defs><marker id="colemedin-11-tiny-coding-agent-fixes-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="1200" height="650" fill="#f0f2e9"/>
+<text x="36" y="48" fill="#586b60" font-size="26">CLAUDE CODE · 編輯整理</text>
+<text x="36" y="100" fill="#193732" font-size="42" font-weight="650">不改工作流也能更穩的六個動作</text>
+<path d="M36 126H1164" stroke="#bdcbbb"/>
+<path d="M571 208H624" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#colemedin-11-tiny-coding-agent-fixes-arrow)"/>
+<path d="M571 358H624" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#colemedin-11-tiny-coding-agent-fixes-arrow)"/>
+<path d="M571 508H624" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#colemedin-11-tiny-coding-agent-fixes-arrow)"/>
+<path d="M900 270V283H300V290" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#colemedin-11-tiny-coding-agent-fixes-arrow)"/>
+<path d="M900 420V433H300V440" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#colemedin-11-tiny-coding-agent-fixes-arrow)"/>
+<rect x="36" y="146" width="528" height="124" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="56" y="181" fill="#d4e2d4" font-size="22">01</text>
+<text x="56" y="214" fill="#fffef9" font-size="34" font-weight="650">規則寫給 agent</text>
+<text x="56" y="252" fill="#d4e2d4" font-size="24">具體、精簡</text>
+<rect x="636" y="146" width="528" height="124" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="656" y="181" fill="#586b60" font-size="22">02</text>
+<text x="656" y="214" fill="#193732" font-size="34" font-weight="650">查規則漂移</text>
+<text x="656" y="252" fill="#586b60" font-size="24">規則對得上程式</text>
+<rect x="36" y="296" width="528" height="124" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="56" y="331" fill="#586b60" font-size="22">03</text>
+<text x="56" y="364" fill="#193732" font-size="34" font-weight="650">必做改 hook</text>
+<text x="56" y="402" fill="#586b60" font-size="24">完成時自動測試</text>
+<rect x="636" y="296" width="528" height="124" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="656" y="331" fill="#586b60" font-size="22">04</text>
+<text x="656" y="364" fill="#193732" font-size="34" font-weight="650">保住脈絡額度</text>
+<text x="656" y="402" fill="#586b60" font-size="24">不 compact、少子代理</text>
+<rect x="36" y="446" width="528" height="124" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="56" y="481" fill="#586b60" font-size="22">05</text>
+<text x="56" y="514" fill="#193732" font-size="34" font-weight="650">卡住就交接</text>
+<text x="56" y="552" fill="#586b60" font-size="24">寫文件、開新對話</text>
+<rect x="636" y="446" width="528" height="124" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="656" y="481" fill="#586b60" font-size="22">06</text>
+<text x="656" y="514" fill="#193732" font-size="34" font-weight="650">新對話審查</text>
+<text x="656" y="552" fill="#586b60" font-size="24">先規劃驗證</text>
+<text x="36" y="598" fill="#586b60" font-size="23">卡住時回到交接文件；規則和驗證是平時就設好的底盤</text>
+<text x="36" y="632" fill="#586b60" font-size="23">圖解為編輯整理，並非成效證明</text>
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 650" role="img" aria-labelledby="kunihiro-fukudoku-speaking-title kunihiro-fukudoku-speaking-desc"><title id="kunihiro-fukudoku-speaking-title">國弘正雄式朗讀</title><desc id="kunihiro-fukudoku-speaking-desc">選短文、精聽模仿、正字記錄朗讀、融入日常，最後錄音驗收。</desc>
+<defs><marker id="kunihiro-fukudoku-speaking-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="1200" height="650" fill="#f0f2e9"/>
+<text x="36" y="48" fill="#586b60" font-size="26">影片方法 · 編輯整理</text>
+<text x="36" y="100" fill="#193732" font-size="42" font-weight="650">選一篇短文，用正字讀到順口</text>
+<path d="M36 126H1164" stroke="#bdcbbb"/>
+<path d="M571 248H624" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#kunihiro-fukudoku-speaking-arrow)"/>
+<path d="M571 466H624" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#kunihiro-fukudoku-speaking-arrow)"/>
+<path d="M900 341V354H300V368" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#kunihiro-fukudoku-speaking-arrow)"/>
+<rect x="36" y="160" width="528" height="176" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="56" y="195" fill="#d4e2d4" font-size="23">01</text>
+<text x="56" y="245" fill="#fffef9" font-size="38" font-weight="650">選文本</text>
+<text x="56" y="292" fill="#d4e2d4" font-size="27">300 到 500 字，有母語音訊</text>
+<rect x="636" y="160" width="528" height="176" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="656" y="195" fill="#586b60" font-size="23">02</text>
+<text x="656" y="245" fill="#193732" font-size="38" font-weight="650">精聽模仿</text>
+<text x="656" y="292" fill="#586b60" font-size="27">逐句約 20 遍，標連讀重音</text>
+<rect x="36" y="378" width="528" height="176" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="56" y="413" fill="#586b60" font-size="23">03</text>
+<text x="56" y="463" fill="#193732" font-size="38" font-weight="650">正字朗讀</text>
+<text x="56" y="510" fill="#586b60" font-size="27">讀完一遍畫一筆，融入日常</text>
+<rect x="636" y="378" width="528" height="176" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="656" y="413" fill="#586b60" font-size="23">04</text>
+<text x="656" y="463" fill="#193732" font-size="38" font-weight="650">開口驗收</text>
+<text x="656" y="510" fill="#586b60" font-size="27">錄音換內容說，卡住再補讀</text>
+<text x="36" y="591" fill="#586b60" font-size="23">圖解為編輯整理，並非成效證明</text>
+<text x="36" y="625" fill="#586b60" font-size="23">影片稱遍數與階段；驗收步驟為編輯補充</text>
+</svg>

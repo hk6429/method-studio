@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" role="img" aria-labelledby="newport-deep-life-stack-rethink-title newport-deep-life-stack-rethink-desc"><title id="newport-deep-life-stack-rethink-title">深度人生地圖・編輯整理</title><desc id="newport-deep-life-stack-rethink-desc">能力與價值觀都餵給願景；三塊之間來回走。</desc>
+<defs><marker id="newport-deep-life-stack-rethink-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="800" height="480" fill="#f0f2e9"/>
+<text x="36" y="48" fill="#586b60" font-size="26">Cal Newport · 編輯整理</text>
+<text x="36" y="100" fill="#193732" font-size="36" font-weight="650">深度人生地圖</text>
+<path d="M36 126H764" stroke="#bdcbbb"/>
+<path d="M200 274V306" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#newport-deep-life-stack-rethink-arrow)"/>
+<path d="M600 274V306" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#newport-deep-life-stack-rethink-arrow)"/>
+<rect x="36" y="160" width="328" height="112" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="56" y="195" fill="#586b60" font-size="23">領域一</text>
+<text x="56" y="245" fill="#193732" font-size="38" font-weight="650">能力</text>
+<rect x="436" y="160" width="328" height="112" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="456" y="195" fill="#586b60" font-size="23">領域二</text>
+<text x="456" y="245" fill="#193732" font-size="38" font-weight="650">價值觀</text>
+<rect x="36" y="310" width="728" height="112" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="56" y="345" fill="#d4e2d4" font-size="23">領域三</text>
+<text x="56" y="395" fill="#fffef9" font-size="38" font-weight="650">願景：理想生活＋逐步靠近的計畫</text>
+<text x="36" y="455" fill="#586b60" font-size="23">能力與價值觀餵給願景 · 三塊來回走</text>
+</svg>

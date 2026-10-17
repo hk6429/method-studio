@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" role="img" aria-labelledby="die-with-zero-art-of-spending-c-title die-with-zero-art-of-spending-c-desc"><title id="die-with-zero-art-of-spending-c-title">花錢前先問動機</title><desc id="die-with-zero-art-of-spending-c-desc">辨動機、知自己、拉間隔、買選擇權、查自主五個花錢檢查點。</desc>
+<defs><marker id="die-with-zero-art-of-spending-c-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="800" height="480" fill="#f0f2e9"/>
+<text x="36" y="48" fill="#586b60" font-size="26">《花錢的藝術》· 編輯整理</text>
+<text x="36" y="100" fill="#193732" font-size="36" font-weight="650">花錢前，先問動機</text>
+<path d="M36 126H764" stroke="#bdcbbb"/>
+<rect x="36" y="150" width="340" height="70" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="56" y="176" fill="#d4e2d4" font-size="20">01</text>
+<text x="56" y="202" fill="#fffef9" font-size="28" font-weight="650">辨動機</text>
+<rect x="424" y="150" width="340" height="70" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="444" y="176" fill="#586b60" font-size="20">02</text>
+<text x="444" y="202" fill="#193732" font-size="28" font-weight="650">知自己</text>
+<rect x="36" y="235" width="340" height="70" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="56" y="261" fill="#586b60" font-size="20">03</text>
+<text x="56" y="287" fill="#193732" font-size="28" font-weight="650">拉間隔</text>
+<rect x="424" y="235" width="340" height="70" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="444" y="261" fill="#586b60" font-size="20">04</text>
+<text x="444" y="287" fill="#193732" font-size="28" font-weight="650">買選擇權</text>
+<rect x="36" y="320" width="340" height="70" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="56" y="346" fill="#586b60" font-size="20">05</text>
+<text x="56" y="372" fill="#193732" font-size="28" font-weight="650">查自主</text>
+<text x="424" y="395" fill="#586b60" font-size="22">每次花錢前重來一遍</text>
+<text x="36" y="455" fill="#586b60" font-size="20">圖解為編輯整理，並非成效證明</text>
+</svg>

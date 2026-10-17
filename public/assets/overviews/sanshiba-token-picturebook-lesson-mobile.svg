@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 800" role="img" aria-labelledby="sanshiba-token-picturebook-lesson-title sanshiba-token-picturebook-lesson-desc"><title id="sanshiba-token-picturebook-lesson-title">用專案資料夾做出繪本備課包</title><desc id="sanshiba-token-picturebook-lesson-desc">開專案資料夾 → 先大綱再補檔 → 定繪本風格 → 子代理平行畫 → 寫交接記錄。</desc>
+<defs><marker id="sanshiba-token-picturebook-lesson-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="480" height="800" fill="#f0f2e9"/>
+<text x="28" y="48" fill="#586b60" font-size="22">AI 代理人備課 · 編輯整理</text>
+<text x="28" y="100" fill="#193732" font-size="27" font-weight="650">一週課做成繪本投影片</text>
+<path d="M28 126H452" stroke="#bdcbbb"/>
+<rect x="28" y="146" width="424" height="94" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="48" y="175" fill="#d4e2d4" font-size="19">01</text>
+<text x="48" y="215" fill="#fffef9" font-size="28" font-weight="650">開專案資料夾</text>
+<text x="48" y="249" fill="#d4e2d4" font-size="18">自建資料夾、權限代我核准</text>
+<path d="M240 240V262" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#sanshiba-token-picturebook-lesson-arrow)"/>
+<rect x="28" y="264" width="424" height="94" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="293" fill="#586b60" font-size="19">02</text>
+<text x="48" y="333" fill="#193732" font-size="28" font-weight="650">先大綱再補檔</text>
+<text x="48" y="367" fill="#586b60" font-size="18">教案、學習單、情境卡</text>
+<path d="M240 358V380" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#sanshiba-token-picturebook-lesson-arrow)"/>
+<rect x="28" y="382" width="424" height="94" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="411" fill="#586b60" font-size="19">03</text>
+<text x="48" y="451" fill="#193732" font-size="28" font-weight="650">定繪本風格</text>
+<text x="48" y="485" fill="#586b60" font-size="18">全版繪本、點名生圖</text>
+<path d="M240 476V498" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#sanshiba-token-picturebook-lesson-arrow)"/>
+<rect x="28" y="500" width="424" height="94" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="529" fill="#586b60" font-size="19">04</text>
+<text x="48" y="569" fill="#193732" font-size="28" font-weight="650">子代理平行畫</text>
+<text x="48" y="603" fill="#586b60" font-size="18">三組各四頁再統整</text>
+<path d="M240 594V616" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#sanshiba-token-picturebook-lesson-arrow)"/>
+<rect x="28" y="618" width="424" height="94" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="647" fill="#586b60" font-size="19">05</text>
+<text x="48" y="687" fill="#193732" font-size="28" font-weight="650">寫交接記錄</text>
+<text x="48" y="721" fill="#586b60" font-size="18">新對話讀它接續</text>
+<text x="28" y="765" fill="#586b60" font-size="18">圖解為編輯整理，並非成效證明</text>
+</svg>

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 800" role="img" aria-labelledby="hongxuliang-gemini-notebook-teaching-t hongxuliang-gemini-notebook-teaching-d"><title id="hongxuliang-gemini-notebook-teaching-t">先建來源，再備課</title><desc id="hongxuliang-gemini-notebook-teaching-d">定用途、建來源、教材分析、教案延伸、命題匯出、人工審閱。</desc>
+<defs><marker id="hongxuliang-gemini-notebook-teaching-a" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="480" height="800" fill="#f0f2e9"/>
+<text x="28" y="48" fill="#586b60" font-size="22">GEMINI NOTEBOOK · 編輯整理</text>
+<text x="28" y="100" fill="#193732" font-size="27" font-weight="650">先建來源，再備課</text>
+<path d="M28 126H452" stroke="#bdcbbb"/>
+<rect x="28" y="148" width="424" height="84" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="46" y="182" fill="#d4e2d4" font-size="20">01</text>
+<text x="46" y="214" fill="#fffef9" font-size="28" font-weight="650">定用途</text>
+<text x="190" y="214" fill="#d4e2d4" font-size="19">四件備課事</text>
+<path d="M240 232V246" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#hongxuliang-gemini-notebook-teaching-a)"/>
+<rect x="28" y="248" width="424" height="84" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="46" y="282" fill="#586b60" font-size="20">02</text>
+<text x="46" y="314" fill="#193732" font-size="28" font-weight="650">建來源</text>
+<text x="190" y="314" fill="#586b60" font-size="19">核心、補充、評量</text>
+<path d="M240 332V346" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#hongxuliang-gemini-notebook-teaching-a)"/>
+<rect x="28" y="348" width="424" height="84" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="46" y="382" fill="#586b60" font-size="20">03</text>
+<text x="46" y="414" fill="#193732" font-size="28" font-weight="650">教材分析</text>
+<text x="190" y="414" fill="#586b60" font-size="19">存回來源</text>
+<path d="M240 432V446" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#hongxuliang-gemini-notebook-teaching-a)"/>
+<rect x="28" y="448" width="424" height="84" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="46" y="482" fill="#586b60" font-size="20">04</text>
+<text x="46" y="514" fill="#193732" font-size="28" font-weight="650">教案延伸</text>
+<text x="190" y="514" fill="#586b60" font-size="19">學習單與簡報</text>
+<path d="M240 532V546" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#hongxuliang-gemini-notebook-teaching-a)"/>
+<rect x="28" y="548" width="424" height="84" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="46" y="582" fill="#586b60" font-size="20">05</text>
+<text x="46" y="614" fill="#193732" font-size="28" font-weight="650">命題匯出</text>
+<text x="190" y="614" fill="#586b60" font-size="19">題型檢核表</text>
+<path d="M240 632V646" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#hongxuliang-gemini-notebook-teaching-a)"/>
+<rect x="28" y="648" width="424" height="84" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="46" y="682" fill="#586b60" font-size="20">06</text>
+<text x="46" y="714" fill="#193732" font-size="28" font-weight="650">人工審閱</text>
+<text x="190" y="714" fill="#586b60" font-size="19">逐題簽核</text>
+<text x="28" y="775" fill="#586b60" font-size="18">圖解為編輯整理，並非成效證明</text>
+</svg>

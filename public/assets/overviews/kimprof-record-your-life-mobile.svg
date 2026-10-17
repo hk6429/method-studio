@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 800" role="img" aria-labelledby="kimprof-title kimprof-desc"><title id="kimprof-title">一天一行的記錄方法</title><desc id="kimprof-desc">記錄就是思考 → 一天一行 → 隨身本子 → 手寫或打字 → 撐過一週 → 一句人生描述。</desc>
+<defs><marker id="kimprof-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="480" height="800" fill="#f0f2e9"/>
+<text x="28" y="48" fill="#586b60" font-size="22">一行日記 · 編輯整理</text>
+<text x="28" y="100" fill="#193732" font-size="27" font-weight="650">記錄就是思考</text>
+<path d="M28 126H452" stroke="#bdcbbb"/>
+<path d="M240 240V256" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#kimprof-arrow)"/>
+<path d="M240 348V364" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#kimprof-arrow)"/>
+<path d="M240 456V472" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#kimprof-arrow)"/>
+<path d="M240 564V580" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#kimprof-arrow)"/>
+<path d="M240 672V688" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#kimprof-arrow)"/>
+<rect x="28" y="150" width="424" height="90" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="48" y="180" fill="#d4e2d4" font-size="18">01</text>
+<text x="48" y="220" fill="#fffef9" font-size="26" font-weight="650">記錄=思考</text>
+<text x="178" y="220" fill="#d4e2d4" font-size="18">想法拉到眼前</text>
+<rect x="28" y="258" width="424" height="90" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="288" fill="#586b60" font-size="18">02</text>
+<text x="48" y="328" fill="#193732" font-size="26" font-weight="650">一天一行</text>
+<text x="178" y="328" fill="#586b60" font-size="18">固定時間寫完就停</text>
+<rect x="28" y="366" width="424" height="90" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="396" fill="#586b60" font-size="18">03</text>
+<text x="48" y="436" fill="#193732" font-size="26" font-weight="650">隨身本子</text>
+<text x="178" y="436" fill="#586b60" font-size="18">想到就亂寫</text>
+<rect x="28" y="474" width="424" height="90" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="504" fill="#586b60" font-size="18">04</text>
+<text x="48" y="544" fill="#193732" font-size="26" font-weight="650">手寫或打字</text>
+<text x="178" y="544" fill="#586b60" font-size="18">依用途分工</text>
+<rect x="28" y="582" width="424" height="90" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="612" fill="#586b60" font-size="18">05</text>
+<text x="48" y="652" fill="#193732" font-size="26" font-weight="650">撐過一週</text>
+<text x="178" y="652" fill="#586b60" font-size="18">先累積量</text>
+<rect x="28" y="690" width="424" height="90" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="720" fill="#586b60" font-size="18">06</text>
+<text x="48" y="760" fill="#193732" font-size="26" font-weight="650">一句人生描述</text>
+<text x="178" y="760" fill="#586b60" font-size="18">回頭看紀錄</text>
+<text x="28" y="785" fill="#586b60" font-size="18">圖解為編輯整理，並非成效證明</text>
+</svg>

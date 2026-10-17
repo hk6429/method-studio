@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 650" role="img" aria-labelledby="kimprof-ai-thinking-outsourcing-habits-title kimprof-ai-thinking-outsourcing-habits-desc"><title id="kimprof-ai-thinking-outsourcing-habits-title">不把思考外包給 AI 的三個習慣</title><desc id="kimprof-ai-thinking-outsourcing-habits-desc">聊滿五回合、自己讀完檢驗、丟出怪想法，最後由自己決定。</desc>
+<defs><marker id="kimprof-ai-thinking-outsourcing-habits-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="1200" height="650" fill="#f0f2e9"/>
+<text x="36" y="48" fill="#586b60" font-size="26">AI 習慣 · 編輯整理</text>
+<text x="36" y="100" fill="#193732" font-size="42" font-weight="650">不把思考外包給 AI</text>
+<path d="M36 126H1164" stroke="#bdcbbb"/>
+<path d="M571 248H624" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#kimprof-ai-thinking-outsourcing-habits-arrow)"/>
+<path d="M571 466H624" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#kimprof-ai-thinking-outsourcing-habits-arrow)"/>
+<path d="M900 341V354H300V368" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#kimprof-ai-thinking-outsourcing-habits-arrow)"/>
+<rect x="36" y="160" width="528" height="176" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="56" y="195" fill="#d4e2d4" font-size="23">01</text>
+<text x="56" y="245" fill="#fffef9" font-size="38" font-weight="650">聊滿五回合</text>
+<text x="56" y="292" fill="#d4e2d4" font-size="27">追問、拓寬、質疑邏輯</text>
+<rect x="636" y="160" width="528" height="176" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="656" y="195" fill="#586b60" font-size="23">02</text>
+<text x="656" y="245" fill="#193732" font-size="38" font-weight="650">自己讀完檢驗</text>
+<text x="656" y="292" fill="#586b60" font-size="27">圈出不對勁與跳躍</text>
+<rect x="36" y="378" width="528" height="176" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="56" y="413" fill="#586b60" font-size="23">03</text>
+<text x="56" y="463" fill="#193732" font-size="38" font-weight="650">丟出怪想法</text>
+<text x="56" y="510" fill="#586b60" font-size="27">沒有根據的直覺也說</text>
+<rect x="636" y="378" width="528" height="176" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="656" y="413" fill="#586b60" font-size="23">04</text>
+<text x="656" y="463" fill="#193732" font-size="38" font-weight="650">自己決定</text>
+<text x="656" y="510" fill="#586b60" font-size="27">採用、修改或放棄</text>
+<text x="36" y="591" fill="#586b60" font-size="23">圖解為編輯整理，並非成效證明</text>
+<text x="36" y="625" fill="#586b60" font-size="23">發現疑點時，回到對話再追問</text>
+</svg>

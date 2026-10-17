@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 800" role="img" aria-labelledby="xinyuan-ai-blogger-starting-method-title xinyuan-ai-blogger-starting-method-desc"><title id="xinyuan-ai-blogger-starting-method-title">做 AI 工具博主的低成本起步流程</title><desc id="xinyuan-ai-blogger-starting-method-desc">定位 → 找工具 → 錄螢幕 → 剪輯 → AI 包裝 → 回頭看。</desc>
+<defs><marker id="xinyuan-ai-blogger-starting-method-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="480" height="800" fill="#f0f2e9"/>
+<text x="28" y="48" fill="#586b60" font-size="22">AI 博主起步 · 編輯整理</text>
+<text x="28" y="100" fill="#193732" font-size="27" font-weight="650">六步做出第一支影片</text>
+<path d="M28 126H452" stroke="#bdcbbb"/>
+<path d="M240 234V251" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#xinyuan-ai-blogger-starting-method-arrow)"/>
+<path d="M240 339V356" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#xinyuan-ai-blogger-starting-method-arrow)"/>
+<path d="M240 444V461" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#xinyuan-ai-blogger-starting-method-arrow)"/>
+<path d="M240 549V566" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#xinyuan-ai-blogger-starting-method-arrow)"/>
+<path d="M240 654V671" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#xinyuan-ai-blogger-starting-method-arrow)"/>
+<rect x="28" y="150" width="424" height="84" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="48" y="184" fill="#d4e2d4" font-size="21">01</text>
+<text x="100" y="186" fill="#fffef9" font-size="28" font-weight="650">定位</text>
+<text x="48" y="216" fill="#d4e2d4" font-size="20">淺顯易懂的工具分享</text>
+<rect x="28" y="255" width="424" height="84" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="289" fill="#586b60" font-size="21">02</text>
+<text x="100" y="291" fill="#193732" font-size="28" font-weight="650">找工具</text>
+<text x="48" y="321" fill="#586b60" font-size="20">每日更新、挑免費</text>
+<rect x="28" y="360" width="424" height="84" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="394" fill="#586b60" font-size="21">03</text>
+<text x="100" y="396" fill="#193732" font-size="28" font-weight="650">錄螢幕</text>
+<text x="48" y="426" fill="#586b60" font-size="20">普通筆電就夠</text>
+<rect x="28" y="465" width="424" height="84" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="499" fill="#586b60" font-size="21">04</text>
+<text x="100" y="501" fill="#193732" font-size="28" font-weight="650">剪輯</text>
+<text x="48" y="531" fill="#586b60" font-size="20">一個穩定的工具</text>
+<rect x="28" y="570" width="424" height="84" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="604" fill="#586b60" font-size="21">05</text>
+<text x="100" y="606" fill="#193732" font-size="28" font-weight="650">AI 包裝</text>
+<text x="48" y="636" fill="#586b60" font-size="20">標題、說明、封面</text>
+<rect x="28" y="675" width="424" height="84" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="709" fill="#586b60" font-size="21">06</text>
+<text x="100" y="711" fill="#193732" font-size="28" font-weight="650">回頭看</text>
+<text x="48" y="741" fill="#586b60" font-size="20">依播放量找方向</text>
+<text x="28" y="775" fill="#586b60" font-size="18">圖解為編輯整理，並非成效證明</text>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 650" role="img" aria-labelledby="gaoshijia-guwen-first-lesson-title gaoshijia-guwen-first-lesson-desc"><title id="gaoshijia-guwen-first-lesson-title">古文故事 SEL 共讀</title><desc id="gaoshijia-guwen-first-lesson-desc">辨需要、觀察、選回應、先暫停、縮選擇、每日固定的六步流程。</desc>
+<defs><marker id="gaoshijia-guwen-first-lesson-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="1200" height="650" fill="#f0f2e9"/>
+<text x="48" y="64" fill="#586b60" font-size="26">高詩佳《古文第一課》· 編輯整理</text><text x="48" y="120" fill="#193732" font-size="44" font-weight="650">用古文故事陪孩子練 SEL</text><path d="M48 148H1152" stroke="#bdcbbb"/>
+<rect x="48" y="190" width="250" height="170" rx="8" fill="#193732" stroke="#bdcbbb"/><text x="68" y="230" fill="#d4e2d4" font-size="22">01</text><text x="68" y="286" fill="#fffef9" font-size="38" font-weight="650">選故事</text><text x="68" y="328" fill="#d4e2d4" font-size="22">白話先讀</text>
+<path d="M300 275H324" stroke="#586b60" stroke-width="2.5" fill="none" marker-end="url(#gaoshijia-guwen-first-lesson-arrow)"/>
+<rect x="326" y="190" width="250" height="170" rx="8" fill="#fffef9" stroke="#bdcbbb"/><text x="346" y="230" fill="#586b60" font-size="22">02</text><text x="346" y="286" fill="#193732" font-size="38" font-weight="650">辨需要</text><text x="346" y="328" fill="#586b60" font-size="22">需要或想要</text>
+<path d="M578 275H602" stroke="#586b60" stroke-width="2.5" fill="none" marker-end="url(#gaoshijia-guwen-first-lesson-arrow)"/>
+<rect x="604" y="190" width="250" height="170" rx="8" fill="#fffef9" stroke="#bdcbbb"/><text x="624" y="230" fill="#586b60" font-size="22">03</text><text x="624" y="286" fill="#193732" font-size="38" font-weight="650">觀察</text><text x="624" y="328" fill="#586b60" font-size="22">找可疑處</text>
+<path d="M856 275H880" stroke="#586b60" stroke-width="2.5" fill="none" marker-end="url(#gaoshijia-guwen-first-lesson-arrow)"/>
+<rect x="882" y="190" width="250" height="170" rx="8" fill="#fffef9" stroke="#bdcbbb"/><text x="902" y="230" fill="#586b60" font-size="22">04</text><text x="902" y="286" fill="#193732" font-size="38" font-weight="650">選回應</text><text x="902" y="328" fill="#586b60" font-size="22">繞過或表態</text>
+<rect x="48" y="400" width="250" height="170" rx="8" fill="#fffef9" stroke="#bdcbbb"/><text x="68" y="440" fill="#586b60" font-size="22">05</text><text x="68" y="496" fill="#193732" font-size="38" font-weight="650">先暫停</text><text x="68" y="538" fill="#586b60" font-size="22">呼吸與改寫</text>
+<path d="M300 485H324" stroke="#586b60" stroke-width="2.5" fill="none" marker-end="url(#gaoshijia-guwen-first-lesson-arrow)"/>
+<rect x="326" y="400" width="250" height="170" rx="8" fill="#fffef9" stroke="#bdcbbb"/><text x="346" y="440" fill="#586b60" font-size="22">06</text><text x="346" y="496" fill="#193732" font-size="38" font-weight="650">縮選擇</text><text x="346" y="538" fill="#586b60" font-size="22">三取一</text>
+<path d="M578 485H602" stroke="#586b60" stroke-width="2.5" fill="none" marker-end="url(#gaoshijia-guwen-first-lesson-arrow)"/>
+<rect x="604" y="400" width="250" height="170" rx="8" fill="#fffef9" stroke="#bdcbbb"/><text x="624" y="440" fill="#586b60" font-size="22">07</text><text x="624" y="496" fill="#193732" font-size="38" font-weight="650">每日固定</text><text x="624" y="538" fill="#586b60" font-size="22">十到十五分鐘</text>
+<text x="48" y="625" fill="#586b60" font-size="22">每天 10–15 分鐘，先讀白話，再對照原文</text></svg>

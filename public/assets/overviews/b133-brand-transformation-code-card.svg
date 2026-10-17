@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" role="img" aria-labelledby="c-title c-desc"><title id="c-title">營業額沒掉不代表安全的健檢方法</title><desc id="c-desc">分辨轉型 → 盯領先警訊 → 每月警報測試 → 顧客痛點檢查 → 三個視角與 DAS 滾動修正。</desc>
+<defs><marker id="c-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="800" height="480" fill="#f0f2e9"/>
+<text x="36" y="48" fill="#586b60" font-size="26">B133 · 編輯整理</text>
+<text x="36" y="100" fill="#193732" font-size="34" font-weight="650">營業額沒掉，不代表安全</text>
+<path d="M36 126H764" stroke="#bdcbbb"/>
+<rect x="36" y="150" width="228" height="130" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="52" y="178" fill="#d4e2d4" font-size="17">01</text>
+<text x="52" y="229" fill="#fffef9" font-size="24" font-weight="650">分辨轉型</text>
+<text x="52" y="266" fill="#d4e2d4" font-size="17">工具外觀新品只是升級</text>
+<rect x="276" y="150" width="228" height="130" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="292" y="178" fill="#586b60" font-size="17">02</text>
+<text x="292" y="229" fill="#193732" font-size="24" font-weight="650">盯領先警訊</text>
+<text x="292" y="266" fill="#586b60" font-size="17">新客、回購、結構、效率</text>
+<rect x="516" y="150" width="228" height="130" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="532" y="178" fill="#586b60" font-size="17">03</text>
+<text x="532" y="229" fill="#193732" font-size="24" font-weight="650">每月警報測試</text>
+<text x="532" y="266" fill="#586b60" font-size="17">像消防檢查防火災</text>
+<rect x="156" y="300" width="228" height="130" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="172" y="328" fill="#586b60" font-size="17">04</text>
+<text x="172" y="379" fill="#193732" font-size="24" font-weight="650">顧客痛點檢查</text>
+<text x="172" y="416" fill="#586b60" font-size="17">場景、痛點、回購理由</text>
+<rect x="396" y="300" width="228" height="130" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="412" y="328" fill="#586b60" font-size="17">05</text>
+<text x="412" y="379" fill="#193732" font-size="24" font-weight="650">天地自己眾生 + DAS</text>
+<text x="412" y="416" fill="#586b60" font-size="17">滾動修正，方向不動</text>
+<path d="M268 215H274" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#c-arrow)"/>
+<path d="M508 215H514" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#c-arrow)"/>
+<path d="M630 284V292H520" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#c-arrow)"/>
+<path d="M388 365H394" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#c-arrow)"/>
+<text x="36" y="460" fill="#586b60" font-size="21">用領先警訊與每月警報測試替生意健檢</text>
+</svg>

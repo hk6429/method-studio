@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" role="img" aria-labelledby="hongxuliang-gemini-notebook-teaching-t hongxuliang-gemini-notebook-teaching-d"><title id="hongxuliang-gemini-notebook-teaching-t">先建來源，再備課</title><desc id="hongxuliang-gemini-notebook-teaching-d">定用途、建來源、教材分析、教案延伸、命題匯出、人工審閱。</desc>
+<defs><marker id="hongxuliang-gemini-notebook-teaching-a" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="800" height="480" fill="#f0f2e9"/>
+<text x="36" y="48" fill="#586b60" font-size="26">GEMINI NOTEBOOK · 編輯整理</text>
+<text x="36" y="100" fill="#193732" font-size="36" font-weight="650">先建來源，再備課</text>
+<path d="M36 126H764" stroke="#bdcbbb"/>
+<rect x="36" y="156" width="224" height="116" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="52" y="190" fill="#d4e2d4" font-size="22">01</text>
+<text x="52" y="242" fill="#fffef9" font-size="34" font-weight="650">定用途</text>
+<rect x="288" y="156" width="224" height="116" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="304" y="190" fill="#586b60" font-size="22">02</text>
+<text x="304" y="242" fill="#193732" font-size="34" font-weight="650">建來源</text>
+<rect x="540" y="156" width="224" height="116" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="556" y="190" fill="#586b60" font-size="22">03</text>
+<text x="556" y="242" fill="#193732" font-size="34" font-weight="650">教材分析</text>
+<rect x="36" y="296" width="224" height="116" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="52" y="330" fill="#586b60" font-size="22">04</text>
+<text x="52" y="382" fill="#193732" font-size="34" font-weight="650">教案延伸</text>
+<rect x="288" y="296" width="224" height="116" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="304" y="330" fill="#586b60" font-size="22">05</text>
+<text x="304" y="382" fill="#193732" font-size="34" font-weight="650">命題匯出</text>
+<rect x="540" y="296" width="224" height="116" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="556" y="330" fill="#586b60" font-size="22">06</text>
+<text x="556" y="382" fill="#193732" font-size="34" font-weight="650">人工審閱</text>
+<text x="36" y="452" fill="#586b60" font-size="22">有誤時回到來源補資料，再重做</text>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" role="img" aria-labelledby="xutingshao-three-types-of-inner-friction-title xutingshao-three-types-of-inner-friction-desc"><title id="xutingshao-three-types-of-inner-friction-title">內耗三種型態</title><desc id="xutingshao-three-types-of-inner-friction-desc">情緒漩渦、內心交戰、外界壓力三型內耗，與回穩方法。</desc>
+<defs><marker id="xutingshao-three-types-of-inner-friction-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="800" height="480" fill="#f0f2e9"/>
+<text x="32" y="52" fill="#586b60" font-size="22">EP703 · 編輯整理</text>
+<text x="32" y="112" fill="#193732" font-size="44" font-weight="650">內耗的三種型態</text>
+<path d="M32 134H768" stroke="#bdcbbb"/>
+<rect x="32" y="164" width="240" height="190" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="50" y="214" fill="#fffef9" font-size="32" font-weight="650">情緒漩渦</text>
+<text x="50" y="262" fill="#d4e2d4" font-size="21">反覆回播、自我批評</text>
+<rect x="280" y="164" width="240" height="190" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="298" y="214" fill="#193732" font-size="32" font-weight="650">內心交戰</text>
+<text x="298" y="262" fill="#586b60" font-size="21">想改變又怕失敗</text>
+<rect x="528" y="164" width="240" height="190" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="546" y="214" fill="#193732" font-size="32" font-weight="650">外界壓力</text>
+<text x="546" y="262" fill="#586b60" font-size="21">聽不見自己的導航</text>
+<text x="32" y="410" fill="#193732" font-size="26">認型態、四六呼吸、立標準</text>
+<text x="32" y="450" fill="#586b60" font-size="18">圖解為編輯整理，並非成效證明</text>
+</svg>
