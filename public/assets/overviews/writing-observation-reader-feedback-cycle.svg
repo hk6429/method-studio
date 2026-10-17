@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 580" role="img" aria-labelledby="title desc">
+<title id="title">先寫自己看見的事，再用讀者回應修正理解</title>
+<desc id="desc">看見 → 成段 → 試讀 → 修改。編輯整理，非成效證明。</desc>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="1200" height="580" fill="#f0f2e9"/>
+<text x="32" y="48" font-size="22" font-weight="400" fill="#586b60">方法練習室 · 編輯整理</text>
+<text x="32" y="105" font-size="34" font-weight="650" fill="#193732">先寫自己看見的事，再用讀者回應修正理解</text>
+<path d="M32 132H1168" stroke="#bdcbbb"/>
+<rect x="32" y="220" width="254" height="212" rx="8" fill="#193732" stroke="#bdcbbb"/>
+<text x="52" y="254" font-size="22" font-weight="400" fill="#d4e2d4">01</text>
+<text x="52" y="300" font-size="32" font-weight="650" fill="#fffef9">看見</text>
+<text x="52" y="345" font-size="20" font-weight="400" fill="#d4e2d4">留下實際片段</text>
+<path d="M293 325h23m-7-6 7 6-7 6" fill="none" stroke="#586b60" stroke-width="2"/>
+<rect x="326" y="220" width="254" height="212" rx="8" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="346" y="254" font-size="22" font-weight="400" fill="#586b60">02</text>
+<text x="346" y="300" font-size="32" font-weight="650" fill="#193732">成段</text>
+<text x="346" y="345" font-size="20" font-weight="400" fill="#586b60">選清楚的重點</text>
+<path d="M587 325h23m-7-6 7 6-7 6" fill="none" stroke="#586b60" stroke-width="2"/>
+<rect x="620" y="220" width="254" height="212" rx="8" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="640" y="254" font-size="22" font-weight="400" fill="#586b60">03</text>
+<text x="640" y="300" font-size="32" font-weight="650" fill="#193732">試讀</text>
+<text x="640" y="345" font-size="20" font-weight="400" fill="#586b60">聽讀者如何理解</text>
+<path d="M881 325h23m-7-6 7 6-7 6" fill="none" stroke="#586b60" stroke-width="2"/>
+<rect x="914" y="220" width="254" height="212" rx="8" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="934" y="254" font-size="22" font-weight="400" fill="#586b60">04</text>
+<text x="934" y="300" font-size="32" font-weight="650" fill="#193732">修改</text>
+<text x="934" y="345" font-size="20" font-weight="400" fill="#586b60">核對自己的意思</text>
+<text x="32" y="552" font-size="22" font-weight="400" fill="#586b60">依文章步驟試做，留下可回看的成果</text>
+</svg>
