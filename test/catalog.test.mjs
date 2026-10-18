@@ -95,6 +95,16 @@ test('每篇正式文章都必須有桌面、手機與列表配圖，不能漏�
   }
 });
 
+test('資訊圖支援站內WebP，並要求獨立橫式16:9與手機5:8尺寸',()=>{
+  const c=publishedCatalog(), o=c.methods[0].overview;
+  Object.assign(o,{kind:'infographic',image:'/assets/overviews/test-desktop.webp',mobileImage:'/assets/overviews/test-mobile.webp',cardImage:'/assets/overviews/test-desktop.webp',width:1600,height:900,mobileWidth:1000,mobileHeight:1600});
+  assert.deepEqual(validateCatalog(c),[]);
+  o.mobileImage=o.image;assert.ok(validateCatalog(c).some(e=>e.includes('各自排版')));
+  o.mobileImage='/assets/overviews/test-mobile.webp';o.mobileHeight=900;
+  assert.ok(validateCatalog(c).some(e=>e.includes('手機 5:8')));
+  o.mobileHeight=1600;o.width=0;assert.ok(validateCatalog(c).some(e=>e.includes('有效')));
+});
+
 test('收錄時間必須包含時區，並拒絕不存在的日期與時間',()=>{
   for(const value of [undefined,null,'','2026-10-03','2026-10-03T10:00:00','2026-02-29T10:00:00+08:00','2026-04-31T10:00:00Z','2026-13-01T10:00:00Z','2026-00-01T10:00:00Z','2026-10-00T10:00:00Z','2026-10-03T24:00:00Z','2026-10-03T10:60:00Z','2026-10-03T10:00:60Z','2026-10-03T10:00:00+24:00','2026-10-03T10:00:00+08:60']){
     const catalog=publishedCatalog();catalog.methods[0].publishedAt=value;

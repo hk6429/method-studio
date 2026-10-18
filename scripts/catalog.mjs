@@ -61,7 +61,12 @@ export function validateCatalog(catalog) {
     if (!demo && method.overview == null) error(path, '正式文章必須提供文章概覽圖與列表配圖');
     if (method.overview != null) {
       for (const field of ['image', 'mobileImage', 'cardImage']) {
-        if (!/^\/assets\/overviews\/[a-z0-9-]+\.svg$/.test(method.overview[field] || '')) error(path, '概覽圖須使用站內 SVG 圖檔');
+        if (!/^\/assets\/overviews\/[a-z0-9-]+\.(?:svg|webp|png)$/.test(method.overview[field] || '')) error(path, '概覽圖須使用站內 SVG、WebP 或 PNG 圖檔');
+      }
+      if (method.overview.kind === 'infographic') {
+        const {width, height, mobileWidth, mobileHeight} = method.overview;
+        if (![width, height, mobileWidth, mobileHeight].every(value => Number.isSafeInteger(value) && value > 0 && value <= 10000) || width * 9 !== height * 16 || mobileWidth * 8 !== mobileHeight * 5) error(path, '資訊圖卡須提供有效的橫式 16:9 與手機 5:8 尺寸');
+        if (method.overview.image === method.overview.mobileImage) error(path, '橫式與手機資訊圖卡須使用各自排版的圖檔');
       }
       if (!text(method.overview.alt) || !text(method.overview.caption)) error(path, '概覽圖須提供替代文字與圖說');
     }

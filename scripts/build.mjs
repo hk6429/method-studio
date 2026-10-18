@@ -11,11 +11,16 @@ for(const method of catalog.methods)if(method.articlePath){
   if(!(await fs.stat(article)).isFile())throw new Error(`找不到文章檔案：${method.articlePath}`);
 }
 const temporary=await fs.mkdtemp(path.join(root,'.build-'));
+const referencedArt=new Set(catalog.methods.flatMap(method=>method.overview?['image','mobileImage','cardImage'].map(field=>path.join(root,'public',method.overview[field].slice(1))):[]));
 for(const method of catalog.methods)if(method.overview){
-  for(const field of ['image','mobileImage','cardImage'])await fs.access(path.join(root,'public',method.overview[field].slice(1)));
+  for(const field of ['image','mobileImage','cardImage']){
+    const asset=path.join(root,'public',method.overview[field].slice(1));
+    await fs.access(asset);
+    if(method.overview.kind==='infographic'&&(await fs.stat(asset)).size>=1000000)throw new Error(`資訊圖卡必須低於1MB：${method.overview[field]}`);
+  }
 }
 try {
-  await fs.cp(path.join(root,'public'),temporary,{recursive:true,filter:source=>!source.endsWith('.DS_Store')});
+  await fs.cp(path.join(root,'public'),temporary,{recursive:true,filter:source=>!source.endsWith('.DS_Store')&&(!/-picture3-(desktop|mobile)\.webp$/.test(source)||referencedArt.has(source))});
   await fs.mkdir(path.join(temporary,'data'),{recursive:true});
   await fs.writeFile(path.join(temporary,'data/catalog.json'),JSON.stringify(catalog,null,2)+'\n');
   await fs.rm(path.join(root,'dist'),{recursive:true,force:true});

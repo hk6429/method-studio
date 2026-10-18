@@ -194,8 +194,8 @@ export function renderMethod(method, options = {}) {
     ) : null,
     method.overview ? el('figure', { class: 'article-overview' },
       el('picture', {},
-        el('source', { media: '(max-width: 600px)', srcset: method.overview.mobileImage }),
-        el('img', { src: method.overview.image, width: 1200, height: 568, alt: method.overview.alt, decoding: 'async', fetchpriority: 'high' })
+        el('source', { media: '(max-width: 600px)', srcset: method.overview.mobileImage, width: method.overview.mobileWidth, height: method.overview.mobileHeight }),
+        el('img', { src: method.overview.image, width: method.overview.width || 1200, height: method.overview.height || 568, alt: method.overview.alt, decoding: 'async', fetchpriority: 'high' })
       ),
       el('figcaption', {}, method.overview.caption)
     ) : null,
@@ -264,7 +264,8 @@ export function renderMethod(method, options = {}) {
   });
   content.append(stepsSection);
 
-  if (visuals.length) content.append(el('section', { class: 'reading-section', id: 'method-visuals' }, sectionHeading('02', '把步驟連起來', '先看整體，再依自己的時間安排練習。'), visuals.map(visual => visual.type === 'flow' ? flowDiagram(visual) : visual.type === 'schedule' ? scheduleTable(visual) : null)));
+  const displayedVisuals = method.overview?.kind === 'infographic' ? visuals.filter(visual => visual.type !== 'flow') : visuals;
+  if (displayedVisuals.length) content.append(el('section', { class: 'reading-section', id: 'method-visuals' }, sectionHeading('02', '把步驟連起來', '先看整體，再依自己的時間安排練習。'), displayedVisuals.map(visual => visual.type === 'flow' ? flowDiagram(visual) : visual.type === 'schedule' ? scheduleTable(visual) : null)));
 
   if (method.practice) {
     const practice = method.practice;
@@ -320,7 +321,7 @@ export function renderMethod(method, options = {}) {
   }
   actions.append(el('button', { type: 'button', class: 'button button-quiet', onClick: () => window.print() }, icon('print'), '列印練習筆記'));
   sidebarInner.append(actions);
-  const contents = [{ id: 'method-steps', label: '跟著步驟做', show: true }, { id: 'method-visuals', label: '流程與排程', show: visuals.length }, { id: 'method-practice', label: '實作練習', show: method.practice }, { id: 'method-notes', label: '誤區與提醒', show: (method.pitfalls || []).length || supplements.length }, { id: 'method-sources', label: '出處與可信範圍', show: true }];
+  const contents = [{ id: 'method-steps', label: '跟著步驟做', show: true }, { id: 'method-visuals', label: '流程與排程', show: displayedVisuals.length }, { id: 'method-practice', label: '實作練習', show: method.practice }, { id: 'method-notes', label: '誤區與提醒', show: (method.pitfalls || []).length || supplements.length }, { id: 'method-sources', label: '出處與可信範圍', show: true }];
   sidebarInner.append(el('nav', { class: 'article-toc', 'aria-label': '文章目錄' }, el('p', { class: 'small-label' }, '這篇文章'), contents.filter(item => item.show).map((item, index) => el('button', { type: 'button', onClick: () => {
     const target = article.querySelector(`#${item.id}`);
     target?.scrollIntoView({ behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth', block: 'start' });
