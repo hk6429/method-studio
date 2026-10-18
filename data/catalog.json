@@ -59338,11 +59338,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/design-options-direction-before-detail.svg",
-        "mobileImage": "/assets/overviews/design-options-direction-before-detail-mobile.svg",
-        "cardImage": "/assets/overviews/design-options-direction-before-detail-card.svg",
+        "image": "/assets/overviews/design-options-direction-before-detail-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/design-options-direction-before-detail-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/design-options-direction-before-detail-picture3-desktop.webp",
         "alt": "寫目的 → 比方向 → 留理由 → 試細節",
-        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。"
+        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       },
       "keywords": [
         "先比較再縮小方向",
@@ -59571,11 +59576,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/handoff-note-task-boundary-expiry.svg",
-        "mobileImage": "/assets/overviews/handoff-note-task-boundary-expiry-mobile.svg",
-        "cardImage": "/assets/overviews/handoff-note-task-boundary-expiry-card.svg",
+        "image": "/assets/overviews/handoff-note-task-boundary-expiry-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/handoff-note-task-boundary-expiry-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/handoff-note-task-boundary-expiry-picture3-desktop.webp",
         "alt": "分任務 → 留成果 → 標快照 → 記接手",
-        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。"
+        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       },
       "keywords": [
         "交接紀錄有期限",
@@ -59804,11 +59814,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/interactive-demo-visible-operable-test.svg",
-        "mobileImage": "/assets/overviews/interactive-demo-visible-operable-test-mobile.svg",
-        "cardImage": "/assets/overviews/interactive-demo-visible-operable-test-card.svg",
+        "image": "/assets/overviews/interactive-demo-visible-operable-test-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/interactive-demo-visible-operable-test-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/interactive-demo-visible-operable-test-picture3-desktop.webp",
         "alt": "列控制 → 真操作 → 換方式 → 留替代",
-        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。"
+        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       },
       "keywords": [
         "看得到還要操作得到",
@@ -60037,11 +60052,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/node-workflow-trace-result-location.svg",
-        "mobileImage": "/assets/overviews/node-workflow-trace-result-location-mobile.svg",
-        "cardImage": "/assets/overviews/node-workflow-trace-result-location-card.svg",
+        "image": "/assets/overviews/node-workflow-trace-result-location-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/node-workflow-trace-result-location-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/node-workflow-trace-result-location-picture3-desktop.webp",
         "alt": "追連線 → 認節點 → 試小份 → 查存檔",
-        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。"
+        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       },
       "keywords": [
         "沿著連線找結果",
@@ -60270,11 +60290,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/project-index-find-right-context.svg",
-        "mobileImage": "/assets/overviews/project-index-find-right-context-mobile.svg",
-        "cardImage": "/assets/overviews/project-index-find-right-context-card.svg",
+        "image": "/assets/overviews/project-index-find-right-context-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/project-index-find-right-context-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/project-index-find-right-context-picture3-desktop.webp",
         "alt": "記錯配 → 列索引 → 放背景 → 測查找",
-        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。"
+        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       },
       "keywords": [
         "讓問題找到正確資料",
@@ -60503,11 +60528,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/recurring-workflow-human-send-check.svg",
-        "mobileImage": "/assets/overviews/recurring-workflow-human-send-check-mobile.svg",
-        "cardImage": "/assets/overviews/recurring-workflow-human-send-check-card.svg",
+        "image": "/assets/overviews/recurring-workflow-human-send-check-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/recurring-workflow-human-send-check-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/recurring-workflow-human-send-check-picture3-desktop.webp",
         "alt": "選任務 → 列交接 → 留審稿 → 跑一輪",
-        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。"
+        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       },
       "keywords": [
         "例行工作留審稿點",
@@ -60736,11 +60766,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/repeatable-check-report-fix-recheck.svg",
-        "mobileImage": "/assets/overviews/repeatable-check-report-fix-recheck-mobile.svg",
-        "cardImage": "/assets/overviews/repeatable-check-report-fix-recheck-card.svg",
+        "image": "/assets/overviews/repeatable-check-report-fix-recheck-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/repeatable-check-report-fix-recheck-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/repeatable-check-report-fix-recheck-picture3-desktop.webp",
         "alt": "分檢查 → 存報告 → 對項修 → 再重跑",
-        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。"
+        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       },
       "keywords": [
         "讓檢查留下可比較輸出",
@@ -60969,11 +61004,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/school-opening-coarse-detail-preparation.svg",
-        "mobileImage": "/assets/overviews/school-opening-coarse-detail-preparation-mobile.svg",
-        "cardImage": "/assets/overviews/school-opening-coarse-detail-preparation-card.svg",
+        "image": "/assets/overviews/school-opening-coarse-detail-preparation-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/school-opening-coarse-detail-preparation-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/school-opening-coarse-detail-preparation-picture3-desktop.webp",
         "alt": "寫分類 → 先大項 → 近細節 → 留空間",
-        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。"
+        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       },
       "keywords": [
         "開學準備先粗後細",
@@ -61202,11 +61242,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/short-clip-independent-context-cuts.svg",
-        "mobileImage": "/assets/overviews/short-clip-independent-context-cuts-mobile.svg",
-        "cardImage": "/assets/overviews/short-clip-independent-context-cuts-card.svg",
+        "image": "/assets/overviews/short-clip-independent-context-cuts-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/short-clip-independent-context-cuts-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/short-clip-independent-context-cuts-picture3-desktop.webp",
         "alt": "定完整 → 查指涉 → 辨改口 → 看全片",
-        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。"
+        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       },
       "keywords": [
         "短片先守住完整意思",
@@ -61435,11 +61480,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/sketch-mini-game-rules-feedback.svg",
-        "mobileImage": "/assets/overviews/sketch-mini-game-rules-feedback-mobile.svg",
-        "cardImage": "/assets/overviews/sketch-mini-game-rules-feedback-card.svg",
+        "image": "/assets/overviews/sketch-mini-game-rules-feedback-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/sketch-mini-game-rules-feedback-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/sketch-mini-game-rules-feedback-picture3-desktop.webp",
         "alt": "畫物件 → 寫動作 → 定回饋 → 試一輪",
-        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。"
+        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       },
       "keywords": [
         "草圖加規則才好試玩",
@@ -61668,11 +61718,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/support-honest-feedback-permission.svg",
-        "mobileImage": "/assets/overviews/support-honest-feedback-permission-mobile.svg",
-        "cardImage": "/assets/overviews/support-honest-feedback-permission-card.svg",
+        "image": "/assets/overviews/support-honest-feedback-permission-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/support-honest-feedback-permission-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/support-honest-feedback-permission-picture3-desktop.webp",
         "alt": "先理解 → 問意願 → 說觀察 → 留選擇",
-        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。"
+        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       },
       "keywords": [
         "同理之後也能誠實",
@@ -61901,11 +61956,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/task-ticket-current-context-plan.svg",
-        "mobileImage": "/assets/overviews/task-ticket-current-context-plan-mobile.svg",
-        "cardImage": "/assets/overviews/task-ticket-current-context-plan-card.svg",
+        "image": "/assets/overviews/task-ticket-current-context-plan-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/task-ticket-current-context-plan-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/task-ticket-current-context-plan-picture3-desktop.webp",
         "alt": "選小票 → 看現況 → 列範圍 → 查計畫",
-        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。"
+        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       },
       "keywords": [
         "需求先對上現有作品",
@@ -62134,11 +62194,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/team-process-map-role-order-comments.svg",
-        "mobileImage": "/assets/overviews/team-process-map-role-order-comments-mobile.svg",
-        "cardImage": "/assets/overviews/team-process-map-role-order-comments-card.svg",
+        "image": "/assets/overviews/team-process-map-role-order-comments-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/team-process-map-role-order-comments-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/team-process-map-role-order-comments-picture3-desktop.webp",
         "alt": "聽角色 → 畫交接 → 校順序 → 列待決",
-        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。"
+        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       },
       "keywords": [
         "讓做事的人校正流程",
@@ -62367,11 +62432,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/work-request-meaning-paraphrase-check.svg",
-        "mobileImage": "/assets/overviews/work-request-meaning-paraphrase-check-mobile.svg",
-        "cardImage": "/assets/overviews/work-request-meaning-paraphrase-check-card.svg",
+        "image": "/assets/overviews/work-request-meaning-paraphrase-check-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/work-request-meaning-paraphrase-check-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/work-request-meaning-paraphrase-check-picture3-desktop.webp",
         "alt": "記原話 → 圈模糊 → 問成果 → 再回述",
-        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。"
+        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       },
       "keywords": [
         "先確認彼此說的是同一件事",
@@ -62600,11 +62670,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/adult-led-text-quiz-check-explanation.svg",
-        "mobileImage": "/assets/overviews/adult-led-text-quiz-check-explanation-mobile.svg",
-        "cardImage": "/assets/overviews/adult-led-text-quiz-check-explanation-card.svg",
+        "image": "/assets/overviews/adult-led-text-quiz-check-explanation-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/adult-led-text-quiz-check-explanation-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/adult-led-text-quiz-check-explanation-picture3-desktop.webp",
         "alt": "定短文 → 先看題 → 聽依據 → 核回饋",
-        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。"
+        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       },
       "keywords": [
         "問答練習保留人的引導",
@@ -62833,11 +62908,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/agent-choice-needs-tradeoffs-data-questions.svg",
-        "mobileImage": "/assets/overviews/agent-choice-needs-tradeoffs-data-questions-mobile.svg",
-        "cardImage": "/assets/overviews/agent-choice-needs-tradeoffs-data-questions-card.svg",
+        "image": "/assets/overviews/agent-choice-needs-tradeoffs-data-questions-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/agent-choice-needs-tradeoffs-data-questions-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/agent-choice-needs-tradeoffs-data-questions-picture3-desktop.webp",
         "alt": "選任務 → 分條件 → 露衝突 → 查資料",
-        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。"
+        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       },
       "keywords": [
         "選工具先看自己的取捨",
@@ -63066,11 +63146,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/ai-response-comparison-evidence-own-judgment.svg",
-        "mobileImage": "/assets/overviews/ai-response-comparison-evidence-own-judgment-mobile.svg",
-        "cardImage": "/assets/overviews/ai-response-comparison-evidence-own-judgment-card.svg",
+        "image": "/assets/overviews/ai-response-comparison-evidence-own-judgment-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/ai-response-comparison-evidence-own-judgment-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/ai-response-comparison-evidence-own-judgment-picture3-desktop.webp",
         "alt": "先定題 → 看差異 → 對來源 → 自判斷",
-        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。"
+        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       },
       "keywords": [
         "多份回覆仍要回看依據",
@@ -63299,11 +63384,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/classical-reading-choice-evidence-context.svg",
-        "mobileImage": "/assets/overviews/classical-reading-choice-evidence-context-mobile.svg",
-        "cardImage": "/assets/overviews/classical-reading-choice-evidence-context-card.svg",
+        "image": "/assets/overviews/classical-reading-choice-evidence-context-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/classical-reading-choice-evidence-context-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/classical-reading-choice-evidence-context-picture3-desktop.webp",
         "alt": "讀字義 → 找處境 → 比選擇 → 連差異",
-        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。"
+        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       },
       "keywords": [
         "讀出人物怎麼做決定",
@@ -63532,11 +63622,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/collaboration-questions-information-action.svg",
-        "mobileImage": "/assets/overviews/collaboration-questions-information-action-mobile.svg",
-        "cardImage": "/assets/overviews/collaboration-questions-information-action-card.svg",
+        "image": "/assets/overviews/collaboration-questions-information-action-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/collaboration-questions-information-action-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/collaboration-questions-information-action-picture3-desktop.webp",
         "alt": "記追問 → 問需要 → 分回應 → 再確認",
-        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。"
+        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       },
       "keywords": [
         "把追問變成合作議程",
@@ -63765,11 +63860,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/english-interest-small-context-use.svg",
-        "mobileImage": "/assets/overviews/english-interest-small-context-use-mobile.svg",
-        "cardImage": "/assets/overviews/english-interest-small-context-use-card.svg",
+        "image": "/assets/overviews/english-interest-small-context-use-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/english-interest-small-context-use-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/english-interest-small-context-use-picture3-desktop.webp",
         "alt": "選用途 → 辨未知 → 查關鍵 → 試使用",
-        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。"
+        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       },
       "keywords": [
         "從自己想懂的英文開始",
@@ -63998,11 +64098,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/family-device-agreement-new-needs.svg",
-        "mobileImage": "/assets/overviews/family-device-agreement-new-needs-mobile.svg",
-        "cardImage": "/assets/overviews/family-device-agreement-new-needs-card.svg",
+        "image": "/assets/overviews/family-device-agreement-new-needs-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/family-device-agreement-new-needs-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/family-device-agreement-new-needs-picture3-desktop.webp",
         "alt": "聽需要 → 分用途 → 寫約定 → 留回看",
-        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。"
+        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       },
       "keywords": [
         "約定可以帶著理由更新",
@@ -64231,11 +64336,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/focus-stopwatch-start-stop-pattern.svg",
-        "mobileImage": "/assets/overviews/focus-stopwatch-start-stop-pattern-mobile.svg",
-        "cardImage": "/assets/overviews/focus-stopwatch-start-stop-pattern-card.svg",
+        "image": "/assets/overviews/focus-stopwatch-start-stop-pattern-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/focus-stopwatch-start-stop-pattern-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/focus-stopwatch-start-stop-pattern-picture3-desktop.webp",
         "alt": "寫意圖 → 記開始 → 標結束 → 看模式",
-        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。"
+        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       },
       "keywords": [
         "先記實際投入的時間",
@@ -64464,11 +64574,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/learning-record-files-photos-human-reflection.svg",
-        "mobileImage": "/assets/overviews/learning-record-files-photos-human-reflection-mobile.svg",
-        "cardImage": "/assets/overviews/learning-record-files-photos-human-reflection-card.svg",
+        "image": "/assets/overviews/learning-record-files-photos-human-reflection-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/learning-record-files-photos-human-reflection-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/learning-record-files-photos-human-reflection-picture3-desktop.webp",
         "alt": "列實作 → 分圖像 → 核草稿 → 寫反思",
-        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。"
+        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       },
       "keywords": [
         "學習紀錄先核對事實",
@@ -64697,11 +64812,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/meeting-task-context-dedup-confirm.svg",
-        "mobileImage": "/assets/overviews/meeting-task-context-dedup-confirm-mobile.svg",
-        "cardImage": "/assets/overviews/meeting-task-context-dedup-confirm-card.svg",
+        "image": "/assets/overviews/meeting-task-context-dedup-confirm-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/meeting-task-context-dedup-confirm-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/meeting-task-context-dedup-confirm-picture3-desktop.webp",
         "alt": "找承諾 → 比舊項 → 補脈絡 → 交確認",
-        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。"
+        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       },
       "keywords": [
         "待辦要能被重新接起",
@@ -64930,11 +65050,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/missing-assignment-purpose-load-small-plan.svg",
-        "mobileImage": "/assets/overviews/missing-assignment-purpose-load-small-plan-mobile.svg",
-        "cardImage": "/assets/overviews/missing-assignment-purpose-load-small-plan-card.svg",
+        "image": "/assets/overviews/missing-assignment-purpose-load-small-plan-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/missing-assignment-purpose-load-small-plan-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/missing-assignment-purpose-load-small-plan-picture3-desktop.webp",
         "alt": "明目的 → 查負擔 → 約小步 → 看進展",
-        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。"
+        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       },
       "keywords": [
         "先查任務再談提醒",
@@ -65163,11 +65288,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/phone-use-trigger-path-breakpoint.svg",
-        "mobileImage": "/assets/overviews/phone-use-trigger-path-breakpoint-mobile.svg",
-        "cardImage": "/assets/overviews/phone-use-trigger-path-breakpoint-card.svg",
+        "image": "/assets/overviews/phone-use-trigger-path-breakpoint-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/phone-use-trigger-path-breakpoint-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/phone-use-trigger-path-breakpoint-picture3-desktop.webp",
         "alt": "記原用 → 畫跳轉 → 找斷點 → 接活動",
-        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。"
+        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       },
       "keywords": [
         "找出偏離原用途的那一步",
@@ -65396,11 +65526,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/reading-exhibit-viewer-action-relationship.svg",
-        "mobileImage": "/assets/overviews/reading-exhibit-viewer-action-relationship-mobile.svg",
-        "cardImage": "/assets/overviews/reading-exhibit-viewer-action-relationship-card.svg",
+        "image": "/assets/overviews/reading-exhibit-viewer-action-relationship-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/reading-exhibit-viewer-action-relationship-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/reading-exhibit-viewer-action-relationship-picture3-desktop.webp",
         "alt": "定立場 → 想動作 → 連作品 → 請試看",
-        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。"
+        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       },
       "keywords": [
         "從觀者行動想展示",
@@ -65629,11 +65764,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/respect-hurtful-joke-listen-followup.svg",
-        "mobileImage": "/assets/overviews/respect-hurtful-joke-listen-followup-mobile.svg",
-        "cardImage": "/assets/overviews/respect-hurtful-joke-listen-followup-card.svg",
+        "image": "/assets/overviews/respect-hurtful-joke-listen-followup-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/respect-hurtful-joke-listen-followup-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/respect-hurtful-joke-listen-followup-picture3-desktop.webp",
         "alt": "先傾聽 → 給選擇 → 談具體 → 再追蹤",
-        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。"
+        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       },
       "keywords": [
         "尊重需要後續行動",
@@ -65862,11 +66002,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/responsibility-gradual-release-voice.svg",
-        "mobileImage": "/assets/overviews/responsibility-gradual-release-voice-mobile.svg",
-        "cardImage": "/assets/overviews/responsibility-gradual-release-voice-card.svg",
+        "image": "/assets/overviews/responsibility-gradual-release-voice-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/responsibility-gradual-release-voice-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/responsibility-gradual-release-voice-picture3-desktop.webp",
         "alt": "問現況 → 先共做 → 交一段 → 再回看",
-        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。"
+        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       },
       "keywords": [
         "責任逐步交回孩子",
@@ -66095,11 +66240,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/restore-one-space-function-staged-review.svg",
-        "mobileImage": "/assets/overviews/restore-one-space-function-staged-review-mobile.svg",
-        "cardImage": "/assets/overviews/restore-one-space-function-staged-review-card.svg",
+        "image": "/assets/overviews/restore-one-space-function-staged-review-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/restore-one-space-function-staged-review-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/restore-one-space-function-staged-review-picture3-desktop.webp",
         "alt": "定用途 → 分未決 → 試使用 → 約回看",
-        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。"
+        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       },
       "keywords": [
         "整理先找回一個用途",
@@ -66328,11 +66478,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/review-examples-annotations-rubric.svg",
-        "mobileImage": "/assets/overviews/review-examples-annotations-rubric-mobile.svg",
-        "cardImage": "/assets/overviews/review-examples-annotations-rubric-card.svg",
+        "image": "/assets/overviews/review-examples-annotations-rubric-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/review-examples-annotations-rubric-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/review-examples-annotations-rubric-picture3-desktop.webp",
         "alt": "看實例 → 寫反應 → 歸規準 → 再回查",
-        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。"
+        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       },
       "keywords": [
         "讓評語回到具體例子",
@@ -66573,11 +66728,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/sift-share-stop-source-context.svg",
-        "mobileImage": "/assets/overviews/sift-share-stop-source-context-mobile.svg",
-        "cardImage": "/assets/overviews/sift-share-stop-source-context-card.svg",
+        "image": "/assets/overviews/sift-share-stop-source-context-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/sift-share-stop-source-context-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/sift-share-stop-source-context-picture3-desktop.webp",
         "alt": "先停下 → 查來源 → 找好報導 → 追脈絡",
-        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。"
+        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       },
       "keywords": [
         "轉傳前先找回脈絡",
@@ -66806,11 +66966,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/teacher-extra-help-scope-review.svg",
-        "mobileImage": "/assets/overviews/teacher-extra-help-scope-review-mobile.svg",
-        "cardImage": "/assets/overviews/teacher-extra-help-scope-review-card.svg",
+        "image": "/assets/overviews/teacher-extra-help-scope-review-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/teacher-extra-help-scope-review-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/teacher-extra-help-scope-review-picture3-desktop.webp",
         "alt": "問卡點 → 查管道 → 說範圍 → 再回看",
-        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。"
+        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       },
       "keywords": [
         "額外協助也要有範圍",
@@ -67039,11 +67204,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/writing-topic-understand-do-extend.svg",
-        "mobileImage": "/assets/overviews/writing-topic-understand-do-extend-mobile.svg",
-        "cardImage": "/assets/overviews/writing-topic-understand-do-extend-card.svg",
+        "image": "/assets/overviews/writing-topic-understand-do-extend-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/writing-topic-understand-do-extend-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/writing-topic-understand-do-extend-picture3-desktop.webp",
         "alt": "記問題 → 說理解 → 留實作 → 提延伸",
-        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。"
+        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       },
       "keywords": [
         "從自己的問題長出文章",
@@ -67272,11 +67442,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/agent-autonomy-ladder-owner-trace.svg",
-        "mobileImage": "/assets/overviews/agent-autonomy-ladder-owner-trace-mobile.svg",
-        "cardImage": "/assets/overviews/agent-autonomy-ladder-owner-trace-card.svg",
+        "image": "/assets/overviews/agent-autonomy-ladder-owner-trace-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/agent-autonomy-ladder-owner-trace-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/agent-autonomy-ladder-owner-trace-picture3-desktop.webp",
         "alt": "定責任 → 分階梯 → 看證據 → 可接手",
-        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。"
+        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       },
       "keywords": [
         "自主程度需要逐步確認",
@@ -67505,11 +67680,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/agent-feature-spec-review-keep-scope.svg",
-        "mobileImage": "/assets/overviews/agent-feature-spec-review-keep-scope-mobile.svg",
-        "cardImage": "/assets/overviews/agent-feature-spec-review-keep-scope-card.svg",
+        "image": "/assets/overviews/agent-feature-spec-review-keep-scope-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/agent-feature-spec-review-keep-scope-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/agent-feature-spec-review-keep-scope-picture3-desktop.webp",
         "alt": "說改動 → 留條件 → 讀規格 → 驗結果",
-        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。"
+        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       },
       "keywords": [
         "小功能也要先說清楚",
@@ -67738,11 +67918,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/ai-opportunity-outcome-small-sample-value.svg",
-        "mobileImage": "/assets/overviews/ai-opportunity-outcome-small-sample-value-mobile.svg",
-        "cardImage": "/assets/overviews/ai-opportunity-outcome-small-sample-value-card.svg",
+        "image": "/assets/overviews/ai-opportunity-outcome-small-sample-value-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/ai-opportunity-outcome-small-sample-value-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/ai-opportunity-outcome-small-sample-value-picture3-desktop.webp",
         "alt": "定成果 → 拆工作 → 試一份 → 再決定",
-        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。"
+        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       },
       "keywords": [
         "把成果放在工具前面",
@@ -67971,11 +68156,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/class-shirt-sketch-intent-ai-draft-check.svg",
-        "mobileImage": "/assets/overviews/class-shirt-sketch-intent-ai-draft-check-mobile.svg",
-        "cardImage": "/assets/overviews/class-shirt-sketch-intent-ai-draft-check-card.svg",
+        "image": "/assets/overviews/class-shirt-sketch-intent-ai-draft-check-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/class-shirt-sketch-intent-ai-draft-check-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/class-shirt-sketch-intent-ai-draft-check-picture3-desktop.webp",
         "alt": "留意圖 → 存原稿 → 標加工 → 逐張查",
-        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。"
+        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       },
       "keywords": [
         "加工之前先保留創作意圖",
@@ -68204,11 +68394,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/curiosity-prediction-observation-explanation.svg",
-        "mobileImage": "/assets/overviews/curiosity-prediction-observation-explanation-mobile.svg",
-        "cardImage": "/assets/overviews/curiosity-prediction-observation-explanation-card.svg",
+        "image": "/assets/overviews/curiosity-prediction-observation-explanation-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/curiosity-prediction-observation-explanation-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/curiosity-prediction-observation-explanation-picture3-desktop.webp",
         "alt": "看現象 → 先預測 → 做比較 → 補概念",
-        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。"
+        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       },
       "keywords": [
         "讓好奇有下一步",
@@ -68437,11 +68632,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/low-stakes-choice-future-regret-question.svg",
-        "mobileImage": "/assets/overviews/low-stakes-choice-future-regret-question-mobile.svg",
-        "cardImage": "/assets/overviews/low-stakes-choice-future-regret-question-card.svg",
+        "image": "/assets/overviews/low-stakes-choice-future-regret-question-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/low-stakes-choice-future-regret-question-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/low-stakes-choice-future-regret-question-picture3-desktop.webp",
         "alt": "縮選擇 → 拉時間 → 問價值 → 小小試",
-        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。"
+        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       },
       "keywords": [
         "把想像當提問，不當預言",
@@ -68670,11 +68870,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/new-opportunity-imaginary-builder-team.svg",
-        "mobileImage": "/assets/overviews/new-opportunity-imaginary-builder-team-mobile.svg",
-        "cardImage": "/assets/overviews/new-opportunity-imaginary-builder-team-card.svg",
+        "image": "/assets/overviews/new-opportunity-imaginary-builder-team-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/new-opportunity-imaginary-builder-team-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/new-opportunity-imaginary-builder-team-picture3-desktop.webp",
         "alt": "先想像 → 分價值 → 縮案例 → 查條件",
-        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。"
+        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       },
       "keywords": [
         "先想新機會，再做小確認",
@@ -68903,11 +69108,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/old-planner-record-context-direction.svg",
-        "mobileImage": "/assets/overviews/old-planner-record-context-direction-mobile.svg",
-        "cardImage": "/assets/overviews/old-planner-record-context-direction-card.svg",
+        "image": "/assets/overviews/old-planner-record-context-direction-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/old-planner-record-context-direction-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/old-planner-record-context-direction-picture3-desktop.webp",
         "alt": "看紀錄 → 留空白 → 補脈絡 → 寫方向",
-        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。"
+        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       },
       "keywords": [
         "用紀錄看見方向的改變",
@@ -69136,11 +69346,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/project-context-four-documents-update-rules.svg",
-        "mobileImage": "/assets/overviews/project-context-four-documents-update-rules-mobile.svg",
-        "cardImage": "/assets/overviews/project-context-four-documents-update-rules-card.svg",
+        "image": "/assets/overviews/project-context-four-documents-update-rules-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/project-context-four-documents-update-rules-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/project-context-four-documents-update-rules-picture3-desktop.webp",
         "alt": "簡介 → 現況 → 決策 → 用語",
-        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。"
+        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       },
       "keywords": [
         "不同資訊需要不同更新方式",
@@ -69369,11 +69584,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/repeated-explanation-output-form-maintenance.svg",
-        "mobileImage": "/assets/overviews/repeated-explanation-output-form-maintenance-mobile.svg",
-        "cardImage": "/assets/overviews/repeated-explanation-output-form-maintenance-card.svg",
+        "image": "/assets/overviews/repeated-explanation-output-form-maintenance-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/repeated-explanation-output-form-maintenance-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/repeated-explanation-output-form-maintenance-picture3-desktop.webp",
         "alt": "找重複 → 選形式 → 看現成 → 算維護",
-        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。"
+        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       },
       "keywords": [
         "先看需求形狀",
@@ -69602,11 +69822,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/share-small-service-invitation-network.svg",
-        "mobileImage": "/assets/overviews/share-small-service-invitation-network-mobile.svg",
-        "cardImage": "/assets/overviews/share-small-service-invitation-network-card.svg",
+        "image": "/assets/overviews/share-small-service-invitation-network-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/share-small-service-invitation-network-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/share-small-service-invitation-network-picture3-desktop.webp",
         "alt": "小幫忙 → 說近況 → 可拒絕 → 做好事",
-        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。"
+        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       },
       "keywords": [
         "從具體小幫忙開始",
@@ -69835,11 +70060,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/small-collaboration-transfer-lessons.svg",
-        "mobileImage": "/assets/overviews/small-collaboration-transfer-lessons-mobile.svg",
-        "cardImage": "/assets/overviews/small-collaboration-transfer-lessons-card.svg",
+        "image": "/assets/overviews/small-collaboration-transfer-lessons-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/small-collaboration-transfer-lessons-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/small-collaboration-transfer-lessons-picture3-desktop.webp",
         "alt": "選一次 → 留路線 → 記踩坑 → 調分工",
-        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。"
+        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       },
       "keywords": [
         "把走過一遍變成下一次的準備",
@@ -70068,11 +70298,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/spoken-ideas-diagram-human-edit.svg",
-        "mobileImage": "/assets/overviews/spoken-ideas-diagram-human-edit-mobile.svg",
-        "cardImage": "/assets/overviews/spoken-ideas-diagram-human-edit-card.svg",
+        "image": "/assets/overviews/spoken-ideas-diagram-human-edit-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/spoken-ideas-diagram-human-edit-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/spoken-ideas-diagram-human-edit-picture3-desktop.webp",
         "alt": "先口述 → 說結構 → 改初稿 → 試講看",
-        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。"
+        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       },
       "keywords": [
         "口述是材料，圖解要人核對",
@@ -70301,11 +70536,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/team-agent-roles-donts-private-boundary.svg",
-        "mobileImage": "/assets/overviews/team-agent-roles-donts-private-boundary-mobile.svg",
-        "cardImage": "/assets/overviews/team-agent-roles-donts-private-boundary-card.svg",
+        "image": "/assets/overviews/team-agent-roles-donts-private-boundary-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/team-agent-roles-donts-private-boundary-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/team-agent-roles-donts-private-boundary-picture3-desktop.webp",
         "alt": "分角色 → 不承諾 → 守邊界 → 小草稿",
-        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。"
+        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       },
       "keywords": [
         "共享之前先把範圍寫清楚",
@@ -70534,11 +70774,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/team-role-leading-following-listening.svg",
-        "mobileImage": "/assets/overviews/team-role-leading-following-listening-mobile.svg",
-        "cardImage": "/assets/overviews/team-role-leading-following-listening-card.svg",
+        "image": "/assets/overviews/team-role-leading-following-listening-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/team-role-leading-following-listening-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/team-role-leading-following-listening-picture3-desktop.webp",
         "alt": "看任務 → 做協調 → 先傾聽 → 看貢獻",
-        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。"
+        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       },
       "keywords": [
         "角色可以隨任務改變",
@@ -70767,11 +71012,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/three-questions-values-strength-sustainability.svg",
-        "mobileImage": "/assets/overviews/three-questions-values-strength-sustainability-mobile.svg",
-        "cardImage": "/assets/overviews/three-questions-values-strength-sustainability-card.svg",
+        "image": "/assets/overviews/three-questions-values-strength-sustainability-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/three-questions-values-strength-sustainability-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/three-questions-values-strength-sustainability-picture3-desktop.webp",
         "alt": "在意 → 證據 → 條件 → 小試",
-        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。"
+        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       },
       "keywords": [
         "提問比急著貼標籤更有用",
@@ -71000,11 +71250,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/topic-fit-audience-own-experience.svg",
-        "mobileImage": "/assets/overviews/topic-fit-audience-own-experience-mobile.svg",
-        "cardImage": "/assets/overviews/topic-fit-audience-own-experience-card.svg",
+        "image": "/assets/overviews/topic-fit-audience-own-experience-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/topic-fit-audience-own-experience-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/topic-fit-audience-own-experience-picture3-desktop.webp",
         "alt": "問關係 → 想受眾 → 找經驗 → 再決定",
-        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。"
+        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       },
       "keywords": [
         "不是每個熱點都要發言",
@@ -71233,11 +71488,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/trust-claim-ability-promise-benefit.svg",
-        "mobileImage": "/assets/overviews/trust-claim-ability-promise-benefit-mobile.svg",
-        "cardImage": "/assets/overviews/trust-claim-ability-promise-benefit-card.svg",
+        "image": "/assets/overviews/trust-claim-ability-promise-benefit-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/trust-claim-ability-promise-benefit-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/trust-claim-ability-promise-benefit-picture3-desktop.webp",
         "alt": "找能力 → 限承諾 → 說幫助 → 查行動",
-        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。"
+        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       },
       "keywords": [
         "可信的自我介紹要有行動支撐",
@@ -71466,11 +71726,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/useful-prototype-small-group-return-value.svg",
-        "mobileImage": "/assets/overviews/useful-prototype-small-group-return-value-mobile.svg",
-        "cardImage": "/assets/overviews/useful-prototype-small-group-return-value-card.svg",
+        "image": "/assets/overviews/useful-prototype-small-group-return-value-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/useful-prototype-small-group-return-value-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/useful-prototype-small-group-return-value-picture3-desktop.webp",
         "alt": "說幫忙 → 小範圍 → 看細節 → 再回看",
-        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。"
+        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       },
       "keywords": [
         "發布後還要看使用",
@@ -71699,11 +71964,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/writing-note-maturity-finish-one.svg",
-        "mobileImage": "/assets/overviews/writing-note-maturity-finish-one-mobile.svg",
-        "cardImage": "/assets/overviews/writing-note-maturity-finish-one-card.svg",
+        "image": "/assets/overviews/writing-note-maturity-finish-one-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/writing-note-maturity-finish-one-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/writing-note-maturity-finish-one-picture3-desktop.webp",
         "alt": "問自己 → 養材料 → 挑成熟 → 補完稿",
-        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。"
+        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       },
       "keywords": [
         "把筆記養到能寫完",
@@ -71932,11 +72202,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/agent-tool-card-purpose-input-result.svg",
-        "mobileImage": "/assets/overviews/agent-tool-card-purpose-input-result-mobile.svg",
-        "cardImage": "/assets/overviews/agent-tool-card-purpose-input-result-card.svg",
+        "image": "/assets/overviews/agent-tool-card-purpose-input-result-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/agent-tool-card-purpose-input-result-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/agent-tool-card-purpose-input-result-picture3-desktop.webp",
         "alt": "命名 → 列輸入 → 定輸出 → 留確認",
-        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。"
+        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       },
       "keywords": [
         "功能先說清，再考慮連線",
@@ -72165,11 +72440,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/collected-information-own-thinking-note.svg",
-        "mobileImage": "/assets/overviews/collected-information-own-thinking-note-mobile.svg",
-        "cardImage": "/assets/overviews/collected-information-own-thinking-note-card.svg",
+        "image": "/assets/overviews/collected-information-own-thinking-note-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/collected-information-own-thinking-note-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/collected-information-own-thinking-note-picture3-desktop.webp",
         "alt": "選資訊 → 重述 → 找差異 → 留紀錄",
-        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。"
+        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       },
       "keywords": [
         "收到資訊之後",
@@ -72398,11 +72678,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/constructive-conflict-event-impact-request.svg",
-        "mobileImage": "/assets/overviews/constructive-conflict-event-impact-request-mobile.svg",
-        "cardImage": "/assets/overviews/constructive-conflict-event-impact-request-card.svg",
+        "image": "/assets/overviews/constructive-conflict-event-impact-request-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/constructive-conflict-event-impact-request-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/constructive-conflict-event-impact-request-picture3-desktop.webp",
         "alt": "定共同結果 → 說事件 → 談影響 → 提請求",
-        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。"
+        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       },
       "keywords": [
         "有建設性的衝突",
@@ -72631,11 +72916,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/disagreement-small-test-shared-support.svg",
-        "mobileImage": "/assets/overviews/disagreement-small-test-shared-support-mobile.svg",
-        "cardImage": "/assets/overviews/disagreement-small-test-shared-support-card.svg",
+        "image": "/assets/overviews/disagreement-small-test-shared-support-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/disagreement-small-test-shared-support-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/disagreement-small-test-shared-support-picture3-desktop.webp",
         "alt": "說目的 → 做小版 → 定觀察 → 共回顧",
-        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。"
+        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       },
       "keywords": [
         "意見不同先試一小版",
@@ -72864,11 +73154,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/fantastic-character-believable-condition.svg",
-        "mobileImage": "/assets/overviews/fantastic-character-believable-condition-mobile.svg",
-        "cardImage": "/assets/overviews/fantastic-character-believable-condition-card.svg",
+        "image": "/assets/overviews/fantastic-character-believable-condition-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/fantastic-character-believable-condition-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/fantastic-character-believable-condition-picture3-desktop.webp",
         "alt": "留奇想 → 找依據 → 設條件 → 試情節",
-        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。"
+        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       },
       "keywords": [
         "讓奇想有讀者能跟上的依據",
@@ -73097,11 +73392,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/measure-hints-change-retest-loop.svg",
-        "mobileImage": "/assets/overviews/measure-hints-change-retest-loop-mobile.svg",
-        "cardImage": "/assets/overviews/measure-hints-change-retest-loop-card.svg",
+        "image": "/assets/overviews/measure-hints-change-retest-loop-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/measure-hints-change-retest-loop-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/measure-hints-change-retest-loop-picture3-desktop.webp",
         "alt": "留基準 → 給提示 → 做小改 → 再驗證",
-        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。"
+        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       },
       "keywords": [
         "把改進做成回圈",
@@ -73330,11 +73630,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/mutual-expectation-needs-listening.svg",
-        "mobileImage": "/assets/overviews/mutual-expectation-needs-listening-mobile.svg",
-        "cardImage": "/assets/overviews/mutual-expectation-needs-listening-card.svg",
+        "image": "/assets/overviews/mutual-expectation-needs-listening-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/mutual-expectation-needs-listening-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/mutual-expectation-needs-listening-picture3-desktop.webp",
         "alt": "選小事 → 列期待 → 問需要 → 寫草稿",
-        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。"
+        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       },
       "keywords": [
         "期望需要雙向被聽見",
@@ -73563,11 +73868,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/need-use-scenario-resource-alternatives.svg",
-        "mobileImage": "/assets/overviews/need-use-scenario-resource-alternatives-mobile.svg",
-        "cardImage": "/assets/overviews/need-use-scenario-resource-alternatives-card.svg",
+        "image": "/assets/overviews/need-use-scenario-resource-alternatives-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/need-use-scenario-resource-alternatives-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/need-use-scenario-resource-alternatives-picture3-desktop.webp",
         "alt": "說任務 → 看情境 → 找選項 → 試一項",
-        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。"
+        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       },
       "keywords": [
         "這次真的需要嗎",
@@ -73796,11 +74106,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/personal-reading-goal-context-ai-question.svg",
-        "mobileImage": "/assets/overviews/personal-reading-goal-context-ai-question-mobile.svg",
-        "cardImage": "/assets/overviews/personal-reading-goal-context-ai-question-card.svg",
+        "image": "/assets/overviews/personal-reading-goal-context-ai-question-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/personal-reading-goal-context-ai-question-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/personal-reading-goal-context-ai-question-picture3-desktop.webp",
         "alt": "問目的 → 說現況 → 給脈絡 → 查對應",
-        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。"
+        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       },
       "keywords": [
         "讓問題帶著你的目的",
@@ -74029,11 +74344,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/phone-free-gap-observation-idea.svg",
-        "mobileImage": "/assets/overviews/phone-free-gap-observation-idea-mobile.svg",
-        "cardImage": "/assets/overviews/phone-free-gap-observation-idea-card.svg",
+        "image": "/assets/overviews/phone-free-gap-observation-idea-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/phone-free-gap-observation-idea-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/phone-free-gap-observation-idea-picture3-desktop.webp",
         "alt": "察覺 → 留空檔 → 記一行 → 回看",
-        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。"
+        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       },
       "keywords": [
         "空檔先不滑手機",
@@ -74262,11 +74582,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/quarter-focus-primary-work-block.svg",
-        "mobileImage": "/assets/overviews/quarter-focus-primary-work-block-mobile.svg",
-        "cardImage": "/assets/overviews/quarter-focus-primary-work-block-card.svg",
+        "image": "/assets/overviews/quarter-focus-primary-work-block-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/quarter-focus-primary-work-block-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/quarter-focus-primary-work-block-picture3-desktop.webp",
         "alt": "列目標 → 定主攻 → 留時段 → 看成果",
-        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。"
+        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       },
       "keywords": [
         "九十天只設一個主攻方向",
@@ -74495,11 +74820,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/simulated-audience-real-feedback-check.svg",
-        "mobileImage": "/assets/overviews/simulated-audience-real-feedback-check-mobile.svg",
-        "cardImage": "/assets/overviews/simulated-audience-real-feedback-check-card.svg",
+        "image": "/assets/overviews/simulated-audience-real-feedback-check-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/simulated-audience-real-feedback-check-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/simulated-audience-real-feedback-check-picture3-desktop.webp",
         "alt": "列假設 → 問中性問題 → 收真人回饋 → 修正方案",
-        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。"
+        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       },
       "keywords": [
         "AI模擬讀者之後",
@@ -74728,11 +75058,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/single-story-missing-perspective-reading.svg",
-        "mobileImage": "/assets/overviews/single-story-missing-perspective-reading-mobile.svg",
-        "cardImage": "/assets/overviews/single-story-missing-perspective-reading-card.svg",
+        "image": "/assets/overviews/single-story-missing-perspective-reading-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/single-story-missing-perspective-reading-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/single-story-missing-perspective-reading-picture3-desktop.webp",
         "alt": "圈概括 → 問缺漏 → 補材料 → 改敘述",
-        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。"
+        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       },
       "keywords": [
         "讀到一種說法時",
@@ -74966,11 +75301,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/storyboard-generated-video-dialogue-check.svg",
-        "mobileImage": "/assets/overviews/storyboard-generated-video-dialogue-check-mobile.svg",
-        "cardImage": "/assets/overviews/storyboard-generated-video-dialogue-check-card.svg",
+        "image": "/assets/overviews/storyboard-generated-video-dialogue-check-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/storyboard-generated-video-dialogue-check-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/storyboard-generated-video-dialogue-check-picture3-desktop.webp",
         "alt": "畫分鏡 → 列文字 → 比內容 → 查成品",
-        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。"
+        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       },
       "keywords": [
         "生成短片前先做分鏡，完成後逐項查台詞與文字",
@@ -75199,11 +75539,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/support-needs-conditions-resource-match.svg",
-        "mobileImage": "/assets/overviews/support-needs-conditions-resource-match-mobile.svg",
-        "cardImage": "/assets/overviews/support-needs-conditions-resource-match-card.svg",
+        "image": "/assets/overviews/support-needs-conditions-resource-match-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/support-needs-conditions-resource-match-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/support-needs-conditions-resource-match-picture3-desktop.webp",
         "alt": "先詢問 → 看條件 → 配資源 → 留後續",
-        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。"
+        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       },
       "keywords": [
         "提供支援前先問需求",
@@ -75432,11 +75777,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/task-brief-followup-plan-check.svg",
-        "mobileImage": "/assets/overviews/task-brief-followup-plan-check-mobile.svg",
-        "cardImage": "/assets/overviews/task-brief-followup-plan-check-card.svg",
+        "image": "/assets/overviews/task-brief-followup-plan-check-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/task-brief-followup-plan-check-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/task-brief-followup-plan-check-picture3-desktop.webp",
         "alt": "說結果 → 答追問 → 查計畫 → 小試做",
-        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。"
+        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       },
       "keywords": [
         "把模糊任務說清楚",
@@ -75665,11 +76015,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/understand-disagree-responsibility-boundary.svg",
-        "mobileImage": "/assets/overviews/understand-disagree-responsibility-boundary-mobile.svg",
-        "cardImage": "/assets/overviews/understand-disagree-responsibility-boundary-card.svg",
+        "image": "/assets/overviews/understand-disagree-responsibility-boundary-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/understand-disagree-responsibility-boundary-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/understand-disagree-responsibility-boundary-picture3-desktop.webp",
         "alt": "理解 → 表態 → 分責任 → 談下一步",
-        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。"
+        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       },
       "keywords": [
         "理解卻不同意",
@@ -75898,11 +76253,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/work-log-automation-candidate-audit.svg",
-        "mobileImage": "/assets/overviews/work-log-automation-candidate-audit-mobile.svg",
-        "cardImage": "/assets/overviews/work-log-automation-candidate-audit-card.svg",
+        "image": "/assets/overviews/work-log-automation-candidate-audit-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/work-log-automation-candidate-audit-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/work-log-automation-candidate-audit-picture3-desktop.webp",
         "alt": "留紀錄 → 拆工作 → 選候選 → 定檢查",
-        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。"
+        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       },
       "keywords": [
         "從工作紀錄找自動化候選",
@@ -76136,11 +76496,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/workflow-node-handoff-failure-map.svg",
-        "mobileImage": "/assets/overviews/workflow-node-handoff-failure-map-mobile.svg",
-        "cardImage": "/assets/overviews/workflow-node-handoff-failure-map-card.svg",
+        "image": "/assets/overviews/workflow-node-handoff-failure-map-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/workflow-node-handoff-failure-map-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/workflow-node-handoff-failure-map-picture3-desktop.webp",
         "alt": "先簡化 → 分責任 → 定交接 → 留退路",
-        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。"
+        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       },
       "keywords": [
         "工作交給下一步之前",
@@ -76369,11 +76734,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/writing-observation-reader-feedback-cycle.svg",
-        "mobileImage": "/assets/overviews/writing-observation-reader-feedback-cycle-mobile.svg",
-        "cardImage": "/assets/overviews/writing-observation-reader-feedback-cycle-card.svg",
+        "image": "/assets/overviews/writing-observation-reader-feedback-cycle-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/writing-observation-reader-feedback-cycle-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/writing-observation-reader-feedback-cycle-picture3-desktop.webp",
         "alt": "看見 → 成段 → 試讀 → 修改",
-        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。"
+        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       },
       "keywords": [
         "先寫自己看見的事，再用讀者回應修正理解",
@@ -76602,11 +76972,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/conflicting-goals-name-constraint-next-project.svg",
-        "mobileImage": "/assets/overviews/conflicting-goals-name-constraint-next-project-mobile.svg",
-        "cardImage": "/assets/overviews/conflicting-goals-name-constraint-next-project-card.svg",
+        "image": "/assets/overviews/conflicting-goals-name-constraint-next-project-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/conflicting-goals-name-constraint-next-project-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/conflicting-goals-name-constraint-next-project-picture3-desktop.webp",
         "alt": "並列願望 → 辨認條件 → 縮小專案 → 定本次目的",
-        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。"
+        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       },
       "keywords": [
         "卡住時先把兩個願望寫出來",
@@ -76835,11 +77210,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/delegation-five-dimensions-blocker-card.svg",
-        "mobileImage": "/assets/overviews/delegation-five-dimensions-blocker-card-mobile.svg",
-        "cardImage": "/assets/overviews/delegation-five-dimensions-blocker-card-card.svg",
+        "image": "/assets/overviews/delegation-five-dimensions-blocker-card-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/delegation-five-dimensions-blocker-card-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/delegation-five-dimensions-blocker-card-picture3-desktop.webp",
         "alt": "看投入 → 查教與驗 → 保責任 → 定範圍",
-        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。"
+        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       },
       "keywords": [
         "交給AI之前",
@@ -77068,11 +77448,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/delivery-source-quality-independent-use.svg",
-        "mobileImage": "/assets/overviews/delivery-source-quality-independent-use-mobile.svg",
-        "cardImage": "/assets/overviews/delivery-source-quality-independent-use-card.svg",
+        "image": "/assets/overviews/delivery-source-quality-independent-use-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/delivery-source-quality-independent-use-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/delivery-source-quality-independent-use-picture3-desktop.webp",
         "alt": "查來源 → 定品質 → 看試用 → 留限制",
-        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。"
+        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       },
       "keywords": [
         "交付前查三件事",
@@ -77301,11 +77686,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/estimate-inverse-calculation-error-check.svg",
-        "mobileImage": "/assets/overviews/estimate-inverse-calculation-error-check-mobile.svg",
-        "cardImage": "/assets/overviews/estimate-inverse-calculation-error-check-card.svg",
+        "image": "/assets/overviews/estimate-inverse-calculation-error-check-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/estimate-inverse-calculation-error-check-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/estimate-inverse-calculation-error-check-picture3-desktop.webp",
         "alt": "先估 → 看量 → 回推 → 找錯",
-        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。"
+        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       },
       "keywords": [
         "驗算不只換個算式抄一次",
@@ -77534,11 +77924,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/first-domino-task-dependency-map.svg",
-        "mobileImage": "/assets/overviews/first-domino-task-dependency-map-mobile.svg",
-        "cardImage": "/assets/overviews/first-domino-task-dependency-map-card.svg",
+        "image": "/assets/overviews/first-domino-task-dependency-map-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/first-domino-task-dependency-map-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/first-domino-task-dependency-map-picture3-desktop.webp",
         "alt": "列任務 → 畫相依 → 選起點 → 回看",
-        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。"
+        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       },
       "keywords": [
         "最重要的事不只排第一",
@@ -77767,11 +78162,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/game-prototype-playtest-reproduce-prioritize.svg",
-        "mobileImage": "/assets/overviews/game-prototype-playtest-reproduce-prioritize-mobile.svg",
-        "cardImage": "/assets/overviews/game-prototype-playtest-reproduce-prioritize-card.svg",
+        "image": "/assets/overviews/game-prototype-playtest-reproduce-prioritize-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/game-prototype-playtest-reproduce-prioritize-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/game-prototype-playtest-reproduce-prioritize-picture3-desktop.webp",
         "alt": "實際玩 → 記問題 → 排修正 → 再試玩",
-        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。"
+        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       },
       "keywords": [
         "AI遊戲說做好了",
@@ -78000,11 +78400,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/image-local-edit-preserve-compare.svg",
-        "mobileImage": "/assets/overviews/image-local-edit-preserve-compare-mobile.svg",
-        "cardImage": "/assets/overviews/image-local-edit-preserve-compare-card.svg",
+        "image": "/assets/overviews/image-local-edit-preserve-compare-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/image-local-edit-preserve-compare-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/image-local-edit-preserve-compare-picture3-desktop.webp",
         "alt": "留原稿 → 定改區 → 列保留 → 比成品",
-        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。"
+        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       },
       "keywords": [
         "改圖先圈定範圍",
@@ -78233,11 +78638,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/multiple-candidates-verifier-coverage.svg",
-        "mobileImage": "/assets/overviews/multiple-candidates-verifier-coverage-mobile.svg",
-        "cardImage": "/assets/overviews/multiple-candidates-verifier-coverage-card.svg",
+        "image": "/assets/overviews/multiple-candidates-verifier-coverage-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/multiple-candidates-verifier-coverage-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/multiple-candidates-verifier-coverage-picture3-desktop.webp",
         "alt": "定要求 → 備案例 → 比候選 → 查規則",
-        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。"
+        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       },
       "keywords": [
         "多產生幾個答案之前",
@@ -78466,11 +78876,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/project-learning-goal-rubric-evidence-reflection.svg",
-        "mobileImage": "/assets/overviews/project-learning-goal-rubric-evidence-reflection-mobile.svg",
-        "cardImage": "/assets/overviews/project-learning-goal-rubric-evidence-reflection-card.svg",
+        "image": "/assets/overviews/project-learning-goal-rubric-evidence-reflection-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/project-learning-goal-rubric-evidence-reflection-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/project-learning-goal-rubric-evidence-reflection-picture3-desktop.webp",
         "alt": "定理解 → 設任務 → 給規準 → 看作品",
-        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。"
+        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       },
       "keywords": [
         "專題不是照著步驟做",
@@ -78699,11 +79114,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/worked-example-corrections-reusable-guide.svg",
-        "mobileImage": "/assets/overviews/worked-example-corrections-reusable-guide-mobile.svg",
-        "cardImage": "/assets/overviews/worked-example-corrections-reusable-guide-card.svg",
+        "image": "/assets/overviews/worked-example-corrections-reusable-guide-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/worked-example-corrections-reusable-guide-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/worked-example-corrections-reusable-guide-picture3-desktop.webp",
         "alt": "做一次 → 留修正 → 成手冊 → 換例子",
-        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。"
+        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       },
       "keywords": [
         "別從空白頁寫手冊",
@@ -78931,11 +79351,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/agent-check-event-contract.svg",
-        "mobileImage": "/assets/overviews/agent-check-event-contract-mobile.svg",
-        "cardImage": "/assets/overviews/agent-check-event-contract-card.svg",
+        "image": "/assets/overviews/agent-check-event-contract-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/agent-check-event-contract-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/agent-check-event-contract-picture3-desktop.webp",
         "alt": "挑一項漏檢 → 對應事件 → 寫失敗回饋 → 實測兩種結果",
-        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。"
+        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       },
       "keywords": [
         "驗收事件卡",
@@ -79163,11 +79588,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/agent-plugin-controlled-comparison.svg",
-        "mobileImage": "/assets/overviews/agent-plugin-controlled-comparison-mobile.svg",
-        "cardImage": "/assets/overviews/agent-plugin-controlled-comparison-card.svg",
+        "image": "/assets/overviews/agent-plugin-controlled-comparison-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/agent-plugin-controlled-comparison-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/agent-plugin-controlled-comparison-picture3-desktop.webp",
         "alt": "固定測試條件 → 保留原始結果 → 確認功能來源 → 逐項對答案",
-        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。"
+        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       },
       "keywords": [
         "外掛對照測試",
@@ -81291,11 +81721,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/notion-priority-view-navigation.svg",
-        "mobileImage": "/assets/overviews/notion-priority-view-navigation-mobile.svg",
-        "cardImage": "/assets/overviews/notion-priority-view-navigation-card.svg",
+        "image": "/assets/overviews/notion-priority-view-navigation-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/notion-priority-view-navigation-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/notion-priority-view-navigation-picture3-desktop.webp",
         "alt": "挑常用入口 → 確認新增去向 → 挑對資料檢視 → 核對影響範圍",
-        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。"
+        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       },
       "keywords": [
         "工作入口整理",
@@ -81997,11 +82432,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/read-art-memoir-scenes.svg",
-        "mobileImage": "/assets/overviews/read-art-memoir-scenes-mobile.svg",
-        "cardImage": "/assets/overviews/read-art-memoir-scenes-card.svg",
+        "image": "/assets/overviews/read-art-memoir-scenes-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/read-art-memoir-scenes-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/read-art-memoir-scenes-picture3-desktop.webp",
         "alt": "選一段場景 → 查對應圖像 → 換位回讀 → 留下證據",
-        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。"
+        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       },
       "keywords": [
         "場景閱讀法",
@@ -82229,11 +82669,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/remote-agent-host-result-check.svg",
-        "mobileImage": "/assets/overviews/remote-agent-host-result-check-mobile.svg",
-        "cardImage": "/assets/overviews/remote-agent-host-result-check-card.svg",
+        "image": "/assets/overviews/remote-agent-host-result-check-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/remote-agent-host-result-check-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/remote-agent-host-result-check-picture3-desktop.webp",
         "alt": "指認主機專案 → 送一個小任務 → 對照執行結果 → 記下存取方式",
-        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。"
+        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       },
       "keywords": [
         "遠端任務核對",
@@ -82698,11 +83143,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/template-source-output-difference.svg",
-        "mobileImage": "/assets/overviews/template-source-output-difference-mobile.svg",
-        "cardImage": "/assets/overviews/template-source-output-difference-card.svg",
+        "image": "/assets/overviews/template-source-output-difference-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/template-source-output-difference-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/template-source-output-difference-picture3-desktop.webp",
         "alt": "挑可用原稿 → 分固定替換項 → 做一頁樣本 → 修正再固定",
-        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。"
+        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       },
       "keywords": [
         "版型對照卡",
@@ -82930,11 +83380,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/video-preview-upscale-comparison.svg",
-        "mobileImage": "/assets/overviews/video-preview-upscale-comparison-mobile.svg",
-        "cardImage": "/assets/overviews/video-preview-upscale-comparison-card.svg",
+        "image": "/assets/overviews/video-preview-upscale-comparison-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/video-preview-upscale-comparison-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/video-preview-upscale-comparison-picture3-desktop.webp",
         "alt": "先寫內容條件 → 做小樣審方向 → 保留原版再處理 → 同片段比細節",
-        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。"
+        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       },
       "keywords": [
         "影片小樣比對",
@@ -83636,11 +84091,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/ai-writing-purpose-role-split.svg",
-        "mobileImage": "/assets/overviews/ai-writing-purpose-role-split-mobile.svg",
-        "cardImage": "/assets/overviews/ai-writing-purpose-role-split-card.svg",
+        "image": "/assets/overviews/ai-writing-purpose-role-split-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/ai-writing-purpose-role-split-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/ai-writing-purpose-role-split-picture3-desktop.webp",
         "alt": "先辨認用途 → 留下本人重點 → 指定協助範圍 → 回讀刪掉多餘",
-        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。"
+        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       },
       "keywords": [
         "寫作用途分流",
@@ -84120,11 +84580,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/leisure-alternative-before-declutter.svg",
-        "mobileImage": "/assets/overviews/leisure-alternative-before-declutter-mobile.svg",
-        "cardImage": "/assets/overviews/leisure-alternative-before-declutter-card.svg",
+        "image": "/assets/overviews/leisure-alternative-before-declutter-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/leisure-alternative-before-declutter-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/leisure-alternative-before-declutter-picture3-desktop.webp",
         "alt": "找願意投入的事 → 先安排一次體驗 → 檢查數位用途 → 留下使用規則",
-        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。"
+        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       },
       "keywords": [
         "休閒替代清單",
@@ -84352,11 +84817,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/purchase-expectation-use-reflection.svg",
-        "mobileImage": "/assets/overviews/purchase-expectation-use-reflection-mobile.svg",
-        "cardImage": "/assets/overviews/purchase-expectation-use-reflection-card.svg",
+        "image": "/assets/overviews/purchase-expectation-use-reflection-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/purchase-expectation-use-reflection-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/purchase-expectation-use-reflection-picture3-desktop.webp",
         "alt": "先聽想要原因 → 一起查選擇依據 → 保留再想空間 → 回看實際使用",
-        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。"
+        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       },
       "keywords": [
         "購物前後對話",
@@ -85192,11 +85662,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/ai-lazy-report-ep399-three-thinking-not-outsourced.svg",
-        "mobileImage": "/assets/overviews/ai-lazy-report-ep399-three-thinking-not-outsourced-mobile.svg",
-        "cardImage": "/assets/overviews/ai-lazy-report-ep399-three-thinking-not-outsourced-card.svg",
+        "image": "/assets/overviews/ai-lazy-report-ep399-three-thinking-not-outsourced-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/ai-lazy-report-ep399-three-thinking-not-outsourced-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/ai-lazy-report-ep399-three-thinking-not-outsourced-picture3-desktop.webp",
         "alt": "盤點待辦、彙報外包、自己寫第一稿、AI 查證反駁、故事先行、放大嘗試，六步分清楚哪些思考不能外包。",
-        "caption": "依 AI 懶人報節目口述編輯整理：換格式的彙報交給 AI，需要觀點與品味的思考自己守。圖解為編輯整理，不是成效證明。"
+        "caption": "依 AI 懶人報節目口述編輯整理：換格式的彙報交給 AI，需要觀點與品味的思考自己守。圖解為編輯整理，不是成效證明。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       }
     },
     {
@@ -85551,11 +86026,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/ai-lazy-report-zeabur-self-protection.svg",
-        "mobileImage": "/assets/overviews/ai-lazy-report-zeabur-self-protection-mobile.svg",
-        "cardImage": "/assets/overviews/ai-lazy-report-zeabur-self-protection-card.svg",
+        "image": "/assets/overviews/ai-lazy-report-zeabur-self-protection-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/ai-lazy-report-zeabur-self-protection-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/ai-lazy-report-zeabur-self-protection-picture3-desktop.webp",
         "alt": "查前端金鑰、查資料庫、設花費上限、另一位檢查者複查、外洩時照順序處理、每月固定複查。",
-        "caption": "依 AI懶人報 Podcast 口述編輯整理：金鑰遲早會被看到，先把損失設上限、讓自己更早知道。示範與練習為編輯補充，圖解不是成效證明。"
+        "caption": "依 AI懶人報 Podcast 口述編輯整理：金鑰遲早會被看到，先把損失設上限、讓自己更早知道。示範與練習為編輯補充，圖解不是成效證明。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       }
     },
     {
@@ -85904,11 +86384,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/aiadvantage-five-skills-chatgpt-claude.svg",
-        "mobileImage": "/assets/overviews/aiadvantage-five-skills-chatgpt-claude-mobile.svg",
-        "cardImage": "/assets/overviews/aiadvantage-five-skills-chatgpt-claude-card.svg",
+        "image": "/assets/overviews/aiadvantage-five-skills-chatgpt-claude-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/aiadvantage-five-skills-chatgpt-claude-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/aiadvantage-five-skills-chatgpt-claude-picture3-desktop.webp",
         "alt": "認識 Skill 與 skill creator，接著依序用 grilling、報告生成器、Idea Refine、ELI5、unslop，並在安裝前先讀過內容。",
-        "caption": "依 The AI Advantage 影片編輯整理：把重複流程存成 Skill，再按需要呼叫五個常用技能。圖解說明流程，不是成效證明。"
+        "caption": "依 The AI Advantage 影片編輯整理：把重複流程存成 Skill，再按需要呼叫五個常用技能。圖解說明流程，不是成效證明。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       }
     },
     {
@@ -86216,11 +86701,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/b133-brand-transformation-code.svg",
-        "mobileImage": "/assets/overviews/b133-brand-transformation-code-mobile.svg",
-        "cardImage": "/assets/overviews/b133-brand-transformation-code-card.svg",
+        "image": "/assets/overviews/b133-brand-transformation-code-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/b133-brand-transformation-code-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/b133-brand-transformation-code-picture3-desktop.webp",
         "alt": "分辨轉型與表面動作、盯領先警訊、每月警報測試、顧客痛點檢查，最後用見天地見自己見眾生與 DAS 滾動修正。",
-        "caption": "依高效人生商學院訪談口述編輯整理：營收是落後指標，用領先警訊與固定頻率的警報測試替生意做健檢。圖解為編輯整理，不是成效證明。"
+        "caption": "依高效人生商學院訪談口述編輯整理：營收是落後指標，用領先警訊與固定頻率的警報測試替生意做健檢。圖解為編輯整理，不是成效證明。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       }
     },
     {
@@ -86587,11 +87077,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/colemedin-11-tiny-coding-agent-fixes.svg",
-        "mobileImage": "/assets/overviews/colemedin-11-tiny-coding-agent-fixes-mobile.svg",
-        "cardImage": "/assets/overviews/colemedin-11-tiny-coding-agent-fixes-card.svg",
+        "image": "/assets/overviews/colemedin-11-tiny-coding-agent-fixes-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/colemedin-11-tiny-coding-agent-fixes-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/colemedin-11-tiny-coding-agent-fixes-picture3-desktop.webp",
         "alt": "六個動作：規則寫給 agent、查規則漂移、必做的事改 hook、保住脈絡與額度、卡住就交接、新對話審查並先規劃驗證。",
-        "caption": "依 Cole Medin 影片口述編輯整理：把 11 個 coding agent 小調整收成六個動作，讓可靠性來自流程而不是模型的記性。圖解為編輯整理，不是成效證明。"
+        "caption": "依 Cole Medin 影片口述編輯整理：把 11 個 coding agent 小調整收成六個動作，讓可靠性來自流程而不是模型的記性。圖解為編輯整理，不是成效證明。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       }
     },
     {
@@ -86878,11 +87373,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/die-with-zero-art-of-spending.svg",
-        "mobileImage": "/assets/overviews/die-with-zero-art-of-spending-mobile.svg",
-        "cardImage": "/assets/overviews/die-with-zero-art-of-spending-card.svg",
+        "image": "/assets/overviews/die-with-zero-art-of-spending-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/die-with-zero-art-of-spending-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/die-with-zero-art-of-spending-picture3-desktop.webp",
         "alt": "辨動機、知自己、拉間隔、買選擇權、查自主五個花錢檢查點，並回到下一次消費重來。",
-        "caption": "依 podcast 內容編輯整理：花錢前先問動機，再用儲蓄買選擇權。圖解為編輯整理，不是成效證明。"
+        "caption": "依 podcast 內容編輯整理：花錢前先問動機，再用儲蓄買選擇權。圖解為編輯整理，不是成效證明。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       }
     },
     {
@@ -87200,11 +87700,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/gaoshijia-guwen-first-lesson.svg",
-        "mobileImage": "/assets/overviews/gaoshijia-guwen-first-lesson-mobile.svg",
-        "cardImage": "/assets/overviews/gaoshijia-guwen-first-lesson-card.svg",
+        "image": "/assets/overviews/gaoshijia-guwen-first-lesson-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/gaoshijia-guwen-first-lesson-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/gaoshijia-guwen-first-lesson-picture3-desktop.webp",
         "alt": "古文故事 SEL 共讀：辨需要、觀察、選回應、先暫停、縮選擇、每日固定。",
-        "caption": "依訪談編輯整理：用古文故事陪孩子練需要與想要、情緒與選擇。圖解與示範為編輯整理，非成效證明。"
+        "caption": "依訪談編輯整理：用古文故事陪孩子練需要與想要、情緒與選擇。圖解與示範為編輯整理，非成效證明。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       }
     },
     {
@@ -87558,11 +88063,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/hongxuliang-gemini-notebook-teaching.svg",
-        "mobileImage": "/assets/overviews/hongxuliang-gemini-notebook-teaching-mobile.svg",
-        "cardImage": "/assets/overviews/hongxuliang-gemini-notebook-teaching-card.svg",
+        "image": "/assets/overviews/hongxuliang-gemini-notebook-teaching-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/hongxuliang-gemini-notebook-teaching-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/hongxuliang-gemini-notebook-teaching-picture3-desktop.webp",
         "alt": "定用途、建三類來源、教材分析、教案與學習單簡報、命題匯出，最後逐題人工審閱。",
-        "caption": "依洪旭亮老師研習口述編輯整理：先建來源再備課，讓 Gemini Notebook 只依你的教材作答，最後仍由老師逐題審閱。圖解不是成效證明。"
+        "caption": "依洪旭亮老師研習口述編輯整理：先建來源再備課，讓 Gemini Notebook 只依你的教材作答，最後仍由老師逐題審閱。圖解不是成效證明。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       }
     },
     {
@@ -87709,11 +88219,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/huberman-gina-poe-sleep-learning.svg",
-        "mobileImage": "/assets/overviews/huberman-gina-poe-sleep-learning-mobile.svg",
-        "cardImage": "/assets/overviews/huberman-gina-poe-sleep-learning-card.svg",
+        "image": "/assets/overviews/huberman-gina-poe-sleep-learning-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/huberman-gina-poe-sleep-learning-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/huberman-gina-poe-sleep-learning-picture3-desktop.webp",
         "alt": "學完保住前段睡眠、固定就寢起床、睡前降溫、讓週期跑完再起床、晚睡時守住前三分之一夜，最後用一週試行表調整。",
-        "caption": "依 Huberman Lab 與 Gina Poe 對談編輯整理：把睡眠科普說法排成五個可執行習慣。圖解說明流程，不證明成效，也不是醫療建議。"
+        "caption": "依 Huberman Lab 與 Gina Poe 對談編輯整理：把睡眠科普說法排成五個可執行習慣。圖解說明流程，不證明成效，也不是醫療建議。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       },
       "visuals": [
         {
@@ -88194,11 +88709,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/jeffsu-ai-perfect-memory-3-steps.svg",
-        "mobileImage": "/assets/overviews/jeffsu-ai-perfect-memory-3-steps-mobile.svg",
-        "cardImage": "/assets/overviews/jeffsu-ai-perfect-memory-3-steps-card.svg",
+        "image": "/assets/overviews/jeffsu-ai-perfect-memory-3-steps-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/jeffsu-ai-perfect-memory-3-steps-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/jeffsu-ai-perfect-memory-3-steps-picture3-desktop.webp",
         "alt": "AI 記憶分三層：全域記憶存角色與文風，專案記憶存同領域任務偏好，自建記憶由你決定寫什麼；動手前先分層，每月回看修剪。",
-        "caption": "依 Jeff Su 短片口述編輯整理：把 AI 的記憶分成全域、專案、自建三層，並加上分層判斷與定期修剪。圖解為編輯整理，不是成效證明。"
+        "caption": "依 Jeff Su 短片口述編輯整理：把 AI 的記憶分成全域、專案、自建三層，並加上分層判斷與定期修剪。圖解為編輯整理，不是成效證明。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       }
     },
     {
@@ -88476,11 +88996,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/kimprof-ai-thinking-outsourcing-habits.svg",
-        "mobileImage": "/assets/overviews/kimprof-ai-thinking-outsourcing-habits-mobile.svg",
-        "cardImage": "/assets/overviews/kimprof-ai-thinking-outsourcing-habits-card.svg",
+        "image": "/assets/overviews/kimprof-ai-thinking-outsourcing-habits-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/kimprof-ai-thinking-outsourcing-habits-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/kimprof-ai-thinking-outsourcing-habits-picture3-desktop.webp",
         "alt": "討論五回合、自己讀完檢驗、丟出怪想法，三個習慣讓思考留在自己手上。",
-        "caption": "依金教授短片編輯整理：三個與 AI 對話的習慣。圖解為編輯整理，不是成效證明。"
+        "caption": "依金教授短片編輯整理：三個與 AI 對話的習慣。圖解為編輯整理，不是成效證明。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       }
     },
     {
@@ -88804,11 +89329,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/kimprof-record-your-life.svg",
-        "mobileImage": "/assets/overviews/kimprof-record-your-life-mobile.svg",
-        "cardImage": "/assets/overviews/kimprof-record-your-life-card.svg",
+        "image": "/assets/overviews/kimprof-record-your-life-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/kimprof-record-your-life-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/kimprof-record-your-life-picture3-desktop.webp",
         "alt": "記錄就是思考、一天一行、隨身本子、手寫或打字、撐過一週、一句人生描述，六步開始生活紀錄。",
-        "caption": "依金教授訪談的韓語字幕編輯整理：把記錄門檻壓到一天一行，先撐過第一週再回頭看。圖解為編輯整理，不是成效證明。"
+        "caption": "依金教授訪談的韓語字幕編輯整理：把記錄門檻壓到一天一行，先撐過第一週再回頭看。圖解為編輯整理，不是成效證明。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       }
     },
     {
@@ -89140,11 +89670,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/kunihiro-fukudoku-speaking.svg",
-        "mobileImage": "/assets/overviews/kunihiro-fukudoku-speaking-mobile.svg",
-        "cardImage": "/assets/overviews/kunihiro-fukudoku-speaking-card.svg",
+        "image": "/assets/overviews/kunihiro-fukudoku-speaking-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/kunihiro-fukudoku-speaking-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/kunihiro-fukudoku-speaking-picture3-desktop.webp",
         "alt": "選短文、精聽模仿、正字記錄朗讀、融入日常，最後錄音驗收；還會停頓就標記補讀。",
-        "caption": "依影片編輯整理：先選對材料，再用正字記錄累積朗讀；驗收步驟為編輯補充，圖解不是成效證明。"
+        "caption": "依影片編輯整理：先選對材料，再用正字記錄累積朗讀；驗收步驟為編輯補充，圖解不是成效證明。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       }
     },
     {
@@ -89446,11 +89981,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/management-golf-decision-method.svg",
-        "mobileImage": "/assets/overviews/management-golf-decision-method-mobile.svg",
-        "cardImage": "/assets/overviews/management-golf-decision-method-card.svg",
+        "image": "/assets/overviews/management-golf-decision-method-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/management-golf-decision-method-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/management-golf-decision-method-picture3-desktop.webp",
         "alt": "停一拍、增加選項、寫目標、選工具、負責，五個動作把決心變成決策。",
-        "caption": "依 EP.0691 Part 1 編輯整理：先停一拍、補選項、寫目標，再選決定方式並承擔。圖解不是成效證明。"
+        "caption": "依 EP.0691 Part 1 編輯整理：先停一拍、補選項、寫目標，再選決定方式並承擔。圖解不是成效證明。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       }
     },
     {
@@ -89789,11 +90329,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/newport-deep-life-stack-rethink.svg",
-        "mobileImage": "/assets/overviews/newport-deep-life-stack-rethink-mobile.svg",
-        "cardImage": "/assets/overviews/newport-deep-life-stack-rethink-card.svg",
+        "image": "/assets/overviews/newport-deep-life-stack-rethink-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/newport-deep-life-stack-rethink-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/newport-deep-life-stack-rethink-picture3-desktop.webp",
         "alt": "看缺口、畫出能力價值觀願景三塊領域、找出最缺的一塊、在地圖上來回走、少而依序、寫成一頁深度人生地圖。",
-        "caption": "依 Cal Newport《Deep Questions》Podcast 口述編輯整理：用能力、價值觀、願景三塊領域取代堆疊，找出缺哪一塊並少而依序地補。圖解不是成效證明。"
+        "caption": "依 Cal Newport《Deep Questions》Podcast 口述編輯整理：用能力、價值觀、願景三塊領域取代堆疊，找出缺哪一塊並少而依序地補。圖解不是成效證明。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       }
     },
     {
@@ -90076,11 +90621,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/qinzi-ep208-teen-legal-traps.svg",
-        "mobileImage": "/assets/overviews/qinzi-ep208-teen-legal-traps-mobile.svg",
-        "cardImage": "/assets/overviews/qinzi-ep208-teen-legal-traps-card.svg",
+        "image": "/assets/overviews/qinzi-ep208-teen-legal-traps-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/qinzi-ep208-teen-legal-traps-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/qinzi-ep208-teen-legal-traps-picture3-desktop.webp",
         "alt": "先敢說、查打工、穩交易、快報案、談責任五個動作的流程圖。",
-        "caption": "依親子天下Podcast EP.208 編輯整理：圖解為家庭討論示意，不是成效證明，也不是法律建議。"
+        "caption": "依親子天下Podcast EP.208 編輯整理：圖解為家庭討論示意，不是成效證明，也不是法律建議。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       }
     },
     {
@@ -90411,11 +90961,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/sanshiba-token-picturebook-lesson.svg",
-        "mobileImage": "/assets/overviews/sanshiba-token-picturebook-lesson-mobile.svg",
-        "cardImage": "/assets/overviews/sanshiba-token-picturebook-lesson-card.svg",
+        "image": "/assets/overviews/sanshiba-token-picturebook-lesson-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/sanshiba-token-picturebook-lesson-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/sanshiba-token-picturebook-lesson-picture3-desktop.webp",
         "alt": "開專案資料夾、確認大綱並補齊檔案、定全版繪本風格、子代理平行生圖、寫交接記錄，五步把一週課做成繪本投影片。",
-        "caption": "依三師爸Sense Bar直播口述編輯整理：用專案資料夾與 AI 代理人備好教案，再以子代理平行生成全版繪本投影片。圖解不是成效證明。"
+        "caption": "依三師爸Sense Bar直播口述編輯整理：用專案資料夾與 AI 代理人備好教案，再以子代理平行生成全版繪本投影片。圖解不是成效證明。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       }
     },
     {
@@ -90716,11 +91271,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/wu-danru-ep2498-eldest-daughter-syndrome.svg",
-        "mobileImage": "/assets/overviews/wu-danru-ep2498-eldest-daughter-syndrome-mobile.svg",
-        "cardImage": "/assets/overviews/wu-danru-ep2498-eldest-daughter-syndrome-card.svg",
+        "image": "/assets/overviews/wu-danru-ep2498-eldest-daughter-syndrome-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/wu-danru-ep2498-eldest-daughter-syndrome-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/wu-danru-ep2498-eldest-daughter-syndrome-picture3-desktop.webp",
         "alt": "盤點付出、分清禮物與供養、放下拯救者、資產分開並守住界線的四個階段。",
-        "caption": "依吳淡如 EP2498 內容編輯整理：先看清付出模式，再設上限與界線。圖解為編輯整理，不是成效證明。"
+        "caption": "依吳淡如 EP2498 內容編輯整理：先看清付出模式，再設上限與界線。圖解為編輯整理，不是成效證明。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       }
     },
     {
@@ -91072,11 +91632,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/xinyuan-ai-blogger-starting-method.svg",
-        "mobileImage": "/assets/overviews/xinyuan-ai-blogger-starting-method-mobile.svg",
-        "cardImage": "/assets/overviews/xinyuan-ai-blogger-starting-method-card.svg",
+        "image": "/assets/overviews/xinyuan-ai-blogger-starting-method-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/xinyuan-ai-blogger-starting-method-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/xinyuan-ai-blogger-starting-method-picture3-desktop.webp",
         "alt": "定位、找工具、錄螢幕、剪輯、AI 包裝、回頭看，六步做出第一支 AI 工具影片。",
-        "caption": "依鑫源AI 影片口述編輯整理：以低成本流程做 AI 工具分享影片。圖解為編輯整理，並非成效證明。"
+        "caption": "依鑫源AI 影片口述編輯整理：以低成本流程做 AI 工具分享影片。圖解為編輯整理，並非成效證明。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       }
     },
     {
@@ -91399,11 +91964,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/xutingshao-three-types-of-inner-friction.svg",
-        "mobileImage": "/assets/overviews/xutingshao-three-types-of-inner-friction-mobile.svg",
-        "cardImage": "/assets/overviews/xutingshao-three-types-of-inner-friction-card.svg",
+        "image": "/assets/overviews/xutingshao-three-types-of-inner-friction-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/xutingshao-three-types-of-inner-friction-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/xutingshao-three-types-of-inner-friction-picture3-desktop.webp",
         "alt": "認出型態、自檢問句、呼吸安撫、問我在怕什麼、立標準；依 EP703 編輯整理的內耗流程。",
-        "caption": "依 EP703 字幕編輯整理：從認出內耗型態到建立自己的標準。圖解為編輯整理，並非成效證明。"
+        "caption": "依 EP703 字幕編輯整理：從認出內耗型態到建立自己的標準。圖解為編輯整理，並非成效證明。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       }
     }
   ],
