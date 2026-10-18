@@ -12127,11 +12127,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/brain-moses-10-sentences.svg",
-        "mobileImage": "/assets/overviews/brain-moses-10-sentences-mobile.svg",
-        "cardImage": "/assets/overviews/brain-moses-10-sentences-card.svg",
+        "image": "/assets/overviews/brain-moses-10-sentences-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/brain-moses-10-sentences-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/brain-moses-10-sentences-picture3-desktop.webp",
         "alt": "手寫十句 → 寫死三關 → AI 對練 → 真人用一次；被糾正就當場改紙，卡住只調一句再回到練習。",
-        "caption": "依影片編輯整理：先寫十句能把話丟回對方的開場，練到不看紙也能說，再去真實場合用一次並接受修正。排程與例子為編輯補充，圖解不是成效證明。"
+        "caption": "依影片編輯整理：先寫十句能把話丟回對方的開場，練到不看紙也能說，再去真實場合用一次並接受修正。排程與例子為編輯補充，圖解不是成效證明。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       }
     },
     {
@@ -13510,11 +13515,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/kim-professor-weekly-plan.svg",
-        "mobileImage": "/assets/overviews/kim-professor-weekly-plan-mobile.svg",
-        "cardImage": "/assets/overviews/kim-professor-weekly-plan-card.svg",
+        "image": "/assets/overviews/kim-professor-weekly-plan-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/kim-professor-weekly-plan-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/kim-professor-weekly-plan-picture3-desktop.webp",
         "alt": "照照自己 → 寫方向 → 寫核心行動 → 寫平衡；每天對照、週末回顧後回到反思。",
-        "caption": "依韓語短片編輯整理：先用三個問題看見自己，再把這週寫成三行字。每日對照與週末回顧為編輯延伸，圖解不是成效證明。"
+        "caption": "依韓語短片編輯整理：先用三個問題看見自己，再把這週寫成三行字。每日對照與週末回顧為編輯延伸，圖解不是成效證明。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       }
     },
     {
@@ -14874,11 +14884,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/zero-pressure-learning.svg",
-        "mobileImage": "/assets/overviews/zero-pressure-learning-mobile.svg",
-        "cardImage": "/assets/overviews/zero-pressure-learning-card.svg",
+        "image": "/assets/overviews/zero-pressure-learning-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/zero-pressure-learning-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/zero-pressure-learning-picture3-desktop.webp",
         "alt": "拆壓力、排時段、做輸出、週檢核；卡住時跳過、靜置或問人，身心照顧排進計畫。",
-        "caption": "依 Podcast 導讀逐字稿編輯整理：先認清壓力與目標，再排間隔時段與輸出動作，每週回頭調整。排程與例子為編輯補充，圖解不是成效證明。"
+        "caption": "依 Podcast 導讀逐字稿編輯整理：先認清壓力與目標，再排間隔時段與輸出動作，每週回頭調整。排程與例子為編輯補充，圖解不是成效證明。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       }
     },
     {
@@ -16379,11 +16394,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/darenxue-ep699.svg",
-        "mobileImage": "/assets/overviews/darenxue-ep699-mobile.svg",
-        "cardImage": "/assets/overviews/darenxue-ep699-card.svg",
+        "image": "/assets/overviews/darenxue-ep699-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/darenxue-ep699-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/darenxue-ep699-picture3-desktop.webp",
         "alt": "認清路徑 → 拆成兩欄 → 放大十倍 → 五年後回看 → 檢查假設 → 寫成原則；下次猶豫時再算一次。",
-        "caption": "依大人學 EP699 逐字稿編輯整理：長期主義不靠熱情，靠把投機的帳算清楚。學生版例子與一週排程為編輯補充，圖解不是成效證明。"
+        "caption": "依大人學 EP699 逐字稿編輯整理：長期主義不靠熱情，靠把投機的帳算清楚。學生版例子與一週排程為編輯補充，圖解不是成效證明。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       }
     },
     {
@@ -17824,11 +17844,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/cole-medin-evolve-second-brain.svg",
-        "mobileImage": "/assets/overviews/cole-medin-evolve-second-brain-mobile.svg",
-        "cardImage": "/assets/overviews/cole-medin-evolve-second-brain-card.svg",
+        "image": "/assets/overviews/cole-medin-evolve-second-brain-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/cole-medin-evolve-second-brain-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/cole-medin-evolve-second-brain-picture3-desktop.webp",
         "alt": "個人 agent 保留，知識庫集中：統一 documents 表、入庫貼群組標籤、金鑰與資料庫閘門、MCP 唯一入口、關鍵字加語意混合檢索並附來源。",
-        "caption": "依 Cole Medin 影片口述編輯整理：不推翻個人第二大腦，只把知識庫抽出集中管理，權限閘門放在資料庫，再以 MCP 接回每個人的 agent。示範數字為影片稱，圖解不是成效證明。"
+        "caption": "依 Cole Medin 影片口述編輯整理：不推翻個人第二大腦，只把知識庫抽出集中管理，權限閘門放在資料庫，再以 MCP 接回每個人的 agent。示範數字為影片稱，圖解不是成效證明。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       }
     },
     {
@@ -19310,11 +19335,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/rensheng-jiekou-ep85-waki.svg",
-        "mobileImage": "/assets/overviews/rensheng-jiekou-ep85-waki-mobile.svg",
-        "cardImage": "/assets/overviews/rensheng-jiekou-ep85-waki-card.svg",
+        "image": "/assets/overviews/rensheng-jiekou-ep85-waki-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/rensheng-jiekou-ep85-waki-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/rensheng-jiekou-ep85-waki-picture3-desktop.webp",
         "alt": "個人化提問、拉離討好結尾、建專案包，再依情境呼叫對話陪練、情緒覺察、智囊團，最後由自己過濾決定。",
-        "caption": "依人生解扣方程式 EP85 瓦基訪談口述編輯整理：把 AI 從代替你思考的答題機，改成陪你想清楚的陪練。提問模板為編輯自擬，圖解不是成效證明。"
+        "caption": "依人生解扣方程式 EP85 瓦基訪談口述編輯整理：把 AI 從代替你思考的答題機，改成陪你想清楚的陪練。提問模板為編輯自擬，圖解不是成效證明。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       }
     },
     {
@@ -20713,11 +20743,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/ted-escape-productivity-obsession.svg",
-        "mobileImage": "/assets/overviews/ted-escape-productivity-obsession-mobile.svg",
-        "cardImage": "/assets/overviews/ted-escape-productivity-obsession-card.svg",
+        "image": "/assets/overviews/ted-escape-productivity-obsession-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/ted-escape-productivity-obsession-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/ted-escape-productivity-obsession-picture3-desktop.webp",
         "alt": "重新定義、找磁鐵、調摩擦、留野性；儀式做不起來時回到磁鐵重找。",
-        "caption": "依 TED Intersections 對談編輯整理：先鬆開「有產出才算生產力」，再用儀式與摩擦讓樂趣真的發生。排程與例子為編輯補充，圖解不是成效證明。"
+        "caption": "依 TED Intersections 對談編輯整理：先鬆開「有產出才算生產力」，再用儀式與摩擦讓樂趣真的發生。排程與例子為編輯補充，圖解不是成效證明。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       }
     },
     {
@@ -22158,11 +22193,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/tina-huang-obsidian-notes.svg",
-        "mobileImage": "/assets/overviews/tina-huang-obsidian-notes-mobile.svg",
-        "cardImage": "/assets/overviews/tina-huang-obsidian-notes-card.svg",
+        "image": "/assets/overviews/tina-huang-obsidian-notes-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/tina-huang-obsidian-notes-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/tina-huang-obsidian-notes-picture3-desktop.webp",
         "alt": "建儲存庫、連結筆記，然後三個層級：第一層 AI 讀你的筆記、第二層 AI 替你寫紀錄、第三層 LLM wiki 由 AI 管理，靠匯入、查詢、健檢與 index.md、log.md 維持。",
-        "caption": "依 Tina Huang 影片口述編輯整理：Obsidian 的優勢是「一個放滿 Markdown 的本機資料夾」，所以 AI 能讀、能寫、能管理。三層可停在任一層；圖解不是成效證明。"
+        "caption": "依 Tina Huang 影片口述編輯整理：Obsidian 的優勢是「一個放滿 Markdown 的本機資料夾」，所以 AI 能讀、能寫、能管理。三層可停在任一層；圖解不是成效證明。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       }
     },
     {
@@ -23635,11 +23675,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/li-harry-claude-plain-language.svg",
-        "mobileImage": "/assets/overviews/li-harry-claude-plain-language-mobile.svg",
-        "cardImage": "/assets/overviews/li-harry-claude-plain-language-card.svg",
+        "image": "/assets/overviews/li-harry-claude-plain-language-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/li-harry-claude-plain-language-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/li-harry-claude-plain-language-picture3-desktop.webp",
         "alt": "認出症狀、備好指令、切輸出風格、同題重測；只有單次看不懂時改用 skill 局部處理。",
-        "caption": "依李哈利影片編輯整理：先認出回答太長太深，把說人話規則放進 Output Style，再用同一問題前後對照。指令範例與排程為編輯補充，圖解不是成效證明。"
+        "caption": "依李哈利影片編輯整理：先認出回答太長太深，把說人話規則放進 Output Style，再用同一問題前後對照。指令範例與排程為編輯補充，圖解不是成效證明。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       }
     },
     {
@@ -24024,11 +24069,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/sanshiba-wordwall-classroom.svg",
-        "mobileImage": "/assets/overviews/sanshiba-wordwall-classroom-mobile.svg",
-        "cardImage": "/assets/overviews/sanshiba-wordwall-classroom-card.svg",
+        "image": "/assets/overviews/sanshiba-wordwall-classroom-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/sanshiba-wordwall-classroom-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/sanshiba-wordwall-classroom-picture3-desktop.webp",
         "alt": "先問介面、裝 CLI 技能、選等級、丟教材規劃、檢查再釋出、座號與交辦；題目或版面不對時回到規劃。",
-        "caption": "依三師爸直播口述編輯整理：工具沒有連結器時，用本人登入加瀏覽器自動化搭橋，出題交給 Agent、判斷留給老師。排程與例子為編輯補充，圖解不是成效證明。"
+        "caption": "依三師爸直播口述編輯整理：工具沒有連結器時，用本人登入加瀏覽器自動化搭橋，出題交給 Agent、判斷留給老師。排程與例子為編輯補充，圖解不是成效證明。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       }
     },
     {
@@ -24411,11 +24461,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/sanshiba-spark-gas-workflow.svg",
-        "mobileImage": "/assets/overviews/sanshiba-spark-gas-workflow-mobile.svg",
-        "cardImage": "/assets/overviews/sanshiba-spark-gas-workflow-card.svg",
+        "image": "/assets/overviews/sanshiba-spark-gas-workflow-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/sanshiba-spark-gas-workflow-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/sanshiba-spark-gas-workflow-picture3-desktop.webp",
         "alt": "確認帳號與隱私、建專用資料夾、用讀檔整理試手感、交多步任務、讓本機代理用 clasp 寫 GAS 表單並部署，最後把每日整理與每小時輪詢排進 Spark 排程。",
-        "caption": "依三師爸直播口述編輯整理：本機代理寫 GAS 收資料，Spark 在雲端固定時間讀試算表、寫回覆、發通知，兩邊靠同一個雲端硬碟資料夾交會。介面名稱為講者當日說法，圖解不是成效證明。"
+        "caption": "依三師爸直播口述編輯整理：本機代理寫 GAS 收資料，Spark 在雲端固定時間讀試算表、寫回覆、發通知，兩邊靠同一個雲端硬碟資料夾交會。介面名稱為講者當日說法，圖解不是成效證明。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       }
     },
     {
@@ -24766,11 +24821,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/brain-xueba-ielts-huajing-writing.svg",
-        "mobileImage": "/assets/overviews/brain-xueba-ielts-huajing-writing-mobile.svg",
-        "cardImage": "/assets/overviews/brain-xueba-ielts-huajing-writing-card.svg",
+        "image": "/assets/overviews/brain-xueba-ielts-huajing-writing-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/brain-xueba-ielts-huajing-writing-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/brain-xueba-ielts-huajing-writing-picture3-desktop.webp",
         "alt": "概念骨架 → 英文編碼（高階語塊或簡單句型）→ 英文段落 → 對照自評；還像翻譯就回到骨架重拆。",
-        "caption": "依影片編輯整理：先只寫概念骨架，再依詞彙程度用語塊或簡單句型重新編碼，段落第一句亮結論。語塊卡、配時與例子為編輯補充，圖解不是成效證明。"
+        "caption": "依影片編輯整理：先只寫概念骨架，再依詞彙程度用語塊或簡單句型重新編碼，段落第一句亮結論。語塊卡、配時與例子為編輯補充，圖解不是成效證明。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       }
     },
     {
@@ -25128,11 +25188,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/cal-newport-learn-hard-things.svg",
-        "mobileImage": "/assets/overviews/cal-newport-learn-hard-things-mobile.svg",
-        "cardImage": "/assets/overviews/cal-newport-learn-hard-things-card.svg",
+        "image": "/assets/overviews/cal-newport-learn-hard-things-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/cal-newport-learn-hard-things-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/cal-newport-learn-hard-things-picture3-desktop.webp",
         "alt": "學會難的東西。換模型：不是不夠聰明，是時間還不夠；選難事：工作一件、生活一件；畫樓梯只看下一階；刻意練習要做得到但不輕鬆；把手機放玄關挪出時間；排進行事曆，太擠就放慢、分季，站上一階再畫下一階。",
-        "caption": "Deep Questions 該集「時間投資取代腦力」心智模型與問答做法的編輯整理圖解；完整步驟、練習單與 30 分鐘流程見下文。"
+        "caption": "Deep Questions 該集「時間投資取代腦力」心智模型與問答做法的編輯整理圖解；完整步驟、練習單與 30 分鐘流程見下文。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       }
     },
     {
@@ -25489,11 +25554,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/darenxue-workplace-player-not-npc.svg",
-        "mobileImage": "/assets/overviews/darenxue-workplace-player-not-npc-mobile.svg",
-        "cardImage": "/assets/overviews/darenxue-workplace-player-not-npc-card.svg",
+        "image": "/assets/overviews/darenxue-workplace-player-not-npc-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/darenxue-workplace-player-not-npc-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/darenxue-workplace-player-not-npc-picture3-desktop.webp",
         "alt": "盤點角色、看懂規則、列關鍵字、集點卡、調頻率、累積籌碼；調頻率的結果回頭修正關鍵字，卡快蓋滿時決定續卡或下一站。",
-        "caption": "依大人學 EP694 影片口述編輯整理：從被觸發的 NPC，變成自己決定玩法的玩家。例子與排程為編輯補充，圖解不是成效證明。"
+        "caption": "依大人學 EP694 影片口述編輯整理：從被觸發的 NPC，變成自己決定玩法的玩家。例子與排程為編輯補充，圖解不是成效證明。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       }
     },
     {
@@ -25857,11 +25927,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/gaoxiao-problem-breakdown-4-steps.svg",
-        "mobileImage": "/assets/overviews/gaoxiao-problem-breakdown-4-steps-mobile.svg",
-        "cardImage": "/assets/overviews/gaoxiao-problem-breakdown-4-steps-card.svg",
+        "image": "/assets/overviews/gaoxiao-problem-breakdown-4-steps-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/gaoxiao-problem-breakdown-4-steps-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/gaoxiao-problem-breakdown-4-steps-picture3-desktop.webp",
         "alt": "先問先搜、寫下問題、做現在能做的第一步並復盤、追問問題本質，最後以持續改善讓重複的事越做越輕鬆。",
-        "caption": "依高效人生商學院 EP.0670 對談口述編輯整理：知道問題卻想不出解法時，用四步驟先動起來，再一路改善。問題卡與例子為編輯補充，圖解不是成效證明。"
+        "caption": "依高效人生商學院 EP.0670 對談口述編輯整理：知道問題卻想不出解法時，用四步驟先動起來，再一路改善。問題卡與例子為編輯補充，圖解不是成效證明。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       }
     },
     {
@@ -26206,11 +26281,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/parenting-podcast-lexie-writing-as-coding.svg",
-        "mobileImage": "/assets/overviews/parenting-podcast-lexie-writing-as-coding-mobile.svg",
-        "cardImage": "/assets/overviews/parenting-podcast-lexie-writing-as-coding-card.svg",
+        "image": "/assets/overviews/parenting-podcast-lexie-writing-as-coding-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/parenting-podcast-lexie-writing-as-coding-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/parenting-podcast-lexie-writing-as-coding-picture3-desktop.webp",
         "alt": "開放題目、遊戲暖身、框架填空、回饋發表四步驟；AI 只問怎麼寫，不代筆。",
-        "caption": "依親子天下 Podcast 編輯整理：先玩再寫、框架填空、寫完被看見。學習單與排程為編輯補充，圖解不是成效證明。"
+        "caption": "依親子天下 Podcast 編輯整理：先玩再寫、框架填空、寫完被看見。學習單與排程為編輯補充，圖解不是成效證明。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       }
     },
     {
@@ -26562,11 +26642,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/parenting-podcast-teen-lying-flat.svg",
-        "mobileImage": "/assets/overviews/parenting-podcast-teen-lying-flat-mobile.svg",
-        "cardImage": "/assets/overviews/parenting-podcast-teen-lying-flat-card.svg",
+        "image": "/assets/overviews/parenting-podcast-teen-lying-flat-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/parenting-podcast-teen-lying-flat-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/parenting-podcast-teen-lying-flat-picture3-desktop.webp",
         "alt": "五面盤點、聽出害怕、看餘裕、先玩再談、可樂五步、找出口；關係夠了才帶情緒活動。",
-        "caption": "依親子天下 Podcast 莊越翔老師口述編輯整理：先看懂躺平背後的原因，再用可樂瓶練好好生氣。盤點表與排程為編輯補充，圖解不是成效證明。"
+        "caption": "依親子天下 Podcast 莊越翔老師口述編輯整理：先看懂躺平背後的原因，再用可樂瓶練好好生氣。盤點表與排程為編輯補充，圖解不是成效證明。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       }
     },
     {
@@ -26929,11 +27014,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/paul-lipsky-notebooklm-course.svg",
-        "mobileImage": "/assets/overviews/paul-lipsky-notebooklm-course-mobile.svg",
-        "cardImage": "/assets/overviews/paul-lipsky-notebooklm-course-card.svg",
+        "image": "/assets/overviews/paul-lipsky-notebooklm-course-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/paul-lipsky-notebooklm-course-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/paul-lipsky-notebooklm-course-picture3-desktop.webp",
         "alt": "一個主題開一本筆記本並選可信來源、整理來源、限定範圍提問、依用途在工作室產出，最後修訂與找缺口，回頭補來源。",
-        "caption": "依 Paul J Lipsky 英文教學影片編輯整理：來源決定答案，先管好一本筆記本的來源，再談語音、簡報與閃卡。教學例子為編輯示範，圖解不是成效證明。"
+        "caption": "依 Paul J Lipsky 英文教學影片編輯整理：來源決定答案，先管好一本筆記本的來源，再談語音、簡報與閃卡。教學例子為編輯示範，圖解不是成效證明。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       }
     },
     {
@@ -27321,11 +27411,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/sanshiba-smarter-ai-less-effort.svg",
-        "mobileImage": "/assets/overviews/sanshiba-smarter-ai-less-effort-mobile.svg",
-        "cardImage": "/assets/overviews/sanshiba-smarter-ai-less-effort-card.svg",
+        "image": "/assets/overviews/sanshiba-smarter-ai-less-effort-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/sanshiba-smarter-ai-less-effort-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/sanshiba-smarter-ai-less-effort-picture3-desktop.webp",
         "alt": "挑一件例行工作搬進代理對話窗、用專業下規格、AI 產出後由老師稽核、卡住先問代理並先試做、把跑順的流程寫成專案資料夾裡的說明檔；稽核抓到的錯處回頭補進規格。",
-        "caption": "依三師爸直播口述編輯整理：代理負責出題、排版與初改，老師負責下規格與稽核，跑順的流程寫成說明檔讓下一輪可重現。圖解說明分工，不是成效證明。"
+        "caption": "依三師爸直播口述編輯整理：代理負責出題、排版與初改，老師負責下規格與稽核，跑順的流程寫成說明檔讓下一輪可重現。圖解說明分工，不是成效證明。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       }
     },
     {
@@ -27668,11 +27763,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/wu-danru-kids-money-talk.svg",
-        "mobileImage": "/assets/overviews/wu-danru-kids-money-talk-mobile.svg",
-        "cardImage": "/assets/overviews/wu-danru-kids-money-talk-card.svg",
+        "image": "/assets/overviews/wu-danru-kids-money-talk-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/wu-danru-kids-money-talk-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/wu-danru-kids-money-talk-picture3-desktop.webp",
         "alt": "聽見錢話、換掉買不起、規則說清楚、拿掉設限話；用一張換句卡一週練一句，再回到觀察。",
-        "caption": "依吳淡如 Podcast EP2538 編輯整理：從聽見家裡的錢話開始，一週換一句。替換句與排程為編輯補充，圖解不是成效證明，也非理財建議。"
+        "caption": "依吳淡如 Podcast EP2538 編輯整理：從聽見家裡的錢話開始，一週換一句。替換句與排程為編輯補充，圖解不是成效證明，也非理財建議。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       }
     },
     {
@@ -28058,11 +28158,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/xiao-yijun-antigravity-workstation.svg",
-        "mobileImage": "/assets/overviews/xiao-yijun-antigravity-workstation-mobile.svg",
-        "cardImage": "/assets/overviews/xiao-yijun-antigravity-workstation-card.svg",
+        "image": "/assets/overviews/xiao-yijun-antigravity-workstation-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/xiao-yijun-antigravity-workstation-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/xiao-yijun-antigravity-workstation-picture3-desktop.webp",
         "alt": "在教材資料夾開專案並定好 output 規則、先把 PDF 轉成 JSON、用 @ 指定檔案衍生考卷與 B 卷、逐份驗收並給範例重做，最後把走熟的流程存成 Skill。",
-        "caption": "依謙懿科技直播中蕭奕鈞老師的示範編輯整理：用住在電腦裡的 AI 代理，把一份教材衍生成整套考卷與互動產出。提示詞為編輯改寫，圖解不是成效證明。"
+        "caption": "依謙懿科技直播中蕭奕鈞老師的示範編輯整理：用住在電腦裡的 AI 代理，把一份教材衍生成整套考卷與互動產出。提示詞為編輯改寫，圖解不是成效證明。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       }
     },
     {
@@ -28419,11 +28524,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/xiayiben-favor-yourself.svg",
-        "mobileImage": "/assets/overviews/xiayiben-favor-yourself-mobile.svg",
-        "cardImage": "/assets/overviews/xiayiben-favor-yourself-card.svg",
+        "image": "/assets/overviews/xiayiben-favor-yourself-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/xiayiben-favor-yourself-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/xiayiben-favor-yourself-picture3-desktop.webp",
         "alt": "先問自己需要什麼，每天寫事件加感覺的情緒日記，一週畫正字統計，隔天向家人說明真正原因；低潮時翻一萬次相簿、用小嘗試累積成功畫面。",
-        "caption": "依「下一本讀什麼」EP.632 編輯整理：偏心自己、情緒日記、一週統計、隔天說明。第一週排程為編輯補充，圖解不是成效證明。"
+        "caption": "依「下一本讀什麼」EP.632 編輯整理：偏心自己、情緒日記、一週統計、隔天說明。第一週排程為編輯補充，圖解不是成效證明。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       }
     },
     {
@@ -28793,11 +28903,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/xiayiben-most-ambitious-day.svg",
-        "mobileImage": "/assets/overviews/xiayiben-most-ambitious-day-mobile.svg",
-        "cardImage": "/assets/overviews/xiayiben-most-ambitious-day-card.svg",
+        "image": "/assets/overviews/xiayiben-most-ambitious-day-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/xiayiben-most-ambitious-day-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/xiayiben-most-ambitious-day-picture3-desktop.webp",
         "alt": "每天挑三件事並接上價值觀、合理的事先過濾、卡住換一件、刻意留白、硬撐時先問還在不在學習。",
-        "caption": "依「下一本讀什麼」EP.660 編輯整理：挑三件、接價值觀、過濾合理、刻意留白。一天與一週節奏為編輯補充，圖解不是成效證明。"
+        "caption": "依「下一本讀什麼」EP.660 編輯整理：挑三件、接價值觀、過濾合理、刻意留白。一天與一週節奏為編輯補充，圖解不是成效證明。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       }
     },
     {
@@ -29108,11 +29223,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/agentic-engineering-4-step.svg",
-        "mobileImage": "/assets/overviews/agentic-engineering-4-step-mobile.svg",
-        "cardImage": "/assets/overviews/agentic-engineering-4-step-card.svg",
+        "image": "/assets/overviews/agentic-engineering-4-step-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/agentic-engineering-4-step-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/agentic-engineering-4-step-picture3-desktop.webp",
         "alt": "四步驟 AI 工程流程：隔離、建構、證明、上線，並在審查未過關時回到建構。",
-        "caption": "編輯整理：依 Behind the Craft 該集講者描述的流程繪製，圖解不代表成效證明。"
+        "caption": "編輯整理：依 Behind the Craft 該集講者描述的流程繪製，圖解不代表成效證明。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       }
     },
     {
@@ -29714,11 +29834,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/first-60-seconds-conversation.svg",
-        "mobileImage": "/assets/overviews/first-60-seconds-conversation-mobile.svg",
-        "cardImage": "/assets/overviews/first-60-seconds-conversation-card.svg",
+        "image": "/assets/overviews/first-60-seconds-conversation-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/first-60-seconds-conversation-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/first-60-seconds-conversation-picture3-desktop.webp",
         "alt": "主題、意圖、重點三步加上送出前檢查，讓訊息開頭一次說清楚。",
-        "caption": "依 TED 演講編輯整理：先說主題，再說意圖，最後放重點。圖解為編輯整理，不是成效證明。"
+        "caption": "依 TED 演講編輯整理：先說主題，再說意圖，最後放重點。圖解為編輯整理，不是成效證明。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       }
     },
     {
@@ -30037,11 +30162,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/share-struggle-parenting.svg",
-        "mobileImage": "/assets/overviews/share-struggle-parenting-mobile.svg",
-        "cardImage": "/assets/overviews/share-struggle-parenting-card.svg",
+        "image": "/assets/overviews/share-struggle-parenting-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/share-struggle-parenting-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/share-struggle-parenting-picture3-desktop.webp",
         "alt": "挑挫折、講出口、分工、安全漸進、AI 排練五步；知識交給 AI，陪伴留給人。",
-        "caption": "依《親師關鍵字》EP.113 李宏毅教授口述編輯整理：AI 能教知識，大人用「我也走過」陪孩子。AI 排練與一週排程為設想或編輯補充，圖解不是成效證明。"
+        "caption": "依《親師關鍵字》EP.113 李宏毅教授口述編輯整理：AI 能教知識，大人用「我也走過」陪孩子。AI 排練與一週排程為設想或編輯補充，圖解不是成效證明。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       }
     },
     {
@@ -30389,11 +30519,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/smarter-after-sixty.svg",
-        "mobileImage": "/assets/overviews/smarter-after-sixty-mobile.svg",
-        "cardImage": "/assets/overviews/smarter-after-sixty-card.svg",
+        "image": "/assets/overviews/smarter-after-sixty-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/smarter-after-sixty-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/smarter-after-sixty-picture3-desktop.webp",
         "alt": "檢查警訊、溫柔好奇、問樂趣不問有用、放掉期待與新同輩圈；用一張週清單每週換一件重複的事。",
-        "caption": "依吳淡如 Podcast EP2539 編輯整理：從檢查「麻煩、不想學、不想動」開始，每週換一件重複的事。清單與排程為編輯補充，圖解不是成效證明，也非醫療建議。"
+        "caption": "依吳淡如 Podcast EP2539 編輯整理：從檢查「麻煩、不想學、不想動」開始，每週換一件重複的事。清單與排程為編輯補充，圖解不是成效證明，也非醫療建議。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       }
     },
     {
@@ -31047,11 +31182,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/ai-adoption-vs-effectiveness.svg",
-        "mobileImage": "/assets/overviews/ai-adoption-vs-effectiveness-mobile.svg",
-        "cardImage": "/assets/overviews/ai-adoption-vs-effectiveness-card.svg",
+        "image": "/assets/overviews/ai-adoption-vs-effectiveness-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/ai-adoption-vs-effectiveness-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/ai-adoption-vs-effectiveness-picture3-desktop.webp",
         "alt": "定目標、三群清單、盤三職能、拆驗收、排產能、分開量，從全員會用走到績效有感的六步。",
-        "caption": "依數創實驗室 EP114 口述編輯整理：把 adoption 與 effectiveness 分開管理，先盤點人與職能，再拆驗收與產能去向。圖解為編輯整理，不是成效證明。"
+        "caption": "依數創實驗室 EP114 口述編輯整理：把 adoption 與 effectiveness 分開管理，先盤點人與職能，再拆驗收與產能去向。圖解為編輯整理，不是成效證明。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       }
     },
     {
@@ -31395,11 +31535,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/kids-mealtime-difficulties.svg",
-        "mobileImage": "/assets/overviews/kids-mealtime-difficulties-mobile.svg",
-        "cardImage": "/assets/overviews/kids-mealtime-difficulties-card.svg",
+        "image": "/assets/overviews/kids-mealtime-difficulties-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/kids-mealtime-difficulties-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/kids-mealtime-difficulties-picture3-desktop.webp",
         "alt": "孩子吃飯難題六步：先問餐桌記憶、檢查餐具坐姿、咀嚼循序漸進、減少催促指令、建立固定流程、一次只調一兩項。",
-        "caption": "依親子天下 Podcast 特別企劃編輯整理：從餐桌記憶出發，一次只調一兩項。圖解與排程為編輯補充，不是成效證明，也非醫療或營養建議。"
+        "caption": "依親子天下 Podcast 特別企劃編輯整理：從餐桌記憶出發，一次只調一兩項。圖解與排程為編輯補充，不是成效證明，也非醫療或營養建議。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       }
     },
     {
@@ -31739,11 +31884,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/lovely-money-auto-rolling-in.svg",
-        "mobileImage": "/assets/overviews/lovely-money-auto-rolling-in-mobile.svg",
-        "cardImage": "/assets/overviews/lovely-money-auto-rolling-in-card.svg",
+        "image": "/assets/overviews/lovely-money-auto-rolling-in-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/lovely-money-auto-rolling-in-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/lovely-money-auto-rolling-in-picture3-desktop.webp",
         "alt": "黃金數字、四個桶子、長期投資、退休算式，最後把錢當燃料替自己買選擇權。",
-        "caption": "依 Podcast 分享編輯整理：先算數字，再分桶、長期持有，最後用掉選擇權。步驟中的例子為編輯示範，圖解不是成效證明。"
+        "caption": "依 Podcast 分享編輯整理：先算數字，再分桶、長期持有，最後用掉選擇權。步驟中的例子為編輯示範，圖解不是成效證明。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       }
     },
     {
@@ -32327,11 +32477,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/serhant-get-to-yes.svg",
-        "mobileImage": "/assets/overviews/serhant-get-to-yes-mobile.svg",
-        "cardImage": "/assets/overviews/serhant-get-to-yes-card.svg",
+        "image": "/assets/overviews/serhant-get-to-yes-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/serhant-get-to-yes-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/serhant-get-to-yes-picture3-desktop.webp",
         "alt": "勾住、幫忙、請求、跟進四步循環，對方說停就停。",
-        "caption": "依 Podcast 內容編輯整理：先建立信任再開口。圖解為編輯整理，不是成效證明。"
+        "caption": "依 Podcast 內容編輯整理：先建立信任再開口。圖解為編輯整理，不是成效證明。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       }
     },
     {
@@ -32647,11 +32802,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/why-kids-dont-listen-tongtong.svg",
-        "mobileImage": "/assets/overviews/why-kids-dont-listen-tongtong-mobile.svg",
-        "cardImage": "/assets/overviews/why-kids-dont-listen-tongtong-card.svg",
+        "image": "/assets/overviews/why-kids-dont-listen-tongtong-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/why-kids-dont-listen-tongtong-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/why-kids-dont-listen-tongtong-picture3-desktop.webp",
         "alt": "還原事件、先安心、給行為價值、規則提醒、陪找解法，最後每週回顧。",
-        "caption": "依專訪編輯整理：先理解孩子，再談規則與解法。大腦科學說法為講者解說，圖解不是成效證明。"
+        "caption": "依專訪編輯整理：先理解孩子，再談規則與解法。大腦科學說法為講者解說，圖解不是成效證明。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       }
     },
     {
@@ -32975,11 +33135,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/yanfu-two-way-translation.svg",
-        "mobileImage": "/assets/overviews/yanfu-two-way-translation-mobile.svg",
-        "cardImage": "/assets/overviews/yanfu-two-way-translation-card.svg",
+        "image": "/assets/overviews/yanfu-two-way-translation-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/yanfu-two-way-translation-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/yanfu-two-way-translation-picture3-desktop.webp",
         "alt": "綁定專業任務、結構掃描找出承重牆、深度查詞、雙向回譯，最後排成一週輪替的五步英文精讀流程。",
-        "caption": "依 brain 學霸影片口述編輯整理：以嚴復的學習故事為引，把長句拆承重牆、一次深挖一個詞，並用 200 字短文做中譯再回譯的對照練習。示範例子標有「編輯示範」，圖解不是成效證明。"
+        "caption": "依 brain 學霸影片口述編輯整理：以嚴復的學習故事為引，把長句拆承重牆、一次深挖一個詞，並用 200 字短文做中譯再回譯的對照練習。示範例子標有「編輯示範」，圖解不是成效證明。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       }
     },
     {
@@ -33683,11 +33848,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/house-negotiation-mindset.svg",
-        "mobileImage": "/assets/overviews/house-negotiation-mindset-mobile.svg",
-        "cardImage": "/assets/overviews/house-negotiation-mindset-card.svg",
+        "image": "/assets/overviews/house-negotiation-mindset-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/house-negotiation-mindset-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/house-negotiation-mindset-picture3-desktop.webp",
         "alt": "定底線、多間比較、第二份出價、冷靜撤回、讓對方說價、慢拒絕，最後在區間內成交或放手。",
-        "caption": "依吳淡如人生實用商學院 EP2541 口述編輯整理：議價的籌碼來自「有選擇」而不是話術。圖解說明節奏，不是成效證明。"
+        "caption": "依吳淡如人生實用商學院 EP2541 口述編輯整理：議價的籌碼來自「有選擇」而不是話術。圖解說明節奏，不是成效證明。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       }
     },
     {
@@ -34012,11 +34182,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/parent-line-group-etiquette.svg",
-        "mobileImage": "/assets/overviews/parent-line-group-etiquette-mobile.svg",
-        "cardImage": "/assets/overviews/parent-line-group-etiquette-card.svg",
+        "image": "/assets/overviews/parent-line-group-etiquette-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/parent-line-group-etiquette-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/parent-line-group-etiquette-picture3-desktop.webp",
         "alt": "分級群組、家長靜音並固定時段看、管理者記事本與大群退場、群規與公開透明。",
-        "caption": "依親子天下 Podcast EP.214 編輯整理：先分級與降低待命感，再由管理者設退場與群規。圖解不是成效證明。"
+        "caption": "依親子天下 Podcast EP.214 編輯整理：先分級與降低待命感，再由管理者設退場與群規。圖解不是成效證明。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       }
     },
     {
@@ -34323,11 +34498,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/personal-agents-explained-jeff-su.svg",
-        "mobileImage": "/assets/overviews/personal-agents-explained-jeff-su-mobile.svg",
-        "cardImage": "/assets/overviews/personal-agents-explained-jeff-su-card.svg",
+        "image": "/assets/overviews/personal-agents-explained-jeff-su-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/personal-agents-explained-jeff-su-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/personal-agents-explained-jeff-su-picture3-desktop.webp",
         "alt": "判斷層級、建資料夾、寫規則與記憶兩個檔、一句話交辦並更新記憶，最後視需要串接外部服務與選路線。",
-        "caption": "依 Jeff Su 影片編輯整理：用資料夾加純文字檔搭出會記得你的 DIY 代理。圖解不是成效證明。"
+        "caption": "依 Jeff Su 影片編輯整理：用資料夾加純文字檔搭出會記得你的 DIY 代理。圖解不是成效證明。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       }
     },
     {
@@ -35186,11 +35366,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/claude-code-18-tips-ep431.svg",
-        "mobileImage": "/assets/overviews/claude-code-18-tips-ep431-mobile.svg",
-        "cardImage": "/assets/overviews/claude-code-18-tips-ep431-card.svg",
+        "image": "/assets/overviews/claude-code-18-tips-ep431-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/claude-code-18-tips-ep431-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/claude-code-18-tips-ep431-picture3-desktop.webp",
         "alt": "懂專案、給它看並訪談寫規格、自我驗收與清理對話、把重複的事交給 skill 與 hook。",
-        "caption": "依 AI 懶人報 EP431 編輯整理：把 18 個用法歸併成四個階段。圖解不是成效證明。"
+        "caption": "依 AI 懶人報 EP431 編輯整理：把 18 個用法歸併成四個階段。圖解不是成效證明。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       }
     },
     {
@@ -35500,11 +35685,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/energy-compounding-choice-skills.svg",
-        "mobileImage": "/assets/overviews/energy-compounding-choice-skills-mobile.svg",
-        "cardImage": "/assets/overviews/energy-compounding-choice-skills-card.svg",
+        "image": "/assets/overviews/energy-compounding-choice-skills-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/energy-compounding-choice-skills-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/energy-compounding-choice-skills-picture3-desktop.webp",
         "alt": "認出內耗、分影響圈、白紙寫需求、應該換成我可以；情緒卡住時先聽懂再轉念。",
-        "caption": "依鄭婉婷專訪編輯整理：先看見需求，再選擇自己能做的行動。圖解與練習排程為編輯補充，不是成效證明。"
+        "caption": "依鄭婉婷專訪編輯整理：先看見需求，再選擇自己能做的行動。圖解與練習排程為編輯補充，不是成效證明。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       }
     },
     {
@@ -36429,11 +36619,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/smalltalk-ep715-ai-process-bottleneck.svg",
-        "mobileImage": "/assets/overviews/smalltalk-ep715-ai-process-bottleneck-mobile.svg",
-        "cardImage": "/assets/overviews/smalltalk-ep715-ai-process-bottleneck-card.svg",
+        "image": "/assets/overviews/smalltalk-ep715-ai-process-bottleneck-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/smalltalk-ep715-ai-process-bottleneck-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/smalltalk-ep715-ai-process-bottleneck-picture3-desktop.webp",
         "alt": "分清個人與組織效率、走一遍流程找堵點、重問問題、寫出標準、綁進流程，最後決定 AI 放哪一段並回頭量成果。",
-        "caption": "依「大人的Small Talk」EP715 口述編輯整理：AI 只加速單點時，瓶頸會被推到下一關，要把標準綁進流程。圖解不是成效證明。"
+        "caption": "依「大人的Small Talk」EP715 口述編輯整理：AI 只加速單點時，瓶頸會被推到下一關，要把標準綁進流程。圖解不是成效證明。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       }
     },
     {
@@ -36738,11 +36933,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/xiaobihu-vocab-reading-writing.svg",
-        "mobileImage": "/assets/overviews/xiaobihu-vocab-reading-writing-mobile.svg",
-        "cardImage": "/assets/overviews/xiaobihu-vocab-reading-writing-card.svg",
+        "image": "/assets/overviews/xiaobihu-vocab-reading-writing-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/xiaobihu-vocab-reading-writing-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/xiaobihu-vocab-reading-writing-picture3-desktop.webp",
         "alt": "六個階段：花瓣組詞、教室造詞、訪問交換、遊戲練用、情境造句、寫進作文，再回到下一課。",
-        "caption": "依直播內容編輯整理：從認識詞到把詞寫進作文，每招練三、四次再換。圖解為編輯整理，不是成效證明。"
+        "caption": "依直播內容編輯整理：從認識詞到把詞寫進作文，每招練三、四次再換。圖解為編輯整理，不是成效證明。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       }
     },
     {
@@ -37545,11 +37745,16 @@
       "categoryId": "reading",
       "level": "入門",
       "overview": {
-        "image": "/assets/overviews/bored-means-play-with-me.svg",
-        "mobileImage": "/assets/overviews/bored-means-play-with-me-mobile.svg",
-        "cardImage": "/assets/overviews/bored-means-play-with-me-card.svg",
+        "image": "/assets/overviews/bored-means-play-with-me-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/bored-means-play-with-me-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/bored-means-play-with-me-picture3-desktop.webp",
         "alt": "看狀態 → 陪開頭 → 一起演 → 留空間",
-        "caption": "依來源內容編輯整理；流程順序與練習配置含編輯設計，並非成效證明。"
+        "caption": "依來源內容編輯整理；流程順序與練習配置含編輯設計，並非成效證明。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       },
       "visuals": [
         {
@@ -37774,11 +37979,16 @@
       "categoryId": "reading",
       "level": "入門",
       "overview": {
-        "image": "/assets/overviews/gamified-self-role-fit.svg",
-        "mobileImage": "/assets/overviews/gamified-self-role-fit-mobile.svg",
-        "cardImage": "/assets/overviews/gamified-self-role-fit-card.svg",
+        "image": "/assets/overviews/gamified-self-role-fit-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/gamified-self-role-fit-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/gamified-self-role-fit-picture3-desktop.webp",
         "alt": "定方向 → 找線索 → 選角色 → 試任務",
-        "caption": "依來源內容編輯整理；流程順序與練習配置含編輯設計，並非成效證明。"
+        "caption": "依來源內容編輯整理；流程順序與練習配置含編輯設計，並非成效證明。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       },
       "visuals": [
         {
@@ -38705,11 +38915,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/kids-asking-ai-curiosity.svg",
-        "mobileImage": "/assets/overviews/kids-asking-ai-curiosity-mobile.svg",
-        "cardImage": "/assets/overviews/kids-asking-ai-curiosity-card.svg",
+        "image": "/assets/overviews/kids-asking-ai-curiosity-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/kids-asking-ai-curiosity-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/kids-asking-ai-curiosity-picture3-desktop.webp",
         "alt": "示範追問、一起求證、先不禁止、先問我加個資線、變成自己的，五步引導孩子用 AI。",
-        "caption": "依親子天下 Podcast 編輯整理：五個步驟守住孩子的好奇心。範例與一週節奏為編輯補充，圖解不是成效證明。"
+        "caption": "依親子天下 Podcast 編輯整理：五個步驟守住孩子的好奇心。範例與一週節奏為編輯補充，圖解不是成效證明。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       }
     },
     {
@@ -38861,11 +39076,16 @@
       "categoryId": "reading",
       "level": "入門",
       "overview": {
-        "image": "/assets/overviews/nvidia-speaking-strategy.svg",
-        "mobileImage": "/assets/overviews/nvidia-speaking-strategy-mobile.svg",
-        "cardImage": "/assets/overviews/nvidia-speaking-strategy-card.svg",
+        "image": "/assets/overviews/nvidia-speaking-strategy-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/nvidia-speaking-strategy-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/nvidia-speaking-strategy-picture3-desktop.webp",
         "alt": "看變化 → 說轉變 → 找問題 → 提解法",
-        "caption": "依來源內容編輯整理；流程順序與練習配置含編輯設計，並非成效證明。"
+        "caption": "依來源內容編輯整理；流程順序與練習配置含編輯設計，並非成效證明。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       },
       "visuals": [
         {
@@ -39635,11 +39855,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/ai-champion-peer-practice.svg",
-        "mobileImage": "/assets/overviews/ai-champion-peer-practice-mobile.svg",
-        "cardImage": "/assets/overviews/ai-champion-peer-practice-card.svg",
+        "image": "/assets/overviews/ai-champion-peer-practice-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/ai-champion-peer-practice-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/ai-champion-peer-practice-picture3-desktop.webp",
         "alt": "定範圍 → 留時間 → 做案例 → 接卡點",
-        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。"
+        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       },
       "keywords": [
         "AI共學",
@@ -39869,11 +40094,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/student-leadership-real-responsibility.svg",
-        "mobileImage": "/assets/overviews/student-leadership-real-responsibility-mobile.svg",
-        "cardImage": "/assets/overviews/student-leadership-real-responsibility-card.svg",
+        "image": "/assets/overviews/student-leadership-real-responsibility-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/student-leadership-real-responsibility-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/student-leadership-real-responsibility-picture3-desktop.webp",
         "alt": "聽問題 → 拆任務 → 給支架 → 回頭看",
-        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。"
+        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       },
       "keywords": [
         "學生領導力",
@@ -40690,11 +40920,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/aging-parents-post-adolescent.svg",
-        "mobileImage": "/assets/overviews/aging-parents-post-adolescent-mobile.svg",
-        "cardImage": "/assets/overviews/aging-parents-post-adolescent-card.svg",
+        "image": "/assets/overviews/aging-parents-post-adolescent-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/aging-parents-post-adolescent-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/aging-parents-post-adolescent-picture3-desktop.webp",
         "alt": "換框架、預告陪跑、說出擔心、看見努力再問卡點、課題分離、給小工具，六步把長輩與孩子的溝通從講道理改成先降低防衛。",
-        "caption": "依親子天下 Podcast 關係相談所第 203 集口述編輯整理：把長輩當後青春期，先降低防衛，再看見卡點。圖解為編輯整理，並非成效證明。"
+        "caption": "依親子天下 Podcast 關係相談所第 203 集口述編輯整理：把長輩當後青春期，先降低防衛，再看見卡點。圖解為編輯整理，並非成效證明。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       }
     },
     {
@@ -41056,11 +41291,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/ali-abdaal-honest-productivity.svg",
-        "mobileImage": "/assets/overviews/ali-abdaal-honest-productivity-mobile.svg",
-        "cardImage": "/assets/overviews/ali-abdaal-honest-productivity-card.svg",
+        "image": "/assets/overviews/ali-abdaal-honest-productivity-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/ali-abdaal-honest-productivity-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/ali-abdaal-honest-productivity-picture3-desktop.webp",
         "alt": "診斷拖延、釐清方向、定 90 天季節、排進週曆、誠實檢查與問責、失敗後重新開始的六步流程。",
-        "caption": "依 Ali Abdaal 影片編輯整理：先診斷拖延，再用一個季節與一張週曆做更少但更好。圖解不是成效證明。"
+        "caption": "依 Ali Abdaal 影片編輯整理：先診斷拖延，再用一個季節與一張週曆做更少但更好。圖解不是成效證明。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       }
     },
     {
@@ -42064,11 +42304,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/catch-yourself-before-burnout.svg",
-        "mobileImage": "/assets/overviews/catch-yourself-before-burnout-mobile.svg",
-        "cardImage": "/assets/overviews/catch-yourself-before-burnout-card.svg",
+        "image": "/assets/overviews/catch-yourself-before-burnout-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/catch-yourself-before-burnout-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/catch-yourself-before-burnout-picture3-desktop.webp",
         "alt": "三層防火牆：外層停幾秒做心理交換、中層情緒先容納、內層價值澄清，睡前三題檢查。",
-        "caption": "依專訪影片編輯整理：先分清責任與情緒，再用睡前三題回顧。示範句為編輯補充，圖解不是成效證明。"
+        "caption": "依專訪影片編輯整理：先分清責任與情緒，再用睡前三題回顧。示範句為編輯補充，圖解不是成效證明。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       }
     },
     {
@@ -42383,11 +42628,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/digital-teaching-unspoken.svg",
-        "mobileImage": "/assets/overviews/digital-teaching-unspoken-mobile.svg",
-        "cardImage": "/assets/overviews/digital-teaching-unspoken-card.svg",
+        "image": "/assets/overviews/digital-teaching-unspoken-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/digital-teaching-unspoken-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/digital-teaching-unspoken-picture3-desktop.webp",
         "alt": "數位教學導入五步：定目標、認識與選用、實體規則、斷網備案、小步使用，最後回到下一堂再檢視。",
-        "caption": "依謙懿科技直播口述編輯整理：把數位工具放進課堂之前，先定目標、守實體規則、備斷網方案、一次只用五到十分鐘。圖解為編輯整理，不是成效證明。"
+        "caption": "依謙懿科技直播口述編輯整理：把數位工具放進課堂之前，先定目標、守實體規則、備斷網方案、一次只用五到十分鐘。圖解為編輯整理，不是成效證明。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       }
     },
     {
@@ -43248,11 +43498,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/ai-judgment-loop-first-reader.svg",
-        "mobileImage": "/assets/overviews/ai-judgment-loop-first-reader-mobile.svg",
-        "cardImage": "/assets/overviews/ai-judgment-loop-first-reader-card.svg",
+        "image": "/assets/overviews/ai-judgment-loop-first-reader-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/ai-judgment-loop-first-reader-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/ai-judgment-loop-first-reader-picture3-desktop.webp",
         "alt": "做診斷 → 擬計畫 → 做一輪 → 再判斷",
-        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。"
+        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       },
       "keywords": [
         "AI",
@@ -43483,11 +43738,16 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/career-small-experiment-map.svg",
-        "mobileImage": "/assets/overviews/career-small-experiment-map-mobile.svg",
-        "cardImage": "/assets/overviews/career-small-experiment-map-card.svg",
+        "image": "/assets/overviews/career-small-experiment-map-picture3-desktop.webp",
+        "mobileImage": "/assets/overviews/career-small-experiment-map-picture3-mobile.webp",
+        "cardImage": "/assets/overviews/career-small-experiment-map-picture3-desktop.webp",
         "alt": "拆工作 → 留紀錄 → 開地圖 → 小試做",
-        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。"
+        "caption": "來源做法的編輯圖解；示範、練習安排與教學轉用為編輯補充。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
       },
       "keywords": [
         "職涯",
