@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 650" role="img" aria-labelledby="hx-title hx-desc"><title id="hx-title">系統性思維五步練習</title><desc id="hx-desc">先問 Why → 列出要素 → 畫出連線 → 多層追問 → 請 AI 補位 → 回頭檢查；局勢改變就重新發問。</desc>
+<defs><marker id="hx-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="1200" height="650" fill="#f0f2e9"/>
+<text x="36" y="48" fill="#586b60" font-size="26">科技咖 EP372 · 編輯整理</text>
+<text x="36" y="100" fill="#193732" font-size="42" font-weight="650">先看大局，再動手解題</text>
+<path d="M36 126H1164" stroke="#bdcbbb"/>
+<rect x="36" y="160" width="352" height="176" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="56" y="195" fill="#d4e2d4" font-size="23">01</text>
+<text x="56" y="239" fill="#fffef9" font-size="36" font-weight="650">先問 Why</text>
+<text x="56" y="274" fill="#d4e2d4" font-size="25">我到底想要什麼</text>
+<rect x="424" y="160" width="352" height="176" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="444" y="195" fill="#586b60" font-size="23">02</text>
+<text x="444" y="239" fill="#193732" font-size="36" font-weight="650">列出要素</text>
+<text x="444" y="274" fill="#586b60" font-size="25">人與條件各一格</text>
+<rect x="812" y="160" width="352" height="176" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="832" y="195" fill="#586b60" font-size="23">03</text>
+<text x="832" y="239" fill="#193732" font-size="36" font-weight="650">畫出連線</text>
+<text x="832" y="274" fill="#586b60" font-size="25">結果、原因、系統</text>
+<rect x="36" y="378" width="352" height="176" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="56" y="413" fill="#586b60" font-size="23">04</text>
+<text x="56" y="457" fill="#193732" font-size="36" font-weight="650">多層追問</text>
+<text x="56" y="492" fill="#586b60" font-size="25">問三到五層為什麼</text>
+<rect x="424" y="378" width="352" height="176" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="444" y="413" fill="#586b60" font-size="23">05</text>
+<text x="444" y="457" fill="#193732" font-size="36" font-weight="650">請 AI 補位</text>
+<text x="444" y="492" fill="#586b60" font-size="25">給選項，自己判斷</text>
+<rect x="812" y="378" width="352" height="176" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="832" y="413" fill="#586b60" font-size="23">06</text>
+<text x="832" y="457" fill="#193732" font-size="36" font-weight="650">回頭檢查</text>
+<text x="832" y="492" fill="#586b60" font-size="25">局勢變了就重畫</text>
+<path d="M392 248H420" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#hx-arrow)"/>
+<path d="M780 248H808" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#hx-arrow)"/>
+<path d="M988 340V359H600V374" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#hx-arrow)"/>
+<path d="M392 466H420" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#hx-arrow)"/>
+<path d="M780 466H808" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#hx-arrow)"/>
+<text x="36" y="591" fill="#586b60" font-size="23">圖解為編輯整理，並非成效證明</text>
+<text x="36" y="625" fill="#586b60" font-size="23">局勢改變，就回到第一步重新發問</text>
+</svg>

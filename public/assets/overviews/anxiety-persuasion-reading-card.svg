@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" role="img" aria-labelledby="anxiety-persuasion-reading-title anxiety-persuasion-reading-desc"><title id="anxiety-persuasion-reading-title">越想說服，越容易輸：少說多聽五步</title><desc id="anxiety-persuasion-reading-desc">先備好失去 → 被動了解需求 → 重述對方的話 → 答應要慢 → 留白不說話。</desc>
+<defs><marker id="anxiety-persuasion-reading-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="800" height="480" fill="#f0f2e9"/>
+<text x="36" y="48" fill="#586b60" font-size="26">少說多聽 · 編輯整理</text>
+<text x="36" y="100" fill="#193732" font-size="36" font-weight="650">越想說服，越容易輸</text>
+<path d="M36 126H764" stroke="#bdcbbb"/>
+<path d="M262 205H282" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#anxiety-persuasion-reading-arrow)"/>
+<path d="M510 205H530" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#anxiety-persuasion-reading-arrow)"/>
+<path d="M640 260V280H160V298" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#anxiety-persuasion-reading-arrow)"/>
+<path d="M262 355H282" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#anxiety-persuasion-reading-arrow)"/>
+<rect x="36" y="150" width="228" height="110" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="52" y="182" fill="#d4e2d4" font-size="21">01</text>
+<text x="52" y="224" fill="#fffef9" font-size="27" font-weight="650">先備好失去</text>
+<rect x="284" y="150" width="228" height="110" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="300" y="182" fill="#586b60" font-size="21">02</text>
+<text x="300" y="224" fill="#193732" font-size="27" font-weight="650">被動了解需求</text>
+<rect x="532" y="150" width="228" height="110" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="548" y="182" fill="#586b60" font-size="21">03</text>
+<text x="548" y="224" fill="#193732" font-size="27" font-weight="650">重述對方的話</text>
+<rect x="36" y="300" width="228" height="110" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="52" y="332" fill="#586b60" font-size="21">04</text>
+<text x="52" y="374" fill="#193732" font-size="27" font-weight="650">答應要慢</text>
+<rect x="284" y="300" width="228" height="110" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="300" y="332" fill="#586b60" font-size="21">05</text>
+<text x="300" y="374" fill="#193732" font-size="27" font-weight="650">留白不說話</text>
+<text x="532" y="355" fill="#586b60" font-size="21">不補話，等對方先動</text>
+<text x="36" y="450" fill="#586b60" font-size="21">先調整位置，再調整說話節奏</text>
+</svg>

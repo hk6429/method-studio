@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" role="img" aria-labelledby="twelve-sentences-language-structure-title twelve-sentences-language-structure-desc"><title id="twelve-sentences-language-structure-title">十二句法：看骨架、換零件</title><desc id="twelve-sentences-language-structure-desc">寫十二句 → 語序與代名詞 → 疑問否定未來 → 換零件 → AI 字對字 → 每天三句；卡住就回到骨架。</desc>
+<defs><marker id="twelve-sentences-language-structure-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="800" height="480" fill="#f0f2e9"/>
+<text x="36" y="48" fill="#586b60" font-size="26">Tim Ferriss 十二句法</text>
+<text x="36" y="100" fill="#193732" font-size="36" font-weight="650">先看骨架，再換零件</text>
+<path d="M36 126H764" stroke="#bdcbbb"/>
+<rect x="36" y="156" width="224" height="112" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="52" y="190" fill="#d4e2d4" font-size="21">01</text>
+<text x="52" y="238" fill="#fffef9" font-size="27" font-weight="650">寫十二句</text>
+<path d="M263 212H285" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#twelve-sentences-language-structure-arrow)"/>
+<rect x="288" y="156" width="224" height="112" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="304" y="190" fill="#586b60" font-size="21">02</text>
+<text x="304" y="238" fill="#193732" font-size="27" font-weight="650">語序與代名詞</text>
+<path d="M515 212H537" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#twelve-sentences-language-structure-arrow)"/>
+<rect x="540" y="156" width="224" height="112" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="556" y="190" fill="#586b60" font-size="21">03</text>
+<text x="556" y="238" fill="#193732" font-size="27" font-weight="650">疑問否定未來</text>
+<rect x="36" y="298" width="224" height="112" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="52" y="332" fill="#586b60" font-size="21">04</text>
+<text x="52" y="380" fill="#193732" font-size="27" font-weight="650">換零件</text>
+<path d="M263 354H285" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#twelve-sentences-language-structure-arrow)"/>
+<rect x="288" y="298" width="224" height="112" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="304" y="332" fill="#586b60" font-size="21">05</text>
+<text x="304" y="380" fill="#193732" font-size="27" font-weight="650">AI 字對字</text>
+<path d="M515 354H537" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#twelve-sentences-language-structure-arrow)"/>
+<rect x="540" y="298" width="224" height="112" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="556" y="332" fill="#586b60" font-size="21">06</text>
+<text x="556" y="380" fill="#193732" font-size="27" font-weight="650">每天三句</text>
+<path d="M652 270V283H148V296" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#twelve-sentences-language-structure-arrow)"/>
+<text x="36" y="455" fill="#586b60" font-size="23">卡住 → 回到骨架 → 再換零件</text>
+</svg>

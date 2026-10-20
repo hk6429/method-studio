@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 800" role="img" aria-labelledby="claude-usage-five-tricks-title claude-usage-five-tricks-desc"><title id="claude-usage-five-tricks-title">Claude 用量五招</title><desc id="claude-usage-five-tricks-desc">換題開新對話 → 相關問題一次問完 → 選對模型與強度 → 關掉用不到的工具 → 快取與交接摘要；目標是讓 Claude 少重讀。</desc>
+<defs><marker id="claude-usage-five-tricks-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="480" height="800" fill="#f0f2e9"/>
+<text x="28" y="48" fill="#586b60" font-size="22">CLAUDE 用量 · 編輯整理</text>
+<text x="28" y="100" fill="#193732" font-size="27" font-weight="650">五招，讓 Claude 少重讀</text>
+<path d="M28 126H452" stroke="#bdcbbb"/>
+<rect x="28" y="146" width="424" height="84" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="48" y="172" fill="#d4e2d4" font-size="18">01</text>
+<text x="48" y="196" fill="#fffef9" font-size="26" font-weight="650">換題開新</text>
+<text x="48" y="218" fill="#d4e2d4" font-size="18">題目換了就新對話</text>
+<path d="M240 230V248" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#claude-usage-five-tricks-arrow)"/>
+<rect x="28" y="250" width="424" height="84" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="276" fill="#586b60" font-size="18">02</text>
+<text x="48" y="300" fill="#193732" font-size="26" font-weight="650">一次問完</text>
+<text x="48" y="322" fill="#586b60" font-size="18">相關問題合成一則</text>
+<path d="M240 334V352" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#claude-usage-five-tricks-arrow)"/>
+<rect x="28" y="354" width="424" height="84" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="380" fill="#586b60" font-size="18">03</text>
+<text x="48" y="404" fill="#193732" font-size="26" font-weight="650">選對模型</text>
+<text x="48" y="426" fill="#586b60" font-size="18">例行事選低強度</text>
+<path d="M240 438V456" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#claude-usage-five-tricks-arrow)"/>
+<rect x="28" y="458" width="424" height="84" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="484" fill="#586b60" font-size="18">04</text>
+<text x="48" y="508" fill="#193732" font-size="26" font-weight="650">關掉工具</text>
+<text x="48" y="530" fill="#586b60" font-size="18">Connector 按需開</text>
+<path d="M240 542V560" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#claude-usage-five-tricks-arrow)"/>
+<rect x="28" y="562" width="424" height="84" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="588" fill="#586b60" font-size="18">05</text>
+<text x="48" y="612" fill="#193732" font-size="26" font-weight="650">快取交接</text>
+<text x="48" y="634" fill="#586b60" font-size="18">Project＋交接摘要</text>
+<path d="M240 646V664" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#claude-usage-five-tricks-arrow)"/>
+<rect x="28" y="666" width="424" height="84" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="692" fill="#586b60" font-size="18">06</text>
+<text x="48" y="716" fill="#193732" font-size="26" font-weight="650">看用量</text>
+<text x="48" y="738" fill="#586b60" font-size="18">Usage 找最大來源</text>
+<text x="28" y="781" fill="#586b60" font-size="18">圖解為編輯整理，並非成效證明</text>
+</svg>

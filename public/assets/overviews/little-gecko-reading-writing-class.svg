@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 650" role="img" aria-labelledby="little-gecko-reading-writing-class-title little-gecko-reading-writing-class-desc"><title id="little-gecko-reading-writing-class-title">小壁虎老師的語詞三招</title><desc id="little-gecko-reading-writing-class-desc">認詞、遊戲造詞、收集好詞、支援語詞、短文造句、替換擴充六個步驟。</desc>
+<defs><marker id="little-gecko-reading-writing-class-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="1200" height="650" fill="#f0f2e9"/>
+<text x="36" y="48" fill="#586b60" font-size="26">語詞教學 · 編輯整理</text>
+<text x="36" y="100" fill="#193732" font-size="42" font-weight="650">把課本語詞，練到寫得出來</text>
+<path d="M36 126H1164" stroke="#bdcbbb"/>
+<rect x="36" y="150" width="528" height="128" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="56" y="184" fill="#d4e2d4" font-size="22">01</text>
+<text x="56" y="226.8" fill="#fffef9" font-size="34" font-weight="650">認詞</text>
+<text x="56" y="258" fill="#d4e2d4" font-size="24">部首、上下文、字典</text>
+<rect x="636" y="150" width="528" height="128" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="656" y="184" fill="#586b60" font-size="22">02</text>
+<text x="656" y="226.8" fill="#193732" font-size="34" font-weight="650">遊戲造詞</text>
+<text x="656" y="258" fill="#586b60" font-size="24">注音手寫、分組</text>
+<rect x="36" y="300" width="528" height="128" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="56" y="334" fill="#586b60" font-size="22">03</text>
+<text x="56" y="376.8" fill="#193732" font-size="34" font-weight="650">收集好詞</text>
+<text x="56" y="408" fill="#586b60" font-size="24">互改、語詞百寶庫</text>
+<rect x="636" y="300" width="528" height="128" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="656" y="334" fill="#586b60" font-size="22">04</text>
+<text x="656" y="376.8" fill="#193732" font-size="34" font-weight="650">支援語詞</text>
+<text x="656" y="408" fill="#586b60" font-size="24">同音字、A3 紙</text>
+<rect x="36" y="450" width="528" height="128" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="56" y="484" fill="#586b60" font-size="22">05</text>
+<text x="56" y="526.8" fill="#193732" font-size="34" font-weight="650">短文造句</text>
+<text x="56" y="558" fill="#586b60" font-size="24">先懂再用</text>
+<rect x="636" y="450" width="528" height="128" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="656" y="484" fill="#586b60" font-size="22">06</text>
+<text x="656" y="526.8" fill="#193732" font-size="34" font-weight="650">替換擴充</text>
+<text x="656" y="558" fill="#586b60" font-size="24">相似詞、新語詞</text>
+<text x="36" y="624" fill="#586b60" font-size="22">圖解為編輯整理，並非成效證明</text>
+</svg>

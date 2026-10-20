@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 800" role="img" aria-labelledby="speak-louder-oral-practice-title speak-louder-oral-practice-desc"><title id="speak-louder-oral-practice-title">大音量加原聲的口說練習</title><desc id="speak-louder-oral-practice-desc">備場地 → 選材料 → 盲聽標記 → 胸腔音量 → 三加一；複述卡住就回頭補。</desc>
+<defs><marker id="speak-louder-oral-practice-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="480" height="800" fill="#f0f2e9"/>
+<text x="28" y="48" fill="#586b60" font-size="22">口說練習 · 編輯整理</text>
+<text x="28" y="100" fill="#193732" font-size="27" font-weight="650">大聲加原聲，才練得開口</text>
+<path d="M28 126H452" stroke="#bdcbbb"/>
+<rect x="28" y="154" width="424" height="100" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="48" y="184" fill="#d4e2d4" font-size="21">01</text>
+<text x="48" y="218" fill="#fffef9" font-size="30" font-weight="650">備場地</text>
+<text x="48" y="242" fill="#d4e2d4" font-size="20">一人、封閉、放開音量</text>
+<path d="M240 254V278" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#speak-louder-oral-practice-arrow)"/>
+<rect x="28" y="280" width="424" height="100" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="310" fill="#586b60" font-size="21">02</text>
+<text x="48" y="344" fill="#193732" font-size="30" font-weight="650">選材料</text>
+<text x="48" y="368" fill="#586b60" font-size="20">1-2 分鐘、有原聲</text>
+<path d="M240 380V404" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#speak-louder-oral-practice-arrow)"/>
+<rect x="28" y="406" width="424" height="100" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="436" fill="#586b60" font-size="21">03</text>
+<text x="48" y="470" fill="#193732" font-size="30" font-weight="650">盲聽標記</text>
+<text x="48" y="494" fill="#586b60" font-size="20">三遍盲聽、標重音</text>
+<path d="M240 506V530" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#speak-louder-oral-practice-arrow)"/>
+<rect x="28" y="532" width="424" height="100" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="562" fill="#586b60" font-size="21">04</text>
+<text x="48" y="596" fill="#193732" font-size="30" font-weight="650">胸腔音量</text>
+<text x="48" y="620" fill="#586b60" font-size="20">手貼胸口有震動</text>
+<path d="M240 632V656" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#speak-louder-oral-practice-arrow)"/>
+<rect x="28" y="658" width="424" height="100" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="688" fill="#586b60" font-size="21">05</text>
+<text x="48" y="722" fill="#193732" font-size="30" font-weight="650">三加一</text>
+<text x="48" y="746" fill="#586b60" font-size="20">三遍跟讀＋關書複述</text>
+<text x="28" y="785" fill="#586b60" font-size="18">圖解為編輯整理，並非成效證明</text>
+</svg>

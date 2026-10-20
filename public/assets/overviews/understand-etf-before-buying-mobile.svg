@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 800" role="img" aria-labelledby="understand-etf-before-buying-title understand-etf-before-buying-desc"><title id="understand-etf-before-buying-title">買 ETF 之前的五道提問</title><desc id="understand-etf-before-buying-desc">它是什麼 → 分清類型 → 別當定存 → 避開槓桿 → 先配置；編輯整理，不構成投資建議。</desc>
+<defs><marker id="understand-etf-before-buying-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="480" height="800" fill="#f0f2e9"/>
+<text x="28" y="48" fill="#586b60" font-size="22">ETF · 編輯整理</text>
+<text x="28" y="100" fill="#193732" font-size="27" font-weight="650">買 ETF 之前先問五題</text>
+<path d="M28 126H452" stroke="#bdcbbb"/>
+<rect x="28" y="154" width="424" height="100" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="48" y="184" fill="#d4e2d4" font-size="20">01</text>
+<text x="48" y="222" fill="#fffef9" font-size="28" font-weight="650">它是什麼</text>
+<text x="48" y="244" fill="#d4e2d4" font-size="19">本質是基金</text>
+<path d="M240 254V278" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#understand-etf-before-buying-arrow)"/>
+<rect x="28" y="280" width="424" height="100" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="310" fill="#586b60" font-size="20">02</text>
+<text x="48" y="348" fill="#193732" font-size="28" font-weight="650">分清類型</text>
+<text x="48" y="370" fill="#586b60" font-size="19">被動、主動、主題</text>
+<path d="M240 380V404" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#understand-etf-before-buying-arrow)"/>
+<rect x="28" y="406" width="424" height="100" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="436" fill="#586b60" font-size="20">03</text>
+<text x="48" y="474" fill="#193732" font-size="28" font-weight="650">別當定存</text>
+<text x="48" y="496" fill="#586b60" font-size="19">配息不是固定</text>
+<path d="M240 506V530" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#understand-etf-before-buying-arrow)"/>
+<rect x="28" y="532" width="424" height="100" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="562" fill="#586b60" font-size="20">04</text>
+<text x="48" y="600" fill="#193732" font-size="28" font-weight="650">避開槓桿</text>
+<text x="48" y="622" fill="#586b60" font-size="19">只用多餘的錢</text>
+<path d="M240 632V656" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#understand-etf-before-buying-arrow)"/>
+<rect x="28" y="658" width="424" height="100" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="688" fill="#586b60" font-size="20">05</text>
+<text x="48" y="726" fill="#193732" font-size="28" font-weight="650">先配置</text>
+<text x="48" y="748" fill="#586b60" font-size="19">股債比例＋拉長</text>
+<text x="28" y="780" fill="#586b60" font-size="18">編輯整理，不構成投資建議</text>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" role="img" aria-labelledby="understand-etf-before-buying-title understand-etf-before-buying-desc"><title id="understand-etf-before-buying-title">買 ETF 之前的五道提問</title><desc id="understand-etf-before-buying-desc">它是什麼 → 分清類型 → 別當定存 → 避開槓桿 → 先配置；編輯整理，不構成投資建議。</desc>
+<defs><marker id="understand-etf-before-buying-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="800" height="480" fill="#f0f2e9"/>
+<text x="36" y="48" fill="#586b60" font-size="26">ETF · 編輯整理</text>
+<text x="36" y="100" fill="#193732" font-size="36" font-weight="650">買之前先問五題</text>
+<path d="M36 126H764" stroke="#bdcbbb"/>
+<rect x="36" y="160" width="328" height="86" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="56" y="194" fill="#d4e2d4" font-size="21">01</text>
+<text x="56" y="228" fill="#fffef9" font-size="32" font-weight="650">它是什麼</text>
+<rect x="436" y="160" width="328" height="86" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="456" y="194" fill="#586b60" font-size="21">02</text>
+<text x="456" y="228" fill="#193732" font-size="32" font-weight="650">分清類型</text>
+<rect x="36" y="262" width="328" height="86" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="56" y="296" fill="#586b60" font-size="21">03</text>
+<text x="56" y="330" fill="#193732" font-size="32" font-weight="650">別當定存</text>
+<rect x="436" y="262" width="328" height="86" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="456" y="296" fill="#586b60" font-size="21">04</text>
+<text x="456" y="330" fill="#193732" font-size="32" font-weight="650">避開槓桿</text>
+<rect x="36" y="364" width="328" height="86" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="56" y="398" fill="#586b60" font-size="21">05</text>
+<text x="56" y="432" fill="#193732" font-size="32" font-weight="650">先配置</text>
+<text x="436" y="410" fill="#586b60" font-size="22">配息會變、槓桿傷身</text>
+<text x="436" y="446" fill="#586b60" font-size="22">不構成投資建議</text>
+</svg>

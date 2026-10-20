@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 800" role="img" aria-labelledby="fable-cost-three-traps-title fable-cost-three-traps-desc"><title id="fable-cost-three-traps-title">新模型省錢，靠守住快取</title><desc id="fable-cost-three-traps-desc">看懂價目 → 守住快取 → 降推理等級 → 審計架構 → 自建測試；驗證失敗才升 Max。</desc>
+<defs><marker id="fable-cost-three-traps-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="480" height="800" fill="#f0f2e9"/>
+<text x="28" y="48" fill="#586b60" font-size="22">EP400 · 編輯整理</text>
+<text x="28" y="100" fill="#193732" font-size="27" font-weight="650">新模型省錢，靠守住快取</text>
+<path d="M28 126H452" stroke="#bdcbbb"/>
+<rect x="28" y="148" width="424" height="98" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="48" y="176" fill="#d4e2d4" font-size="20">01</text>
+<text x="48" y="210" fill="#fffef9" font-size="28" font-weight="650">看懂價目</text>
+<text x="48" y="234" fill="#d4e2d4" font-size="19">輸入、輸出、快取讀取</text>
+<path d="M240 246V266" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#fable-cost-three-traps-arrow)"/>
+<rect x="28" y="266" width="424" height="98" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="294" fill="#586b60" font-size="20">02</text>
+<text x="48" y="328" fill="#193732" font-size="28" font-weight="650">守住快取</text>
+<text x="48" y="352" fill="#586b60" font-size="19">約 5 分鐘過期</text>
+<path d="M240 364V384" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#fable-cost-three-traps-arrow)"/>
+<rect x="28" y="384" width="424" height="98" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="412" fill="#586b60" font-size="20">03</text>
+<text x="48" y="446" fill="#193732" font-size="28" font-weight="650">降推理等級</text>
+<text x="48" y="470" fill="#586b60" font-size="19">預設 medium／high</text>
+<path d="M240 482V502" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#fable-cost-three-traps-arrow)"/>
+<rect x="28" y="502" width="424" height="98" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="530" fill="#586b60" font-size="20">04</text>
+<text x="48" y="564" fill="#193732" font-size="28" font-weight="650">審計架構</text>
+<text x="48" y="588" fill="#586b60" font-size="19">找冗餘 token</text>
+<path d="M240 600V620" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#fable-cost-three-traps-arrow)"/>
+<rect x="28" y="620" width="424" height="98" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="48" y="648" fill="#586b60" font-size="20">05</text>
+<text x="48" y="682" fill="#193732" font-size="28" font-weight="650">自建測試</text>
+<text x="48" y="706" fill="#586b60" font-size="19">五類任務比一比</text>
+<text x="28" y="765" fill="#586b60" font-size="19">驗證失敗才升 Max · 圖解非成效證明</text>
+</svg>

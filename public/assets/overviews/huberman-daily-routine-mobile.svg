@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 800" role="img" aria-labelledby="huberman-daily-routine-title huberman-daily-routine-desc"><title id="huberman-daily-routine-title">把一天排成節律的六個固定動作</title><desc id="huberman-daily-routine-desc">喝水見光 → 早上動身體 → 手機離房專注 → 餐後走路 → 壓力時生理嘆息 → 夜裡調暗燈，再回到隔天醒來。</desc>
+<defs><marker id="huberman-daily-routine-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="480" height="800" fill="#f0f2e9"/>
+<text x="24" y="40" fill="#586b60" font-size="17">HUBERMAN · 編輯整理</text>
+<text x="24" y="82" fill="#193732" font-size="30" font-weight="650">從醒來到入睡的節律</text>
+<path d="M24 98H456" stroke="#bdcbbb"/>
+<rect x="24" y="116" width="432" height="82" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="42" y="150" fill="#d4e2d4" font-size="17">01</text>
+<text x="84" y="154" fill="#fffef9" font-size="28" font-weight="650">喝水見光</text>
+<text x="84" y="182" fill="#d4e2d4" font-size="19">醒後一小時內</text>
+<path d="M240 198V217" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#huberman-daily-routine-arrow)"/>
+<rect x="24" y="220" width="432" height="82" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="42" y="254" fill="#586b60" font-size="17">02</text>
+<text x="84" y="258" fill="#193732" font-size="28" font-weight="650">早上動身體</text>
+<text x="84" y="286" fill="#586b60" font-size="19">前三到四小時</text>
+<path d="M240 302V321" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#huberman-daily-routine-arrow)"/>
+<rect x="24" y="324" width="432" height="82" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="42" y="358" fill="#586b60" font-size="17">03</text>
+<text x="84" y="362" fill="#193732" font-size="28" font-weight="650">手機離房</text>
+<text x="84" y="390" fill="#586b60" font-size="19">90–120 分鐘學習</text>
+<path d="M240 406V425" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#huberman-daily-routine-arrow)"/>
+<rect x="24" y="428" width="432" height="82" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="42" y="462" fill="#586b60" font-size="17">04</text>
+<text x="84" y="466" fill="#193732" font-size="28" font-weight="650">餐後走路</text>
+<text x="84" y="494" fill="#586b60" font-size="19">5–10 分鐘</text>
+<path d="M240 510V529" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#huberman-daily-routine-arrow)"/>
+<rect x="24" y="532" width="432" height="82" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="42" y="566" fill="#586b60" font-size="17">05</text>
+<text x="84" y="570" fill="#193732" font-size="28" font-weight="650">生理嘆息</text>
+<text x="84" y="598" fill="#586b60" font-size="19">壓力升高時</text>
+<path d="M240 614V633" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#huberman-daily-routine-arrow)"/>
+<rect x="24" y="636" width="432" height="82" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="42" y="670" fill="#586b60" font-size="17">06</text>
+<text x="84" y="674" fill="#193732" font-size="28" font-weight="650">暗夜睡眠</text>
+<text x="84" y="702" fill="#586b60" font-size="19">調暗燈、全暗</text>
+<text x="24" y="765" fill="#586b60" font-size="16">圖解為編輯整理，並非成效證明；健康數字皆為影片稱</text>
+</svg>

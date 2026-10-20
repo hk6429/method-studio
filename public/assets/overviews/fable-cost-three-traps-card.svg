@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" role="img" aria-labelledby="fable-cost-three-traps-title fable-cost-three-traps-desc"><title id="fable-cost-three-traps-title">新模型省錢，靠守住快取</title><desc id="fable-cost-three-traps-desc">看懂價目 → 守住快取 → 降推理等級 → 審計架構 → 自建測試；驗證失敗才升 Max。</desc>
+<defs><marker id="fable-cost-three-traps-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="800" height="480" fill="#f0f2e9"/>
+<text x="36" y="48" fill="#586b60" font-size="24">EP400 · 編輯整理</text>
+<text x="36" y="100" fill="#193732" font-size="34" font-weight="650">新模型省錢，靠守住快取</text>
+<path d="M36 126H764" stroke="#bdcbbb"/>
+<rect x="36" y="150" width="328" height="120" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="56" y="184" fill="#d4e2d4" font-size="22">01</text>
+<text x="56" y="234" fill="#fffef9" font-size="34" font-weight="650">看懂價目</text>
+<rect x="436" y="150" width="328" height="120" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="456" y="184" fill="#586b60" font-size="22">02</text>
+<text x="456" y="234" fill="#193732" font-size="34" font-weight="650">守住快取</text>
+<rect x="36" y="300" width="328" height="120" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="56" y="334" fill="#586b60" font-size="22">03</text>
+<text x="56" y="384" fill="#193732" font-size="34" font-weight="650">降推理等級</text>
+<rect x="436" y="300" width="328" height="120" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="456" y="334" fill="#586b60" font-size="22">04</text>
+<text x="456" y="384" fill="#193732" font-size="34" font-weight="650">審計架構</text>
+<text x="36" y="455" fill="#586b60" font-size="22">推理等級預設 medium／high，失敗才升 Max</text>
+</svg>

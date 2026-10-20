@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 650" role="img" aria-labelledby="olly-richards-story-method-title olly-richards-story-method-desc"><title id="olly-richards-story-method-title">故事記詞法四步</title><desc id="olly-richards-story-method-desc">先看懂 → 分段朗讀 → 遮住回想 → 自己重講；卡住就看提示再蓋上重試。</desc>
+<defs><marker id="olly-richards-story-method-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="1200" height="650" fill="#f0f2e9"/>
+<text x="36" y="48" fill="#586b60" font-size="26">Olly Richards 故事學習 · 編輯整理</text>
+<text x="36" y="100" fill="#193732" font-size="42" font-weight="650">一篇短故事，練到能開口</text>
+<path d="M36 126H1164" stroke="#bdcbbb"/>
+<path d="M571 248H624" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#olly-richards-story-method-arrow)"/>
+<path d="M571 466H624" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#olly-richards-story-method-arrow)"/>
+<path d="M900 341V354H300V368" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#olly-richards-story-method-arrow)"/>
+<rect x="36" y="160" width="528" height="176" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="56" y="195" fill="#d4e2d4" font-size="23">01</text>
+<text x="56" y="245" fill="#fffef9" font-size="38" font-weight="650">先看懂</text>
+<text x="56" y="292" fill="#d4e2d4" font-size="27">主角、難題、解法</text>
+<rect x="636" y="160" width="528" height="176" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="656" y="195" fill="#586b60" font-size="23">02</text>
+<text x="656" y="245" fill="#193732" font-size="38" font-weight="650">分段朗讀</text>
+<text x="656" y="292" fill="#586b60" font-size="27">兩三句一組讀 2–4 遍</text>
+<rect x="36" y="378" width="528" height="176" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="56" y="413" fill="#586b60" font-size="23">03</text>
+<text x="56" y="463" fill="#193732" font-size="38" font-weight="650">遮住回想</text>
+<text x="56" y="510" fill="#586b60" font-size="27">看情節線索想英文</text>
+<rect x="636" y="378" width="528" height="176" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="656" y="413" fill="#586b60" font-size="23">04</text>
+<text x="656" y="463" fill="#193732" font-size="38" font-weight="650">自己重講</text>
+<text x="656" y="510" fill="#586b60" font-size="27">夾進目標詞，造生活句</text>
+<text x="36" y="591" fill="#586b60" font-size="23">圖解為編輯整理，並非成效證明</text>
+<text x="36" y="625" fill="#586b60" font-size="23">卡住就看一眼提示，蓋上再讀一遍</text>
+</svg>

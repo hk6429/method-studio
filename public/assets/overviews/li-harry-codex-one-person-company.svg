@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 650" role="img" aria-labelledby="li-harry-codex-one-person-company-title li-harry-codex-one-person-company-desc"><title id="li-harry-codex-one-person-company-title">重複流程交給 AI 的六步</title><desc id="li-harry-codex-one-person-company-desc">手動做一次、挑母模板、封裝 Skill、排程上雲、人工稽核、預先維運；出錯回到 Skill 修正。</desc>
+<defs><marker id="li-harry-codex-one-person-company-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#586b60" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}</style>
+<rect width="1200" height="650" fill="#f0f2e9"/>
+<text x="36" y="48" fill="#586b60" font-size="26">CODEX 長課 · 編輯整理</text>
+<text x="36" y="100" fill="#193732" font-size="42" font-weight="650">重複的事，一步步交給 AI</text>
+<path d="M36 126H1164" stroke="#bdcbbb"/>
+<rect x="36" y="160" width="340" height="176" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="56" y="194" fill="#586b60" font-size="22">01</text>
+<text x="56" y="257" fill="#193732" font-size="36" font-weight="650">手動做一次</text>
+<text x="56" y="301" fill="#586b60" font-size="26">真實材料＋合格成品</text>
+<rect x="430" y="160" width="340" height="176" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="450" y="194" fill="#586b60" font-size="22">02</text>
+<text x="450" y="257" fill="#193732" font-size="36" font-weight="650">挑母模板</text>
+<text x="450" y="301" fill="#586b60" font-size="26">多做幾版，寫規則</text>
+<rect x="824" y="160" width="340" height="176" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="844" y="194" fill="#586b60" font-size="22">03</text>
+<text x="844" y="257" fill="#193732" font-size="36" font-weight="650">封裝 Skill</text>
+<text x="844" y="301" fill="#586b60" font-size="26">新材料測試</text>
+<rect x="36" y="378" width="340" height="176" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="56" y="412" fill="#586b60" font-size="22">04</text>
+<text x="56" y="475" fill="#193732" font-size="36" font-weight="650">排程上雲</text>
+<text x="56" y="519" fill="#586b60" font-size="26">金鑰放 .env</text>
+<rect x="430" y="378" width="340" height="176" rx="7" fill="#193732" stroke="#bdcbbb"/>
+<text x="450" y="412" fill="#d4e2d4" font-size="22">05</text>
+<text x="450" y="475" fill="#fffef9" font-size="36" font-weight="650">人工稽核</text>
+<text x="450" y="519" fill="#d4e2d4" font-size="26">草稿到此為止</text>
+<rect x="824" y="378" width="340" height="176" rx="7" fill="#fffef9" stroke="#bdcbbb"/>
+<text x="844" y="412" fill="#586b60" font-size="22">06</text>
+<text x="844" y="475" fill="#193732" font-size="36" font-weight="650">預先維運</text>
+<text x="844" y="519" fill="#586b60" font-size="26">回滾、通知、修錯</text>
+<path d="M376 248H424" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#li-harry-codex-one-person-company-arrow)"/>
+<path d="M770 248H818" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#li-harry-codex-one-person-company-arrow)"/>
+<path d="M994 336V352H206V372" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#li-harry-codex-one-person-company-arrow)"/>
+<path d="M376 466H424" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#li-harry-codex-one-person-company-arrow)"/>
+<path d="M770 466H818" stroke="#586b60" fill="none" stroke-width="2.5" marker-end="url(#li-harry-codex-one-person-company-arrow)"/>
+<text x="36" y="591" fill="#586b60" font-size="23">圖解為編輯整理，並非成效證明</text>
+<text x="36" y="625" fill="#586b60" font-size="23">對外發出前一定留一關人工稽核；出錯回到 Skill 修正</text>
+</svg>
