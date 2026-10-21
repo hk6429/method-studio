@@ -477,7 +477,7 @@ progress::-moz-progress-bar { background: var(--green); }
   .brand { gap: 8px; font-size: 15px; letter-spacing: .02em; }
   .brand small { font-size: 6px; letter-spacing: .18em; }
   .brand-mark { width: 29px; height: 34px; grid-template-columns: 6px 6px; grid-template-rows: 9px 9px; gap: 3px; }
-  .header-nav { gap: 10px; }
+  .header-nav { gap: 10px; min-width: 0; flex-wrap: wrap; justify-content: flex-end; }
   .header-nav a { font-size: 10px; }
   .header-nav .saved-nav { padding-left: 10px; gap: 4px; }
   .saved-nav > span:not(.saved-count) { display: none; }
