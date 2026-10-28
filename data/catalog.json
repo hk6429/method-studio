@@ -108067,6 +108067,535 @@
         "mobileHeight": 1600
       },
       "publishedAt": "2026-10-29T03:13:32+08:00"
+    },
+    {
+      "id": "english-song-personal-phrases",
+      "title": "用英文歌練出自己的句子",
+      "summary": "從歌曲選句、理解語氣，再離開旋律說出自己的句子。",
+      "categoryId": "english",
+      "topicIds": [
+        "speaking",
+        "habits"
+      ],
+      "level": "入門",
+      "minutes": 15,
+      "output": "選歌評估與一至兩句個人化表達",
+      "audience": "想用喜愛的音樂練習英文口說的學習者",
+      "status": "ready",
+      "contentType": "video_method",
+      "reviewedAt": "2026-10-28",
+      "sourceCoverage": "本機 Whisper base 中文 ASR 全片，並以 tiny 補轉 MP3 15:38–19:18；兩份機器字幕可辨選歌標準、聽歌、選句、查意思、模仿及改成自己的話，也提到隔一天與三天回想。全片音訊約 21:27，base 字幕末至 21:05.6；英文辨識有誤、末尾缺漏，尚未人工聽校，示例與練習時間為編輯設計。",
+      "coverLabel": "方法練習",
+      "sources": [
+        {
+          "id": "video",
+          "title": "為什麼你聽歌的時候居然是你學英文最快的時候？英文歌裡偷走這句 I never thought，套進你的人生就會說",
+          "url": "https://www.youtube.com/watch?v=54pnZ3lnkhU",
+          "kind": "video",
+          "provider": "youtube",
+          "videoId": "54pnZ3lnkhU",
+          "channel": "brain 學霸",
+          "note": "片名依 Notion 索引正規化為臺灣繁體字形，尚未核對原影片標題。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "用五項標準選歌",
+          "action": "以喜歡、理解、表達價值、聲音清晰、能否轉用五項各評一至五分。",
+          "why": "喜愛和適合學習未必一致。 操作整理與例子為編輯設計。",
+          "example": "編輯示範：選一首願意重聽、聲音清楚且含日常表達的歌，記下分數及理由。",
+          "check": "能解釋選歌理由。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "video",
+              "startSeconds": 938,
+              "endSeconds": 1008
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "完整聽一遍",
+          "action": "不看歌詞、不暫停，先抓大意與情緒。",
+          "why": "先掌握整體而非急著翻譯。 操作整理與例子為編輯設計。",
+          "example": "編輯示範：寫下「似乎在邀請朋友重新嘗試」。",
+          "check": "能描述初步理解並標記不清楚處。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "video",
+              "startSeconds": 1014,
+              "endSeconds": 1026
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "挑一兩句",
+          "action": "挑想在日常使用的表達，寫下使用場合。",
+          "why": "聚焦可用表達。 操作整理與例子為編輯設計。",
+          "example": "編輯示範：選一個提出建議的句型。",
+          "check": "每句都有預計使用的場合。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "video",
+              "startSeconds": 1027,
+              "endSeconds": 1037
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "查清意思與語氣",
+          "action": "查翻譯、單字、縮寫與句構，判斷語氣和場合。",
+          "why": "歌詞用語未必適合所有情境。 操作整理與例子為編輯設計。",
+          "example": "編輯示範：比較 I don’t mind 與可能較強硬的 I don’t even care。",
+          "check": "能解釋意思和語氣。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "video",
+              "startSeconds": 1037,
+              "endSeconds": 1054
+            }
+          ]
+        },
+        {
+          "id": "step-5",
+          "title": "跟唱後離開旋律說",
+          "action": "模仿原聲的重音、節奏及連音，再關掉音樂以正常速度說。",
+          "why": "檢查是否過度依賴旋律。 操作整理與例子為編輯設計。",
+          "example": "編輯示範：跟唱一句建議後，暫停音樂對同伴說一次。",
+          "check": "不靠旋律說出並解釋。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "video",
+              "startSeconds": 1054,
+              "endSeconds": 1071
+            }
+          ]
+        },
+        {
+          "id": "step-6",
+          "title": "換成自己的話",
+          "action": "保留句型，換成真實生活內容；隔一天與三天後試著回想。",
+          "why": "將表達帶進個人情境並再次提取。 操作整理與例子為編輯設計。",
+          "example": "編輯示範：以「Let’s take a break」表達一起讀書時想休息。",
+          "check": "能說出適合自己情境的新句。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "video",
+              "startSeconds": 1071,
+              "endSeconds": 1095
+            },
+            {
+              "sourceId": "video",
+              "startSeconds": 1138,
+              "endSeconds": 1162
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "編輯整理：練習流程",
+          "note": "步驟順序由編輯整理；圖解不代表效果已驗證。",
+          "nodes": [
+            {
+              "id": "step-1",
+              "label": "用五項標準選歌",
+              "detail": "以喜歡、理解、表達價值、聲音清晰、能否轉用五項各評一至五分。"
+            },
+            {
+              "id": "step-2",
+              "label": "完整聽一遍",
+              "detail": "不看歌詞、不暫停，先抓大意與情緒。"
+            },
+            {
+              "id": "step-3",
+              "label": "挑一兩句",
+              "detail": "挑想在日常使用的表達，寫下使用場合。"
+            },
+            {
+              "id": "step-4",
+              "label": "查清意思與語氣",
+              "detail": "查翻譯、單字、縮寫與句構，判斷語氣和場合。"
+            },
+            {
+              "id": "step-5",
+              "label": "跟唱後離開旋律說",
+              "detail": "模仿原聲的重音、節奏及連音，再關掉音樂以正常速度說。"
+            },
+            {
+              "id": "step-6",
+              "label": "換成自己的話",
+              "detail": "保留句型，換成真實生活內容；隔一天與三天後試著回想。"
+            }
+          ],
+          "edges": [
+            {
+              "from": "step-1",
+              "to": "step-2"
+            },
+            {
+              "from": "step-2",
+              "to": "step-3"
+            },
+            {
+              "from": "step-3",
+              "to": "step-4"
+            },
+            {
+              "from": "step-4",
+              "to": "step-5"
+            },
+            {
+              "from": "step-5",
+              "to": "step-6"
+            }
+          ]
+        },
+        {
+          "type": "schedule",
+          "title": "編輯補充：練習安排",
+          "note": "依文章步驟整理，可依現場需求調整。",
+          "columns": [
+            "行動",
+            "完成判準"
+          ],
+          "rows": [
+            {
+              "label": "用五項標準選歌",
+              "cells": [
+                "以喜歡、理解、表達價值、聲音清晰、能否轉用五項各評一至五分。",
+                "能解釋選歌理由。"
+              ]
+            },
+            {
+              "label": "完整聽一遍",
+              "cells": [
+                "不看歌詞、不暫停，先抓大意與情緒。",
+                "能描述初步理解並標記不清楚處。"
+              ]
+            },
+            {
+              "label": "挑一兩句",
+              "cells": [
+                "挑想在日常使用的表達，寫下使用場合。",
+                "每句都有預計使用的場合。"
+              ]
+            },
+            {
+              "label": "查清意思與語氣",
+              "cells": [
+                "查翻譯、單字、縮寫與句構，判斷語氣和場合。",
+                "能解釋意思和語氣。"
+              ]
+            },
+            {
+              "label": "跟唱後離開旋律說",
+              "cells": [
+                "模仿原聲的重音、節奏及連音，再關掉音樂以正常速度說。",
+                "不靠旋律說出並解釋。"
+              ]
+            },
+            {
+              "label": "換成自己的話",
+              "cells": [
+                "保留句型，換成真實生活內容；隔一天與三天後試著回想。",
+                "能說出適合自己情境的新句。"
+              ]
+            }
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "此方法能提升學習成效",
+          "status": "unverified",
+          "explanation": "來源提出方法與經驗，未獨立查核成效研究。",
+          "sourceIds": [
+            "video"
+          ],
+          "checkedAt": "2026-10-28"
+        }
+      ],
+      "pitfalls": [
+        "只會跟唱卻無法離開旋律說",
+        "將歌詞不分語氣套入所有場合",
+        "把聽歌當作所有語言學習"
+      ],
+      "practice": {
+        "title": "編輯補充：15 分鐘練習",
+        "minutes": 15,
+        "prompt": "選一首歌，挑一句表達，查意思與語氣，關掉音樂說出，再改寫。時間為編輯示意。",
+        "deliverable": "一句有情境的自創句與選歌紀錄",
+        "checklist": [
+          "能解釋意思和語氣",
+          "能不靠旋律說出",
+          "留下隔天及三天後回想的提醒"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "編輯觀點：課堂運用",
+          "text": "學生可以選一句、解釋語氣，再改寫成校園場景互說；這是教學設計，尚未驗證效果。",
+          "sourceIds": [
+            "video"
+          ]
+        }
+      ],
+      "overview": {
+        "image": "/assets/overviews/english-song-personal-phrases-desktop.webp",
+        "mobileImage": "/assets/overviews/english-song-personal-phrases-mobile.webp",
+        "cardImage": "/assets/overviews/english-song-personal-phrases-desktop.webp",
+        "alt": "以澄陪你聽英文歌、選句子、查意思，再改成自己的話。",
+        "caption": "選歌與回想檢查以文章整理為準，練習示例為編輯設計。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      },
+      "publishedAt": "2026-10-29T03:28:32+08:00"
+    },
+    {
+      "id": "ai-math-concrete-to-symbol",
+      "title": "用 AI 幫數學課拆步驟：從操作到圖像與符號",
+      "summary": "先提供年級、目標與題目，請 AI 提議操作、圖像和符號活動，再由教師核對及調整。",
+      "categoryId": "ai",
+      "topicIds": [
+        "workflow"
+      ],
+      "audience": "想用 AI 協助設計數學學習活動的教師",
+      "output": "一份經教師核對的三層數學活動草稿",
+      "minutes": 20,
+      "level": "入門",
+      "status": "ready",
+      "contentType": "video_method",
+      "reviewedAt": "2026-10-28",
+      "coverLabel": "AI 備課 · 數學探究",
+      "sourceCoverage": "指定 Notion 頁收錄的影片 MP3 以 Whisper tiny 轉錄全片，再以 base 轉錄 63:00–66:10；兩份機器字幕均可辨講者提供年級與目標、從具體操作到圖像及抽象符號設計、教師核對 AI 回覆。字幕有誤字，未人工聽校或觀看畫面；等值分數示例、提示詞及完成判準為編輯設計。",
+      "sources": [
+        {
+          "id": "original",
+          "title": "放數學一馬：與 Gemini 馳騁數學教學創意",
+          "kind": "video",
+          "url": "https://www.youtube.com/watch?v=0FeTTrO6Fxg",
+          "channel": "謙懿科技",
+          "videoId": "0FeTTrO6Fxg"
+        }
+      ],
+      "steps": [
+        {
+          "id": "goal",
+          "title": "說明年級與目標",
+          "action": "先寫明年級、要理解的概念及希望學生能做到的事情。",
+          "why": "影片示範向 AI 提供年級與教學活動目標。",
+          "example": "編輯示範：學生用操作及圖像說明 2/4 和 1/2 的關係。",
+          "check": "目標是可觀察的學生行動。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 3813,
+              "endSeconds": 3833
+            }
+          ]
+        },
+        {
+          "id": "problem",
+          "title": "提供題目或情境",
+          "action": "提供可使用且不含個資的題目或自編情境，請 AI 先列可能的學習目標與需確認的條件。",
+          "why": "影片示範以題目圖片或活動目標作為備課輸入。",
+          "example": "編輯示範：提供一張自製的長方形分數題，移除姓名與班級。",
+          "check": "題目與使用權清楚，不包含個人資料。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 3833,
+              "endSeconds": 3854
+            }
+          ]
+        },
+        {
+          "id": "design",
+          "title": "設計操作、圖像與符號",
+          "action": "請 AI 各提出一項實物操作、圖像表示及符號表達活動，並附教師提問。",
+          "why": "講者描述具體操作、圖像表徵及抽象符號，並重視提問與學生動手。",
+          "example": "編輯示範：折紙表示四等分取兩份，再畫圖並寫 2/4 = 1/2。",
+          "check": "三種表示對應同一個概念，學生有操作與說明的機會。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 3925,
+              "endSeconds": 3969
+            }
+          ]
+        },
+        {
+          "id": "check",
+          "title": "教師核對並調整",
+          "action": "逐項檢查數學正確性、圖片與操作是否一致、時間及學生先備知識，再修改草稿。",
+          "why": "講者提醒教師需要嚴謹檢視 AI 的回覆。",
+          "example": "編輯示範：確認圖形的四等分面積相等，兩份面積確實是整體的一半。",
+          "check": "教師能說明各步依據，並記下需修正的地方。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 3902,
+              "endSeconds": 3912
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "AI 協助數學備課",
+          "note": "活動示例與提示詞為編輯設計。",
+          "nodes": [
+            {
+              "id": "goal",
+              "label": "說明目標",
+              "detail": "年級和學生行動"
+            },
+            {
+              "id": "problem",
+              "label": "提供題目",
+              "detail": "去除個資與不明授權"
+            },
+            {
+              "id": "design",
+              "label": "設計活動",
+              "detail": "操作、圖像、符號"
+            },
+            {
+              "id": "check",
+              "label": "教師核對",
+              "detail": "數學、材料與教學"
+            }
+          ],
+          "edges": [
+            {
+              "from": "goal",
+              "to": "problem"
+            },
+            {
+              "from": "problem",
+              "to": "design"
+            },
+            {
+              "from": "design",
+              "to": "check"
+            }
+          ]
+        },
+        {
+          "type": "schedule",
+          "title": "編輯補充：練習安排",
+          "note": "依課堂與學生需要調整。",
+          "columns": [
+            "行動",
+            "完成判準"
+          ],
+          "rows": [
+            {
+              "label": "說明年級與目標",
+              "cells": [
+                "先寫明年級、要理解的概念及希望學生能做到的事情。",
+                "目標是可觀察的學生行動。"
+              ]
+            },
+            {
+              "label": "提供題目或情境",
+              "cells": [
+                "提供可使用且不含個資的題目或自編情境，請 AI 先列可能的學習目標與需確認的條件。",
+                "題目與使用權清楚，不包含個人資料。"
+              ]
+            },
+            {
+              "label": "設計操作、圖像與符號",
+              "cells": [
+                "請 AI 各提出一項實物操作、圖像表示及符號表達活動，並附教師提問。",
+                "三種表示對應同一個概念，學生有操作與說明的機會。"
+              ]
+            },
+            {
+              "label": "教師核對並調整",
+              "cells": [
+                "逐項檢查數學正確性、圖片與操作是否一致、時間及學生先備知識，再修改草稿。",
+                "教師能說明各步依據，並記下需修正的地方。"
+              ]
+            }
+          ]
+        }
+      ],
+      "practice": {
+        "title": "編輯練習：設計一題三層活動",
+        "minutes": 20,
+        "prompt": "選一個已確認正確的數學概念，提供年級、目標與題目，請 AI 提議操作、圖像及符號活動，再由教師核對。",
+        "deliverable": "一份教師已核對的三層活動草稿",
+        "checklist": [
+          "目標有學生可觀察的行動。",
+          "不輸入個資或未獲授權的材料。",
+          "操作、圖像與符號指向相同概念。",
+          "教師核對正確性與適切性。"
+        ]
+      },
+      "pitfalls": [
+        "把 AI 產出的算式或圖像直接當成正確教材。",
+        "只讓學生看操作示範，沒有時間親自操作與解釋。",
+        "輸入含學生個資的作業圖片或資料。"
+      ],
+      "supplements": [
+        {
+          "title": "編輯示範：備課提示",
+          "text": "我是〔年級〕教師，目標是〔學生能做到的事〕。請根據這道自製題目〔題目〕提出具體操作、圖像表示、符號表達各一項，以及教師可問的問題。標出需要教師確認的假設。",
+          "sourceIds": [
+            "original"
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "AI 產出的數學活動一定正確且有效",
+          "status": "unverified",
+          "explanation": "影片示範備課流程；AI 回覆與本文練習未經課堂實測，教師須核對數學與教學適切性。",
+          "sourceIds": [
+            "original"
+          ],
+          "checkedAt": "2026-10-29"
+        }
+      ],
+      "keywords": [
+        "數學",
+        "AI備課",
+        "具體操作",
+        "教學設計"
+      ],
+      "overview": {
+        "image": "/assets/overviews/ai-math-concrete-to-symbol-desktop.webp",
+        "mobileImage": "/assets/overviews/ai-math-concrete-to-symbol-mobile.webp",
+        "cardImage": "/assets/overviews/ai-math-concrete-to-symbol-desktop.webp",
+        "alt": "以澄協助教師規劃數學課的操作、圖像和符號活動。",
+        "caption": "活動示例為編輯設計，教師需核對內容。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      },
+      "publishedAt": "2026-10-29T03:28:32+08:00"
     }
   ],
   "demo": {
