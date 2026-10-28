@@ -113044,6 +113044,470 @@
         "mobileHeight": 1600
       },
       "publishedAt": "2026-10-29T05:34:26+08:00"
+    },
+    {
+      "id": "news-retell-check",
+      "title": "讀一則新聞，再用自己的話說給別人聽",
+      "summary": "讀完一則短新聞，先用自己的話說明，再回原文核對並留下一個問題。",
+      "categoryId": "reading",
+      "topicIds": [
+        "strategies",
+        "teaching"
+      ],
+      "audience": "想練習閱讀與合作學習的教師和學習者",
+      "output": "口述、一次核對及一個待查問題",
+      "minutes": 20,
+      "level": "入門",
+      "status": "ready",
+      "contentType": "article_method",
+      "reviewedAt": "2026-10-29",
+      "coverLabel": "閱讀與學習 · 實作練習",
+      "sourceCoverage": "指定 Notion Podcast 以 Whisper tiny 轉錄全片，並以 base 補轉約 02:35–03:00；尚未逐句人工聽校。節目約 02:44–02:52 提及高希均少年時讀報後向父親口述新聞，是一段個人經驗；本文的四步、核對與課堂活動均為編輯延伸。",
+      "sources": [
+        {
+          "id": "original",
+          "title": "EP.649《高希均回憶錄》看一張單程機票如何點亮台灣的閱讀之光",
+          "kind": "article",
+          "url": "https://open.firstory.me/story/cmtwkf1nh0ext01tpb5gh3h53",
+          "channel": "下一本讀什麼",
+          "note": "Podcast 單集；約 02:44–02:52 談少年時讀報並口述新聞。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "選一則短新聞",
+          "action": "選一篇與學習主題相關的短報導，記下來源和日期。",
+          "why": "節目提及少年時閱讀報紙；選材方式為編輯補充。",
+          "example": "編輯示範：選一則與校園環境相關的報導。",
+          "check": "能指出報導來源與日期。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "用自己的話說",
+          "action": "讀完後暫時遮住文章，說出發生什麼事與涉及的人；不確定的地方明說。",
+          "why": "節目提到向父親口述新聞；遮住文章與提問為編輯延伸。",
+          "example": "編輯示範：向同伴說明一件報導中的事件。",
+          "check": "至少說出事件，並標示不確定之處。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "回原文核對",
+          "action": "打開原文，比對人名、時間、地點和事件，修正漏掉或說錯的地方。",
+          "why": "逐項核對為編輯補充。",
+          "example": "編輯示範：重新確認事件發生的時間。",
+          "check": "記下一處修正，或說明核對後無需更改。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "留下一個問題",
+          "action": "提出讀後還想知道的問題；原文沒有答案就記為待查。",
+          "why": "後續提問及查證為編輯延伸。",
+          "example": "編輯示範：「這件事影響了誰？」",
+          "check": "不把沒有來源支持的猜測當成事實。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "編輯整理：練習流程",
+          "note": "範例與練習安排為編輯延伸。",
+          "nodes": [
+            {
+              "id": "step-1",
+              "label": "選一則短新聞",
+              "detail": "選一篇與學習主題相關的短報導，記下來源和日期。"
+            },
+            {
+              "id": "step-2",
+              "label": "用自己的話說",
+              "detail": "讀完後暫時遮住文章，說出發生什麼事與涉及的人；不確定的地方明說。"
+            },
+            {
+              "id": "step-3",
+              "label": "回原文核對",
+              "detail": "打開原文，比對人名、時間、地點和事件，修正漏掉或說錯的地方。"
+            },
+            {
+              "id": "step-4",
+              "label": "留下一個問題",
+              "detail": "提出讀後還想知道的問題；原文沒有答案就記為待查。"
+            }
+          ],
+          "edges": [
+            {
+              "from": "step-1",
+              "to": "step-2"
+            },
+            {
+              "from": "step-2",
+              "to": "step-3"
+            },
+            {
+              "from": "step-3",
+              "to": "step-4"
+            }
+          ]
+        },
+        {
+          "type": "schedule",
+          "title": "編輯補充：行動檢查表",
+          "note": "依實際程度調整練習方式。",
+          "columns": [
+            "行動",
+            "完成判準"
+          ],
+          "rows": [
+            {
+              "label": "選一則短新聞",
+              "cells": [
+                "選一篇與學習主題相關的短報導，記下來源和日期。",
+                "能指出報導來源與日期。"
+              ]
+            },
+            {
+              "label": "用自己的話說",
+              "cells": [
+                "讀完後暫時遮住文章，說出發生什麼事與涉及的人；不確定的地方明說。",
+                "至少說出事件，並標示不確定之處。"
+              ]
+            },
+            {
+              "label": "回原文核對",
+              "cells": [
+                "打開原文，比對人名、時間、地點和事件，修正漏掉或說錯的地方。",
+                "記下一處修正，或說明核對後無需更改。"
+              ]
+            },
+            {
+              "label": "留下一個問題",
+              "cells": [
+                "提出讀後還想知道的問題；原文沒有答案就記為待查。",
+                "不把沒有來源支持的猜測當成事實。"
+              ]
+            }
+          ]
+        }
+      ],
+      "practice": {
+        "title": "編輯練習：說一則短新聞",
+        "minutes": 20,
+        "prompt": "兩人各讀一則短新聞，輪流用自己的話說明；回原文核對，再留下各自的問題。",
+        "deliverable": "口述、一次核對及一個待查問題",
+        "checklist": [
+          "記下新聞出處。",
+          "先用自己的話說明。",
+          "回原文核對細節。",
+          "無法確認的內容標為待查。"
+        ]
+      },
+      "pitfalls": [
+        "只靠標題猜測新聞內容。",
+        "把原文沒有說的細節當成事實。",
+        "只追求說得流暢，沒有核對內容。"
+      ],
+      "supplements": [
+        {
+          "title": "編輯提示",
+          "text": "依學習者的程度調整材料與時間，必要時尋求教師或同伴協助。",
+          "sourceIds": [
+            "original"
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "口述一次新聞就一定能提升閱讀能力",
+          "status": "unverified",
+          "explanation": "來源提供經驗與做法，並不足以保證單次練習的成效。",
+          "sourceIds": [
+            "original"
+          ],
+          "checkedAt": "2026-10-29"
+        }
+      ],
+      "keywords": [
+        "新聞閱讀",
+        "口述",
+        "原文核對"
+      ],
+      "overview": {
+        "image": "/assets/overviews/news-retell-desktop.webp",
+        "mobileImage": "/assets/overviews/news-retell-mobile.webp",
+        "cardImage": "/assets/overviews/news-retell-desktop.webp",
+        "alt": "方法練習室的夥伴一起閱讀並練習。",
+        "caption": "練習流程與示例為編輯延伸。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      },
+      "publishedAt": "2026-10-29T05:39:20+08:00"
+    },
+    {
+      "id": "peer-task-compare-approaches",
+      "title": "和不同夥伴一起解題：先想，再比較做法",
+      "summary": "選一個共同問題，先各自嘗試，再與不同經驗的夥伴比較做法並修正。",
+      "categoryId": "reading",
+      "topicIds": [
+        "strategies",
+        "teaching"
+      ],
+      "audience": "想練習閱讀與合作學習的教師和學習者",
+      "output": "兩個做法、一個試做結果與修正理由",
+      "minutes": 20,
+      "level": "入門",
+      "status": "ready",
+      "contentType": "article_method",
+      "reviewedAt": "2026-10-29",
+      "coverLabel": "閱讀與學習 · 實作練習",
+      "sourceCoverage": "指定 Notion Podcast 以 Whisper tiny 轉錄全片，並以 base 補轉約 57:30–1:01:10；尚未逐句人工聽校。講者分享 School 42 提供題目與材料、強調自學及與不同夥伴共學；比較卡、操作步驟與練習示例為編輯延伸。",
+      "sources": [
+        {
+          "id": "original",
+          "title": "EP312. 源自法國分佈全球的 School 42，是 AI 時代人才教育解方？",
+          "kind": "article",
+          "url": "https://open.firstory.fm/story/cmuo1rk0909w401wb7sz0e5do",
+          "channel": "數位時代 Business Next",
+          "note": "Podcast 單集；約 57:30–1:01:10 談題目、自學與不同夥伴共學。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "選一個共同問題",
+          "action": "選一個雙方都願意處理的小問題，確認可用材料與預期成果。",
+          "why": "講者分享學校給題目與材料，讓學習者嘗試解決。",
+          "example": "編輯示範：一起想辦法整理一份讀書進度表。",
+          "check": "兩人能說出同一個問題與要完成的成果。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "先各自想一想",
+          "action": "先獨立寫下可能做法或卡住的地方，再和夥伴交換。",
+          "why": "各自先想的安排為編輯延伸，避免直接照抄。",
+          "example": "編輯示範：每人先寫一個安排讀書時間的方式。",
+          "check": "每人至少留下自己的想法或問題。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "和夥伴一起試做",
+          "action": "分享想法並選一個小步驟一起試，過程中說明各自的理由。",
+          "why": "講者提到與不同夥伴一起解決題目；試做安排為編輯補充。",
+          "example": "編輯示範：先用其中一種方式排出一天。",
+          "check": "留下試做結果和遇到的困難。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "比較做法並修正",
+          "action": "比較不同方法適合的情境，記下想採用或調整的地方。",
+          "why": "比較表與修正步驟為編輯延伸。",
+          "example": "編輯示範：發現某時段無法執行，重新安排。",
+          "check": "能說明至少一個保留或調整的理由。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "編輯整理：練習流程",
+          "note": "範例與練習安排為編輯延伸。",
+          "nodes": [
+            {
+              "id": "step-1",
+              "label": "選一個共同問題",
+              "detail": "選一個雙方都願意處理的小問題，確認可用材料與預期成果。"
+            },
+            {
+              "id": "step-2",
+              "label": "先各自想一想",
+              "detail": "先獨立寫下可能做法或卡住的地方，再和夥伴交換。"
+            },
+            {
+              "id": "step-3",
+              "label": "和夥伴一起試做",
+              "detail": "分享想法並選一個小步驟一起試，過程中說明各自的理由。"
+            },
+            {
+              "id": "step-4",
+              "label": "比較做法並修正",
+              "detail": "比較不同方法適合的情境，記下想採用或調整的地方。"
+            }
+          ],
+          "edges": [
+            {
+              "from": "step-1",
+              "to": "step-2"
+            },
+            {
+              "from": "step-2",
+              "to": "step-3"
+            },
+            {
+              "from": "step-3",
+              "to": "step-4"
+            }
+          ]
+        },
+        {
+          "type": "schedule",
+          "title": "編輯補充：行動檢查表",
+          "note": "依實際程度調整練習方式。",
+          "columns": [
+            "行動",
+            "完成判準"
+          ],
+          "rows": [
+            {
+              "label": "選一個共同問題",
+              "cells": [
+                "選一個雙方都願意處理的小問題，確認可用材料與預期成果。",
+                "兩人能說出同一個問題與要完成的成果。"
+              ]
+            },
+            {
+              "label": "先各自想一想",
+              "cells": [
+                "先獨立寫下可能做法或卡住的地方，再和夥伴交換。",
+                "每人至少留下自己的想法或問題。"
+              ]
+            },
+            {
+              "label": "和夥伴一起試做",
+              "cells": [
+                "分享想法並選一個小步驟一起試，過程中說明各自的理由。",
+                "留下試做結果和遇到的困難。"
+              ]
+            },
+            {
+              "label": "比較做法並修正",
+              "cells": [
+                "比較不同方法適合的情境，記下想採用或調整的地方。",
+                "能說明至少一個保留或調整的理由。"
+              ]
+            }
+          ]
+        }
+      ],
+      "practice": {
+        "title": "編輯練習：一起試一個小問題",
+        "minutes": 20,
+        "prompt": "找一位夥伴選一個共同的小問題，各自提出做法，再一起試做並記下調整。",
+        "deliverable": "兩個做法、一個試做結果與修正理由",
+        "checklist": [
+          "雙方理解共同問題。",
+          "每人先留下想法。",
+          "一起試做一小步。",
+          "比較後記錄調整理由。"
+        ]
+      },
+      "pitfalls": [
+        "一方直接代做，另一方沒有參與。",
+        "把夥伴的背景當成固定能力的判斷。",
+        "只討論，沒有留下可檢查的嘗試。"
+      ],
+      "supplements": [
+        {
+          "title": "編輯提示",
+          "text": "依學習者的程度調整材料與時間，必要時尋求教師或同伴協助。",
+          "sourceIds": [
+            "original"
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "只要找不同夥伴共學，就一定能解決所有問題",
+          "status": "unverified",
+          "explanation": "來源提供經驗與做法，並不足以保證單次練習的成效。",
+          "sourceIds": [
+            "original"
+          ],
+          "checkedAt": "2026-10-29"
+        }
+      ],
+      "keywords": [
+        "共學",
+        "合作解題",
+        "比較方法"
+      ],
+      "overview": {
+        "image": "/assets/overviews/peer-task-desktop.webp",
+        "mobileImage": "/assets/overviews/peer-task-mobile.webp",
+        "cardImage": "/assets/overviews/peer-task-desktop.webp",
+        "alt": "方法練習室的夥伴一起閱讀並練習。",
+        "caption": "練習流程與示例為編輯延伸。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      },
+      "publishedAt": "2026-10-29T05:39:20+08:00"
     }
   ],
   "demo": {
