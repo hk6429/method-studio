@@ -110706,6 +110706,239 @@
         "mobileHeight": 1600
       },
       "publishedAt": "2026-10-29T04:35:13+08:00"
+    },
+    {
+      "id": "classical-dialogue-fact-imagination",
+      "title": "古文角色會怎麼說話？先分清原文與想像",
+      "summary": "先找原文的人物與行動，再寫一小段想像對話，朗讀後回到原文核對。",
+      "categoryId": "reading",
+      "topicIds": [
+        "strategies",
+        "teaching"
+      ],
+      "audience": "想陪學生讀古文、練習改寫與表達的教師和學習者",
+      "output": "一張原文線索與想像對話對照卡",
+      "minutes": 20,
+      "level": "入門",
+      "status": "ready",
+      "contentType": "article_method",
+      "reviewedAt": "2026-10-29",
+      "coverLabel": "古文閱讀 · 對話改寫",
+      "sourceCoverage": "指定 Notion 頁的 Podcast 音訊以 Whisper tiny 轉錄全段，並以 base 補轉 23:45–25:35；字幕有錯字，尚未逐句人工聽校。講者描述先研究原文與人物、想像對話並朗讀修改；區分史實與想像的對照卡、練習及示例為編輯設計。",
+      "sources": [
+        {
+          "id": "original",
+          "title": "AI 時代孩子為何還要學古文？高詩佳老師訪談",
+          "kind": "article",
+          "url": "https://open.firstory.fm/story/cmumdrcld01gq01w13ns4fnru",
+          "channel": "翻轉教育 Podcast",
+          "note": "Podcast 單集；音訊轉寫節錄 23:45–25:35。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "讀原文，找人物與行動",
+          "action": "讀一小段原文及可靠註解，記下出現了誰、做了什麼、原文有哪些語句。",
+          "why": "講者分享改寫前先研究文本與人物。",
+          "example": "編輯示範：在課文旁列出人物及原文明寫的行動。",
+          "check": "每一項原文記載都能指出對應文字。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "分開記載與留白",
+          "action": "把原文已寫的事和自己仍不知道的部分分開；沒有寫出的話，不當成歷史事實。",
+          "why": "講者提到原文有時沒有對話，後續需靠想像補寫。",
+          "example": "編輯示範：原文有記一個行動，但沒有寫旁人怎麼回應，就標為留白。",
+          "check": "不把推測或補寫放進原文記載欄。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "寫一小段想像對話",
+          "action": "依已知人物與情境，試寫一兩句可能的對話，並清楚標示為自己想像。",
+          "why": "講者分享依生活經驗想像人物間的對話；本文的標示方式是編輯補充。",
+          "example": "編輯示範：寫「假想對話」兩句，讓人物對眼前事情提出不同看法。",
+          "check": "讀者能辨識哪些是原文，哪些是改寫者想像。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "朗讀後回到原文",
+          "action": "朗讀對話，檢查是否順暢；再對照原文，修正與已知內容矛盾之處。",
+          "why": "講者分享寫完後朗讀檢查是否通順；原文核對為編輯延伸。",
+          "example": "編輯示範：念給同伴聽，再用原文句子確認人物實際做了什麼。",
+          "check": "完成一處修正，或說明哪些內容仍無法確認。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "編輯整理：原文與想像",
+          "note": "想像對話需明示，不能當成史實。",
+          "nodes": [
+            {
+              "id": "step-1",
+              "label": "讀原文，找人物與行動",
+              "detail": "讀一小段原文及可靠註解，記下出現了誰、做了什麼、原文有哪些語句。"
+            },
+            {
+              "id": "step-2",
+              "label": "分開記載與留白",
+              "detail": "把原文已寫的事和自己仍不知道的部分分開；沒有寫出的話，不當成歷史事實。"
+            },
+            {
+              "id": "step-3",
+              "label": "寫一小段想像對話",
+              "detail": "依已知人物與情境，試寫一兩句可能的對話，並清楚標示為自己想像。"
+            },
+            {
+              "id": "step-4",
+              "label": "朗讀後回到原文",
+              "detail": "朗讀對話，檢查是否順暢；再對照原文，修正與已知內容矛盾之處。"
+            }
+          ],
+          "edges": [
+            {
+              "from": "step-1",
+              "to": "step-2"
+            },
+            {
+              "from": "step-2",
+              "to": "step-3"
+            },
+            {
+              "from": "step-3",
+              "to": "step-4"
+            }
+          ]
+        },
+        {
+          "type": "schedule",
+          "title": "編輯補充：改寫檢查表",
+          "note": "原文核對及對照欄位為編輯延伸。",
+          "columns": [
+            "行動",
+            "完成判準"
+          ],
+          "rows": [
+            {
+              "label": "讀原文，找人物與行動",
+              "cells": [
+                "讀一小段原文及可靠註解，記下出現了誰、做了什麼、原文有哪些語句。",
+                "每一項原文記載都能指出對應文字。"
+              ]
+            },
+            {
+              "label": "分開記載與留白",
+              "cells": [
+                "把原文已寫的事和自己仍不知道的部分分開；沒有寫出的話，不當成歷史事實。",
+                "不把推測或補寫放進原文記載欄。"
+              ]
+            },
+            {
+              "label": "寫一小段想像對話",
+              "cells": [
+                "依已知人物與情境，試寫一兩句可能的對話，並清楚標示為自己想像。",
+                "讀者能辨識哪些是原文，哪些是改寫者想像。"
+              ]
+            },
+            {
+              "label": "朗讀後回到原文",
+              "cells": [
+                "朗讀對話，檢查是否順暢；再對照原文，修正與已知內容矛盾之處。",
+                "完成一處修正，或說明哪些內容仍無法確認。"
+              ]
+            }
+          ]
+        }
+      ],
+      "practice": {
+        "title": "編輯練習：寫兩句假想對話",
+        "minutes": 20,
+        "prompt": "選一段適合自己程度的古文，記下人物與原文行動；在清楚標示想像的前提下寫兩句對話，朗讀後回原文核對。",
+        "deliverable": "原文線索、兩句想像對話與一次核對紀錄",
+        "checklist": [
+          "人物與行動可回指原文。",
+          "空白和推測有清楚標記。",
+          "想像對話不冒充原文或史實。",
+          "朗讀後回到原文核對。"
+        ]
+      },
+      "pitfalls": [
+        "把自己寫的對話誤當作古人真的說過的話。",
+        "依現在的情緒或習慣斷言人物一定這樣想。",
+        "為了戲劇效果改掉原文確定記載的行動，卻沒有標示改寫。"
+      ],
+      "supplements": [
+        {
+          "title": "編輯提示：允許多種改寫",
+          "text": "同一段原文可以有不同的想像對話；只要標示想像並尊重原文線索，就可以比較各自的寫法與理由。",
+          "sourceIds": [
+            "original"
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "想像對話一定能還原古人的真實感受",
+          "status": "unverified",
+          "explanation": "改寫是閱讀與創作練習；沒有原文或其他資料支持的對話與感受，不能視為史實。",
+          "sourceIds": [
+            "original"
+          ],
+          "checkedAt": "2026-10-29"
+        }
+      ],
+      "keywords": [
+        "古文閱讀",
+        "人物改寫",
+        "對話想像",
+        "文本證據"
+      ],
+      "overview": {
+        "image": "/assets/overviews/classical-dialogue-fact-imagination-desktop.webp",
+        "mobileImage": "/assets/overviews/classical-dialogue-fact-imagination-mobile.webp",
+        "cardImage": "/assets/overviews/classical-dialogue-fact-imagination-desktop.webp",
+        "alt": "小硯與阿問陪讀者以原文線索寫想像對話。",
+        "caption": "想像對話與核對表為編輯整理，不等於歷史事實。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      },
+      "publishedAt": "2026-10-29T04:43:06+08:00"
     }
   ],
   "demo": {
