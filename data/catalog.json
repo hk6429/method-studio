@@ -111173,6 +111173,241 @@
         "mobileHeight": 1600
       },
       "publishedAt": "2026-10-29T04:49:47+08:00"
+    },
+    {
+      "id": "story-clue-option-reason",
+      "title": "讀故事先找線索：比較選項，再說出理由",
+      "summary": "先讀一段短故事，圈出線索，比較不同答案，再說明自己為什麼這樣選。",
+      "categoryId": "reading",
+      "topicIds": [
+        "strategies",
+        "teaching"
+      ],
+      "audience": "想帶學生練習閱讀與推論的教師和學習者",
+      "output": "一張故事線索與選項比較卡",
+      "minutes": 15,
+      "level": "入門",
+      "status": "ready",
+      "contentType": "video_method",
+      "reviewedAt": "2026-10-29",
+      "coverLabel": "閱讀理解 · 線索推理",
+      "sourceCoverage": "指定 Notion 影片以 Whisper tiny 轉錄全段，並以 base 補轉約 1:14:30–1:18:30；尚未逐句人工聽校。影片中主持人以故事線索和選項進行趣味問答並揭曉答案；將活動改成閱讀推理、要求比較理由及以下例題皆為編輯設計。",
+      "sources": [
+        {
+          "id": "original",
+          "title": "T++教育+年華 方方老師 AI Agent 初體驗：製作教學網頁",
+          "kind": "video",
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=8KUCV8YfRwY",
+          "channel": "廣臻科技KJCStech",
+          "videoId": "8KUCV8YfRwY",
+          "note": "約 1:14:30–1:18:30 介紹故事線索與選項；約 1:18:40 後揭曉答案。閱讀教學步驟為編輯延伸。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "讀一段短故事",
+          "action": "選一段有明確事件與細節的短文，先理解人物遇到什麼問題。",
+          "why": "影片以故事情境引出趣味問答。",
+          "example": "編輯例題：走廊地上有水，旁邊放著還在滴水的雨傘。",
+          "check": "能用一句話說出故事中想弄清楚的問題。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "圈出可用線索",
+          "action": "圈出原文直接寫出的細節，和自己猜測的內容分開。",
+          "why": "影片先提供多個情境線索；圈選與區分是編輯補充。",
+          "example": "編輯例題線索：地上有水、雨傘仍在滴水。",
+          "check": "每條線索都能指出原文位置。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "比較可能答案",
+          "action": "列出兩個以上可能答案，逐一檢查是否能解釋線索。",
+          "why": "影片提供多個選項讓參與者選擇；比較方法為編輯補充。",
+          "example": "編輯例題：水可能來自滴水的雨傘，也可能另有原因。",
+          "check": "能說出哪個選項較符合目前線索，並保留不確定性。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "說明理由並回看",
+          "action": "用「我選這個，因為原文提到……」說明，再回到原文核對。",
+          "why": "影片揭曉答案；要求提出理由與回看原文為編輯延伸。",
+          "example": "編輯示範：「我猜雨傘是原因，因為它還在滴水；但還不能排除其他原因。」",
+          "check": "理由能連回線索，並能說出尚未確定的地方。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "編輯整理：線索推理流程",
+          "note": "從影片的小遊戲延伸為閱讀練習。",
+          "nodes": [
+            {
+              "id": "step-1",
+              "label": "讀一段短故事",
+              "detail": "選一段有明確事件與細節的短文，先理解人物遇到什麼問題。"
+            },
+            {
+              "id": "step-2",
+              "label": "圈出可用線索",
+              "detail": "圈出原文直接寫出的細節，和自己猜測的內容分開。"
+            },
+            {
+              "id": "step-3",
+              "label": "比較可能答案",
+              "detail": "列出兩個以上可能答案，逐一檢查是否能解釋線索。"
+            },
+            {
+              "id": "step-4",
+              "label": "說明理由並回看",
+              "detail": "用「我選這個，因為原文提到……」說明，再回到原文核對。"
+            }
+          ],
+          "edges": [
+            {
+              "from": "step-1",
+              "to": "step-2"
+            },
+            {
+              "from": "step-2",
+              "to": "step-3"
+            },
+            {
+              "from": "step-3",
+              "to": "step-4"
+            }
+          ]
+        },
+        {
+          "type": "schedule",
+          "title": "編輯補充：線索與理由檢查",
+          "note": "題目與檢查表為編輯設計。",
+          "columns": [
+            "行動",
+            "完成判準"
+          ],
+          "rows": [
+            {
+              "label": "讀一段短故事",
+              "cells": [
+                "選一段有明確事件與細節的短文，先理解人物遇到什麼問題。",
+                "能用一句話說出故事中想弄清楚的問題。"
+              ]
+            },
+            {
+              "label": "圈出可用線索",
+              "cells": [
+                "圈出原文直接寫出的細節，和自己猜測的內容分開。",
+                "每條線索都能指出原文位置。"
+              ]
+            },
+            {
+              "label": "比較可能答案",
+              "cells": [
+                "列出兩個以上可能答案，逐一檢查是否能解釋線索。",
+                "能說出哪個選項較符合目前線索，並保留不確定性。"
+              ]
+            },
+            {
+              "label": "說明理由並回看",
+              "cells": [
+                "用「我選這個，因為原文提到……」說明，再回到原文核對。",
+                "理由能連回線索，並能說出尚未確定的地方。"
+              ]
+            }
+          ]
+        }
+      ],
+      "practice": {
+        "title": "編輯練習：一段故事，兩個可能",
+        "minutes": 15,
+        "prompt": "讀一段短文，寫出兩個可能答案，畫出支持各答案的原文線索，說明你的選擇與尚不能確定的部分。",
+        "deliverable": "兩個可能答案、一條原文線索與一段理由",
+        "checklist": [
+          "問題與線索可回到原文。",
+          "至少比較兩個可能。",
+          "說明選擇的理由。",
+          "標出尚不能確定的地方。"
+        ]
+      },
+      "pitfalls": [
+        "把自己的猜測寫成故事明確記載的事。",
+        "只公布答案，沒有回到文字找根據。",
+        "線索不足時強迫學生認為只有一種合理推論。"
+      ],
+      "supplements": [
+        {
+          "title": "編輯提示：允許合理的不同答案",
+          "text": "如果短文線索不足以排除其他可能，討論可以停在「較可能」而不是假裝已經確定。",
+          "sourceIds": [
+            "original"
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "只要練一次線索推理，閱讀能力就會提升",
+          "status": "unverified",
+          "explanation": "本文提供一個閱讀活動，不能以單次活動保證學習成效。",
+          "sourceIds": [
+            "original"
+          ],
+          "checkedAt": "2026-10-29"
+        }
+      ],
+      "keywords": [
+        "閱讀推理",
+        "故事線索",
+        "比較選項",
+        "文本證據"
+      ],
+      "overview": {
+        "image": "/assets/overviews/story-clues-desktop.webp",
+        "mobileImage": "/assets/overviews/story-clues-mobile.webp",
+        "cardImage": "/assets/overviews/story-clues-desktop.webp",
+        "alt": "阿問與小硯一起閱讀故事，尋找線索。",
+        "caption": "閱讀活動與雨傘例題為編輯延伸。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      },
+      "publishedAt": "2026-10-29T04:58:04+08:00"
     }
   ],
   "demo": {
