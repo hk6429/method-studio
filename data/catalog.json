@@ -112343,6 +112343,240 @@
         "mobileHeight": 1600
       },
       "publishedAt": "2026-10-29T05:21:54+08:00"
+    },
+    {
+      "id": "class-theme-boardgame-review",
+      "title": "把一個單元變成全班主題棋盤",
+      "summary": "先選課堂單元並核對題目，讓棋盤地圖與事件卡對齊主題，再由全班輪流作答。",
+      "categoryId": "ai",
+      "topicIds": [
+        "workflow"
+      ],
+      "audience": "想用全班共玩的方式複習單元內容的教師",
+      "output": "一份主題棋盤、事件卡及已核對的題目",
+      "minutes": 30,
+      "level": "入門",
+      "status": "ready",
+      "contentType": "video_method",
+      "reviewedAt": "2026-10-29",
+      "coverLabel": "AI 教學 · 主題棋盤",
+      "sourceCoverage": "指定 Notion 影片以 Whisper tiny 轉錄全片，並以 base 補轉約 37:20–41:10；字幕末尾約 11 秒未產出，尚未逐句人工聽校或核對影片畫面。講者示範大螢幕輪流作答、產生同主題地圖與事件卡並保存遊戲進度；學生說理、審題與以下示例為編輯延伸。",
+      "sources": [
+        {
+          "id": "original",
+          "title": "T++教育+年華 張哲剛：請您來點 AI 菜，手把手教您 AI 教學工具",
+          "kind": "video",
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=BmyxHCQSIwg",
+          "channel": "廣臻科技KJCStech",
+          "videoId": "BmyxHCQSIwg",
+          "note": "約 37:20–41:10 示範棋盤作答、進度保存與主題地圖、卡片。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "選單元與分組",
+          "action": "選一個課堂單元，決定由幾組輪流參與，先說明每組如何討論。",
+          "why": "影片示範選玩家人數並依序進行；分組方式為編輯延伸。",
+          "example": "編輯示範：用「校園植物」作主題，讓四組輪流。",
+          "check": "寫出單元、參與組數與輪流方式。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "準備並核對題目",
+          "action": "整理少量題目和答案，對照教材檢查正確性後再放進遊戲。",
+          "why": "影片示範設定題目與生成題庫；審題與題目內容為編輯補充。",
+          "example": "編輯示範：準備三題辨認葉形的問題，逐題核對教材。",
+          "check": "每題有可讀的題目、答案與核對依據。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "對齊地圖與事件卡",
+          "action": "讓棋盤地圖、事件卡和問題圍繞同一個單元，檢查是否相互呼應。",
+          "why": "講者以同一主題生成地圖和事件卡，避免卡片不符主題。",
+          "example": "編輯示範：地圖有葉片觀察站，卡片也以葉形觀察為題。",
+          "check": "每張示範卡都能連回單元主題。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "輪流作答並保存",
+          "action": "先測試一輪；讓學生說出答案理由，教師核對後再繼續，最後保存目前進度。",
+          "why": "影片示範輪流作答及匯出、讀回進度；學生說理與核對為編輯延伸。",
+          "example": "編輯示範：每組先各自思考，再由代表說明一題答案。",
+          "check": "完成一輪，並確認所選工具或紙本紀錄能保存進度。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "編輯整理：主題棋盤準備",
+          "note": "題目必須依教材核對。",
+          "nodes": [
+            {
+              "id": "step-1",
+              "label": "選單元與分組",
+              "detail": "選一個課堂單元，決定由幾組輪流參與，先說明每組如何討論。"
+            },
+            {
+              "id": "step-2",
+              "label": "準備並核對題目",
+              "detail": "整理少量題目和答案，對照教材檢查正確性後再放進遊戲。"
+            },
+            {
+              "id": "step-3",
+              "label": "對齊地圖與事件卡",
+              "detail": "讓棋盤地圖、事件卡和問題圍繞同一個單元，檢查是否相互呼應。"
+            },
+            {
+              "id": "step-4",
+              "label": "輪流作答並保存",
+              "detail": "先測試一輪；讓學生說出答案理由，教師核對後再繼續，最後保存目前進度。"
+            }
+          ],
+          "edges": [
+            {
+              "from": "step-1",
+              "to": "step-2"
+            },
+            {
+              "from": "step-2",
+              "to": "step-3"
+            },
+            {
+              "from": "step-3",
+              "to": "step-4"
+            }
+          ]
+        },
+        {
+          "type": "schedule",
+          "title": "編輯補充：課堂試玩檢查",
+          "note": "用紙本或數位工具時，先實測使用方式。",
+          "columns": [
+            "行動",
+            "完成判準"
+          ],
+          "rows": [
+            {
+              "label": "選單元與分組",
+              "cells": [
+                "選一個課堂單元，決定由幾組輪流參與，先說明每組如何討論。",
+                "寫出單元、參與組數與輪流方式。"
+              ]
+            },
+            {
+              "label": "準備並核對題目",
+              "cells": [
+                "整理少量題目和答案，對照教材檢查正確性後再放進遊戲。",
+                "每題有可讀的題目、答案與核對依據。"
+              ]
+            },
+            {
+              "label": "對齊地圖與事件卡",
+              "cells": [
+                "讓棋盤地圖、事件卡和問題圍繞同一個單元，檢查是否相互呼應。",
+                "每張示範卡都能連回單元主題。"
+              ]
+            },
+            {
+              "label": "輪流作答並保存",
+              "cells": [
+                "先測試一輪；讓學生說出答案理由，教師核對後再繼續，最後保存目前進度。",
+                "完成一輪，並確認所選工具或紙本紀錄能保存進度。"
+              ]
+            }
+          ]
+        }
+      ],
+      "practice": {
+        "title": "編輯練習：一個單元、三道題",
+        "minutes": 30,
+        "prompt": "選一個課堂單元，寫三題並核對答案，設計同主題地圖與事件卡；找同伴試玩一輪並記下需要修改的地方。",
+        "deliverable": "三道已核對的題目、一張地圖及試玩紀錄",
+        "checklist": [
+          "單元和分組方式明確。",
+          "題目與答案有教材依據。",
+          "地圖、事件卡與單元呼應。",
+          "試玩後記錄一處可改進的地方。"
+        ]
+      },
+      "pitfalls": [
+        "把 AI 生成的題目或答案直接當成正確。",
+        "只讓一個代表回答，其他學生沒有思考時間。",
+        "假設不同工具一定能用相同方式儲存進度。"
+      ],
+      "supplements": [
+        {
+          "title": "編輯提示：每人先想再討論",
+          "text": "可先讓每位學生各自思考，再由小組討論與說明理由；所選工具的功能與可用性應自行確認。",
+          "sourceIds": [
+            "original"
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "用棋盤遊戲就一定能提升學生的學習成效",
+          "status": "unverified",
+          "explanation": "影片示範工具操作，沒有提供足以保證課堂學習成效的證據。",
+          "sourceIds": [
+            "original"
+          ],
+          "checkedAt": "2026-10-29"
+        }
+      ],
+      "keywords": [
+        "課堂遊戲",
+        "題庫",
+        "棋盤",
+        "AI 教具"
+      ],
+      "overview": {
+        "image": "/assets/overviews/class-boardgame-desktop.webp",
+        "mobileImage": "/assets/overviews/class-boardgame-mobile.webp",
+        "cardImage": "/assets/overviews/class-boardgame-desktop.webp",
+        "alt": "方法練習室的夥伴一起設計單元主題棋盤。",
+        "caption": "紙本棋盤與示例為編輯延伸，原片示範數位工具。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      },
+      "publishedAt": "2026-10-29T05:26:09+08:00"
     }
   ],
   "demo": {
