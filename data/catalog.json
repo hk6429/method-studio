@@ -109580,6 +109580,240 @@
         "學習紀錄"
       ],
       "publishedAt": "2026-10-29T03:43:50+08:00"
+    },
+    {
+      "id": "samr-writing-task-options",
+      "title": "同一篇作文，工具改變了什麼？用 SAMR 比較教學設計",
+      "summary": "先確定寫作目標，再比較替代、增強、修改與重新設計的做法，選適合學生的一種。",
+      "categoryId": "ai",
+      "topicIds": [
+        "workflow"
+      ],
+      "audience": "想選擇數位工具協助寫作教學的教師",
+      "output": "一份寫作任務與數位工具的比較表",
+      "minutes": 20,
+      "level": "入門",
+      "status": "ready",
+      "contentType": "video_method",
+      "reviewedAt": "2026-10-29",
+      "coverLabel": "教學設計 · SAMR",
+      "sourceCoverage": "指定 Notion 影片 MP3 以 Whisper tiny 轉錄全片，並以 base 補轉 44:15–49:20；字幕有錯字，尚未人工逐句聽校。文章以影片寫作示例整理四種觀察角度，對照表、選擇判準及不必追求最高層級為編輯補充，並非已實測效果。",
+      "sources": [
+        {
+          "id": "original",
+          "title": "AIPACK + SAMR：成為你的教學助力",
+          "kind": "video",
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=mBEO6vbTlF4",
+          "channel": "廣臻科技KJCStech",
+          "videoId": "mBEO6vbTlF4",
+          "note": "講者陳世銘；片名依 Notion 索引節錄。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "先寫下學習目標",
+          "action": "寫出這次作文希望學生做到什麼，以及可以使用的時間與資源。",
+          "why": "先看目標，才比較工具是否有幫助；此判準為編輯整理。",
+          "example": "編輯示範：學生寫一段校園觀察，讓讀者理解一個具體場景。",
+          "check": "目標可從學生作品或說明中觀察。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "比較替代與增強",
+          "action": "比較手寫改打字，與加上語音輸入等輔助功能，看看任務和操作有何不同。",
+          "why": "影片以打字替代手寫、語音輸入幫助寫作說明前兩層。",
+          "example": "編輯示範：需要輸入支持的學生先口述，再回看文字。",
+          "check": "能說明工具提供了哪一項支持，也看見可能的辨識錯誤。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 2665,
+              "endSeconds": 2815
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "比較修改與重新設計",
+          "action": "比較讓學生依追問修稿，與把文字結合聲音、圖片提供讀者的不同任務。",
+          "why": "影片以 AI 追問補充寫作及多媒體作品分享說明不同任務。",
+          "example": "編輯示範：學生選一段自己願意修改的描寫，依提問補充觀察，再決定是否製作含聲音的作品。",
+          "check": "能指出學生新增的行動，而不只列出使用了什麼工具。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 2815,
+              "endSeconds": 2958
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "依目標與條件選一種",
+          "action": "選擇有助本次目標的做法，準備不使用工具的替代方式，完成後收集學生作品與回饋。",
+          "why": "SAMR 可協助比較任務變化；不必每次追求最複雜的形式，這是編輯判斷。",
+          "example": "編輯示範：若本次重點是描寫，先讓學生選手寫、打字或口述，再由教師看作品。",
+          "check": "選擇能說明理由，且保留學生修改與教師核對。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "編輯整理：比較後再選擇",
+          "note": "四層是觀察角度，不必全部完成。",
+          "nodes": [
+            {
+              "id": "step-1",
+              "label": "先寫下學習目標",
+              "detail": "寫出這次作文希望學生做到什麼，以及可以使用的時間與資源。"
+            },
+            {
+              "id": "step-2",
+              "label": "比較替代與增強",
+              "detail": "比較手寫改打字，與加上語音輸入等輔助功能，看看任務和操作有何不同。"
+            },
+            {
+              "id": "step-3",
+              "label": "比較修改與重新設計",
+              "detail": "比較讓學生依追問修稿，與把文字結合聲音、圖片提供讀者的不同任務。"
+            },
+            {
+              "id": "step-4",
+              "label": "依目標與條件選一種",
+              "detail": "選擇有助本次目標的做法，準備不使用工具的替代方式，完成後收集學生作品與回饋。"
+            }
+          ],
+          "edges": [
+            {
+              "from": "step-1",
+              "to": "step-2"
+            },
+            {
+              "from": "step-2",
+              "to": "step-3"
+            },
+            {
+              "from": "step-3",
+              "to": "step-4"
+            }
+          ]
+        },
+        {
+          "type": "schedule",
+          "title": "編輯補充：設計檢查表",
+          "note": "依教學目標、設備與學生需要調整。",
+          "columns": [
+            "行動",
+            "完成判準"
+          ],
+          "rows": [
+            {
+              "label": "先寫下學習目標",
+              "cells": [
+                "寫出這次作文希望學生做到什麼，以及可以使用的時間與資源。",
+                "目標可從學生作品或說明中觀察。"
+              ]
+            },
+            {
+              "label": "比較替代與增強",
+              "cells": [
+                "比較手寫改打字，與加上語音輸入等輔助功能，看看任務和操作有何不同。",
+                "能說明工具提供了哪一項支持，也看見可能的辨識錯誤。"
+              ]
+            },
+            {
+              "label": "比較修改與重新設計",
+              "cells": [
+                "比較讓學生依追問修稿，與把文字結合聲音、圖片提供讀者的不同任務。",
+                "能指出學生新增的行動，而不只列出使用了什麼工具。"
+              ]
+            },
+            {
+              "label": "依目標與條件選一種",
+              "cells": [
+                "選擇有助本次目標的做法，準備不使用工具的替代方式，完成後收集學生作品與回饋。",
+                "選擇能說明理由，且保留學生修改與教師核對。"
+              ]
+            }
+          ]
+        }
+      ],
+      "practice": {
+        "title": "編輯練習：比較一個寫作任務",
+        "minutes": 20,
+        "prompt": "挑一個寫作目標，分別想想手寫、打字或語音輸入、追問修稿，以及多媒體分享會改變哪些學生行動；選一種可執行的設計。",
+        "deliverable": "一份比較表與有理由的教學選擇",
+        "checklist": [
+          "目標與學生行動清楚。",
+          "能區分工具功能與任務變化。",
+          "保留學生的選擇與修稿機會。",
+          "教師核對內容、授權與分享範圍。"
+        ]
+      },
+      "pitfalls": [
+        "把層級高低當成教學品質的唯一指標。",
+        "把學生作品或個資直接交給工具，未確認使用規範與授權。",
+        "把語音辨識與 AI 產出直接當成正確文字，沒有回看。"
+      ],
+      "supplements": [
+        {
+          "title": "編輯提示：先問學生需要什麼",
+          "text": "同一個目標可以有不同工具選擇。先詢問學生是否需要輸入支持，並準備不用特定服務也能完成的方式。",
+          "sourceIds": [
+            "original"
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "使用較高層級的數位工具一定有更好的學習效果",
+          "status": "unverified",
+          "explanation": "影片用寫作示例說明設計可能性；本文未比較各做法的學習成效。",
+          "sourceIds": [
+            "original"
+          ],
+          "checkedAt": "2026-10-29"
+        }
+      ],
+      "keywords": [
+        "SAMR",
+        "作文教學",
+        "教學設計",
+        "數位工具"
+      ],
+      "overview": {
+        "image": "/assets/overviews/samr-writing-task-options-desktop.webp",
+        "mobileImage": "/assets/overviews/samr-writing-task-options-mobile.webp",
+        "cardImage": "/assets/overviews/samr-writing-task-options-desktop.webp",
+        "alt": "以澄協助比較同一篇作文運用數位工具的四種方式。",
+        "caption": "示例為編輯整理，應依目標和學生需求選擇。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      },
+      "publishedAt": "2026-10-29T03:58:33+08:00"
     }
   ],
   "demo": {
