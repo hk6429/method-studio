@@ -106007,6 +106007,687 @@
         }
       ],
       "publishedAt": "2026-10-29T02:31:05+08:00"
+    },
+    {
+      "id": "weekly-learning-journal-reflection",
+      "title": "用一週學習日誌，找出下一步怎麼調整",
+      "summary": "記下練習與卡點，一週後回顧，再由學習者選擇下一個小調整。",
+      "categoryId": "reading",
+      "topicIds": [
+        "learning"
+      ],
+      "level": "入門",
+      "minutes": 15,
+      "output": "一週練習記錄及學習者選定的下一步",
+      "audience": "想調整學習方法的學生與陪伴者",
+      "status": "ready",
+      "contentType": "video_method",
+      "reviewedAt": "2026-10-29",
+      "sourceCoverage": "YouTube 繁中字幕 48:46–50:32 與該片段 Whisper tiny 轉錄重點一致；未人工聽驗或核對原書。講者談彈性堅持、日記與提問，一週、三行及步驟為編輯設計。",
+      "coverLabel": "方法練習",
+      "sources": [
+        {
+          "id": "original",
+          "title": "12 歲起，養出名校要的真本事導讀",
+          "url": "https://www.youtube.com/watch?v=QkTFaMKhosg",
+          "kind": "video",
+          "channel": "閱讀人",
+          "videoId": "QkTFaMKhosg"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "選一項可重複的練習",
+          "action": "選一項想觀察的學習任務，範圍縮小到能重複嘗試。",
+          "why": "練習內容與一週安排是編輯設計。",
+          "example": "編輯示範：這週每天讀一小段英文。",
+          "check": "任務具體，知道自己要記錄什麼。",
+          "contribution": "editorial",
+          "sourceRefs": []
+        },
+        {
+          "id": "step-2",
+          "title": "每天記下行動與卡點",
+          "action": "以三行記下做了什麼、遇到什麼、下次想調整什麼。",
+          "why": "影片談寫日記累積經驗；三行格式為編輯設計。",
+          "example": "編輯示範：讀一段時遇到三個生字，下次先從上下文猜意思。",
+          "check": "記下實際行動及至少一個觀察。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 2979,
+              "endSeconds": 2992
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "一週後回看",
+          "action": "找出曾有幫助的做法和反覆出現的困難，不只計算完成天數。",
+          "why": "回顧方式與週期是編輯設計。",
+          "example": "編輯示範：比較哪次能說出段落大意，哪次在生字處卡住。",
+          "check": "指出一項可保留或調整的做法。",
+          "contribution": "editorial",
+          "sourceRefs": []
+        },
+        {
+          "id": "step-4",
+          "title": "提問並選下一步",
+          "action": "詢問學習者想再試什麼，讓他選一項小調整，約定下次回顧。",
+          "why": "影片談對孩子提問及堅持時保持彈性；具體流程為編輯設計。",
+          "example": "編輯示範：問「你想先換材料，還是調整練習方式？」",
+          "check": "下一步由學習者選定且具體可做。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 3006,
+              "endSeconds": 3032
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "編輯補充：操作流程",
+          "note": "依來源觀念設計的流程，不代表已驗證成效。",
+          "nodes": [
+            {
+              "id": "n1",
+              "label": "選一項可重複的練習",
+              "detail": "任務具體，知道自己要記錄什麼。"
+            },
+            {
+              "id": "n2",
+              "label": "每天記下行動與卡點",
+              "detail": "記下實際行動及至少一個觀察。"
+            },
+            {
+              "id": "n3",
+              "label": "一週後回看",
+              "detail": "指出一項可保留或調整的做法。"
+            },
+            {
+              "id": "n4",
+              "label": "提問並選下一步",
+              "detail": "下一步由學習者選定且具體可做。"
+            }
+          ],
+          "edges": [
+            {
+              "from": "n1",
+              "to": "n2"
+            },
+            {
+              "from": "n2",
+              "to": "n3"
+            },
+            {
+              "from": "n3",
+              "to": "n4"
+            }
+          ]
+        },
+        {
+          "type": "schedule",
+          "title": "編輯補充：練習順序",
+          "note": "此安排為編輯設計，可依需求調整。",
+          "columns": [
+            "行動",
+            "完成判準"
+          ],
+          "rows": [
+            {
+              "label": "選一項可重複的練習",
+              "cells": [
+                "選一項想觀察的學習任務，範圍縮小到能重複嘗試。",
+                "任務具體，知道自己要記錄什麼。"
+              ]
+            },
+            {
+              "label": "每天記下行動與卡點",
+              "cells": [
+                "以三行記下做了什麼、遇到什麼、下次想調整什麼。",
+                "記下實際行動及至少一個觀察。"
+              ]
+            },
+            {
+              "label": "一週後回看",
+              "cells": [
+                "找出曾有幫助的做法和反覆出現的困難，不只計算完成天數。",
+                "指出一項可保留或調整的做法。"
+              ]
+            },
+            {
+              "label": "提問並選下一步",
+              "cells": [
+                "詢問學習者想再試什麼，讓他選一項小調整，約定下次回顧。",
+                "下一步由學習者選定且具體可做。"
+              ]
+            }
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "此方法是否改善學習或教學成效",
+          "status": "unverified",
+          "explanation": "來源提供觀點或建議，本文未進行成效測試，不能推論適用於所有情境。",
+          "sourceIds": [
+            "original"
+          ],
+          "checkedAt": "2026-10-29"
+        }
+      ],
+      "pitfalls": [
+        "只統計天數：同時記下內容和卡點。",
+        "一直沿用不適合的方法：根據紀錄試一個調整。",
+        "由陪伴者替孩子決定：先詢問學習者想法。"
+      ],
+      "practice": {
+        "title": "編輯補充：實際試做",
+        "minutes": 15,
+        "prompt": "編輯補充：先用約 15 分鐘設定目標並開始記錄；後續每天記錄，一週後回顧並選擇下一步。實際時間可調整。",
+        "deliverable": "一週練習記錄及學習者選定的下一步",
+        "checklist": [
+          "任務具體，知道自己要記錄什麼。",
+          "記下實際行動及至少一個觀察。",
+          "指出一項可保留或調整的做法。",
+          "下一步由學習者選定且具體可做。"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "編輯觀點：教學與自學應用",
+          "text": "學習日誌可用文字或其他習慣的方式完成；陪伴者先聽學習者的想法。這是編輯的教學延伸，尚無成效驗證。",
+          "sourceIds": [
+            "original"
+          ]
+        }
+      ],
+      "overview": {
+        "image": "/assets/overviews/weekly-learning-journal-desktop.webp",
+        "mobileImage": "/assets/overviews/weekly-learning-journal-mobile.webp",
+        "cardImage": "/assets/overviews/weekly-learning-journal-desktop.webp",
+        "alt": "以澄陪學習者選練習、每天三行、回看一週並選下一步。",
+        "caption": "一週日誌及四個練習步驟為編輯延伸。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      },
+      "publishedAt": "2026-10-29T02:35:00+08:00"
+    },
+    {
+      "id": "reading-shelf-blind-spots",
+      "title": "先看看自己的書架：一場閱讀盲點小挑戰",
+      "summary": "先盤點自己讀過的書，看看地區與語言有哪些集中或空白，再向他人請教推薦，選一段試讀。 原影片含成人情節，教師分享前請先審閱。",
+      "categoryId": "reading",
+      "topicIds": [
+        "strategies"
+      ],
+      "audience": "想拓展閱讀視野的讀者或共讀小組",
+      "output": "一張閱讀清單、空白觀察與推薦試讀紀錄",
+      "minutes": 20,
+      "level": "入門",
+      "status": "ready",
+      "contentType": "video_method",
+      "reviewedAt": "2026-10-29",
+      "coverLabel": "盤點書架・閱讀練習",
+      "sourceCoverage": "依 YouTube 英語自動字幕約 00:05–01:07 整理，並從 MP3 以 Whisper tiny 重轉，兩份字幕均提到盤點書架與尋求不同地區的推薦；尚未人工逐句聽校。四步、五本、20 分鐘、範例與課堂轉用為編輯延伸，未驗證成效。影片約 01:12 有成人情節，教師分享前應先審閱全片、評估適齡性並選用適齡片段。",
+      "sources": [
+        {
+          "id": "original",
+          "title": "Would you try this reading challenge?（影片含成人情節，教師請先審閱）",
+          "url": "https://www.youtube.com/watch?v=f6VgtBnARG0",
+          "kind": "video",
+          "channel": "TED",
+          "videoId": "f6VgtBnARG0"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "盤點現有閱讀",
+          "action": "列出最近讀過或書架上常拿起的五本書，記錄書名、作者、已知的作品背景與原作語言；不知道先留白。",
+          "why": "講者發現自己的書架多為英國或北美作家的作品。",
+          "example": "編輯示範：先列五本，再查原作語言，不猜測作者身分。",
+          "check": "不確定的資訊留白並標記待查。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 5,
+              "endSeconds": 22
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "觀察集中與空白",
+          "action": "看清單是否集中在某些地區、語言或類型，寫下想多認識的故事與理由。",
+          "why": "講者因注意到書架的集中情形，決定擴展閱讀。",
+          "example": "編輯示範：我想認識不同語言的作品，先向圖書館詢問。",
+          "check": "五本只是起點，不代表全部閱讀經驗。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 5,
+              "endSeconds": 35
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "請人推薦並查核",
+          "action": "向圖書館員、同學或可信任的讀者請教；查書籍簡介與作者、譯者資訊，確認內容適合自己。",
+          "why": "講者透過網路求助，獲得讀者、作家與譯者協助。",
+          "example": "編輯示範：記下推薦者與圖書館書目，再查看內容介紹。",
+          "check": "推薦來源與待查資訊有記錄。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 36,
+              "endSeconds": 67
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "試讀並留下問題",
+          "action": "選一小段試讀，記下一個好奇的觀點，以及一個想繼續查證的問題。",
+          "why": "這是由講者經驗延伸出的編輯練習。",
+          "example": "編輯示範：我想查故事背景中的地名。",
+          "check": "保留問題，不把一本書當成整個地區的代表。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 5,
+              "endSeconds": 67
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "從書架走向下一段閱讀",
+          "note": "編輯設計；時間安排並非講者提出的課程。",
+          "nodes": [
+            {
+              "id": "n0",
+              "label": "盤點",
+              "detail": "列出五本書"
+            },
+            {
+              "id": "n1",
+              "label": "找空白",
+              "detail": "觀察地區與語言"
+            },
+            {
+              "id": "n2",
+              "label": "找推薦",
+              "detail": "確認作者與內容"
+            },
+            {
+              "id": "n3",
+              "label": "試讀",
+              "detail": "記下一個問題"
+            }
+          ],
+          "edges": [
+            {
+              "from": "n0",
+              "to": "n1"
+            },
+            {
+              "from": "n1",
+              "to": "n2"
+            },
+            {
+              "from": "n2",
+              "to": "n3"
+            }
+          ]
+        },
+        {
+          "type": "schedule",
+          "title": "編輯補充：練習安排",
+          "note": "依文章步驟整理，可依現場需求調整。",
+          "columns": [
+            "行動",
+            "完成判準"
+          ],
+          "rows": [
+            {
+              "label": "盤點現有閱讀",
+              "cells": [
+                "列出最近讀過或書架上常拿起的五本書，記錄書名、作者、已知的作品背景與原作語言；不知道先留白。",
+                "不確定的資訊留白並標記待查。"
+              ]
+            },
+            {
+              "label": "觀察集中與空白",
+              "cells": [
+                "看清單是否集中在某些地區、語言或類型，寫下想多認識的故事與理由。",
+                "五本只是起點，不代表全部閱讀經驗。"
+              ]
+            },
+            {
+              "label": "請人推薦並查核",
+              "cells": [
+                "向圖書館員、同學或可信任的讀者請教；查書籍簡介與作者、譯者資訊，確認內容適合自己。",
+                "推薦來源與待查資訊有記錄。"
+              ]
+            },
+            {
+              "label": "試讀並留下問題",
+              "cells": [
+                "選一小段試讀，記下一個好奇的觀點，以及一個想繼續查證的問題。",
+                "保留問題，不把一本書當成整個地區的代表。"
+              ]
+            }
+          ]
+        }
+      ],
+      "practice": {
+        "title": "20 分鐘畫一張閱讀視角地圖",
+        "minutes": 20,
+        "prompt": "編輯設計：各用約五分鐘盤點、觀察空白、請人推薦與安排試讀。若當下無法取得推薦或文本，先記下詢問對象與下一步。",
+        "deliverable": "一張閱讀清單、空白觀察與推薦試讀紀錄",
+        "checklist": [
+          "不確定的作者、背景或語言先留白。",
+          "五本書只是起點。",
+          "查核推薦來源與文本是否適合自己。",
+          "試讀後留下可查證的問題。"
+        ]
+      },
+      "pitfalls": [
+        "以五本書概括全部閱讀經驗。",
+        "把一本書當成一個國家或地區的完整代表。",
+        "把推薦書直接視為適合所有年齡。"
+      ],
+      "supplements": [
+        {
+          "title": "編輯補充：課堂使用前",
+          "text": "影片約 01:12 有成人情節；教師分享前先審閱全片，評估適齡性並選用適齡片段。選讀文本也應先確認適齡，提供不同閱讀難度的選擇。",
+          "sourceIds": [
+            "original"
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "這份練習可幫助整理既有閱讀與下一步。",
+          "status": "unverified",
+          "explanation": "講者分享個人經驗；本編輯練習未經教學實測，不保證特定成效。",
+          "sourceIds": [
+            "original"
+          ],
+          "checkedAt": "2026-10-29"
+        }
+      ],
+      "overview": {
+        "image": "/assets/overviews/reading-shelf-blind-spots-desktop.webp",
+        "mobileImage": "/assets/overviews/reading-shelf-blind-spots-mobile.webp",
+        "cardImage": "/assets/overviews/reading-shelf-blind-spots-desktop.webp",
+        "alt": "小硯陪你盤點書架、尋找閱讀空白、請人推薦並試讀。",
+        "caption": "四個練習步驟為編輯設計；教師分享影片前應先確認內容適齡。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      },
+      "keywords": [
+        "閱讀盲點",
+        "書架盤點",
+        "閱讀視野",
+        "Ann Morgan"
+      ],
+      "publishedAt": "2026-10-29T02:35:00+08:00"
+    },
+    {
+      "id": "reading-memory-filter-story",
+      "title": "閱讀後要記什麼？用篩選、圖像與故事整理零散資訊",
+      "summary": "先判斷資訊是否需要刻意記憶，再選少數必記事實，轉成圖像與角色互動；用自己的回想和原文核對。",
+      "categoryId": "reading",
+      "topicIds": [
+        "strategies",
+        "learning"
+      ],
+      "level": "入門",
+      "minutes": 20,
+      "output": "一份必記事實清單、圖像對照與回想紀錄",
+      "audience": "讀完資料後難以判斷哪些資訊需要精確回想的學習者",
+      "status": "ready",
+      "contentType": "video_method",
+      "reviewedAt": "2026-10-29",
+      "sourceCoverage": "依 YouTube 英文自動字幕 00:01–20:12 整理，另將 MP3 12:26–13:56 節錄以 Whisper tiny.en 轉錄，兩份機器字幕均提到將事實轉成角色或圖像；字幕可能有誤，尚未人工聽校。影片中段有圖像生成工具贊助；本文範例與練習安排為編輯設計，未獨立驗證成效。",
+      "coverLabel": "影片方法・自動字幕",
+      "sources": [
+        {
+          "id": "original-video",
+          "title": "How to memorise (almost) anything you read in 20 minutes",
+          "url": "https://www.youtube.com/watch?v=-gqYldhjZVk",
+          "kind": "video",
+          "channel": "Justin Sung",
+          "videoId": "-gqYldhjZVk",
+          "note": "英文自動字幕；講者個人記憶表現和複習間隔不代表普遍效果。",
+          "publishedAt": "2026-10-24"
+        }
+      ],
+      "steps": [
+        {
+          "id": "filter",
+          "title": "先篩選是否需要記憶",
+          "action": "依序問：為什麼重要？與已知內容有何關聯？需要用於複雜問題，還是只需回想事實？先查資料、找關聯；仍難連結但須回想的事實才進入下一步。",
+          "why": "理解與運用需要建立關係，並非每項資訊都適合直接背誦。",
+          "example": "編輯示範：先理解人物經歷與作品的關係，再決定是否需要記住精確年代。",
+          "check": "能說明每筆資訊為何先理解或需要精確回想。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "original-video",
+              "startSeconds": 268,
+              "endSeconds": 375
+            }
+          ]
+        },
+        {
+          "id": "prioritize",
+          "title": "挑出少數必記事實",
+          "action": "比較同組資料的共通規律，列出突出、難以推得或容易混淆的項目。",
+          "why": "講者對照同類資料，保留需要個別記住的事實。",
+          "example": "編輯示範：對照課本，列出容易混淆的人物與作品。",
+          "check": "每項事實都能說出來源和單獨記憶的理由。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "original-video",
+              "startSeconds": 645,
+              "endSeconds": 746
+            }
+          ]
+        },
+        {
+          "id": "visualize",
+          "title": "把事實轉成圖像提示",
+          "action": "把一組事實設計為有明顯特徵的角色或圖像，留下圖像與事實的對照。",
+          "why": "可用手畫或工具產圖；關鍵是能解釋圖像所指涉的內容。 圖像對照與回想核對為編輯補充。",
+          "example": "編輯示範：畫一把雨傘提示已核對過的雨天場景。",
+          "check": "遮住註記，說出提示代表什麼並回查原文。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original-video",
+              "startSeconds": 746,
+              "endSeconds": 960
+            }
+          ]
+        },
+        {
+          "id": "story",
+          "title": "以互動串成故事",
+          "action": "把不同角色放進一個互動故事，使關係成為提示；接著回想各圖像的原意並核對。",
+          "why": "角色多時可能混淆，故事用於提示彼此關係。 圖像對照與回想核對為編輯補充。",
+          "example": "編輯示範：兩個作品角色拿著不同道具相遇，說出各自特色。",
+          "check": "不看對照表說出故事與事實，再回來源核對。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original-video",
+              "startSeconds": 1002,
+              "endSeconds": 1168
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "從篩選到回想",
+          "note": "依影片整理；回查原文是編輯補充，不代表成效保證。",
+          "nodes": [
+            {
+              "id": "filter",
+              "label": "先篩選是否需要記憶",
+              "detail": "依序問：為什麼重要？與已知內容有何關聯？需要用於複雜問題，還是只需回想事實？先查資料、找關聯；仍難連結但須回想的事實才進入下一步。"
+            },
+            {
+              "id": "prioritize",
+              "label": "挑出少數必記事實",
+              "detail": "比較同組資料的共通規律，列出突出、難以推得或容易混淆的項目。"
+            },
+            {
+              "id": "visualize",
+              "label": "把事實轉成圖像提示",
+              "detail": "把一組事實設計為有明顯特徵的角色或圖像，留下圖像與事實的對照。"
+            },
+            {
+              "id": "story",
+              "label": "以互動串成故事",
+              "detail": "把不同角色放進一個互動故事，使關係成為提示；接著回想各圖像的原意並核對。"
+            }
+          ],
+          "edges": [
+            {
+              "from": "filter",
+              "to": "prioritize"
+            },
+            {
+              "from": "prioritize",
+              "to": "visualize"
+            },
+            {
+              "from": "visualize",
+              "to": "story"
+            }
+          ]
+        },
+        {
+          "type": "schedule",
+          "title": "編輯補充：練習安排",
+          "note": "依文章步驟整理，可依現場需求調整。",
+          "columns": [
+            "行動",
+            "完成判準"
+          ],
+          "rows": [
+            {
+              "label": "先篩選是否需要記憶",
+              "cells": [
+                "依序問：為什麼重要？與已知內容有何關聯？需要用於複雜問題，還是只需回想事實？先查資料、找關聯；仍難連結但須回想的事實才進入下一步。",
+                "能說明每筆資訊為何先理解或需要精確回想。"
+              ]
+            },
+            {
+              "label": "挑出少數必記事實",
+              "cells": [
+                "比較同組資料的共通規律，列出突出、難以推得或容易混淆的項目。",
+                "每項事實都能說出來源和單獨記憶的理由。"
+              ]
+            },
+            {
+              "label": "把事實轉成圖像提示",
+              "cells": [
+                "把一組事實設計為有明顯特徵的角色或圖像，留下圖像與事實的對照。",
+                "遮住註記，說出提示代表什麼並回查原文。"
+              ]
+            },
+            {
+              "label": "以互動串成故事",
+              "cells": [
+                "把不同角色放進一個互動故事，使關係成為提示；接著回想各圖像的原意並核對。",
+                "不看對照表說出故事與事實，再回來源核對。"
+              ]
+            }
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "影片提出篩選、挑選、圖像及故事的記憶流程。",
+          "status": "partial",
+          "explanation": "英文自動字幕支持流程；尚未逐段聽校。",
+          "sourceIds": [
+            "original-video"
+          ],
+          "checkedAt": "2026-10-29"
+        },
+        {
+          "claim": "這套方法能確保所有人長期記住資料。",
+          "status": "unverified",
+          "explanation": "影片為講者自述，未提供足以支持普遍成效的獨立比較資料。",
+          "sourceIds": [
+            "original-video"
+          ],
+          "checkedAt": "2026-10-29"
+        }
+      ],
+      "pitfalls": [
+        "把每一句都做成記憶卡，增加負擔。",
+        "沒有理解或核對來源，只背圖像符號。",
+        "把講者個人回憶比例或複習間隔當成所有人的保證。"
+      ],
+      "practice": {
+        "title": "做一份圖像回想表",
+        "minutes": 20,
+        "prompt": "編輯設計：選一段可靠材料，判斷用途與關聯，選少數必記事實，畫提示並串成故事，最後遮住註記回想，再查原文。時間僅供安排參考。",
+        "deliverable": "必記事實清單、圖像對照與回想核對紀錄。",
+        "checklist": [
+          "寫下資訊的重要性及已知關聯。",
+          "標明事實來源與為何需要單獨記憶。",
+          "遮住註記回想，並回原文核對。"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "編輯觀點：理解與記憶各有位置",
+          "text": "教師可請學生互相說明圖像與事實的對應，再查原文。圖像過多或說不出原意時，先縮減提示並重新理解。",
+          "sourceIds": []
+        }
+      ],
+      "overview": {
+        "image": "/assets/overviews/reading-memory-filter-story-desktop.webp",
+        "mobileImage": "/assets/overviews/reading-memory-filter-story-mobile.webp",
+        "cardImage": "/assets/overviews/reading-memory-filter-story-desktop.webp",
+        "alt": "知行陪你篩選必記事實，再用圖像、故事與回想整理。",
+        "caption": "圖卡第五格將第四步的回想核對單獨呈現，為編輯補充；圖像是提示，不取代理解。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      },
+      "publishedAt": "2026-10-29T02:35:00+08:00"
     }
   ],
   "demo": {
