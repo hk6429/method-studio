@@ -117829,6 +117829,200 @@
         "mobileHeight": 1600
       },
       "publishedAt": "2026-10-29T07:31:06+08:00"
+    },
+    {
+      "id": "essay-sample-compare-own-outline",
+      "title": "先想再讀樣卷：用比較與大綱練習寫作",
+      "summary": "先留下自己的讀題想法，再比較不同樣卷的立意與取材，列大綱並請老師討論。",
+      "categoryId": "reading",
+      "topicIds": [
+        "teaching",
+        "strategies"
+      ],
+      "audience": "練習寫作的學生及陪伴寫作的教師",
+      "output": "一張讀題、樣卷觀察與大綱比較卡",
+      "minutes": 25,
+      "level": "入門",
+      "status": "ready",
+      "contentType": "video_method",
+      "reviewedAt": "2026-10-29",
+      "coverLabel": "寫作練習 · 樣卷與大綱",
+      "keywords": [
+        "寫作教學",
+        "樣卷比較",
+        "讀題",
+        "大綱"
+      ],
+      "sourceCoverage": "指定 Notion 影片 MP3 以 MLX Whisper large-v3-turbo 轉錄全片；首次轉錄有大量重複，改關閉前文依賴後取得可讀字幕，仍有錯字且尚未逐句人工聽校。座談者建議先讀題自想、比較不同級分樣卷，列大綱請教師討論；比較卡、假設示例與時間為編輯延伸，未核對官方評分規準，不保證分數或成效。",
+      "sources": [
+        {
+          "id": "original",
+          "title": "116 年國中教育會考趨勢分析與複習策略講座｜國文＋寫作測驗｜綜合座談",
+          "kind": "video",
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=_ALR5zEygzM",
+          "channel": "臺北酷課雲",
+          "videoId": "_ALR5zEygzM",
+          "note": "全片自動轉錄尚未逐句人工聽校；YouTube 自動字幕下載遭流量限制。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "先讀題，留下自己的想法",
+          "action": "讀完整題與提示，先寫下自己的解讀、可能使用的經驗或觀點，再去讀樣卷。",
+          "why": "座談者建議看樣卷之前，先有自己的題意理解與想法。",
+          "example": "編輯假設示範：題目要求寫改變看法的經驗，先記自己想到的一件事。",
+          "check": "有一則自己的讀題理解與初步素材。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 446,
+              "endSeconds": 465
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "比較不同樣卷",
+          "action": "找有可靠出處的不同級分樣卷，觀察各自如何立意、選材與發展，寫下和自己想法的差異。",
+          "why": "座談者提議閱讀比較不同級分的文章；比較不等於直接判定自己的級分。",
+          "example": "編輯示範：比較兩篇如何交代事件轉折，記下各自的做法。",
+          "check": "說得出一項具體差異，並保留樣卷出處。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 465,
+              "endSeconds": 501
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "列自己的大綱",
+          "action": "依題意與自己的素材，安排開頭、事件發展、想法變化和結尾；選擇可借鏡的寫法，不照搬樣卷。",
+          "why": "座談者建議先列想寫的內容與文章架構。",
+          "example": "編輯假設示範：原本想法 → 發生的事 → 如何改變 → 現在的理解。",
+          "check": "大綱每部分都能回應題目及自己的素材。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 516,
+              "endSeconds": 578
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "和老師討論再修改",
+          "action": "請老師或同儕指出一處不易發展或可以補充的地方，依回饋修改大綱，再開始寫作。",
+          "why": "座談者建議讓教師協助看大綱中可擴展或難以發展的部分。",
+          "example": "編輯示範：老師提醒轉折原因不清楚，學生補上自己的思考過程。",
+          "check": "留下回饋及一項實際修改。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 516,
+              "endSeconds": 578
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "先有自己的想法，再讀樣卷",
+          "note": "比較卡與示例為編輯延伸。",
+          "nodes": [
+            {
+              "id": "n1",
+              "label": "讀題寫想法",
+              "detail": "保留自己的解讀"
+            },
+            {
+              "id": "n2",
+              "label": "比較樣卷",
+              "detail": "觀察立意與取材"
+            },
+            {
+              "id": "n3",
+              "label": "列自己大綱",
+              "detail": "對應題目與素材"
+            },
+            {
+              "id": "n4",
+              "label": "與老師討論",
+              "detail": "依回饋修改"
+            }
+          ],
+          "edges": [
+            {
+              "from": "n1",
+              "to": "n2"
+            },
+            {
+              "from": "n2",
+              "to": "n3"
+            },
+            {
+              "from": "n3",
+              "to": "n4"
+            }
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "照著樣卷架構寫就能得到特定級分。",
+          "status": "unverified",
+          "explanation": "座談提供學習建議；本文未核對官方評分規準，不保證級分。",
+          "sourceIds": [
+            "original"
+          ],
+          "checkedAt": "2026-10-29"
+        }
+      ],
+      "pitfalls": [
+        "樣卷比較是觀察寫法，不宜照抄或直接替自己的文章判級。",
+        "字數、篇數或樣卷外觀不能取代官方評分規準。",
+        "先保留自己的想法，再決定哪些寫法適合借鏡。"
+      ],
+      "practice": {
+        "title": "讀題與大綱比較卡",
+        "minutes": 25,
+        "prompt": "編輯設計：選一道練習題，先寫自己的解讀與素材；比較兩篇有出處的樣卷，寫下一項差異；列大綱，請老師或同儕給一項回饋並修正。",
+        "deliverable": "一張比較卡與修訂後大綱",
+        "checklist": [
+          "先寫自己的讀題想法",
+          "保留樣卷出處",
+          "比較一項具體寫法",
+          "依回饋修改大綱"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "編輯補充：比較卡",
+          "text": "題目要求：＿＿；我先想到：＿＿；樣卷 A 與 B 的一項差異：＿＿；我的大綱：＿＿；老師或同儕的建議：＿＿；我要修改：＿＿。",
+          "sourceIds": []
+        }
+      ],
+      "overview": {
+        "image": "/assets/overviews/sample-essay-desktop.webp",
+        "mobileImage": "/assets/overviews/sample-essay-mobile.webp",
+        "cardImage": "/assets/overviews/sample-essay-desktop.webp",
+        "alt": "以澄與小硯先讀題寫想法，再比較樣卷、列大綱並和老師討論。",
+        "caption": "比較卡與示例為編輯延伸，不保證級分。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      },
+      "publishedAt": "2026-10-29T07:42:46+08:00"
     }
   ],
   "demo": {
