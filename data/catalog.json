@@ -116068,6 +116068,210 @@
         "mobileHeight": 1600
       },
       "publishedAt": "2026-10-29T06:49:45+08:00"
+    },
+    {
+      "id": "pdf-highlight-ask-ai-verify-notes",
+      "title": "看不懂 PDF 講義？邊畫記、邊問 AI，再整理筆記",
+      "summary": "選一小段不懂的講義，請 AI 解釋與出題，再回原文核對，整理成自己的筆記。",
+      "categoryId": "ai",
+      "topicIds": [
+        "workflow"
+      ],
+      "audience": "閱讀 PDF 講義並需要釐清概念的自學者",
+      "output": "一則附頁碼、提問、核對結果的學習筆記",
+      "minutes": 15,
+      "level": "入門",
+      "status": "ready",
+      "contentType": "video_method",
+      "reviewedAt": "2026-10-29",
+      "coverLabel": "AI 自學 · 邊讀邊問",
+      "keywords": [
+        "PDF",
+        "自學",
+        "畫記",
+        "AI 提問",
+        "筆記"
+      ],
+      "sourceCoverage": "指定 Notion 影片已下載音訊；影片繁體字幕及音訊自動辨識用於核對，尚未逐句人工聽校。講者示範講義畫記、AI 側欄解釋和出題、集中整理問答；先自己猜、回原文查證、國文例子及時間均為編輯延伸，並無課堂成效證據。",
+      "sources": [
+        {
+          "id": "original",
+          "title": "考試自學神器：問問 Gemini＋Kami 畫記",
+          "kind": "video",
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=L96FTqCgau8",
+          "channel": "李偉綾 Shirley Li",
+          "videoId": "L96FTqCgau8",
+          "note": "功能位置、帳號與費用可能變動；字幕尚未人工逐句聽校。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "圈出不懂的地方",
+          "action": "開啟有權使用的 PDF 講義，讀一小段，用畫線或筆記標出不理解的句子，先寫下自己的猜想。",
+          "why": "講者在 PDF 畫記並選取不熟悉的概念；先猜是編輯建議。",
+          "example": "編輯示範：在課文中圈出不熟的修辭，記下初步判斷。",
+          "check": "標出原文位置與具體疑問。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 32,
+              "endSeconds": 90
+            },
+            {
+              "sourceId": "original",
+              "startSeconds": 620,
+              "endSeconds": 669
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "請 AI 依程度解釋",
+          "action": "提供選取段落與自己的程度，請 AI 用白話和生活例子說明；確認它確實收到正確的文字。",
+          "why": "影片示範選取兩行講義，在側欄要求初學者可懂的解釋。",
+          "example": "編輯提示：『我是初學者，請依這段文字用一個例子解釋；資訊不足請指出。』",
+          "check": "回答對應所選段落，不清楚處仍有記錄。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 103,
+              "endSeconds": 201
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "自己練一題",
+          "action": "請 AI 依剛讀到的觀念出一個小題目，先自己作答，再看解釋。",
+          "why": "講者要求情境例題，也示範以英文課文產生選擇題。",
+          "example": "編輯示範：請 AI 根據課文出一道修辭判讀題，先說自己的理由。",
+          "check": "留下自己的答案及理由。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 201,
+              "endSeconds": 239
+            },
+            {
+              "sourceId": "original",
+              "startSeconds": 446,
+              "endSeconds": 587
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "核對並整理筆記",
+          "action": "回教材或可信資料核對 AI 的說明與答案，把頁碼、疑問、核對後的理解和待確認處集中記下。",
+          "why": "講者將問答整理成一份筆記並標示不熟概念；核對來源與筆記欄位為編輯建議。",
+          "example": "編輯示範：判讀不確定時記下課文位置，再請教老師。",
+          "check": "筆記能回找原文，也標示未確認內容。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 246,
+              "endSeconds": 334
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "閱讀現場的提問與核對",
+          "note": "先猜和查證為編輯延伸。",
+          "nodes": [
+            {
+              "id": "n1",
+              "label": "圈出不懂處",
+              "detail": "記下原文位置"
+            },
+            {
+              "id": "n2",
+              "label": "請 AI 解釋",
+              "detail": "說明自己的程度"
+            },
+            {
+              "id": "n3",
+              "label": "自己練一題",
+              "detail": "先作答再看解釋"
+            },
+            {
+              "id": "n4",
+              "label": "核對整理",
+              "detail": "回原文並留筆記"
+            }
+          ],
+          "edges": [
+            {
+              "from": "n1",
+              "to": "n2"
+            },
+            {
+              "from": "n2",
+              "to": "n3"
+            },
+            {
+              "from": "n3",
+              "to": "n4"
+            }
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "AI 產生的解釋和題目一定正確。",
+          "status": "unverified",
+          "explanation": "影片展示個人操作，並未證明產生內容的正確率或教學成效。",
+          "sourceIds": [
+            "original"
+          ],
+          "checkedAt": "2026-10-29"
+        }
+      ],
+      "pitfalls": [
+        "側欄與畫記功能依工具版本、帳號、地區、年齡及方案而異，請以當下介面為準。",
+        "AI 可能讀不到所選文字或答錯，應核對實際輸入及教材。",
+        "使用有權處理的教材，避免上傳不必要的個人資料。"
+      ],
+      "practice": {
+        "title": "15 分鐘講義提問練習",
+        "minutes": 15,
+        "prompt": "編輯設計：選一頁教材，圈出一句不懂的內容並先猜；請 AI 依程度解釋並出一題，自己回答後回原文核對，留下頁碼和待確認事項。",
+        "deliverable": "一則附頁碼與核對結果的筆記",
+        "checklist": [
+          "選一小段並記頁碼",
+          "先寫自己的猜想",
+          "獨立回答一題",
+          "核對解釋並標記不確定處"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "編輯補充：筆記欄位",
+          "text": "原文及頁碼：＿＿；我的問題與初步猜想：＿＿；核對後的理解：＿＿；還要確認：＿＿。",
+          "sourceIds": []
+        }
+      ],
+      "overview": {
+        "image": "/assets/overviews/pdf-study-desktop.webp",
+        "mobileImage": "/assets/overviews/pdf-study-mobile.webp",
+        "cardImage": "/assets/overviews/pdf-study-desktop.webp",
+        "alt": "阿問與小硯圈選講義、向 AI 提問，練習後核對並整理筆記。",
+        "caption": "教學示例與查證方式為編輯延伸。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      },
+      "publishedAt": "2026-10-29T06:53:35+08:00"
     }
   ],
   "demo": {
