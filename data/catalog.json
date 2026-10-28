@@ -111642,6 +111642,240 @@
         "mobileHeight": 1600
       },
       "publishedAt": "2026-10-29T05:02:23+08:00"
+    },
+    {
+      "id": "audio-timed-learning-animation",
+      "title": "教學動畫先做短版：讓文字與聲音在同一時間出現",
+      "summary": "準備一小段講解聲音和文字，標記重點出現時間，請 AI 協助製作短版動畫，再播放核對。",
+      "categoryId": "ai",
+      "topicIds": [
+        "workflow"
+      ],
+      "audience": "想製作短版教學動畫的教師與學習者",
+      "output": "一段短版動畫與文字、聲音核對紀錄",
+      "minutes": 30,
+      "level": "入門",
+      "status": "ready",
+      "contentType": "video_method",
+      "reviewedAt": "2026-10-29",
+      "coverLabel": "AI 教學 · 動畫時間軸",
+      "sourceCoverage": "指定 Notion 影片以 Whisper tiny 轉錄全片，並以 base 補轉約 2:30–5:00 與 4:45–6:15；尚未逐句人工聽校。講者示範提供音樂與歌詞，請 AI 以程式製作隨音樂與內容呈現的動畫，並提到可用於學科主題解說；短版時間表與教學示例為編輯延伸。",
+      "sources": [
+        {
+          "id": "original",
+          "title": "AI Agent 教學應用：用 AI 寫程式、做動畫影片",
+          "kind": "video",
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=3B-nttpgSCw",
+          "channel": "三師爸Sense Bar",
+          "videoId": "3B-nttpgSCw",
+          "note": "約 4:45–6:15 示範提供音訊與歌詞；約 55–58 分鐘談動畫呈現及教學應用。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "準備一小段文字與聲音",
+          "action": "選一個想解釋的重點，準備一小段有權使用的旁白和逐字文字。",
+          "why": "講者示範將音樂和歌詞文字提供給 AI；旁白練習是編輯延伸。",
+          "example": "編輯示範：錄一段 15 秒旁白，說明「閱讀時先找人物，再找行動」。",
+          "check": "文字與聲音內容一致，素材來源與使用範圍清楚。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "標記重點出現的時間",
+          "action": "聽一遍聲音，記下每個重點大約從哪裡開始、何時結束。",
+          "why": "影片展示畫面配合聲音與內容；手動時間表為編輯補充。",
+          "example": "編輯示範：記下「人物」與「行動」各自出現的時間。",
+          "check": "至少有兩個可回到音訊核對的時間點。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "請 AI 製作短版動畫",
+          "action": "把文字、音訊及時間表提供給 AI，請它先製作一小段能播放的動畫。",
+          "why": "講者示範以程式生成動畫；本文的小範圍教學用途為編輯延伸。",
+          "example": "編輯提示詞：「依時間表顯示兩張文字卡，配上我提供的旁白，先製作短版。」",
+          "check": "能開啟成品，文字清楚可讀，聲音能播放。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "播放核對並修正",
+          "action": "完整播放短版，對照文字與聲音，修正出現時間或難辨識的文字。",
+          "why": "播放與逐項檢查為編輯補充，避免僅憑生成完成判定可用。",
+          "example": "編輯示範：若文字太早消失，就延長停留時間後再播一次。",
+          "check": "至少核對一次文字、聲音與時間，記錄需要修正的地方。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "編輯整理：短版動畫流程",
+          "note": "教學旁白與時間表為編輯延伸。",
+          "nodes": [
+            {
+              "id": "step-1",
+              "label": "準備一小段文字與聲音",
+              "detail": "選一個想解釋的重點，準備一小段有權使用的旁白和逐字文字。"
+            },
+            {
+              "id": "step-2",
+              "label": "標記重點出現的時間",
+              "detail": "聽一遍聲音，記下每個重點大約從哪裡開始、何時結束。"
+            },
+            {
+              "id": "step-3",
+              "label": "請 AI 製作短版動畫",
+              "detail": "把文字、音訊及時間表提供給 AI，請它先製作一小段能播放的動畫。"
+            },
+            {
+              "id": "step-4",
+              "label": "播放核對並修正",
+              "detail": "完整播放短版，對照文字與聲音，修正出現時間或難辨識的文字。"
+            }
+          ],
+          "edges": [
+            {
+              "from": "step-1",
+              "to": "step-2"
+            },
+            {
+              "from": "step-2",
+              "to": "step-3"
+            },
+            {
+              "from": "step-3",
+              "to": "step-4"
+            }
+          ]
+        },
+        {
+          "type": "schedule",
+          "title": "編輯補充：播放核對表",
+          "note": "依實際聲音重新確認時間。",
+          "columns": [
+            "行動",
+            "完成判準"
+          ],
+          "rows": [
+            {
+              "label": "準備一小段文字與聲音",
+              "cells": [
+                "選一個想解釋的重點，準備一小段有權使用的旁白和逐字文字。",
+                "文字與聲音內容一致，素材來源與使用範圍清楚。"
+              ]
+            },
+            {
+              "label": "標記重點出現的時間",
+              "cells": [
+                "聽一遍聲音，記下每個重點大約從哪裡開始、何時結束。",
+                "至少有兩個可回到音訊核對的時間點。"
+              ]
+            },
+            {
+              "label": "請 AI 製作短版動畫",
+              "cells": [
+                "把文字、音訊及時間表提供給 AI，請它先製作一小段能播放的動畫。",
+                "能開啟成品，文字清楚可讀，聲音能播放。"
+              ]
+            },
+            {
+              "label": "播放核對並修正",
+              "cells": [
+                "完整播放短版，對照文字與聲音，修正出現時間或難辨識的文字。",
+                "至少核對一次文字、聲音與時間，記錄需要修正的地方。"
+              ]
+            }
+          ]
+        }
+      ],
+      "practice": {
+        "title": "編輯練習：一段旁白、兩張文字卡",
+        "minutes": 30,
+        "prompt": "選一個教學重點，錄一段短旁白並標記兩個重點出現的時間，請 AI 協助產生短版動畫，再播放核對。",
+        "deliverable": "短版動畫、兩個時間點與一次核對紀錄",
+        "checklist": [
+          "聲音與文字可以使用。",
+          "標出兩個重點時間。",
+          "成品能播放且文字可讀。",
+          "逐項核對文字和聲音的出現時機。"
+        ]
+      },
+      "pitfalls": [
+        "直接相信 AI 標記的時間，沒有實際播放核對。",
+        "文字停留太短，或動畫遮住需要閱讀的內容。",
+        "使用沒有授權的音樂、聲音或圖像。"
+      ],
+      "supplements": [
+        {
+          "title": "編輯提示：先做短版",
+          "text": "先確認少量文字和聲音能同步，再視需求擴充內容；不同工具與裝置的播放結果仍需實測。",
+          "sourceIds": [
+            "original"
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "AI 生成後，所有字幕與畫面一定同步",
+          "status": "unverified",
+          "explanation": "時間點與播放效果可能有誤，需要逐段實際核對。",
+          "sourceIds": [
+            "original"
+          ],
+          "checkedAt": "2026-10-29"
+        }
+      ],
+      "keywords": [
+        "教學動畫",
+        "聲音同步",
+        "AI 協作",
+        "時間軸"
+      ],
+      "overview": {
+        "image": "/assets/overviews/animation-audio-desktop.webp",
+        "mobileImage": "/assets/overviews/animation-audio-mobile.webp",
+        "cardImage": "/assets/overviews/animation-audio-desktop.webp",
+        "alt": "知行與以澄一起整理教學動畫的文字、聲音與時間。",
+        "caption": "短版時間表與教學旁白範例為編輯延伸。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      },
+      "publishedAt": "2026-10-29T05:07:41+08:00"
     }
   ],
   "demo": {
