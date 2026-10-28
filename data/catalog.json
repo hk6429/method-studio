@@ -113740,6 +113740,240 @@
         "mobileHeight": 1600
       },
       "publishedAt": "2026-10-29T05:45:58+08:00"
+    },
+    {
+      "id": "exam-source-layout-separate",
+      "title": "讓 AI 依教材出題，再參考舊卷排版",
+      "summary": "把出題依據與版面範例分開，先審核題目，再排版試印。",
+      "categoryId": "ai",
+      "topicIds": [
+        "workflow"
+      ],
+      "audience": "想用既有教材製作練習卷的教師",
+      "output": "一份教師審核過、可試印的練習卷與答案說明",
+      "minutes": 30,
+      "level": "入門",
+      "status": "ready",
+      "contentType": "video_method",
+      "reviewedAt": "2026-10-29",
+      "coverLabel": "AI 教學 · 出題與排版",
+      "sourceCoverage": "指定 Notion 影片已取得 MP3 和 YouTube zh-TW 字幕，字幕涵蓋約 00:00–56:46；尚未逐句人工聽校。講者於 37:45–38:48 提議將教材與舊卷分別作為出題和排版參考，並非完整考卷實作示範；審題、試印、示例及提示詞為編輯延伸。",
+      "sources": [
+        {
+          "id": "original",
+          "title": "EP202610 3 AI 上菜！你的專屬教具快炒店：AI 生成數位教具實作",
+          "kind": "video",
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=HarzjZix87c",
+          "channel": "廣臻科技KJCStech",
+          "videoId": "HarzjZix87c",
+          "note": "約 37:45–38:48 提議教材定範圍、舊卷提供版型參考。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "整理兩份輸入",
+          "action": "準備有權使用的教材，以及可參考的舊卷，移除不必要的個人資料。",
+          "why": "講者提出將教材與舊卷分別提供作為參考。",
+          "example": "編輯示範：提供課文節錄及自己的舊練習卷。",
+          "check": "兩份資料的用途清楚，教材範圍明確。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "說清出題和排版任務",
+          "action": "告訴 AI 哪份是出題依據、哪份只供版型參考，指定題型並要求答案依據。",
+          "why": "講者提出教材作為出題參考，舊卷作為排版參考；任務細節為編輯設計。",
+          "example": "編輯提示詞：「依教材出兩題，附答案及原文依據；舊卷只參考版面，不沿用題目。」",
+          "check": "每題能辨認答案與教材依據。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "教師逐題審查",
+          "action": "回到教材檢查題意、答案和選項；有爭議就修正後重新核對。",
+          "why": "教師審題為編輯補充，影片未在此段逐題展示。",
+          "example": "編輯示範：兩個選項都合理時，重新調整題目。",
+          "check": "每題的答案與選項均經教師確認。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "排版試印後定稿",
+          "action": "依所選工具調整版面，開啟文件並試印，檢查換頁、裁切與答案一致。",
+          "why": "試印與定稿檢查為編輯延伸。",
+          "example": "編輯示範：把分頁造成題幹與選項分開的題目移至同頁。",
+          "check": "檔案能開啟、內容完整，題目和答案版本一致。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "編輯整理：先審題再排版",
+          "note": "審查與試印為編輯延伸。",
+          "nodes": [
+            {
+              "id": "step-1",
+              "label": "整理兩份輸入",
+              "detail": "準備有權使用的教材，以及可參考的舊卷，移除不必要的個人資料。"
+            },
+            {
+              "id": "step-2",
+              "label": "說清出題和排版任務",
+              "detail": "告訴 AI 哪份是出題依據、哪份只供版型參考，指定題型並要求答案依據。"
+            },
+            {
+              "id": "step-3",
+              "label": "教師逐題審查",
+              "detail": "回到教材檢查題意、答案和選項；有爭議就修正後重新核對。"
+            },
+            {
+              "id": "step-4",
+              "label": "排版試印後定稿",
+              "detail": "依所選工具調整版面，開啟文件並試印，檢查換頁、裁切與答案一致。"
+            }
+          ],
+          "edges": [
+            {
+              "from": "step-1",
+              "to": "step-2"
+            },
+            {
+              "from": "step-2",
+              "to": "step-3"
+            },
+            {
+              "from": "step-3",
+              "to": "step-4"
+            }
+          ]
+        },
+        {
+          "type": "schedule",
+          "title": "編輯補充：出題檢查表",
+          "note": "教材使用須依授權及學校規範。",
+          "columns": [
+            "行動",
+            "完成判準"
+          ],
+          "rows": [
+            {
+              "label": "整理兩份輸入",
+              "cells": [
+                "準備有權使用的教材，以及可參考的舊卷，移除不必要的個人資料。",
+                "兩份資料的用途清楚，教材範圍明確。"
+              ]
+            },
+            {
+              "label": "說清出題和排版任務",
+              "cells": [
+                "告訴 AI 哪份是出題依據、哪份只供版型參考，指定題型並要求答案依據。",
+                "每題能辨認答案與教材依據。"
+              ]
+            },
+            {
+              "label": "教師逐題審查",
+              "cells": [
+                "回到教材檢查題意、答案和選項；有爭議就修正後重新核對。",
+                "每題的答案與選項均經教師確認。"
+              ]
+            },
+            {
+              "label": "排版試印後定稿",
+              "cells": [
+                "依所選工具調整版面，開啟文件並試印，檢查換頁、裁切與答案一致。",
+                "檔案能開啟、內容完整，題目和答案版本一致。"
+              ]
+            }
+          ]
+        }
+      ],
+      "practice": {
+        "title": "編輯練習：先做兩題",
+        "minutes": 30,
+        "prompt": "準備一小段教材與一份不含個資的舊卷，請 AI 先出兩題；逐題核對後再排版試印。",
+        "deliverable": "兩題練習、答案依據與試印紀錄",
+        "checklist": [
+          "分清教材與版型用途。",
+          "移除不必要個人資料。",
+          "逐題核對答案與教材。",
+          "檢查排版及試印。"
+        ]
+      },
+      "pitfalls": [
+        "只提供舊卷，未說明教材與題目範圍。",
+        "直接相信 AI 給的答案和引文。",
+        "版面漂亮就直接發出，沒有核對或試印。"
+      ],
+      "supplements": [
+        {
+          "title": "編輯提示：先做小份量",
+          "text": "從一小段教材和兩題試做，先確定題目品質，再擴充；工具能讀取哪些檔案依實際服務而定。",
+          "sourceIds": [
+            "original"
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "AI 依教材出題就一定正確且可以直接使用",
+          "status": "unverified",
+          "explanation": "生成題目可能出現錯誤或多個合理答案，教師仍須逐題核對。",
+          "sourceIds": [
+            "original"
+          ],
+          "checkedAt": "2026-10-29"
+        }
+      ],
+      "keywords": [
+        "AI 出題",
+        "教材",
+        "考卷排版",
+        "教師審題"
+      ],
+      "overview": {
+        "image": "/assets/overviews/exam-layout-desktop.webp",
+        "mobileImage": "/assets/overviews/exam-layout-mobile.webp",
+        "cardImage": "/assets/overviews/exam-layout-desktop.webp",
+        "alt": "阿問陪教師檢查教材、題目與試卷版面。",
+        "caption": "題目審查與試印為編輯延伸，成效未驗證。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      },
+      "publishedAt": "2026-10-29T05:59:03+08:00"
     }
   ],
   "demo": {
