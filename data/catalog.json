@@ -108596,6 +108596,520 @@
         "mobileHeight": 1600
       },
       "publishedAt": "2026-10-29T03:28:32+08:00"
+    },
+    {
+      "id": "dictation-listening-diagnosis",
+      "title": "聽懂大意還是漏字？用逐句聽寫找出卡點",
+      "summary": "先盲聽，再逐句寫下聽到的英文，留下空格；對照可靠文本，把差異分為陌生詞、認得卻未聽出，以及可能的連讀或弱讀，再依卡點回聽。",
+      "categoryId": "english",
+      "topicIds": [
+        "speaking"
+      ],
+      "level": "入門",
+      "minutes": 15,
+      "output": "一張逐句聽寫對照表、卡點分類與回聽紀錄",
+      "audience": "聽英文能抓到大意，但想知道自己具體漏聽什麼的學習者",
+      "status": "ready",
+      "contentType": "video_method",
+      "reviewedAt": "2026-10-29",
+      "coverLabel": "影片方法・待聽校",
+      "sourceCoverage": "依來源音訊切片的 Whisper base 自動轉錄整理；未逐段人工聽校，約原音 22:53–23:15 有辨識缺段，其餘亦可能有錯字及漏字。時間配置、示例與紀錄卡為編輯設計；分類只是初步判斷，須用音訊與文本核對。未驗證學習成效，不使用尚未核實的影片時間碼。",
+      "sources": [
+        {
+          "id": "source-video",
+          "title": "英語海綿盲聽法影片",
+          "kind": "video",
+          "url": "https://www.youtube.com/watch?v=h8013_-U_eg",
+          "videoId": "h8013_-U_eg",
+          "note": "機器轉錄有缺段與誤字，未完成逐段聽校；不得將講者成效宣稱視為已驗證事實。",
+          "channel": "brain 學霸"
+        }
+      ],
+      "steps": [
+        {
+          "id": "listen",
+          "title": "先盲聽抓大意",
+          "action": "選一段有英文文本的短音檔，先不看字，聽一遍並記下聽到的詞和大意。",
+          "why": "留下初聽紀錄，讓後續核對有比較對象。 本文步驟與練習細節為編輯整理。",
+          "example": "編輯示範：記下聽到的地點與一個不確定的片語。",
+          "check": "能指出至少一處不確定。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source-video",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "dictate",
+          "title": "逐句聽寫，聽不清就留空",
+          "action": "播放一句、暫停，寫下聽到的英文；不確定處留空或標問號，先不看字幕。",
+          "why": "保留實際聽到的內容，才能與文本逐句對照。 本文步驟與練習細節為編輯整理。",
+          "example": "編輯示範：寫下 I ___ the station，不猜空格。",
+          "check": "保留自己的原始聽寫與不確定位置。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source-video",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "compare",
+          "title": "逐句對照並分類差異",
+          "action": "打開文本與聽寫比較，把差異標記為陌生詞、認得卻沒聽出、可能的連讀或弱讀；也可標記其他或尚待確認。一處可有多個原因。",
+          "why": "分類有助選擇下一個練習動作，但不是自動診斷。 本文步驟與練習細節為編輯整理。",
+          "example": "編輯示範：認得 to 但沒聽出，可標為認得卻未聽出，再聽是否有弱讀；原因尚待核對。",
+          "check": "每處差異都有初步標記或註明待確認。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source-video",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "relisten",
+          "title": "按卡點回聽，再回到整段",
+          "action": "陌生詞查意思和用法；認得卻未聽出，回放該句辨認聲音；可能的連讀或弱讀，專聽聲音如何連接。最後收起文字再聽整段。",
+          "why": "把查到的文字線索帶回音訊，而非只改正紙上的答案。 本文步驟與練習細節為編輯整理。",
+          "example": "編輯示範：把漏聽的一句單獨回放，記下收起文字後仍不確定之處。",
+          "check": "留下一次回聽觀察與下次要練的一句。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source-video",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "聽寫診斷的練習迴圈",
+          "note": "依機器轉錄編輯整理，尚待聽校。",
+          "nodes": [
+            {
+              "id": "listen",
+              "label": "盲聽",
+              "detail": "抓大意"
+            },
+            {
+              "id": "write",
+              "label": "聽寫",
+              "detail": "留空不猜"
+            },
+            {
+              "id": "compare",
+              "label": "對照分類",
+              "detail": "標記差異"
+            },
+            {
+              "id": "relisten",
+              "label": "回聽",
+              "detail": "依卡點重播"
+            }
+          ],
+          "edges": [
+            {
+              "from": "listen",
+              "to": "write"
+            },
+            {
+              "from": "write",
+              "to": "compare"
+            },
+            {
+              "from": "compare",
+              "to": "relisten"
+            }
+          ]
+        },
+        {
+          "type": "schedule",
+          "title": "編輯補充：練習安排",
+          "note": "依文章步驟整理，可依現場需求調整。",
+          "columns": [
+            "行動",
+            "完成判準"
+          ],
+          "rows": [
+            {
+              "label": "先盲聽抓大意",
+              "cells": [
+                "選一段有英文文本的短音檔，先不看字，聽一遍並記下聽到的詞和大意。",
+                "能指出至少一處不確定。"
+              ]
+            },
+            {
+              "label": "逐句聽寫，聽不清就留空",
+              "cells": [
+                "播放一句、暫停，寫下聽到的英文；不確定處留空或標問號，先不看字幕。",
+                "保留自己的原始聽寫與不確定位置。"
+              ]
+            },
+            {
+              "label": "逐句對照並分類差異",
+              "cells": [
+                "打開文本與聽寫比較，把差異標記為陌生詞、認得卻沒聽出、可能的連讀或弱讀；也可標記其他或尚待確認。一處可有多個原因。",
+                "每處差異都有初步標記或註明待確認。"
+              ]
+            },
+            {
+              "label": "按卡點回聽，再回到整段",
+              "cells": [
+                "陌生詞查意思和用法；認得卻未聽出，回放該句辨認聲音；可能的連讀或弱讀，專聽聲音如何連接。最後收起文字再聽整段。",
+                "留下一次回聽觀察與下次要練的一句。"
+              ]
+            }
+          ]
+        }
+      ],
+      "practice": {
+        "title": "做一張聽寫對照卡",
+        "minutes": 15,
+        "prompt": "編輯設計：選一段短音檔與可核對的英文文本，留下音檔連結。\n初聽大意：\n逐句聽寫（不確定留空）：\n文本對照：\n差異與可能類型（陌生詞／認得但沒聽出／可能連弱讀／其他／待確認）：\n針對卡點做了什麼：\n收起文字再聽的觀察：\n下次先練的一句：",
+        "deliverable": "一張保留原始聽寫、文本對照、分類與回聽觀察的紀錄卡。",
+        "checklist": [
+          "先聽後看字，不確定處保留空格。",
+          "至少一處差異標出可能類型；無法確定可註記待確認。",
+          "針對差異回到音訊，留下再次聽的觀察。",
+          "文本若是自動字幕，留意可能錯誤並與音訊核對。"
+        ]
+      },
+      "pitfalls": [
+        "逐字猜滿空格：不確定就留空，保留真實線索。",
+        "以為每處只能有一種原因：分類可以重疊，也可以暫時標待確認。",
+        "只看文本不回音訊：重新聽句子，檢查聲音與文字是否對得上。",
+        "把自動字幕視為標準答案：必要時查可靠文本或請教師協助核對。"
+      ],
+      "supplements": [
+        {
+          "title": "編輯補充：與口說練習的區別",
+          "text": "此處的成果是逐句聽寫對照與差異分類；既有英語日日聽文章側重提示漸退、跟讀和接話。兩者都包含聽、核對及回聽，但本練習聚焦聲音與文字不一致的位置。",
+          "sourceIds": []
+        }
+      ],
+      "validation": [
+        {
+          "claim": "影片提出先聽、逐句聽寫、對照差異及回聽。",
+          "status": "partial",
+          "explanation": "Whisper base 核心切片支持流程，但有缺段、錯字，尚未人工逐段聽校。",
+          "sourceIds": [
+            "source-video"
+          ],
+          "checkedAt": "2026-10-29"
+        },
+        {
+          "claim": "本練習可保證在固定時間改善聽力。",
+          "status": "unverified",
+          "explanation": "尚無獨立前後測或比較證據；不採用固定時間成效宣稱。",
+          "sourceIds": [
+            "source-video"
+          ],
+          "checkedAt": "2026-10-29"
+        }
+      ],
+      "overview": {
+        "image": "/assets/overviews/dictation-listening-diagnosis-desktop.webp",
+        "mobileImage": "/assets/overviews/dictation-listening-diagnosis-mobile.webp",
+        "cardImage": "/assets/overviews/dictation-listening-diagnosis-desktop.webp",
+        "alt": "阿問陪你盲聽、逐句聽寫、分類差異並回聽卡點。",
+        "caption": "練習與診斷圖為編輯整理；字幕可能有誤，仍須核對音訊與文本。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      },
+      "keywords": [
+        "聽寫",
+        "盲聽",
+        "聽力",
+        "連讀",
+        "弱讀"
+      ],
+      "publishedAt": "2026-10-29T03:31:32+08:00"
+    },
+    {
+      "id": "writing-sentence-clues-scaffold",
+      "title": "寫句子前，先找線索：句型鷹架逐步撤除",
+      "summary": "從句型使用情境和例句找線索，再依學生需要調整提示；字幕尚待人工聽校。",
+      "categoryId": "reading",
+      "topicIds": [
+        "teaching",
+        "learning"
+      ],
+      "audience": "想引導學生練習造句的教師",
+      "output": "一個句型的情境判斷與造句練習",
+      "minutes": 20,
+      "level": "入門",
+      "status": "ready",
+      "contentType": "video_method",
+      "reviewedAt": "2026-10-29",
+      "coverLabel": "情境找線索 · 調整提示",
+      "sourceCoverage": "依 MP3 以 Whisper tiny 轉錄全片，並以 Whisper base 補轉 53:20–58:50 節錄；兩份機器字幕均呈現句型適用情境、例句線索與逐步調整提示，但錯字密集，尚未人工聽校。例句、練習時間、檢查項目及回退支持為編輯設計，未經課堂實測。",
+      "sources": [
+        {
+          "id": "original",
+          "title": "讓學習不再卡關—搭建寫作的鷹架階梯｜高雄市四維國小 林俞君老師",
+          "url": "https://www.youtube.com/watch?v=Xk0xZZJLDJU",
+          "kind": "video",
+          "channel": "謙懿科技",
+          "provider": "youtube",
+          "videoId": "Xk0xZZJLDJU",
+          "note": "Notion 原頁僅為推播索引，教學內容來自尚未聽校的機器字幕。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "認識句型使用情境",
+          "action": "先說明句型的適用情境，讓學生試著判斷情境是否合適。",
+          "why": "依尚未聽校字幕編輯整理，具體示例與檢查項目為編輯設計。",
+          "example": "編輯示範：以「讓……也讓……」思考一次校園活動造成的兩種影響；例型待聽校。",
+          "check": "能說明這個情境是否有兩種影響。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 3200,
+              "endSeconds": 3320
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "從例句找線索",
+          "action": "引導學生標出主體與影響的線索。",
+          "why": "依尚未聽校字幕編輯整理，具體示例與檢查項目為編輯設計。",
+          "example": "編輯示範：在「一場雨讓操場積水，也讓比賽延期」標出一場雨、操場積水與比賽延期。",
+          "check": "能指出主體及兩個結果。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 3340,
+              "endSeconds": 3380
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "拆解新的情境",
+          "action": "從情境找出造成影響的事物與相關線索，判斷能否套用。",
+          "why": "依尚未聽校字幕編輯整理，具體示例與檢查項目為編輯設計。",
+          "example": "編輯示範：校園停電，教室變暗，投影機無法使用；圈出停電與兩個結果。",
+          "check": "能說明主體及線索之間的關係。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 3380,
+              "endSeconds": 3400
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "套句框並檢查",
+          "action": "把找到的線索放入句型，再檢查情境與句意是否相符。",
+          "why": "依尚未聽校字幕編輯整理，具體示例與檢查項目為編輯設計。",
+          "example": "編輯示範：校園停電讓教室變暗，也讓投影機無法使用。",
+          "check": "句子完整，兩個結果都能由情境支持。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 3380,
+              "endSeconds": 3406
+            },
+            {
+              "sourceId": "original",
+              "startSeconds": 3326,
+              "endSeconds": 3334
+            }
+          ]
+        },
+        {
+          "id": "step-5",
+          "title": "依學生需要調整提示",
+          "action": "先提供句框和選項，再逐步讓學生自己找線索；卡住時可恢復支持。",
+          "why": "依尚未聽校字幕編輯整理，具體示例與檢查項目為編輯設計。",
+          "example": "編輯示範：先提供主體選項與句框，再僅保留情境供學生判斷。回退支持是編輯建議。",
+          "check": "觀察學生需要哪種提示，作為下次調整依據。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 3430,
+              "endSeconds": 3470
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "編輯整理：從情境到句子",
+          "note": "自動字幕待聽校；步驟與調整提示為編輯整理。",
+          "nodes": [
+            {
+              "id": "n1",
+              "label": "認識句型使用情境",
+              "detail": "先說明句型的適用情境，讓學生試著判斷情境是否合適。"
+            },
+            {
+              "id": "n2",
+              "label": "從例句找線索",
+              "detail": "引導學生標出主體與影響的線索。"
+            },
+            {
+              "id": "n3",
+              "label": "拆解新的情境",
+              "detail": "從情境找出造成影響的事物與相關線索，判斷能否套用。"
+            },
+            {
+              "id": "n4",
+              "label": "套句框並檢查",
+              "detail": "把找到的線索放入句型，再檢查情境與句意是否相符。"
+            },
+            {
+              "id": "n5",
+              "label": "依學生需要調整提示",
+              "detail": "先提供句框和選項，再逐步讓學生自己找線索；卡住時可恢復支持。"
+            }
+          ],
+          "edges": [
+            {
+              "from": "n1",
+              "to": "n2"
+            },
+            {
+              "from": "n2",
+              "to": "n3"
+            },
+            {
+              "from": "n3",
+              "to": "n4"
+            },
+            {
+              "from": "n4",
+              "to": "n5"
+            }
+          ]
+        },
+        {
+          "type": "schedule",
+          "title": "編輯補充：練習安排",
+          "note": "依文章步驟整理，可依現場需求調整。",
+          "columns": [
+            "行動",
+            "完成判準"
+          ],
+          "rows": [
+            {
+              "label": "認識句型使用情境",
+              "cells": [
+                "先說明句型的適用情境，讓學生試著判斷情境是否合適。",
+                "能說明這個情境是否有兩種影響。"
+              ]
+            },
+            {
+              "label": "從例句找線索",
+              "cells": [
+                "引導學生標出主體與影響的線索。",
+                "能指出主體及兩個結果。"
+              ]
+            },
+            {
+              "label": "拆解新的情境",
+              "cells": [
+                "從情境找出造成影響的事物與相關線索，判斷能否套用。",
+                "能說明主體及線索之間的關係。"
+              ]
+            },
+            {
+              "label": "套句框並檢查",
+              "cells": [
+                "把找到的線索放入句型，再檢查情境與句意是否相符。",
+                "句子完整，兩個結果都能由情境支持。"
+              ]
+            },
+            {
+              "label": "依學生需要調整提示",
+              "cells": [
+                "先提供句框和選項，再逐步讓學生自己找線索；卡住時可恢復支持。",
+                "觀察學生需要哪種提示，作為下次調整依據。"
+              ]
+            }
+          ]
+        }
+      ],
+      "practice": {
+        "title": "編輯練習：設計一份句型練習",
+        "minutes": 20,
+        "prompt": "編輯設計：挑選一個句型，準備一個適合的生活情境，標出主體與線索，寫句子並設計不同提示程度。",
+        "deliverable": "一份附提示與檢查問題的造句練習",
+        "checklist": [
+          "說明句型使用情境",
+          "標出主體與線索",
+          "檢查句意符合情境",
+          "準備不同提示程度"
+        ]
+      },
+      "pitfalls": [
+        "把機器字幕意譯當成逐字引用。",
+        "要求所有學生以相同速度撤除提示。",
+        "把單句造句練習宣稱為整篇作文教學。"
+      ],
+      "supplements": [
+        {
+          "title": "編輯觀點：調整支持",
+          "text": "觀察學生在哪一步需要幫助，必要時補回提示；這是編輯建議，並非已驗證的課堂效果。",
+          "sourceIds": [
+            "original"
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "以情境和例句找線索，再逐步減少造句提示。",
+          "status": "partial",
+          "explanation": "自動字幕支持此暫定整理，但詞句與次序尚未人工聽校；不據此宣稱學習效果。",
+          "sourceIds": [
+            "original"
+          ],
+          "checkedAt": "2026-10-29"
+        }
+      ],
+      "keywords": [
+        "造句",
+        "句型",
+        "寫作鷹架",
+        "提示漸退"
+      ],
+      "overview": {
+        "image": "/assets/overviews/writing-sentence-clues-scaffold-desktop.webp",
+        "mobileImage": "/assets/overviews/writing-sentence-clues-scaffold-mobile.webp",
+        "cardImage": "/assets/overviews/writing-sentence-clues-scaffold-desktop.webp",
+        "alt": "阿問陪學生理解句型情境、找線索、套句框並調整提示。",
+        "caption": "例句與卡住時補回提示為編輯設計。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      },
+      "publishedAt": "2026-10-29T03:31:32+08:00"
     }
   ],
   "demo": {
