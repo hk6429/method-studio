@@ -104520,6 +104520,762 @@
         "alt": "把工作焦慮變成準備清單",
         "caption": "依原始來源編輯整理；示範、完成判準與安全調整為編輯補充，圖卡不構成成效證明。"
       }
+    },
+    {
+      "id": "student-ai-two-sentence-story",
+      "title": "學生兩句、AI 兩句：輪流寫故事",
+      "summary": "學生先寫故事開頭，AI 接兩句，再由學生決定是否採用並繼續寫。影片提供輪流接寫構想，本文補上課堂練習與檢查方法。",
+      "categoryId": "ai",
+      "topicIds": [
+        "workflow"
+      ],
+      "audience": "想練習故事寫作的學生與教師",
+      "output": "一段前後連貫、可區分學生文字與 AI 建議的短故事",
+      "minutes": 20,
+      "level": "入門",
+      "status": "ready",
+      "contentType": "video_method",
+      "reviewedAt": "2026-10-28",
+      "coverLabel": "自己先寫 · 輪流接續",
+      "sourceCoverage": "影片約 50 秒；已審讀英語自動字幕，並從 MP3 用 Whisper tiny 重轉字幕，兩份字幕均支持輪流各寫兩句。機器字幕可能有誤，尚未人工聽驗。課堂安排、提示詞、範例與完成判準為編輯設計，未經課堂實測。",
+      "sources": [
+        {
+          "id": "original",
+          "title": "What if AI wasn’t a shortcut, but a learning partner?",
+          "url": "https://www.youtube.com/watch?v=QT3e6x5CZC8",
+          "kind": "video",
+          "channel": "TED",
+          "videoId": "QT3e6x5CZC8"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "選一個角色，自己寫兩句",
+          "action": "選一個角色與小困境，先自己寫出故事的開頭。",
+          "why": "影片示範由學生先寫兩句，再交給 AI 接續。",
+          "example": "編輯示範：小晴在圖書館撿到一本沒有書名的書；打開後，書頁竟出現她今天的名字。",
+          "check": "兩句都由自己完成，能看出角色或故事情境。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 20,
+              "endSeconds": 27
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "請 AI 只接寫兩句",
+          "action": "提供自己的開頭，要求 AI 延續人物與情節，只寫兩句，不替故事收尾。",
+          "why": "來源展示學生兩句、AI 兩句的輪流方式；提示詞為編輯設計。",
+          "example": "編輯示範：請接寫兩句，保留小晴和神祕書本，不要寫結局。",
+          "check": "AI 回覆只有兩句，且沒有改掉已確定的人物設定。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 20,
+              "endSeconds": 40
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "讀完後自己決定並接棒",
+          "action": "先閱讀 AI 的建議，選擇保留、改寫或刪除，再自己接寫兩句。",
+          "why": "來源示範輪流共寫；取捨與檢查步驟為編輯補充。",
+          "example": "編輯示範：把 AI 建議中太快出現的答案改成一個線索，再寫兩句讓小晴決定下一步。",
+          "check": "能說明採用或改寫了什麼，並由自己完成接下來兩句。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 20,
+              "endSeconds": 40
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "讓 AI 再接兩句",
+          "action": "將自己最新接寫的內容交給 AI，請它再接兩句；是否繼續由學生決定。",
+          "why": "來源展示學生與 AI 輪流各寫兩句。",
+          "example": "編輯示範：學生補上小晴走進書架的兩句後，再請 AI 提出兩句可能的後續。",
+          "check": "AI 只接兩句，學生能檢查是否延續先前內容。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 20,
+              "endSeconds": 40
+            }
+          ]
+        },
+        {
+          "id": "step-5",
+          "title": "整理來源並檢查故事",
+          "action": "標記自己的句子與 AI 的建議，朗讀後檢查人物與情節是否連貫。",
+          "why": "來源提出共同寫作；標記及回顧是編輯設計。",
+          "example": "編輯示範：標出一處改寫，寫下「我保留疑問，讓讀者想知道書的秘密」。",
+          "check": "故事前後能讀懂，能區分自己寫的句子及 AI 建議。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "編輯整理：輪流寫故事",
+          "note": "練習與完成判準為編輯設計。",
+          "nodes": [
+            {
+              "id": "n1",
+              "label": "學生先寫",
+              "detail": "兩句開頭"
+            },
+            {
+              "id": "n2",
+              "label": "AI 接兩句",
+              "detail": "延續設定"
+            },
+            {
+              "id": "n3",
+              "label": "學生選擇",
+              "detail": "取捨並再寫兩句"
+            },
+            {
+              "id": "n4",
+              "label": "AI 再接",
+              "detail": "繼續寫兩句"
+            },
+            {
+              "id": "n5",
+              "label": "整理回顧",
+              "detail": "標示來源並檢查"
+            }
+          ],
+          "edges": [
+            {
+              "from": "n1",
+              "to": "n2"
+            },
+            {
+              "from": "n2",
+              "to": "n3"
+            },
+            {
+              "from": "n3",
+              "to": "n4"
+            },
+            {
+              "from": "n4",
+              "to": "n5"
+            }
+          ]
+        },
+        {
+          "type": "schedule",
+          "title": "編輯補充：練習安排",
+          "note": "依文章步驟整理，可依現場需求調整。",
+          "columns": [
+            "行動",
+            "完成判準"
+          ],
+          "rows": [
+            {
+              "label": "選一個角色，自己寫兩句",
+              "cells": [
+                "選一個角色與小困境，先自己寫出故事的開頭。",
+                "兩句都由自己完成，能看出角色或故事情境。"
+              ]
+            },
+            {
+              "label": "請 AI 只接寫兩句",
+              "cells": [
+                "提供自己的開頭，要求 AI 延續人物與情節，只寫兩句，不替故事收尾。",
+                "AI 回覆只有兩句，且沒有改掉已確定的人物設定。"
+              ]
+            },
+            {
+              "label": "讀完後自己決定並接棒",
+              "cells": [
+                "先閱讀 AI 的建議，選擇保留、改寫或刪除，再自己接寫兩句。",
+                "能說明採用或改寫了什麼，並由自己完成接下來兩句。"
+              ]
+            },
+            {
+              "label": "讓 AI 再接兩句",
+              "cells": [
+                "將自己最新接寫的內容交給 AI，請它再接兩句；是否繼續由學生決定。",
+                "AI 只接兩句，學生能檢查是否延續先前內容。"
+              ]
+            },
+            {
+              "label": "整理來源並檢查故事",
+              "cells": [
+                "標記自己的句子與 AI 的建議，朗讀後檢查人物與情節是否連貫。",
+                "故事前後能讀懂，能區分自己寫的句子及 AI 建議。"
+              ]
+            }
+          ]
+        }
+      ],
+      "practice": {
+        "title": "編輯練習：完成一段短故事",
+        "minutes": 20,
+        "prompt": "我們輪流寫適合國中生的故事。我先寫兩句，請只接兩句，延續人物與情節，不要寫完結局。我的兩句：＿＿。",
+        "deliverable": "能說明自己取捨的一段短故事",
+        "checklist": [
+          "自己完成開頭",
+          "AI 每次只接兩句",
+          "檢查人物與情節",
+          "標記自己文字與 AI 建議"
+        ]
+      },
+      "pitfalls": [
+        "讓 AI 直接寫完故事，自己沒有做選擇。",
+        "未檢查 AI 是否改變人物設定或產出不適合內容。",
+        "在未確認規範時輸入學生個資。"
+      ],
+      "supplements": [
+        {
+          "title": "編輯觀點：課堂運用",
+          "text": "教師先示範閱讀與取捨，再讓學生標記自己的句子和 AI 的建議；可選不含個資的題材。",
+          "sourceIds": [
+            "original"
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "輪流接寫可作為故事寫作練習。",
+          "status": "unverified",
+          "explanation": "影片是做法展示，本練習未經課堂實測，沒有獨立效果證據。",
+          "sourceIds": [
+            "original"
+          ],
+          "checkedAt": "2026-10-28"
+        }
+      ],
+      "keywords": [
+        "寫作",
+        "共寫",
+        "AI 學習夥伴",
+        "故事"
+      ],
+      "overview": {
+        "image": "/assets/overviews/student-ai-two-sentence-story-desktop.webp",
+        "mobileImage": "/assets/overviews/student-ai-two-sentence-story-mobile.webp",
+        "cardImage": "/assets/overviews/student-ai-two-sentence-story-desktop.webp",
+        "alt": "以澄陪學生先寫兩句、AI 接寫兩句，再由學生判斷並繼續。",
+        "caption": "輪流共寫的課堂練習由編輯設計；影片示範不代表成效已驗證。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      },
+      "publishedAt": "2026-10-29T02:26:02+08:00"
+    },
+    {
+      "id": "describe-unknown-word",
+      "title": "英文卡詞時，先用知道的話描述",
+      "summary": "想不起物品的英文名稱時，先用已知的詞說用途與特徵，說完再查證。",
+      "categoryId": "english",
+      "topicIds": [
+        "speaking",
+        "habits"
+      ],
+      "level": "入門",
+      "minutes": 10,
+      "output": "一件物品的英文描述及查證紀錄",
+      "audience": "想練習英語口說的學習者",
+      "status": "ready",
+      "contentType": "video_method",
+      "reviewedAt": "2026-10-29",
+      "coverLabel": "英語口說 · 描述物品",
+      "keywords": [
+        "英文",
+        "口說",
+        "描述",
+        "詞彙"
+      ],
+      "sourceCoverage": "指定 Notion 頁收錄影片；已對 MP3 全片以 Whisper tiny 轉錄，另用 Whisper base 轉錄 19:00–20:50 節錄。兩份機器字幕均可辨講者提議用簡單英文解釋不會說的物品；字幕有錯字，尚未人工聽校或觀看畫面。雨傘示例、查證及紀錄為編輯延伸。",
+      "sources": [
+        {
+          "id": "original",
+          "title": "以基礎詞彙練習英語口說",
+          "kind": "video",
+          "url": "https://www.youtube.com/watch?v=CjwrnLGzHWo",
+          "channel": "brain 學霸",
+          "videoId": "CjwrnLGzHWo"
+        }
+      ],
+      "steps": [
+        {
+          "id": "choose",
+          "title": "選一個物品",
+          "action": "挑選一件想描述卻一時想不起英文名稱的物品，觀察它的用途與外形。",
+          "why": "影片提出用簡單英文解釋不知道英文名稱的物品。",
+          "example": "編輯示範：選擇雨傘。",
+          "check": "能指出要描述的物品。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 1187,
+              "endSeconds": 1212
+            }
+          ]
+        },
+        {
+          "id": "purpose",
+          "title": "先說用途",
+          "action": "用已知的英文說物品做什麼；想不到完整句子時，先列關鍵字再試著組句。",
+          "why": "先使用熟悉的詞表達意思。",
+          "example": "編輯示範：It keeps me dry.",
+          "check": "留下一句自己的用途描述。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 1187,
+              "endSeconds": 1212
+            }
+          ]
+        },
+        {
+          "id": "clue",
+          "title": "再補一個線索",
+          "action": "補充外觀、動作或使用情境，讓聽者試著猜；依能力調整準備時間。",
+          "why": "來源提議用簡單英文描述物品；猜測及線索分類為編輯設計。",
+          "example": "編輯示範：I use it in the rain.",
+          "check": "描述包含用途及另一個線索。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 1187,
+              "endSeconds": 1212
+            }
+          ]
+        },
+        {
+          "id": "check",
+          "title": "查證並記錄",
+          "action": "說完後查字典或請可信的對象協助確認名稱與句子，記下原本說法及修正。",
+          "why": "查證與紀錄為編輯延伸，幫助檢查臨時組出的用法。",
+          "example": "編輯示範：查到雨傘的英文 umbrella。",
+          "check": "記下一個經查證的名稱與修正版本。",
+          "contribution": "editorial",
+          "sourceRefs": []
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "英文卡詞時的描述練習",
+          "note": "依影片方法整理；雨傘示例、線索分類與查證為編輯設計。",
+          "nodes": [
+            {
+              "id": "choose",
+              "label": "選物品",
+              "detail": "找一件想不起英文名稱的物品"
+            },
+            {
+              "id": "purpose",
+              "label": "說用途",
+              "detail": "用已知英文先說用途"
+            },
+            {
+              "id": "clue",
+              "label": "補線索",
+              "detail": "加上外形、動作或情境"
+            },
+            {
+              "id": "check",
+              "label": "查證",
+              "detail": "核對名稱與句子"
+            }
+          ],
+          "edges": [
+            {
+              "from": "choose",
+              "to": "purpose"
+            },
+            {
+              "from": "purpose",
+              "to": "clue"
+            },
+            {
+              "from": "clue",
+              "to": "check"
+            }
+          ]
+        },
+        {
+          "type": "schedule",
+          "title": "編輯補充：練習安排",
+          "note": "依文章步驟整理，可依現場需求調整。",
+          "columns": [
+            "行動",
+            "完成判準"
+          ],
+          "rows": [
+            {
+              "label": "選一個物品",
+              "cells": [
+                "挑選一件想描述卻一時想不起英文名稱的物品，觀察它的用途與外形。",
+                "能指出要描述的物品。"
+              ]
+            },
+            {
+              "label": "先說用途",
+              "cells": [
+                "用已知的英文說物品做什麼；想不到完整句子時，先列關鍵字再試著組句。",
+                "留下一句自己的用途描述。"
+              ]
+            },
+            {
+              "label": "再補一個線索",
+              "cells": [
+                "補充外觀、動作或使用情境，讓聽者試著猜；依能力調整準備時間。",
+                "描述包含用途及另一個線索。"
+              ]
+            },
+            {
+              "label": "查證並記錄",
+              "cells": [
+                "說完後查字典或請可信的對象協助確認名稱與句子，記下原本說法及修正。",
+                "記下一個經查證的名稱與修正版本。"
+              ]
+            }
+          ]
+        }
+      ],
+      "practice": {
+        "title": "編輯練習：描述一件物品",
+        "minutes": 10,
+        "prompt": "選一件不會說英文名稱的物品，用一至兩句已知英文描述用途或特徵；說完後查證並記下修正。",
+        "deliverable": "一件物品的描述及查證紀錄",
+        "checklist": [
+          "選定一件物品。",
+          "試說用途及另一個線索。",
+          "說完再查證名稱與句子。",
+          "留下原說法和一個修正版本。"
+        ]
+      },
+      "pitfalls": [
+        "因為想不起精確單字而完全停止表達。",
+        "把猜出物品當成完整的英語能力評量。",
+        "未查證就把自己臨時組出的句子當作固定用法。"
+      ],
+      "supplements": [
+        {
+          "title": "編輯觀點：先溝通，再查證",
+          "text": "描述是卡詞時可嘗試的溝通策略，練完仍可查字典補上準確名稱。",
+          "sourceIds": [
+            "original"
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "此練習保證快速提升英語流利度",
+          "status": "unverified",
+          "explanation": "影片提出練習建議；本文的練習及效果未經獨立驗證，不保證成效。",
+          "sourceIds": [
+            "original"
+          ],
+          "checkedAt": "2026-10-29"
+        }
+      ],
+      "overview": {
+        "image": "/assets/overviews/describe-unknown-word-desktop.webp",
+        "mobileImage": "/assets/overviews/describe-unknown-word-mobile.webp",
+        "cardImage": "/assets/overviews/describe-unknown-word-desktop.webp",
+        "alt": "以澄用雨傘示範英文卡詞時先描述用途。",
+        "caption": "雨傘例句與查證步驟為編輯設計。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      },
+      "publishedAt": "2026-10-29T02:26:02+08:00"
+    },
+    {
+      "id": "goldlist-context-review",
+      "title": "把真正遇到的英文語塊整理成清單",
+      "summary": "從讀過或聽過的內容挑語塊，記下意思與例句；隔一段時間先回想，再留下不熟的項目。",
+      "categoryId": "english",
+      "topicIds": [
+        "speaking",
+        "habits"
+      ],
+      "level": "入門",
+      "minutes": 15,
+      "output": "一份有來源、例句與回看紀錄的語塊清單",
+      "audience": "想整理與複習英語語塊的學習者",
+      "status": "ready",
+      "contentType": "video_method",
+      "reviewedAt": "2026-10-29",
+      "coverLabel": "英文語塊 · 清單複習",
+      "keywords": [
+        "英文",
+        "語塊",
+        "間隔回想",
+        "清單"
+      ],
+      "sourceCoverage": "指定 Notion 頁收錄的影片 MP3 全片以 Whisper tiny 轉錄，另用 base 轉錄 12:45–14:25；兩份機器字幕支持建立清單、先回想及依熟悉度調整複習。影片約 19:00–19:29 的 tiny 字幕說兩週非硬性期限；字幕有錯字，未人工聽校或觀看畫面。練習數量、例句與紀錄為編輯設計。",
+      "sources": [
+        {
+          "id": "original",
+          "title": "學霸都在用的 Goldlist 記憶法",
+          "kind": "video",
+          "url": "https://www.youtube.com/watch?v=Tb3ZMTXGaWM",
+          "channel": "brain 學霸",
+          "videoId": "Tb3ZMTXGaWM"
+        }
+      ],
+      "steps": [
+        {
+          "id": "choose",
+          "title": "挑選真正遇到的語塊",
+          "action": "從文章、影片或對話中，挑一小批理解但還不熟悉的英文表達，保留來源。",
+          "why": "影片建議從自己接觸過的內容挑選清單。",
+          "example": "編輯示範：選一個最近閱讀時遇到的語塊。",
+          "check": "每項都有可回查的來源。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 680,
+              "endSeconds": 705
+            }
+          ]
+        },
+        {
+          "id": "record",
+          "title": "記意思與例句",
+          "action": "寫下英文、中文意思、原始例句，再寫自己的例句或使用情境。",
+          "why": "影片建議保留語塊、意思、原始例句與自己的例子。",
+          "example": "編輯示範：look forward to（期待）；I look forward to the trip.",
+          "check": "清單至少記下一個語塊、意思及例句。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 710,
+              "endSeconds": 724
+            }
+          ]
+        },
+        {
+          "id": "schedule",
+          "title": "排下一次回看",
+          "action": "記下建立清單的日期與下次檢查日期，依自己需要調整間隔。",
+          "why": "影片舉約兩週為例，也說明不必拘泥。",
+          "example": "編輯示範：先依自己的行程選一個回看日，需要時提早。",
+          "check": "每份清單有建立日期及預計回看日。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 1140,
+              "endSeconds": 1169
+            }
+          ]
+        },
+        {
+          "id": "recall",
+          "title": "先回想，再核對",
+          "action": "遮住英文，看中文或情境提示先試著說出；卡住時看答案與例句，再遮住重試。",
+          "why": "影片示範先看提示回想，再檢查答案。",
+          "example": "編輯示範：看到「期待」先試說，再對照 look forward to。",
+          "check": "至少嘗試回想一項，再核對答案。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 783,
+              "endSeconds": 800
+            }
+          ]
+        },
+        {
+          "id": "review",
+          "title": "留下不熟的項目",
+          "action": "將能回想的先放一旁，仍卡住的列為下次重點；必要時回看例句或重新理解。",
+          "why": "影片依熟悉度調整複習的優先順序。",
+          "example": "編輯示範：在不熟的項目旁標記下次再練。",
+          "check": "標記一項已回想或需要再練的項目。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 810,
+              "endSeconds": 835
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "從來源建立語塊清單",
+          "note": "依影片整理；具體數量與示例為編輯設計，回看間隔可調整。",
+          "nodes": [
+            {
+              "id": "choose",
+              "label": "選語塊",
+              "detail": "從接觸的內容挑選"
+            },
+            {
+              "id": "record",
+              "label": "記例句",
+              "detail": "寫意思與使用情境"
+            },
+            {
+              "id": "schedule",
+              "label": "安排回看",
+              "detail": "依需要決定日期"
+            },
+            {
+              "id": "recall",
+              "label": "先回想",
+              "detail": "遮住英文後再核對"
+            },
+            {
+              "id": "review",
+              "label": "留待再練",
+              "detail": "標記不熟的項目"
+            }
+          ],
+          "edges": [
+            {
+              "from": "choose",
+              "to": "record"
+            },
+            {
+              "from": "record",
+              "to": "schedule"
+            },
+            {
+              "from": "schedule",
+              "to": "recall"
+            },
+            {
+              "from": "recall",
+              "to": "review"
+            }
+          ]
+        },
+        {
+          "type": "schedule",
+          "title": "編輯補充：練習安排",
+          "note": "依文章步驟整理，可依現場需求調整。",
+          "columns": [
+            "行動",
+            "完成判準"
+          ],
+          "rows": [
+            {
+              "label": "挑選真正遇到的語塊",
+              "cells": [
+                "從文章、影片或對話中，挑一小批理解但還不熟悉的英文表達，保留來源。",
+                "每項都有可回查的來源。"
+              ]
+            },
+            {
+              "label": "記意思與例句",
+              "cells": [
+                "寫下英文、中文意思、原始例句，再寫自己的例句或使用情境。",
+                "清單至少記下一個語塊、意思及例句。"
+              ]
+            },
+            {
+              "label": "排下一次回看",
+              "cells": [
+                "記下建立清單的日期與下次檢查日期，依自己需要調整間隔。",
+                "每份清單有建立日期及預計回看日。"
+              ]
+            },
+            {
+              "label": "先回想，再核對",
+              "cells": [
+                "遮住英文，看中文或情境提示先試著說出；卡住時看答案與例句，再遮住重試。",
+                "至少嘗試回想一項，再核對答案。"
+              ]
+            },
+            {
+              "label": "留下不熟的項目",
+              "cells": [
+                "將能回想的先放一旁，仍卡住的列為下次重點；必要時回看例句或重新理解。",
+                "標記一項已回想或需要再練的項目。"
+              ]
+            }
+          ]
+        }
+      ],
+      "practice": {
+        "title": "編輯練習：建立一份語塊清單",
+        "minutes": 15,
+        "prompt": "從最近讀過或聽過的內容挑一小批語塊，寫意思與例句並安排回看；下次先回想再核對。",
+        "deliverable": "一份有來源、例句與回看日期的清單",
+        "checklist": [
+          "保留真實來源。",
+          "記下意思與例句。",
+          "安排可調整的回看日期。",
+          "回想、核對並標記不熟項目。"
+        ]
+      },
+      "pitfalls": [
+        "把影片提到的兩週當成適合每個人的硬性期限。",
+        "只反覆看答案，沒有嘗試自己回想。",
+        "將一次回想結果當成永久記住的證明。"
+      ],
+      "supplements": [
+        {
+          "title": "編輯觀點：間隔可以調整",
+          "text": "影片以約兩週為例，也提醒若已經忘得差不多不必等滿兩週；可依自己的需要安排。",
+          "sourceIds": [
+            "original"
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "兩週複習一定能記住英文",
+          "status": "unverified",
+          "explanation": "影片討論的複習安排不保證每位學習者的記憶結果；本文練習未經獨立實測。",
+          "sourceIds": [
+            "original"
+          ],
+          "checkedAt": "2026-10-29"
+        }
+      ],
+      "overview": {
+        "image": "/assets/overviews/goldlist-context-review-desktop.webp",
+        "mobileImage": "/assets/overviews/goldlist-context-review-mobile.webp",
+        "cardImage": "/assets/overviews/goldlist-context-review-desktop.webp",
+        "alt": "知行整理英文語塊清單並在回看後挑出不熟項目。",
+        "caption": "回看間隔依需要調整，步驟與示例經編輯整理。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      },
+      "publishedAt": "2026-10-29T02:26:02+08:00"
     }
   ],
   "demo": {
