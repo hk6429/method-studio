@@ -116664,6 +116664,194 @@
         "mobileHeight": 1600
       },
       "publishedAt": "2026-10-29T07:06:06+08:00"
+    },
+    {
+      "id": "teacher-feedback-ai-student-rewrite",
+      "title": "作文修改：先看教師回饋，再參考 AI 自己重寫",
+      "summary": "從教師指出的一句話出發，參考 AI 建議後保留原意，由學生自己完成修改。",
+      "categoryId": "reading",
+      "topicIds": [
+        "teaching",
+        "strategies"
+      ],
+      "audience": "想陪學生練習作文修改的教師與學生",
+      "output": "一張含原句、回饋、參考及重寫的修改卡",
+      "minutes": 15,
+      "level": "入門",
+      "status": "ready",
+      "contentType": "video_method",
+      "reviewedAt": "2026-10-29",
+      "coverLabel": "寫作教學 · 回饋與重寫",
+      "keywords": [
+        "作文修改",
+        "教師回饋",
+        "AI 輔助",
+        "自主重寫"
+      ],
+      "sourceCoverage": "指定 Notion 影片音訊以 whisper.cpp tiny 自動轉錄全片，字幕錯字較多、尚未逐句人工聽校。訪談中教師分享畫出待修改句子、給方向，讓學生參考 AI 後自己重寫；修改卡、提示詞、示例與檢查步驟為編輯延伸，並無課堂成效證據。",
+      "sources": [
+        {
+          "id": "original",
+          "title": "【老師，你真的命中了！】專訪 國立新竹高中國文老師 詹佳鑫｜美的世界 2026.09.25",
+          "kind": "video",
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=YjyMfqMZzQc",
+          "channel": "中廣流行網 i like radio",
+          "videoId": "YjyMfqMZzQc",
+          "note": "自動字幕尚未逐句人工聽校。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "找出要修改的句子",
+          "action": "選一句自己的原句，記下教師圈選的地方與修改建議。",
+          "why": "影片中教師描述畫出句子，並給學生具體修改方向。",
+          "example": "編輯假設示範：原句『我站在操場上，很緊張。』教師建議用身體感受呈現。",
+          "check": "卡片上有原句及一項修改方向。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 1664,
+              "endSeconds": 1683
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "請 AI 提供參考",
+          "action": "提供原句和修改方向，請 AI 給一個參考版本及修改說明；不要求它補造原文沒有的事實。",
+          "why": "講者分享學生可把原句交給 AI 取得修改參考。",
+          "example": "編輯提示：『依老師建議，提供一個表達方式，說明改了哪裡；不要替我添加經歷。』",
+          "check": "能指出參考版本改了什麼。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 1680,
+              "endSeconds": 1700
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "參考後自己重寫",
+          "action": "比較兩句，圈出可借用的表達方式，再暫時蓋住 AI 版本，依自己的意思重寫。",
+          "why": "講者強調學生參考後自行重寫，而不是照抄 AI 範本。",
+          "example": "編輯假設示範：依自己的感受描寫緊張，而不是直接複製參考句。",
+          "check": "新句由自己完成，並能說明修改理由。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 1680,
+              "endSeconds": 1705
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "檢查原意與真實細節",
+          "action": "比對原句和重寫句，確認原意未改、細節符合自己的經驗；刪除 AI 補出的不實內容，保留過程與教師討論。",
+          "why": "保留原意和核對細節是編輯補充，讓 AI 參考不取代作者判斷。",
+          "example": "編輯示範：若沒有冒汗，就不採用 AI 加上的『掌心冒汗』。",
+          "check": "留下原句、回饋、參考句和自己重寫的句子。",
+          "contribution": "editorial",
+          "sourceRefs": []
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "參考後由自己重寫",
+          "note": "修改卡與查核步驟為編輯延伸。",
+          "nodes": [
+            {
+              "id": "n1",
+              "label": "圈出原句",
+              "detail": "記下教師建議"
+            },
+            {
+              "id": "n2",
+              "label": "參考 AI 版本",
+              "detail": "說明改動之處"
+            },
+            {
+              "id": "n3",
+              "label": "自己重寫",
+              "detail": "保留原意"
+            },
+            {
+              "id": "n4",
+              "label": "檢查細節",
+              "detail": "與老師討論"
+            }
+          ],
+          "edges": [
+            {
+              "from": "n1",
+              "to": "n2"
+            },
+            {
+              "from": "n2",
+              "to": "n3"
+            },
+            {
+              "from": "n3",
+              "to": "n4"
+            }
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "使用 AI 修改句子一定能提升作文能力。",
+          "status": "unverified",
+          "explanation": "影片分享教師做法，未提供本文活動的獨立成效證據。",
+          "sourceIds": [
+            "original"
+          ],
+          "checkedAt": "2026-10-29"
+        }
+      ],
+      "pitfalls": [
+        "不要直接照抄 AI 版本，應由學生決定如何重寫。",
+        "AI 可能添加不符合原意或不存在的細節，要逐項核對。",
+        "使用外部 AI 時遵守學校規範，避免提供不必要的學生個資。"
+      ],
+      "practice": {
+        "title": "單句修改卡",
+        "minutes": 15,
+        "prompt": "編輯設計：寫下原句與教師建議，請 AI 提供一個參考及說明；蓋住參考句後自己重寫，再檢查原意與真實細節。",
+        "deliverable": "含原句、回饋、參考與重寫的修改卡",
+        "checklist": [
+          "記下教師具體建議",
+          "指出參考句改動",
+          "由自己重寫",
+          "核對原意與真實細節"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "編輯補充：修改卡欄位",
+          "text": "原句：＿＿；教師建議：＿＿；AI 參考：＿＿；我自己重寫：＿＿；我保留及調整的地方：＿＿。",
+          "sourceIds": []
+        }
+      ],
+      "overview": {
+        "image": "/assets/overviews/rewrite-feedback-desktop.webp",
+        "mobileImage": "/assets/overviews/rewrite-feedback-mobile.webp",
+        "cardImage": "/assets/overviews/rewrite-feedback-desktop.webp",
+        "alt": "以澄與小硯依教師回饋、參考 AI，再由學生自己重寫句子。",
+        "caption": "修改卡和假設示例為編輯延伸。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      },
+      "publishedAt": "2026-10-29T07:09:23+08:00"
     }
   ],
   "demo": {
