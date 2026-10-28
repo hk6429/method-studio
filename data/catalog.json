@@ -113294,7 +113294,7 @@
       "contentType": "article_method",
       "reviewedAt": "2026-10-29",
       "coverLabel": "閱讀與學習 · 實作練習",
-      "sourceCoverage": "指定 Notion Podcast 以 Whisper tiny 轉錄全片，並以 base 補轉約 57:30–1:01:10；尚未逐句人工聽校。講者分享 School 42 提供題目與材料、強調自學及與不同夥伴共學；比較卡、操作步驟與練習示例為編輯延伸。",
+      "sourceCoverage": "指定 Notion Podcast 以 Whisper tiny 轉錄全片，並以 base 補轉約 57:30–1:01:10；全片字幕末尾約 5.2 秒未產出文字，尚未逐句人工聽校。講者分享 School 42 提供題目與材料、強調自學及與不同夥伴共學；比較卡、操作步驟與練習示例為編輯延伸。",
       "sources": [
         {
           "id": "original",
@@ -113508,6 +113508,238 @@
         "mobileHeight": 1600
       },
       "publishedAt": "2026-10-29T05:39:20+08:00"
+    },
+    {
+      "id": "practice-method-use-on-day",
+      "title": "練習時學方法，表現時先把方法用出來",
+      "summary": "先選一個想改善的目標，平常練一項具體方法，正式表現時專注使用，之後再回看調整。",
+      "categoryId": "reading",
+      "topicIds": [
+        "strategies"
+      ],
+      "audience": "準備考試、上台或其他學習任務的學生與教師",
+      "output": "一張目標、練習方法與回看紀錄",
+      "minutes": 15,
+      "level": "入門",
+      "status": "ready",
+      "contentType": "article_method",
+      "reviewedAt": "2026-10-29",
+      "coverLabel": "學習練習 · 具體方法",
+      "sourceCoverage": "指定 Notion 的 Podcast 音訊以 Whisper tiny 轉錄全片，並以 base 補轉約 08:30–11:50；全片字幕末尾約 4.5 秒未產出文字，尚未逐句人工聽校。陳泰廷分享運動員平時練方法、比賽時把已練的方法用出來；本文將此觀點延伸至學習與考試，目標卡與例子均為編輯設計。",
+      "sources": [
+        {
+          "id": "original",
+          "title": "在充滿挫敗與焦慮的現場：運動心理師陳泰廷談逆境",
+          "kind": "article",
+          "url": "https://open.firstory.fm/story/cmuwpb6t605kv01ragi432c49",
+          "channel": "翻轉教育 Podcast",
+          "note": "教育 Know-how EP.65；約 08:30–11:50 談平常練方法與比賽時使用。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "選一個想改善的目標",
+          "action": "寫下自己近期想完成的學習任務，以及希望改善的一個具體部分。",
+          "why": "講者以運動比賽目標說明平日練習的方向；學習情境為編輯延伸。",
+          "example": "編輯示範：希望在閱讀題作答時能指出答案依據。",
+          "check": "目標能寫成一個看得見的行動。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "平常練一個方法",
+          "action": "選一項與目標有關的方法，在練習時反覆嘗試並記下卡點。",
+          "why": "講者強調平時練習技巧與調整能力。",
+          "example": "編輯示範：練習圈出題幹關鍵詞，再回文章找句子。",
+          "check": "完成一次練習並記下是否能做到。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "當下先用方法",
+          "action": "正式作答或表現時，提醒自己運用已練過的步驟，逐題處理眼前任務。",
+          "why": "講者主張比賽時關注如何運用平日練習的方法。",
+          "example": "編輯示範：看到閱讀題時，先圈關鍵詞再找依據。",
+          "check": "能說出當下準備使用的具體步驟。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "事後回看再調整",
+          "action": "任務結束後，比較自己做了什麼、哪裡卡住；選一處帶回下一次練習。",
+          "why": "事後紀錄與學習情境為編輯延伸。",
+          "example": "編輯示範：發現找依據花太久，下次先練一小段文章。",
+          "check": "記下一個已做到的行動和一項可調整之處。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "編輯整理：從練習到使用",
+          "note": "學習情境與回看方式為編輯延伸。",
+          "nodes": [
+            {
+              "id": "step-1",
+              "label": "選一個想改善的目標",
+              "detail": "寫下自己近期想完成的學習任務，以及希望改善的一個具體部分。"
+            },
+            {
+              "id": "step-2",
+              "label": "平常練一個方法",
+              "detail": "選一項與目標有關的方法，在練習時反覆嘗試並記下卡點。"
+            },
+            {
+              "id": "step-3",
+              "label": "當下先用方法",
+              "detail": "正式作答或表現時，提醒自己運用已練過的步驟，逐題處理眼前任務。"
+            },
+            {
+              "id": "step-4",
+              "label": "事後回看再調整",
+              "detail": "任務結束後，比較自己做了什麼、哪裡卡住；選一處帶回下一次練習。"
+            }
+          ],
+          "edges": [
+            {
+              "from": "step-1",
+              "to": "step-2"
+            },
+            {
+              "from": "step-2",
+              "to": "step-3"
+            },
+            {
+              "from": "step-3",
+              "to": "step-4"
+            }
+          ]
+        },
+        {
+          "type": "schedule",
+          "title": "編輯補充：方法練習卡",
+          "note": "依任務需要調整。",
+          "columns": [
+            "行動",
+            "完成判準"
+          ],
+          "rows": [
+            {
+              "label": "選一個想改善的目標",
+              "cells": [
+                "寫下自己近期想完成的學習任務，以及希望改善的一個具體部分。",
+                "目標能寫成一個看得見的行動。"
+              ]
+            },
+            {
+              "label": "平常練一個方法",
+              "cells": [
+                "選一項與目標有關的方法，在練習時反覆嘗試並記下卡點。",
+                "完成一次練習並記下是否能做到。"
+              ]
+            },
+            {
+              "label": "當下先用方法",
+              "cells": [
+                "正式作答或表現時，提醒自己運用已練過的步驟，逐題處理眼前任務。",
+                "能說出當下準備使用的具體步驟。"
+              ]
+            },
+            {
+              "label": "事後回看再調整",
+              "cells": [
+                "任務結束後，比較自己做了什麼、哪裡卡住；選一處帶回下一次練習。",
+                "記下一個已做到的行動和一項可調整之處。"
+              ]
+            }
+          ]
+        }
+      ],
+      "practice": {
+        "title": "編輯練習：寫一張方法卡",
+        "minutes": 15,
+        "prompt": "選一個近期學習任務，寫下要練的具體方法，試做後記下當下是否用到與下一步調整。",
+        "deliverable": "一個目標、一項方法與一則回看紀錄",
+        "checklist": [
+          "目標可轉成具體行動。",
+          "先練一個方法。",
+          "表現時嘗試使用。",
+          "事後回看並選一處調整。"
+        ]
+      },
+      "pitfalls": [
+        "只提醒自己要成功，卻沒有想好可以怎麼做。",
+        "把一次結果直接當成能力的全部。",
+        "以為使用方法就一定得到想要的結果。"
+      ],
+      "supplements": [
+        {
+          "title": "編輯提示：先選小步驟",
+          "text": "任務複雜時可以先選一個能練習的動作，視實際情況再調整。",
+          "sourceIds": [
+            "original"
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "只要使用練過的方法，就一定能贏或考好",
+          "status": "unverified",
+          "explanation": "結果受到許多因素影響；方法卡是協助安排練習，不能保證結果。",
+          "sourceIds": [
+            "original"
+          ],
+          "checkedAt": "2026-10-29"
+        }
+      ],
+      "keywords": [
+        "學習練習",
+        "方法運用",
+        "回看調整",
+        "考試準備"
+      ],
+      "overview": {
+        "image": "/assets/overviews/practice-use-desktop.webp",
+        "mobileImage": "/assets/overviews/practice-use-mobile.webp",
+        "cardImage": "/assets/overviews/practice-use-desktop.webp",
+        "alt": "知行與阿問一起練習並運用方法。",
+        "caption": "學習例子與方法卡為編輯延伸。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      },
+      "publishedAt": "2026-10-29T05:45:58+08:00"
     }
   ],
   "demo": {
