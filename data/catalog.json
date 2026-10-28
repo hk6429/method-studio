@@ -110939,6 +110939,240 @@
         "mobileHeight": 1600
       },
       "publishedAt": "2026-10-29T04:43:06+08:00"
+    },
+    {
+      "id": "ai-challenge-study-plan",
+      "title": "學習計畫先自己寫，再請 AI 找漏洞",
+      "summary": "先提出自己的讀書計畫，請 AI 指出可能失敗的地方；查證疑點、調整後，由自己決定下一步。",
+      "categoryId": "ai",
+      "topicIds": [
+        "workflow"
+      ],
+      "audience": "想用 AI 檢查讀書或教學方案的學習者與教師",
+      "output": "一張計畫、疑點與修正紀錄",
+      "minutes": 20,
+      "level": "入門",
+      "status": "ready",
+      "contentType": "video_method",
+      "reviewedAt": "2026-10-29",
+      "coverLabel": "AI 思考 · 計畫檢查",
+      "sourceCoverage": "指定 Notion 影片以 Whisper tiny 轉錄全片，並以 base 補轉約 3:15:20–3:18:10；尚未逐句人工聽校。講者建議先形成初步決定，再請 AI 攻擊方案、修正並自行決定；讀書計畫、查證表與提示詞為編輯延伸。",
+      "sources": [
+        {
+          "id": "original",
+          "title": "【3.5小時完整大課】如何實現極致清晰的思考：AI時代你一生必看的一期認知重構影片",
+          "kind": "video",
+          "url": "https://www.youtube.com/watch?v=EIPP7uJgufc",
+          "channel": "李哈利 Harry Lee AI",
+          "note": "約 3:15–3:18 討論自行判斷與 AI 找方案漏洞。",
+          "videoId": "EIPP7uJgufc",
+          "provider": "youtube"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "先寫出自己的計畫",
+          "action": "挑一個學習目標，寫下你打算做的事、時間與完成判準。",
+          "why": "講者建議先形成初步決定。",
+          "example": "編輯示範：本週安排三次，每次練習一小段課文。",
+          "check": "計畫至少寫出行動、時間與完成方式。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "請 AI 找出疑點",
+          "action": "提供必要背景，請 AI 指出計畫可能遇到的限制、失敗情境與需要確認的假設。",
+          "why": "講者提議讓 AI 挑戰自己的計畫。",
+          "example": "編輯提示詞：「請挑戰這份計畫，列出三個可能的漏洞，並說明需要核對什麼。」",
+          "check": "收到可檢查的具體疑點，而非只有讚美。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "逐項查證並修正",
+          "action": "回到自己的時間表、教材與可用資源，檢查疑點是否成立，再改動計畫。",
+          "why": "查證方式與表格為編輯延伸，AI 的疑點仍可能出錯。",
+          "example": "編輯示範：發現週三已有活動，將練習調整到週四。",
+          "check": "至少記錄一項確認結果及是否修改的理由。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "自己決定下一步",
+          "action": "比較原計畫與修正版本，選擇要嘗試的版本，並約定回頭檢查的時間。",
+          "why": "講者強調最終仍由自己做決定。",
+          "example": "編輯示範：先試一週，再檢查完成紀錄。",
+          "check": "寫下自己的選擇與回顧時間。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "編輯整理：讓 AI 挑戰計畫",
+          "note": "AI 提出的疑點需要自己查證。",
+          "nodes": [
+            {
+              "id": "step-1",
+              "label": "先寫出自己的計畫",
+              "detail": "挑一個學習目標，寫下你打算做的事、時間與完成判準。"
+            },
+            {
+              "id": "step-2",
+              "label": "請 AI 找出疑點",
+              "detail": "提供必要背景，請 AI 指出計畫可能遇到的限制、失敗情境與需要確認的假設。"
+            },
+            {
+              "id": "step-3",
+              "label": "逐項查證並修正",
+              "detail": "回到自己的時間表、教材與可用資源，檢查疑點是否成立，再改動計畫。"
+            },
+            {
+              "id": "step-4",
+              "label": "自己決定下一步",
+              "detail": "比較原計畫與修正版本，選擇要嘗試的版本，並約定回頭檢查的時間。"
+            }
+          ],
+          "edges": [
+            {
+              "from": "step-1",
+              "to": "step-2"
+            },
+            {
+              "from": "step-2",
+              "to": "step-3"
+            },
+            {
+              "from": "step-3",
+              "to": "step-4"
+            }
+          ]
+        },
+        {
+          "type": "schedule",
+          "title": "編輯補充：計畫檢查表",
+          "note": "完成判準為編輯設計。",
+          "columns": [
+            "行動",
+            "完成判準"
+          ],
+          "rows": [
+            {
+              "label": "先寫出自己的計畫",
+              "cells": [
+                "挑一個學習目標，寫下你打算做的事、時間與完成判準。",
+                "計畫至少寫出行動、時間與完成方式。"
+              ]
+            },
+            {
+              "label": "請 AI 找出疑點",
+              "cells": [
+                "提供必要背景，請 AI 指出計畫可能遇到的限制、失敗情境與需要確認的假設。",
+                "收到可檢查的具體疑點，而非只有讚美。"
+              ]
+            },
+            {
+              "label": "逐項查證並修正",
+              "cells": [
+                "回到自己的時間表、教材與可用資源，檢查疑點是否成立，再改動計畫。",
+                "至少記錄一項確認結果及是否修改的理由。"
+              ]
+            },
+            {
+              "label": "自己決定下一步",
+              "cells": [
+                "比較原計畫與修正版本，選擇要嘗試的版本，並約定回頭檢查的時間。",
+                "寫下自己的選擇與回顧時間。"
+              ]
+            }
+          ]
+        }
+      ],
+      "practice": {
+        "title": "編輯練習：檢查一週讀書計畫",
+        "minutes": 20,
+        "prompt": "寫下自己的短期讀書計畫，請 AI 找出疑點，再核對時間與資源，記錄修正和自己的決定。",
+        "deliverable": "原計畫、一個查證結果與修正後的下一步",
+        "checklist": [
+          "先寫自己的方案。",
+          "請 AI 提出具體疑點。",
+          "對照實際時間與資源查證。",
+          "由自己決定並訂回顧時間。"
+        ]
+      },
+      "pitfalls": [
+        "把 AI 指出的每個漏洞都當成事實。",
+        "沒有提供必要背景，卻直接採用 AI 的結論。",
+        "把包含個資或敏感資訊的計畫直接貼入未經確認的服務。"
+      ],
+      "supplements": [
+        {
+          "title": "編輯提示：保留兩版",
+          "text": "留下原計畫與修正版，回顧時比較哪些假設成立；AI 也可能漏掉問題。",
+          "sourceIds": [
+            "original"
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "AI 找過漏洞後，計畫就一定會成功",
+          "status": "unverified",
+          "explanation": "AI 回覆可能遺漏或誤判，計畫仍需依實際情況查證與調整。",
+          "sourceIds": [
+            "original"
+          ],
+          "checkedAt": "2026-10-29"
+        }
+      ],
+      "keywords": [
+        "AI 思考",
+        "學習計畫",
+        "方案檢查",
+        "自主判斷"
+      ],
+      "overview": {
+        "image": "/assets/overviews/ai-redteam-desktop.webp",
+        "mobileImage": "/assets/overviews/ai-redteam-mobile.webp",
+        "cardImage": "/assets/overviews/ai-redteam-desktop.webp",
+        "alt": "阿問與小硯一起檢查學習計畫。",
+        "caption": "查證表與讀書計畫範例為編輯延伸。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      },
+      "publishedAt": "2026-10-29T04:49:47+08:00"
     }
   ],
   "demo": {
