@@ -113974,6 +113974,239 @@
         "mobileHeight": 1600
       },
       "publishedAt": "2026-10-29T05:59:03+08:00"
+    },
+    {
+      "id": "ask-before-learning-setback-talk",
+      "title": "學習受挫時，先確認孩子願不願意談",
+      "summary": "先觀察與傾聽，詢問孩子是否想談；若想休息，約定時間後再確認意願。",
+      "categoryId": "reading",
+      "topicIds": [
+        "parenting",
+        "teaching"
+      ],
+      "audience": "陪伴孩子面對學習挫折的教師與家長",
+      "output": "一段尊重孩子意願的對話與後續約定",
+      "minutes": 10,
+      "level": "入門",
+      "status": "ready",
+      "contentType": "article_method",
+      "reviewedAt": "2026-10-29",
+      "coverLabel": "親師陪伴 · 學習挫折",
+      "sourceCoverage": "指定 Notion 的 Podcast 為親子天下與安麗希望工場慈善基金會合作特別企劃；使用 Whisper tiny 轉錄全片，並以 tiny、base 補轉約 27:40–29:00。全片字幕末尾約 12 秒未產出文字，尚未逐句人工聽校。講者分享確認情緒與溝通意願、約定稍後再談；考試情境、示例句與可拒絕的安排為編輯延伸。",
+      "sources": [
+        {
+          "id": "original",
+          "title": "特別企劃：當孩子遇到挫折時，大人可以怎麼陪伴？",
+          "kind": "article",
+          "url": "https://player.soundon.fm/p/f5ef415f-481b-4374-a939-1dfb794d847e/episodes/74d68b5e-ec71-40e7-824e-29cbdceefbf4",
+          "channel": "親子天下 Podcast",
+          "note": "與安麗希望工場慈善基金會合作；約 27:40–29:00 討論確認意願及稍後再談。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "先觀察與傾聽",
+          "action": "注意孩子的狀態，先不急著分析問題；讓他有空間表達或暫時沉默。",
+          "why": "講者分享先觀察、傾聽及理解孩子的情緒和需要。",
+          "example": "編輯示範：孩子考後沉默，先安靜陪伴。",
+          "check": "不替孩子斷言感受，也接受暫時不回答。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "問現在願不願意聊",
+          "action": "溫和詢問孩子是否想談，並尊重他選擇不談或晚點談。",
+          "why": "講者示範確認孩子的情緒及溝通意願。",
+          "example": "編輯示範：「你現在想聊聊，還是想先休息？」",
+          "check": "孩子可以拒絕、沉默或提出自己的想法。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "一起約定休息時間",
+          "action": "若孩子願意稍後再談，一起商量雙方可行的時間；不預設每個人都要一樣久。",
+          "why": "講者示範約定短暫退開後再回來；節目中的分鐘數只是例子。",
+          "example": "編輯示範：「我們晚一點再問問看，好嗎？」",
+          "check": "若雙方願意，能說出約定的下一個時間。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "再確認意願與下一步",
+          "action": "到約定時間先問孩子是否願意聊；如果願意，再一起找一個想處理的困難。",
+          "why": "講者分享回來後再次詢問；考試情境與下一步為編輯延伸。",
+          "example": "編輯示範：「現在想聊這次考試嗎？還是要再晚一點？」",
+          "check": "尊重孩子回答；不以必須同意談話作為完成標準。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "編輯整理：先確認意願",
+          "note": "休息時間依雙方情況決定，不以數分鐘為固定規定。",
+          "nodes": [
+            {
+              "id": "step-1",
+              "label": "先觀察與傾聽",
+              "detail": "注意孩子的狀態，先不急著分析問題；讓他有空間表達或暫時沉默。"
+            },
+            {
+              "id": "step-2",
+              "label": "問現在願不願意聊",
+              "detail": "溫和詢問孩子是否想談，並尊重他選擇不談或晚點談。"
+            },
+            {
+              "id": "step-3",
+              "label": "一起約定休息時間",
+              "detail": "若孩子願意稍後再談，一起商量雙方可行的時間；不預設每個人都要一樣久。"
+            },
+            {
+              "id": "step-4",
+              "label": "再確認意願與下一步",
+              "detail": "到約定時間先問孩子是否願意聊；如果願意，再一起找一個想處理的困難。"
+            }
+          ],
+          "edges": [
+            {
+              "from": "step-1",
+              "to": "step-2"
+            },
+            {
+              "from": "step-2",
+              "to": "step-3"
+            },
+            {
+              "from": "step-3",
+              "to": "step-4"
+            }
+          ]
+        },
+        {
+          "type": "schedule",
+          "title": "編輯補充：對話檢查表",
+          "note": "示範句和學習情境為編輯延伸。",
+          "columns": [
+            "行動",
+            "完成判準"
+          ],
+          "rows": [
+            {
+              "label": "先觀察與傾聽",
+              "cells": [
+                "注意孩子的狀態，先不急著分析問題；讓他有空間表達或暫時沉默。",
+                "不替孩子斷言感受，也接受暫時不回答。"
+              ]
+            },
+            {
+              "label": "問現在願不願意聊",
+              "cells": [
+                "溫和詢問孩子是否想談，並尊重他選擇不談或晚點談。",
+                "孩子可以拒絕、沉默或提出自己的想法。"
+              ]
+            },
+            {
+              "label": "一起約定休息時間",
+              "cells": [
+                "若孩子願意稍後再談，一起商量雙方可行的時間；不預設每個人都要一樣久。",
+                "若雙方願意，能說出約定的下一個時間。"
+              ]
+            },
+            {
+              "label": "再確認意願與下一步",
+              "cells": [
+                "到約定時間先問孩子是否願意聊；如果願意，再一起找一個想處理的困難。",
+                "尊重孩子回答；不以必須同意談話作為完成標準。"
+              ]
+            }
+          ]
+        }
+      ],
+      "practice": {
+        "title": "編輯練習：先約好再談",
+        "minutes": 10,
+        "prompt": "用虛構的考後挫折情境，練習先詢問是否願意談，並尊重對方希望休息或暫不回答的選擇。",
+        "deliverable": "一個開場問題與一個可調整的後續約定",
+        "checklist": [
+          "先觀察與傾聽。",
+          "不替對方決定感受。",
+          "允許拒絕或延後。",
+          "再次談話前重新確認意願。"
+        ]
+      },
+      "pitfalls": [
+        "把連續得到肯定回答當成說服技巧。",
+        "把節目示例中的休息時間當成每個孩子都適用。",
+        "對方沉默時持續追問或強迫分享。"
+      ],
+      "supplements": [
+        {
+          "title": "編輯提示：保留支持管道",
+          "text": "若孩子持續或嚴重困擾，可依學校支持流程或家庭需要尋求適當協助；這張對話卡不保證問題立即解決。",
+          "sourceIds": [
+            "original"
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "依照步驟詢問就能讓孩子一定願意談",
+          "status": "unverified",
+          "explanation": "孩子可能需要不同時間或選擇不談，應持續尊重其意願。",
+          "sourceIds": [
+            "original"
+          ],
+          "checkedAt": "2026-10-29"
+        }
+      ],
+      "keywords": [
+        "學習挫折",
+        "親師對話",
+        "傾聽",
+        "尊重意願"
+      ],
+      "overview": {
+        "image": "/assets/overviews/ask-talk-desktop.webp",
+        "mobileImage": "/assets/overviews/ask-talk-mobile.webp",
+        "cardImage": "/assets/overviews/ask-talk-desktop.webp",
+        "alt": "阿問遇到學習挫折，小硯先詢問他是否願意聊。",
+        "caption": "考試情境與示範句為編輯延伸，休息時間依需要調整。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      },
+      "publishedAt": "2026-10-29T06:03:21+08:00"
     }
   ],
   "demo": {
