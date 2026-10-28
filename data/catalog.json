@@ -110236,6 +110236,241 @@
         "mobileHeight": 1600
       },
       "publishedAt": "2026-10-29T04:06:02+08:00"
+    },
+    {
+      "id": "compare-historical-news-perspectives",
+      "title": "同一事件，兩份報紙怎麼說？",
+      "summary": "比較兩則報導的出處、用詞與關注點，再回到資料核對推測。",
+      "categoryId": "reading",
+      "topicIds": [
+        "strategies",
+        "teaching"
+      ],
+      "audience": "想帶學生練習歷史資料比較的教師與學習者",
+      "output": "一張雙報導的觀察、推測與查證表",
+      "minutes": 20,
+      "level": "入門",
+      "status": "ready",
+      "contentType": "video_method",
+      "reviewedAt": "2026-10-29",
+      "coverLabel": "閱讀教學 · 史料比較",
+      "sourceCoverage": "指定 Notion 影片 MP3 以 Whisper tiny 轉錄全片，並以 base 補轉 15:30–18:30；機器字幕有錯字，尚未逐句人工聽校。影片比較不同報紙對同一事件的表述；比較表、示例、查證步驟與完成判準為編輯延伸，未經課堂實測。",
+      "sources": [
+        {
+          "id": "original",
+          "title": "AI 判讀秘訣：社會課本裡的百年報紙",
+          "kind": "video",
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=teU7Aw8sNio",
+          "channel": "謙懿科技",
+          "videoId": "teU7Aw8sNio",
+          "note": "講者陳香吟；片名依 Notion 索引節錄。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "選同一事件與兩則材料",
+          "action": "選同一事件的兩則可合法閱讀的報導，記下報紙名稱、日期、版次與來源。",
+          "why": "影片示範比較不同報紙對同一事件的說法；記錄欄位為編輯設計。",
+          "example": "編輯示範：從教材附錄或圖書館公開資料挑兩則，確認描述的是同一事件。",
+          "check": "兩則材料的出處和事件範圍可核對。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 996,
+              "endSeconds": 1037
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "各自圈出看得到的內容",
+          "action": "先分開讀兩則材料，圈出實際出現的用詞、事件與被報導的對象。",
+          "why": "影片指出不同報紙在用語和敘述力道上有差異。",
+          "example": "編輯示範：用 A、B 兩欄記下兩則報導各自寫了什麼。",
+          "check": "每一項觀察都能回指到材料中的文字或圖像。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 996,
+              "endSeconds": 1037
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "比較關注點與用詞",
+          "action": "將兩欄並排，比較哪些資訊相同、不同或未提及；把推測另外標記。",
+          "why": "來源比較不同立場下報紙敘述的差異；比較表為編輯設計。",
+          "example": "編輯示範：A 先寫事件經過，B 先寫居民反應；這是虛構示例。",
+          "check": "能區分原文內容與自己提出的可能解釋。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 1000,
+              "endSeconds": 1037
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "回到其他資料核對",
+          "action": "用課本、資料庫說明或其他可信材料確認時間背景及推測，找不到的保留疑問。",
+          "why": "查證及保留未知是編輯延伸，避免把一則報導當成完整事實。",
+          "example": "編輯示範：另查一份同時期資料，看是否支持剛才的推測。",
+          "check": "每一項結論都標明依據或待確認。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "編輯整理：從材料比較到查證",
+          "note": "比較表與查證步驟為編輯延伸。",
+          "nodes": [
+            {
+              "id": "step-1",
+              "label": "選同一事件與兩則材料",
+              "detail": "選同一事件的兩則可合法閱讀的報導，記下報紙名稱、日期、版次與來源。"
+            },
+            {
+              "id": "step-2",
+              "label": "各自圈出看得到的內容",
+              "detail": "先分開讀兩則材料，圈出實際出現的用詞、事件與被報導的對象。"
+            },
+            {
+              "id": "step-3",
+              "label": "比較關注點與用詞",
+              "detail": "將兩欄並排，比較哪些資訊相同、不同或未提及；把推測另外標記。"
+            },
+            {
+              "id": "step-4",
+              "label": "回到其他資料核對",
+              "detail": "用課本、資料庫說明或其他可信材料確認時間背景及推測，找不到的保留疑問。"
+            }
+          ],
+          "edges": [
+            {
+              "from": "step-1",
+              "to": "step-2"
+            },
+            {
+              "from": "step-2",
+              "to": "step-3"
+            },
+            {
+              "from": "step-3",
+              "to": "step-4"
+            }
+          ]
+        },
+        {
+          "type": "schedule",
+          "title": "編輯補充：兩份報導比較表",
+          "note": "有差異不代表單憑表述就能判定哪一方正確。",
+          "columns": [
+            "行動",
+            "完成判準"
+          ],
+          "rows": [
+            {
+              "label": "選同一事件與兩則材料",
+              "cells": [
+                "選同一事件的兩則可合法閱讀的報導，記下報紙名稱、日期、版次與來源。",
+                "兩則材料的出處和事件範圍可核對。"
+              ]
+            },
+            {
+              "label": "各自圈出看得到的內容",
+              "cells": [
+                "先分開讀兩則材料，圈出實際出現的用詞、事件與被報導的對象。",
+                "每一項觀察都能回指到材料中的文字或圖像。"
+              ]
+            },
+            {
+              "label": "比較關注點與用詞",
+              "cells": [
+                "將兩欄並排，比較哪些資訊相同、不同或未提及；把推測另外標記。",
+                "能區分原文內容與自己提出的可能解釋。"
+              ]
+            },
+            {
+              "label": "回到其他資料核對",
+              "cells": [
+                "用課本、資料庫說明或其他可信材料確認時間背景及推測，找不到的保留疑問。",
+                "每一項結論都標明依據或待確認。"
+              ]
+            }
+          ]
+        }
+      ],
+      "practice": {
+        "title": "編輯練習：比較兩則報導",
+        "minutes": 20,
+        "prompt": "選兩則描述同一事件的材料，記下出處，各圈一處用詞或關注點，寫下觀察、推測及一個待查問題。",
+        "deliverable": "一張兩則報導比較表",
+        "checklist": [
+          "兩則材料討論同一事件並標出出處。",
+          "觀察能回指文字或圖像。",
+          "推測與原文內容分開。",
+          "用其他資料核對或標示待確認。"
+        ]
+      },
+      "pitfalls": [
+        "只看標題就判斷兩則報導的完整立場。",
+        "將不同措辭直接等同其中一方必然錯誤。",
+        "把 AI 對舊報紙的辨識結果當成原始材料，未對照影像。"
+      ],
+      "supplements": [
+        {
+          "title": "編輯提示：先縮小範圍",
+          "text": "歷史報紙字體和年代可能不熟悉，可以先選少量可辨識的文字或圖像；不必要求學生一次讀懂整版。",
+          "sourceIds": [
+            "original"
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "比較兩份報紙就一定能還原歷史全貌",
+          "status": "unverified",
+          "explanation": "影片提供史料閱讀示例；兩則報導仍可能有遺漏，需要更多材料與脈絡。",
+          "sourceIds": [
+            "original"
+          ],
+          "checkedAt": "2026-10-29"
+        }
+      ],
+      "keywords": [
+        "歷史報紙",
+        "文本比較",
+        "史料查證",
+        "媒體素養"
+      ],
+      "overview": {
+        "image": "/assets/overviews/compare-historical-news-perspectives-desktop.webp",
+        "mobileImage": "/assets/overviews/compare-historical-news-perspectives-mobile.webp",
+        "cardImage": "/assets/overviews/compare-historical-news-perspectives-desktop.webp",
+        "alt": "小硯陪讀者比較兩份報紙的用詞、觀察與推測。",
+        "caption": "比較表與查證步驟為編輯延伸。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      },
+      "publishedAt": "2026-10-29T04:22:13+08:00"
     }
   ],
   "demo": {
