@@ -109113,8 +109113,8 @@
     },
     {
       "id": "english-subtitle-switch",
-      "title": "英文字幕怎麼開？聽懂多少，就調整多少",
-      "summary": "挑一段影片，先用英文字幕對照聲音，再關掉試聽；卡住時暫時打開核對。",
+      "title": "英文字幕怎麼選？先看自己在哪一種狀態",
+      "summary": "看文字也不懂、文字懂但聽不出、已大致聽懂：依目前狀態選擇素材與字幕。",
       "categoryId": "english",
       "topicIds": [
         "speaking",
@@ -109122,12 +109122,12 @@
       ],
       "level": "入門",
       "minutes": 15,
-      "output": "一段已比對聲音與英文字幕的短片紀錄",
+      "output": "一張字幕使用判斷卡與下一次練習選擇",
       "audience": "想練習英文聽力的學習者",
       "status": "ready",
       "contentType": "video_method",
       "reviewedAt": "2026-10-29",
-      "sourceCoverage": "指定 Notion 影片 MP3 以 Whisper tiny 轉錄，並以 base 補轉 08:40–11:20；機器字幕有誤字，尚未逐句人工聽校。步驟、練習時間及例子為編輯整理；影片提及的研究與學習效果尚未獨立查證。",
+      "sourceCoverage": "指定 Notion 影片 MP3 以 Whisper tiny 轉錄全片，並以 base 補轉 08:40–11:20；機器字幕有誤字，尚未逐句人工聽校。影片建議依理解狀態調整素材與字幕；本文將其整理成三種可切換的選項，判斷卡與例子為編輯設計，研究與效果尚未獨立查證。",
       "coverLabel": "英文聽力 · 字幕調整",
       "sources": [
         {
@@ -109144,27 +109144,43 @@
       "steps": [
         {
           "id": "step-1",
-          "title": "選一段聽力材料",
-          "action": "選一段有可靠英文字幕的短片，先聽聽自己能理解多少。",
-          "why": "材料太難時可換更短、更容易的片段。",
-          "example": "編輯示範：選一段一分鐘的生活對話。",
-          "check": "能說出大意或指出卡住的地方。",
+          "title": "先判斷目前在哪一種狀態",
+          "action": "選一小段材料，先試聽或看英文文字，分辨是文字也不懂、文字懂但聲音聽不出，還是已大致聽懂。",
+          "why": "先辨別需要什麼支持，三種情境由編輯整理。",
+          "example": "編輯示範：看到英文句子能理解，關掉文字卻聽不出來。",
+          "check": "能說明自己目前最需要的是降低難度、對照聲音，還是檢查聆聽。",
           "contribution": "editorial",
           "sourceRefs": [
             {
               "sourceId": "video",
-              "startSeconds": 547,
-              "endSeconds": 564
+              "startSeconds": null,
+              "endSeconds": null
             }
           ]
         },
         {
           "id": "step-2",
-          "title": "打開英文字幕對照",
-          "action": "聽不懂時打開英文字幕，一邊聽一邊對照文字與聲音。",
-          "why": "來源建議利用字幕連結文字與聲音。",
-          "example": "編輯示範：標記一個看得懂、卻沒聽出來的詞。",
-          "check": "能找到至少一處聲音與文字的對應。",
+          "title": "文字也不懂：先換素材",
+          "action": "英文文字本身太難時，換較短、熟悉或難度較低的片段；必要時先查意思。",
+          "why": "影片建議材料太難時可以換一種材料。",
+          "example": "編輯示範：把一整集影集換成一小段日常對話。",
+          "check": "能理解新片段的大意，不必勉強使用原素材。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "video",
+              "startSeconds": 547,
+              "endSeconds": 565
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "文字懂、聲音聽不出：開字幕對照",
+          "action": "打開英文字幕，找出看得懂但耳朵沒抓到的詞，對照原聲；需要時重播。",
+          "why": "影片建議用英文字幕連結文字與聲音。",
+          "example": "編輯示範：畫出聽不出的短語，再對照原音。",
+          "check": "能指出一處聲音與文字的對應。",
           "contribution": "editorial",
           "sourceRefs": [
             {
@@ -109175,115 +109191,51 @@
           ]
         },
         {
-          "id": "step-3",
-          "title": "關掉字幕再聽",
-          "action": "對照後暫時關掉字幕，再聽一遍；記下仍不確定的地方。",
-          "why": "來源建議在能理解文字後嘗試不看字幕聽。",
-          "example": "編輯示範：關字幕再聽同一小段，記下理解到的大意。",
-          "check": "能區分聽懂的部分與仍待確認的部分。",
-          "contribution": "editorial",
-          "sourceRefs": [
-            {
-              "sourceId": "video",
-              "startSeconds": 585,
-              "endSeconds": 610
-            }
-          ]
-        },
-        {
           "id": "step-4",
-          "title": "卡住時短暫核對",
-          "action": "遇到沒聽清的句子，暫時開字幕對照，再回到聆聽；按需要調整。",
-          "why": "來源描述聽不懂時可再次打開字幕核對。",
-          "example": "編輯示範：只核對一句，再回聽整段。",
-          "check": "留下需要再查的詞或句子。",
+          "title": "大致聽懂：卡住再核對",
+          "action": "可以先不看字幕聽；遇到聽不清處，再暫時打開英文字幕核對，並回聽該段。",
+          "why": "影片描述聽不懂時再次打開字幕核對；使用時機可依自己狀態調整。",
+          "example": "編輯示範：先聽一小段，再核對一句沒聽清的話。",
+          "check": "記下自己仍需要查證的詞或句子。",
           "contribution": "editorial",
           "sourceRefs": [
             {
               "sourceId": "video",
               "startSeconds": 630,
-              "endSeconds": 658
+              "endSeconds": 655
             }
           ]
         }
       ],
       "visuals": [
         {
-          "type": "flow",
-          "title": "編輯整理：字幕調整流程",
-          "note": "依實際理解程度調整。",
-          "nodes": [
-            {
-              "id": "step-1",
-              "label": "選一段聽力材料",
-              "detail": "選一段有可靠英文字幕的短片，先聽聽自己能理解多少。"
-            },
-            {
-              "id": "step-2",
-              "label": "打開英文字幕對照",
-              "detail": "聽不懂時打開英文字幕，一邊聽一邊對照文字與聲音。"
-            },
-            {
-              "id": "step-3",
-              "label": "關掉字幕再聽",
-              "detail": "對照後暫時關掉字幕，再聽一遍；記下仍不確定的地方。"
-            },
-            {
-              "id": "step-4",
-              "label": "卡住時短暫核對",
-              "detail": "遇到沒聽清的句子，暫時開字幕對照，再回到聆聽；按需要調整。"
-            }
-          ],
-          "edges": [
-            {
-              "from": "step-1",
-              "to": "step-2"
-            },
-            {
-              "from": "step-2",
-              "to": "step-3"
-            },
-            {
-              "from": "step-3",
-              "to": "step-4"
-            }
-          ]
-        },
-        {
           "type": "schedule",
-          "title": "編輯補充：練習安排",
-          "note": "時間可自行調整。",
+          "title": "編輯整理：依狀態選擇",
+          "note": "三種狀態是不同選項，不需要依序完成；素材變難時可以重新選。",
           "columns": [
-            "行動",
-            "完成判準"
+            "判斷",
+            "下一步"
           ],
           "rows": [
             {
-              "label": "選一段聽力材料",
+              "label": "文字也看不懂",
               "cells": [
-                "選一段有可靠英文字幕的短片，先聽聽自己能理解多少。",
-                "能說出大意或指出卡住的地方。"
+                "素材超出目前理解",
+                "換短一點、容易一點的材料"
               ]
             },
             {
-              "label": "打開英文字幕對照",
+              "label": "文字懂但聽不出",
               "cells": [
-                "聽不懂時打開英文字幕，一邊聽一邊對照文字與聲音。",
-                "能找到至少一處聲音與文字的對應。"
+                "文字與聲音尚未對上",
+                "開英文字幕，對照原聲"
               ]
             },
             {
-              "label": "關掉字幕再聽",
+              "label": "已大致聽懂",
               "cells": [
-                "對照後暫時關掉字幕，再聽一遍；記下仍不確定的地方。",
-                "能區分聽懂的部分與仍待確認的部分。"
-              ]
-            },
-            {
-              "label": "卡住時短暫核對",
-              "cells": [
-                "遇到沒聽清的句子，暫時開字幕對照，再回到聆聽；按需要調整。",
-                "留下需要再查的詞或句子。"
+                "多數內容可用聽的理解",
+                "先聽，卡住時再開字幕核對"
               ]
             }
           ]
@@ -109306,15 +109258,15 @@
         "把一次練習結果當成長期成效已獲證明。"
       ],
       "practice": {
-        "title": "編輯練習：用一段短片試一次",
+        "title": "編輯練習：替一段影片選字幕",
         "minutes": 15,
-        "prompt": "選一小段可取得英文字幕的影片，試著聽、對照字幕、再關掉字幕回聽，留下卡住的句子。",
-        "deliverable": "一段聽力紀錄與待核對句子",
+        "prompt": "挑一小段有可靠英文文字的音訊，先判斷目前屬於哪一種狀態，選一種做法試聽，記下選擇是否合適。",
+        "deliverable": "一張狀態判斷與字幕選擇紀錄",
         "checklist": [
-          "選擇難度適合自己的片段。",
-          "記下一處聲音與文字對應。",
-          "關字幕後記下理解與疑問。",
-          "需要時重新開字幕核對。"
+          "選擇能解釋自己的理解狀態。",
+          "依狀態選一項行動。",
+          "卡住時可以調整素材或字幕。",
+          "字幕與原聲有差異時進一步核對。"
         ]
       },
       "supplements": [
@@ -109327,11 +109279,11 @@
         }
       ],
       "overview": {
-        "image": "/assets/overviews/english-subtitle-switch-desktop.webp",
-        "mobileImage": "/assets/overviews/english-subtitle-switch-mobile.webp",
-        "cardImage": "/assets/overviews/english-subtitle-switch-desktop.webp",
-        "alt": "以澄陪學習者依理解程度切換英文字幕。",
-        "caption": "練習流程為編輯整理，依個人程度調整。",
+        "image": "/assets/overviews/english-subtitle-choice-desktop.webp",
+        "mobileImage": "/assets/overviews/english-subtitle-choice-mobile.webp",
+        "cardImage": "/assets/overviews/english-subtitle-choice-desktop.webp",
+        "alt": "以澄陪學習者依理解狀態選擇材料與英文字幕。",
+        "caption": "三種狀態可切換，判斷卡為編輯整理。",
         "kind": "infographic",
         "width": 1600,
         "height": 900,
