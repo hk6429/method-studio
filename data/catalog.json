@@ -109345,6 +109345,241 @@
         "自學"
       ],
       "publishedAt": "2026-10-29T03:40:49+08:00"
+    },
+    {
+      "id": "listen-recall-compare",
+      "title": "聽完先說，再回頭核對：練習說出聽到的重點",
+      "summary": "聽一小段，先用自己的話說出重點，再對照字幕修正。",
+      "categoryId": "english",
+      "topicIds": [
+        "speaking",
+        "habits"
+      ],
+      "level": "入門",
+      "minutes": 15,
+      "output": "一段自己的重點複述與一項修正紀錄",
+      "audience": "想練習聽後整理與表達的英文學習者",
+      "status": "ready",
+      "contentType": "video_method",
+      "reviewedAt": "2026-10-29",
+      "sourceCoverage": "指定 Notion 頁的影片 MP3 已用 Whisper tiny 轉錄全片，並以 base 補轉 11:30–14:20；字幕有錯字，尚未逐句人工聽校。練習順序、時間與示例為編輯整理；不採影片中對成效、痛苦及腦部機制的保證或解釋。",
+      "coverLabel": "英文聽力 · 自我檢查",
+      "sources": [
+        {
+          "id": "video",
+          "title": "別看字幕！學英文越痛苦越有效？三步練習",
+          "url": "https://www.youtube.com/watch?v=Hd9s5jJFhU4",
+          "kind": "video",
+          "provider": "youtube",
+          "videoId": "Hd9s5jJFhU4",
+          "channel": "brain 學霸",
+          "note": "片名依 Notion 索引節錄；標題中的成效說法未獨立查證。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "選一段適合的短片",
+          "action": "挑選有可靠英文字幕的短片，先聽一遍，記住自己聽到的重點。",
+          "why": "來源建議選程度合適的短片先聽。",
+          "example": "編輯示範：選一段日常對話，先記住誰在談什麼。",
+          "check": "可以指出至少一個聽到的資訊；若太難就換素材。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "video",
+              "startSeconds": 690,
+              "endSeconds": 715
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "暫停後先說一兩句",
+          "action": "先不用看字幕，用一兩句話說出剛才理解的內容；不確定之處可以留白。",
+          "why": "來源建議先停下來，用自己的話說重點。",
+          "example": "編輯示範：用簡單英文說出人物要做的事；卡住可先寫下關鍵詞。",
+          "check": "說出理解，並標記自己不確定的部分。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "video",
+              "startSeconds": 732,
+              "endSeconds": 760
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "打開字幕核對",
+          "action": "重新播放並打開英文字幕，對照自己剛才說的內容，標出遺漏或理解不同處。",
+          "why": "來源建議複述後再看字幕回頭核對。",
+          "example": "編輯示範：比較自己說的時間與原句時間是否一致。",
+          "check": "找到一處一致或需要修正的地方。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "video",
+              "startSeconds": 800,
+              "endSeconds": 825
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "留下表達再試說",
+          "action": "選一個核對過的表達，寫下意思與使用情境，再試著用自己的話說一次。",
+          "why": "將核對結果帶回自己的表達，是編輯設計。",
+          "example": "編輯示範：把對話中的邀請句改成邀請同學一起讀書。",
+          "check": "能解釋這句話準備用在什麼情境。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "video",
+              "startSeconds": 825,
+              "endSeconds": 850
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "編輯整理：聽後核對流程",
+          "note": "可依程度調整材料與使用語言。",
+          "nodes": [
+            {
+              "id": "step-1",
+              "label": "選一段適合的短片",
+              "detail": "挑選有可靠英文字幕的短片，先聽一遍，記住自己聽到的重點。"
+            },
+            {
+              "id": "step-2",
+              "label": "暫停後先說一兩句",
+              "detail": "先不用看字幕，用一兩句話說出剛才理解的內容；不確定之處可以留白。"
+            },
+            {
+              "id": "step-3",
+              "label": "打開字幕核對",
+              "detail": "重新播放並打開英文字幕，對照自己剛才說的內容，標出遺漏或理解不同處。"
+            },
+            {
+              "id": "step-4",
+              "label": "留下表達再試說",
+              "detail": "選一個核對過的表達，寫下意思與使用情境，再試著用自己的話說一次。"
+            }
+          ],
+          "edges": [
+            {
+              "from": "step-1",
+              "to": "step-2"
+            },
+            {
+              "from": "step-2",
+              "to": "step-3"
+            },
+            {
+              "from": "step-3",
+              "to": "step-4"
+            }
+          ]
+        },
+        {
+          "type": "schedule",
+          "title": "編輯補充：練習安排",
+          "note": "依時間與程度調整。",
+          "columns": [
+            "行動",
+            "完成判準"
+          ],
+          "rows": [
+            {
+              "label": "選一段適合的短片",
+              "cells": [
+                "挑選有可靠英文字幕的短片，先聽一遍，記住自己聽到的重點。",
+                "可以指出至少一個聽到的資訊；若太難就換素材。"
+              ]
+            },
+            {
+              "label": "暫停後先說一兩句",
+              "cells": [
+                "先不用看字幕，用一兩句話說出剛才理解的內容；不確定之處可以留白。",
+                "說出理解，並標記自己不確定的部分。"
+              ]
+            },
+            {
+              "label": "打開字幕核對",
+              "cells": [
+                "重新播放並打開英文字幕，對照自己剛才說的內容，標出遺漏或理解不同處。",
+                "找到一處一致或需要修正的地方。"
+              ]
+            },
+            {
+              "label": "留下表達再試說",
+              "cells": [
+                "選一個核對過的表達，寫下意思與使用情境，再試著用自己的話說一次。",
+                "能解釋這句話準備用在什麼情境。"
+              ]
+            }
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "練七天一定明顯進步或越痛苦越有效",
+          "status": "unverified",
+          "explanation": "來源提出個人練習建議；成效與神經生理說法未獨立查證，本文不作保證。",
+          "sourceIds": [
+            "video"
+          ],
+          "checkedAt": "2026-10-29"
+        }
+      ],
+      "pitfalls": [
+        "素材太難還硬撐；可以縮短、換片或先確認背景。",
+        "以為越痛苦越有效，或把短期感受當成學習效果的證明。",
+        "把自動字幕當成完全正確，忽略對原音的核對。"
+      ],
+      "practice": {
+        "title": "編輯練習：一小段聽後複述",
+        "minutes": 15,
+        "prompt": "聽一小段熟悉的影片，暫停後說出重點，再開字幕核對，記下一處修正。",
+        "deliverable": "一段重點複述與一處修正",
+        "checklist": [
+          "選適合程度的材料。",
+          "先留下自己的理解。",
+          "核對至少一處。",
+          "留下可以使用的表達。"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "編輯提示：留白也可以",
+          "text": "第一次說不完整沒關係，先記下聽到的關鍵詞。需要時可用熟悉的語言整理，再慢慢嘗試英文。",
+          "sourceIds": [
+            "video"
+          ]
+        }
+      ],
+      "overview": {
+        "image": "/assets/overviews/listen-recall-compare-desktop.webp",
+        "mobileImage": "/assets/overviews/listen-recall-compare-mobile.webp",
+        "cardImage": "/assets/overviews/listen-recall-compare-desktop.webp",
+        "alt": "知行陪學習者聽完後先說出重點，再回頭核對。",
+        "caption": "流程與示例為編輯整理，可依程度調整。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      },
+      "keywords": [
+        "英文聽力",
+        "聽後複述",
+        "字幕核對",
+        "學習紀錄"
+      ],
+      "publishedAt": "2026-10-29T03:43:50+08:00"
     }
   ],
   "demo": {
