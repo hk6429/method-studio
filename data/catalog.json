@@ -116852,6 +116852,215 @@
         "mobileHeight": 1600
       },
       "publishedAt": "2026-10-29T07:09:23+08:00"
+    },
+    {
+      "id": "writing-life-material-connect-prompt",
+      "title": "把生活素材帶進寫作：讀題後重新選材與組織",
+      "summary": "留下日常素材，讀完整題目，再挑選符合題意的經驗，從具體細節寫到自己的理解。",
+      "categoryId": "reading",
+      "topicIds": [
+        "teaching",
+        "strategies"
+      ],
+      "audience": "準備會考寫作或帶學生練習寫作的師生",
+      "output": "一張素材卡及兩份對應題目的寫作大綱",
+      "minutes": 25,
+      "level": "入門",
+      "status": "ready",
+      "contentType": "video_method",
+      "reviewedAt": "2026-10-29",
+      "coverLabel": "寫作練習 · 素材與題意",
+      "keywords": [
+        "會考寫作",
+        "生活素材",
+        "讀題",
+        "寫作大綱"
+      ],
+      "sourceCoverage": "指定 Notion 影片完整音訊以 MLX Whisper large-v3-turbo 自動轉錄；字幕尚未逐句人工聽校或核對投影片，時間碼可能偏移。講者談讀題、生活素材、依題連結及組織；素材卡、兩題練習與假設示例是編輯延伸，未核對官方評分規準，也不保證分數或寫作成效。",
+      "sources": [
+        {
+          "id": "original",
+          "title": "116年國中教育會考趨勢分析與複習策略講座｜國文＋寫作測驗｜柯方渝老師",
+          "kind": "video",
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=73HOpfgVCWA",
+          "channel": "臺北酷課雲",
+          "videoId": "73HOpfgVCWA",
+          "note": "音訊自動辨識，尚未人工逐句聽校或核對投影片。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "讀完整題，圈出任務",
+          "action": "讀完題目與提示，在旁邊寫下要回應的主題、要求及可用的經驗或見聞。",
+          "why": "講者示範從題目提示與例子抓寫作要求；檢查欄位為編輯建議。",
+          "example": "編輯示範：圈出『停下來後的發現』，寫下要呈現事件與發現。",
+          "check": "能用自己的話說出題目要回應什麼。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 1080,
+              "endSeconds": 1470
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "留下生活素材",
+          "action": "把真實觀察或見聞記成素材卡，留下場景、人物、感官線索及自己的感受；不熟悉的內容先觀察或查證。",
+          "why": "講者分享將日常植物、動物或物品等素材連結到寫作的教學經驗。",
+          "example": "編輯假設示範：記下雨中等待的人、傘緣的水及當下的一句對話。",
+          "check": "素材有可描述的具體細節與出處。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 2580,
+              "endSeconds": 2800
+            },
+            {
+              "sourceId": "original",
+              "startSeconds": 4020,
+              "endSeconds": 4200
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "依新題目重新選材",
+          "action": "比較素材與題目要求，挑出真正相關的經驗，再重新安排事件與觀點，不將準備好的整篇文章原封套上去。",
+          "why": "講者談連結既有練習與新題；判斷是否符合提示是編輯補充。",
+          "example": "編輯示範：同一張等待素材卡，可依題目選擇寫陪伴或時間感受，但都需回應實際題意。",
+          "check": "說得出所選素材如何對應題目。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 3600,
+              "endSeconds": 3750
+            },
+            {
+              "sourceId": "original",
+              "startSeconds": 4140,
+              "endSeconds": 4260
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "寫細節與自己的理解",
+          "action": "選一個具體場景寫清楚，再問自己從這件事看到什麼；列出事件、想法變化與結尾，回頭檢查題意。",
+          "why": "講者比較事件敘述與描繪，並談大綱、轉折和思考。",
+          "example": "編輯假設示範：描寫雨中等待，再說明自己如何留意到陪伴。",
+          "check": "大綱有具體細節、自己的理解及題目連結。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 1860,
+              "endSeconds": 2070
+            },
+            {
+              "sourceId": "original",
+              "startSeconds": 5580,
+              "endSeconds": 5700
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "從生活素材走回題目",
+          "note": "素材卡和假設情境為編輯延伸。",
+          "nodes": [
+            {
+              "id": "n1",
+              "label": "讀題找任務",
+              "detail": "說清寫作要求"
+            },
+            {
+              "id": "n2",
+              "label": "留下生活素材",
+              "detail": "記具體線索"
+            },
+            {
+              "id": "n3",
+              "label": "依題重新選材",
+              "detail": "確認素材相關"
+            },
+            {
+              "id": "n4",
+              "label": "寫細節與想法",
+              "detail": "組織並回扣題目"
+            }
+          ],
+          "edges": [
+            {
+              "from": "n1",
+              "to": "n2"
+            },
+            {
+              "from": "n2",
+              "to": "n3"
+            },
+            {
+              "from": "n3",
+              "to": "n4"
+            }
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "套用素材或增加篇幅就能得到高分。",
+          "status": "unverified",
+          "explanation": "影片提供講者的教學經驗，本文未核對官方評分規準，無法保證分數。",
+          "sourceIds": [
+            "original"
+          ],
+          "checkedAt": "2026-10-29"
+        }
+      ],
+      "pitfalls": [
+        "不必為了得分虛構悲劇；以自己的經驗或清楚標示的見聞為基礎。",
+        "選材必須符合這次題意，避免照搬整篇套題。",
+        "篇幅與修辭不能代替內容及對題目的回應。"
+      ],
+      "practice": {
+        "title": "一張素材卡，兩道題目",
+        "minutes": 25,
+        "prompt": "編輯設計：選一則真實日常記憶寫素材卡；找兩道不同練習題，各寫一句為何符合題意，再各列四點大綱。挑一題寫一段場景與一段想法，最後對照題目要求。",
+        "deliverable": "一張素材卡與兩份大綱",
+        "checklist": [
+          "素材具體且有真實來源",
+          "逐題說明連結",
+          "大綱有事件與想法",
+          "回頭核對題目要求"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "編輯補充：素材卡",
+          "text": "時間與地點：＿＿；人物或事物：＿＿；看見、聽見或感受到：＿＿；當時想法：＿＿；可能連結的題目：＿＿。",
+          "sourceIds": []
+        }
+      ],
+      "overview": {
+        "image": "/assets/overviews/writing-material-desktop.webp",
+        "mobileImage": "/assets/overviews/writing-material-mobile.webp",
+        "cardImage": "/assets/overviews/writing-material-desktop.webp",
+        "alt": "知行與以澄讀題、整理生活素材，依題選材並寫出細節和想法。",
+        "caption": "素材卡與情境為編輯延伸，寫作請使用自己的經驗。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      },
+      "publishedAt": "2026-10-29T07:13:47+08:00"
     }
   ],
   "demo": {
