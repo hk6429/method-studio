@@ -117061,6 +117061,194 @@
         "mobileHeight": 1600
       },
       "publishedAt": "2026-10-29T07:13:47+08:00"
+    },
+    {
+      "id": "classical-story-character-route",
+      "title": "用人物路線讀古文：從空間轉換看故事怎麼展開",
+      "summary": "圈出人物移動與場景，依原文畫出路線，觀察空間轉換，再沿路復述並核對。",
+      "categoryId": "reading",
+      "topicIds": [
+        "strategies",
+        "teaching"
+      ],
+      "audience": "學習敘事古文的學生與教師",
+      "output": "一張附原文依據的人物路線卡",
+      "minutes": 20,
+      "level": "入門",
+      "status": "ready",
+      "contentType": "video_method",
+      "reviewedAt": "2026-10-29",
+      "coverLabel": "文言閱讀 · 人物與空間",
+      "keywords": [
+        "文言文",
+        "桃花源記",
+        "敘事順序",
+        "人物路線"
+      ],
+      "sourceCoverage": "指定 Notion 影片已下載音訊並以 MLX Whisper large-v3-turbo 轉錄全片；字幕對文言與同音詞有明顯錯誤，尚未逐句人工聽校。節目以漁人所見與空間先後講解《桃花源記》；路線卡、核對及教學步驟為編輯延伸，未驗證學習成效。",
+      "sources": [
+        {
+          "id": "original",
+          "title": "空中補習班 EP.1：桃花源記",
+          "kind": "video",
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=wnwm47YoBTI",
+          "channel": "不良大叔 Naughty Uncles",
+          "videoId": "wnwm47YoBTI",
+          "note": "自動字幕有文言辨識錯誤，尚未人工逐句聽校。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "圈出地點與動作",
+          "action": "選一篇人物移動明確的敘事古文，先讀全文，圈出地點、移動動詞及時間提示。",
+          "why": "節目以漁人的發現、所見所聞及離開後的事串連故事；圈選是編輯設計。",
+          "example": "編輯示範：《桃花源記》先找溪行、洞口、村中及離開的文字。",
+          "check": "至少標出兩個地點及人物行動。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 3433,
+              "endSeconds": 3480
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "畫出移動順序",
+          "action": "依原文先後，用文字與箭頭畫人物路線；每一站寫下人物做了什麼，標註原文句子。",
+          "why": "節目談由洞外進到桃花源再回到洞外的敘事順序；路線卡為編輯延伸。",
+          "example": "編輯示範：溪行與桃林 → 洞口 → 村中 → 離開 → 後來再尋。",
+          "check": "每一站都有可核對的原文位置。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 3513,
+              "endSeconds": 3538
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "比較場景變化",
+          "action": "觀察相鄰空間的差異，指出文字依據，再說說這種安排可能帶來的閱讀感受；感受標示為自己的解讀。",
+          "why": "節目提及進入時通道狹窄、之後空間開闊的變化。",
+          "example": "編輯示範：對照洞口狹窄與進入後開闊的描述。",
+          "check": "說出一組空間差異及原文依據。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 3581,
+              "endSeconds": 3591
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "沿路復述，回原文核對",
+          "action": "遮住課文，沿路線用自己的話簡述人物經歷，再回原文檢查地點、順序與行動；不確定之處留問號。",
+          "why": "把故事路線轉成復述與核對，是編輯設計的練習。",
+          "example": "編輯示範：先說漁人如何進入，再核對是否漏掉離開後再尋的情節。",
+          "check": "復述順序與原文相符，不把未交代的細節當事實。",
+          "contribution": "editorial",
+          "sourceRefs": []
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "沿人物路線讀故事",
+          "note": "路線卡與查核方式為編輯延伸。",
+          "nodes": [
+            {
+              "id": "n1",
+              "label": "圈地點與動作",
+              "detail": "找原文線索"
+            },
+            {
+              "id": "n2",
+              "label": "畫移動順序",
+              "detail": "標每站的依據"
+            },
+            {
+              "id": "n3",
+              "label": "比較場景",
+              "detail": "分清文字和感受"
+            },
+            {
+              "id": "n4",
+              "label": "復述與核對",
+              "detail": "回原文檢查"
+            }
+          ],
+          "edges": [
+            {
+              "from": "n1",
+              "to": "n2"
+            },
+            {
+              "from": "n2",
+              "to": "n3"
+            },
+            {
+              "from": "n3",
+              "to": "n4"
+            }
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "畫路線一定能提升文言文記憶或理解。",
+          "status": "unverified",
+          "explanation": "節目提供閱讀講解，本文路線卡未經課堂成效驗證。",
+          "sourceIds": [
+            "original"
+          ],
+          "checkedAt": "2026-10-29"
+        }
+      ],
+      "pitfalls": [
+        "路線須依文字先後，想像的場景細節不可當作原文事實。",
+        "閱讀感受是詮釋，應與文本線索區分。",
+        "不必畫精美地圖，文字和箭頭即可。"
+      ],
+      "practice": {
+        "title": "人物路線卡",
+        "minutes": 20,
+        "prompt": "編輯設計：讀一篇有移動場景的古文，圈地點和動作，畫出先後並標原文；比較一組空間變化，最後遮住課文復述並回原文核對。",
+        "deliverable": "一張附原文依據的人物路線卡",
+        "checklist": [
+          "圈出地點及行動",
+          "依原文排列順序",
+          "比較場景並指出依據",
+          "復述後回原文核對"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "編輯示範：《桃花源記》",
+          "text": "溪行與桃林 → 洞口 → 村中 → 離開 → 後來再尋。各站找一處原文，對照從洞口到村落的空間轉變；此路線卡是編輯設計，不是節目提供的完整教案。",
+          "sourceIds": []
+        }
+      ],
+      "overview": {
+        "image": "/assets/overviews/classical-route-desktop.webp",
+        "mobileImage": "/assets/overviews/classical-route-mobile.webp",
+        "cardImage": "/assets/overviews/classical-route-desktop.webp",
+        "alt": "小硯與知行依人物移動路線閱讀古文，並回原文核對。",
+        "caption": "路線卡為編輯延伸，須以原文核對。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      },
+      "publishedAt": "2026-10-29T07:18:02+08:00"
     }
   ],
   "demo": {
