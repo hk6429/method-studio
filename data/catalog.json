@@ -107130,6 +107130,436 @@
         }
       ],
       "publishedAt": "2026-10-29T02:44:47+08:00"
+    },
+    {
+      "id": "check-video-before-sharing",
+      "title": "看到影片，先查再分享：一張查證紀錄卡",
+      "summary": "先說清影片主張，查來源與日期，再找其他可追溯資料；把未確認的地方留下來。",
+      "categoryId": "reading",
+      "topicIds": [
+        "teaching",
+        "learning"
+      ],
+      "audience": "練習媒體判讀的學生與教師",
+      "output": "一張包含來源、查證結果與未解問題的紀錄卡",
+      "minutes": 15,
+      "level": "入門",
+      "status": "ready",
+      "contentType": "video_method",
+      "reviewedAt": "2026-10-29",
+      "coverLabel": "媒體素養 · 查證練習",
+      "sourceCoverage": "指定 Notion 頁收錄的影片 MP3 以 Whisper tiny 轉錄全片，並以 base 轉錄 12:25–13:30；兩份機器字幕均提到換臉、換聲音與真假影片難辨。字幕有誤字，未人工聽校或觀看畫面。本文四步查證活動與虛構例子是編輯設計，並非逐字記錄，也不作法律判斷。",
+      "sources": [
+        {
+          "id": "original",
+          "title": "小學生的數位科技思辨課：鍵盤小法官的法律課",
+          "kind": "video",
+          "url": "https://www.youtube.com/watch?v=Xay4XhHDHXo",
+          "channel": "廣臻科技 KJCStech",
+          "videoId": "Xay4XhHDHXo"
+        }
+      ],
+      "steps": [
+        {
+          "id": "claim",
+          "title": "說清影片主張",
+          "action": "用一句話寫影片想讓人相信的具體說法，區分畫面內容和附加的文字。",
+          "why": "影片討論換臉換聲與真假內容的辨識問題。",
+          "example": "編輯示範：虛構練習影片宣稱「某公園今天關閉」；先記下這個主張。",
+          "check": "主張有對象及具體事件，不混入自己的猜測。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 755,
+              "endSeconds": 774
+            }
+          ]
+        },
+        {
+          "id": "origin",
+          "title": "找原始來源與日期",
+          "action": "追查最早可找到的發布者、日期與影片上下文；找不到就記下未確認。",
+          "why": "原始來源與日期可幫助釐清內容是否被重新剪輯或移用。",
+          "example": "編輯示範：查看影片發布時間與完整影片；找不到原始上傳者時標記未知。",
+          "check": "記錄已找到的來源與仍不確定之處。",
+          "contribution": "editorial",
+          "sourceRefs": []
+        },
+        {
+          "id": "compare",
+          "title": "查其他可信資料",
+          "action": "依事件查找可追溯的原始資料或獨立可靠來源，記錄支持或不一致之處。",
+          "why": "交叉查核是編輯設計，幫助分辨哪些說法有依據。",
+          "example": "編輯示範：查公園管理單位公告與公告日期，不自行編造查證結果。",
+          "check": "留下一個可回查來源，或註明目前找不到。",
+          "contribution": "editorial",
+          "sourceRefs": []
+        },
+        {
+          "id": "label",
+          "title": "標明已知與未確認",
+          "action": "將查到的事實、推測和未確認問題分開記錄；尚無充分依據時先不轉傳。",
+          "why": "保留不確定性，避免把尚未核實的內容說成事實。",
+          "example": "編輯示範：寫下「發布者與時間未確認，暫不分享」。",
+          "check": "紀錄至少一項已知或未確認資訊，以及下一步。",
+          "contribution": "editorial",
+          "sourceRefs": []
+        }
+      ],
+      "practice": {
+        "title": "編輯練習：做一張查證卡",
+        "minutes": 15,
+        "prompt": "選教師準備的模擬影片或公開且適合討論的素材，寫下主張、來源、查證資料及未確認問題。",
+        "deliverable": "一張可追溯的查證紀錄卡",
+        "checklist": [
+          "主張寫得具體。",
+          "記下發布者與日期，未知處留白。",
+          "保留可追溯的查證來源。",
+          "將已知與未確認分開。"
+        ]
+      },
+      "pitfalls": [
+        "只因畫面看似真實就轉傳。",
+        "找不到反證便認定內容一定正確。",
+        "使用未查證指控或公開他人隱私當作練習素材。"
+      ],
+      "supplements": [
+        {
+          "title": "編輯觀點：允許暫時不知道",
+          "text": "查證後仍可能缺乏足夠資料；把未知留在紀錄中，也是判讀的一部分。",
+          "sourceIds": [
+            "original"
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "四個步驟能辨認所有造假影片",
+          "status": "unverified",
+          "explanation": "影片提及真假影片問題；本文活動未經課堂實測，不能保證判斷所有內容。",
+          "sourceIds": [
+            "original"
+          ],
+          "checkedAt": "2026-10-29"
+        }
+      ],
+      "keywords": [
+        "媒體素養",
+        "影片",
+        "查證",
+        "教學應用"
+      ],
+      "overview": {
+        "image": "/assets/overviews/check-video-before-sharing-desktop.webp",
+        "mobileImage": "/assets/overviews/check-video-before-sharing-mobile.webp",
+        "cardImage": "/assets/overviews/check-video-before-sharing-desktop.webp",
+        "alt": "小硯陪讀者查核影片來源、日期與其他資料。",
+        "caption": "查證步驟為編輯設計，無法確認時先不轉傳。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      },
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "影片查證紀錄",
+          "note": "查證步驟為編輯設計。",
+          "nodes": [
+            {
+              "id": "claim",
+              "label": "說主張",
+              "detail": "先分清影片與附加文字"
+            },
+            {
+              "id": "origin",
+              "label": "找來源",
+              "detail": "查發布者、日期與上下文"
+            },
+            {
+              "id": "compare",
+              "label": "查其他資料",
+              "detail": "留下可追溯的來源"
+            },
+            {
+              "id": "label",
+              "label": "標示不確定",
+              "detail": "記下未知與下一步"
+            }
+          ],
+          "edges": [
+            {
+              "from": "claim",
+              "to": "origin"
+            },
+            {
+              "from": "origin",
+              "to": "compare"
+            },
+            {
+              "from": "compare",
+              "to": "label"
+            }
+          ]
+        },
+        {
+          "type": "schedule",
+          "title": "編輯補充：練習安排",
+          "note": "依素材與時間調整。",
+          "columns": [
+            "行動",
+            "完成判準"
+          ],
+          "rows": [
+            {
+              "label": "說清影片主張",
+              "cells": [
+                "用一句話寫影片想讓人相信的具體說法，區分畫面內容和附加的文字。",
+                "主張有對象及具體事件，不混入自己的猜測。"
+              ]
+            },
+            {
+              "label": "找原始來源與日期",
+              "cells": [
+                "追查最早可找到的發布者、日期與影片上下文；找不到就記下未確認。",
+                "記錄已找到的來源與仍不確定之處。"
+              ]
+            },
+            {
+              "label": "查其他可信資料",
+              "cells": [
+                "依事件查找可追溯的原始資料或獨立可靠來源，記錄支持或不一致之處。",
+                "留下一個可回查來源，或註明目前找不到。"
+              ]
+            },
+            {
+              "label": "標明已知與未確認",
+              "cells": [
+                "將查到的事實、推測和未確認問題分開記錄；尚無充分依據時先不轉傳。",
+                "紀錄至少一項已知或未確認資訊，以及下一步。"
+              ]
+            }
+          ]
+        }
+      ],
+      "publishedAt": "2026-10-29T02:55:03+08:00"
+    },
+    {
+      "id": "student-disagreement-inquiry",
+      "title": "學生有不同意見：先問清楚，再一起找理由",
+      "summary": "先確認學生真正想問什麼，再區分依據與推測、比較不同看法，最後記下待查問題。",
+      "categoryId": "reading",
+      "topicIds": [
+        "teaching",
+        "learning"
+      ],
+      "audience": "希望讓課堂討論有空間也有依據的教師",
+      "output": "一份包含不同觀點、依據與待查問題的討論紀錄",
+      "minutes": 20,
+      "level": "入門",
+      "status": "ready",
+      "contentType": "video_method",
+      "reviewedAt": "2026-10-29",
+      "coverLabel": "課堂對話 · 提問練習",
+      "sourceCoverage": "指定 Notion 頁收錄的訪談，已讀 YouTube 繁中自動字幕，並以 MP3 55:20–57:00 節錄透過 Whisper base 轉錄；兩份字幕均可辨講者談學生不必有與老師相同的答案。字幕有錯字，未人工聽校或觀看完整畫面。四步流程、古文情境及時間為編輯設計，不是講者逐字教案。",
+      "sources": [
+        {
+          "id": "original",
+          "title": "閱讀人專題讀書會《孔子與他的學生們》專訪金哲毅",
+          "kind": "video",
+          "url": "https://www.youtube.com/watch?v=DAju_1vO_Ys",
+          "channel": "閱讀人 鄭俊德",
+          "videoId": "DAju_1vO_Ys"
+        }
+      ],
+      "steps": [
+        {
+          "id": "listen",
+          "title": "聽完整問題",
+          "action": "讓學生說完，試著用一句話重述問題，再請學生確認是否理解正確。",
+          "why": "講者談到師生不必有相同答案；釐清問題的步驟為編輯設計。",
+          "example": "編輯示範：你不認同的是人物的目的，還是他採取的方法？",
+          "check": "學生認同重述說出了自己的疑問。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 3320,
+              "endSeconds": 3374
+            }
+          ]
+        },
+        {
+          "id": "evidence",
+          "title": "問理由與依據",
+          "action": "邀請學生指出文本、經驗或推論，區分讀到的內容與自己的猜測。",
+          "why": "課堂提問與證據區分為編輯設計，讓意見能被檢查。",
+          "example": "編輯示範：文中哪一句支持你的看法？如果還沒有，先記下待查。",
+          "check": "說出一項可檢查的依據，或明確標記尚未找到。",
+          "contribution": "editorial",
+          "sourceRefs": []
+        },
+        {
+          "id": "compare",
+          "title": "比較不同看法",
+          "action": "邀請另一個觀點，請大家指出彼此意見和理由有何不同。",
+          "why": "允許不同意，也保留逐一檢查理由的空間。",
+          "example": "編輯示範：另一位同學提出不同解釋，說明他看到的原文線索。",
+          "check": "能具體說出一處意見或依據的差異。",
+          "contribution": "editorial",
+          "sourceRefs": []
+        },
+        {
+          "id": "record",
+          "title": "記下待查問題",
+          "action": "各自寫下目前看法、未確定之處與下一步可以查的來源。",
+          "why": "把討論中的不確定處留下來，方便下次回看。",
+          "example": "編輯示範：記下需要查證的時代背景及可查詢的資料。",
+          "check": "留下至少一個待查問題與下一步。",
+          "contribution": "editorial",
+          "sourceRefs": []
+        }
+      ],
+      "practice": {
+        "title": "編輯練習：留下課堂對話紀錄",
+        "minutes": 20,
+        "prompt": "選一段適合討論的文本，邀請學生說出不同看法，重述疑問並比較各自的依據，最後記錄待查問題。",
+        "deliverable": "一份不同觀點、依據及待查問題的紀錄",
+        "checklist": [
+          "先確認理解學生問題。",
+          "區分文本依據與推測。",
+          "記錄一處觀點差異。",
+          "留下待查問題與下一步。"
+        ]
+      },
+      "pitfalls": [
+        "把不同意見直接視為不尊重，沒有先聽清楚問題。",
+        "只說誰對誰錯，沒有指出可檢查的依據。",
+        "把講者對歷史人物的詮釋當成可確定的心理事實。"
+      ],
+      "supplements": [
+        {
+          "title": "編輯觀點：保留不同，也檢查依據",
+          "text": "鼓勵不同意不代表每個說法都有相同證據；可同時尊重觀點與核對文本。",
+          "sourceIds": [
+            "original"
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "這套提問一定能改善課堂討論",
+          "status": "unverified",
+          "explanation": "訪談提供師生觀點；本文提問流程為編輯設計，未經課堂實測。",
+          "sourceIds": [
+            "original"
+          ],
+          "checkedAt": "2026-10-29"
+        }
+      ],
+      "keywords": [
+        "課堂討論",
+        "提問",
+        "文本依據",
+        "教學應用"
+      ],
+      "overview": {
+        "image": "/assets/overviews/student-disagreement-inquiry-desktop.webp",
+        "mobileImage": "/assets/overviews/student-disagreement-inquiry-mobile.webp",
+        "cardImage": "/assets/overviews/student-disagreement-inquiry-desktop.webp",
+        "alt": "阿問陪師生聽問題、找依據並比較不同看法。",
+        "caption": "課堂提問流程與示例為編輯設計。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      },
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "讓不同意見有討論空間",
+          "note": "流程為編輯設計。",
+          "nodes": [
+            {
+              "id": "listen",
+              "label": "聽問題",
+              "detail": "先重述並確認"
+            },
+            {
+              "id": "evidence",
+              "label": "找依據",
+              "detail": "分清原文與推測"
+            },
+            {
+              "id": "compare",
+              "label": "比較",
+              "detail": "指出看法差異"
+            },
+            {
+              "id": "record",
+              "label": "留下問題",
+              "detail": "記錄待查與下一步"
+            }
+          ],
+          "edges": [
+            {
+              "from": "listen",
+              "to": "evidence"
+            },
+            {
+              "from": "evidence",
+              "to": "compare"
+            },
+            {
+              "from": "compare",
+              "to": "record"
+            }
+          ]
+        },
+        {
+          "type": "schedule",
+          "title": "編輯補充：練習安排",
+          "note": "依課堂情況調整。",
+          "columns": [
+            "行動",
+            "完成判準"
+          ],
+          "rows": [
+            {
+              "label": "聽完整問題",
+              "cells": [
+                "讓學生說完，試著用一句話重述問題，再請學生確認是否理解正確。",
+                "學生認同重述說出了自己的疑問。"
+              ]
+            },
+            {
+              "label": "問理由與依據",
+              "cells": [
+                "邀請學生指出文本、經驗或推論，區分讀到的內容與自己的猜測。",
+                "說出一項可檢查的依據，或明確標記尚未找到。"
+              ]
+            },
+            {
+              "label": "比較不同看法",
+              "cells": [
+                "邀請另一個觀點，請大家指出彼此意見和理由有何不同。",
+                "能具體說出一處意見或依據的差異。"
+              ]
+            },
+            {
+              "label": "記下待查問題",
+              "cells": [
+                "各自寫下目前看法、未確定之處與下一步可以查的來源。",
+                "留下至少一個待查問題與下一步。"
+              ]
+            }
+          ]
+        }
+      ],
+      "publishedAt": "2026-10-29T02:55:03+08:00"
     }
   ],
   "demo": {
