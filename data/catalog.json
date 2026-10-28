@@ -115496,6 +115496,375 @@
         "mobileHeight": 1600
       },
       "publishedAt": "2026-10-29T06:43:29+08:00"
+    },
+    {
+      "id": "plan-tomorrow-reading-book",
+      "title": "閱讀總被往後排？先替明天準備好一本書",
+      "summary": "安排閱讀時段、前一天選書，再把讀後觀點留下，讓下次能繼續。",
+      "categoryId": "reading",
+      "topicIds": [
+        "learning",
+        "strategies"
+      ],
+      "audience": "想安排閱讀時間、重新開始閱讀的人",
+      "output": "一張明日閱讀卡與一則閱讀筆記",
+      "minutes": 10,
+      "level": "入門",
+      "status": "ready",
+      "contentType": "video_method",
+      "reviewedAt": "2026-10-29",
+      "coverLabel": "閱讀習慣 · 先做準備",
+      "keywords": [
+        "閱讀習慣",
+        "事先選書",
+        "閱讀時間",
+        "閱讀筆記"
+      ],
+      "sourceCoverage": "指定 Notion 影片音訊以 Whisper tiny 自動轉錄全片，字幕有錯字且尚未逐句人工聽校；時間依辨識稿定位可能偏移。講者談安排閱讀時間、前一天選書與讀後輸出，本文的閱讀卡、示例與時間安排為編輯延伸，未驗證習慣養成成效。",
+      "sources": [
+        {
+          "id": "original",
+          "title": "EP13｜拖延閱讀：用 3 個方法建立閱讀習慣",
+          "kind": "video",
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=m1oYUx8XJDY",
+          "channel": "跟朱騏一起打造知識型一人公司",
+          "videoId": "m1oYUx8XJDY",
+          "note": "自動字幕尚未人工逐句聽校。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "安排一個閱讀時段",
+          "action": "選一段較有機會閱讀的時間，記到行事曆；經常被打斷時，記下原因並試著調整。",
+          "why": "講者談固定閱讀時間；實際時長可以依情況調整。",
+          "example": "編輯示範：在晚餐後保留一小段時間讀書。",
+          "check": "有一個明確時間，並知道臨時有事時如何重排。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 624,
+              "endSeconds": 639
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "前一天決定讀哪一本",
+          "action": "選好明天願意打開的書，標記想開始的位置，放在容易拿到的地方。",
+          "why": "講者提到前一天先決定要讀什麼；放書與書籤方式為編輯建議。",
+          "example": "編輯示範：睡前把書放在明天會坐的桌上，夾好上次停下的位置。",
+          "check": "明天開始前不必再決定讀哪本、從哪裡讀。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 624,
+              "endSeconds": 639
+            },
+            {
+              "sourceId": "original",
+              "startSeconds": 1764,
+              "endSeconds": 1800
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "讀後留下觀點或問題",
+          "action": "讀完記一個有趣觀點或一個想追問的問題，必要時標頁碼回原書核對；需要時再整理成較完整的筆記。",
+          "why": "講者談閱讀後輸出與記有趣觀點，並非每一則筆記都要寫得完整。",
+          "example": "編輯示範：寫下『哪一句讓我想多看一眼？』並記下頁碼。",
+          "check": "留下一句自己的筆記及可回找的位置。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 759,
+              "endSeconds": 843
+            },
+            {
+              "sourceId": "original",
+              "startSeconds": 1495,
+              "endSeconds": 1522
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "先安排，再讀後留痕",
+          "note": "時間、書籤與筆記卡為編輯延伸。",
+          "nodes": [
+            {
+              "id": "n1",
+              "label": "安排閱讀時間",
+              "detail": "寫在行程裡"
+            },
+            {
+              "id": "n2",
+              "label": "前一天選書",
+              "detail": "準備明天起點"
+            },
+            {
+              "id": "n3",
+              "label": "讀後留筆記",
+              "detail": "記一個觀點或問題"
+            }
+          ],
+          "edges": [
+            {
+              "from": "n1",
+              "to": "n2"
+            },
+            {
+              "from": "n2",
+              "to": "n3"
+            }
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "這三步一定能讓每個人建立閱讀習慣。",
+          "status": "unverified",
+          "explanation": "影片提供講者的方法，並無本文活動的獨立成效證據。",
+          "sourceIds": [
+            "original"
+          ],
+          "checkedAt": "2026-10-29"
+        }
+      ],
+      "pitfalls": [
+        "臨時有事可重新安排，不必把中斷視為失敗。",
+        "一本筆記不必一次寫完整；重點是回找得到。",
+        "是否有幫助需依自己的生活情況觀察調整。"
+      ],
+      "practice": {
+        "title": "明日閱讀卡",
+        "minutes": 10,
+        "prompt": "編輯設計：寫下明天的閱讀時段、選好的書與起點。讀完記一個觀點或問題，再註明下次從哪裡繼續。",
+        "deliverable": "一張閱讀卡及一則筆記",
+        "checklist": [
+          "寫下時段",
+          "前一天選好書",
+          "留下觀點或問題",
+          "記下下次的起點"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "編輯補充：閱讀卡",
+          "text": "明天在哪時讀：＿＿；讀哪一本：＿＿；從哪裡開始：＿＿；讀後的一句觀點或問題：＿＿；下次起點：＿＿。",
+          "sourceIds": []
+        }
+      ],
+      "overview": {
+        "image": "/assets/overviews/read-plan-desktop.webp",
+        "mobileImage": "/assets/overviews/read-plan-mobile.webp",
+        "cardImage": "/assets/overviews/read-plan-desktop.webp",
+        "alt": "知行與墨丸安排閱讀、選書並留下筆記。",
+        "caption": "時間安排與閱讀卡為編輯延伸。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      },
+      "publishedAt": "2026-10-29T06:45:50+08:00"
+    },
+    {
+      "id": "read-source-reaction-two-columns",
+      "title": "閱讀後畫一條線：把來源資訊和自己的想法分開",
+      "summary": "用雙欄記下來源說法與自己的回應，再回原文核對，保留思考的來處。",
+      "categoryId": "reading",
+      "topicIds": [
+        "strategies",
+        "learning"
+      ],
+      "audience": "想整理閱讀筆記、區分來源與想法的讀者",
+      "output": "一張雙欄筆記及一處待核對內容",
+      "minutes": 10,
+      "level": "入門",
+      "status": "ready",
+      "contentType": "video_method",
+      "reviewedAt": "2026-10-29",
+      "coverLabel": "閱讀筆記 · 來源與想法",
+      "keywords": [
+        "閱讀筆記",
+        "資訊整理",
+        "來源",
+        "個人觀點"
+      ],
+      "sourceCoverage": "指定 Notion 影片音訊以 Whisper tiny 自動辨識，字幕覆蓋約 00:00–08:54，尚未逐句人工聽校；影片約 08:56，末約 2 秒未產生字幕。講者介紹將外界訊息與個人感受想法分欄；辨識不清的 W／H 矩陣未採用。例子、來源標記、核對與十分鐘練習為編輯延伸；影片是書籍介紹而非原書全文。",
+      "sources": [
+        {
+          "id": "original",
+          "title": "推薦閱讀1636《畫出一條線你就知道怎麼說》整理的本質就是畫線以分類和歸納統整資訊",
+          "kind": "video",
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=bBfGyP8Ut9o",
+          "channel": "Zen大的影視頻道",
+          "videoId": "bBfGyP8Ut9o",
+          "note": "來源為影片對書的介紹；字幕尚未人工逐句聽校。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "畫一條線，分成兩欄",
+          "action": "在紙上或筆記中間畫線，一欄放來源資訊，一欄放自己的感受、想法或疑問。",
+          "why": "講者介紹用線區分外界接收的訊息與自己的感想。",
+          "example": "編輯示範：左欄寫『來源資訊』，右欄寫『我的想法』。",
+          "check": "兩欄標題清楚可辨。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 28,
+              "endSeconds": 68
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "記下來源說法",
+          "action": "摘記讀到的資訊或觀點，標明作者與原文位置；無法確定的內容標示待查。",
+          "why": "講者談區分不同資訊與觀點；標示來源和查證是編輯補充。",
+          "example": "編輯假設示範：作者介紹教室閱讀角的做法，保留篇名和頁碼。",
+          "check": "能回到原文，分清誰說了什麼。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 47,
+              "endSeconds": 90
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "寫下自己的回應",
+          "action": "在另一欄寫感受、疑問或想嘗試的事；尚不確定的內容保留為問題。",
+          "why": "講者將接收資訊與自己的感受、想法分開。",
+          "example": "編輯假設示範：我想問學生，班上書籍更換頻率是否影響借閱意願。",
+          "check": "回應清楚標示為自己的想法，而非原作者結論。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 57,
+              "endSeconds": 68
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "回看並核對",
+          "action": "挑一組相關內容，先說來源是什麼，再說自己的想法，必要時回原文核對。",
+          "why": "講者談分類與重新整理資訊；回看及核對方式是編輯建議。",
+          "example": "編輯示範：作者介紹閱讀角，我想到可以先詢問學生意見。",
+          "check": "能指出一處來源及一個個人回應。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 155,
+              "endSeconds": 183
+            },
+            {
+              "sourceId": "original",
+              "startSeconds": 263,
+              "endSeconds": 284
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "來源與想法分欄",
+          "note": "來源標記與核對為編輯延伸。",
+          "nodes": [
+            {
+              "id": "n1",
+              "label": "來源資訊",
+              "detail": "寫作者說法與位置"
+            },
+            {
+              "id": "n2",
+              "label": "我的想法",
+              "detail": "寫感受或疑問"
+            },
+            {
+              "id": "n3",
+              "label": "回原文核對",
+              "detail": "說清兩者關係"
+            }
+          ],
+          "edges": [
+            {
+              "from": "n1",
+              "to": "n2"
+            },
+            {
+              "from": "n2",
+              "to": "n3"
+            }
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "雙欄筆記一定提升理解或記憶。",
+          "status": "unverified",
+          "explanation": "影片是方法介紹，並未證明本文練習的學習成效。",
+          "sourceIds": [
+            "original"
+          ],
+          "checkedAt": "2026-10-29"
+        }
+      ],
+      "pitfalls": [
+        "外界資訊不必然是事實，保留來源並視需要查證。",
+        "個人感受和推測不必寫成確定結論。",
+        "字幕中的 W／H 分類辨識不清，本練習未採用。"
+      ],
+      "practice": {
+        "title": "10 分鐘雙欄筆記",
+        "minutes": 10,
+        "prompt": "編輯設計：選一段閱讀材料，畫線分欄，摘記兩則來源資訊並各寫一個回應；標出一處需回原文確認的內容，試著口頭區分兩欄。",
+        "deliverable": "一張雙欄筆記與一處待核對內容",
+        "checklist": [
+          "標示來源欄與想法欄",
+          "留下原文位置",
+          "寫自己的回應",
+          "回原文核對"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "編輯示範：假設的閱讀角文章",
+          "text": "來源欄：作者介紹教室閱讀角的做法，記下篇名與頁碼。想法欄：我想先詢問學生對書籍更換的意見。這是假設情境，不是實際班級紀錄或成效證據。",
+          "sourceIds": []
+        }
+      ],
+      "overview": {
+        "image": "/assets/overviews/read-columns-desktop.webp",
+        "mobileImage": "/assets/overviews/read-columns-mobile.webp",
+        "cardImage": "/assets/overviews/read-columns-desktop.webp",
+        "alt": "小硯與以澄將來源資訊和自己的想法分欄，並回原文核對。",
+        "caption": "雙欄範例及核對方式為編輯延伸。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      },
+      "publishedAt": "2026-10-29T06:45:50+08:00"
     }
   ],
   "demo": {
