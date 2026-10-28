@@ -116465,6 +116465,205 @@
         "mobileHeight": 1600
       },
       "publishedAt": "2026-10-29T06:57:36+08:00"
+    },
+    {
+      "id": "story-reading-adjust-participation",
+      "title": "從看圖接話到修改心得：依閱讀能力調整故事課",
+      "summary": "依學生需要，在看圖預測、接話、朗讀、寫作和修訂之間調整參與方式。",
+      "categoryId": "reading",
+      "topicIds": [
+        "teaching",
+        "strategies"
+      ],
+      "audience": "幼兒園、國小教師及陪讀者",
+      "output": "一張故事課參與與修訂觀察卡",
+      "minutes": 25,
+      "level": "入門",
+      "status": "ready",
+      "contentType": "video_method",
+      "reviewedAt": "2026-10-29",
+      "coverLabel": "閱讀教學 · 彈性參與",
+      "keywords": [
+        "故事課",
+        "閱讀教學",
+        "看圖預測",
+        "心得修訂"
+      ],
+      "sourceCoverage": "指定 Notion 影片已下載 MP3、以 Whisper tiny 自動轉錄全片，並參考影片繁體字幕；尚未逐句人工聽校，自動辨識有錯字。講者分享不同年級的閱讀課例，年級只作起點，實際能力差異仍需觀察。觀察卡、彈性回應方式與時間為編輯延伸，不能由個別觀察推論普遍成效。",
+      "sources": [
+        {
+          "id": "original",
+          "title": "EP176. 得報聊聊：讓孩子進入閱讀～從幼兒園到高年級的分齡教學實踐【噗噗聊聊 PuPuChatChat】ft. 林玉玫老師",
+          "kind": "video",
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=KkxByKkucBA",
+          "channel": "噗噗聊聊",
+          "videoId": "KkxByKkucBA",
+          "note": "影片字幕尚未逐段人工聽辨音訊。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "看圖預測，一起接話",
+          "action": "選畫面清楚、句式重複的故事；讀前看圖猜內容，給一項聆聽任務，讀時邀請孩子接重複句，讀後回看猜測。",
+          "why": "講者分享幼兒園課例：看封面、帶任務聽故事及分組接話。",
+          "example": "編輯示範：『我看到＿＿，所以猜＿＿』；孩子可用口說、指圖或動作回應。",
+          "check": "孩子能以適合自己的方式提出線索或接話。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 153,
+              "endSeconds": 296
+            },
+            {
+              "sourceId": "original",
+              "startSeconds": 725,
+              "endSeconds": 869
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "朗讀時觀察聲音",
+          "action": "依孩子識字與表達狀況保留文字，聽一段朗讀，討論哪裡太快或不清楚，再試著調整。",
+          "why": "講者分享低年級聆聽朗讀、觀察速度及語調；能力仍因人而異。",
+          "example": "編輯示範：指出一個需要放慢的句子，再重新讀一次。",
+          "check": "能指出一處聲音特徵並試著調整。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 970,
+              "endSeconds": 1107
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "先寫一次，再修訂",
+          "action": "讀完故事先寫大意與心得；教學後回看內容，補充故事經過、自己的想法與理由，再比較修訂前後。",
+          "why": "講者分享學生先寫、學習故事結構後再修改；前後測細節不足以判斷成效。",
+          "example": "編輯示範：分成『發生什麼事』與『我的想法及理由』兩欄，補一處缺漏。",
+          "check": "保留兩版文字，能說出修改了什麼。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 1132,
+              "endSeconds": 1298
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "選文章，說出理由",
+          "action": "讓學生從可讀的文章中選一篇，寫下大意與心得，說明哪個角色或段落讓自己有感及原因。",
+          "why": "講者分享高年級學生選文、精讀及撰寫具體心得的課例。",
+          "example": "編輯示範：先比較教師提供的幾篇文章，再選一篇並寫下選擇理由。",
+          "check": "心得包含一個具體線索及理由。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 1371,
+              "endSeconds": 1494
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "依需求選擇參與方式",
+          "note": "年級與流程不是能力標籤，依學生需要調整。",
+          "nodes": [
+            {
+              "id": "n1",
+              "label": "看圖接話",
+              "detail": "觀察並預測"
+            },
+            {
+              "id": "n2",
+              "label": "朗讀觀察",
+              "detail": "聽速度與語調"
+            },
+            {
+              "id": "n3",
+              "label": "寫後修訂",
+              "detail": "比較前後文字"
+            },
+            {
+              "id": "n4",
+              "label": "選文說理由",
+              "detail": "從文本找到依據"
+            }
+          ],
+          "edges": [
+            {
+              "from": "n1",
+              "to": "n2"
+            },
+            {
+              "from": "n2",
+              "to": "n3"
+            },
+            {
+              "from": "n3",
+              "to": "n4"
+            }
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "同一套閱讀活動適合所有學生，或必然提升閱讀成效。",
+          "status": "unverified",
+          "explanation": "影片提供教師課例與個別觀察，無法推論所有學生的成效。",
+          "sourceIds": [
+            "original"
+          ],
+          "checkedAt": "2026-10-29"
+        }
+      ],
+      "pitfalls": [
+        "年級只是規劃起點，不要斷言同年齡孩子都有相同能力。",
+        "可提供指圖、口說、注音或聆聽選項，讓孩子自行選擇。",
+        "使用 AI 分析學生作品時，教師仍需核對並保護個人資料。"
+      ],
+      "practice": {
+        "title": "故事課參與觀察卡",
+        "minutes": 25,
+        "prompt": "編輯設計：選一篇學生讀得進去的故事，依需求試看圖接話或先寫再修訂；課後記一項觀察，例如學生提出的線索或兩版文字的變化，下次依此調整支援。",
+        "deliverable": "一張參與觀察卡及一份學習紀錄",
+        "checklist": [
+          "依學生需求選參與方式",
+          "保留可回看的線索或作品",
+          "記下學生的理由",
+          "依觀察調整下次支援"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "編輯補充：觀察卡",
+          "text": "故事：＿＿；參與方式：＿＿；孩子說出或指出的線索：＿＿；目前需要的支持：＿＿；下次調整：＿＿。",
+          "sourceIds": []
+        }
+      ],
+      "overview": {
+        "image": "/assets/overviews/reading-age-desktop.webp",
+        "mobileImage": "/assets/overviews/reading-age-mobile.webp",
+        "cardImage": "/assets/overviews/reading-age-desktop.webp",
+        "alt": "以澄與小硯示範看圖接話、朗讀觀察、修訂和選文說理由。",
+        "caption": "參與方式應依孩子需求調整；觀察卡為編輯延伸。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      },
+      "publishedAt": "2026-10-29T07:06:06+08:00"
     }
   ],
   "demo": {
