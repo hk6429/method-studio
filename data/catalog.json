@@ -106688,6 +106688,448 @@
         "mobileHeight": 1600
       },
       "publishedAt": "2026-10-29T02:35:00+08:00"
+    },
+    {
+      "id": "dictionary-example-collocations",
+      "title": "查英文單字，別跳過例句：找出前後搭配",
+      "summary": "查到意思後，再讀詞典例句，觀察一個詞常和哪些字一起出現，試寫自己的句子並核對。",
+      "categoryId": "english",
+      "topicIds": [
+        "speaking",
+        "habits"
+      ],
+      "level": "入門",
+      "minutes": 15,
+      "output": "一張記下例句、搭配及自寫句的學習卡",
+      "audience": "想把英文單字用進句子的自學者",
+      "status": "ready",
+      "contentType": "video_method",
+      "reviewedAt": "2026-10-29",
+      "coverLabel": "英文詞彙 · 例句搭配",
+      "keywords": [
+        "英文",
+        "詞典",
+        "例句",
+        "搭配詞"
+      ],
+      "sourceCoverage": "指定 Notion 頁收錄的影片 MP3 以 Whisper tiny 轉錄全片，另以 base 轉錄 13:10–14:05；兩份機器字幕均提到讀詞典例句與觀察 responsibility 的前後搭配。字幕有誤字，未人工聽校或觀看畫面；自寫例句、核對步驟及練習安排為編輯設計。",
+      "sources": [
+        {
+          "id": "original",
+          "title": "真正該學的是英文表達",
+          "kind": "video",
+          "url": "https://www.youtube.com/watch?v=AAqHDQhB9Og",
+          "channel": "brain 學霸",
+          "videoId": "AAqHDQhB9Og"
+        }
+      ],
+      "steps": [
+        {
+          "id": "word",
+          "title": "選一個想用的詞",
+          "action": "挑一個最近閱讀或對話遇到、想再用的英文詞。",
+          "why": "從有需要的詞開始，比較容易找到練習情境。",
+          "example": "編輯示範：想了解 responsibility（責任）怎麼放進句子。",
+          "check": "能指出一個想查的詞。",
+          "contribution": "editorial",
+          "sourceRefs": []
+        },
+        {
+          "id": "read",
+          "title": "讀詞典例句",
+          "action": "使用可信的詞典查看詞義與一兩個例句，保留詞典名稱和連結。",
+          "why": "影片建議不只看中文意思，也要讀例句。",
+          "example": "編輯示範：查 responsibility，讀一個表示承擔責任的例句。",
+          "check": "記下一個例句與詞典來源。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 790,
+              "endSeconds": 835
+            }
+          ]
+        },
+        {
+          "id": "notice",
+          "title": "圈出前後搭配",
+          "action": "觀察例句中詞語前後的動詞、介系詞及情境，記下完整搭配。",
+          "why": "影片舉 take responsibility for 作為搭配例子。",
+          "example": "編輯示範：圈出 take responsibility for，而不是只抄 responsibility。",
+          "check": "能指出詞前後的搭配。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 803,
+              "endSeconds": 830
+            }
+          ]
+        },
+        {
+          "id": "write",
+          "title": "換情境試寫並核對",
+          "action": "用自己熟悉的情境試寫一句，再回詞典核對用法，或請熟悉英文的人協助。",
+          "why": "自己造句與核對為編輯延伸，幫助檢查是否理解用法。",
+          "example": "編輯示範：I take responsibility for my part.",
+          "check": "留下一句自己的句子與核對結果。",
+          "contribution": "editorial",
+          "sourceRefs": []
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "從查詞到試寫",
+          "note": "依影片整理；試寫與核對為編輯設計。",
+          "nodes": [
+            {
+              "id": "word",
+              "label": "選詞",
+              "detail": "挑想使用的詞"
+            },
+            {
+              "id": "read",
+              "label": "讀例句",
+              "detail": "記下詞典來源"
+            },
+            {
+              "id": "notice",
+              "label": "找搭配",
+              "detail": "圈出前後詞語"
+            },
+            {
+              "id": "write",
+              "label": "試寫核對",
+              "detail": "換情境並查證"
+            }
+          ],
+          "edges": [
+            {
+              "from": "word",
+              "to": "read"
+            },
+            {
+              "from": "read",
+              "to": "notice"
+            },
+            {
+              "from": "notice",
+              "to": "write"
+            }
+          ]
+        },
+        {
+          "type": "schedule",
+          "title": "編輯補充：練習安排",
+          "note": "依需要調整。",
+          "columns": [
+            "行動",
+            "完成判準"
+          ],
+          "rows": [
+            {
+              "label": "選一個想用的詞",
+              "cells": [
+                "挑一個最近閱讀或對話遇到、想再用的英文詞。",
+                "能指出一個想查的詞。"
+              ]
+            },
+            {
+              "label": "讀詞典例句",
+              "cells": [
+                "使用可信的詞典查看詞義與一兩個例句，保留詞典名稱和連結。",
+                "記下一個例句與詞典來源。"
+              ]
+            },
+            {
+              "label": "圈出前後搭配",
+              "cells": [
+                "觀察例句中詞語前後的動詞、介系詞及情境，記下完整搭配。",
+                "能指出詞前後的搭配。"
+              ]
+            },
+            {
+              "label": "換情境試寫並核對",
+              "cells": [
+                "用自己熟悉的情境試寫一句，再回詞典核對用法，或請熟悉英文的人協助。",
+                "留下一句自己的句子與核對結果。"
+              ]
+            }
+          ]
+        }
+      ],
+      "practice": {
+        "title": "編輯練習：做一張詞語使用卡",
+        "minutes": 15,
+        "prompt": "選一個詞，查詞典例句並圈出搭配；換一個自己熟悉的情境寫一句，再回查核對。",
+        "deliverable": "詞語、詞典例句、搭配與自寫句",
+        "checklist": [
+          "記錄詞典來源。",
+          "圈出詞語的前後搭配。",
+          "試寫自己的句子。",
+          "核對並標記不確定處。"
+        ]
+      },
+      "pitfalls": [
+        "只記中文意思，忽略例句裡前後詞語與用法。",
+        "只憑一個例句判定此詞在所有情境都一樣使用。",
+        "把自己新寫的句子當作已經核對過的標準答案。"
+      ],
+      "supplements": [
+        {
+          "title": "編輯觀點：詞義和用法一起看",
+          "text": "同一個詞在不同語境可能有不同意思或搭配；查例句時可留意當下的用法。",
+          "sourceIds": [
+            "original"
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "查例句一定能讓英文表達變流利",
+          "status": "unverified",
+          "explanation": "影片提出自學建議；本文練習未經獨立成效測試。",
+          "sourceIds": [
+            "original"
+          ],
+          "checkedAt": "2026-10-29"
+        }
+      ],
+      "overview": {
+        "image": "/assets/overviews/dictionary-example-collocations-desktop.webp",
+        "mobileImage": "/assets/overviews/dictionary-example-collocations-mobile.webp",
+        "cardImage": "/assets/overviews/dictionary-example-collocations-desktop.webp",
+        "alt": "以澄讀詞典例句，圈出單字前後搭配。",
+        "caption": "練習步驟與自寫例句為編輯設計。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      },
+      "publishedAt": "2026-10-29T02:44:47+08:00"
+    },
+    {
+      "id": "phonetic-symbol-picture-match",
+      "title": "圖像找線索：陪孩子認識注音符號",
+      "summary": "從圖片中找形狀線索，配對注音符號，再說出自己的觀察並一起核對。",
+      "categoryId": "reading",
+      "topicIds": [
+        "teaching",
+        "learning"
+      ],
+      "audience": "陪孩子認識注音符號的教師與家長",
+      "output": "一組圖片與注音符號的配對及孩子的說明",
+      "minutes": 15,
+      "level": "入門",
+      "status": "ready",
+      "contentType": "video_method",
+      "reviewedAt": "2026-10-29",
+      "coverLabel": "注音練習 · 圖像配對",
+      "sourceCoverage": "指定 Notion 頁收錄的影片 MP3 以 Whisper tiny 轉錄全片，另以 base 轉錄 52:50–54:30；兩份機器字幕均可辨講者提到圖字配對、在圖片中尋找注音符號形狀。字幕有誤字，未人工聽校或觀看畫面；卡片做法、示例、檢查與練習時間為編輯設計。",
+      "sources": [
+        {
+          "id": "original",
+          "title": "讓學習不再卡關：破解注音符號的難關",
+          "kind": "video",
+          "url": "https://www.youtube.com/watch?v=9926t3bKAaI",
+          "channel": "廣臻科技 KJCStech",
+          "videoId": "9926t3bKAaI"
+        }
+      ],
+      "steps": [
+        {
+          "id": "prepare",
+          "title": "準備圖片與符號卡",
+          "action": "選一到兩個孩子正在認識的注音符號，準備字形清楚的符號卡與可辨識形狀線索的圖片。",
+          "why": "影片示範從圖片尋找注音符號的形狀；卡片準備為編輯設計。",
+          "example": "編輯示範：準備 ㄇ 符號卡，畫一個門框作為形狀線索。",
+          "check": "符號清楚，圖片能看出想討論的形狀。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 3180,
+              "endSeconds": 3249
+            }
+          ]
+        },
+        {
+          "id": "observe",
+          "title": "觀察形狀與聲音",
+          "action": "先一起說出圖片是什麼，再觀察符號的形狀；由熟悉注音的教師或家長示範符號讀音。",
+          "why": "先確認孩子看到及聽到什麼，再開始配對。",
+          "example": "編輯示範：指著門框問「你看到幾條線？」再示範 ㄇ 的讀音。",
+          "check": "孩子能指出一項形狀線索或跟著說出符號。",
+          "contribution": "editorial",
+          "sourceRefs": []
+        },
+        {
+          "id": "match",
+          "title": "找線索配對",
+          "action": "讓孩子從符號卡中找與圖片形狀相似的一張；不確定時可以得到提示或暫時不選。",
+          "why": "影片提到讓孩子找出藏在圖中的符號形狀。",
+          "example": "編輯示範：比較門框和 ㄇ 的外形，討論哪裡相似。",
+          "check": "孩子能指出配對依據，或說明還需要提示。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 3180,
+              "endSeconds": 3249
+            }
+          ]
+        },
+        {
+          "id": "review",
+          "title": "說理由，再核對",
+          "action": "請孩子用自己的話說配對理由，再和教師或家長核對字形與讀音。",
+          "why": "說明理由與核對為編輯延伸，避免只憑圖像猜答案。",
+          "example": "編輯示範：說「門框兩邊和上方的線讓我想到 ㄇ」，再一起看符號卡。",
+          "check": "一起核對字形及讀音，記下需要再練的地方。",
+          "contribution": "editorial",
+          "sourceRefs": []
+        }
+      ],
+      "practice": {
+        "title": "編輯練習：試做一組配對",
+        "minutes": 15,
+        "prompt": "選一個孩子正在認識的注音符號，和孩子觀察一張有形狀線索的圖片；配對後說明並核對。",
+        "deliverable": "一組配對與孩子的觀察紀錄",
+        "checklist": [
+          "符號卡字形清楚。",
+          "孩子有時間觀察並可獲提示。",
+          "說出一個形狀線索。",
+          "一起核對符號及讀音。"
+        ]
+      },
+      "pitfalls": [
+        "只要求孩子背圖像，沒有回到注音符號本身。",
+        "依一次配對結果判斷孩子的整體學習能力。",
+        "圖片形狀或讀音不清楚時仍要求孩子猜中。"
+      ],
+      "supplements": [
+        {
+          "title": "編輯觀點：從一組開始",
+          "text": "先依孩子熟悉度選少量符號，必要時提供提示；圖像是輔助，仍要回到符號及讀音。",
+          "sourceIds": [
+            "original"
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "圖像配對一定能改善注音學習",
+          "status": "unverified",
+          "explanation": "影片提供教學經驗；本文設計未經課堂實測，不保證學習成效。",
+          "sourceIds": [
+            "original"
+          ],
+          "checkedAt": "2026-10-29"
+        }
+      ],
+      "keywords": [
+        "注音",
+        "圖像配對",
+        "識字",
+        "教學應用"
+      ],
+      "overview": {
+        "image": "/assets/overviews/phonetic-symbol-picture-match-desktop.webp",
+        "mobileImage": "/assets/overviews/phonetic-symbol-picture-match-mobile.webp",
+        "cardImage": "/assets/overviews/phonetic-symbol-picture-match-desktop.webp",
+        "alt": "阿問陪孩子從圖片形狀找線索，配對注音符號並核對。",
+        "caption": "圖片配對活動為編輯設計，依孩子程度調整。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      },
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "從觀察到配對",
+          "note": "活動細節為編輯設計。",
+          "nodes": [
+            {
+              "id": "prepare",
+              "label": "準備卡片",
+              "detail": "清楚的符號與圖片"
+            },
+            {
+              "id": "observe",
+              "label": "觀察",
+              "detail": "看看形狀、聽聽讀音"
+            },
+            {
+              "id": "match",
+              "label": "配對",
+              "detail": "說出相似線索"
+            },
+            {
+              "id": "review",
+              "label": "核對",
+              "detail": "一起看符號和讀音"
+            }
+          ],
+          "edges": [
+            {
+              "from": "prepare",
+              "to": "observe"
+            },
+            {
+              "from": "observe",
+              "to": "match"
+            },
+            {
+              "from": "match",
+              "to": "review"
+            }
+          ]
+        },
+        {
+          "type": "schedule",
+          "title": "編輯補充：練習安排",
+          "note": "依孩子程度調整。",
+          "columns": [
+            "行動",
+            "完成判準"
+          ],
+          "rows": [
+            {
+              "label": "準備圖片與符號卡",
+              "cells": [
+                "選一到兩個孩子正在認識的注音符號，準備字形清楚的符號卡與可辨識形狀線索的圖片。",
+                "符號清楚，圖片能看出想討論的形狀。"
+              ]
+            },
+            {
+              "label": "觀察形狀與聲音",
+              "cells": [
+                "先一起說出圖片是什麼，再觀察符號的形狀；由熟悉注音的教師或家長示範符號讀音。",
+                "孩子能指出一項形狀線索或跟著說出符號。"
+              ]
+            },
+            {
+              "label": "找線索配對",
+              "cells": [
+                "讓孩子從符號卡中找與圖片形狀相似的一張；不確定時可以得到提示或暫時不選。",
+                "孩子能指出配對依據，或說明還需要提示。"
+              ]
+            },
+            {
+              "label": "說理由，再核對",
+              "cells": [
+                "請孩子用自己的話說配對理由，再和教師或家長核對字形與讀音。",
+                "一起核對字形及讀音，記下需要再練的地方。"
+              ]
+            }
+          ]
+        }
+      ],
+      "publishedAt": "2026-10-29T02:44:47+08:00"
     }
   ],
   "demo": {
