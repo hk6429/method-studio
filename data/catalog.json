@@ -114442,6 +114442,241 @@
         "mobileHeight": 1600
       },
       "publishedAt": "2026-10-29T06:14:35+08:00"
+    },
+    {
+      "id": "student-curiosity-question-share",
+      "title": "先問學生好奇什麼：從自己的問題開始分享",
+      "summary": "邀請學生說出想了解的問題，選一個主題，找資料整理後與同伴分享。",
+      "categoryId": "reading",
+      "topicIds": [
+        "learning",
+        "teaching"
+      ],
+      "audience": "想讓學生從好奇問題出發的教師",
+      "output": "一張學生問題、資料與分享紀錄",
+      "minutes": 20,
+      "level": "入門",
+      "status": "ready",
+      "contentType": "video_method",
+      "reviewedAt": "2026-10-29",
+      "coverLabel": "課堂學習 · 好奇與提問",
+      "sourceCoverage": "指定 Notion 影片以 Whisper tiny 轉錄全片，並以 base 補轉約 03:00–05:40；全片字幕末尾約 0.9 秒未產出文字，尚未逐句人工聽校。教育工作者 Stephen Nobles 分享學生演講活動中先詢問學生想談的主題；找資料、整理與同伴追問為編輯延伸，不以一個案例保證學習成效。",
+      "sources": [
+        {
+          "id": "original",
+          "title": "Why You Need the Growth Mindset of a Weed | Stephen Nobles | TED",
+          "kind": "video",
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=8WWrNbHvd44",
+          "channel": "TED",
+          "videoId": "8WWrNbHvd44",
+          "note": "約 03:00–05:40 談學生演講活動及由學生選擇主題。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "先聽學生想問什麼",
+          "action": "邀請學生說出一件好奇的事或一個想討論的問題，也允許暫時保留。",
+          "why": "講者分享在學生演講活動中詢問學生想談什麼。",
+          "example": "編輯示範：請學生寫下「我一直想知道……」。",
+          "check": "學生能選擇口說、書寫或稍後再回應。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "選一個想追的問題",
+          "action": "從自己的問題中選一個可在現有時間與資源內初步探索的題目。",
+          "why": "講者描述學生選擇自己感興趣的演講主題；縮小題目為編輯補充。",
+          "example": "編輯示範：把「我好奇星空」改成「人造衛星壞掉後去哪裡？」",
+          "check": "問題清楚，並能說明為什麼想了解。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "找資料並整理",
+          "action": "找一兩份來源清楚的資料，記下與問題有關的資訊以及尚不確定之處。",
+          "why": "資料搜尋與核對步驟為編輯延伸。",
+          "example": "編輯示範：記下資料的作者或機構與查閱日期。",
+          "check": "至少一個說明能回到可查閱的資料。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "分享並留下下一問",
+          "action": "用自己舒服的方式向同伴分享，聽一個追問，再記下還想了解的問題。",
+          "why": "分享想法呼應講者描述的學生演講；追問與記錄方式為編輯延伸。",
+          "example": "編輯示範：用兩句話說明找到的資訊，再寫下一個新問題。",
+          "check": "能分清已找到的資訊和還要查證的問題。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "編輯整理：從好奇到分享",
+          "note": "資料核對與課堂安排為編輯延伸。",
+          "nodes": [
+            {
+              "id": "step-1",
+              "label": "先聽學生想問什麼",
+              "detail": "邀請學生說出一件好奇的事或一個想討論的問題，也允許暫時保留。"
+            },
+            {
+              "id": "step-2",
+              "label": "選一個想追的問題",
+              "detail": "從自己的問題中選一個可在現有時間與資源內初步探索的題目。"
+            },
+            {
+              "id": "step-3",
+              "label": "找資料並整理",
+              "detail": "找一兩份來源清楚的資料，記下與問題有關的資訊以及尚不確定之處。"
+            },
+            {
+              "id": "step-4",
+              "label": "分享並留下下一問",
+              "detail": "用自己舒服的方式向同伴分享，聽一個追問，再記下還想了解的問題。"
+            }
+          ],
+          "edges": [
+            {
+              "from": "step-1",
+              "to": "step-2"
+            },
+            {
+              "from": "step-2",
+              "to": "step-3"
+            },
+            {
+              "from": "step-3",
+              "to": "step-4"
+            }
+          ]
+        },
+        {
+          "type": "schedule",
+          "title": "編輯補充：學生問題卡",
+          "note": "分享形式可依學生意願調整。",
+          "columns": [
+            "行動",
+            "完成判準"
+          ],
+          "rows": [
+            {
+              "label": "先聽學生想問什麼",
+              "cells": [
+                "邀請學生說出一件好奇的事或一個想討論的問題，也允許暫時保留。",
+                "學生能選擇口說、書寫或稍後再回應。"
+              ]
+            },
+            {
+              "label": "選一個想追的問題",
+              "cells": [
+                "從自己的問題中選一個可在現有時間與資源內初步探索的題目。",
+                "問題清楚，並能說明為什麼想了解。"
+              ]
+            },
+            {
+              "label": "找資料並整理",
+              "cells": [
+                "找一兩份來源清楚的資料，記下與問題有關的資訊以及尚不確定之處。",
+                "至少一個說明能回到可查閱的資料。"
+              ]
+            },
+            {
+              "label": "分享並留下下一問",
+              "cells": [
+                "用自己舒服的方式向同伴分享，聽一個追問，再記下還想了解的問題。",
+                "能分清已找到的資訊和還要查證的問題。"
+              ]
+            }
+          ]
+        }
+      ],
+      "practice": {
+        "title": "編輯練習：我的一個好奇問題",
+        "minutes": 20,
+        "prompt": "寫下一個想了解的問題，選一份資料找線索，用文字或口說分享，最後留下還想追問的問題。",
+        "deliverable": "一個問題、資料來源與下一個問題",
+        "checklist": [
+          "問題由自己選擇。",
+          "資料有可查閱的來源。",
+          "能用自己選擇的方式分享。",
+          "區分已知與尚待查證的部分。"
+        ]
+      },
+      "pitfalls": [
+        "根據外表或一時反應替學生決定他不感興趣。",
+        "要求所有學生立即當眾發言。",
+        "把沒有查證的猜測當成資料結論。"
+      ],
+      "supplements": [
+        {
+          "title": "編輯提示：提供多種表達方式",
+          "text": "可讓學生選擇寫下、畫出或與同伴分享，再逐步決定是否面向全班。",
+          "sourceIds": [
+            "original"
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "只要讓學生自由選題，每個人就一定更有學習動機",
+          "status": "unverified",
+          "explanation": "影片分享個人經驗，不能保證所有學生的參與或學習成效。",
+          "sourceIds": [
+            "original"
+          ],
+          "checkedAt": "2026-10-29"
+        }
+      ],
+      "keywords": [
+        "學生提問",
+        "好奇心",
+        "自主學習",
+        "課堂分享"
+      ],
+      "overview": {
+        "image": "/assets/overviews/student-curiosity-desktop.webp",
+        "mobileImage": "/assets/overviews/student-curiosity-mobile.webp",
+        "cardImage": "/assets/overviews/student-curiosity-desktop.webp",
+        "alt": "阿問與知行一起整理好奇問題與資料。",
+        "caption": "問題卡、查資料與分享安排為編輯延伸。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      },
+      "publishedAt": "2026-10-29T06:25:52+08:00"
     }
   ],
   "demo": {
