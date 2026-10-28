@@ -111876,6 +111876,241 @@
         "mobileHeight": 1600
       },
       "publishedAt": "2026-10-29T05:07:41+08:00"
+    },
+    {
+      "id": "write-discuss-cover-recall",
+      "title": "習作討論完別急著抄：遮住答案，自己再寫一次",
+      "summary": "先獨立完成，再停筆討論；留時間看懂不會的內容，最後遮住答案回想並核對。",
+      "categoryId": "reading",
+      "topicIds": [
+        "teaching",
+        "strategies"
+      ],
+      "audience": "想帶學生練習國語習作與自我檢查的教師",
+      "output": "一份先寫、討論與回想訂正紀錄",
+      "minutes": 15,
+      "level": "入門",
+      "status": "ready",
+      "contentType": "video_method",
+      "reviewedAt": "2026-10-29",
+      "coverLabel": "國語教學 · 回想訂正",
+      "sourceCoverage": "指定 Notion 影片以 Whisper tiny 轉錄全片，並以 base 補轉約 44:00–47:00；尚未逐句人工聽校。教師分享先自己寫、停筆討論、看不會的字，關掉投影再回想寫出；習作例題、檢查表與下次回顧為編輯延伸。影片對記憶機制的解釋未獨立查證，不作保證。",
+      "sources": [
+        {
+          "id": "original",
+          "title": "EP202610-1 T++新手上路：國語教學應用",
+          "kind": "video",
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=KrWImH6ygdM",
+          "channel": "廣臻科技KJCStech",
+          "videoId": "KrWImH6ygdM",
+          "note": "約 44–47 分鐘分享學生先寫、討論、記住後再遮住答案書寫。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "先自己寫一遍",
+          "action": "選一小段國語習作，先獨立作答；不會的先留下記號。",
+          "why": "教師分享讓學生先寫，察覺自己會與不會的部分。",
+          "example": "編輯示範：先試寫三個課文生字，不確定的先畫記號。",
+          "check": "每個人都留下自己的第一版，不會的地方有標記。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "停筆聽與討論",
+          "action": "暫時放下筆，聽老師或同學說明答案，提出自己不懂的地方。",
+          "why": "教師分享討論與檢討時先停筆。",
+          "example": "編輯示範：比較某個字的部件，問清楚容易寫錯的地方。",
+          "check": "能指出至少一處剛才不確定的內容。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "留時間看懂不會的",
+          "action": "給自己一小段時間看正確寫法與說明，特別注意剛才不會的部分。",
+          "why": "教師在討論後留時間讓學生記住不會的字。",
+          "example": "編輯示範：仔細看剛才寫錯字的部件與順序。",
+          "check": "知道接下來要自己重試的是哪一處。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "遮住答案再試寫",
+          "action": "遮住投影或參考答案，靠自己再寫一次；完成後打開核對。",
+          "why": "教師關掉投影，讓學生把剛學到的內容回想寫出；最後核對為編輯補充。",
+          "example": "編輯示範：遮住答案重寫該字，再對照可靠字典或教師提供的答案。",
+          "check": "記下哪一處已能寫出、哪一處還需要練習。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "編輯整理：習作討論與回想",
+          "note": "先嘗試，再核對；不把一次寫對當成長期記住的證明。",
+          "nodes": [
+            {
+              "id": "step-1",
+              "label": "先自己寫一遍",
+              "detail": "選一小段國語習作，先獨立作答；不會的先留下記號。"
+            },
+            {
+              "id": "step-2",
+              "label": "停筆聽與討論",
+              "detail": "暫時放下筆，聽老師或同學說明答案，提出自己不懂的地方。"
+            },
+            {
+              "id": "step-3",
+              "label": "留時間看懂不會的",
+              "detail": "給自己一小段時間看正確寫法與說明，特別注意剛才不會的部分。"
+            },
+            {
+              "id": "step-4",
+              "label": "遮住答案再試寫",
+              "detail": "遮住投影或參考答案，靠自己再寫一次；完成後打開核對。"
+            }
+          ],
+          "edges": [
+            {
+              "from": "step-1",
+              "to": "step-2"
+            },
+            {
+              "from": "step-2",
+              "to": "step-3"
+            },
+            {
+              "from": "step-3",
+              "to": "step-4"
+            }
+          ]
+        },
+        {
+          "type": "schedule",
+          "title": "編輯補充：課堂檢查表",
+          "note": "練習時間與檢查方式可依班級調整。",
+          "columns": [
+            "行動",
+            "完成判準"
+          ],
+          "rows": [
+            {
+              "label": "先自己寫一遍",
+              "cells": [
+                "選一小段國語習作，先獨立作答；不會的先留下記號。",
+                "每個人都留下自己的第一版，不會的地方有標記。"
+              ]
+            },
+            {
+              "label": "停筆聽與討論",
+              "cells": [
+                "暫時放下筆，聽老師或同學說明答案，提出自己不懂的地方。",
+                "能指出至少一處剛才不確定的內容。"
+              ]
+            },
+            {
+              "label": "留時間看懂不會的",
+              "cells": [
+                "給自己一小段時間看正確寫法與說明，特別注意剛才不會的部分。",
+                "知道接下來要自己重試的是哪一處。"
+              ]
+            },
+            {
+              "label": "遮住答案再試寫",
+              "cells": [
+                "遮住投影或參考答案，靠自己再寫一次；完成後打開核對。",
+                "記下哪一處已能寫出、哪一處還需要練習。"
+              ]
+            }
+          ]
+        }
+      ],
+      "practice": {
+        "title": "編輯練習：挑一個不會的字",
+        "minutes": 15,
+        "prompt": "從習作挑一個剛才不會的字，先試寫、討論並仔細觀察；遮住答案再寫一次，最後核對。",
+        "deliverable": "第一次試寫、遮住後重寫及核對紀錄",
+        "checklist": [
+          "留下第一次嘗試。",
+          "討論時聽懂或提出疑問。",
+          "遮住答案自己重寫。",
+          "重新打開答案核對。"
+        ]
+      },
+      "pitfalls": [
+        "討論時只急著抄答案，沒有確認自己是否理解。",
+        "遮住後寫不出來就直接責備學生，而不提供再次練習的機會。",
+        "把一次立刻答對當成已經長期記住。"
+      ],
+      "supplements": [
+        {
+          "title": "編輯提示：下次再試一次",
+          "text": "隔一段時間可再讓學生嘗試，看看是否還能寫出；需要時回到正確示例，再調整練習。",
+          "sourceIds": [
+            "original"
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "立刻遮住答案重寫一次就一定進入長期記憶",
+          "status": "unverified",
+          "explanation": "影片提出記憶機制的解釋，但單次練習不能保證長期記住；仍需日後回看與練習。",
+          "sourceIds": [
+            "original"
+          ],
+          "checkedAt": "2026-10-29"
+        }
+      ],
+      "keywords": [
+        "國語習作",
+        "回想練習",
+        "課堂討論",
+        "訂正"
+      ],
+      "overview": {
+        "image": "/assets/overviews/close-rewrite-desktop.webp",
+        "mobileImage": "/assets/overviews/close-rewrite-mobile.webp",
+        "cardImage": "/assets/overviews/close-rewrite-desktop.webp",
+        "alt": "知行與小硯一起練習討論後遮住答案再寫。",
+        "caption": "例題、核對表與日後回顧為編輯延伸。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      },
+      "publishedAt": "2026-10-29T05:09:36+08:00"
     }
   ],
   "demo": {
