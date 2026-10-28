@@ -114207,6 +114207,241 @@
         "mobileHeight": 1600
       },
       "publishedAt": "2026-10-29T06:03:21+08:00"
+    },
+    {
+      "id": "word-chain-rules-one-at-time",
+      "title": "英文單字接龍：一次加一條規則，再試玩調整",
+      "summary": "先輪流說詞，再依序加入主題與字母接龍，觀察學生如何參與並調整規則。",
+      "categoryId": "english",
+      "topicIds": [
+        "speaking",
+        "habits"
+      ],
+      "audience": "想帶學生用小遊戲練習英文單字的教師",
+      "output": "一份單字接龍規則與試玩調整紀錄",
+      "minutes": 15,
+      "level": "入門",
+      "status": "ready",
+      "contentType": "video_method",
+      "reviewedAt": "2026-10-29",
+      "coverLabel": "英語教學 · 遊戲規則",
+      "sourceCoverage": "指定 Notion 影片以 Whisper tiny 轉錄全片，並以 base 補轉約 05:25–08:15；尚未逐句人工聽校。遊戲設計師 Eric Zimmerman 示範輪流說不重複的詞，再限制為食物、加入最後字母接龍；課堂安排、英語例字及學生參與檢查為編輯延伸。",
+      "sources": [
+        {
+          "id": "original",
+          "title": "What Makes a Good Game? | Eric Zimmerman | TED",
+          "kind": "video",
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=vfbNzpd6cIw",
+          "channel": "TED",
+          "videoId": "vfbNzpd6cIw",
+          "note": "約 05:25–08:15 示範逐步增加單字遊戲的限制。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "先輪流說詞",
+          "action": "兩人輪流說英文單字，先約定不能重複已經說過的詞。",
+          "why": "講者以輪流說詞、不可重複作為第一版規則。",
+          "example": "編輯示範：兩人各說一個自己知道的英文單字。",
+          "check": "兩人都理解輪流和不重複的規則。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "加入一個主題",
+          "action": "把詞彙範圍縮小到一個大家熟悉的主題，再試一輪。",
+          "why": "講者第二輪將範圍限於食物與飲料。",
+          "example": "編輯示範：選食物，例如 cake、egg。",
+          "check": "每個詞都符合選定的主題；不確定時可以一起查。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "加入字母接龍",
+          "action": "前一個單字的最後一個字母，成為下一個單字的第一個字母。",
+          "why": "講者第三輪加入最後字母與下一詞首字母相接的規則。",
+          "example": "編輯示範：cake 的最後字母是 e，下一個可說 egg。",
+          "check": "能檢查前一詞結尾與下一詞開頭是否相同。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "試玩後再調整",
+          "action": "觀察學生是否能參與，卡住時可提供詞卡或放寬主題，再試一次。",
+          "why": "講者提醒限制過多也可能造成問題；詞卡與課堂調整為編輯延伸。",
+          "example": "編輯示範：學生卡住時先查詞，不以淘汰為唯一方式。",
+          "check": "記下一項試玩觀察和是否需要調整的規則。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "編輯整理：逐步加入規則",
+          "note": "依學生程度調整主題與提示。",
+          "nodes": [
+            {
+              "id": "step-1",
+              "label": "先輪流說詞",
+              "detail": "兩人輪流說英文單字，先約定不能重複已經說過的詞。"
+            },
+            {
+              "id": "step-2",
+              "label": "加入一個主題",
+              "detail": "把詞彙範圍縮小到一個大家熟悉的主題，再試一輪。"
+            },
+            {
+              "id": "step-3",
+              "label": "加入字母接龍",
+              "detail": "前一個單字的最後一個字母，成為下一個單字的第一個字母。"
+            },
+            {
+              "id": "step-4",
+              "label": "試玩後再調整",
+              "detail": "觀察學生是否能參與，卡住時可提供詞卡或放寬主題，再試一次。"
+            }
+          ],
+          "edges": [
+            {
+              "from": "step-1",
+              "to": "step-2"
+            },
+            {
+              "from": "step-2",
+              "to": "step-3"
+            },
+            {
+              "from": "step-3",
+              "to": "step-4"
+            }
+          ]
+        },
+        {
+          "type": "schedule",
+          "title": "編輯補充：試玩檢查",
+          "note": "課堂安排與例字為編輯延伸。",
+          "columns": [
+            "行動",
+            "完成判準"
+          ],
+          "rows": [
+            {
+              "label": "先輪流說詞",
+              "cells": [
+                "兩人輪流說英文單字，先約定不能重複已經說過的詞。",
+                "兩人都理解輪流和不重複的規則。"
+              ]
+            },
+            {
+              "label": "加入一個主題",
+              "cells": [
+                "把詞彙範圍縮小到一個大家熟悉的主題，再試一輪。",
+                "每個詞都符合選定的主題；不確定時可以一起查。"
+              ]
+            },
+            {
+              "label": "加入字母接龍",
+              "cells": [
+                "前一個單字的最後一個字母，成為下一個單字的第一個字母。",
+                "能檢查前一詞結尾與下一詞開頭是否相同。"
+              ]
+            },
+            {
+              "label": "試玩後再調整",
+              "cells": [
+                "觀察學生是否能參與，卡住時可提供詞卡或放寬主題，再試一次。",
+                "記下一項試玩觀察和是否需要調整的規則。"
+              ]
+            }
+          ]
+        }
+      ],
+      "practice": {
+        "title": "編輯練習：三輪單字接龍",
+        "minutes": 15,
+        "prompt": "兩人先輪流說不重複的英文單字；第二輪限定食物，第三輪再加入最後字母接龍，最後討論哪一條規則需要調整。",
+        "deliverable": "三輪試玩紀錄與一項規則調整",
+        "checklist": [
+          "輪流且不重複。",
+          "主題清楚。",
+          "最後字母與下一詞開頭一致。",
+          "卡住時允許查詞或調整。"
+        ]
+      },
+      "pitfalls": [
+        "一次加入太多規則，學生還沒理解就開始。",
+        "把遊戲速度當成唯一判準，忽略查詞與參與。",
+        "英文拼字未確認就直接判定接龍正確。"
+      ],
+      "supplements": [
+        {
+          "title": "編輯提示：保留查詞機會",
+          "text": "可以提供主題詞卡或允許查字典，並依學生熟悉的詞彙調整難度。",
+          "sourceIds": [
+            "original"
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "單字接龍一定能讓學生記住更多英文單字",
+          "status": "unverified",
+          "explanation": "影片示範遊戲規則設計，沒有提供足以保證學習效果的證據。",
+          "sourceIds": [
+            "original"
+          ],
+          "checkedAt": "2026-10-29"
+        }
+      ],
+      "keywords": [
+        "英文單字",
+        "接龍",
+        "遊戲設計",
+        "課堂試玩"
+      ],
+      "overview": {
+        "image": "/assets/overviews/word-chain-desktop.webp",
+        "mobileImage": "/assets/overviews/word-chain-mobile.webp",
+        "cardImage": "/assets/overviews/word-chain-desktop.webp",
+        "alt": "以澄和阿問一起練習英文單字接龍。",
+        "caption": "課堂規劃與例字為編輯延伸。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      },
+      "publishedAt": "2026-10-29T06:14:35+08:00"
     }
   ],
   "demo": {
