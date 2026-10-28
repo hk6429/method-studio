@@ -115292,6 +115292,210 @@
         "mobileHeight": 1600
       },
       "publishedAt": "2026-10-29T06:35:24+08:00"
+    },
+    {
+      "id": "learning-action-game-design",
+      "title": "讓學習成為闖關：先設計學生要做的動作",
+      "summary": "以同一個單元比較答題與學習過程互動，再設計學生操作、回饋與試玩修正。",
+      "categoryId": "reading",
+      "topicIds": [
+        "teaching",
+        "learning"
+      ],
+      "audience": "想設計遊戲化學習活動的教師",
+      "output": "一張關卡規劃卡與試玩修正紀錄",
+      "minutes": 25,
+      "level": "入門",
+      "status": "ready",
+      "contentType": "video_method",
+      "reviewedAt": "2026-10-29",
+      "coverLabel": "遊戲化教學 · 學習動作",
+      "keywords": [
+        "遊戲化教學",
+        "學習目標",
+        "互動回饋",
+        "AI Agent"
+      ],
+      "sourceCoverage": "指定 Notion 影片音訊以 Groq Whisper large-v3-turbo 自動轉錄全片，尚未逐句人工聽校。講者比較答題競賽與將學習歷程設計為互動關卡，並示範用 AI 規劃及修改原型；國文課事件排序例子、備課卡與時間為編輯延伸。影片中的原型仍有操作問題，不能推定已完成課堂驗收或證明學習成效。",
+      "sources": [
+        {
+          "id": "original",
+          "title": "學生想破關，還是想下課？遊戲化教學 × AI Agent，讓學習成為過關的關鍵",
+          "kind": "video",
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=5_MvT-aRD70",
+          "channel": "三師爸 Sense Bar",
+          "videoId": "5_MvT-aRD70",
+          "note": "字幕為自動辨識，數學用語及時間邊界尚未人工聽校。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "定單元與學習表現",
+          "action": "選一個教學單元，寫下希望學生學會什麼、能做出什麼，再請 AI 協助整理規劃；教師核對課程內容。",
+          "why": "影片以多項式除法為例，先規劃學習目標和教學內容。",
+          "example": "編輯示範：國文課希望學生能排列故事事件並說明依據。",
+          "check": "目標能用具體學生動作描述。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 1707,
+              "endSeconds": 1758
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "比較兩種任務",
+          "action": "用同一單元，各列出一個答題推動遊戲的設計，以及一個讓學生操作學習內容的關卡。比較學生各自做了什麼。",
+          "why": "影片比較答題推進拔河與呈現演算過程的互動設計；前者仍可用於課後練習。",
+          "example": "編輯示範：一邊是答對題目移動角色，一邊是排列事件卡並解釋順序。",
+          "check": "說得出兩種設計各讓學生做什麼。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 1990,
+              "endSeconds": 2093
+            },
+            {
+              "sourceId": "original",
+              "startSeconds": 2573,
+              "endSeconds": 2588
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "設計操作與回饋",
+          "action": "寫下學生可操作的物件、需要做的判斷與操作後的回饋；請 AI 依這些條件協助製作小樣。",
+          "why": "影片初版偏向選擇題，講者要求重新設計互動；拖拉等動作本身不保證學習成效。",
+          "example": "編輯示範：拖動事件卡，說明排序依據；教師根據理由決定是否回讀文本。",
+          "check": "每個操作都能對應學習目標與可觀察的反應。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 2747,
+              "endSeconds": 2927
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "親自試玩並修正",
+          "action": "以學生身分走一次關卡，記錄發生問題的步驟、畫面與預期行為；修正後重試，再觀察學生實際使用。",
+          "why": "影片的原型出現輸入與加入房間問題，講者描述操作情境請 AI 修改。",
+          "example": "編輯示範：第三張事件卡拖不動，記下操作和裝置，再確認修正版。",
+          "check": "有試玩紀錄與仍未解決的問題。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 3079,
+              "endSeconds": 3115
+            },
+            {
+              "sourceId": "original",
+              "startSeconds": 3593,
+              "endSeconds": 3660
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "讓關卡呈現學習動作",
+          "note": "國文課場景和備課流程為編輯延伸。",
+          "nodes": [
+            {
+              "id": "n1",
+              "label": "定學習目標",
+              "detail": "寫下學生動作"
+            },
+            {
+              "id": "n2",
+              "label": "比較兩種任務",
+              "detail": "答題與操作內容"
+            },
+            {
+              "id": "n3",
+              "label": "設計操作回饋",
+              "detail": "讓判斷看得見"
+            },
+            {
+              "id": "n4",
+              "label": "試玩修正",
+              "detail": "記卡點並重試"
+            }
+          ],
+          "edges": [
+            {
+              "from": "n1",
+              "to": "n2"
+            },
+            {
+              "from": "n2",
+              "to": "n3"
+            },
+            {
+              "from": "n3",
+              "to": "n4"
+            }
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "把學習操作做成遊戲一定能提升學習成效。",
+          "status": "unverified",
+          "explanation": "影片展示教學設計與原型操作，沒有提供本文活動的成效證據。",
+          "sourceIds": [
+            "original"
+          ],
+          "checkedAt": "2026-10-29"
+        }
+      ],
+      "pitfalls": [
+        "有拖拉和分數不代表學生已理解，應確認操作與目標的關係。",
+        "AI 提供的課程內容需由教師核對。",
+        "原型可操作不等於課堂或跨裝置驗收完成。"
+      ],
+      "practice": {
+        "title": "25 分鐘關卡規劃卡",
+        "minutes": 25,
+        "prompt": "編輯設計：寫下一個單元與學生要做的事，分別規劃答題競賽和操作學習內容的任務；選一個小樣，寫下回饋方式、親自試玩的卡點與下一步。時間可依單元調整。",
+        "deliverable": "關卡規劃卡和試玩修正紀錄",
+        "checklist": [
+          "描述可觀察的學習動作",
+          "比較兩種任務",
+          "寫下操作後的回饋",
+          "記錄卡點並重試"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "編輯補充：備課小卡",
+          "text": "學生要學會：＿＿；希望看見的動作：＿＿；關卡情境及物件：＿＿；操作後回饋：＿＿；教師試玩卡點與修正：＿＿。",
+          "sourceIds": []
+        }
+      ],
+      "overview": {
+        "image": "/assets/overviews/game-learning-desktop.webp",
+        "mobileImage": "/assets/overviews/game-learning-mobile.webp",
+        "cardImage": "/assets/overviews/game-learning-desktop.webp",
+        "alt": "以澄、知行和墨丸規劃學習目標、操作回饋與遊戲試玩。",
+        "caption": "國文課遊戲示例為編輯延伸，成效尚未驗證。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      },
+      "publishedAt": "2026-10-29T06:43:29+08:00"
     }
   ],
   "demo": {
