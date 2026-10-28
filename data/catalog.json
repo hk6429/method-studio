@@ -117249,6 +117249,387 @@
         "mobileHeight": 1600
       },
       "publishedAt": "2026-10-29T07:18:02+08:00"
+    },
+    {
+      "id": "art-expression-without-brush",
+      "title": "讓畫筆休假：用顏色與不同工具表達想法",
+      "summary": "為學生提供不用畫筆的創作選項，讓他們用顏色與媒材表達，並自主決定是否分享。",
+      "categoryId": "reading",
+      "topicIds": [
+        "teaching",
+        "learning"
+      ],
+      "audience": "想設計多元參與方式的藝術課教師",
+      "output": "一件色彩與媒材試作及一張觀察紀錄",
+      "minutes": 25,
+      "level": "入門",
+      "status": "ready",
+      "contentType": "video_method",
+      "reviewedAt": "2026-10-29",
+      "coverLabel": "藝術教學 · 多元表達",
+      "keywords": [
+        "藝術課",
+        "媒材探索",
+        "自主表達",
+        "課堂參與"
+      ],
+      "sourceCoverage": "指定 Notion 影片 MP3 以 MLX Whisper large-v3-turbo 轉錄；字幕有錯字、尾段重複疑似幻覺，尚未逐句人工聽校或核對畫面。講者分享先前的顏色與情緒課，再以不用畫筆的材料創作；課堂流程、示例、自願分享和觀察卡為編輯延伸，不能推論每位學生的參與或情緒效果。",
+      "sources": [
+        {
+          "id": "original",
+          "title": "一堂課，就是開始：從英文到藝術，我的學思達學習旅程",
+          "kind": "video",
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=-emhnQn6Zf0",
+          "channel": "學思達教育基金會",
+          "videoId": "-emhnQn6Zf0",
+          "note": "自動字幕尚未逐句人工聽校，材料與畫面對應未核對。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "選擇想表達的心情或情境",
+          "action": "先說明這堂課要嘗試用色彩與媒材表達想法；邀請學生選一個願意呈現的心情或想像情境。",
+          "why": "講者回顧顏色與情緒單元，思考如何讓不習慣畫畫的學生參與；活動安排為編輯延伸。",
+          "example": "編輯示範：學生可以選『下雨的午後』，不必公開個人經驗。",
+          "check": "每個人可以選擇願意表達的內容。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 1125,
+              "endSeconds": 1210
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "挑選自己的顏色",
+          "action": "讓學生自行選顏色，想一想想呈現的感覺；不替顏色指定固定情緒。",
+          "why": "講者提問學生會選什麼顏色表達心情；顏色不應被用來診斷情緒。",
+          "example": "編輯示範：同一種藍色可讓不同人想到天空、海或其他畫面。",
+          "check": "學生可以自己說明或保留選色理由。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 1154,
+              "endSeconds": 1210
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "用不同工具試作",
+          "action": "準備適合學生與場地的安全媒材，選一種不用畫筆的工具，在紙上試點、線條、拓印或色塊，再組成作品。",
+          "why": "講者提出不用畫筆、改以其他工具創作；具體操作和工具選擇為編輯延伸。",
+          "example": "編輯示範：用紙團輕壓出不同大小的色點。",
+          "check": "嘗試至少一種媒材並留下作品。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 1154,
+              "endSeconds": 1266
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "自主選擇分享",
+          "action": "讓願意分享的學生說明顏色或工具；也可用簡短文字交給教師，或選擇保留作品不公開。",
+          "why": "尊重分享意願與觀察方式是編輯補充。",
+          "example": "編輯示範：只介紹使用的工具，不必說出私人心情。",
+          "check": "每位學生都知道可以不公開分享。",
+          "contribution": "editorial",
+          "sourceRefs": []
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "多一種表達方式",
+          "note": "操作流程和自主分享為編輯延伸。",
+          "nodes": [
+            {
+              "id": "n1",
+              "label": "選情境",
+              "detail": "決定願意表達的內容"
+            },
+            {
+              "id": "n2",
+              "label": "挑顏色",
+              "detail": "由自己選擇"
+            },
+            {
+              "id": "n3",
+              "label": "試不同工具",
+              "detail": "留下作品"
+            },
+            {
+              "id": "n4",
+              "label": "自主分享",
+              "detail": "可選擇保留"
+            }
+          ],
+          "edges": [
+            {
+              "from": "n1",
+              "to": "n2"
+            },
+            {
+              "from": "n2",
+              "to": "n3"
+            },
+            {
+              "from": "n3",
+              "to": "n4"
+            }
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "不用畫筆一定能降低每位學生的壓力或改善情緒。",
+          "status": "unverified",
+          "explanation": "影片分享課堂經驗，未提供對所有學生的成效證據。",
+          "sourceIds": [
+            "original"
+          ],
+          "checkedAt": "2026-10-29"
+        }
+      ],
+      "pitfalls": [
+        "顏色沒有固定情緒答案，也不能用來診斷。",
+        "學生可選擇不公開私人感受。",
+        "顏料和工具應適合場地及學生，課後安排清潔。"
+      ],
+      "practice": {
+        "title": "一次媒材表達試作",
+        "minutes": 25,
+        "prompt": "編輯設計：選一個願意表達的心情或想像情境，挑選顏色，用一種不用畫筆的安全工具試作；再自行決定是否分享作品或工具選擇。",
+        "deliverable": "一件試作與一張簡短觀察紀錄",
+        "checklist": [
+          "學生可自行選情境和顏色",
+          "選一種安全工具試作",
+          "保留不公開分享的選項",
+          "依參與情況調整下次活動"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "編輯補充：教師觀察卡",
+          "text": "本次目標：＿＿；學生可選的媒材：＿＿；參與方式：＿＿；下次想調整：＿＿。不以顏色推斷學生的心理狀態。",
+          "sourceIds": []
+        }
+      ],
+      "overview": {
+        "image": "/assets/overviews/art-no-brush-desktop.webp",
+        "mobileImage": "/assets/overviews/art-no-brush-mobile.webp",
+        "cardImage": "/assets/overviews/art-no-brush-desktop.webp",
+        "alt": "以澄與阿問選情境、顏色與工具試作，並自主決定是否分享。",
+        "caption": "活動安排為編輯延伸，分享須尊重學生意願。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      },
+      "publishedAt": "2026-10-29T07:26:03+08:00"
+    },
+    {
+      "id": "learning-challenge-difficulty-feedback",
+      "title": "開始學習前先設計挑戰：目標、難度與回饋",
+      "summary": "把目標拆成小步，調整任務難度與回饋，再依自己的狀態整理環境和休息。",
+      "categoryId": "reading",
+      "topicIds": [
+        "learning"
+      ],
+      "audience": "想調整自學挑戰與學習環境的讀者",
+      "output": "一張學習挑戰設計卡及一次回顧紀錄",
+      "minutes": 15,
+      "level": "入門",
+      "status": "ready",
+      "contentType": "video_method",
+      "reviewedAt": "2026-10-29",
+      "coverLabel": "學習規劃 · 挑戰與回饋",
+      "keywords": [
+        "自學",
+        "挑戰難度",
+        "學習目標",
+        "回饋"
+      ],
+      "sourceCoverage": "指定 Notion 影片中文原音 MP3 以 Whisper base 自動轉錄，另參考英文配音軌自動字幕；中文字幕錯字較多，尚未逐句人工聽校。講者分享目標、難度、回饋、環境與休息的個人做法；挑戰卡、課堂示例及時間為編輯延伸。標題的『100%專注』『毫不費力』及腦科學說法未獨立證實，不作效果保證。",
+      "sources": [
+        {
+          "id": "original",
+          "title": "如何100%專注，沉浸式學習且毫不費力？親測5個方法，帶你進入開掛式心流體驗",
+          "kind": "video",
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=wUpJUEQNMqE",
+          "channel": "心河擺渡 Heart River Ferry",
+          "videoId": "wUpJUEQNMqE",
+          "note": "中文音訊自動轉錄尚未逐句人工聽校；影片標題非成效保證。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "把目標寫清楚",
+          "action": "寫下這次想完成的一件事和原因，再拆出第一個能動手的小步驟。",
+          "why": "講者建議目標具體、有個人意義並拆分成步驟。",
+          "example": "編輯示範：讀懂一段文章，第一步是圈出看不懂的一句。",
+          "check": "能說出第一步和完成時會看到什麼。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 253,
+              "endSeconds": 313
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "調整挑戰難度",
+          "action": "判斷任務太簡單、太難，或有挑戰但可以嘗試；依當下狀況縮小範圍或增加一點難度。",
+          "why": "講者認為難度與能力需要調整；這是個人建議，不能保證進入心流。",
+          "example": "編輯示範：整篇太難，先試讀一段，必要時找老師協助。",
+          "check": "選出一個現在願意嘗試的版本。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 314,
+              "endSeconds": 368
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "安排適合的回饋",
+          "action": "為小步驟選一種簡單回饋，例如記下進度或安排休息，不必以花錢為前提。",
+          "why": "講者分享完成任務後替自己安排回饋，也提到可依個人情況調整。",
+          "example": "編輯示範：讀完一段後，在進度卡上畫一個記號。",
+          "check": "回饋清楚、可行且符合個人情況。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 375,
+              "endSeconds": 427
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "整理環境並留意狀態",
+          "action": "移開一個會干擾自己的東西；疲倦時休息，結束後回看哪裡卡住，決定下次如何調整。",
+          "why": "講者談減少手機干擾、觀察精神狀態及休息；回顧卡為編輯設計。",
+          "example": "編輯示範：把手機收起，結束後寫下任務是否需要縮小。",
+          "check": "記下一項環境調整和下一次的決定。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 433,
+              "endSeconds": 575
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "替學習設計可調整的挑戰",
+          "note": "挑戰卡與回顧方式為編輯延伸。",
+          "nodes": [
+            {
+              "id": "n1",
+              "label": "寫清目標",
+              "detail": "拆出第一步"
+            },
+            {
+              "id": "n2",
+              "label": "調整難度",
+              "detail": "選可嘗試的任務"
+            },
+            {
+              "id": "n3",
+              "label": "安排回饋",
+              "detail": "記下進度或休息"
+            },
+            {
+              "id": "n4",
+              "label": "整理環境",
+              "detail": "觀察狀態再調整"
+            }
+          ],
+          "edges": [
+            {
+              "from": "n1",
+              "to": "n2"
+            },
+            {
+              "from": "n2",
+              "to": "n3"
+            },
+            {
+              "from": "n3",
+              "to": "n4"
+            }
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "這些做法能讓每個人百分之百專注、毫不費力。",
+          "status": "unverified",
+          "explanation": "影片標題與講者觀點不構成個人成效保證，本文未獨立查證機制。",
+          "sourceIds": [
+            "original"
+          ],
+          "checkedAt": "2026-10-29"
+        }
+      ],
+      "pitfalls": [
+        "不要以維持特定分鐘數或進入心流作為評分標準。",
+        "難度應隨個人狀況調整，不必硬撐。",
+        "完成後的回饋不一定要花錢。"
+      ],
+      "practice": {
+        "title": "學習挑戰設計卡",
+        "minutes": 15,
+        "prompt": "編輯設計：寫下目標和第一小步，評估難度，選一個回饋及要移開的干擾；完成後記下卡點，決定下次調高、降低或維持難度。",
+        "deliverable": "一張挑戰設計卡及一次回顧",
+        "checklist": [
+          "目標與第一步具體",
+          "難度可調整",
+          "回饋符合自己情況",
+          "結束後回顧卡點"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "編輯補充：挑戰卡",
+          "text": "這次目標：＿＿；第一步：＿＿；目前難度及調整：＿＿；回饋：＿＿；要移開的干擾：＿＿；下次調整：＿＿。",
+          "sourceIds": []
+        }
+      ],
+      "overview": {
+        "image": "/assets/overviews/focus-challenge-desktop.webp",
+        "mobileImage": "/assets/overviews/focus-challenge-mobile.webp",
+        "cardImage": "/assets/overviews/focus-challenge-desktop.webp",
+        "alt": "知行與阿問設定目標、調整難度、安排回饋及整理環境。",
+        "caption": "挑戰卡為編輯延伸，不保證特定專注效果。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      },
+      "publishedAt": "2026-10-29T07:26:03+08:00"
     }
   ],
   "demo": {
