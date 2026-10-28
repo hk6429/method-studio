@@ -117630,6 +117630,205 @@
         "mobileHeight": 1600
       },
       "publishedAt": "2026-10-29T07:26:03+08:00"
+    },
+    {
+      "id": "group-task-roles-think-share",
+      "title": "小組討論先說清楚：任務、角色與分享怎麼安排",
+      "summary": "明訂小組要做的事、角色、時間與產出，先讓每人想一想，再討論和分享。",
+      "categoryId": "reading",
+      "topicIds": [
+        "teaching",
+        "learning"
+      ],
+      "audience": "希望讓小組討論更清楚的教師",
+      "output": "一張小組任務卡與課後觀察紀錄",
+      "minutes": 20,
+      "level": "入門",
+      "status": "ready",
+      "contentType": "video_method",
+      "reviewedAt": "2026-10-29",
+      "coverLabel": "課堂討論 · 任務與分工",
+      "keywords": [
+        "小組討論",
+        "課堂分工",
+        "先想再說",
+        "學思達"
+      ],
+      "sourceCoverage": "指定 Notion 影片 MP3 以 MLX Whisper large-v3-turbo 轉錄全片，另轉錄 09:30–13:30 核對；字幕後段有超出片長的重複語句，尚未逐句人工聽校。講者分享提問、小組分工及先想再分享，任務卡、國文示例和時間均為編輯延伸，非課堂成效證據。",
+      "sources": [
+        {
+          "id": "original",
+          "title": "我的教室，開始不一樣了：把學習還給學生，我改變的四件事｜分享人：王筱瑜",
+          "kind": "video",
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=iWzCwRX7XYo",
+          "channel": "學思達教育基金會",
+          "videoId": "iWzCwRX7XYo",
+          "note": "字幕尚未逐句人工聽校，後段有超出片長的重複語句。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "說清楚任務",
+          "action": "先寫下這節課希望學生學會什麼，以及小組要討論的問題、時間和最後要交出的內容。",
+          "why": "講者分享從學習目標設計問題，並說清楚討論任務。",
+          "example": "編輯示範：閱讀故事後，討論角色面臨的選擇，選一個理由向全班分享。",
+          "check": "學生能說出要做什麼、多久和最後要交什麼。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 485,
+              "endSeconds": 544
+            },
+            {
+              "sourceId": "original",
+              "startSeconds": 622,
+              "endSeconds": 665
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "分配需要的角色",
+          "action": "依任務分配引導討論、記錄、計時或分享等角色，說明每個角色負責什麼；人數少時可合併。",
+          "why": "講者舉引導、統整、畫圖和計時等角色，讓小組知道如何合作。",
+          "example": "編輯示範：一人提醒時間、一人記下理由、一人整理分享。",
+          "check": "每個角色有清楚責任，且任務能由現有人數完成。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 622,
+              "endSeconds": 665
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "各自先想，再討論",
+          "action": "給每個人一點時間寫下想法，接著輪流說明，小組比較不同理由。",
+          "why": "講者提到先自己想、寫，再進入小組分享；討論方式可依需要調整。",
+          "example": "編輯示範：各自寫角色的一個選擇與理由，再聽同伴怎麼想。",
+          "check": "每人有機會留下想法並選擇表達方式。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 665,
+              "endSeconds": 690
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "分享產出並回看",
+          "action": "依原先約定整理產出並向全班分享；教師觀察學生的理由與合作情形，調整下一次提問或分工。",
+          "why": "影片分享小組任務和學生發表；觀察卡與調整步驟為編輯建議。",
+          "example": "編輯示範：記錄哪個問題讓學生有不同解讀，下次增加回文本找依據。",
+          "check": "小組完成約定產出，教師留下一項觀察。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 720,
+              "endSeconds": 795
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "小組任務從說清楚開始",
+          "note": "任務卡與國文課示例為編輯延伸。",
+          "nodes": [
+            {
+              "id": "n1",
+              "label": "說明任務",
+              "detail": "目標、時間與產出"
+            },
+            {
+              "id": "n2",
+              "label": "分配角色",
+              "detail": "確認責任"
+            },
+            {
+              "id": "n3",
+              "label": "各自先想",
+              "detail": "留下自己的想法"
+            },
+            {
+              "id": "n4",
+              "label": "討論後分享",
+              "detail": "回看並調整"
+            }
+          ],
+          "edges": [
+            {
+              "from": "n1",
+              "to": "n2"
+            },
+            {
+              "from": "n2",
+              "to": "n3"
+            },
+            {
+              "from": "n3",
+              "to": "n4"
+            }
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "明確分工一定能讓所有學生積極參與。",
+          "status": "unverified",
+          "explanation": "影片分享課堂做法與個人觀察，本文練習沒有獨立成效證據。",
+          "sourceIds": [
+            "original"
+          ],
+          "checkedAt": "2026-10-29"
+        }
+      ],
+      "pitfalls": [
+        "角色應服務任務，避免只分頭銜而不說明責任。",
+        "給學生思考時間，也提供不同表達方式。",
+        "流程可依學習目標調整，不必每堂課套同一順序。"
+      ],
+      "practice": {
+        "title": "小組任務卡",
+        "minutes": 20,
+        "prompt": "編輯設計：寫下學習目標與生活化問題、個人思考方式、小組任務和分工、討論時間及產出；課後記一項學生回應，決定下次如何調整。",
+        "deliverable": "一張任務卡與一項課後觀察",
+        "checklist": [
+          "寫清任務與產出",
+          "列出必要角色和責任",
+          "保留各自思考時間",
+          "分享後記錄下一步"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "編輯補充：任務卡欄位",
+          "text": "目標：＿＿；問題：＿＿；先想並寫下：＿＿；小組任務：＿＿；角色與責任：＿＿；時間與產出：＿＿；課後觀察：＿＿。",
+          "sourceIds": []
+        }
+      ],
+      "overview": {
+        "image": "/assets/overviews/group-task-desktop.webp",
+        "mobileImage": "/assets/overviews/group-task-mobile.webp",
+        "cardImage": "/assets/overviews/group-task-desktop.webp",
+        "alt": "以澄、知行、阿問與小硯釐清小組任務、分工、思考和分享。",
+        "caption": "任務卡與國文示例為編輯延伸。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      },
+      "publishedAt": "2026-10-29T07:31:06+08:00"
     }
   ],
   "demo": {
