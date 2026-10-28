@@ -114677,6 +114677,406 @@
         "mobileHeight": 1600
       },
       "publishedAt": "2026-10-29T06:25:52+08:00"
+    },
+    {
+      "id": "ai-reference-example-teaching-tool",
+      "title": "先給 AI 一個參考：把教具想法變成可檢查的條件",
+      "summary": "挑選可使用的範例，指出想借鑑的特徵，再做單題教具小樣並親自測試。",
+      "categoryId": "ai",
+      "topicIds": [
+        "workflow"
+      ],
+      "audience": "想用 AI 製作教學小工具的教師",
+      "output": "一張教具參考卡與單題小樣檢查紀錄",
+      "minutes": 20,
+      "level": "入門",
+      "status": "ready",
+      "contentType": "video_method",
+      "reviewedAt": "2026-10-29",
+      "coverLabel": "AI 教具 · 參考與驗證",
+      "keywords": [
+        "教具原型",
+        "參考範例",
+        "AI 協作",
+        "實際測試"
+      ],
+      "sourceCoverage": "指定 Notion 影片以 Whisper tiny 轉錄全片，尚未逐句人工聽校；來源討論軟體規劃、以既有遊戲畫面作參考與反覆對照，教具情境、步驟、時間與提示詞均為編輯延伸。講者提及 AI 可百分之百驗證的主張未經獨立證實，本文不採用。影片有 Firecrawl 贊助內容。",
+      "sources": [
+        {
+          "id": "original",
+          "title": "Is Learning to Build Software Still Worth It with AI?",
+          "kind": "video",
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=PMOnd8T7Py0",
+          "channel": "Cole Medin",
+          "videoId": "PMOnd8T7Py0",
+          "note": "全片為自動辨識字幕，尚未逐句人工聽校。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "選一個教學任務",
+          "action": "寫下學生要完成的單一動作與使用情境，先挑可以用一題呈現的任務。",
+          "why": "讓小樣有明確用途。",
+          "example": "編輯示範：學生讀一小段文字後，選出支持觀點的一句話。",
+          "check": "能用一句話說出學生要做什麼。",
+          "contribution": "editorial",
+          "sourceRefs": []
+        },
+        {
+          "id": "step-2",
+          "title": "圈出參考特徵",
+          "action": "挑選自己的作品或有權使用的公開範例，寫下兩項可觀察特徵與出處。以自己的教材、題目與視覺識別製作。",
+          "why": "影片以既有遊戲畫面說明參考如何幫助釐清想法；引用範例不代表可以直接複製內容。",
+          "example": "編輯示範：一次只顯示一題、作答後顯示解釋。",
+          "check": "另一位老師能辨認要借鑑的特徵。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 528,
+              "endSeconds": 752
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "請 AI 釐清並做小樣",
+          "action": "提供任務、參考特徵及自己的教材，請 AI 先詢問不清楚的條件；回答後產生單題草稿或原型。",
+          "why": "影片提到先釐清需求並規劃，再讓工具動手。",
+          "example": "編輯提示：『學生讀短文後選證據。參考一次一題、作答後解釋；只用我提供的教材。先問缺少哪些條件，再做一題小樣。』",
+          "check": "得到可檢視的一題小樣。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 321,
+              "endSeconds": 393
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "教師親自對照測試",
+          "action": "對照原先特徵，自己走一次閱讀、作答、看回饋的流程；核對答案、解釋與教材，記下問題，修改後重測。若只有靜態圖，註明互動尚未測試。",
+          "why": "參考只能幫助表達部分意圖，不能保證功能或答案正確。",
+          "example": "編輯示範：點選答案後，檢查解釋是否真的出現，並回原文確認證據。",
+          "check": "留下對照結果與未解問題。",
+          "contribution": "editorial",
+          "sourceRefs": []
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "從參考到可驗證的小樣",
+          "note": "課堂範例與流程為編輯延伸。",
+          "nodes": [
+            {
+              "id": "n1",
+              "label": "選教學任務",
+              "detail": "說清學生要做什麼"
+            },
+            {
+              "id": "n2",
+              "label": "圈參考特徵",
+              "detail": "記錄兩個可觀察條件"
+            },
+            {
+              "id": "n3",
+              "label": "做單題小樣",
+              "detail": "先釐清再產生"
+            },
+            {
+              "id": "n4",
+              "label": "親自對照",
+              "detail": "實際操作與修正"
+            }
+          ],
+          "edges": [
+            {
+              "from": "n1",
+              "to": "n2"
+            },
+            {
+              "from": "n2",
+              "to": "n3"
+            },
+            {
+              "from": "n3",
+              "to": "n4"
+            }
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "AI 能百分之百可靠地驗證成果。",
+          "status": "unverified",
+          "explanation": "此為影片講者的主張，未經獨立證實；教師仍須實際檢查。",
+          "sourceIds": [
+            "original"
+          ],
+          "checkedAt": "2026-10-29"
+        }
+      ],
+      "pitfalls": [
+        "參考畫面不保證功能、答案或無障礙符合需求。",
+        "不要直接複製他人的文字、圖像或品牌；使用可授權的素材。",
+        "避免把學生個資交給不適合的外部工具。"
+      ],
+      "practice": {
+        "title": "20 分鐘教具參考卡",
+        "minutes": 20,
+        "prompt": "編輯設計：寫下學生任務、參考出處和兩個要借鑑的特徵；請 AI 提問並做單題小樣。親自操作後，記下結果、待修正項目與尚未測試的部分。",
+        "deliverable": "參考卡、一題小樣和教師檢查紀錄",
+        "checklist": [
+          "寫出一個學生任務",
+          "記下參考出處及兩項特徵",
+          "核對教材與答案",
+          "實際操作或註明互動未測"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "編輯補充：對照表",
+          "text": "一次一題：小樣是否只呈現一題？作答後解釋：點選答案是否真的出現？教材與答案：教師能否回到原文核對？每一項記下結果和下一步。",
+          "sourceIds": []
+        }
+      ],
+      "overview": {
+        "image": "/assets/overviews/ai-ref-desktop.webp",
+        "mobileImage": "/assets/overviews/ai-ref-mobile.webp",
+        "cardImage": "/assets/overviews/ai-ref-desktop.webp",
+        "alt": "以澄與小硯從教學任務、參考特徵到 AI 小樣及實際測試。",
+        "caption": "教具流程為編輯延伸，成品仍須由教師檢查。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      },
+      "publishedAt": "2026-10-29T06:31:55+08:00"
+    },
+    {
+      "id": "ai-editing-small-project-review",
+      "title": "學 AI 剪輯：先做一小段，再看草圖修正",
+      "summary": "選一個真實小成品，拆解剪輯環節，先試做短段與檢查草圖，再播放修正。",
+      "categoryId": "ai",
+      "topicIds": [
+        "workflow"
+      ],
+      "audience": "想用真實專案學習 AI 影音工具的教師或自學者",
+      "output": "一份剪輯任務卡、短段預覽與修正清單",
+      "minutes": 45,
+      "level": "入門",
+      "status": "ready",
+      "contentType": "video_method",
+      "reviewedAt": "2026-10-29",
+      "coverLabel": "AI 自學 · 影音試作",
+      "keywords": [
+        "AI 剪輯",
+        "專案學習",
+        "故事板",
+        "回放修正"
+      ],
+      "sourceCoverage": "指定 Notion 影片以 Whisper tiny 轉錄全片約 00:00–46:35，尚未逐句人工聽校；講者已有多年人工剪輯經驗，此為首次嘗試 AI 剪輯的個案，不能視為零基礎一天學會。流程由影片片段重組，教學示例、任務卡與時間均為編輯延伸，無法保證時間與成效。",
+      "sources": [
+        {
+          "id": "original",
+          "title": "I Tried Learning AI Video Editing in One Day",
+          "kind": "video",
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=C0jOKDJtK9s",
+          "channel": "Ali Abdaal",
+          "videoId": "C0jOKDJtK9s",
+          "note": "英文影片自動辨識字幕尚未逐句人工校聽。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "選一個小成品並拆工作",
+          "action": "寫下成果用途、觀眾與已有素材，列出三至五個工作環節。",
+          "why": "影片先把剪輯拆成口播、輔助畫面、音樂和音效等工作。",
+          "example": "編輯示範：閱讀活動短片分成講稿、口播、初剪、活動畫面及字幕檢查。",
+          "check": "知道每個環節需要什麼素材、會產出什麼。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 87,
+              "endSeconds": 153
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "查選項，追問陌生詞",
+          "action": "請 AI 依素材提出兩種做法；遇到陌生詞，追問用途、輸入與輸出，再用自己的話重述。",
+          "why": "講者先請 AI 梳理做法，遇到不熟悉的影像術語再追問。",
+          "example": "編輯示範：請 AI 解釋字幕檔與影片畫面的關係，並列出需要的素材。",
+          "check": "能說明關鍵詞在任務中何時使用，必要時再查證。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 223,
+              "endSeconds": 336
+            },
+            {
+              "sourceId": "original",
+              "startSeconds": 1583,
+              "endSeconds": 1651
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "縮小任務，先做一段",
+          "action": "挑一小段素材，交代目的、限制與初稿形式，先看結果再擴大；保留原始素材。",
+          "why": "第一次完整嘗試後，講者認為應拆開工作並先做概念驗證。",
+          "example": "編輯示範：先剪 30 秒口播，標示候選切點，保留原意與原檔。",
+          "check": "得到一段可檢查的初稿及驗收條件。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 1382,
+              "endSeconds": 1495
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "先看草圖再製作",
+          "action": "請工具先列故事板或畫面清單，檢查每格傳達的內容，指出具體要修改的地方。",
+          "why": "講者查看畫面總覽並要求調整，認為先看草圖有助及早修正；這是個人經驗。",
+          "example": "編輯示範：三格各寫口播、畫面與字幕；把無關裝飾改為閱讀紀錄。",
+          "check": "每格能對應內容，完成一輪修改。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 1718,
+              "endSeconds": 1779
+            }
+          ]
+        },
+        {
+          "id": "step-5",
+          "title": "回放並記錄修正",
+          "action": "播放預覽，記錄問題及時間位置，判斷要改腳本、素材還是剪輯；修正後再播放。",
+          "why": "講者重新錄製較短口播，並檢查初稿中的畫面與音效。",
+          "example": "編輯示範：00:12 字幕遮住書名；00:20 畫面停太久，先修正這兩處。",
+          "check": "留下問題清單與修訂版，確認聲音、字幕和內容。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 1891,
+              "endSeconds": 1935
+            },
+            {
+              "sourceId": "original",
+              "startSeconds": 2321,
+              "endSeconds": 2392
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "小段試做與回看修正",
+          "note": "流程是依影片經驗重組的編輯練習。",
+          "nodes": [
+            {
+              "id": "n1",
+              "label": "拆解成品",
+              "detail": "寫下用途與工作"
+            },
+            {
+              "id": "n2",
+              "label": "小段試做",
+              "detail": "提供素材與限制"
+            },
+            {
+              "id": "n3",
+              "label": "先看草圖",
+              "detail": "指出具體修改"
+            },
+            {
+              "id": "n4",
+              "label": "播放修正",
+              "detail": "記時間並重看"
+            }
+          ],
+          "edges": [
+            {
+              "from": "n1",
+              "to": "n2"
+            },
+            {
+              "from": "n2",
+              "to": "n3"
+            },
+            {
+              "from": "n3",
+              "to": "n4"
+            }
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "每個人一天都能學會 AI 剪輯。",
+          "status": "unverified",
+          "explanation": "影片只呈現有剪輯經驗的講者個人嘗試，並非普遍成效證據。",
+          "sourceIds": [
+            "original"
+          ],
+          "checkedAt": "2026-10-29"
+        }
+      ],
+      "pitfalls": [
+        "不要把 AI 初稿直接當成完成品，應核對是否保留原意。",
+        "使用他人影像或聲音前確認授權；學生資料應選擇合適工具與設定。",
+        "時間是試做起點，實際完成時間依素材及工具而異。"
+      ],
+      "practice": {
+        "title": "45 分鐘影音試做",
+        "minutes": 45,
+        "prompt": "編輯設計：10 分鐘寫任務與拆解、10 分鐘查做法與陌生詞、15 分鐘試做並看草圖、10 分鐘回放並記修正。可依工具與素材調整，未必能在此時間完成。",
+        "deliverable": "任務卡、一段預覽和修正清單",
+        "checklist": [
+          "保留原始素材",
+          "描述一小段的交付條件",
+          "檢查草圖與內容是否對應",
+          "回放並記錄問題時間"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "編輯補充：任務卡",
+          "text": "我要做的成果是＿＿，給＿＿看。現有素材＿＿。請先處理＿＿的小段，交付＿＿供我檢查。保留原意與原檔，列出不確定之處，先給草圖或步驟。",
+          "sourceIds": []
+        }
+      ],
+      "overview": {
+        "image": "/assets/overviews/ai-edit-desktop.webp",
+        "mobileImage": "/assets/overviews/ai-edit-mobile.webp",
+        "cardImage": "/assets/overviews/ai-edit-desktop.webp",
+        "alt": "知行與墨丸示範拆解影片、試做、檢查草圖與回放修正。",
+        "caption": "影音教學示例與時間安排為編輯延伸。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      },
+      "publishedAt": "2026-10-29T06:32:28+08:00"
     }
   ],
   "demo": {
