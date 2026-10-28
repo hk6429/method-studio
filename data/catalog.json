@@ -109814,6 +109814,241 @@
         "mobileHeight": 1600
       },
       "publishedAt": "2026-10-29T03:58:33+08:00"
+    },
+    {
+      "id": "english-432-same-topic",
+      "title": "同一個主題說三次：試試 4、3、2 分鐘口說",
+      "summary": "選一個熟悉的話題，重複說三次；每輪時間漸短，保留原本的重點。",
+      "categoryId": "english",
+      "topicIds": [
+        "speaking",
+        "habits"
+      ],
+      "level": "入門",
+      "minutes": 15,
+      "output": "三輪同主題口說與一張卡點紀錄",
+      "audience": "有基本英文表達能力、想練習說熟悉主題的學習者",
+      "status": "ready",
+      "contentType": "video_method",
+      "reviewedAt": "2026-10-29",
+      "sourceCoverage": "指定 Notion 影片 MP3 以 Whisper tiny 轉錄全片，並以 base 補轉 10:00–13:30；機器字幕有錯字，尚未人工逐句聽校。文章的準備、檢查項目、例子與時間調整為編輯設計；不採影片中未獨立查證的腦部機制或效果保證。",
+      "coverLabel": "英文口說 · 重複練習",
+      "sources": [
+        {
+          "id": "video",
+          "title": "如何練出即興流利英文口語？掌握語塊與 4/3/2 訓練法",
+          "url": "https://www.youtube.com/watch?v=HDfYzZ4gS1I",
+          "kind": "video",
+          "provider": "youtube",
+          "videoId": "HDfYzZ4gS1I",
+          "channel": "brain 學霸",
+          "note": "片名依 Notion 索引節錄；影片中的效果解釋未獨立查證。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "選熟悉的主題",
+          "action": "選一件已經有想法的事，先列兩三個想保留的重點。",
+          "why": "來源建議以同一主題進行三輪口說。",
+          "example": "編輯示範：說明自己喜歡哪一種讀書環境，以及兩個理由。",
+          "check": "能用關鍵詞標出內容，不必先寫完整逐字稿。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "video",
+              "startSeconds": 620,
+              "endSeconds": 630
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "第一輪：四分鐘",
+          "action": "設定四分鐘，用英文說出這個主題；卡住可停一下或先留下簡短提示。",
+          "why": "影片建議先給自己四分鐘說一次。",
+          "example": "編輯示範：說明環境、原因及一個具體例子。",
+          "check": "留下這輪說過的主要內容。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "video",
+              "startSeconds": 737,
+              "endSeconds": 745
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "第二輪：三分鐘",
+          "action": "用三分鐘重說剛才的主題，盡量保留同樣的重點，不必追求完美。",
+          "why": "影片強調後一輪是先前說過的內容。",
+          "example": "編輯示範：再次說出同樣的理由與例子，留意哪裡停頓。",
+          "check": "主要內容仍能被聽者理解。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "video",
+              "startSeconds": 625,
+              "endSeconds": 654
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "第三輪：兩分鐘",
+          "action": "再用兩分鐘說一次相同內容，結束後記下容易卡住的部分；如時間太緊，可調整。",
+          "why": "來源提出第三輪兩分鐘；調整時間與紀錄卡點為編輯補充。",
+          "example": "編輯示範：保留主要理由和例子，完成後記下一個想練習的表達。",
+          "check": "能比較三輪是否保留重點，不以速度作唯一判準。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "video",
+              "startSeconds": 625,
+              "endSeconds": 654
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "編輯整理：同主題三輪",
+          "note": "時間可依程度調整；每輪保留相同重點。",
+          "nodes": [
+            {
+              "id": "step-1",
+              "label": "選熟悉的主題",
+              "detail": "選一件已經有想法的事，先列兩三個想保留的重點。"
+            },
+            {
+              "id": "step-2",
+              "label": "第一輪：四分鐘",
+              "detail": "設定四分鐘，用英文說出這個主題；卡住可停一下或先留下簡短提示。"
+            },
+            {
+              "id": "step-3",
+              "label": "第二輪：三分鐘",
+              "detail": "用三分鐘重說剛才的主題，盡量保留同樣的重點，不必追求完美。"
+            },
+            {
+              "id": "step-4",
+              "label": "第三輪：兩分鐘",
+              "detail": "再用兩分鐘說一次相同內容，結束後記下容易卡住的部分；如時間太緊，可調整。"
+            }
+          ],
+          "edges": [
+            {
+              "from": "step-1",
+              "to": "step-2"
+            },
+            {
+              "from": "step-2",
+              "to": "step-3"
+            },
+            {
+              "from": "step-3",
+              "to": "step-4"
+            }
+          ]
+        },
+        {
+          "type": "schedule",
+          "title": "編輯補充：練習檢查",
+          "note": "需要時停下或縮短內容。",
+          "columns": [
+            "行動",
+            "完成判準"
+          ],
+          "rows": [
+            {
+              "label": "選熟悉的主題",
+              "cells": [
+                "選一件已經有想法的事，先列兩三個想保留的重點。",
+                "能用關鍵詞標出內容，不必先寫完整逐字稿。"
+              ]
+            },
+            {
+              "label": "第一輪：四分鐘",
+              "cells": [
+                "設定四分鐘，用英文說出這個主題；卡住可停一下或先留下簡短提示。",
+                "留下這輪說過的主要內容。"
+              ]
+            },
+            {
+              "label": "第二輪：三分鐘",
+              "cells": [
+                "用三分鐘重說剛才的主題，盡量保留同樣的重點，不必追求完美。",
+                "主要內容仍能被聽者理解。"
+              ]
+            },
+            {
+              "label": "第三輪：兩分鐘",
+              "cells": [
+                "再用兩分鐘說一次相同內容，結束後記下容易卡住的部分；如時間太緊，可調整。",
+                "能比較三輪是否保留重點，不以速度作唯一判準。"
+              ]
+            }
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "4、3、2 分鐘練習一定使每個人流利",
+          "status": "unverified",
+          "explanation": "影片介紹練習方法；本文未獨立查證其研究或保證個人學習效果。",
+          "sourceIds": [
+            "video"
+          ],
+          "checkedAt": "2026-10-29"
+        }
+      ],
+      "pitfalls": [
+        "為了趕時間刪掉主要內容或逼自己說得不自然。",
+        "把講得快視為理解、正確與溝通效果的唯一指標。",
+        "將影片對腦部或訓練效果的說法當成已獨立驗證。"
+      ],
+      "practice": {
+        "title": "編輯練習：說一件熟悉的事",
+        "minutes": 15,
+        "prompt": "選一個你能談的學習或生活主題，列出重點；試著用 4、3、2 分鐘各說一次，最後記下容易卡住的地方。時間若太長可先縮短。",
+        "deliverable": "同主題三輪口說與一項卡點",
+        "checklist": [
+          "三輪談的是同一個主題。",
+          "盡量保留重要內容。",
+          "時間可依自身程度調整。",
+          "記下一個下次想練的表達。"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "編輯提示：可以先縮短",
+          "text": "如果一開始難以連續說四分鐘，可從較短且熟悉的內容開始；先確保意思清楚，再依需要調整時間。",
+          "sourceIds": [
+            "video"
+          ]
+        }
+      ],
+      "overview": {
+        "image": "/assets/overviews/english-432-same-topic-desktop.webp",
+        "mobileImage": "/assets/overviews/english-432-same-topic-mobile.webp",
+        "cardImage": "/assets/overviews/english-432-same-topic-desktop.webp",
+        "alt": "知行與墨丸陪學習者以 4、3、2 分鐘重說同一主題。",
+        "caption": "示例與時間調整為編輯整理。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      },
+      "keywords": [
+        "英文口說",
+        "432練習",
+        "重複表達",
+        "學習紀錄"
+      ],
+      "publishedAt": "2026-10-29T04:02:57+08:00"
     }
   ],
   "demo": {
