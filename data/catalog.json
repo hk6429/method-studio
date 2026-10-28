@@ -105276,6 +105276,737 @@
         "mobileHeight": 1600
       },
       "publishedAt": "2026-10-29T02:26:02+08:00"
+    },
+    {
+      "id": "compare-concept-maps",
+      "title": "摘要之後，再畫出概念關係",
+      "summary": "比較摘要中的概念，試畫不同關係圖，再回材料核對。",
+      "categoryId": "reading",
+      "topicIds": [
+        "learning",
+        "strategies"
+      ],
+      "level": "入門",
+      "minutes": 15,
+      "output": "兩張概念關係草圖與一個待查問題",
+      "audience": "已會摘要、想練習比較概念的學生與自學者",
+      "status": "ready",
+      "contentType": "video_method",
+      "reviewedAt": "2026-10-28",
+      "sourceCoverage": "已審讀影片英語自動字幕，並以原 MP3 節錄 09:45–10:15 用 Whisper tiny 重轉；兩份字幕皆提到摘要後比較概念、畫出關係並比較不同畫法。辨識仍可能有誤，尚未人工逐句聽校；五步及例子為編輯設計。",
+      "coverLabel": "方法練習",
+      "sources": [
+        {
+          "id": "video",
+          "title": "If You Want to Outlearn Everyone, Watch This Video",
+          "url": "https://www.youtube.com/watch?v=R7jC6TUB8P4",
+          "kind": "video",
+          "provider": "youtube",
+          "videoId": "R7jC6TUB8P4",
+          "channel": "Justin Sung"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "摘要並選概念",
+          "action": "編輯補充：用自己的話摘要，挑兩至四個相關概念。",
+          "why": "以少量概念開始比較。",
+          "example": "編輯示範：讀一段教材後，寫下觀察、推論、證據各自的意思。",
+          "check": "能說明每個概念並指回材料。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "video",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "比較差異",
+          "action": "編輯補充：問概念有什麼不同、何時需要一起用，將答案寫在旁邊。",
+          "why": "比較使概念間的關係可見。",
+          "example": "編輯示範：觀察是看到的現象；推論是解釋；證據支持解釋。",
+          "check": "至少寫出一組差異，未確定處標記。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "video",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "畫第一種關係",
+          "action": "編輯補充：以線條連接概念並標上短句。",
+          "why": "連線要表達可解釋的關係。",
+          "example": "編輯示範：觀察 → 提出推論 → 找證據檢查推論。",
+          "check": "每條線都能說明意義。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "video",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "試畫另一種並比較",
+          "action": "換一種排列或連線，比較哪個更能表達材料重點並寫下理由。",
+          "why": "講者建議比較多種結構並判斷意義。 操作順序與比較紀錄為編輯設計。",
+          "example": "編輯示範：將證據和推論畫成雙向檢查，與單向流程比較。",
+          "check": "說明選擇理由並回原文核對。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "video",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "step-5",
+          "title": "遮圖解釋並提出問題",
+          "action": "編輯補充：遮住圖解釋一條關係，卡住時提出具體問題並查原文。",
+          "why": "以遮圖練習檢查自己能否解釋關係，並記錄仍不清楚的地方。",
+          "example": "編輯示範：問「新證據不支持原先推論時，該如何修正？」",
+          "check": "能解釋一條關係，留下待查問題。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "video",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "編輯整理：練習流程",
+          "note": "步驟順序由編輯整理；圖解不代表效果已驗證。",
+          "nodes": [
+            {
+              "id": "step-1",
+              "label": "摘要並選概念",
+              "detail": "編輯補充：用自己的話摘要，挑兩至四個相關概念。"
+            },
+            {
+              "id": "step-2",
+              "label": "比較差異",
+              "detail": "編輯補充：問概念有什麼不同、何時需要一起用，將答案寫在旁邊。"
+            },
+            {
+              "id": "step-3",
+              "label": "畫第一種關係",
+              "detail": "編輯補充：以線條連接概念並標上短句。"
+            },
+            {
+              "id": "step-4",
+              "label": "試畫另一種並比較",
+              "detail": "換一種排列或連線，比較哪個更能表達材料重點並寫下理由。"
+            },
+            {
+              "id": "step-5",
+              "label": "遮圖解釋並提出問題",
+              "detail": "編輯補充：遮住圖解釋一條關係，卡住時提出具體問題並查原文。"
+            }
+          ],
+          "edges": [
+            {
+              "from": "step-1",
+              "to": "step-2"
+            },
+            {
+              "from": "step-2",
+              "to": "step-3"
+            },
+            {
+              "from": "step-3",
+              "to": "step-4"
+            },
+            {
+              "from": "step-4",
+              "to": "step-5"
+            }
+          ]
+        },
+        {
+          "type": "schedule",
+          "title": "編輯補充：練習安排",
+          "note": "依文章步驟整理，可依現場需求調整。",
+          "columns": [
+            "行動",
+            "完成判準"
+          ],
+          "rows": [
+            {
+              "label": "摘要並選概念",
+              "cells": [
+                "編輯補充：用自己的話摘要，挑兩至四個相關概念。",
+                "能說明每個概念並指回材料。"
+              ]
+            },
+            {
+              "label": "比較差異",
+              "cells": [
+                "編輯補充：問概念有什麼不同、何時需要一起用，將答案寫在旁邊。",
+                "至少寫出一組差異，未確定處標記。"
+              ]
+            },
+            {
+              "label": "畫第一種關係",
+              "cells": [
+                "編輯補充：以線條連接概念並標上短句。",
+                "每條線都能說明意義。"
+              ]
+            },
+            {
+              "label": "試畫另一種並比較",
+              "cells": [
+                "換一種排列或連線，比較哪個更能表達材料重點並寫下理由。",
+                "說明選擇理由並回原文核對。"
+              ]
+            },
+            {
+              "label": "遮圖解釋並提出問題",
+              "cells": [
+                "編輯補充：遮住圖解釋一條關係，卡住時提出具體問題並查原文。",
+                "能解釋一條關係，留下待查問題。"
+              ]
+            }
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "此方法能提升學習成效",
+          "status": "unverified",
+          "explanation": "來源提出方法與經驗，未獨立查核成效研究。",
+          "sourceIds": [
+            "video"
+          ],
+          "checkedAt": "2026-10-28"
+        }
+      ],
+      "pitfalls": [
+        "箭頭很多卻說不出意義",
+        "把草圖當成不必查證的正解",
+        "以 AI 生成的圖取代自己解釋"
+      ],
+      "practice": {
+        "title": "編輯補充：15 分鐘練習",
+        "minutes": 15,
+        "prompt": "選一段教材，摘要、選概念、畫兩種關係並比較，最後遮圖解釋；時間為編輯示意。",
+        "deliverable": "兩張關係草圖、一句比較理由與一個問題",
+        "checklist": [
+          "連線有意義",
+          "理由可指回材料",
+          "不確定之處已標記"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "編輯觀點：課堂運用",
+          "text": "國文課可讓學生畫人物、行動與結果的關係，互相比較並回原文核對；此設計尚未在課堂驗證。",
+          "sourceIds": [
+            "video"
+          ]
+        }
+      ],
+      "overview": {
+        "image": "/assets/overviews/compare-concept-maps-desktop.webp",
+        "mobileImage": "/assets/overviews/compare-concept-maps-mobile.webp",
+        "cardImage": "/assets/overviews/compare-concept-maps-desktop.webp",
+        "alt": "知行帶你摘要選概念、比較差異、嘗試不同畫法，再回原文核對。",
+        "caption": "練習步驟與例子由編輯整理。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      },
+      "publishedAt": "2026-10-29T02:31:05+08:00"
+    },
+    {
+      "id": "count-on-from-known-group",
+      "title": "不必每次從一數起：看一組，再接著數",
+      "summary": "先確認熟悉的一組物件，再從那個數接著數。換排列時請孩子說明數法，也允許逐一核對。",
+      "categoryId": "reading",
+      "topicIds": [
+        "teaching",
+        "learning"
+      ],
+      "audience": "陪孩子建立數量概念的教師與家長",
+      "output": "一次數法紀錄與重新排列後的核對",
+      "minutes": 15,
+      "level": "入門",
+      "status": "ready",
+      "contentType": "video_method",
+      "reviewedAt": "2026-10-29",
+      "coverLabel": "數量觀察 · 接著數",
+      "sourceCoverage": "依影片 MP3 的 Whisper tiny 轉錄全片，再以 Whisper base 補轉 25:05–25:46；兩份機器字幕均可辨先認出一排五個，再接著數六、七、八。片長約 92:11，字幕末約 92:08；辨識有錯字，未人工聽校，也未觀看畫面或實測軟體。步驟、圓片示例與練習為編輯延伸，未經課堂實測。",
+      "sources": [
+        {
+          "id": "original",
+          "title": "T++ 教育+年華：用 PhET 讓數學教學更直觀",
+          "kind": "video",
+          "url": "https://www.youtube.com/watch?v=zlfXBwQTO44",
+          "channel": "廣臻科技 KJCStech",
+          "videoId": "zlfXBwQTO44"
+        }
+      ],
+      "steps": [
+        {
+          "id": "prepare",
+          "title": "準備相同物件",
+          "action": "選幾個相同且能移動的物件，先確認孩子可以一一對應物件與數詞。",
+          "why": "先確認目前的數數方式，再決定需要多少提示。",
+          "example": "編輯示範：準備八個相同圓片。",
+          "check": "孩子能用自己的方式指認並逐一數物件。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 1505,
+              "endSeconds": 1546
+            }
+          ]
+        },
+        {
+          "id": "group",
+          "title": "排出熟悉的一組",
+          "action": "把孩子熟悉的數量排成一組，一起確認這組有幾個。",
+          "why": "影片示範先認出一排五個，作為接著數的起點。",
+          "example": "編輯示範：將五個圓片排一列，旁邊再放三個。",
+          "check": "孩子能確認一組有多少，必要時可逐一核對。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 1505,
+              "endSeconds": 1546
+            }
+          ]
+        },
+        {
+          "id": "count-on",
+          "title": "從已知數量接著數",
+          "action": "指著旁邊的物件，從已確認的數往上接著數；需要時也可從一逐一數。",
+          "why": "影片描述先看一排五個，再接著數六、七、八。",
+          "example": "編輯示範：已知一列是五，指著另外三片說六、七、八。",
+          "check": "孩子能用自己的方式說出總數，也能指著物件核對。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 1505,
+              "endSeconds": 1546
+            }
+          ]
+        },
+        {
+          "id": "rearrange",
+          "title": "換排列，聽孩子說理由",
+          "action": "重新排列相同物件，請孩子說出總數及自己的數法，觀察是否需要提示。",
+          "why": "換排列與觀察方式為編輯設計，用來了解孩子是否能解釋數量。",
+          "example": "編輯示範：將八片排成兩組，問「你怎麼知道有幾個？」",
+          "check": "記下孩子的數法；不確定時可移動物件再次核對。",
+          "contribution": "editorial",
+          "sourceRefs": []
+        }
+      ],
+      "practice": {
+        "title": "編輯練習：留下數法紀錄",
+        "minutes": 15,
+        "prompt": "準備一組圓片，先讓孩子自由計數，再示範從熟悉的一組接著數；換一種排列後，請孩子說明。",
+        "deliverable": "一張孩子數法與下一次提示的觀察紀錄",
+        "checklist": [
+          "記下孩子原本的數法。",
+          "確認熟悉的一組，再嘗試接著數。",
+          "換排列，請孩子說明與核對。",
+          "依需要調整數量或提示。"
+        ]
+      },
+      "pitfalls": [
+        "要求所有孩子立即心算，忽略逐一數也是可用的起點。",
+        "只看答案是否正確，沒有請孩子說明數法。",
+        "把一次操作當成學習成效的證明。"
+      ],
+      "supplements": [
+        {
+          "title": "編輯觀點：調整支持",
+          "text": "若五個一組還不熟悉，可以從更少的物件開始；先觀察孩子已會什麼，再決定下一次提示。",
+          "sourceIds": [
+            "original"
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "此練習改善數量概念",
+          "status": "unverified",
+          "explanation": "影片提供教學示範；本文的練習安排未經班級實測，不能推論普遍成效。",
+          "sourceIds": [
+            "original"
+          ],
+          "checkedAt": "2026-10-29"
+        }
+      ],
+      "keywords": [
+        "數量",
+        "接著數",
+        "教學應用",
+        "數學"
+      ],
+      "overview": {
+        "image": "/assets/overviews/count-on-from-known-group-desktop.webp",
+        "mobileImage": "/assets/overviews/count-on-from-known-group-mobile.webp",
+        "cardImage": "/assets/overviews/count-on-from-known-group-desktop.webp",
+        "alt": "知行陪孩子先確認熟悉的一組，再從已知數量接著數。",
+        "caption": "五個一組、接著數六七八是編輯示範；依孩子需要調整提示。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      },
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "看一組，再接著數",
+          "note": "五個一組接著數是影片示範；練習和排列為編輯設計。",
+          "nodes": [
+            {
+              "id": "prepare",
+              "label": "準備物件",
+              "detail": "選相同可移動物件"
+            },
+            {
+              "id": "group",
+              "label": "確認一組",
+              "detail": "先確認熟悉數量"
+            },
+            {
+              "id": "count-on",
+              "label": "接著數",
+              "detail": "指著剩餘物件往上數"
+            },
+            {
+              "id": "rearrange",
+              "label": "換排列",
+              "detail": "說明數法並核對"
+            }
+          ],
+          "edges": [
+            {
+              "from": "prepare",
+              "to": "group"
+            },
+            {
+              "from": "group",
+              "to": "count-on"
+            },
+            {
+              "from": "count-on",
+              "to": "rearrange"
+            }
+          ]
+        },
+        {
+          "type": "schedule",
+          "title": "編輯補充：練習安排",
+          "note": "依文章步驟整理，可依現場需求調整。",
+          "columns": [
+            "行動",
+            "完成判準"
+          ],
+          "rows": [
+            {
+              "label": "準備相同物件",
+              "cells": [
+                "選幾個相同且能移動的物件，先確認孩子可以一一對應物件與數詞。",
+                "孩子能用自己的方式指認並逐一數物件。"
+              ]
+            },
+            {
+              "label": "排出熟悉的一組",
+              "cells": [
+                "把孩子熟悉的數量排成一組，一起確認這組有幾個。",
+                "孩子能確認一組有多少，必要時可逐一核對。"
+              ]
+            },
+            {
+              "label": "從已知數量接著數",
+              "cells": [
+                "指著旁邊的物件，從已確認的數往上接著數；需要時也可從一逐一數。",
+                "孩子能用自己的方式說出總數，也能指著物件核對。"
+              ]
+            },
+            {
+              "label": "換排列，聽孩子說理由",
+              "cells": [
+                "重新排列相同物件，請孩子說出總數及自己的數法，觀察是否需要提示。",
+                "記下孩子的數法；不確定時可移動物件再次核對。"
+              ]
+            }
+          ]
+        }
+      ],
+      "publishedAt": "2026-10-29T02:31:05+08:00"
+    },
+    {
+      "id": "udl-classroom-movement",
+      "title": "教室不只有一種坐法：一起規劃可選擇的微動空間",
+      "summary": "從任務與場地出發，和學生討論安靜活動的選項，試行後再依回饋調整。",
+      "categoryId": "reading",
+      "topicIds": [
+        "teaching",
+        "learning"
+      ],
+      "audience": "希望調整教室學習環境的教師",
+      "output": "一項教室環境調整與試行回饋",
+      "minutes": 15,
+      "level": "入門",
+      "status": "ready",
+      "contentType": "video_method",
+      "reviewedAt": "2026-10-29",
+      "coverLabel": "教室環境 · 學生選擇",
+      "sourceCoverage": "指定 Notion 頁所收錄的影片 MP3，已用 Whisper tiny 轉錄全片，並用 base 補轉 23:40–24:25；機器字幕可辨講者提及小幅活動空間，另於約 33:42 提及手部小物。字幕有錯字，未人工聽校或觀看畫面。五個實施步驟是編輯設計，未經課堂實測。",
+      "sources": [
+        {
+          "id": "original",
+          "title": "教室空間與學習環境影片",
+          "kind": "video",
+          "url": "https://www.youtube.com/watch?v=6Mzq0DkKgXc",
+          "videoId": "6Mzq0DkKgXc"
+        }
+      ],
+      "steps": [
+        {
+          "id": "space",
+          "title": "先看任務與場地",
+          "action": "選一段聽講或閱讀時間，查看桌椅、走道與其他學生使用狀況，保留安全通行空間。",
+          "why": "先了解環境限制，再決定可以提供什麼選項。",
+          "example": "編輯示範：確認教室後方是否有不阻擋走道的空間。",
+          "check": "位置不妨礙通行。",
+          "contribution": "editorial",
+          "sourceRefs": []
+        },
+        {
+          "id": "ask",
+          "title": "讓學生提出需要",
+          "action": "詢問坐著、短暫站立或安靜活動哪一種較方便完成任務；學生也可以不回答。",
+          "why": "讓選擇與實際任務連結，尊重個人隱私。",
+          "example": "編輯示範：私下詢問學生希望怎麼使用空間。",
+          "check": "不要求公開私人狀況。",
+          "contribution": "editorial",
+          "sourceRefs": []
+        },
+        {
+          "id": "offer",
+          "title": "安排安靜的選項",
+          "action": "依場地與意願安排能小幅活動或短暫站立的位置，是否使用手部小物由師生共同討論。",
+          "why": "影片提到小幅活動空間與手部小物，具體安排需因地調整。",
+          "example": "編輯示範：提供一處可自願短暫站立的位置。",
+          "check": "選項不阻礙旁人，學生可自行選擇。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 1420,
+              "endSeconds": 1465
+            },
+            {
+              "sourceId": "original",
+              "startSeconds": 2022,
+              "endSeconds": 2040
+            }
+          ]
+        },
+        {
+          "id": "agree",
+          "title": "約定使用方式",
+          "action": "與學生說明何時可換位置、如何避免妨礙他人，以及不適合時如何調整。",
+          "why": "先形成清楚約定，方便共同試行。",
+          "example": "編輯示範：約定先告知教師再移動，並保持走道暢通。",
+          "check": "學生知道如何選擇與退出。",
+          "contribution": "editorial",
+          "sourceRefs": []
+        },
+        {
+          "id": "review",
+          "title": "回看，再調整",
+          "action": "試行後詢問使用者與鄰近學生是否方便，依回饋保留、修改或停止。",
+          "why": "用實際觀察檢查安排是否符合需要。",
+          "example": "編輯示範：記錄一項觀察與下次準備調整的地方。",
+          "check": "留下至少一項觀察和一個後續調整。",
+          "contribution": "editorial",
+          "sourceRefs": []
+        }
+      ],
+      "practice": {
+        "title": "編輯練習：試一個可選擇的空間",
+        "minutes": 15,
+        "prompt": "選擇一段課堂任務，與學生討論一個安靜、可自願使用的活動選項；試行後收集回饋。",
+        "deliverable": "一項調整與試行觀察",
+        "checklist": [
+          "確認通行與場地條件。",
+          "讓學生選擇是否使用。",
+          "約定使用方式。",
+          "記錄回饋與下一次調整。"
+        ]
+      },
+      "pitfalls": [
+        "把環境選項當成診斷、治療或保證學習成效的方法。",
+        "要求學生在全班面前公開私人狀況。",
+        "忽略走道安全、旁人使用及學生的選擇意願。"
+      ],
+      "supplements": [
+        {
+          "title": "編輯觀點：依現場調整",
+          "text": "學生需要與教室條件不同，先從一個小改變開始，再依回饋調整。",
+          "sourceIds": [
+            "original"
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "微動空間一定能改善注意力或學習成效",
+          "status": "unverified",
+          "explanation": "影片相關腦部與注意力說法未獨立核實；本文安排未經課堂實測，不保證成效。",
+          "sourceIds": [
+            "original"
+          ],
+          "checkedAt": "2026-10-29"
+        }
+      ],
+      "keywords": [
+        "教室空間",
+        "學生選擇",
+        "教學應用",
+        "微動"
+      ],
+      "overview": {
+        "image": "/assets/overviews/udl-classroom-movement-desktop.webp",
+        "mobileImage": "/assets/overviews/udl-classroom-movement-mobile.webp",
+        "cardImage": "/assets/overviews/udl-classroom-movement-desktop.webp",
+        "alt": "阿問陪教師和學生規劃可選擇的教室空間。",
+        "caption": "步驟為編輯設計，依教室條件與學生意願調整。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      },
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "一起規劃教室空間",
+          "note": "場地檢查、選擇及回看為編輯設計。",
+          "nodes": [
+            {
+              "id": "space",
+              "label": "看場地",
+              "detail": "確認通行安全"
+            },
+            {
+              "id": "ask",
+              "label": "問需要",
+              "detail": "尊重隱私與選擇"
+            },
+            {
+              "id": "offer",
+              "label": "提供選項",
+              "detail": "依意願與空間調整"
+            },
+            {
+              "id": "agree",
+              "label": "約定",
+              "detail": "說明使用與退出"
+            },
+            {
+              "id": "review",
+              "label": "回看",
+              "detail": "依回饋修正"
+            }
+          ],
+          "edges": [
+            {
+              "from": "space",
+              "to": "ask"
+            },
+            {
+              "from": "ask",
+              "to": "offer"
+            },
+            {
+              "from": "offer",
+              "to": "agree"
+            },
+            {
+              "from": "agree",
+              "to": "review"
+            }
+          ]
+        },
+        {
+          "type": "schedule",
+          "title": "編輯補充：練習安排",
+          "note": "依文章步驟整理，可依現場需求調整。",
+          "columns": [
+            "行動",
+            "完成判準"
+          ],
+          "rows": [
+            {
+              "label": "先看任務與場地",
+              "cells": [
+                "選一段聽講或閱讀時間，查看桌椅、走道與其他學生使用狀況，保留安全通行空間。",
+                "位置不妨礙通行。"
+              ]
+            },
+            {
+              "label": "讓學生提出需要",
+              "cells": [
+                "詢問坐著、短暫站立或安靜活動哪一種較方便完成任務；學生也可以不回答。",
+                "不要求公開私人狀況。"
+              ]
+            },
+            {
+              "label": "安排安靜的選項",
+              "cells": [
+                "依場地與意願安排能小幅活動或短暫站立的位置，是否使用手部小物由師生共同討論。",
+                "選項不阻礙旁人，學生可自行選擇。"
+              ]
+            },
+            {
+              "label": "約定使用方式",
+              "cells": [
+                "與學生說明何時可換位置、如何避免妨礙他人，以及不適合時如何調整。",
+                "學生知道如何選擇與退出。"
+              ]
+            },
+            {
+              "label": "回看，再調整",
+              "cells": [
+                "試行後詢問使用者與鄰近學生是否方便，依回饋保留、修改或停止。",
+                "留下至少一項觀察和一個後續調整。"
+              ]
+            }
+          ]
+        }
+      ],
+      "publishedAt": "2026-10-29T02:31:05+08:00"
     }
   ],
   "demo": {
