@@ -107560,6 +107560,513 @@
         }
       ],
       "publishedAt": "2026-10-29T02:55:03+08:00"
+    },
+    {
+      "id": "english-action-sequence",
+      "title": "動作序列法：把每天做的一件事，練成一串英語",
+      "summary": "選一個熟悉的生活場景，將連續動作拆成簡單句子，邊做邊說；用動作順序提示下一句，練習把幾句話接起來。",
+      "categoryId": "english",
+      "topicIds": [
+        "speaking",
+        "habits"
+      ],
+      "level": "入門",
+      "minutes": 20,
+      "output": "一張生活動作與英文句子對照表，以及一筆練習卡點紀錄",
+      "audience": "認得一些英文單字，卻常在描述連續生活動作時停住的學習者",
+      "status": "ready",
+      "contentType": "video_method",
+      "reviewedAt": "2026-10-29",
+      "coverLabel": "生活英語 · 動作練習",
+      "keywords": [
+        "動作序列",
+        "生活英語",
+        "口說",
+        "邊做邊說"
+      ],
+      "sourceCoverage": "依 MP3 的 Whisper tiny 全片轉錄，另以 base 轉錄 07:35–08:25 與 08:40–11:35；兩份機器字幕支持選生活場景、拆成動作，以及邊做邊說。音檔約 16:18，tiny 字幕末至 16:11.7，末尾約 6 秒未涵蓋；英文示範辨識失真，本文不採原句，尚未人工聽校。書包例句、卡住提示、隔天回訪及時間安排為編輯設計。",
+      "sources": [
+        {
+          "id": "movement-video",
+          "title": "動作序列法",
+          "url": "https://www.youtube.com/watch?v=PfZ-37pGRuA",
+          "kind": "video",
+          "channel": "brain 學霸",
+          "provider": "youtube",
+          "videoId": "PfZ-37pGRuA",
+          "note": "本機 tiny 自動字幕供定位，尚待人工核聽；不將辨識失真的英文示範當成逐字稿。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "choose-actions",
+          "title": "選場景，拆成動作",
+          "action": "選一件每天真的會做的事，依先後列出 6 至 10 個看得見的動作。",
+          "why": "用熟悉的生活順序串接練習句。",
+          "example": "編輯示範：整理書包時，依順序寫下打開書包、拿出課本等動作。",
+          "check": "列出的動作具體，而且順序符合自己實際做法。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "movement-video",
+              "startSeconds": 467,
+              "endSeconds": 485
+            }
+          ]
+        },
+        {
+          "id": "write-sentences",
+          "title": "每個動作配一句簡單英文",
+          "action": "為每個動作寫一句簡單英文；查證動詞與搭配。",
+          "why": "查清句子，避免把未核對的說法反覆練熟。",
+          "example": "編輯示範：打開書包可以寫 I open my backpack.；請依實際動作調整並核對。",
+          "check": "每個動作都有一句，疑問已標記或查證。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "movement-video",
+              "startSeconds": 526,
+              "endSeconds": 556
+            },
+            {
+              "sourceId": "movement-video",
+              "startSeconds": 629,
+              "endSeconds": 635
+            }
+          ]
+        },
+        {
+          "id": "do-and-say",
+          "title": "邊做邊說",
+          "action": "按順序做動作，每做一步就說出對應句子。影片建議同一場景練三次，也可用手勢模擬。",
+          "why": "讓動作先後成為接續句子的線索；次數是講者建議，不是效果保證。",
+          "example": "編輯示範：真的打開書包時說 I open my backpack.，再接下一個動作。",
+          "check": "動作與句子同步，確實開口；不方便操作時可用手勢。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "movement-video",
+              "startSeconds": 635,
+              "endSeconds": 648
+            },
+            {
+              "sourceId": "movement-video",
+              "startSeconds": 670,
+              "endSeconds": 681
+            }
+          ]
+        },
+        {
+          "id": "recall",
+          "title": "收起紙再試",
+          "action": "不看紙，邊做邊依序說一遍。編輯補充：卡住時先看提示、確認句子，再從該處重新練。",
+          "why": "觀察自己在哪個動作或句子需要提示。",
+          "example": "編輯示範：忘記拿出課本怎麼說時，查對後從這一步接回。",
+          "check": "能指出一個卡點；卡住時有核對而非猜測。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "movement-video",
+              "startSeconds": 682,
+              "endSeconds": 687
+            }
+          ]
+        },
+        {
+          "id": "revisit",
+          "title": "隔天回來檢查",
+          "action": "編輯延伸：記下最容易卡住的動作或英文搭配，隔天再做一次，必要時請老師核對。",
+          "why": "把這次的疑問帶回下一次練習；不把一次順暢等同所有會話能力。",
+          "example": "編輯示範：記下 take out 與 put in 的用法，下次先複習。",
+          "check": "留下卡點與下次練習安排。",
+          "contribution": "editorial",
+          "sourceRefs": []
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "從生活動作接成句子",
+          "note": "依影片方法編輯整理；卡點處理及隔天回訪為編輯補充。",
+          "nodes": [
+            {
+              "id": "scene",
+              "label": "選場景",
+              "detail": "拆成 6–10 個動作"
+            },
+            {
+              "id": "sentences",
+              "label": "配句子",
+              "detail": "每步一句並核對"
+            },
+            {
+              "id": "practice",
+              "label": "邊做邊說",
+              "detail": "按順序實際開口"
+            },
+            {
+              "id": "recall",
+              "label": "不看紙再試",
+              "detail": "卡住先核對提示"
+            },
+            {
+              "id": "return",
+              "label": "隔天回訪",
+              "detail": "編輯補充：記卡點再練"
+            }
+          ],
+          "edges": [
+            {
+              "from": "scene",
+              "to": "sentences"
+            },
+            {
+              "from": "sentences",
+              "to": "practice"
+            },
+            {
+              "from": "practice",
+              "to": "recall"
+            },
+            {
+              "from": "recall",
+              "to": "return"
+            }
+          ]
+        },
+        {
+          "type": "schedule",
+          "title": "編輯補充：練習安排",
+          "note": "依文章步驟整理，可依現場需求調整。",
+          "columns": [
+            "行動",
+            "完成判準"
+          ],
+          "rows": [
+            {
+              "label": "選場景，拆成動作",
+              "cells": [
+                "選一件每天真的會做的事，依先後列出 6 至 10 個看得見的動作。",
+                "列出的動作具體，而且順序符合自己實際做法。"
+              ]
+            },
+            {
+              "label": "每個動作配一句簡單英文",
+              "cells": [
+                "為每個動作寫一句簡單英文；查證動詞與搭配。",
+                "每個動作都有一句，疑問已標記或查證。"
+              ]
+            },
+            {
+              "label": "邊做邊說",
+              "cells": [
+                "按順序做動作，每做一步就說出對應句子。影片建議同一場景練三次，也可用手勢模擬。",
+                "動作與句子同步，確實開口；不方便操作時可用手勢。"
+              ]
+            },
+            {
+              "label": "收起紙再試",
+              "cells": [
+                "不看紙，邊做邊依序說一遍。編輯補充：卡住時先看提示、確認句子，再從該處重新練。",
+                "能指出一個卡點；卡住時有核對而非猜測。"
+              ]
+            },
+            {
+              "label": "隔天回來檢查",
+              "cells": [
+                "編輯延伸：記下最容易卡住的動作或英文搭配，隔天再做一次，必要時請老師核對。",
+                "留下卡點與下次練習安排。"
+              ]
+            }
+          ]
+        }
+      ],
+      "practice": {
+        "title": "做一張動作與句子練習卡",
+        "minutes": 20,
+        "prompt": "以下時間與示範為編輯設計，可依需要調整。選一件生活小事，列 6–10 個動作，每步寫一句英文並核對；邊做邊說，再不看紙試一次。記下卡點，安排隔天回訪。\n\n編輯自編示範：\n打開書包：I open my backpack.\n拿出課本：I take out my textbook.\n把課本放在桌上：I put the textbook on the desk.\n拿出筆袋：I take out my pencil case.\n把筆袋放進書包：I put my pencil case in my backpack.\n關上書包：I close my backpack.\n\n我的場景：＿＿\n我的動作和句子：＿＿\n最容易卡住的地方：＿＿\n核對方式與下次練習：＿＿",
+        "deliverable": "一張動作與英文對照表及一筆卡點紀錄。",
+        "checklist": [
+          "動作與日常場景相符且有順序。",
+          "每個動作配一句，英文用法已查證或標記待核對。",
+          "有實際邊做邊說，並嘗試不看紙。",
+          "記下卡點並安排回訪。"
+        ]
+      },
+      "pitfalls": [
+        "把自編例句當成原片逐字稿：書包示範為編輯自編，請先核對。",
+        "只說句子卻沒有做動作：可實作或用手勢模擬。",
+        "未查英文就反覆練習：先確認動詞與搭配。",
+        "把影片建議的次數當作能力保證：能說熟一串不等於能應付所有會話。"
+      ],
+      "supplements": [
+        {
+          "title": "編輯觀點：用動作找回下一句",
+          "text": "熟悉的生活順序可作為練習線索。卡住時記下具體動作及需要核對的搭配，讓下次練習有清楚起點；這是編輯應用，不是已驗證的學習成效。",
+          "sourceIds": []
+        },
+        {
+          "title": "來源限制",
+          "text": "本機自動字幕含明顯中文與英文辨識錯誤，英文開門示範不採用。原片人物生平、學習成效及科學解釋未查證；發布前請人工核聽方法段與片尾。",
+          "sourceIds": [
+            "movement-video"
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "影片提出拆生活場景、逐步配句及邊做邊說。",
+          "status": "partial",
+          "explanation": "方法段有自動字幕線索，但 tiny 辨識有誤，仍須人工核聽。",
+          "sourceIds": [
+            "movement-video"
+          ],
+          "checkedAt": "2026-10-29"
+        },
+        {
+          "claim": "依此練習可保證自然會話或特定學習成效。",
+          "status": "unverified",
+          "explanation": "未取得可支持成效保證的研究或實測資料。",
+          "sourceIds": [
+            "movement-video"
+          ],
+          "checkedAt": "2026-10-29"
+        }
+      ],
+      "overview": {
+        "image": "/assets/overviews/english-action-sequence-desktop.webp",
+        "mobileImage": "/assets/overviews/english-action-sequence-mobile.webp",
+        "cardImage": "/assets/overviews/english-action-sequence-desktop.webp",
+        "alt": "以澄陪你把生活動作拆開、配英文句子、邊做邊說。",
+        "caption": "書包範例和隔天回訪為編輯設計，先核對例句再練習。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      },
+      "publishedAt": "2026-10-29T03:13:32+08:00"
+    },
+    {
+      "id": "english-request-options",
+      "title": "英文請求，給對方選擇：先說清時間與彈性",
+      "summary": "依對象與情境提出清楚請求，說明時間，也讓對方能告知不便並討論替代方式。",
+      "categoryId": "english",
+      "topicIds": [
+        "speaking",
+        "habits"
+      ],
+      "level": "入門",
+      "minutes": 15,
+      "output": "一段包含請求、時間與彈性的英文訊息草稿",
+      "audience": "練習英文溝通的學生與自學者",
+      "status": "ready",
+      "contentType": "video_method",
+      "reviewedAt": "2026-10-29",
+      "coverLabel": "英文溝通 · 提出請求",
+      "keywords": [
+        "英文",
+        "請求",
+        "情境",
+        "溝通"
+      ],
+      "sourceCoverage": "指定 Notion 頁收錄影片的 MP3 以 Whisper tiny 轉錄全片，再以 base 轉錄 02:54–04:19；兩份機器字幕均提到用問句提出請求及讓對方說明時間不便。英文語音辨識有錯字，未人工聽校或觀看畫面；本文英文句子、步驟與時間為編輯設計，不使用影片中未查證的回覆率與文化概括。",
+      "sources": [
+        {
+          "id": "original",
+          "title": "語法全對卻被說沒禮貌？英語溝通語塊",
+          "kind": "video",
+          "url": "https://www.youtube.com/watch?v=6KRXpGwZJM4",
+          "channel": "brain 學霸",
+          "videoId": "6KRXpGwZJM4"
+        }
+      ],
+      "steps": [
+        {
+          "id": "context",
+          "title": "想清楚情境",
+          "action": "先寫下請求對象、希望對方協助的事，以及自己真正需要的時間。",
+          "why": "不同關係與情境需要不同的語氣；先確認需求才能說清楚。",
+          "example": "編輯示範：想請同學在週五前看一眼報告草稿。",
+          "check": "能說出對象、事情與時間。",
+          "contribution": "editorial",
+          "sourceRefs": []
+        },
+        {
+          "id": "ask",
+          "title": "用問句提出請求",
+          "action": "用清楚簡短的問句表達想請對方做什麼，可依關係與場合調整用語。",
+          "why": "影片提出把指令改為請求問句的做法。",
+          "example": "編輯示範：Could you review my draft by Friday?",
+          "check": "請求的內容與時間看得出來。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 174,
+              "endSeconds": 194
+            }
+          ]
+        },
+        {
+          "id": "flex",
+          "title": "說明時間與彈性",
+          "action": "如果時間可以調整，讓對方知道不方便時可以提出其他安排；不確定是否有彈性時不要假裝有。",
+          "why": "影片提到給對方說明時間不便及另約時間的空間。",
+          "example": "編輯示範：If Friday is difficult, please let me know and we can find another time.",
+          "check": "文字與自己實際能提供的選擇一致。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 206,
+              "endSeconds": 235
+            }
+          ]
+        },
+        {
+          "id": "respond",
+          "title": "依回覆調整",
+          "action": "讀懂對方回覆，必要時一起改時間或縮小請求，並確認最後約定。",
+          "why": "把對方的回覆納入安排是編輯延伸。",
+          "example": "編輯示範：同學週五不便，雙方討論改為週一。",
+          "check": "留下雙方確認的安排或下一步。",
+          "contribution": "editorial",
+          "sourceRefs": []
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "清楚請求與回應",
+          "note": "流程為編輯設計。",
+          "nodes": [
+            {
+              "id": "context",
+              "label": "想情境",
+              "detail": "確認對象、事情與時間"
+            },
+            {
+              "id": "ask",
+              "label": "提出請求",
+              "detail": "用簡短問句說清楚"
+            },
+            {
+              "id": "flex",
+              "label": "說明彈性",
+              "detail": "提供實際可行的選項"
+            },
+            {
+              "id": "respond",
+              "label": "依回覆調整",
+              "detail": "共同確認下一步"
+            }
+          ],
+          "edges": [
+            {
+              "from": "context",
+              "to": "ask"
+            },
+            {
+              "from": "ask",
+              "to": "flex"
+            },
+            {
+              "from": "flex",
+              "to": "respond"
+            }
+          ]
+        },
+        {
+          "type": "schedule",
+          "title": "編輯補充：練習安排",
+          "note": "依情境與時間調整。",
+          "columns": [
+            "行動",
+            "完成判準"
+          ],
+          "rows": [
+            {
+              "label": "想清楚情境",
+              "cells": [
+                "先寫下請求對象、希望對方協助的事，以及自己真正需要的時間。",
+                "能說出對象、事情與時間。"
+              ]
+            },
+            {
+              "label": "用問句提出請求",
+              "cells": [
+                "用清楚簡短的問句表達想請對方做什麼，可依關係與場合調整用語。",
+                "請求的內容與時間看得出來。"
+              ]
+            },
+            {
+              "label": "說明時間與彈性",
+              "cells": [
+                "如果時間可以調整，讓對方知道不方便時可以提出其他安排；不確定是否有彈性時不要假裝有。",
+                "文字與自己實際能提供的選擇一致。"
+              ]
+            },
+            {
+              "label": "依回覆調整",
+              "cells": [
+                "讀懂對方回覆，必要時一起改時間或縮小請求，並確認最後約定。",
+                "留下雙方確認的安排或下一步。"
+              ]
+            }
+          ]
+        }
+      ],
+      "practice": {
+        "title": "編輯練習：寫一則請求訊息",
+        "minutes": 15,
+        "prompt": "挑一個真實但不涉及個資的情境，用英文寫一句請求和一句時間彈性；請可信任的人協助檢查語氣。",
+        "deliverable": "一則清楚、符合實際安排的英文請求草稿",
+        "checklist": [
+          "寫清楚希望對方做什麼。",
+          "時間符合實際需求。",
+          "只提供自己做得到的彈性。",
+          "依對方回覆確認安排。"
+        ]
+      },
+      "pitfalls": [
+        "把一種英文說法視為所有對象與情境的固定禮貌規則。",
+        "要求對方可以拒絕，卻實際上不接受不同時間或回覆。",
+        "將沒有核對過的句子當成一定適合該情境。"
+      ],
+      "supplements": [
+        {
+          "title": "編輯觀點：語氣要看情境",
+          "text": "問句與時間彈性可以用於某些請求，但語氣是否合適仍取決於關係、場合與實際需求。",
+          "sourceIds": [
+            "original"
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "使用這個句型一定會得到回覆",
+          "status": "unverified",
+          "explanation": "影片分享個人經驗；本文練習未經獨立實測，回覆取決於情境與對方選擇。",
+          "sourceIds": [
+            "original"
+          ],
+          "checkedAt": "2026-10-29"
+        }
+      ],
+      "overview": {
+        "image": "/assets/overviews/english-request-options-desktop.webp",
+        "mobileImage": "/assets/overviews/english-request-options-mobile.webp",
+        "cardImage": "/assets/overviews/english-request-options-desktop.webp",
+        "alt": "以澄示範英文請求前先想情境，再說明時間與彈性。",
+        "caption": "英文示例與練習為編輯設計，依情境調整語氣。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      },
+      "publishedAt": "2026-10-29T03:13:32+08:00"
     }
   ],
   "demo": {
