@@ -112811,6 +112811,239 @@
         "mobileHeight": 1600
       },
       "publishedAt": "2026-10-29T05:31:12+08:00"
+    },
+    {
+      "id": "forest-text-perspective-reading",
+      "title": "讀山林文本，看見不同視角：先問印象，再找線索",
+      "summary": "先說出自己對狩獵的印象，再回到具體文本找線索，思考人與山林的關係。",
+      "categoryId": "reading",
+      "topicIds": [
+        "strategies",
+        "teaching"
+      ],
+      "audience": "想以文本帶學生理解不同觀點的國文教師",
+      "output": "一張印象、文本線索與新問題的閱讀卡",
+      "minutes": 20,
+      "level": "入門",
+      "status": "ready",
+      "contentType": "article_method",
+      "reviewedAt": "2026-10-29",
+      "coverLabel": "國文教學 · 文本視角",
+      "sourceCoverage": "指定 Notion 的 Podcast 音訊以 Whisper tiny 轉錄全片，並以 base 補轉約 14:40–16:30；全片字幕末尾約 4.5 秒未產出文字，尚未逐句人工聽校。江儀梅老師分享從狩獵印象、文本細節、人與山林關係引導學生思考；閱讀卡、示例與資料核對為編輯延伸。原始作品名稱辨識不穩，本文不指定篇名。",
+      "sources": [
+        {
+          "id": "original",
+          "title": "少一點標籤，多一點理解：校園裡的族群友善課",
+          "kind": "article",
+          "url": "https://open.firstory.fm/story/cmubgclyr0eom01ym8ive918x",
+          "channel": "翻轉教育 Podcast",
+          "note": "教育 Know-how EP.63；約 14:40–16:30 分享文化文本與視角。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "先說自己的印象",
+          "action": "閱讀前寫下自己對狩獵或人與山林關係的初步想法，也可以只留下疑問。",
+          "why": "講者分享先詢問學生對狩獵的印象。",
+          "example": "編輯示範：寫下「我想知道為什麼要進山」。",
+          "check": "把自己的初步想法與文本記載分開。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "回到具體文本找線索",
+          "action": "選具名作者與可取得的文本，標記文章實際寫到的行動與細節。",
+          "why": "講者引導學生注意狩獵前的準備等文本細節。",
+          "example": "編輯示範：若文章提到準備過程，就標出相應句子。",
+          "check": "每個觀察都能回到文章中的具體文字。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "試著換一種視角",
+          "action": "比較文本如何呈現人與山林的關係，再說明這種角度讓自己注意到什麼。",
+          "why": "講者以進入他人家中作為對照，引導思考人與山林的關係。",
+          "example": "編輯示範：比較「使用一個地方」與「作為訪客」兩種閱讀角度。",
+          "check": "說明視角時能指出文本依據，不替所有族群下結論。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "連回現在，留下問題",
+          "action": "選一個需要查證的當代土地議題，列出還需要了解的資料與觀點。",
+          "why": "講者提到將閱讀連回當下議題；查證問題為編輯補充。",
+          "example": "編輯示範：「這個地方有哪些不同使用者？他們各自怎麼說？」",
+          "check": "至少留下一個可繼續查證的問題。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "編輯整理：從印象回到文本",
+          "note": "尊重具體文本與族群差異，不以單一作品代表所有人。",
+          "nodes": [
+            {
+              "id": "step-1",
+              "label": "先說自己的印象",
+              "detail": "閱讀前寫下自己對狩獵或人與山林關係的初步想法，也可以只留下疑問。"
+            },
+            {
+              "id": "step-2",
+              "label": "回到具體文本找線索",
+              "detail": "選具名作者與可取得的文本，標記文章實際寫到的行動與細節。"
+            },
+            {
+              "id": "step-3",
+              "label": "試著換一種視角",
+              "detail": "比較文本如何呈現人與山林的關係，再說明這種角度讓自己注意到什麼。"
+            },
+            {
+              "id": "step-4",
+              "label": "連回現在，留下問題",
+              "detail": "選一個需要查證的當代土地議題，列出還需要了解的資料與觀點。"
+            }
+          ],
+          "edges": [
+            {
+              "from": "step-1",
+              "to": "step-2"
+            },
+            {
+              "from": "step-2",
+              "to": "step-3"
+            },
+            {
+              "from": "step-3",
+              "to": "step-4"
+            }
+          ]
+        },
+        {
+          "type": "schedule",
+          "title": "編輯補充：視角閱讀卡",
+          "note": "課堂問題及查證方法為編輯延伸。",
+          "columns": [
+            "行動",
+            "完成判準"
+          ],
+          "rows": [
+            {
+              "label": "先說自己的印象",
+              "cells": [
+                "閱讀前寫下自己對狩獵或人與山林關係的初步想法，也可以只留下疑問。",
+                "把自己的初步想法與文本記載分開。"
+              ]
+            },
+            {
+              "label": "回到具體文本找線索",
+              "cells": [
+                "選具名作者與可取得的文本，標記文章實際寫到的行動與細節。",
+                "每個觀察都能回到文章中的具體文字。"
+              ]
+            },
+            {
+              "label": "試著換一種視角",
+              "cells": [
+                "比較文本如何呈現人與山林的關係，再說明這種角度讓自己注意到什麼。",
+                "說明視角時能指出文本依據，不替所有族群下結論。"
+              ]
+            },
+            {
+              "label": "連回現在，留下問題",
+              "cells": [
+                "選一個需要查證的當代土地議題，列出還需要了解的資料與觀點。",
+                "至少留下一個可繼續查證的問題。"
+              ]
+            }
+          ]
+        }
+      ],
+      "practice": {
+        "title": "編輯練習：印象與文本對照",
+        "minutes": 20,
+        "prompt": "選一篇具名作者、可取得的山林文本，寫下初步印象，標出兩個文本細節，說明換個角度後的新問題。",
+        "deliverable": "初步印象、兩個文本線索及一個待查問題",
+        "checklist": [
+          "使用可取得且來源明確的文本。",
+          "線索可回到原文。",
+          "不將一篇作品推廣成所有人的觀點。",
+          "保留一個需要繼續查證的問題。"
+        ]
+      },
+      "pitfalls": [
+        "把個人印象或單篇作品當成所有原住民族共同的想法。",
+        "要求班上的原住民族學生代表所有族群發言。",
+        "沒有閱讀原文，就憑想像描述其中的文化內容。"
+      ],
+      "supplements": [
+        {
+          "title": "編輯提示：教師先準備文本",
+          "text": "教師可先確認作品、作者與使用權限，並準備相關背景；學生可以選擇用文字或匿名方式表達。",
+          "sourceIds": [
+            "original"
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "一篇狩獵文本可以代表所有原住民族的文化與看法",
+          "status": "unverified",
+          "explanation": "不同族群與個人的歷史、文化和觀點各有差異，應回到具體文本與來源。",
+          "sourceIds": [
+            "original"
+          ],
+          "checkedAt": "2026-10-29"
+        }
+      ],
+      "keywords": [
+        "文本閱讀",
+        "不同視角",
+        "山林",
+        "文化理解"
+      ],
+      "overview": {
+        "image": "/assets/overviews/forest-perspective-desktop.webp",
+        "mobileImage": "/assets/overviews/forest-perspective-mobile.webp",
+        "cardImage": "/assets/overviews/forest-perspective-desktop.webp",
+        "alt": "阿問與小硯在山林中閱讀與提問。",
+        "caption": "示意圖與閱讀卡為編輯延伸，不能代表特定族群文化。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      },
+      "publishedAt": "2026-10-29T05:34:26+08:00"
     }
   ],
   "demo": {
