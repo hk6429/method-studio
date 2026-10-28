@@ -115077,6 +115077,221 @@
         "mobileHeight": 1600
       },
       "publishedAt": "2026-10-29T06:32:28+08:00"
+    },
+    {
+      "id": "reading-question-cards-branch",
+      "title": "把閱讀時的追問留下來：用編號問題卡保存思路",
+      "summary": "讀一小段，將疑問分卡並記下追問編號，再回到原文核對、用自己的話說明。",
+      "categoryId": "reading",
+      "topicIds": [
+        "strategies",
+        "learning"
+      ],
+      "audience": "想保留閱讀疑問與思考路徑的學生和教師",
+      "output": "一組附原文位置的問題卡與追問路徑",
+      "minutes": 15,
+      "level": "入門",
+      "status": "ready",
+      "contentType": "video_method",
+      "reviewedAt": "2026-10-29",
+      "coverLabel": "閱讀筆記 · 問題與追問",
+      "keywords": [
+        "閱讀提問",
+        "問題卡",
+        "追問路徑",
+        "筆記"
+      ],
+      "sourceCoverage": "指定 Notion 影片音訊以 Groq Whisper large-v3-turbo 自動轉錄並轉繁體，尚未逐句人工聽校或逐格核對畫面；片中示範以章節與編號保留問題、追問與筆記，並提出自己從頭表達。文章的閱讀素材、頁碼欄位、查證與遮住回答練習為編輯延伸，未驗證學習成效。",
+      "sources": [
+        {
+          "id": "original",
+          "title": "21 分鐘完整教學：用 ChatGPT + Notion 讀量子力學，建立可追蹤學習問題的筆記庫",
+          "kind": "video",
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=YE4ccdIN63s",
+          "channel": "跟朱騏一起打造知識型一人公司",
+          "videoId": "YE4ccdIN63s",
+          "note": "自動轉錄可能誤辨專有名詞及編號；工具介面可能變動。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "讀一小段並留入口",
+          "action": "選一段想讀懂的教材，建立章節入口，記下標題與位置，先自己讀。",
+          "why": "影片從書的目錄和章節建立筆記入口。",
+          "example": "編輯示範：選議論文第一段，記下篇名和段落。",
+          "check": "之後能找到同一段原文。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 83,
+              "endSeconds": 223
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "一題一張卡",
+          "action": "把不懂或想多了解的問題各寫一張卡；同一段的問題用 A、B、C 分開。",
+          "why": "影片示範將不同問題各自建立筆記並區分編號。",
+          "example": "編輯示範：1A『作者為什麼先提出反方看法？』",
+          "check": "每張卡只記一個可回答的問題。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 449,
+              "endSeconds": 504
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "編號留下追問",
+          "action": "從原問題產生新疑問時，在卡片上記父子編號與連結，保留追問的來處。",
+          "why": "影片示範以子編號記錄延伸問題，方便回看脈絡。",
+          "example": "編輯示範：1A1『哪一句顯示作者開始回應反方？』接在 1A 後。",
+          "check": "能指出追問來自哪一題。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 984,
+              "endSeconds": 1034
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "補答案，回原文核對",
+          "action": "將回答和原文位置寫回卡片；若使用 AI 解釋，對照教材或可信資料，標記尚未確認之處。",
+          "why": "影片示範在原筆記中補充對概念的追問；來源核對為編輯建議。",
+          "example": "編輯示範：標記作者回應反方的文句位置，再檢查回答是否有依據。",
+          "check": "每個回答都可追溯到原文或其他出處。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 629,
+              "endSeconds": 644
+            },
+            {
+              "sourceId": "original",
+              "startSeconds": 729,
+              "endSeconds": 798
+            }
+          ]
+        },
+        {
+          "id": "step-5",
+          "title": "遮住答案，自己說一遍",
+          "action": "沿著問題和追問路徑重看，先遮住回答，用自己的話講一遍；說不清楚就回去查。",
+          "why": "影片區分 AI 整理與自己的內化，提議從空白頁或語音重新表達；遮住回答是編輯延伸。",
+          "example": "編輯示範：先說作者如何回應反方，再打開卡片比對文句。",
+          "check": "能用自己的話說明，並指出仍不確定之處。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 1055,
+              "endSeconds": 1107
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "從閱讀到可回走的問題路徑",
+          "note": "示例與核對方式為編輯延伸。",
+          "nodes": [
+            {
+              "id": "n1",
+              "label": "讀一小段",
+              "detail": "記下章節位置"
+            },
+            {
+              "id": "n2",
+              "label": "一題一張卡",
+              "detail": "留下閱讀問題"
+            },
+            {
+              "id": "n3",
+              "label": "編號留追問",
+              "detail": "連回原先問題"
+            },
+            {
+              "id": "n4",
+              "label": "自己說一遍",
+              "detail": "回原文檢查"
+            }
+          ],
+          "edges": [
+            {
+              "from": "n1",
+              "to": "n2"
+            },
+            {
+              "from": "n2",
+              "to": "n3"
+            },
+            {
+              "from": "n3",
+              "to": "n4"
+            }
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "使用問題卡必然提升閱讀或記憶成效。",
+          "status": "unverified",
+          "explanation": "影片展示個人操作；本文練習的成效未經獨立驗證。",
+          "sourceIds": [
+            "original"
+          ],
+          "checkedAt": "2026-10-29"
+        }
+      ],
+      "pitfalls": [
+        "AI 整理不等於自己的理解，回到原文確認。",
+        "使用有權利用的教材，避免輸入不適合提供給外部工具的資料。",
+        "不必依賴特定工具或目前的介面，紙卡也能記錄編號。"
+      ],
+      "practice": {
+        "title": "15 分鐘問題卡",
+        "minutes": 15,
+        "prompt": "編輯設計：選一段有權使用的教材，寫下章節 1、問題 1A、追問 1A1；每張卡記回答與出處，再遮住回答，試著自己說明。",
+        "deliverable": "兩張問題卡及追問關係",
+        "checklist": [
+          "記下原文位置",
+          "一題一張卡",
+          "標記追問來處",
+          "查證後用自己的話說明"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "編輯補充：卡片範本",
+          "text": "章節與位置：＿＿；問題：＿＿；由哪一題追問：＿＿；初步回答：＿＿；原文或查證來源：＿＿；還不確定：＿＿。",
+          "sourceIds": []
+        }
+      ],
+      "overview": {
+        "image": "/assets/overviews/question-card-desktop.webp",
+        "mobileImage": "/assets/overviews/question-card-mobile.webp",
+        "cardImage": "/assets/overviews/question-card-desktop.webp",
+        "alt": "以澄與阿問將閱讀疑問寫成問題卡、編號追問，再自己說明。",
+        "caption": "問題卡練習為編輯延伸，應回原文核對。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      },
+      "publishedAt": "2026-10-29T06:35:24+08:00"
     }
   ],
   "demo": {
