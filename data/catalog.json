@@ -116272,6 +116272,199 @@
         "mobileHeight": 1600
       },
       "publishedAt": "2026-10-29T06:53:35+08:00"
+    },
+    {
+      "id": "working-exam-time-past-questions",
+      "title": "在職備考先盤點時間：把考古題與短複習放進生活",
+      "summary": "看清可用時間與精神狀態，透過考古題找重點，留下短時間回想與調整空間。",
+      "categoryId": "reading",
+      "topicIds": [
+        "learning"
+      ],
+      "audience": "工作繁忙、想規劃備考的自學者",
+      "output": "一張一週備考卡和一道考古題的檢查紀錄",
+      "minutes": 20,
+      "level": "入門",
+      "status": "ready",
+      "contentType": "video_method",
+      "reviewedAt": "2026-10-29",
+      "coverLabel": "備考規劃 · 時間與練習",
+      "keywords": [
+        "在職備考",
+        "時間盤點",
+        "考古題",
+        "回想複習"
+      ],
+      "sourceCoverage": "指定 Notion 影片音訊經本機 Whisper base 自動轉錄全片，尚未逐句人工聽校，字幕有錯字與時間偏移的可能。講者示例中的每日 3.5 小時是個案假設排程，並非每人標準；備考卡、範例、睡眠與安全提醒及時間為編輯延伸，未驗證成效。",
+      "sources": [
+        {
+          "id": "original",
+          "title": "在職考生沒時間讀書？我教你從一天擠出三個半小時，還讀得進去",
+          "kind": "video",
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=gr0Vn29ce7k",
+          "channel": "Yellow🚶思考路徑",
+          "videoId": "gr0Vn29ce7k",
+          "note": "字幕為自動辨識，尚未逐句人工聽校。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "盤點時間與精神",
+          "action": "寫下一週工作、照顧、睡眠和休息的必要安排，觀察何時有可用時間、何時較有精神。",
+          "why": "講者邀請在職考生記下行程，也區分時間不足與體力不足。",
+          "example": "編輯示範：午休可用 15 分鐘，晚上需留出照顧家人的時間。",
+          "check": "找出至少一段可嘗試的時段，並保留睡眠和休息。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 12,
+              "endSeconds": 108
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "為時段安排適合的事",
+          "action": "依各時段長短及精神狀態，選擇讀課本、練題或回顧；一週後檢查是否做得到並調整。",
+          "why": "影片以假設的一天示範分配早、午、晚時段；數字不必照搬。",
+          "example": "編輯示範：較長時間練題，短時段回想昨天的內容。",
+          "check": "每個時段都有一件具體而可調整的任務。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 119,
+              "endSeconds": 236
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "用考古題找重點",
+          "action": "選一道相關題目先試答，再看解答，記下不懂的概念並回教材查找。初學時可先看入門內容，再及早接觸題目。",
+          "why": "講者建議在聽課之外及早接觸考古題，藉題目辨認需要理解的內容。",
+          "example": "編輯示範：寫下這題考哪個概念、自己卡在哪一步。",
+          "check": "有一道題的試答、問題與查找來源。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 261,
+              "endSeconds": 382
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "短時間回想，再調整",
+          "action": "以章節標題提醒自己，先說出昨天的重點，忘記再翻查；週末回看安排是否過滿，調整下一週。",
+          "why": "講者建議用短時間看目錄、回想內容，再回頭確認。",
+          "example": "編輯示範：用五分鐘回想概念，不清楚的部分回教材找。",
+          "check": "留下一個想起的重點及一個待補之處。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 498,
+              "endSeconds": 617
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "在生活裡安排備考",
+          "note": "排程為依個人生活調整的編輯練習。",
+          "nodes": [
+            {
+              "id": "n1",
+              "label": "盤點時間",
+              "detail": "保留睡眠與休息"
+            },
+            {
+              "id": "n2",
+              "label": "安排任務",
+              "detail": "配合精神狀態"
+            },
+            {
+              "id": "n3",
+              "label": "考古題找重點",
+              "detail": "試答再查證"
+            },
+            {
+              "id": "n4",
+              "label": "短時間回想",
+              "detail": "回看並調整"
+            }
+          ],
+          "edges": [
+            {
+              "from": "n1",
+              "to": "n2"
+            },
+            {
+              "from": "n2",
+              "to": "n3"
+            },
+            {
+              "from": "n3",
+              "to": "n4"
+            }
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "每位在職考生每天都能安排 3.5 小時讀書並考上。",
+          "status": "unverified",
+          "explanation": "影片的時間表是示例，時間與成果取決於個人情況，未提供普遍成效證據。",
+          "sourceIds": [
+            "original"
+          ],
+          "checkedAt": "2026-10-29"
+        }
+      ],
+      "pitfalls": [
+        "不要壓縮必要睡眠或休息來套用別人的排程。",
+        "通勤時應以交通安全為先，不分心操作裝置。",
+        "考古題與解答也要確認版本及可靠性。"
+      ],
+      "practice": {
+        "title": "一週備考卡",
+        "minutes": 20,
+        "prompt": "編輯設計：寫下科目和一個目標、必要休息與可用時段；選一道考古題先試答，記下卡點，安排下次短回想。週末依實際狀況調整。",
+        "deliverable": "一週備考卡和一道題的紀錄",
+        "checklist": [
+          "保留休息時間",
+          "每個時段安排具體任務",
+          "試答一道題並核對",
+          "記下下一次回想時間"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "編輯補充：備考卡",
+          "text": "這週科目與目標：＿＿；可用時段及精神：＿＿；考古題與卡點：＿＿；下次回想時間：＿＿；下週要調整：＿＿。",
+          "sourceIds": []
+        }
+      ],
+      "overview": {
+        "image": "/assets/overviews/study-time-desktop.webp",
+        "mobileImage": "/assets/overviews/study-time-mobile.webp",
+        "cardImage": "/assets/overviews/study-time-desktop.webp",
+        "alt": "知行與墨丸盤點時間、用考古題找重點並安排短回想。",
+        "caption": "排程與備考卡為編輯延伸，可依個人生活調整。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      },
+      "publishedAt": "2026-10-29T06:57:36+08:00"
     }
   ],
   "demo": {
