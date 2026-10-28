@@ -112577,6 +112577,240 @@
         "mobileHeight": 1600
       },
       "publishedAt": "2026-10-29T05:26:09+08:00"
+    },
+    {
+      "id": "source-fill-learning-notes",
+      "title": "讓資料補上筆記缺口：先請 AI 提議，再回原文核對",
+      "summary": "選一份既有筆記與一份可靠參考資料，請 AI 建議可補充之處，逐項核對後再自行修改。",
+      "categoryId": "ai",
+      "topicIds": [
+        "workflow"
+      ],
+      "audience": "想整理學習筆記或教學文件的教師與學習者",
+      "output": "一份標明資料來源的補充筆記",
+      "minutes": 20,
+      "level": "入門",
+      "status": "ready",
+      "contentType": "video_method",
+      "reviewedAt": "2026-10-29",
+      "coverLabel": "AI 學習 · 資料核對",
+      "sourceCoverage": "指定 Notion 影片以 Whisper tiny 轉錄全片，並以 base 補轉約 1:02:30–1:06:00；尚未逐句人工聽校。講者示範提供網頁，請文件中的 AI 參考並補充內容；筆記缺口、來源核對、提示詞與以下例子為編輯延伸。工具功能與權限可能不同。",
+      "sources": [
+        {
+          "id": "original",
+          "title": "茶米教你一點點：密技不藏了！當你的 Google 文件加上 Gemini！",
+          "kind": "video",
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=et02PTMwwLY",
+          "channel": "謙懿科技",
+          "videoId": "et02PTMwwLY",
+          "note": "黃信溢老師示範，約 1:02:30–1:06:00 以網頁作為補充文件的參考。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "選一份現有筆記",
+          "action": "挑一段自己寫過的學習筆記，圈出還想補充或需要查證的地方。",
+          "why": "影片示範在既有文件上補充；指出缺口為編輯延伸。",
+          "example": "編輯示範：在閱讀筆記標記「還需要作者原文支持」的地方。",
+          "check": "能指出一個希望補充或查證的問題。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "提供一份可核對的資料",
+          "action": "選可公開閱讀、來源清楚且與主題相關的網頁或文件，保留出處。",
+          "why": "講者示範提供網頁作為 AI 補充文件的參考。",
+          "example": "編輯示範：提供課文原文或教師指定教材。",
+          "check": "自己也能開啟資料並找到相關段落。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "請 AI 建議補充位置",
+          "action": "把筆記與參考資料交給可處理這些內容的 AI，請它提出可補充之處並標出依據。",
+          "why": "講者示範請 AI 參考網頁，補充文件資訊；要求標示依據為編輯補充。",
+          "example": "編輯提示詞：「參考這份資料，指出筆記可補充之處，附上對應原文；找不到請說明。」",
+          "check": "回覆提出可對照的建議，而不是直接當成確定事實。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "回原文核對再修改",
+          "action": "逐項回到原資料，檢查建議是否正確且適合筆記；自行決定採用與否。",
+          "why": "講者檢視並調整生成結果；逐項來源核對為編輯延伸。",
+          "example": "編輯示範：原文沒有提到的說法先不加，並留下出處。",
+          "check": "至少核對一項補充，註明採用或不採用的理由。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "編輯整理：用來源補充筆記",
+          "note": "AI 建議必須回到原資料核對。",
+          "nodes": [
+            {
+              "id": "step-1",
+              "label": "選一份現有筆記",
+              "detail": "挑一段自己寫過的學習筆記，圈出還想補充或需要查證的地方。"
+            },
+            {
+              "id": "step-2",
+              "label": "提供一份可核對的資料",
+              "detail": "選可公開閱讀、來源清楚且與主題相關的網頁或文件，保留出處。"
+            },
+            {
+              "id": "step-3",
+              "label": "請 AI 建議補充位置",
+              "detail": "把筆記與參考資料交給可處理這些內容的 AI，請它提出可補充之處並標出依據。"
+            },
+            {
+              "id": "step-4",
+              "label": "回原文核對再修改",
+              "detail": "逐項回到原資料，檢查建議是否正確且適合筆記；自行決定採用與否。"
+            }
+          ],
+          "edges": [
+            {
+              "from": "step-1",
+              "to": "step-2"
+            },
+            {
+              "from": "step-2",
+              "to": "step-3"
+            },
+            {
+              "from": "step-3",
+              "to": "step-4"
+            }
+          ]
+        },
+        {
+          "type": "schedule",
+          "title": "編輯補充：來源核對表",
+          "note": "提示詞與核對方式為編輯設計。",
+          "columns": [
+            "行動",
+            "完成判準"
+          ],
+          "rows": [
+            {
+              "label": "選一份現有筆記",
+              "cells": [
+                "挑一段自己寫過的學習筆記，圈出還想補充或需要查證的地方。",
+                "能指出一個希望補充或查證的問題。"
+              ]
+            },
+            {
+              "label": "提供一份可核對的資料",
+              "cells": [
+                "選可公開閱讀、來源清楚且與主題相關的網頁或文件，保留出處。",
+                "自己也能開啟資料並找到相關段落。"
+              ]
+            },
+            {
+              "label": "請 AI 建議補充位置",
+              "cells": [
+                "把筆記與參考資料交給可處理這些內容的 AI，請它提出可補充之處並標出依據。",
+                "回覆提出可對照的建議，而不是直接當成確定事實。"
+              ]
+            },
+            {
+              "label": "回原文核對再修改",
+              "cells": [
+                "逐項回到原資料，檢查建議是否正確且適合筆記；自行決定採用與否。",
+                "至少核對一項補充，註明採用或不採用的理由。"
+              ]
+            }
+          ]
+        }
+      ],
+      "practice": {
+        "title": "編輯練習：補一個筆記缺口",
+        "minutes": 20,
+        "prompt": "選一段筆記和一份可核對的資料，請 AI 建議一項補充，再回到原文確認並註明出處。",
+        "deliverable": "一項核對過的建議、來源與採用理由",
+        "checklist": [
+          "指出筆記中的缺口。",
+          "能自行開啟參考資料。",
+          "AI 建議有可檢查的依據。",
+          "回原文核對後才決定是否採用。"
+        ]
+      },
+      "pitfalls": [
+        "把 AI 提供的補充直接當成原文事實。",
+        "提供的連結無法存取，卻以為 AI 已讀過。",
+        "將不必要的個人資料放進外部 AI 工具。"
+      ],
+      "supplements": [
+        {
+          "title": "編輯提示：保留原稿",
+          "text": "補充之前先保留原稿，方便比較變動；若工具無法讀取來源，可改用有權使用的文字節錄。",
+          "sourceIds": [
+            "original"
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "只要提供連結，AI 就一定讀得到並正確引用",
+          "status": "unverified",
+          "explanation": "工具能否存取連結取決於權限與功能；回答與引文仍須由人核對。",
+          "sourceIds": [
+            "original"
+          ],
+          "checkedAt": "2026-10-29"
+        }
+      ],
+      "keywords": [
+        "學習筆記",
+        "參考資料",
+        "AI 協作",
+        "來源核對"
+      ],
+      "overview": {
+        "image": "/assets/overviews/source-fill-notes-desktop.webp",
+        "mobileImage": "/assets/overviews/source-fill-notes-mobile.webp",
+        "cardImage": "/assets/overviews/source-fill-notes-desktop.webp",
+        "alt": "知行與小硯用參考資料核對筆記。",
+        "caption": "筆記練習與來源核對方式為編輯延伸。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      },
+      "publishedAt": "2026-10-29T05:31:12+08:00"
     }
   ],
   "demo": {
