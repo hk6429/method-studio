@@ -110471,6 +110471,241 @@
         "mobileHeight": 1600
       },
       "publishedAt": "2026-10-29T04:22:13+08:00"
+    },
+    {
+      "id": "cross-language-search-adjust",
+      "title": "跨語言搜尋：找不到就調整關鍵詞",
+      "summary": "先確認搜尋問題，再看譯詞與結果是否對題，必要時調整關鍵詞並核對原文。",
+      "categoryId": "reading",
+      "topicIds": [
+        "strategies",
+        "teaching"
+      ],
+      "audience": "需要查找不同語言資料的教師與學習者",
+      "output": "一張搜尋詞、結果與調整紀錄卡",
+      "minutes": 20,
+      "level": "入門",
+      "status": "ready",
+      "contentType": "video_method",
+      "reviewedAt": "2026-10-29",
+      "coverLabel": "資料探究 · 搜尋調整",
+      "sourceCoverage": "指定 Notion 影片 MP3 以 Whisper tiny 轉錄全片，並以 base 補轉 1:23:50–1:25:50；字幕有辨識錯字，尚未逐句人工聽校。影片展示用翻譯與不同搜尋詞查報紙，並發現結果可能與原意不同；問題卡、檢查項目與示例為編輯整理。",
+      "sources": [
+        {
+          "id": "original",
+          "title": "社會課本裡新住民節慶與移工生活：報紙資料庫探究",
+          "kind": "video",
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=4tdrjYHBJoU",
+          "channel": "謙懿科技",
+          "videoId": "4tdrjYHBJoU",
+          "note": "講者陳香吟；片名依 Notion 索引節錄。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "寫清楚想查的問題",
+          "action": "先寫研究問題、想找的人事物與範圍，例如時間或地點。",
+          "why": "搜尋前限定問題與範圍是編輯補充。",
+          "example": "編輯示範：想查某地的節慶如何被介紹，先寫下主題與地點。",
+          "check": "能用一句話說明想找的內容。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "翻譯核心詞並保留疑問",
+          "action": "把核心詞翻成目標語言，記下可能的不同意思；不確定就準備查證。",
+          "why": "影片示範借助網路翻譯查找外語報紙。",
+          "example": "編輯示範：先寫下「主題＋地點」，再列一個可能的同義詞。",
+          "check": "留有原詞與譯詞，能回頭比較。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 5030,
+              "endSeconds": 5059
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "看結果是否對題",
+          "action": "打開搜尋結果，看來源、標題與內容是否真在談原先問題。",
+          "why": "影片示範發現搜尋結果可能指向另一個意思。",
+          "example": "編輯示範：結果雖有相同詞，談的對象卻不是原本想找的人。",
+          "check": "能指出一個符合或不符合的理由。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 5057,
+              "endSeconds": 5083
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "調整詞語並核對原文",
+          "action": "一次調整一個詞或範圍再查；找到候選資料後，對照原文和其他可靠資料，留下未確認處。",
+          "why": "影片透過刪減搜尋詞重新搜尋；逐項紀錄與交叉查證為編輯延伸。",
+          "example": "編輯示範：去掉一個可能限制過多的地點詞，再比較結果是否更相關。",
+          "check": "記下調整前後結果，以及仍需查證的地方。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 5081,
+              "endSeconds": 5105
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "編輯整理：搜尋後回看",
+          "note": "翻譯與搜尋結果都可能需要核對。",
+          "nodes": [
+            {
+              "id": "step-1",
+              "label": "寫清楚想查的問題",
+              "detail": "先寫研究問題、想找的人事物與範圍，例如時間或地點。"
+            },
+            {
+              "id": "step-2",
+              "label": "翻譯核心詞並保留疑問",
+              "detail": "把核心詞翻成目標語言，記下可能的不同意思；不確定就準備查證。"
+            },
+            {
+              "id": "step-3",
+              "label": "看結果是否對題",
+              "detail": "打開搜尋結果，看來源、標題與內容是否真在談原先問題。"
+            },
+            {
+              "id": "step-4",
+              "label": "調整詞語並核對原文",
+              "detail": "一次調整一個詞或範圍再查；找到候選資料後，對照原文和其他可靠資料，留下未確認處。"
+            }
+          ],
+          "edges": [
+            {
+              "from": "step-1",
+              "to": "step-2"
+            },
+            {
+              "from": "step-2",
+              "to": "step-3"
+            },
+            {
+              "from": "step-3",
+              "to": "step-4"
+            }
+          ]
+        },
+        {
+          "type": "schedule",
+          "title": "編輯補充：搜尋紀錄卡",
+          "note": "記錄各次調整與仍待確認的地方。",
+          "columns": [
+            "行動",
+            "完成判準"
+          ],
+          "rows": [
+            {
+              "label": "寫清楚想查的問題",
+              "cells": [
+                "先寫研究問題、想找的人事物與範圍，例如時間或地點。",
+                "能用一句話說明想找的內容。"
+              ]
+            },
+            {
+              "label": "翻譯核心詞並保留疑問",
+              "cells": [
+                "把核心詞翻成目標語言，記下可能的不同意思；不確定就準備查證。",
+                "留有原詞與譯詞，能回頭比較。"
+              ]
+            },
+            {
+              "label": "看結果是否對題",
+              "cells": [
+                "打開搜尋結果，看來源、標題與內容是否真在談原先問題。",
+                "能指出一個符合或不符合的理由。"
+              ]
+            },
+            {
+              "label": "調整詞語並核對原文",
+              "cells": [
+                "一次調整一個詞或範圍再查；找到候選資料後，對照原文和其他可靠資料，留下未確認處。",
+                "記下調整前後結果，以及仍需查證的地方。"
+              ]
+            }
+          ]
+        }
+      ],
+      "practice": {
+        "title": "編輯練習：調整一次搜尋詞",
+        "minutes": 20,
+        "prompt": "選一個可公開查詢的學習問題，寫下原詞與譯詞，檢視一筆結果；若不對題，調整一個詞再查並記錄。",
+        "deliverable": "一張搜尋詞與結果調整紀錄",
+        "checklist": [
+          "問題與範圍清楚。",
+          "保留原詞及譯詞。",
+          "能解釋結果是否對題。",
+          "對照原文或其他資料並標記疑問。"
+        ]
+      },
+      "pitfalls": [
+        "看到相同譯詞就認定結果談的是同一件事。",
+        "將機器翻譯或 AI 摘要直接當成原文。",
+        "只記住成功結果，不留下調整前的搜尋詞與錯誤。"
+      ],
+      "supplements": [
+        {
+          "title": "編輯提示：一次只改一項",
+          "text": "如果結果太少或偏題，可以先調整一個詞、地點或時間範圍，再比較改動前後；資料庫的實際功能與使用限制需自行確認。",
+          "sourceIds": [
+            "original"
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "翻譯關鍵詞後一定能找到正確資料",
+          "status": "unverified",
+          "explanation": "影片示範搜尋調整，翻譯與資料庫結果仍可能含歧義或錯誤，需回看原文。",
+          "sourceIds": [
+            "original"
+          ],
+          "checkedAt": "2026-10-29"
+        }
+      ],
+      "keywords": [
+        "跨語言搜尋",
+        "資料探究",
+        "關鍵詞",
+        "原文核對"
+      ],
+      "overview": {
+        "image": "/assets/overviews/cross-language-search-adjust-desktop.webp",
+        "mobileImage": "/assets/overviews/cross-language-search-adjust-mobile.webp",
+        "cardImage": "/assets/overviews/cross-language-search-adjust-desktop.webp",
+        "alt": "小硯陪讀者翻譯搜尋詞、檢查結果並調整查詢。",
+        "caption": "搜尋紀錄及檢查表為編輯整理。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      },
+      "publishedAt": "2026-10-29T04:35:13+08:00"
     }
   ],
   "demo": {
