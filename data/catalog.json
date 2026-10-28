@@ -110049,6 +110049,241 @@
         "學習紀錄"
       ],
       "publishedAt": "2026-10-29T04:02:57+08:00"
+    },
+    {
+      "id": "three-clues-before-biography",
+      "title": "先看三個線索，再走進人物課文",
+      "summary": "用可核對的三個線索引發猜想，再回到課文找根據與修正。",
+      "categoryId": "reading",
+      "topicIds": [
+        "strategies",
+        "teaching"
+      ],
+      "audience": "想設計人物課文閱讀導入的教師",
+      "output": "一張人物線索、猜想與文本根據紀錄卡",
+      "minutes": 20,
+      "level": "入門",
+      "status": "ready",
+      "contentType": "video_method",
+      "reviewedAt": "2026-10-29",
+      "coverLabel": "閱讀教學 · 人物線索",
+      "sourceCoverage": "指定 Notion 影片 MP3 以 Whisper tiny 轉錄全片，並以 base 補轉 24:50–27:40；音訊約 86:28，tiny 字幕末至 86:14，尾端約 13 秒未轉出，尚未逐句人工聽校。影片示範以 AI 圖上的三個線索請學生猜人物；核對線索、依課文找證據、回看修正、示例與檢查表為編輯延伸。",
+      "sources": [
+        {
+          "id": "original",
+          "title": "T++ 新手上路：國語教學應用",
+          "kind": "video",
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=nXFsIUve2EI",
+          "channel": "廣臻科技KJCStech",
+          "videoId": "nXFsIUve2EI",
+          "note": "講者陳佳釧；片名依 Notion 索引節錄。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "選人物與三個線索",
+          "action": "選課文中的一位人物，從課文或可信資料找三個可核對的線索；若用 AI 畫圖，先檢查是否正確。",
+          "why": "影片示範將三個線索放進 AI 圖像，讓學生猜人物；核對來源為編輯補充。",
+          "example": "編輯示範：選課文人物，分別從經歷、行動和貢獻找線索。",
+          "check": "每一條線索都能指出依據，不含未查證的細節。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 1509,
+              "endSeconds": 1538
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "先猜，再說根據",
+          "action": "讓學生看線索，先寫下猜測和理由；也允許寫「還不確定」。",
+          "why": "影片讓學生根據圖中線索猜人物，猜錯也可以。",
+          "example": "編輯示範：我猜是這位人物，因為第二個線索和我讀過的經歷相符。",
+          "check": "學生能指出一條讓自己這樣猜的線索。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 1514,
+              "endSeconds": 1545
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "閱讀課文，找出證據",
+          "action": "閱讀人物課文，找出支持或不支持猜測的句子，並標出位置。",
+          "why": "回到原文查證是編輯延伸，讓猜想有檢查依據。",
+          "example": "編輯示範：圈出提到人物行動的句子，寫下課文段落。",
+          "check": "至少一項判斷有對應文字；找不到就標待確認。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "回看並修正",
+          "action": "比較原先猜想與課文，再寫一句新認識及一個想追問的問題。",
+          "why": "回看與修正是編輯延伸，不代表影片展示過完整活動。",
+          "example": "編輯示範：原來我誤解了人物的工作；我想查他後來做了什麼。",
+          "check": "說明哪一處想法維持、改變或仍不確定。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "編輯延伸：從猜想到查證",
+          "note": "課文查證與回看修正為編輯設計。",
+          "nodes": [
+            {
+              "id": "step-1",
+              "label": "選人物與三個線索",
+              "detail": "選課文中的一位人物，從課文或可信資料找三個可核對的線索；若用 AI 畫圖，先檢查是否正確。"
+            },
+            {
+              "id": "step-2",
+              "label": "先猜，再說根據",
+              "detail": "讓學生看線索，先寫下猜測和理由；也允許寫「還不確定」。"
+            },
+            {
+              "id": "step-3",
+              "label": "閱讀課文，找出證據",
+              "detail": "閱讀人物課文，找出支持或不支持猜測的句子，並標出位置。"
+            },
+            {
+              "id": "step-4",
+              "label": "回看並修正",
+              "detail": "比較原先猜想與課文，再寫一句新認識及一個想追問的問題。"
+            }
+          ],
+          "edges": [
+            {
+              "from": "step-1",
+              "to": "step-2"
+            },
+            {
+              "from": "step-2",
+              "to": "step-3"
+            },
+            {
+              "from": "step-3",
+              "to": "step-4"
+            }
+          ]
+        },
+        {
+          "type": "schedule",
+          "title": "編輯補充：人物線索卡",
+          "note": "可依課文及學生年齡調整。",
+          "columns": [
+            "行動",
+            "完成判準"
+          ],
+          "rows": [
+            {
+              "label": "選人物與三個線索",
+              "cells": [
+                "選課文中的一位人物，從課文或可信資料找三個可核對的線索；若用 AI 畫圖，先檢查是否正確。",
+                "每一條線索都能指出依據，不含未查證的細節。"
+              ]
+            },
+            {
+              "label": "先猜，再說根據",
+              "cells": [
+                "讓學生看線索，先寫下猜測和理由；也允許寫「還不確定」。",
+                "學生能指出一條讓自己這樣猜的線索。"
+              ]
+            },
+            {
+              "label": "閱讀課文，找出證據",
+              "cells": [
+                "閱讀人物課文，找出支持或不支持猜測的句子，並標出位置。",
+                "至少一項判斷有對應文字；找不到就標待確認。"
+              ]
+            },
+            {
+              "label": "回看並修正",
+              "cells": [
+                "比較原先猜想與課文，再寫一句新認識及一個想追問的問題。",
+                "說明哪一處想法維持、改變或仍不確定。"
+              ]
+            }
+          ]
+        }
+      ],
+      "practice": {
+        "title": "編輯練習：設計一張人物線索卡",
+        "minutes": 20,
+        "prompt": "選一位課文人物，先核對三條線索；請學生猜測並說理由，再閱讀課文找出支持或修正的文字。",
+        "deliverable": "三條線索、猜想與一處文本根據",
+        "checklist": [
+          "三條線索各有可靠依據。",
+          "學生可以保留不確定。",
+          "判斷能回到課文核對。",
+          "寫下更新後的想法或問題。"
+        ]
+      },
+      "pitfalls": [
+        "只讓學生搶答名字，沒有說明線索或回到文本。",
+        "把 AI 畫出的國旗、物件或經歷直接當成正確史實。",
+        "把合理猜錯當成失敗，讓學生不敢提出想法。"
+      ],
+      "supplements": [
+        {
+          "title": "編輯提示：不必使用 AI 圖",
+          "text": "也可以用教師自製圖卡、短句或合法圖片呈現線索；無論媒材為何，先核對事實並註明出處。",
+          "sourceIds": [
+            "original"
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "三個線索一定能提升閱讀興趣或理解",
+          "status": "unverified",
+          "explanation": "影片示範閱讀導入；本文的後續練習與效果未經課堂實測。",
+          "sourceIds": [
+            "original"
+          ],
+          "checkedAt": "2026-10-29"
+        }
+      ],
+      "keywords": [
+        "國文教學",
+        "人物課文",
+        "線索推測",
+        "文本證據"
+      ],
+      "overview": {
+        "image": "/assets/overviews/three-clues-before-biography-desktop.webp",
+        "mobileImage": "/assets/overviews/three-clues-before-biography-mobile.webp",
+        "cardImage": "/assets/overviews/three-clues-before-biography-desktop.webp",
+        "alt": "小硯陪學生從人物線索猜想，再回到課文查證。",
+        "caption": "課文核對與回看為編輯延伸。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      },
+      "publishedAt": "2026-10-29T04:06:02+08:00"
     }
   ],
   "demo": {
