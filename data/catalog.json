@@ -111408,6 +111408,240 @@
         "mobileHeight": 1600
       },
       "publishedAt": "2026-10-29T04:58:04+08:00"
+    },
+    {
+      "id": "campus-map-ai-prototype",
+      "title": "做校園導覽前，先用地圖與照片做小原型",
+      "summary": "整理可使用的校園地圖與照片，標出幾個位置，請 AI 協助做導覽原型，再對照資料逐一修正。",
+      "categoryId": "ai",
+      "topicIds": [
+        "workflow"
+      ],
+      "audience": "想為課程或校園探索製作導覽原型的教師與學習者",
+      "output": "一份含地點標記與修正紀錄的導覽原型",
+      "minutes": 30,
+      "level": "入門",
+      "status": "ready",
+      "contentType": "video_method",
+      "reviewedAt": "2026-10-29",
+      "coverLabel": "AI 教學 · 校園探索",
+      "sourceCoverage": "指定 Notion 影片以 Whisper tiny 轉錄全片，並以 base 補轉約 27:00–32:00；尚未逐句人工聽校。講者分享用校園平面圖、空拍與照片製作 3D 導覽，再以空拍圖要求修正局部（水池修正後續以 tiny 字幕確認）；學生闖關僅為講者未來構想。小範圍練習、檢查表與公開前檢核為編輯延伸。",
+      "sources": [
+        {
+          "id": "original",
+          "title": "T++教育+年華 張哲剛老師 AI 上菜！你的專屬教具快炒店：AI 生成數位教具實作",
+          "kind": "video",
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=E6aVwSa94Hg",
+          "channel": "廣臻科技KJCStech",
+          "videoId": "E6aVwSa94Hg",
+          "note": "約 27:00–32:00 分享校園圖像、導覽原型及局部修正。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "整理可使用的地圖與照片",
+          "action": "選一張有權使用的校園平面圖，搭配能辨識地點的照片；練習時也可用虛構校園。",
+          "why": "講者使用平面圖、空拍與校園照片作為參考。",
+          "example": "編輯示範：準備一張虛構校園草圖與兩張自繪地點圖。",
+          "check": "每張素材來源與使用範圍清楚，沒有不必要的個資。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "標出少數地點",
+          "action": "在地圖標出兩三個地點名稱與相對位置，先確認彼此方位。",
+          "why": "講者先在空拍圖標示教學樓位置，再提供參考圖。",
+          "example": "編輯示範：標出圖書館、操場與入口。",
+          "check": "每個地點都有名稱和可核對的位置。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "請 AI 協助做小原型",
+          "action": "提供地圖、標記與需求，請 AI 製作能查看地點的簡單導覽；先從少數位置測試。",
+          "why": "講者以多張圖為參考製作可走動的 3D 導覽；本文縮小範圍為編輯設計。",
+          "example": "編輯提示詞：「根據附圖，做一個可點選三個地點的導覽原型，位置不確定時請標示。」",
+          "check": "原型能開啟，且至少一個地點可被找到。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "對照資料逐項修正",
+          "action": "將原型與原圖及現場核對，指出位置或外觀錯誤，補充參考圖後再測試。",
+          "why": "講者曾補充水池照片並要求重新調整。",
+          "example": "編輯示範：發現操場方位不對，標在草圖上後請 AI 修正。",
+          "check": "至少記錄一個核對結果，並確認修正後是否改善。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "編輯整理：從地圖到原型",
+          "note": "成果需要由人對照資料檢查。",
+          "nodes": [
+            {
+              "id": "step-1",
+              "label": "整理可使用的地圖與照片",
+              "detail": "選一張有權使用的校園平面圖，搭配能辨識地點的照片；練習時也可用虛構校園。"
+            },
+            {
+              "id": "step-2",
+              "label": "標出少數地點",
+              "detail": "在地圖標出兩三個地點名稱與相對位置，先確認彼此方位。"
+            },
+            {
+              "id": "step-3",
+              "label": "請 AI 協助做小原型",
+              "detail": "提供地圖、標記與需求，請 AI 製作能查看地點的簡單導覽；先從少數位置測試。"
+            },
+            {
+              "id": "step-4",
+              "label": "對照資料逐項修正",
+              "detail": "將原型與原圖及現場核對，指出位置或外觀錯誤，補充參考圖後再測試。"
+            }
+          ],
+          "edges": [
+            {
+              "from": "step-1",
+              "to": "step-2"
+            },
+            {
+              "from": "step-2",
+              "to": "step-3"
+            },
+            {
+              "from": "step-3",
+              "to": "step-4"
+            }
+          ]
+        },
+        {
+          "type": "schedule",
+          "title": "編輯補充：原型檢查表",
+          "note": "小規模練習與檢查方式為編輯延伸。",
+          "columns": [
+            "行動",
+            "完成判準"
+          ],
+          "rows": [
+            {
+              "label": "整理可使用的地圖與照片",
+              "cells": [
+                "選一張有權使用的校園平面圖，搭配能辨識地點的照片；練習時也可用虛構校園。",
+                "每張素材來源與使用範圍清楚，沒有不必要的個資。"
+              ]
+            },
+            {
+              "label": "標出少數地點",
+              "cells": [
+                "在地圖標出兩三個地點名稱與相對位置，先確認彼此方位。",
+                "每個地點都有名稱和可核對的位置。"
+              ]
+            },
+            {
+              "label": "請 AI 協助做小原型",
+              "cells": [
+                "提供地圖、標記與需求，請 AI 製作能查看地點的簡單導覽；先從少數位置測試。",
+                "原型能開啟，且至少一個地點可被找到。"
+              ]
+            },
+            {
+              "label": "對照資料逐項修正",
+              "cells": [
+                "將原型與原圖及現場核對，指出位置或外觀錯誤，補充參考圖後再測試。",
+                "至少記錄一個核對結果，並確認修正後是否改善。"
+              ]
+            }
+          ]
+        }
+      ],
+      "practice": {
+        "title": "編輯練習：三個地點的導覽",
+        "minutes": 30,
+        "prompt": "用虛構校園草圖標記三個地點，請 AI 協助做簡單導覽；開啟後逐一比對地點、名稱和位置，記錄一項修正。",
+        "deliverable": "三個地點的草圖、一份原型與一項核對紀錄",
+        "checklist": [
+          "素材有權使用，並避開不必要個資。",
+          "三個地點在草圖上有標記。",
+          "實際開啟並檢查原型。",
+          "對照草圖記錄至少一項核對結果。"
+        ]
+      },
+      "pitfalls": [
+        "將 AI 生成的地點位置直接視為正確。",
+        "把未經同意的學生照片或不宜公開的校園資訊放入素材。",
+        "還沒有確認導覽能開啟與位置正確，就加入大量闖關功能。"
+      ],
+      "supplements": [
+        {
+          "title": "編輯提示：先完成導覽，再想闖關",
+          "text": "講者提到未來可設計角色對話與尋寶，當時屬構想；可先完成導覽測試，再評估課堂活動需要。",
+          "sourceIds": [
+            "original"
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "給 AI 校園照片，就能自動產生位置完全正確的導覽",
+          "status": "unverified",
+          "explanation": "生成結果可能遺漏或畫錯；仍需逐點對照素材與實際場地。",
+          "sourceIds": [
+            "original"
+          ],
+          "checkedAt": "2026-10-29"
+        }
+      ],
+      "keywords": [
+        "校園導覽",
+        "AI 教具",
+        "地圖標記",
+        "原型測試"
+      ],
+      "overview": {
+        "image": "/assets/overviews/campus-map-desktop.webp",
+        "mobileImage": "/assets/overviews/campus-map-mobile.webp",
+        "cardImage": "/assets/overviews/campus-map-desktop.webp",
+        "alt": "小硯與以澄一起整理虛構校園導覽地圖。",
+        "caption": "圖中為虛構校園；小規模練習與檢查表為編輯延伸。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      },
+      "publishedAt": "2026-10-29T05:02:23+08:00"
     }
   ],
   "demo": {
