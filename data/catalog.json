@@ -112111,6 +112111,238 @@
         "mobileHeight": 1600
       },
       "publishedAt": "2026-10-29T05:09:36+08:00"
+    },
+    {
+      "id": "group-needs-teacher-dilemma",
+      "title": "畢旅分組卡住時：把老師的兩難說給學生聽",
+      "summary": "先說明已知條件，聽見不同需要，坦承教師的兩難，再一起討論可行方案。",
+      "categoryId": "reading",
+      "topicIds": [
+        "teaching"
+      ],
+      "audience": "希望帶領學生練習理解不同需要的教師",
+      "output": "一張分組需求與方案討論卡",
+      "minutes": 20,
+      "level": "入門",
+      "status": "ready",
+      "contentType": "article_method",
+      "reviewedAt": "2026-10-29",
+      "coverLabel": "班級學習 · 理解不同需要",
+      "sourceCoverage": "指定 Notion 的 Podcast 音訊以 Whisper tiny 轉錄全片，並以 small 補轉約 06:00–08:15；全片字幕末尾約 7.5 秒未產出文字，尚未逐句人工聽校。溫美玉老師談畢旅分組時教師坦承交名單與兼顧學生需求的兩難；以下卡片、步驟與示範句為編輯延伸。",
+      "sources": [
+        {
+          "id": "original",
+          "title": "K歌Su房：老師最怕的校園衝突處理！溫美玉老師拆解小學生12個SEL必修題",
+          "kind": "article",
+          "url": "https://open.firstory.fm/story/cmupempn0001601uxd4uz2dbg",
+          "channel": "翻轉教育 Podcast",
+          "note": "Podcast 單集；約 06:02–08:11 談畢旅分組與教師的兩難。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "說明分組的已知條件",
+          "action": "先說清楚人數限制與交名單期限，不公開點名沒被選到的人。",
+          "why": "節目談到教師必須在期限內交出名單；操作與示範句為編輯設計。",
+          "example": "編輯示範：「房間有人數限制，我們需要在期限內交名單。」",
+          "check": "學生知道要解決的事和已確定的條件。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "聽見不同需要",
+          "action": "讓學生私下寫下自己的希望，並保留不公開分享或個別反映的選擇。",
+          "why": "講者提醒看見表面選擇下的感受與渴望；寫卡方式為編輯補充。",
+          "example": "編輯示範：「我希望＿＿，因為＿＿。」",
+          "check": "有不必在全班面前揭露個人處境的方式。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "分享老師的兩難",
+          "action": "說明自己既想尊重學生的期待，也希望每個人都能安心參加。",
+          "why": "講者分享讓學生了解老師也有需要兼顧的難處。",
+          "example": "編輯示範：「我還在找能兼顧大家的安排。」",
+          "check": "不替學生斷言感受，也不把安排責任全部交給學生。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "討論方案並個別確認",
+          "action": "用虛構角色比較不同需要，列出可行方案，再私下確認受影響學生的意願。",
+          "why": "方案卡、虛構案例與個別確認均為編輯延伸。",
+          "example": "編輯示範：列出符合人數限制的一個方案，寫下還要確認什麼。",
+          "check": "方案符合已知條件，對不確定的需要不自行下結論。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "編輯整理：討論分組需求",
+          "note": "虛構案例與私下確認方式為編輯延伸。",
+          "nodes": [
+            {
+              "id": "step-1",
+              "label": "說明分組的已知條件",
+              "detail": "先說清楚人數限制與交名單期限，不公開點名沒被選到的人。"
+            },
+            {
+              "id": "step-2",
+              "label": "聽見不同需要",
+              "detail": "讓學生私下寫下自己的希望，並保留不公開分享或個別反映的選擇。"
+            },
+            {
+              "id": "step-3",
+              "label": "分享老師的兩難",
+              "detail": "說明自己既想尊重學生的期待，也希望每個人都能安心參加。"
+            },
+            {
+              "id": "step-4",
+              "label": "討論方案並個別確認",
+              "detail": "用虛構角色比較不同需要，列出可行方案，再私下確認受影響學生的意願。"
+            }
+          ],
+          "edges": [
+            {
+              "from": "step-1",
+              "to": "step-2"
+            },
+            {
+              "from": "step-2",
+              "to": "step-3"
+            },
+            {
+              "from": "step-3",
+              "to": "step-4"
+            }
+          ]
+        },
+        {
+          "type": "schedule",
+          "title": "編輯補充：需求討論卡",
+          "note": "不要求學生公開自己的處境。",
+          "columns": [
+            "行動",
+            "完成判準"
+          ],
+          "rows": [
+            {
+              "label": "說明分組的已知條件",
+              "cells": [
+                "先說清楚人數限制與交名單期限，不公開點名沒被選到的人。",
+                "學生知道要解決的事和已確定的條件。"
+              ]
+            },
+            {
+              "label": "聽見不同需要",
+              "cells": [
+                "讓學生私下寫下自己的希望，並保留不公開分享或個別反映的選擇。",
+                "有不必在全班面前揭露個人處境的方式。"
+              ]
+            },
+            {
+              "label": "分享老師的兩難",
+              "cells": [
+                "說明自己既想尊重學生的期待，也希望每個人都能安心參加。",
+                "不替學生斷言感受，也不把安排責任全部交給學生。"
+              ]
+            },
+            {
+              "label": "討論方案並個別確認",
+              "cells": [
+                "用虛構角色比較不同需要，列出可行方案，再私下確認受影響學生的意願。",
+                "方案符合已知條件，對不確定的需要不自行下結論。"
+              ]
+            }
+          ]
+        }
+      ],
+      "practice": {
+        "title": "編輯練習：用虛構案例做一張分組卡",
+        "minutes": 20,
+        "prompt": "使用虛構的分房情境，寫下已知條件、兩種不同需要與一個可行方案；標出哪些猜測需要私下確認。",
+        "deliverable": "條件、兩種需要、一個方案與待確認問題",
+        "checklist": [
+          "不公開指認任何學生。",
+          "列出已確定的條件。",
+          "分清猜測與已確認的需要。",
+          "提出可行方案與確認方式。"
+        ]
+      },
+      "pitfalls": [
+        "要求真實當事人在全班面前解釋自己的處境。",
+        "把對他人的猜測當成對方一定有的感受。",
+        "把持續排擠或人身安全問題交給學生自行協商。"
+      ],
+      "supplements": [
+        {
+          "title": "編輯提示：保留個別溝通",
+          "text": "教師仍需依實際規範與安全需求決定並說明理由；若涉及持續排擠或人身安全，依學校程序處理。",
+          "sourceIds": [
+            "original"
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "說出老師的兩難，就能讓所有學生立刻同意分組方案",
+          "status": "unverified",
+          "explanation": "不同學生仍可能有不同需求；一次討論不能保證形成共識。",
+          "sourceIds": [
+            "original"
+          ],
+          "checkedAt": "2026-10-29"
+        }
+      ],
+      "keywords": [
+        "班級討論",
+        "理解需要",
+        "分組",
+        "教師兩難"
+      ],
+      "overview": {
+        "image": "/assets/overviews/group-needs-desktop.webp",
+        "mobileImage": "/assets/overviews/group-needs-mobile.webp",
+        "cardImage": "/assets/overviews/group-needs-desktop.webp",
+        "alt": "以澄、阿問與小硯一起討論分組需求。",
+        "caption": "討論卡與示範情境為編輯延伸。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      },
+      "publishedAt": "2026-10-29T05:21:54+08:00"
     }
   ],
   "demo": {
