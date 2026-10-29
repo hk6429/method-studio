@@ -120806,6 +120806,200 @@
         "mobileHeight": 1600
       },
       "publishedAt": "2026-10-30T07:15:34+08:00"
+    },
+    {
+      "id": "vocabulary-web-check-before-generate",
+      "title": "把課本單字變成練習網頁：先檢查題庫，再試用成品",
+      "summary": "準備一小組單字，先核對分組、詞義與例句，再製作練習網頁並親自試用。",
+      "categoryId": "reading",
+      "topicIds": [
+        "teaching",
+        "learning"
+      ],
+      "audience": "想依課本內容製作英文練習的教師",
+      "output": "一組經核對的單字與一份試用紀錄",
+      "minutes": 30,
+      "level": "入門",
+      "status": "ready",
+      "contentType": "video_method",
+      "reviewedAt": "2026-10-30",
+      "coverLabel": "英文單字 · 題庫核對",
+      "keywords": [
+        "英文單字",
+        "題庫檢查",
+        "練習網頁",
+        "教學工具"
+      ],
+      "sourceCoverage": "指定 Notion 影片 MP3 約 04:25，MLX Whisper large-v3-turbo 自動轉錄全片；尚未逐字人工聽校或實際安裝操作。影片示範以 OpenCode 與指定 Skill 從教材整理題庫，先核對再製作 HTML；十個單字與試用檢查為編輯延伸。工具功能、價格與教學成效未驗證。",
+      "sources": [
+        {
+          "id": "original",
+          "title": "英文單字片語練功坊 opencode 教學",
+          "kind": "video",
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=23OvedaSwks",
+          "channel": "阿剛老師的電腦教學",
+          "videoId": "23OvedaSwks",
+          "note": "自動字幕未逐字人工聽校，工具與價格未實測。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "選擇教材與工具",
+          "action": "選一小組有權使用的教材單字，確認所使用的工具、模型與資料夾設定。",
+          "why": "影片示範準備 OpenCode、工作資料夾及單字練習 Skill；實際功能與費用需依現況確認。",
+          "example": "編輯例子：先挑本週十個詞，逐行列出英文與中文。",
+          "check": "知道教材來源與工具的實際使用條件。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 68,
+              "endSeconds": 123
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "先檢查分組",
+          "action": "提供單字內容，請工具先列分組、每組數量與主題；不合適時先調整。",
+          "why": "影片示範先檢查 AI 整理的題庫分組，再繼續下一步。",
+          "example": "可依課次分組；數量不符時先回頭核對原始清單。",
+          "check": "每組題數及範圍符合教材。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 124,
+              "endSeconds": 180
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "逐項核對題庫",
+          "action": "檢查英文、詞性、中文與例句，發現錯誤先修正，再確認製作。",
+          "why": "影片示範題庫確認後才要求產生 HTML，讓教師有機會先檢查內容。",
+          "example": "編輯提示：例句與中文都要符合這一課的用法。",
+          "check": "逐項與教材或可信辭典核對。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 180,
+              "endSeconds": 199
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "試玩成品再交給學生",
+          "action": "開啟生成的網頁，自己試用題庫與練習模式，確認題目、答案與需要的聲音功能。",
+          "why": "影片示範在瀏覽器開啟單一 HTML 檔，選擇單字卡、拼字等練習；試用檢查為編輯補充。",
+          "example": "編輯示範：先各玩一次拼字與聽音題，再決定是否交給學生。",
+          "check": "記錄已測的模式與尚未確認的功能。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 199,
+              "endSeconds": 243
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "從單字清單到可試用的練習",
+          "note": "十詞示例與試玩檢查為編輯延伸。",
+          "nodes": [
+            {
+              "id": "n1",
+              "label": "選單字",
+              "detail": "確認教材來源"
+            },
+            {
+              "id": "n2",
+              "label": "看分組",
+              "detail": "核對題數"
+            },
+            {
+              "id": "n3",
+              "label": "查詞義",
+              "detail": "檢查例句"
+            },
+            {
+              "id": "n4",
+              "label": "試玩",
+              "detail": "再交給學生"
+            }
+          ],
+          "edges": [
+            {
+              "from": "n1",
+              "to": "n2"
+            },
+            {
+              "from": "n2",
+              "to": "n3"
+            },
+            {
+              "from": "n3",
+              "to": "n4"
+            }
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "依影片方法產生的所有題庫都正確，且一定能改善英文學習成效。",
+          "status": "unverified",
+          "explanation": "影片為工具示範，本文未實測產出或進行班級成效研究。",
+          "sourceIds": [
+            "original"
+          ],
+          "checkedAt": "2026-10-30"
+        }
+      ],
+      "pitfalls": [
+        "AI 產生的詞性、中文、例句與答案需逐項核對。",
+        "上傳課本影像或學生資料前，確認使用權限與資料內容。",
+        "模型費用、Skill 功能、瀏覽器發音與紀錄功能可能變動，本次未實測。"
+      ],
+      "practice": {
+        "title": "先試十個單字",
+        "minutes": 30,
+        "prompt": "編輯設計：選本週十個詞，列英文與中文；先檢查分組題數和詞義例句，製作後自己各試一次拼字及聽音題。",
+        "deliverable": "經核對的清單和練習模式試用紀錄",
+        "checklist": [
+          "確認教材可使用",
+          "核對每組題數",
+          "檢查詞義、詞性與例句",
+          "試用題目、答案及聲音"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "編輯提示：先確認再生成",
+          "text": "請工具先列分組與題庫，等教師檢查後再製作；單字數量與提示方式可依課程調整。",
+          "sourceIds": []
+        }
+      ],
+      "overview": {
+        "image": "/assets/overviews/vocabulary-web-desktop.webp",
+        "mobileImage": "/assets/overviews/vocabulary-web-mobile.webp",
+        "cardImage": "/assets/overviews/vocabulary-web-desktop.webp",
+        "alt": "方法練習室夥伴檢查單字分組與詞義，再試用練習網頁。",
+        "caption": "題庫、答案與聲音須由教師先核對。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      },
+      "publishedAt": "2026-10-30T07:31:17+08:00"
     }
   ],
   "demo": {
