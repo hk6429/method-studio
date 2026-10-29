@@ -119016,6 +119016,188 @@
         "mobileHeight": 1600
       },
       "publishedAt": "2026-10-30T06:31:21+08:00"
+    },
+    {
+      "id": "concept-map-explain-connections",
+      "title": "心智圖不是畫完就算：用連線說清楚概念關係",
+      "summary": "選出概念，為連線寫下關係，再用自己的話解釋並回原文核對，讓圖成為思考的過程。",
+      "categoryId": "reading",
+      "topicIds": [
+        "learning",
+        "strategies"
+      ],
+      "audience": "想釐清課本概念關係的學習者",
+      "output": "一張有關係說明的概念圖",
+      "minutes": 15,
+      "level": "入門",
+      "status": "ready",
+      "contentType": "video_method",
+      "reviewedAt": "2026-10-30",
+      "coverLabel": "概念整理 · 解釋連線",
+      "keywords": [
+        "心智圖",
+        "概念圖",
+        "理解",
+        "學習筆記"
+      ],
+      "sourceCoverage": "Notion 影片音訊約 2:46，whisper.cpp small 自動辨識至約 2:46；尚未逐句人工聽校或核對畫面。影片將畫線連結概念視為理解脈絡的工具；四步練習、遮圖回想與例子均為編輯延伸。影片對各筆記法效率的看法未經本文獨立驗證。",
+      "sources": [
+        {
+          "id": "original",
+          "title": "別再被心智圖騙了！為什麼你筆記畫得再美，考卷上卻始終拿不到分數？",
+          "kind": "video",
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=ziq6fAZJlBE",
+          "channel": "Yellow 思考路徑",
+          "videoId": "ziq6fAZJlBE",
+          "note": "本機自動字幕有辨識錯字，未逐句人工聽校。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "先選兩個概念",
+          "action": "從剛讀過的內容選出兩個想釐清關係的概念，各寫在一個框裡。",
+          "why": "影片提出連結不同觀念的脈絡；選框方式為編輯設計。",
+          "example": "編輯例子：水循環中的蒸發和凝結。",
+          "check": "挑出兩個能回到原文核對的概念。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 118,
+              "endSeconds": 132
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "在線旁寫出關係",
+          "action": "畫線連接兩個概念，用一句話說明它們的關係；寫不出來時回原文查找。",
+          "why": "影片示範以連線理解觀念之間的脈絡；寫關係與回查是編輯設計。",
+          "example": "編輯例子：水蒸氣上升、冷卻後可能凝結。",
+          "check": "連線旁有可核對的一句話。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 123,
+              "endSeconds": 142
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "加入第三個概念",
+          "action": "再選一個概念，比較它和前兩者的關係；必要時用箭頭標方向，也標出不確定處。",
+          "why": "在原本連線上延伸，練習說明更多概念的關係；此步驟為編輯設計。",
+          "example": "編輯例子：加入降水，再查教材解釋它與凝結的關係。",
+          "check": "圖上有第三個概念，以及至少一條具說明的連線。",
+          "contribution": "editorial",
+          "sourceRefs": []
+        },
+        {
+          "id": "step-4",
+          "title": "遮住圖，說一次",
+          "action": "遮住圖，用自己的話解釋一條關係，然後打開圖與原文核對。",
+          "why": "影片主張把心智圖當理解過程；遮圖回想與核對為編輯設計。",
+          "example": "不用照背筆記，試著向同學解釋兩個概念怎麼相連。",
+          "check": "能說出一條關係，並修正核對時發現的錯誤。",
+          "contribution": "editorial",
+          "sourceRefs": []
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "讓連線帶出理解",
+          "note": "步驟與範例為編輯延伸。",
+          "nodes": [
+            {
+              "id": "n1",
+              "label": "選概念",
+              "detail": "先挑兩個"
+            },
+            {
+              "id": "n2",
+              "label": "說關係",
+              "detail": "在線旁寫一句"
+            },
+            {
+              "id": "n3",
+              "label": "加概念",
+              "detail": "標記不確定"
+            },
+            {
+              "id": "n4",
+              "label": "遮圖解釋",
+              "detail": "回原文核對"
+            }
+          ],
+          "edges": [
+            {
+              "from": "n1",
+              "to": "n2"
+            },
+            {
+              "from": "n2",
+              "to": "n3"
+            },
+            {
+              "from": "n3",
+              "to": "n4"
+            }
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "心智圖一定無助記憶，或這樣做一定能提高考試分數。",
+          "status": "unverified",
+          "explanation": "影片提出講者對工具用途與效率的看法；本文未取得不同方法的比較研究，無法推論成績效果。",
+          "sourceIds": [
+            "original"
+          ],
+          "checkedAt": "2026-10-30"
+        }
+      ],
+      "pitfalls": [
+        "不要只畫漂亮的線卻說不出關係；有疑問時回教材查證。",
+        "圖上的箭頭方向和因果關係應依原文核對，不要自行補成確定事實。",
+        "影片對筆記法效率的主張屬講者觀點，並非本文驗證的結論。"
+      ],
+      "practice": {
+        "title": "三個概念的連線練習",
+        "minutes": 15,
+        "prompt": "編輯設計：挑三個相關概念，用線連起來；每條線寫一句關係。遮住圖解釋一條，再回教材核對並修正。",
+        "deliverable": "一張標有關係的三概念圖",
+        "checklist": [
+          "選出三個概念",
+          "至少一條連線寫明關係",
+          "遮圖用自己的話解釋",
+          "對照原文修正"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "編輯提示：不要把想法當證據",
+          "text": "自己的理解是出發點，連線寫完仍要回來源核對；有不同可能時先標記問題。",
+          "sourceIds": []
+        }
+      ],
+      "overview": {
+        "image": "/assets/overviews/concept-map-desktop.webp",
+        "mobileImage": "/assets/overviews/concept-map-mobile.webp",
+        "cardImage": "/assets/overviews/concept-map-desktop.webp",
+        "alt": "方法練習室夥伴以概念框和連線練習說明關係。",
+        "caption": "四步練習為編輯延伸，關係須回教材核對。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      },
+      "publishedAt": "2026-10-30T06:35:32+08:00"
     }
   ],
   "demo": {
