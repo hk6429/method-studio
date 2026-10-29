@@ -119815,6 +119815,205 @@
         "mobileHeight": 1600
       },
       "publishedAt": "2026-10-30T06:47:54+08:00"
+    },
+    {
+      "id": "slides-speaking-record-review-feedback",
+      "title": "把口說作業變成可回聽的回饋：從範例、錄音到教師回聽",
+      "summary": "準備口說範例與個別投影片，讓學生錄音繳交，教師集中回聽並提供回饋。",
+      "categoryId": "reading",
+      "topicIds": [
+        "teaching",
+        "learning"
+      ],
+      "audience": "想安排可回聽口說作業的教師",
+      "output": "一份學生口說錄音及一則教師回饋",
+      "minutes": 20,
+      "level": "入門",
+      "status": "ready",
+      "contentType": "video_method",
+      "reviewedAt": "2026-10-30",
+      "coverLabel": "口說作業 · 回聽回饋",
+      "keywords": [
+        "口說作業",
+        "語音回饋",
+        "Google 簡報",
+        "Mote"
+      ],
+      "sourceCoverage": "指定 Notion 影片 MP3 約 07:56；本文依影片英文字幕約 00:06–07:46 整理，前 6 秒及末約 10 秒未見字幕，尚未逐段人工聽校或核對畫面。影片示範 Mote、Google Slides 與 Classroom 的流程；國文題目與回饋句為編輯延伸。尚未實測目前介面、方案權限、資料保存或教學成效。",
+      "sources": [
+        {
+          "id": "original",
+          "title": "Speaking assignments in Google Slides: record, review and grade with Mote",
+          "kind": "video",
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=kVbSUb0qkuM",
+          "channel": "Mote",
+          "videoId": "kVbSUb0qkuM",
+          "note": "依影片英文字幕整理；未逐段人工核聽或實測工具。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "準備聆聽與作答頁",
+          "action": "準備投影片，放入口說範例音訊、學生錄音空間與自評頁。",
+          "why": "影片示範一份可聽範例、錄製回答並自評的口說投影片。",
+          "example": "影片範例為低年級口說評量；編輯延伸可換成國文短文問答。",
+          "check": "投影片有範例、作答空間與簡單自評。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 38,
+              "endSeconds": 79
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "每位學生派發一份",
+          "action": "在 Classroom 建立作業，附上投影片，選擇為每位學生建立副本後派發。",
+          "why": "影片以 Classroom 派發個別副本，便於學生各自繳交。",
+          "example": "先確認帳號權限、派發方式與學生錄音規範。",
+          "check": "每位學生能取得自己的作答副本。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 79,
+              "endSeconds": 125
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "學生聽範例、錄音、繳交",
+          "action": "學生先聽範例，再錄下自己的口說回答、插入投影片並繳交。",
+          "why": "影片用示範帳號操作錄音與作業提交；自評頁在範本介紹中出現，未完整示範填寫。",
+          "example": "編輯題目：『主角此刻最需要什麼？請說一個理由與文本線索。』",
+          "check": "繳交的副本有可播放的錄音。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 152,
+              "endSeconds": 238
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "老師回聽並提供回饋",
+          "action": "教師依作業或活動篩選學生錄音，逐一回聽，再依需求記錄評量或提供文字、語音回饋。",
+          "why": "影片示範在 Mote 找錄音、匯出紀錄，也能回到 Classroom 聆聽及回饋。",
+          "example": "編輯回饋句：指出一個說得清楚的地方，再問一個可補充的細節。",
+          "check": "至少回聽一次，留下一則具體回饋。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 245,
+              "endSeconds": 321
+            },
+            {
+              "sourceId": "original",
+              "startSeconds": 400,
+              "endSeconds": 466
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "範例到回饋",
+          "note": "國文題目與回饋句為編輯延伸。",
+          "nodes": [
+            {
+              "id": "n1",
+              "label": "準備範例",
+              "detail": "音訊與作答頁"
+            },
+            {
+              "id": "n2",
+              "label": "每人一份",
+              "detail": "派發個別副本"
+            },
+            {
+              "id": "n3",
+              "label": "學生錄音",
+              "detail": "插入並繳交"
+            },
+            {
+              "id": "n4",
+              "label": "老師回聽",
+              "detail": "給具體回饋"
+            }
+          ],
+          "edges": [
+            {
+              "from": "n1",
+              "to": "n2"
+            },
+            {
+              "from": "n2",
+              "to": "n3"
+            },
+            {
+              "from": "n3",
+              "to": "n4"
+            }
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "使用錄音作業一定能提升所有學生的口說表現。",
+          "status": "unverified",
+          "explanation": "影片示範工具與作業流程，不是口說成效研究；本文未進行教學驗證。",
+          "sourceIds": [
+            "original"
+          ],
+          "checkedAt": "2026-10-30"
+        }
+      ],
+      "pitfalls": [
+        "先確認學校帳號權限、學生錄音與資料保存規範，並準備麥克風不可用時的替代方式。",
+        "工具介面與方案可能變動，本次未實測目前可用性。",
+        "影片中的匯出及評量欄位是教師整理，不代表自動評分。"
+      ],
+      "practice": {
+        "title": "一題國文口說",
+        "minutes": 20,
+        "prompt": "編輯設計：投影片放一段短文和問題『主角最需要什麼？說一個理由與文本線索』。學生錄音，教師回聽後給一個優點及一個追問。",
+        "deliverable": "一段口說錄音與一則教師回饋",
+        "checklist": [
+          "準備可聽的範例",
+          "派發個別副本",
+          "學生錄音並繳交",
+          "教師回聽並給具體回饋"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "編輯提示：保留替代方式",
+          "text": "若學生無法使用麥克風，可依課程目的改用現場口說或其他可行的作答方式。",
+          "sourceIds": []
+        }
+      ],
+      "overview": {
+        "image": "/assets/overviews/speaking-assignment-desktop.webp",
+        "mobileImage": "/assets/overviews/speaking-assignment-mobile.webp",
+        "cardImage": "/assets/overviews/speaking-assignment-desktop.webp",
+        "alt": "方法練習室夥伴準備口說範例，學生錄音，教師回聽。",
+        "caption": "介面與帳號權限須依實際環境確認。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      },
+      "publishedAt": "2026-10-30T06:54:58+08:00"
     }
   ],
   "demo": {
