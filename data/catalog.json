@@ -121199,6 +121199,199 @@
         "mobileHeight": 1600
       },
       "publishedAt": "2026-10-30T07:37:21+08:00"
+    },
+    {
+      "id": "english-meeting-script-practice-revise",
+      "title": "英文主持開不了口？先寫完整句，再分段練習和修改",
+      "summary": "把常用英文主持語句寫成完整句，分成寒暄、開場、轉場及結尾，讀出聲後依實際經驗修改。",
+      "categoryId": "reading",
+      "topicIds": [
+        "learning",
+        "strategies"
+      ],
+      "audience": "想練習英文會議主持表達的學習者",
+      "output": "一份分段英文主持稿與一次修改紀錄",
+      "minutes": 20,
+      "level": "入門",
+      "status": "ready",
+      "contentType": "video_method",
+      "reviewedAt": "2026-10-30",
+      "coverLabel": "英語口說 · 主持練習",
+      "keywords": [
+        "英語口說",
+        "英文主持",
+        "句子練習",
+        "分段修改"
+      ],
+      "sourceCoverage": "指定 Notion 影片 MP3 約 06:12，whisper.cpp tiny 自動字幕約 00:00–06:12，另以 small 複辨約 03:10–05:50；尚未逐句人工聽校。影片示範寫完整句、分段及依會議經驗修改；英文例句、時間和檢查表為編輯延伸。講者對熟練所需時間的說法未經本文驗證。",
+      "sources": [
+        {
+          "id": "original",
+          "title": "如何高效準備英文會議才能自信自然",
+          "kind": "video",
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=i_WLW3uDmaI",
+          "channel": "Carrie Wang",
+          "videoId": "i_WLW3uDmaI",
+          "note": "自動字幕未逐句人工聽校；學習效果與時間未驗證。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "先寫完整句子",
+          "action": "選一場熟悉的短會議，寫出自己可能用到的完整英文句子，而不只列關鍵字。",
+          "why": "影片建議主持者預先寫出寒暄問題與完整句子，作為練習和修改的基礎。",
+          "example": "編輯例句：Welcome, everyone. Thank you for joining today. 可依情境修改。",
+          "check": "每句自己能理解，並可查證用法。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 193,
+              "endSeconds": 260
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "分成幾個段落",
+          "action": "將句子分成寒暄、開場、轉換話題和結尾等段落，標記哪些每次需更新。",
+          "why": "影片建議將主持稿分段，以便反覆使用與調整。",
+          "example": "編輯例句：Let’s move on to the next topic. 用於轉場。",
+          "check": "一眼能找到各段用途與要替換的內容。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 98,
+              "endSeconds": 136
+            },
+            {
+              "sourceId": "original",
+              "startSeconds": 260,
+              "endSeconds": 317
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "開口試讀",
+          "action": "把稿子讀出聲，圈出自己不懂、不順或不符合現場的句子，調整後再讀一次。",
+          "why": "影片以完整句稿作為主持準備；試讀與圈記為編輯設計的口說練習。",
+          "example": "先把長句拆短，或在需要停頓的地方做記號。",
+          "check": "每段至少試讀一次，留下需要調整的一處。",
+          "contribution": "editorial",
+          "sourceRefs": []
+        },
+        {
+          "id": "step-4",
+          "title": "會後修改一兩處",
+          "action": "依實際會議經驗記下一處卡住的地方，修改句子或停頓方式，下次再試。",
+          "why": "影片建議主持稿不是一次寫死，而是依使用經驗持續修改。",
+          "example": "編輯示範：原句保留，改為在關鍵字後稍作停頓。",
+          "check": "保留原句、調整與下次想試的方式。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 317,
+              "endSeconds": 372
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "寫、練、改，建立自己的主持稿",
+          "note": "英文例句及練習安排為編輯延伸。",
+          "nodes": [
+            {
+              "id": "n1",
+              "label": "寫完整句",
+              "detail": "先理解意思"
+            },
+            {
+              "id": "n2",
+              "label": "分段",
+              "detail": "開場與轉場"
+            },
+            {
+              "id": "n3",
+              "label": "開口試讀",
+              "detail": "圈出卡點"
+            },
+            {
+              "id": "n4",
+              "label": "會後修改",
+              "detail": "下次再試"
+            }
+          ],
+          "edges": [
+            {
+              "from": "n1",
+              "to": "n2"
+            },
+            {
+              "from": "n2",
+              "to": "n3"
+            },
+            {
+              "from": "n3",
+              "to": "n4"
+            }
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "只要照此方法寫主持稿，短時間內每個人都能流利主持英文會議。",
+          "status": "unverified",
+          "explanation": "影片分享個人教學建議與經驗；本文未驗證所有人的學習成效。",
+          "sourceIds": [
+            "original"
+          ],
+          "checkedAt": "2026-10-30"
+        }
+      ],
+      "pitfalls": [
+        "稿件應隨會議目的、對象與日期調整，避免包含不應外流的內容。",
+        "現場仍需理解他人回應；可停下確認或請對方重述。",
+        "英文例句需依語境與可信資料核對，不能保證適用每場會議。"
+      ],
+      "practice": {
+        "title": "四段主持稿練習",
+        "minutes": 20,
+        "prompt": "編輯設計：為熟悉的短會議各寫一個寒暄、開場、轉場與結尾句，試讀並記下卡點；使用後修改一兩處。",
+        "deliverable": "一份四段主持稿與修改紀錄",
+        "checklist": [
+          "寫出自己理解的完整句",
+          "標記每次需要更新的內容",
+          "讀出聲並圈出卡點",
+          "記錄下一次要試的修改"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "編輯提示：留空間聽對方",
+          "text": "稿件是練習與參考，遇到意外問題時可以先確認對方意思，再決定如何回應。",
+          "sourceIds": []
+        }
+      ],
+      "overview": {
+        "image": "/assets/overviews/english-meeting-script-desktop.webp",
+        "mobileImage": "/assets/overviews/english-meeting-script-mobile.webp",
+        "cardImage": "/assets/overviews/english-meeting-script-desktop.webp",
+        "alt": "方法練習室夥伴寫英文主持句、分段試讀並修改。",
+        "caption": "英文例句與試讀安排為編輯延伸。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      },
+      "publishedAt": "2026-10-30T07:43:14+08:00"
     }
   ],
   "demo": {
