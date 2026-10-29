@@ -118625,6 +118625,209 @@
         "mobileHeight": 1600
       },
       "publishedAt": "2026-10-30T06:20:26+08:00"
+    },
+    {
+      "id": "story-rewrite-motive-cost-ai-question",
+      "title": "改寫故事先想清楚：角色為什麼這樣做、付出什麼代價",
+      "summary": "選擇故事轉折，寫下角色動機與可能代價，再用一個追問釐清因果，留下改寫決策。",
+      "categoryId": "reading",
+      "topicIds": [
+        "teaching",
+        "strategies"
+      ],
+      "audience": "帶學生練習故事改寫與因果思考的教師",
+      "output": "一張故事決策卡及一份修訂紀錄",
+      "minutes": 25,
+      "level": "入門",
+      "status": "ready",
+      "contentType": "video_method",
+      "reviewedAt": "2026-10-30",
+      "coverLabel": "故事改寫 · 動機與因果",
+      "keywords": [
+        "故事改寫",
+        "人物動機",
+        "因果",
+        "AI 追問"
+      ],
+      "sourceCoverage": "指定 Notion 影片 MP3 以本機 whisper.cpp small 自動轉錄，約 00:00–77:01，音訊約 77:16，末約 15 秒無字幕；尚未逐句人工聽校。講者示範改寫故事，先想觀點、角色動機和代價，再讓 AI 追問並生成文字、記錄決定及修訂；紙本卡、提示詞和教學安排為編輯延伸，平台權限與課堂成效未驗證。",
+      "sources": [
+        {
+          "id": "original",
+          "title": "T++教育+年華：陳世銘校長——故事改寫、多媒體展現與智慧評量",
+          "kind": "video",
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=_NA6XBlrRzs",
+          "channel": "廣臻科技 KJCStech",
+          "videoId": "_NA6XBlrRzs",
+          "note": "本機自動字幕有同音字錯誤，尚未逐句人工聽校。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "選一個要改的轉折",
+          "action": "選一則熟悉且可使用的故事，保留基本設定，寫下想改變的一個情節或觀點。",
+          "why": "影片以龜兔賽跑為例，讓人物在故事轉折做出不同選擇。",
+          "example": "影片例子：兔子在比賽中停下，改為處理路標問題。",
+          "check": "能指出保留了什麼、改變了什麼。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 560,
+              "endSeconds": 895
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "說清動機與代價",
+          "action": "寫下角色為什麼做這個選擇，以及選擇可能造成什麼後果或代價。",
+          "why": "講者引導學生先決定情境、動機與代價，而非只換一個結局。",
+          "example": "影片例子：兔子修好路標可能因此失去勝算。",
+          "check": "一張卡上有改變、動機及可能代價。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 1326,
+              "endSeconds": 1503
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "讓 AI 先問一題",
+          "action": "把自己的構想交給合適的工具，請 AI 只問一個能釐清人物動機或因果的問題，先等自己回答；也可由同學提問。",
+          "why": "影片示範 AI 先提問並等待學生回答，再進入生成故事的步驟。",
+          "example": "編輯示範：『請只問我一題，幫我釐清角色為什麼這樣選；先不要替我寫故事。』",
+          "check": "留下 AI 或同學提出的問題，以及自己的回答。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 1503,
+              "endSeconds": 1788
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "核對生成內容並記錄修改",
+          "action": "閱讀 AI 生成的故事，對照自己的選擇、動機與後果；記下哪些由自己決定、AI 幫了什麼，以及自己核對或修改了哪一處。",
+          "why": "講者示範記錄學生決定、AI 協助及修改；影片中的文字由 AI 生成，不把它說成學生獨立完成。",
+          "example": "影片例子：補上角色先前發現危險的線索，讓後續行動有依據。",
+          "check": "能指出至少一項自己的決定、一處核對或修訂，以及 AI 的參與。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 1820,
+              "endSeconds": 1988
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "從選擇到有依據的改寫",
+          "note": "紙本決策卡與提示詞為編輯延伸。",
+          "nodes": [
+            {
+              "id": "n1",
+              "label": "選轉折",
+              "detail": "保留設定、改一件事"
+            },
+            {
+              "id": "n2",
+              "label": "動機與代價",
+              "detail": "寫原因及後果"
+            },
+            {
+              "id": "n3",
+              "label": "先問一題",
+              "detail": "AI或同學提問"
+            },
+            {
+              "id": "n4",
+              "label": "回答並生成",
+              "detail": "保留自己的決定"
+            },
+            {
+              "id": "n5",
+              "label": "核對修訂",
+              "detail": "標明 AI 的參與"
+            }
+          ],
+          "edges": [
+            {
+              "from": "n1",
+              "to": "n2"
+            },
+            {
+              "from": "n2",
+              "to": "n3"
+            },
+            {
+              "from": "n3",
+              "to": "n4"
+            },
+            {
+              "from": "n4",
+              "to": "n5"
+            }
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "AI 追問或評分一定能提升所有學生的寫作能力。",
+          "status": "unverified",
+          "explanation": "影片為教學示範與教師觀察，本文流程沒有獨立課堂成效證據。",
+          "sourceIds": [
+            "original"
+          ],
+          "checkedAt": "2026-10-30"
+        }
+      ],
+      "pitfalls": [
+        "AI 生成的文字應清楚標示其參與，不視為全由學生獨立完成。",
+        "AI 的建議和評語需由教師、學生核對，不直接當成正確答案。",
+        "外部工具的帳號權限、費用與資料保護依實際設定確認；避免上傳可識別學生的資料。"
+      ],
+      "practice": {
+        "title": "故事決策卡",
+        "minutes": 25,
+        "prompt": "編輯設計：選一個故事轉折，填下『改變什麼／角色為什麼／可能付出什麼』。請 AI 或同學先問一題，自己回答後檢查生成或改寫內容，記錄自己的決定與修改。",
+        "deliverable": "一張三欄決策卡及一份修訂紀錄",
+        "checklist": [
+          "指出改變的情節",
+          "說明角色動機和代價",
+          "留下追問與自己的回答",
+          "標記 AI 的參與和修訂"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "編輯觀點：不用 AI 也能追問",
+          "text": "若班級不使用外部工具，可以讓同學根據決策卡提出一個動機或因果問題。教師再依課程目標與學生實際作品回饋。",
+          "sourceIds": []
+        }
+      ],
+      "overview": {
+        "image": "/assets/overviews/story-choice-desktop.webp",
+        "mobileImage": "/assets/overviews/story-choice-mobile.webp",
+        "cardImage": "/assets/overviews/story-choice-desktop.webp",
+        "alt": "阿問與以澄從故事轉折、人物動機與代價出發，經追問後核對修訂。",
+        "caption": "紙本卡和提示詞為編輯延伸，AI 生成內容須標示並核對。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      },
+      "publishedAt": "2026-10-30T06:25:18+08:00"
     }
   ],
   "demo": {
