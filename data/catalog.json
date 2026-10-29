@@ -120608,6 +120608,204 @@
         "mobileHeight": 1600
       },
       "publishedAt": "2026-10-30T07:10:50+08:00"
+    },
+    {
+      "id": "math-find-prerequisite-and-ask",
+      "title": "數學卡住時，先找前一步：讓孩子說出哪裡還不會",
+      "summary": "先聽學生解題想法，回頭找可能欠缺的先備概念，選一小步練習後再回原題。",
+      "categoryId": "reading",
+      "topicIds": [
+        "teaching",
+        "learning"
+      ],
+      "audience": "陪學生面對數學卡關的教師與家長",
+      "output": "一份卡點紀錄與一次先備概念練習",
+      "minutes": 15,
+      "level": "入門",
+      "status": "ready",
+      "contentType": "video_method",
+      "reviewedAt": "2026-10-30",
+      "coverLabel": "數學學習 · 找前一步",
+      "keywords": [
+        "數學教學",
+        "先備概念",
+        "學習卡點",
+        "教具"
+      ],
+      "sourceCoverage": "指定 Notion 影片 MP3 全長約 27:30，whisper.cpp base 僅轉錄 00:00–10:00，尚未逐字人工聽校；後段未轉錄。本文取約 04:13–04:39、07:17–09:27 的訪談內容，題目、紀錄表、先備練習與時間安排為編輯延伸，尚未試教。講者個案不能推論方法必然有效。",
+      "sources": [
+        {
+          "id": "original",
+          "title": "孩子會算，不代表真的懂數學：從背答案到會思考",
+          "kind": "video",
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=fhkaXaDY12Y",
+          "channel": "天下文化《書房憲場》",
+          "videoId": "fhkaXaDY12Y",
+          "note": "林怡辰受訪；字幕僅涵蓋前 10 分鐘，未逐字人工聽校。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "先請學生說想法",
+          "action": "請學生說明題目要找什麼，以及目前為什麼選這個算法；先聽完他的想法。",
+          "why": "影片談到學生看見數字就運算，教師可以詢問題目重點與思考過程。",
+          "example": "編輯提問：『題目給了什麼資訊？你為什麼選這個方法？』",
+          "check": "留下學生自己說出的想法，不只記對錯。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 253,
+              "endSeconds": 279
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "往前找一小步",
+          "action": "將眼前問題拆成兩三個可能需要的先備任務，從較簡單的一步觀察哪裡能完成、哪裡卡住。",
+          "why": "影片談到依熟悉程度分層，以及學生在分數運算時說出自己不會帶分數轉換。",
+          "example": "編輯例子：先確認孩子是否能用圖表示一個完整單位及其中的部分。",
+          "check": "記下一個可能需要補強的具體步驟。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 437,
+              "endSeconds": 463
+            },
+            {
+              "sourceId": "original",
+              "startSeconds": 518,
+              "endSeconds": 536
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "讓不會可以被說出來",
+          "action": "感謝學生指出困難，視需要用紙片或圖形一起操作；不勉強他在全班前揭露。",
+          "why": "講者強調留意回應，讓學生願意說出不懂，並提到可使用教具。",
+          "example": "編輯示範：『謝謝你指出這一步不確定，我們一起換個方法。』",
+          "check": "學生有選擇表達方式的空間。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 464,
+              "endSeconds": 498
+            },
+            {
+              "sourceId": "original",
+              "startSeconds": 540,
+              "endSeconds": 555
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "練一次，再回原題",
+          "action": "選一題相同概念、不同數字的短題，請學生用圖或自己的話說明，再回原題檢查。",
+          "why": "這是依訪談設計的編輯延伸，幫助教師觀察找到的先備概念是否仍需支持。",
+          "example": "編輯例子：用圖表示一又二分之一，再問共有幾個二分之一。",
+          "check": "記錄使用的提示與下一次觀察重點；仍卡住時調整支持。",
+          "contribution": "editorial",
+          "sourceRefs": []
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "從卡點回到下一步",
+          "note": "先備任務、題目與紀錄表為編輯延伸。",
+          "nodes": [
+            {
+              "id": "n1",
+              "label": "說出想法",
+              "detail": "先聽解題過程"
+            },
+            {
+              "id": "n2",
+              "label": "找先備概念",
+              "detail": "往前一小步"
+            },
+            {
+              "id": "n3",
+              "label": "安心說不會",
+              "detail": "選合適方式"
+            },
+            {
+              "id": "n4",
+              "label": "練一次",
+              "detail": "再回原題"
+            }
+          ],
+          "edges": [
+            {
+              "from": "n1",
+              "to": "n2"
+            },
+            {
+              "from": "n2",
+              "to": "n3"
+            },
+            {
+              "from": "n3",
+              "to": "n4"
+            }
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "使用教具並回溯先備概念，一定能讓每個孩子的數學成績進步。",
+          "status": "unverified",
+          "explanation": "訪談分享教學經驗與個案；本文未進行課堂試教或成效研究。",
+          "sourceIds": [
+            "original"
+          ],
+          "checkedAt": "2026-10-30"
+        }
+      ],
+      "pitfalls": [
+        "不要將一次作答結果當成學生能力的定論。",
+        "先聽學生自己的表達，不勉強在全班面前揭露困難。",
+        "練習題與支持方式應依學生實際需要調整。"
+      ],
+      "practice": {
+        "title": "用圖找到一個先備步驟",
+        "minutes": 15,
+        "prompt": "編輯設計：若孩子卡在帶分數轉換，先請他指出完整單位與部分；用紙片表示一又二分之一，問有幾個二分之一，再用另一個例子觀察。",
+        "deliverable": "學生指出的卡點、使用的提示與下次觀察紀錄",
+        "checklist": [
+          "先聽學生解題想法",
+          "找出一個具體卡點",
+          "選合適的圖形或紙片",
+          "練習後回到原題"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "編輯提示：從一小步開始",
+          "text": "一次只選一個可觀察的困難；如果仍然卡住，再調整支持或進一步了解。",
+          "sourceIds": []
+        }
+      ],
+      "overview": {
+        "image": "/assets/overviews/math-prerequisite-desktop.webp",
+        "mobileImage": "/assets/overviews/math-prerequisite-mobile.webp",
+        "cardImage": "/assets/overviews/math-prerequisite-desktop.webp",
+        "alt": "方法練習室夥伴聽學生的數學想法，回頭練習一個先備概念。",
+        "caption": "題目與先備練習為編輯延伸，依學生需要調整。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      },
+      "publishedAt": "2026-10-30T07:15:34+08:00"
     }
   ],
   "demo": {
