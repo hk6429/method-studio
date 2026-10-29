@@ -120014,6 +120014,212 @@
         "mobileHeight": 1600
       },
       "publishedAt": "2026-10-30T06:54:58+08:00"
+    },
+    {
+      "id": "english-long-sentence-three-color-structure",
+      "title": "英文長句先找骨架：圈修飾、找主句、再接回資訊",
+      "summary": "暫時圈出修飾語，辨認主句的主詞與動詞，再把修飾資訊接回原文，最後朗讀核對意思。",
+      "categoryId": "reading",
+      "topicIds": [
+        "learning",
+        "strategies"
+      ],
+      "audience": "讀英文長句時常被修飾資訊打斷的學習者",
+      "output": "一個標出主句與修飾關係的句子",
+      "minutes": 15,
+      "level": "入門",
+      "status": "ready",
+      "contentType": "video_method",
+      "reviewedAt": "2026-10-30",
+      "coverLabel": "英文閱讀 · 句子骨架",
+      "keywords": [
+        "英文長句",
+        "主句",
+        "修飾語",
+        "閱讀理解"
+      ],
+      "sourceCoverage": "指定 Notion 影片 MP3 約 14:31，whisper.cpp small 自動轉錄；尚未逐句人工聽校。影片約 10:30–12:40 示範暫圈修飾、標記主句動詞、接回修飾與朗讀；編輯補充多個子句的語法界線，並以簡短例句練習。影片的學習效率與心理機制主張未另核實。",
+      "sources": [
+        {
+          "id": "original",
+          "title": "英文長句看不懂？先找動詞的三色筆脫水法",
+          "kind": "video",
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=SuvdYACYHVI",
+          "channel": "brain 學霸",
+          "videoId": "SuvdYACYHVI",
+          "note": "字幕為自動辨識，未逐句人工聽校；人物與心理機制敘述未核實。"
+        },
+        {
+          "id": "grammar",
+          "title": "Clauses: introduction, main and subordinate clauses",
+          "kind": "official",
+          "url": "https://dictionary.cambridge.org/us/grammar/british-grammar/clauses-subordinate",
+          "note": "編輯另查 Cambridge Grammar：句子可包含主句及從屬子句，也可有並列主句。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "暫時圈出修飾資訊",
+          "action": "找一個看不懂的句子，先用括號標出較容易辨認、補充時間或描述對象的片語與子句。",
+          "why": "影片示範先把修飾部分暫時圈起，觀察剩下的句子骨架；圈起來不代表這些資訊不重要。",
+          "example": "編輯例句：The student with a red backpack reads a book after school. 可先圈 with a red backpack 和 after school。",
+          "check": "圈出的是暫時分開觀察的資訊，原句仍完整保留。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 630,
+              "endSeconds": 665
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "找主句的主詞與動詞",
+          "action": "辨認主要子句中誰在做什麼，標出主詞、動詞；需要時再標受詞或補語。",
+          "why": "影片示範用不同顏色找主要動詞，再向前後找主詞及相關成分。",
+          "example": "編輯例句的骨架：The student reads a book. 其中 reads 是主句動詞。",
+          "check": "能用自己的話說出主要子句的大意。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 665,
+              "endSeconds": 695
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "把修飾接回去",
+          "action": "回看圈出的資訊，用箭頭或註記說明它補充哪個人、事或動作。",
+          "why": "影片示範回填修飾關係，避免只讀簡化後的骨架。",
+          "example": "編輯例句中 with a red backpack 修飾 student；after school 說明閱讀的時間。",
+          "check": "每個圈出的部分都有可說明的關係，必要時查教材。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 695,
+              "endSeconds": 725
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "讀回完整句並核對",
+          "action": "朗讀完整句，用自己的話重述，再對照原文與語法資料核對。",
+          "why": "影片建議朗讀時由骨架逐步加回修飾；是否朗讀及次數可依需要調整。",
+          "example": "若出現 and、but 連接的多個主句，逐一分析，不把整句硬縮成唯一動詞。",
+          "check": "重述保留原句關鍵條件與修飾。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 725,
+              "endSeconds": 760
+            },
+            {
+              "sourceId": "grammar"
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "由骨架讀回完整句",
+          "note": "例句與多子句提醒為編輯補充。",
+          "nodes": [
+            {
+              "id": "n1",
+              "label": "圈修飾",
+              "detail": "先保留原句"
+            },
+            {
+              "id": "n2",
+              "label": "找主句",
+              "detail": "主詞與動詞"
+            },
+            {
+              "id": "n3",
+              "label": "接回資訊",
+              "detail": "看修飾關係"
+            },
+            {
+              "id": "n4",
+              "label": "朗讀核對",
+              "detail": "重述完整意思"
+            }
+          ],
+          "edges": [
+            {
+              "from": "n1",
+              "to": "n2"
+            },
+            {
+              "from": "n2",
+              "to": "n3"
+            },
+            {
+              "from": "n3",
+              "to": "n4"
+            }
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "一個英文句子可能包含多個子句或並列主句。",
+          "status": "supported",
+          "explanation": "Cambridge Grammar 說明句子可以有從屬子句，也可用連接詞並列主句；應依實際句法辨認。",
+          "sourceIds": [
+            "grammar"
+          ],
+          "checkedAt": "2026-10-30"
+        }
+      ],
+      "pitfalls": [
+        "圈起修飾資訊只是暫時分開觀察，不是刪掉條件或忽略語意。",
+        "一句可能含有多個子句；動詞形式也可能出現在從屬或非限定子句。",
+        "影片對記憶機制或效率的解釋未經本文獨立查證。"
+      ],
+      "practice": {
+        "title": "用一個句子練骨架",
+        "minutes": 15,
+        "prompt": "編輯設計：選一個有完整上下文的句子，圈修飾，標記主句主詞與動詞，再把修飾接回去，最後重述並對照原文。",
+        "deliverable": "一個標記結構並附重述的英文句子",
+        "checklist": [
+          "保留原句與上下文",
+          "標出主句主要成分",
+          "說明至少一處修飾關係",
+          "重述並查證不確定處"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "編輯補充：不必強迫全句只有一個動詞",
+          "text": "遇到並列主句或從屬子句時，先判斷它們彼此的關係，再分別找成分。",
+          "sourceIds": [
+            "grammar"
+          ]
+        }
+      ],
+      "overview": {
+        "image": "/assets/overviews/english-structure-desktop.webp",
+        "mobileImage": "/assets/overviews/english-structure-mobile.webp",
+        "cardImage": "/assets/overviews/english-structure-desktop.webp",
+        "alt": "方法練習室夥伴用色筆圈修飾、找主句並讀回完整句。",
+        "caption": "一句可能有多個子句；例句與語法提醒為編輯補充。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      },
+      "publishedAt": "2026-10-30T06:59:56+08:00"
     }
   ],
   "demo": {
