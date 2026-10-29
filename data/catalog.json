@@ -121000,6 +121000,205 @@
         "mobileHeight": 1600
       },
       "publishedAt": "2026-10-30T07:31:17+08:00"
+    },
+    {
+      "id": "shared-shelf-reading-invitation",
+      "title": "每人一小格：用共享書架讓閱讀成為相遇的起點",
+      "summary": "自願分享一本書或一張書名卡，寫下邀請別人閱讀的問題，並一起照顧書架與回應。",
+      "categoryId": "reading",
+      "topicIds": [
+        "learning",
+        "teaching"
+      ],
+      "audience": "想在班級、辦公室或社區安排閱讀交流的帶領者",
+      "output": "一個共享書架與自願回應的邀請卡",
+      "minutes": 20,
+      "level": "入門",
+      "status": "ready",
+      "contentType": "video_method",
+      "reviewedAt": "2026-10-30",
+      "coverLabel": "共享閱讀 · 一格書架",
+      "keywords": [
+        "閱讀分享",
+        "共享書架",
+        "閱讀交流",
+        "社群閱讀"
+      ],
+      "sourceCoverage": "指定 Notion 的 TED 影片 MP3 約 10:05，whisper.cpp tiny 英文自動字幕至約 10:04；尚未逐句人工聽校。講者分享社區書架由不同人布置、留言信箱與志工照顧的實例；班級活動、卡片和兩週試行安排為編輯設計，尚未試行。影片經驗不能推論相同成效。",
+      "sources": [
+        {
+          "id": "original",
+          "title": "How Sharing Books Makes You Less Lonely",
+          "kind": "video",
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=81iS7JsTGmk",
+          "channel": "TED",
+          "videoId": "81iS7JsTGmk",
+          "note": "Rebecca Toh 分享社區圖書空間；自動字幕未逐句人工聽校。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "先約定共享範圍",
+          "action": "找一個經允許的桌面或書架，約定誰能取閱、何時整理與歸還。",
+          "why": "影片分享由參與者和志工共同照顧圖書空間；班級場地及規則為編輯延伸。",
+          "example": "沒有實體書架，也可先用書名卡做推薦牆。",
+          "check": "參與者知道分享與取回方式。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 96,
+              "endSeconds": 140
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "每人自選一小格",
+          "action": "自願參加的人各放一本可分享的書或一張書名卡，選擇如何介紹。",
+          "why": "影片展示每人照顧自己的書架、分享喜愛的書與布置空間。",
+          "example": "不要求帶書或購書；可只寫書名與閱讀理由。",
+          "check": "每格有清楚的取用方式。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 47,
+              "endSeconds": 90
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "寫一張閱讀邀請卡",
+          "action": "用一兩句話介紹自己想分享什麼，並留一個讀者可自由回答的問題。",
+          "why": "影片分享讀者可以從個人書架看見主人的興趣；邀請卡題目為編輯設計。",
+          "example": "編輯卡片：『這本書讓我想到＿＿，你願意分享＿＿嗎？』",
+          "check": "讀者知道推薦理由，也可以選擇不回答。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 60,
+              "endSeconds": 90
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "留下回應並一起照顧",
+          "action": "放一個便利貼或小信封作為自願回應入口，安排願意參與的人整理書與留言，之後回看是否繼續。",
+          "why": "影片提到一位書架主人設信箱邀請讀者寫信，也分享志工照顧空間及讀書活動。",
+          "example": "編輯建議：兩週後分享自己注意到的一本書或問題，書與留言依約歸還或整理。",
+          "check": "不要求公開私人故事；有人負責整理及歸還。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 381,
+              "endSeconds": 406
+            },
+            {
+              "sourceId": "original",
+              "startSeconds": 458,
+              "endSeconds": 486
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "從一格書架開始對話",
+          "note": "卡片、規則與時間安排為編輯延伸。",
+          "nodes": [
+            {
+              "id": "n1",
+              "label": "選一本書",
+              "detail": "自願分享"
+            },
+            {
+              "id": "n2",
+              "label": "寫邀請卡",
+              "detail": "留下問題"
+            },
+            {
+              "id": "n3",
+              "label": "自由回應",
+              "detail": "可選擇不答"
+            },
+            {
+              "id": "n4",
+              "label": "一起照顧",
+              "detail": "整理與歸還"
+            }
+          ],
+          "edges": [
+            {
+              "from": "n1",
+              "to": "n2"
+            },
+            {
+              "from": "n2",
+              "to": "n3"
+            },
+            {
+              "from": "n3",
+              "to": "n4"
+            }
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "設立共享書架一定能消除孤獨，或讓所有學生更愛閱讀。",
+          "status": "unverified",
+          "explanation": "影片呈現特定社區的經驗；本文未實際試行或驗證普遍成效。",
+          "sourceIds": [
+            "original"
+          ],
+          "checkedAt": "2026-10-30"
+        }
+      ],
+      "pitfalls": [
+        "可只看書、不發言；不以留言數當成唯一成效。",
+        "不強迫購書、公開私人故事或留下聯絡資料。",
+        "事先約定取閱、歸還和整理責任，未經同意不公開回應。"
+      ],
+      "practice": {
+        "title": "兩週共享書架",
+        "minutes": 20,
+        "prompt": "編輯設計：自願參與者用一本書或書名卡布置一格，寫推薦原因與可選答的問題；安排整理，兩週後回看是否繼續。",
+        "deliverable": "共享書架、邀請卡與照顧規則",
+        "checklist": [
+          "取閱及歸還方式清楚",
+          "每格有推薦原因",
+          "回應是自願的",
+          "有人負責整理"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "編輯提示：安靜閱讀也算參與",
+          "text": "不必要求每個人發言或留下故事；能安全、自願地瀏覽也是一種參與。",
+          "sourceIds": []
+        }
+      ],
+      "overview": {
+        "image": "/assets/overviews/shared-shelf-desktop.webp",
+        "mobileImage": "/assets/overviews/shared-shelf-mobile.webp",
+        "cardImage": "/assets/overviews/shared-shelf-desktop.webp",
+        "alt": "方法練習室夥伴分享書架、邀請卡與自願回應。",
+        "caption": "班級安排與邀請卡為編輯延伸。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      },
+      "publishedAt": "2026-10-30T07:37:21+08:00"
     }
   ],
   "demo": {
