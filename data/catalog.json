@@ -119616,6 +119616,205 @@
         "mobileHeight": 1600
       },
       "publishedAt": "2026-10-30T06:42:31+08:00"
+    },
+    {
+      "id": "parent-mistake-to-review-system",
+      "title": "把錯題變成下一次練習：陪孩子建立可更新的複習流程",
+      "summary": "從一份錯題開始，核對答案、找出卡點、用延伸題試一次，再慢慢整理可更新的複習規則。",
+      "categoryId": "reading",
+      "topicIds": [
+        "learning",
+        "teaching"
+      ],
+      "audience": "陪孩子整理錯題與規劃複習的家長或教師",
+      "output": "一份錯題紀錄、一道經核對的延伸題與複習規則",
+      "minutes": 20,
+      "level": "入門",
+      "status": "ready",
+      "contentType": "video_method",
+      "reviewedAt": "2026-10-30",
+      "coverLabel": "錯題複習 · 親子陪練",
+      "keywords": [
+        "錯題整理",
+        "親子學習",
+        "AI 複習",
+        "延伸練習"
+      ],
+      "sourceCoverage": "指定 Notion 影片音訊約 12:27，已下載 MP3；本機 Whisper 辨識產生重複幻覺，不作逐字稿。本文依影片提供的 zh-TW 字幕軌約 00:00–12:27 整理，尚未逐段人工聽校或核對畫面。提示詞、隱私處理、核對及獨立作答為編輯延伸；介面與方案可能變動，未實測功能或教學成效。",
+      "sources": [
+        {
+          "id": "original",
+          "title": "用 ChatGPT 把孩子的錯題變成複習系統：從日常測驗，到考前試卷、聽寫與圖解",
+          "kind": "video",
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=eFz4Y5xqjFc",
+          "channel": "esor huang",
+          "videoId": "eFz4Y5xqjFc",
+          "note": "依影片提供的字幕整理，尚未逐段人工核聽；本機辨識失敗。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "整理一份錯題",
+          "action": "挑一份作業或考卷，整理題目、孩子的原答案及已核對的正確答案。",
+          "why": "影片示範先收集日常課業中的錯題，再使用專案與科目討論串整理。",
+          "example": "編輯建議：先從一題開始，不必一次整理所有考卷。",
+          "check": "一份紀錄中有題目與經核對的答案。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 20,
+              "endSeconds": 52
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "找出可能卡點",
+          "action": "請 AI 說明可能的錯誤與相關觀念；大人自己作答並對照課本或可靠答案。",
+          "why": "影片分享先請工具分析，再由家長親自作答核對。",
+          "example": "編輯示範：先問錯誤可能涉及哪個觀念，不把 AI 回覆當作診斷定論。",
+          "check": "留下至少一個經核對的卡點或待確認問題。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 41,
+              "endSeconds": 85
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "換一題試試",
+          "action": "設計一道不同但運用同一觀念的題目，先請孩子自己作答，再一起核對題意和答案。",
+          "why": "影片分享在討論後使用延伸題，檢視原先的觀念。",
+          "example": "編輯提示詞：『請先給不透露答案的提示，再出一道同觀念的不同題；解答放最後。』",
+          "check": "延伸題及解答都已經大人核對。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 85,
+              "endSeconds": 107
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "更新複習規則",
+          "action": "整理反覆出現的卡點與適合孩子的提示方式，之後隨練習更新；需要時再選題庫、紙本或聽寫。",
+          "why": "影片示範將各科累積內容整理成共同原則，並延伸不同練習形式。",
+          "example": "編輯建議：先記下『先問孩子如何想，再給一個提示』，下次試行後調整。",
+          "check": "留下一條可修改的提示規則，並先核對後續題目及功能。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 107,
+              "endSeconds": 238
+            },
+            {
+              "sourceId": "original",
+              "startSeconds": 238,
+              "endSeconds": 537
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "從錯題到下一次練習",
+          "note": "提示詞與核對安排為編輯延伸。",
+          "nodes": [
+            {
+              "id": "n1",
+              "label": "整理錯題",
+              "detail": "保留原答案"
+            },
+            {
+              "id": "n2",
+              "label": "找出卡點",
+              "detail": "大人核對"
+            },
+            {
+              "id": "n3",
+              "label": "換一題試試",
+              "detail": "孩子先作答"
+            },
+            {
+              "id": "n4",
+              "label": "持續調整",
+              "detail": "更新提示規則"
+            }
+          ],
+          "edges": [
+            {
+              "from": "n1",
+              "to": "n2"
+            },
+            {
+              "from": "n2",
+              "to": "n3"
+            },
+            {
+              "from": "n3",
+              "to": "n4"
+            }
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "AI 分析與延伸練習一定能診斷孩子的能力並提升成績。",
+          "status": "unverified",
+          "explanation": "影片為個人使用示範，未提供本文可核實的教學成效；AI 分析也可能出錯。",
+          "sourceIds": [
+            "original"
+          ],
+          "checkedAt": "2026-10-30"
+        }
+      ],
+      "pitfalls": [
+        "AI 可能看錯題目或算錯，題意和答案需回課本或可靠來源核對。",
+        "孩子的紙筆作答仍需對照原題清單檢查，不把 AI 判斷當能力定論。",
+        "移除姓名、學校等可識別資訊，再依實際平台與學校規範處理資料。"
+      ],
+      "practice": {
+        "title": "一題錯題、一題延伸題",
+        "minutes": 20,
+        "prompt": "編輯設計：挑一題已核對的錯題，請 AI 提出可能卡點與不直接給答案的提示，再出一道同觀念的不同題。大人先核對，孩子自己作答後一起討論。",
+        "deliverable": "一份錯題與延伸題紀錄",
+        "checklist": [
+          "原答案與正確答案已核對",
+          "記下可能卡點",
+          "核對延伸題與解答",
+          "孩子先作答再討論"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "編輯提示：先從紙本開始",
+          "text": "不必先建立大型題庫。用一題試過流程，了解孩子需要什麼提示，再決定是否加入其他練習形式。",
+          "sourceIds": []
+        }
+      ],
+      "overview": {
+        "image": "/assets/overviews/mistake-review-desktop.webp",
+        "mobileImage": "/assets/overviews/mistake-review-mobile.webp",
+        "cardImage": "/assets/overviews/mistake-review-desktop.webp",
+        "alt": "方法練習室夥伴整理錯題，查核卡點並用新題練習。",
+        "caption": "AI 的題目、答案和分析須經大人核對。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      },
+      "publishedAt": "2026-10-30T06:47:54+08:00"
     }
   ],
   "demo": {
