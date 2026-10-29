@@ -121392,6 +121392,188 @@
         "mobileHeight": 1600
       },
       "publishedAt": "2026-10-30T07:43:14+08:00"
+    },
+    {
+      "id": "rewrite-question-context-check-conditions",
+      "title": "把題目改成生活情境：先保留概念，再核對條件和答案",
+      "summary": "挑一題現成題目，用工具加入生活情境後，對照原題重新驗算，再小量試答。",
+      "categoryId": "reading",
+      "topicIds": [
+        "teaching",
+        "strategies"
+      ],
+      "audience": "想把既有題目改寫成生活情境的教師",
+      "output": "一題經核對的情境題與檢查紀錄",
+      "minutes": 20,
+      "level": "入門",
+      "status": "ready",
+      "contentType": "video_method",
+      "reviewedAt": "2026-10-30",
+      "coverLabel": "題目改寫 · 保留條件",
+      "keywords": [
+        "情境題",
+        "AI 改寫",
+        "題目核對",
+        "課堂評量"
+      ],
+      "sourceCoverage": "指定 Notion 影片音訊全長約 71:35；本文使用 31:20–35:41 的 whisper.cpp tiny 自動字幕，另以 small 複辨同段；尚未逐字人工聽校或核對畫面，其餘內容不在本文來源範圍。影片示範將題目轉成生活情境及組合題目；驗算、小量試答和租車例子均為編輯延伸。未實測現行平台或教學成效。",
+      "sources": [
+        {
+          "id": "original",
+          "title": "開學不手忙腳亂：Wayground 新手村",
+          "kind": "video",
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=PBaCIRK0hVM",
+          "channel": "謙懿科技",
+          "videoId": "PBaCIRK0hVM",
+          "note": "本文僅取指定片段；自動字幕未逐字人工聽校，未實測平台。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "選一題與學習目標",
+          "action": "選一題可使用的現成題目，寫下它要檢查的概念、原答案和必要條件。",
+          "why": "影片示範從現成題目進入編輯；保留原題與記錄目標為編輯延伸。",
+          "example": "編輯例子：比較兩個方案的總費用。",
+          "check": "能指出原題目標、條件與答案。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 1900,
+              "endSeconds": 1940
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "加入生活情境",
+          "action": "使用合適的工具，請 AI 在保留原有概念與條件的前提下加入學生熟悉的情境。",
+          "why": "影片示範在題目編輯中選擇轉換成現實世界場景。",
+          "example": "編輯例子：將兩方案費用比較改為班級租車情境。",
+          "check": "保留原題與改寫版本，便於對照。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 1940,
+              "endSeconds": 2030
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "對照原題重新驗算",
+          "action": "檢查條件、數值、單位、選項和答案是否一致，自己重新解一次；不對就修改或退回原題。",
+          "why": "這是編輯補充的必要核對步驟；影片操作展示不保證改寫後內容正確。",
+          "example": "編輯例子：核對固定費用、費率及選項是否與題目一致。",
+          "check": "教師已獨立解題，並記下修正。",
+          "contribution": "editorial",
+          "sourceRefs": []
+        },
+        {
+          "id": "step-4",
+          "title": "試答後再調整",
+          "action": "先請少數學生或同事試答，問他們依據什麼線索，再調整容易誤解的文字。",
+          "why": "小量試答與討論是編輯設計，用來觀察情境是否清楚。",
+          "example": "問：『你從哪個條件知道要比較兩種費用？』",
+          "check": "保留一筆試答回饋，不只看答對率。",
+          "contribution": "editorial",
+          "sourceRefs": []
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "從原題到可檢查的情境題",
+          "note": "驗算、試答與例題為編輯延伸。",
+          "nodes": [
+            {
+              "id": "n1",
+              "label": "選一題",
+              "detail": "記下目標"
+            },
+            {
+              "id": "n2",
+              "label": "加入情境",
+              "detail": "保留條件"
+            },
+            {
+              "id": "n3",
+              "label": "對照原題",
+              "detail": "重新驗算"
+            },
+            {
+              "id": "n4",
+              "label": "試答調整",
+              "detail": "詢問線索"
+            }
+          ],
+          "edges": [
+            {
+              "from": "n1",
+              "to": "n2"
+            },
+            {
+              "from": "n2",
+              "to": "n3"
+            },
+            {
+              "from": "n3",
+              "to": "n4"
+            }
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "AI 加入生活情境後，題目一定正確且能提升學生理解。",
+          "status": "unverified",
+          "explanation": "影片展示工具操作，本文未實測平台，也未做課堂成效驗證。",
+          "sourceIds": [
+            "original"
+          ],
+          "checkedAt": "2026-10-30"
+        }
+      ],
+      "pitfalls": [
+        "加入故事不代表題目必然符合素養評量；仍要檢查學生需要運用什麼概念。",
+        "條件、數值、單位、選項與答案均需教師重新核對。",
+        "功能、方案與介面可能變動，本次未實測。"
+      ],
+      "practice": {
+        "title": "改寫一題，先驗算",
+        "minutes": 20,
+        "prompt": "編輯設計：選一題既有題目，記下目標與正解；請 AI 加入生活背景，對照原題重算，再請一人試答並詢問線索。",
+        "deliverable": "原題、改寫題與教師驗算紀錄",
+        "checklist": [
+          "保留原題與答案",
+          "改寫保留必要條件",
+          "教師獨立驗算",
+          "試答後修正文字"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "編輯提示：故事服務概念",
+          "text": "背景應幫助學生看懂問題，而不是只增加閱讀量；條件不清楚就退回原題重新修改。",
+          "sourceIds": []
+        }
+      ],
+      "overview": {
+        "image": "/assets/overviews/context-question-desktop.webp",
+        "mobileImage": "/assets/overviews/context-question-mobile.webp",
+        "cardImage": "/assets/overviews/context-question-desktop.webp",
+        "alt": "方法練習室夥伴將題目加入情境，對照原題核對條件與答案。",
+        "caption": "驗算與試答為編輯延伸，平台現況未實測。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      },
+      "publishedAt": "2026-10-30T07:55:44+08:00"
     }
   ],
   "demo": {
