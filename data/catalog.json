@@ -118416,6 +118416,215 @@
         "mobileHeight": 1600
       },
       "publishedAt": "2026-10-30T06:06:14+08:00"
+    },
+    {
+      "id": "ai-lian-shuo-four-sentence-types",
+      "title": "讀〈愛蓮說〉，比較敘事、表態、有無與判斷句",
+      "summary": "從句子的主要意思出發，對照四類句型，再回課文核對語境與句子成分。",
+      "categoryId": "reading",
+      "topicIds": [
+        "strategies",
+        "teaching"
+      ],
+      "audience": "練習國文句型辨識的學生與教師",
+      "output": "一張附原文、判斷理由及待確認處的句型比較卡",
+      "minutes": 20,
+      "level": "入門",
+      "status": "ready",
+      "contentType": "video_method",
+      "reviewedAt": "2026-10-30",
+      "coverLabel": "文言閱讀 · 句型比較",
+      "keywords": [
+        "愛蓮說",
+        "敘事句",
+        "表態句",
+        "有無句",
+        "判斷句"
+      ],
+      "sourceCoverage": "指定 Notion 影片 MP3 以 whisper.cpp tiny 自動轉錄，字幕至 10:53.44，音訊約 10:54.71，末約 1.27 秒無字幕；尚未逐句人工聽校，字幕錯字多。講者以〈愛蓮說〉說明四類句型；比較卡、分辨片語與完整句、核對語境的步驟為編輯延伸。另參考國語文學科中心的句型結構資料；未驗證學習成效。",
+      "sources": [
+        {
+          "id": "original",
+          "title": "十分鐘學會四大句型＋愛蓮說",
+          "kind": "video",
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=-MdvbNujS2U",
+          "channel": "siyi思怡 tsai",
+          "videoId": "-MdvbNujS2U",
+          "note": "自動辨識尚未人工聽校；片末講者曾自我更正，須回課文核對。"
+        },
+        {
+          "id": "grammar",
+          "title": "國語文學科中心：句型基本結構",
+          "kind": "article",
+          "url": "https://cerclearning.tp.edu.tw/grammar",
+          "channel": "國語文學科中心",
+          "note": "輔助核對四類句型基本結構，非影片來源。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "先讀句子與上下文",
+          "action": "選課文的一句或一段，先讀前後文，判斷目前看的是完整句子還是較大句子中的片語。",
+          "why": "先確認閱讀範圍是編輯建議，避免拿片語直接當成完整句子。",
+          "example": "編輯示範：讀〈愛蓮說〉時，先把「蓮，花之君子者也」連同前後句一起看。",
+          "check": "標出閱讀範圍及需要查證的語句。",
+          "contribution": "editorial",
+          "sourceRefs": []
+        },
+        {
+          "id": "step-2",
+          "title": "看句子主要說什麼",
+          "action": "思考句子主要是敘述動作、描寫性質、表示有無，還是說明事物身分；留意主語與句子成分。",
+          "why": "講者以四類句型整理句子的表達重點；學科中心另列四類基本結構。",
+          "example": "影片例子：講者以「晉陶淵明獨愛菊」討論敘述動作，以「菊，花之隱逸者也」討論判斷。",
+          "check": "能用自己的話說出這句主要表達的內容。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 267,
+              "endSeconds": 365
+            },
+            {
+              "sourceId": "grammar",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "比較四類並提出理由",
+          "action": "用表格記下原文、暫定類型及理由；涉及有、無或判斷的句子，先看整體語意，不只看單字。",
+          "why": "有無句、敘事句、表態句與判斷句有不同結構，但需依完整語境辨識。",
+          "example": "編輯示範：「蓮，花之君子者也」可從「蓮」與「花之君子」的關係討論判斷句；「也」字本身不保證所有句子都是判斷句。",
+          "check": "每一項分類都寫出句意和理由，不只圈一個字。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 319,
+              "endSeconds": 355
+            },
+            {
+              "sourceId": "grammar",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "回課文和註解核對",
+          "action": "回讀原文、教材註解及句型資料；若有省略、特殊語序或不同分析，標記不確定處並請教師討論。",
+          "why": "片語與完整句的邊界及語序會影響分析，核對方式為編輯建議。",
+          "example": "編輯示範：先將「出淤泥而不染」放回「予獨愛蓮之……」的上下文，再討論它的功能。",
+          "check": "能指出查證依據或保留尚待討論的地方。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "grammar",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "從語境比較四類句型",
+          "note": "練習順序與查證卡為編輯延伸。",
+          "nodes": [
+            {
+              "id": "n1",
+              "label": "讀語境",
+              "detail": "先分句子與片語"
+            },
+            {
+              "id": "n2",
+              "label": "看敘述重點",
+              "detail": "動作、性質、有無或判斷"
+            },
+            {
+              "id": "n3",
+              "label": "寫分類理由",
+              "detail": "觀察句子成分"
+            },
+            {
+              "id": "n4",
+              "label": "回文核對",
+              "detail": "保留疑問與討論"
+            }
+          ],
+          "edges": [
+            {
+              "from": "n1",
+              "to": "n2"
+            },
+            {
+              "from": "n2",
+              "to": "n3"
+            },
+            {
+              "from": "n3",
+              "to": "n4"
+            }
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "只要看到一個關鍵字就能正確判定所有句型。",
+          "status": "unverified",
+          "explanation": "句子的語境、成分與是否為完整句子都需納入判斷。",
+          "sourceIds": [
+            "grammar"
+          ],
+          "checkedAt": "2026-10-30"
+        }
+      ],
+      "pitfalls": [
+        "不要把片語直接視為完整句子；先回到上下文。",
+        "不要把「也」字或單一詞性當成所有句型的唯一判準。",
+        "有不確定的分析時保留討論並核對教材。"
+      ],
+      "practice": {
+        "title": "四類句型比較卡",
+        "minutes": 20,
+        "prompt": "編輯設計：從課文選出可討論的句子，寫原文、主要意思、暫定句型和理由；對照教材與學科中心資料，標記仍需請教師討論之處。",
+        "deliverable": "一張包含原文、理由與查證結果的比較卡",
+        "checklist": [
+          "先讀前後文",
+          "說明句子主要意思",
+          "分類附理由",
+          "回教材核對並保留疑問"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "編輯觀點：先求說得出理由",
+          "text": "同一個詞可能出現在不同結構中；練習時讓學生先說完整句意與判斷依據，再比較不同分析。若只截取片語，應清楚標出其上下文。",
+          "sourceIds": [
+            "grammar"
+          ]
+        }
+      ],
+      "overview": {
+        "image": "/assets/overviews/sentence-types-desktop.webp",
+        "mobileImage": "/assets/overviews/sentence-types-mobile.webp",
+        "cardImage": "/assets/overviews/sentence-types-desktop.webp",
+        "alt": "小硯與知行比較四類句型，並提醒回原文核對語境。",
+        "caption": "比較卡與查證流程為編輯延伸；句型須依語境判讀。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      },
+      "publishedAt": "2026-10-30T06:20:26+08:00"
     }
   ],
   "demo": {
