@@ -118225,6 +118225,197 @@
         "mobileHeight": 1600
       },
       "publishedAt": "2026-10-30T05:54:37+08:00"
+    },
+    {
+      "id": "junyi-skill-progress-assign-practice",
+      "title": "先看進展，再指派一個可完成的練習",
+      "summary": "選定一項技能，引導學生查看進展，再建立任務、確認對象並回看完成情形。",
+      "categoryId": "reading",
+      "topicIds": [
+        "teaching",
+        "learning"
+      ],
+      "audience": "想用線上練習掌握班級學習狀況的教師",
+      "output": "一份技能任務及一張學習回看紀錄",
+      "minutes": 20,
+      "level": "入門",
+      "status": "ready",
+      "contentType": "video_method",
+      "reviewedAt": "2026-10-30",
+      "coverLabel": "課堂學習 · 進展與任務",
+      "keywords": [
+        "均一教育平台",
+        "技能進展",
+        "任務指派",
+        "課堂練習"
+      ],
+      "sourceCoverage": "指定 Notion 影片 MP3 以 whisper.cpp small 自動轉錄，字幕約 00:00–21:20、音訊 21:23，末約 3 秒無字幕，尚未逐句人工聽校；講者示範均一平台查看技能進展及設定、指派任務。課堂示例、時間和反思問題為編輯延伸，介面與活動規則可能變動，未驗證成效。",
+      "sources": [
+        {
+          "id": "original",
+          "title": "2026 星空探險隊雲端師培教學影片",
+          "kind": "video",
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=VnNe-gejVz0",
+          "channel": "均一教育平台 Junyi Academy",
+          "videoId": "VnNe-gejVz0",
+          "note": "自動字幕尚未人工聽校，介面未重新實測。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "選一個學習目標",
+          "action": "從這週的課程選一項想讓學生練習的技能，先確認內容與目前班級進度相符。",
+          "why": "先縮小目標是編輯設計，讓後續任務有明確範圍。",
+          "example": "編輯示範：選擇一項與這週課程相符的分數運算練習。",
+          "check": "能說明學生要練的單一技能。",
+          "contribution": "editorial",
+          "sourceRefs": []
+        },
+        {
+          "id": "step-2",
+          "title": "查看目前技能進展",
+          "action": "引導學生進入學習主頁的技能進展，選科目及精熟等級，看看哪些技能尚待練習。",
+          "why": "影片示範以科目及等級查看不同技能進展。",
+          "example": "編輯示範：學生記下一個自己想繼續練習的技能。",
+          "check": "學生找到自己的進展並記下下一步。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 570,
+              "endSeconds": 595
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "建立任務並確認對象",
+          "action": "依影片所示流程，在教學管理建立技能任務，選範圍、名稱及期限，再確認指派給全班或個別學生；依目前介面調整。",
+          "why": "講者提醒完成任務設定後，還需選擇對象並確認指派。",
+          "example": "編輯示範：教師依課程需要指派一項練習，再確認對象和期限。",
+          "check": "確認任務已送給預定對象，未只停在設定畫面。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 610,
+              "endSeconds": 674
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "練習後回看",
+          "action": "學生完成練習後回看進展，寫下已完成的內容及下一個想練的技能；教師依實際表現決定是否調整。",
+          "why": "反思問題與後續調整是編輯延伸，不是影片固定流程。",
+          "example": "編輯示範：寫下『我完成＿＿，下次想練＿＿』。",
+          "check": "學生留下下一步，教師記錄一項需協助的地方。",
+          "contribution": "editorial",
+          "sourceRefs": []
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "從技能進展到一項練習",
+          "note": "課堂安排與回看問題為編輯延伸。",
+          "nodes": [
+            {
+              "id": "n1",
+              "label": "選目標",
+              "detail": "聚焦一項技能"
+            },
+            {
+              "id": "n2",
+              "label": "看進展",
+              "detail": "選科目及等級"
+            },
+            {
+              "id": "n3",
+              "label": "設定任務",
+              "detail": "選範圍與期限"
+            },
+            {
+              "id": "n4",
+              "label": "確認對象",
+              "detail": "確認送出指派"
+            },
+            {
+              "id": "n5",
+              "label": "回看",
+              "detail": "記下完成與下一步"
+            }
+          ],
+          "edges": [
+            {
+              "from": "n1",
+              "to": "n2"
+            },
+            {
+              "from": "n2",
+              "to": "n3"
+            },
+            {
+              "from": "n3",
+              "to": "n4"
+            },
+            {
+              "from": "n4",
+              "to": "n5"
+            }
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "指派技能練習一定提高所有學生的學習成效。",
+          "status": "unverified",
+          "explanation": "影片示範平台操作，本文課堂安排未經成效驗證。",
+          "sourceIds": [
+            "original"
+          ],
+          "checkedAt": "2026-10-30"
+        }
+      ],
+      "pitfalls": [
+        "設定任務後仍須確認指派對象；介面可能隨版本變動。",
+        "學生進度應作為教學參考，不必把所有人排成同一順序。",
+        "活動點數和規則不代表永久功能或學習成效。"
+      ],
+      "practice": {
+        "title": "一次技能任務試做",
+        "minutes": 20,
+        "prompt": "編輯設計：選一項技能，引導學生看進展；教師建立任務並確認對象與期限。練習後，學生記下完成內容及下一步。",
+        "deliverable": "一份技能任務和回看紀錄",
+        "checklist": [
+          "選擇一項技能",
+          "查看學生進展",
+          "設定任務並確認指派對象",
+          "回看完成與下一步"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "編輯觀點：依需要調整",
+          "text": "進展可作為教師了解學生狀態的起點，再依實際課程與學生需求調整練習；不要僅以平台分數判斷全部學習表現。",
+          "sourceIds": []
+        }
+      ],
+      "overview": {
+        "image": "/assets/overviews/junyi-plan-desktop.webp",
+        "mobileImage": "/assets/overviews/junyi-plan-mobile.webp",
+        "cardImage": "/assets/overviews/junyi-plan-desktop.webp",
+        "alt": "知行與以澄陪教師選目標、看進展、設定任務、確認對象並回看。",
+        "caption": "課堂練習及回看問題為編輯延伸；平台介面可能變動。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      },
+      "publishedAt": "2026-10-30T06:06:14+08:00"
     }
   ],
   "demo": {
