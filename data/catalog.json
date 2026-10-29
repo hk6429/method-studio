@@ -120220,6 +120220,200 @@
         "mobileHeight": 1600
       },
       "publishedAt": "2026-10-30T06:59:56+08:00"
+    },
+    {
+      "id": "manuscript-compare-evidence-hypothesis",
+      "title": "追查手稿怎麼改：從一個問題出發，比較版本、分清推測",
+      "summary": "提出可追查的問題，找到可回看的材料，比較同一段的不同版本，再把觀察和推測分開。",
+      "categoryId": "reading",
+      "topicIds": [
+        "learning",
+        "strategies"
+      ],
+      "audience": "想研究寫作過程或整理知識來源的學習者",
+      "output": "一份版本比較與待查問題紀錄",
+      "minutes": 15,
+      "level": "入門",
+      "status": "ready",
+      "contentType": "video_method",
+      "reviewedAt": "2026-10-30",
+      "coverLabel": "研究方法 · 手稿比較",
+      "keywords": [
+        "手稿比較",
+        "研究問題",
+        "原始資料",
+        "AI 協助研究"
+      ],
+      "sourceCoverage": "指定 Notion 影片 MP3 約 22:23，whisper.cpp tiny 自動字幕涵蓋約 00:00–22:24；另以 small 複辨約 01:40–07:30。字幕有錯字且尚未逐句人工聽校。影片展示以 AI 協助尋找盧曼手稿、比較版本與討論假說；原始手稿未由本文獨立查證。三欄紀錄及校刊例子為編輯延伸，工具目前功能未實測。",
+      "sources": [
+        {
+          "id": "original",
+          "title": "用 Dot 研究卡片盒筆記法發明人盧曼的手稿寫作流程",
+          "kind": "video",
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=h3OraKvV6KQ",
+          "channel": "跟朱騏一起打造知識型一人公司",
+          "videoId": "h3OraKvV6KQ",
+          "note": "自動字幕未逐句人工聽校；影片討論手稿時包含假說。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "問一個可追查的問題",
+          "action": "寫下一個具體問題，說清楚想觀察的材料與關係。",
+          "why": "影片從盧曼如何使用卡片與手稿的問題出發，請 AI 協助查找。",
+          "example": "編輯例子：一篇校刊文章從初稿到定稿，這一段增加了什麼？",
+          "check": "問題能指向可尋找或比較的資料。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 109,
+              "endSeconds": 172
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "尋找可回看的材料",
+          "action": "尋找可公開或自己有權使用的原始材料，記錄連結、檔名與位置。",
+          "why": "影片示範尋找檔案網站與手稿，並提到德文資料的閱讀門檻；記錄欄位與回查為編輯補充。",
+          "example": "使用自己的初稿、定稿或可取得的公開檔案。",
+          "check": "能指出材料位置，找不到時標記尚未確認。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 120,
+              "endSeconds": 276
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "並列比較版本",
+          "action": "選同一段的兩個版本，記下新增、刪除或移動的地方與位置。",
+          "why": "影片討論尋找多次修改的手稿，比較各版本增加的內容與可能對應的卡片。",
+          "example": "編輯假設：定稿多了一句受訪者感受；先記下變化，別直接推定原因。",
+          "check": "列出至少一處可回原文核對的差異。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 330,
+              "endSeconds": 363
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "分開證據與推測",
+          "action": "把看到的材料、目前的解釋與還需查證的問題分開寫，決定下一步查什麼。",
+          "why": "影片討論邊註及手稿修改的可能關係，部分屬講者轉述的假說；三欄紀錄為編輯設計。",
+          "example": "編輯假設：定稿新增訪談感受是觀察；是否來自訪談須再查紀錄或詢問作者。",
+          "check": "每一項推測都有標示，不把相似內容直接當成因果。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 384,
+              "endSeconds": 444
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "從問題走到下一次查證",
+          "note": "三欄紀錄與校刊案例為編輯設計。",
+          "nodes": [
+            {
+              "id": "n1",
+              "label": "問問題",
+              "detail": "指定材料"
+            },
+            {
+              "id": "n2",
+              "label": "找原件",
+              "detail": "保留位置"
+            },
+            {
+              "id": "n3",
+              "label": "比版本",
+              "detail": "記下差異"
+            },
+            {
+              "id": "n4",
+              "label": "分清推測",
+              "detail": "提出待查問題"
+            }
+          ],
+          "edges": [
+            {
+              "from": "n1",
+              "to": "n2"
+            },
+            {
+              "from": "n2",
+              "to": "n3"
+            },
+            {
+              "from": "n3",
+              "to": "n4"
+            }
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "影片討論的手稿與卡片關係已證明盧曼的確依該流程寫作。",
+          "status": "unverified",
+          "explanation": "影片包含對檔案的解讀與假說；本文未 獨立查核手稿原件與研究資料。",
+          "sourceIds": [
+            "original"
+          ],
+          "checkedAt": "2026-10-30"
+        }
+      ],
+      "pitfalls": [
+        "AI 提供的來源、翻譯、對照及引文須回到原件核對，找不到時標示未確認。",
+        "相似內容不必然證明先後順序或因果；保留其他解釋。",
+        "先確認手稿使用權與資料敏感性；本次未實測工具現行功能。"
+      ],
+      "practice": {
+        "title": "比較自己文章的兩個版本",
+        "minutes": 15,
+        "prompt": "編輯設計：選自己有權使用的初稿與定稿，挑一段比較，記錄差異、推測及待查問題；用 AI 協助整理時，仍回原文核對。",
+        "deliverable": "一份三欄版本比較紀錄",
+        "checklist": [
+          "問題指向可回看的材料",
+          "記下版本與段落位置",
+          "至少列出一處差異",
+          "分清觀察、推測與待查問題"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "編輯提示：讓工具幫忙整理，不代替查證",
+          "text": "可請 AI 協助列出差異，但每一處都應對照原始版本；未經查證的原因留作問題。",
+          "sourceIds": []
+        }
+      ],
+      "overview": {
+        "image": "/assets/overviews/manuscript-research-desktop.webp",
+        "mobileImage": "/assets/overviews/manuscript-research-mobile.webp",
+        "cardImage": "/assets/overviews/manuscript-research-desktop.webp",
+        "alt": "方法練習室夥伴用問題、原件與版本比較追查寫作過程。",
+        "caption": "原始手稿未由本文獨立查證；三欄紀錄為編輯設計。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      },
+      "publishedAt": "2026-10-30T07:06:28+08:00"
     }
   ],
   "demo": {
