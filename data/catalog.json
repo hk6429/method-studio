@@ -120414,6 +120414,200 @@
         "mobileHeight": 1600
       },
       "publishedAt": "2026-10-30T07:06:28+08:00"
+    },
+    {
+      "id": "poster-reading-writing-feedback-loop",
+      "title": "一張圖片接住閱讀與寫作：先理解，再動筆、回看修改",
+      "summary": "以一張活動圖片為材料，安排閱讀理解、短寫作與教師回饋，讓學生看見自己如何修改。",
+      "categoryId": "reading",
+      "topicIds": [
+        "teaching",
+        "learning"
+      ],
+      "audience": "想以生活材料安排閱讀和寫作的教師",
+      "output": "一份閱讀回答與修改前後的短文",
+      "minutes": 25,
+      "level": "入門",
+      "status": "ready",
+      "contentType": "video_method",
+      "reviewedAt": "2026-10-30",
+      "coverLabel": "閱讀寫作 · 同一份材料",
+      "keywords": [
+        "閱讀理解",
+        "寫作回饋",
+        "華語教學",
+        "生活材料"
+      ],
+      "sourceCoverage": "指定 Notion 影片已下載 MP3；本文依影片提供的繁體中文字幕約 00:00–14:18 整理，尚未逐字人工聽校或逐段核對畫面。影片示範 LingoAct 特定版本的圖片閱讀、寫作及教師回饋；題目、教學排序與檢核方式為編輯延伸。未實測現行介面、部署及成效。",
+      "sources": [
+        {
+          "id": "original",
+          "title": "超高互動，隨時掌握！新時代的華語教學瑞士刀：LingoAct 全美中文聯合總會版",
+          "kind": "video",
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=EEcAOo7ZcVA",
+          "channel": "連老師",
+          "videoId": "EEcAOo7ZcVA",
+          "note": "依影片提供的繁體中文字幕整理，尚未逐字人工聽校。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "選一份生活材料",
+          "action": "選一張學生能理解的活動圖片或海報，先確認資訊清楚、內容適合。",
+          "why": "影片示範將活動圖片派送到學生端，做為後續閱讀練習的材料。",
+          "example": "編輯例子：使用經確認可分享的校園活動海報。",
+          "check": "學生能看清楚材料，且教師已檢視內容。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 51,
+              "endSeconds": 125
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "先讀懂再回答",
+          "action": "圍繞圖片設計幾個閱讀問題，學生找出答案與依據；可依需要提供朗讀、生詞或語法說明。",
+          "why": "影片示範根據圖片建立閱讀測驗，學生可閱讀、聽全文與查看生詞說明。",
+          "example": "編輯題目：活動對象是誰？何時要完成報名？",
+          "check": "每個答案都能回材料找到依據。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 125,
+              "endSeconds": 265
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "接一題短寫作",
+          "action": "用同一份材料設計短寫作，讓學生先寫自己的句子，再參考教師、同儕或 AI 的提問修改。",
+          "why": "影片示範寫作教練提供補充方向，學生修改並送出；教師或同儕提問為編輯延伸。",
+          "example": "編輯題目：用一句話推薦活動，並補上一個理由。",
+          "check": "保留初稿，能說出修改了哪裡與原因。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 352,
+              "endSeconds": 568
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "回看與調整回饋",
+          "action": "教師檢視學生內容及建議，必要時修改回饋，再讓學生回看。",
+          "why": "影片示範教師查看及調整評分或總評，學生可看到修改後的內容。",
+          "example": "編輯檢核：回饋是否指出一個具體可補充的地方？",
+          "check": "題目與回饋都經教師核對，不直接把 AI 建議當成正確答案。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 573,
+              "endSeconds": 676
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "一份材料的閱讀寫作流程",
+          "note": "課堂題目與檢核方式為編輯延伸。",
+          "nodes": [
+            {
+              "id": "n1",
+              "label": "選材料",
+              "detail": "確認內容適合"
+            },
+            {
+              "id": "n2",
+              "label": "閱讀理解",
+              "detail": "找答案與依據"
+            },
+            {
+              "id": "n3",
+              "label": "動手寫作",
+              "detail": "先留初稿"
+            },
+            {
+              "id": "n4",
+              "label": "回看修改",
+              "detail": "教師核對回饋"
+            }
+          ],
+          "edges": [
+            {
+              "from": "n1",
+              "to": "n2"
+            },
+            {
+              "from": "n2",
+              "to": "n3"
+            },
+            {
+              "from": "n3",
+              "to": "n4"
+            }
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "使用此工具一定能改善所有學生的閱讀與寫作能力。",
+          "status": "unverified",
+          "explanation": "影片為工具與課堂流程示範，本文未進行教學成效驗證。",
+          "sourceIds": [
+            "original"
+          ],
+          "checkedAt": "2026-10-30"
+        }
+      ],
+      "pitfalls": [
+        "教師需先核對 AI 產生的題目、答案與回饋。",
+        "影片示範特定版本，功能、介面和部署依實際環境確認。",
+        "處理學生作品前依學校規範確認資料使用方式；不能只憑影片提及匿名就判定所有版本符合需求。"
+      ],
+      "practice": {
+        "title": "校園海報閱讀與短寫作",
+        "minutes": 25,
+        "prompt": "編輯設計：選一張可使用的校園活動海報，回答對象與報名時間，再寫一句推薦理由；保存初稿，依一個提問補充並說明修改原因。",
+        "deliverable": "兩個閱讀回答與修改前後的短句",
+        "checklist": [
+          "材料已確認適合",
+          "閱讀答案能回海報找到",
+          "保留寫作初稿",
+          "教師核對回饋與修改"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "編輯提示：不用限定工具",
+          "text": "同一流程也可在紙本或其他合適的課堂工具實施；教師仍應先確認材料與回饋。",
+          "sourceIds": []
+        }
+      ],
+      "overview": {
+        "image": "/assets/overviews/poster-reading-writing-desktop.webp",
+        "mobileImage": "/assets/overviews/poster-reading-writing-mobile.webp",
+        "cardImage": "/assets/overviews/poster-reading-writing-desktop.webp",
+        "alt": "方法練習室夥伴從活動圖片出發，練習閱讀、寫作及修改。",
+        "caption": "課堂題目與檢核方式為編輯延伸。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      },
+      "publishedAt": "2026-10-30T07:10:50+08:00"
     }
   ],
   "demo": {
