@@ -118023,6 +118023,188 @@
         "mobileHeight": 1600
       },
       "publishedAt": "2026-10-29T07:42:46+08:00"
+    },
+    {
+      "id": "classical-narrative-verb-first",
+      "title": "文言文先找動作：把敘事句拆開，再理解整段",
+      "summary": "先從敘事句找動詞與行動者，再換成自己的白話，回原文和註解核對。",
+      "categoryId": "reading",
+      "topicIds": [
+        "strategies",
+        "teaching"
+      ],
+      "audience": "想練習理解敘事文言句的學生與教師",
+      "output": "一張原文、理解與查證修正的閱讀卡",
+      "minutes": 15,
+      "level": "入門",
+      "status": "ready",
+      "contentType": "video_method",
+      "reviewedAt": "2026-10-30",
+      "coverLabel": "文言閱讀 · 敘事句",
+      "keywords": [
+        "文言文",
+        "敘事句",
+        "動詞",
+        "白話理解"
+      ],
+      "sourceCoverage": "指定 Notion 影片 MP3 全片以 Whisper tiny 自動轉錄，約 00:00–1:35:15；音訊長約 1:35:18，末約 3 秒未產生字幕。平台自動字幕有明顯誤譯，音訊 47:00–49:35 另以 Whisper base 轉錄並重擷取 47:00 起 35 秒核對；平台字幕時間不一致，以音訊節錄時間為準。尚未逐句人工聽校；分句、查辭典、閱讀卡與示例為編輯延伸，未驗證學習成效。",
+      "sources": [
+        {
+          "id": "original",
+          "title": "116年國中教育會考趨勢分析與複習策略講座｜國文＋寫作測驗｜陳秉貞老師",
+          "kind": "video",
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=6ik_V7VDTCc",
+          "channel": "臺北酷課雲",
+          "videoId": "6ik_V7VDTCc",
+          "note": "自動字幕與音訊辨識有錯字，尚未人工聽校。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "先分句，縮小閱讀範圍",
+          "action": "選一小段敘事文言文，先依現有標點分句；句子較長時，再依語意暫時畫線。",
+          "why": "縮小練習範圍是編輯建議，並非要求考生重新替古籍斷句。",
+          "example": "編輯示範：『王戎七歲，嘗與諸小兒遊。』先分為兩小句。",
+          "check": "每次先處理一個可理解的短句。",
+          "contribution": "editorial",
+          "sourceRefs": []
+        },
+        {
+          "id": "step-2",
+          "title": "敘事句先找動詞",
+          "action": "圈出句中表達動作的詞，再想這個動作是誰做的、接下來發生什麼。",
+          "why": "講者提到主語有時較難判斷，讀敘事句可先找動詞，再找行動者。",
+          "example": "編輯示範：在『嘗與諸小兒遊』中找『遊』，再問誰和誰一起遊玩。",
+          "check": "能說出一個動作與可能的行動者，仍有疑問就標記。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 2820,
+              "endSeconds": 2838
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "用自己的白話說一次",
+          "action": "把句子意思說成通順的白話；不確定的字詞查課本註解或可靠辭典，再對照原文。",
+          "why": "講者談文言轉成白話時可依語境換詞，查證步驟為編輯延伸。",
+          "example": "編輯示範：查明『嘗』在此為曾經，再說『王戎七歲時曾和其他孩子一起玩』。",
+          "check": "白話能對應原句，不自行添加沒有根據的情節。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 2864,
+              "endSeconds": 2975
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "把句子接回段落",
+          "action": "寫下誰做了什麼、結果如何，再回讀前後文，看看這句與後續情節有什麼關係。",
+          "why": "逐句翻通還需要回到段落理解；此整合方式為編輯設計。",
+          "example": "編輯示範：再往後讀，才知道孩子們後來遇到了什麼。",
+          "check": "能說明此句與前後文的一項連結。",
+          "contribution": "editorial",
+          "sourceRefs": []
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "敘事句從動作入手",
+          "note": "分句、查證與整合為編輯延伸，並非所有句型都適用。",
+          "nodes": [
+            {
+              "id": "n1",
+              "label": "分句",
+              "detail": "縮小閱讀範圍"
+            },
+            {
+              "id": "n2",
+              "label": "圈動詞",
+              "detail": "找發生的動作"
+            },
+            {
+              "id": "n3",
+              "label": "找行動者",
+              "detail": "誰做了什麼"
+            },
+            {
+              "id": "n4",
+              "label": "回原文核對",
+              "detail": "查詞並連接段落"
+            }
+          ],
+          "edges": [
+            {
+              "from": "n1",
+              "to": "n2"
+            },
+            {
+              "from": "n2",
+              "to": "n3"
+            },
+            {
+              "from": "n3",
+              "to": "n4"
+            }
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "所有文言句都能只靠找動詞理解。",
+          "status": "unverified",
+          "explanation": "這裡聚焦敘事句，其他句型仍須依語意及上下文判讀。",
+          "sourceIds": [
+            "original"
+          ],
+          "checkedAt": "2026-10-30"
+        }
+      ],
+      "pitfalls": [
+        "敘事句方法不必強套到所有句型。",
+        "動詞和行動者不確定時先標記，再參考注釋與上下文。",
+        "不能把自編細節當成原文事實。"
+      ],
+      "practice": {
+        "title": "一小段文言閱讀卡",
+        "minutes": 15,
+        "prompt": "編輯設計：選課本一小段敘事文，分句、圈動詞、寫下行動者與白話；查注釋修正，再用一句話說明與前後文的關係。",
+        "deliverable": "原文、我的理解與查證後修正三欄",
+        "checklist": [
+          "依標點分句",
+          "圈動詞並找行動者",
+          "核對字詞注釋",
+          "回段落說明關係"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "編輯示範：王戎遊玩",
+          "text": "『王戎七歲，嘗與諸小兒遊。』在第二小句找『遊』，再問誰和誰一起。查明『嘗』在此為曾經，整理為『王戎七歲時，曾和其他孩子一起玩』；此例是編輯補充，非宣稱影片使用該句。",
+          "sourceIds": []
+        }
+      ],
+      "overview": {
+        "image": "/assets/overviews/classical-verbs-desktop.webp",
+        "mobileImage": "/assets/overviews/classical-verbs-mobile.webp",
+        "cardImage": "/assets/overviews/classical-verbs-desktop.webp",
+        "alt": "小硯與知行分句、圈動詞、找行動者，再回原文核對。",
+        "caption": "分句與閱讀卡為編輯延伸，請依上下文判讀。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      },
+      "publishedAt": "2026-10-30T05:54:37+08:00"
     }
   ],
   "demo": {
