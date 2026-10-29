@@ -118828,6 +118828,194 @@
         "mobileHeight": 1600
       },
       "publishedAt": "2026-10-30T06:25:18+08:00"
+    },
+    {
+      "id": "course-feedback-three-questions",
+      "title": "課程結束後，問學生三個問題：從回饋看見學習歷程",
+      "summary": "以印象深刻的議題、最有幫助的步驟和欣賞自己的表現三個問題，邀學生回顧學習，教師再選一項課程調整。",
+      "categoryId": "reading",
+      "topicIds": [
+        "teaching",
+        "strategies"
+      ],
+      "audience": "想透過學生回饋調整課程的教師",
+      "output": "一張課程回饋單與一項下次調整",
+      "minutes": 15,
+      "level": "入門",
+      "status": "ready",
+      "contentType": "video_method",
+      "reviewedAt": "2026-10-30",
+      "coverLabel": "課程回饋 · 三個問題",
+      "keywords": [
+        "學習回饋",
+        "課程反思",
+        "學生表達",
+        "教學調整"
+      ],
+      "sourceCoverage": "Notion 原始影片 MP3 約 15:32，whisper.cpp small 自動字幕涵蓋約 00:00–15:27；末約 5 秒缺字幕，未逐句人工聽校。影片展示教師的學期回饋，單元回饋、題目改寫及彙整方式是編輯延伸；學生自評不能直接證明能力提升。",
+      "sources": [
+        {
+          "id": "original",
+          "title": "從改變一堂課，走向改變自己",
+          "kind": "video",
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=NvSHnCckaYI",
+          "channel": "學思達教育基金會",
+          "videoId": "NvSHnCckaYI",
+          "note": "劉靜穎分享；字幕自動辨識，未逐句人工聽校。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "問印象最深的內容",
+          "action": "請學生回想哪個課程或議題最讓自己印象深刻，以及為什麼。",
+          "why": "教師分享學生不只寫下議題，也記下留下印象的理由。",
+          "example": "影片中，學生提到性別平等相關議題並寫出原因。",
+          "check": "回答包含內容與理由。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 495,
+              "endSeconds": 533
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "問哪個學習步驟有幫助",
+          "action": "請學生選出有助於學習的一個課堂步驟，並說明原因。",
+          "why": "影片提到學生透過小組討論與核對想法，較有信心回答。",
+          "example": "編輯示範：先自己想，再和同學討論，最後聽教師整理。",
+          "check": "寫下一個具體步驟及它如何幫助自己。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 533,
+              "endSeconds": 553
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "看見自己的表現",
+          "action": "請學生寫下最欣賞自己在課堂上的表現；也可詢問自覺成長的能力與例子。",
+          "why": "影片指出思考、討論與書寫都是可以被看見的表達方式。",
+          "example": "不習慣公開發言的學生，也可以先寫下自己的答案。",
+          "check": "寫出一個具體行動，而非只填好或不好。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 553,
+              "endSeconds": 594
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "整理回饋，試一個調整",
+          "action": "把回覆按內容、學習步驟與學生表現整理，挑一項下次想保留或調整的做法。",
+          "why": "分類整理與下次試行是編輯延伸，幫助教師把回饋轉為下一步。",
+          "example": "若多位學生說先討論有幫助，可以保留討論時間，並留意其他不同需求。",
+          "check": "留下一項具體調整與觀察方式。",
+          "contribution": "editorial",
+          "sourceRefs": []
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "從回想走到下一步",
+          "note": "整理與調整方式為編輯建議。",
+          "nodes": [
+            {
+              "id": "n1",
+              "label": "印象深刻",
+              "detail": "內容與理由"
+            },
+            {
+              "id": "n2",
+              "label": "有幫助的步驟",
+              "detail": "怎麼幫助我"
+            },
+            {
+              "id": "n3",
+              "label": "欣賞自己",
+              "detail": "具體表現"
+            },
+            {
+              "id": "n4",
+              "label": "下次調整",
+              "detail": "選一件事試行"
+            }
+          ],
+          "edges": [
+            {
+              "from": "n1",
+              "to": "n2"
+            },
+            {
+              "from": "n2",
+              "to": "n3"
+            },
+            {
+              "from": "n3",
+              "to": "n4"
+            }
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "填寫回饋單就能證明學生的能力提升。",
+          "status": "unverified",
+          "explanation": "影片分享的是學生自我感受與教師觀察，不能單憑回饋單判定能力變化。",
+          "sourceIds": [
+            "original"
+          ],
+          "checkedAt": "2026-10-30"
+        }
+      ],
+      "pitfalls": [
+        "回饋反映學生感受，不能當成能力提升的唯一證據。",
+        "不同學生的表達方式不同，可保留書寫選項；公開具名回饋前先詢問意願。",
+        "影片示範的是學期回饋，應用於單元結束是編輯延伸。"
+      ],
+      "practice": {
+        "title": "四題課程回饋單",
+        "minutes": 15,
+        "prompt": "編輯改寫：這次印象最深的內容是什麼、為什麼？哪個學習步驟最有幫助？你最欣賞自己什麼表現？哪種能力自覺有成長、例子是什麼？",
+        "deliverable": "一張回饋單與一項下次可嘗試的調整",
+        "checklist": [
+          "寫出具體內容和原因",
+          "指出一個有幫助的學習步驟",
+          "記錄自己的課堂表現",
+          "整理回饋後選一項調整"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "編輯建議：先挑一件事",
+          "text": "整理回覆時保留不同聲音；先選一項可實行的變動，下次課堂再觀察學生的反應。",
+          "sourceIds": []
+        }
+      ],
+      "overview": {
+        "image": "/assets/overviews/course-feedback-desktop.webp",
+        "mobileImage": "/assets/overviews/course-feedback-mobile.webp",
+        "cardImage": "/assets/overviews/course-feedback-desktop.webp",
+        "alt": "知行與以澄帶領學生回想課程內容、學習步驟及自己的表現。",
+        "caption": "以學生回饋作為下次課程調整的起點。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      },
+      "publishedAt": "2026-10-30T06:31:21+08:00"
     }
   ],
   "demo": {
