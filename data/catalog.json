@@ -119198,6 +119198,424 @@
         "mobileHeight": 1600
       },
       "publishedAt": "2026-10-30T06:35:32+08:00"
+    },
+    {
+      "id": "ai-learning-independent-next-day-check",
+      "title": "把學習方向盤留給自己：AI 進場與退場五步練習",
+      "summary": "先獨立嘗試、找出卡點，邀請 AI 提供回饋，再自行修改，隔天關閉 AI 檢查是否能獨立完成。",
+      "categoryId": "reading",
+      "topicIds": [
+        "learning",
+        "teaching"
+      ],
+      "audience": "想在使用 AI 時保留自主思考的學生與教師",
+      "output": "一份初稿、AI 回饋與隔日獨立作答紀錄",
+      "minutes": 15,
+      "level": "入門",
+      "status": "ready",
+      "contentType": "video_method",
+      "reviewedAt": "2026-10-30",
+      "coverLabel": "AI 自學 · 獨立驗證",
+      "keywords": [
+        "AI 自學",
+        "學習主體性",
+        "獨立驗證",
+        "課堂練習"
+      ],
+      "sourceCoverage": "Notion 原始影片音訊約 19:48，MLX Whisper 自動辨識約 00:00–19:47；15:54–16:11 有間斷、片尾重複，尚未逐句人工聽校。本文五步取自節目約 11:14–12:03；題目、時間、提示詞與資料核對方式為編輯延伸。節目轉述訪談與報告，本文未另核對原始文件。",
+      "sources": [
+        {
+          "id": "original",
+          "title": "別讓 AI 變成孩子的代駕，把學習的方向盤重新握回自己手裡",
+          "kind": "video",
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=R7T4KXpDnE4",
+          "channel": "飛碟聯播網《陶色新聞》",
+          "videoId": "R7T4KXpDnE4",
+          "note": "字幕為自動辨識，未逐句人工校聽；節目轉述之訪談及報告未另行核對。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "自己先試",
+          "action": "先用自己的話寫下題目、目標與初步解法；卡住也先記錄目前做到哪裡。",
+          "why": "節目提出先獨立嘗試；寫下目標及初稿是編輯安排。",
+          "example": "編輯例子：讀短文後，先自己回答問題並圈出文本依據。",
+          "check": "留下一份自己的初步答案。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 674,
+              "endSeconds": 679
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "找出卡點",
+          "action": "圈出不確定的地方，說清楚自己試過什麼、哪一步不懂。",
+          "why": "節目第二步是暴露問題，讓學習者先找到自己的疑惑。",
+          "example": "編輯例子：我找到兩句證據，但不確定哪句支持主旨。",
+          "check": "寫出一個具體問題。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 679,
+              "endSeconds": 681
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "讓 AI 提供回饋",
+          "action": "請 AI 針對卡點解釋或給提示，再自己核對其建議。",
+          "why": "節目將 AI 的回饋與解釋視為協助學習的環節。",
+          "example": "編輯提示詞：『我做到＿＿，卡在＿＿。請先給一個提示，不要直接給完整答案；再問我一題。』",
+          "check": "保留一項回饋，並回原文或可信來源確認。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 681,
+              "endSeconds": 684
+            },
+            {
+              "sourceId": "original",
+              "startSeconds": 696,
+              "endSeconds": 707
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "自己修改完成",
+          "action": "依自己的理解修改答案，記下是否採用 AI 建議及原因。",
+          "why": "節目提出修改完成；記錄採用理由是編輯設計。",
+          "example": "編輯例子：AI 指出的證據若不存在原文，就不採用。",
+          "check": "修改後的答案有自己的判斷與可核對依據。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 684,
+              "endSeconds": 686
+            }
+          ]
+        },
+        {
+          "id": "step-5",
+          "title": "隔天獨立驗證",
+          "action": "隔天關掉 AI，用自己的話重做同題或一題相似題，說明關鍵步驟；不會的地方再標記。",
+          "why": "節目提出隔日獨立驗證，確認離開 AI 後是否仍能完成；相似題與補救是編輯延伸。",
+          "example": "編輯例子：不看 AI 記錄，再說一次自己判斷主旨的理由。",
+          "check": "留下隔日的獨立作答，不把一次表現當成能力定論。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 686,
+              "endSeconds": 723
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "AI 進場與退場",
+          "note": "題目與提示詞為編輯延伸。",
+          "nodes": [
+            {
+              "id": "n1",
+              "label": "自己先試",
+              "detail": "留下初稿"
+            },
+            {
+              "id": "n2",
+              "label": "找出卡點",
+              "detail": "說清問題"
+            },
+            {
+              "id": "n3",
+              "label": "AI 回饋",
+              "detail": "核對建議"
+            },
+            {
+              "id": "n4",
+              "label": "自己修改",
+              "detail": "保留判斷"
+            },
+            {
+              "id": "n5",
+              "label": "隔日獨立",
+              "detail": "關閉 AI 再試"
+            }
+          ],
+          "edges": [
+            {
+              "from": "n1",
+              "to": "n2"
+            },
+            {
+              "from": "n2",
+              "to": "n3"
+            },
+            {
+              "from": "n3",
+              "to": "n4"
+            },
+            {
+              "from": "n4",
+              "to": "n5"
+            }
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "五步驟一定能提升每位學生的學習成績。",
+          "status": "unverified",
+          "explanation": "節目介紹方法與觀點；本文未進行班級試教或成效驗證。",
+          "sourceIds": [
+            "original"
+          ],
+          "checkedAt": "2026-10-30"
+        }
+      ],
+      "pitfalls": [
+        "AI 可能解錯或杜撰內容，應回原文與可信資料核對。",
+        "一次獨立作答不完整可作為後續協助的線索，不宜單次判定能力。",
+        "上傳學生資料或作品前，應依學校規範處理。"
+      ],
+      "practice": {
+        "title": "閱讀題的方向盤練習",
+        "minutes": 15,
+        "prompt": "編輯設計：用 3 分鐘先作答、2 分鐘寫卡點、4 分鐘請 AI 提示並核對、4 分鐘自己修改、2 分鐘說明依據。隔日再用 3 分鐘獨立重做。",
+        "deliverable": "一份初稿、一項卡點、一條經核對的回饋與隔日作答",
+        "checklist": [
+          "保留自己先做的答案",
+          "提出一個具體卡點",
+          "核對 AI 建議並說明取捨",
+          "隔天關掉 AI 自行作答"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "編輯提示：AI 需要退出的時間",
+          "text": "AI 能協助找線索，但關掉後能否說明理由，才是了解自己目前掌握程度的一個線索。",
+          "sourceIds": []
+        }
+      ],
+      "overview": {
+        "image": "/assets/overviews/ai-agency-desktop.webp",
+        "mobileImage": "/assets/overviews/ai-agency-mobile.webp",
+        "cardImage": "/assets/overviews/ai-agency-desktop.webp",
+        "alt": "學習者握住方向盤，依序先試、找卡點、請 AI 回饋、修改並獨立驗證。",
+        "caption": "提示詞與閱讀題時間安排為編輯延伸。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      },
+      "publishedAt": "2026-10-30T06:42:31+08:00"
+    },
+    {
+      "id": "english-echo-pause-repeat-record",
+      "title": "英語回音練習：聽完先停一下，再回想、開口、錄音比較",
+      "summary": "挑短句理解意思，聽完暫停、回想聲音後再開口，錄下自己的聲音與原聲比較。",
+      "categoryId": "reading",
+      "topicIds": [
+        "learning",
+        "strategies"
+      ],
+      "audience": "想練習英語短句節奏與發音的自學者",
+      "output": "一段短句錄音與一個下次練習重點",
+      "minutes": 10,
+      "level": "入門",
+      "status": "ready",
+      "contentType": "video_method",
+      "reviewedAt": "2026-10-30",
+      "coverLabel": "英語口說 · 回音練習",
+      "keywords": [
+        "英語口說",
+        "回音法",
+        "發音練習",
+        "錄音比較"
+      ],
+      "sourceCoverage": "指定 Notion 影片 MP3 約 15:05，whisper.cpp small 自動字幕約 00:00–15:02，末約 3 秒缺字幕，尚未逐句人工聽校。練習依影片約 11:40–13:30 整理；素材難度、次數、比較焦點及不追求一模一樣為編輯調整。影片對記憶機制、學習效率及個人成就的說法未另核對。",
+      "sources": [
+        {
+          "id": "original",
+          "title": "為什麼你的英文越練越油？這三個死穴中一個就十年白練！學會回音法",
+          "kind": "video",
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=StcfvDFM7LQ",
+          "channel": "brain 學霸",
+          "videoId": "StcfvDFM7LQ",
+          "note": "字幕為自動辨識，未逐句人工聽校；神經與成效主張未另行查核。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "挑一段短素材",
+          "action": "選一段有音訊及文字的英語材料，先弄懂句子與詞組的大意。",
+          "why": "影片建議選有文字檔的短音訊，先查懂再練。",
+          "example": "影片舉生活對話為例；編輯補充可從自己程度適合的一句話開始。",
+          "check": "找到音訊與文字，能說出句子大意。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 700,
+              "endSeconds": 730
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "聽完暫停，先回想",
+          "action": "播放一個短語句後按暫停，等兩三秒，在心中回想剛聽見的聲音。",
+          "why": "影片將短暫停頓與回想列為回音練習的關鍵步驟。",
+          "example": "如果一次記不住，可縮短片段、重聽一次；這是編輯補充。",
+          "check": "聽完先不急著同步開口，試著回想音調與節奏。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 732,
+              "endSeconds": 770
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "再開口說出來",
+          "action": "依剛才聽到的節奏，用舒服的聲音說出短句。",
+          "why": "影片建議在回想之後模仿語音、語調與停頓。",
+          "example": "先挑一個容易辨認的停頓或重音模仿，不必要求完全一模一樣。",
+          "check": "能說出短句，並留意一個聲音特徵。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 770,
+              "endSeconds": 792
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "錄音與原聲比較",
+          "action": "錄下自己的練習，與原聲比較，選一個差異作為下一次練習重點。",
+          "why": "影片建議錄音對照，再進入後續跟讀練習；比較焦點為編輯建議。",
+          "example": "編輯例子：只比較某個單字的重音或句尾語調。",
+          "check": "留下錄音與一個下次想試的重點。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 792,
+              "endSeconds": 810
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "從聽到錄音比較",
+          "note": "挑選單一比較焦點為編輯建議。",
+          "nodes": [
+            {
+              "id": "n1",
+              "label": "選短句",
+              "detail": "先懂意思"
+            },
+            {
+              "id": "n2",
+              "label": "聽完暫停",
+              "detail": "回想聲音"
+            },
+            {
+              "id": "n3",
+              "label": "開口說",
+              "detail": "留意節奏"
+            },
+            {
+              "id": "n4",
+              "label": "錄音比較",
+              "detail": "選一個重點"
+            }
+          ],
+          "edges": [
+            {
+              "from": "n1",
+              "to": "n2"
+            },
+            {
+              "from": "n2",
+              "to": "n3"
+            },
+            {
+              "from": "n3",
+              "to": "n4"
+            }
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "暫停兩三秒一定能繞過母語干擾，或保證提升所有人的口說能力。",
+          "status": "unverified",
+          "explanation": "影片提出聲音記憶與學習效率的解釋；本文未核對原始研究，亦未驗證練習成效。",
+          "sourceIds": [
+            "original"
+          ],
+          "checkedAt": "2026-10-30"
+        }
+      ],
+      "pitfalls": [
+        "先理解材料意思，再練發音；程度不合適時可縮短片段。",
+        "不必追求口音完全一致，優先用舒適、清楚的聲音練習。",
+        "影片對心理機制與練習效率的說法未經本文獨立查核。"
+      ],
+      "practice": {
+        "title": "一句話的回音練習",
+        "minutes": 10,
+        "prompt": "編輯設計：選一句看得懂的短句，聽完按暫停，回想兩三秒再說出來；錄音比較，選一個重音或停頓下次再試。",
+        "deliverable": "一段短句錄音與一個比較重點",
+        "checklist": [
+          "先理解短句意思",
+          "聽完暫停並回想",
+          "用舒適音量開口",
+          "錄音比較並記下一個重點"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "編輯提示：比較一件事就好",
+          "text": "不用一次修改所有細節。可以先聽句尾語調或某個字的重音，再用下一次練習觀察變化。",
+          "sourceIds": []
+        }
+      ],
+      "overview": {
+        "image": "/assets/overviews/english-echo-desktop.webp",
+        "mobileImage": "/assets/overviews/english-echo-mobile.webp",
+        "cardImage": "/assets/overviews/english-echo-desktop.webp",
+        "alt": "方法練習室夥伴用耳機、暫停與錄音比較練習英語短句。",
+        "caption": "練習安排為編輯調整，影片成效主張未另行驗證。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      },
+      "publishedAt": "2026-10-30T06:42:31+08:00"
     }
   ],
   "demo": {
