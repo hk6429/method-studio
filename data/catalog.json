@@ -122162,6 +122162,194 @@
         "mobileHeight": 1600
       },
       "publishedAt": "2026-10-30T08:17:48+08:00"
+    },
+    {
+      "id": "english-picture-writing-observe-question-act",
+      "title": "英語看圖寫作：先描述畫面，再連結問題與行動",
+      "summary": "先寫圖片中可確認的細節，再連到一個相關問題，最後提出可行行動並回讀核對。",
+      "categoryId": "reading",
+      "topicIds": [
+        "learning",
+        "teaching"
+      ],
+      "audience": "練習英語看圖寫作的學生與教師",
+      "output": "一份區分觀察與推論的短文草稿",
+      "minutes": 15,
+      "level": "入門",
+      "status": "ready",
+      "contentType": "video_method",
+      "reviewedAt": "2026-10-30",
+      "coverLabel": "英語寫作 · 圖片到行動",
+      "keywords": [
+        "英語寫作",
+        "看圖寫作",
+        "圖片觀察",
+        "寫作練習"
+      ],
+      "sourceCoverage": "指定 Notion 影片 MP3 約 19:48，whisper.cpp small 自動字幕涵蓋約全片；尚未逐句人工聽校或檢視畫面，字幕有中英文辨識錯誤。本文依 04:25–06:25、06:34–09:34、11:40–15:34 的範文講解整理；三段流程、句框、校園例子及時間安排為編輯延伸，並非唯一寫作公式，未試教。",
+      "sources": [
+        {
+          "id": "original",
+          "title": "寫作素養專欄：英文寫作課，看圖寫作",
+          "kind": "video",
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=vxvEiR1BxoI",
+          "channel": "LIVE 互動英語",
+          "videoId": "vxvEiR1BxoI",
+          "note": "自動字幕尚未逐句人工聽校或核對畫面；依講者的範文解說整理。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "先描述畫面",
+          "action": "寫出圖片中可確認的人、地點與動作，再補充看得到的細節。",
+          "why": "影片範文從一群人淨灘及畫面細節開始；提問與整理方式為編輯設計。",
+          "example": "編輯句框：The picture shows ___. I can see ___.",
+          "check": "區分實際可見的資訊與尚未確認的猜測。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 292,
+              "endSeconds": 385
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "連到一個問題",
+          "action": "從圖片提出一個相關問題，寫下它為什麼值得關注；涉及事實時另行查證。",
+          "why": "影片範文由淨灘連到塑膠污染與海洋生物；這一題的設計為編輯延伸。",
+          "example": "編輯句框：The picture makes me think about ___.",
+          "check": "能指出圖片線索，並標記需要查證的說法。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 394,
+              "endSeconds": 574
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "提出具體行動",
+          "action": "說明圖片提醒了自己什麼，再寫一個可採取的行動及它如何回應問題。",
+          "why": "影片範文談減少一次性塑膠、回收或參與清潔；步驟為編輯依範文結構整理。",
+          "example": "編輯句框：We can ___. This may help ___.",
+          "check": "行動具體，且與前面提到的問題相關。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 700,
+              "endSeconds": 934
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "回讀並核對",
+          "action": "依畫面、問題、行動的順序回讀，請同學圈出觀察與推論，檢查是否混在一起。",
+          "why": "互讀、分類與檢查為編輯設計，幫助學生保留圖片依據。",
+          "example": "圖片沒有顯示的心情或原因，可標為推測，不直接寫成事實。",
+          "check": "確認圖片描述、事實主張與自己的想法各有依據。",
+          "contribution": "editorial",
+          "sourceRefs": []
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "從畫面到自己的行動",
+          "note": "流程、句框及檢查方式為編輯延伸。",
+          "nodes": [
+            {
+              "id": "n1",
+              "label": "看見什麼",
+              "detail": "可確認細節"
+            },
+            {
+              "id": "n2",
+              "label": "想到問題",
+              "detail": "標記待查"
+            },
+            {
+              "id": "n3",
+              "label": "可以怎麼做",
+              "detail": "提出行動"
+            },
+            {
+              "id": "n4",
+              "label": "回讀核對",
+              "detail": "分清觀察推論"
+            }
+          ],
+          "edges": [
+            {
+              "from": "n1",
+              "to": "n2"
+            },
+            {
+              "from": "n2",
+              "to": "n3"
+            },
+            {
+              "from": "n3",
+              "to": "n4"
+            }
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "看圖寫作一定只能依畫面、問題、行動三段完成。",
+          "status": "unverified",
+          "explanation": "這是編輯依影片範文整理的練習順序，並非唯一寫作公式，未試教。",
+          "sourceIds": [
+            "original"
+          ],
+          "checkedAt": "2026-10-30"
+        }
+      ],
+      "pitfalls": [
+        "圖片沒顯示的原因或心情應標為推測，不直接當成事實。",
+        "涉及科學數據或其他事實主張時應另行查證。",
+        "句框與範文應依學生程度與實際情境調整。"
+      ],
+      "practice": {
+        "title": "一張照片的三段練習",
+        "minutes": 15,
+        "prompt": "編輯設計：觀察一張可使用的照片，寫可見細節、相關問題與一個行動；互讀時分別圈出觀察和推論。",
+        "deliverable": "短文草稿與一處核對紀錄",
+        "checklist": [
+          "寫出可見的人或動作",
+          "提出相關問題",
+          "寫一個具體行動",
+          "區分觀察與推論"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "編輯提示：允許不同解讀",
+          "text": "學生可以提出不同的想法；說明圖片線索與自己的推論，就有討論空間。",
+          "sourceIds": []
+        }
+      ],
+      "overview": {
+        "image": "/assets/overviews/english-picture-writing-desktop.webp",
+        "mobileImage": "/assets/overviews/english-picture-writing-mobile.webp",
+        "cardImage": "/assets/overviews/english-picture-writing-desktop.webp",
+        "alt": "方法練習室夥伴觀察圖片，區分推論並寫出可行行動。",
+        "caption": "練習流程與句框為編輯延伸。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      },
+      "publishedAt": "2026-10-30T08:35:25+08:00"
     }
   ],
   "demo": {
