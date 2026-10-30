@@ -121574,6 +121574,205 @@
         "mobileHeight": 1600
       },
       "publishedAt": "2026-10-30T07:55:44+08:00"
+    },
+    {
+      "id": "student-report-survey-interview-evidence",
+      "title": "學生報導別只問 AI：用一次調查和一次訪問找第一手資料",
+      "summary": "選一個可調查的問題，修改調查題、安排訪問，再並列資料與差異，寫出有來源的報導。",
+      "categoryId": "reading",
+      "topicIds": [
+        "teaching",
+        "learning"
+      ],
+      "audience": "帶學生進行社區踏查與專題報導的教師",
+      "output": "一份調查與訪問規劃，以及有來源的短報導",
+      "minutes": 20,
+      "level": "入門",
+      "status": "ready",
+      "contentType": "video_method",
+      "reviewedAt": "2026-10-30",
+      "coverLabel": "專題報導 · 第一手資料",
+      "keywords": [
+        "社區踏查",
+        "訪問",
+        "問卷",
+        "專題報導"
+      ],
+      "sourceCoverage": "指定 Notion 影片音訊約 01:41:36；whisper.cpp tiny 自動字幕涵蓋全片時間，尚未全文審讀或逐句人工聽校。本文主要取 31:31–32:08、34:53–36:03、49:15–50:00 及 50:54–51:22。影片分享學生報導要求一次調查與一次訪問、修改生成題目與如實呈現；五步安排、午餐例題及備課卡為編輯延伸，尚未試教。",
+      "sources": [
+        {
+          "id": "original",
+          "title": "應用 AI 從社會課本走入社區踏查與校本課程專題研究",
+          "kind": "video",
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=jnYnFrRjdl8",
+          "channel": "教師研習分享",
+          "videoId": "jnYnFrRjdl8",
+          "note": "陳香吟老師分享；自動字幕未逐句人工聽校或核對畫面。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "縮小一個報導問題",
+          "action": "選一個學生在意、能透過調查或訪問了解的問題，寫下預定對象與想知道的事。",
+          "why": "影片分享以學生關心的議題做報導，要求至少一次訪問與一次調查。",
+          "example": "編輯例子：同學選午餐時最在意什麼？",
+          "check": "問題足夠具體，能說明打算向誰了解。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 1891,
+              "endSeconds": 1928
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "設計並修改調查",
+          "action": "草擬少量調查題，檢查題意、選項與是否真的需要個資，先找人試填再修改。",
+          "why": "影片示範生成表單後，提醒預設題目不一定符合研究問題，仍須自行修改。",
+          "example": "編輯示範：先問選擇午餐時在意什麼，再讓試填者指出不清楚的選項。",
+          "check": "題目對應研究問題、避免不必要個資。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 2093,
+              "endSeconds": 2163
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "安排一次訪問",
+          "action": "邀請願意受訪的人，先說明用途並取得同意，準備開放題與記錄方式。",
+          "why": "影片要求學生蒐集訪問資料；另一段示範提到可安排不同身分的對象並如實呈現。",
+          "example": "編輯提問：『你選擇午餐時最在意什麼？可以說一個例子嗎？』",
+          "check": "受訪者同意用途，記下回答與日期。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 1891,
+              "endSeconds": 1928
+            },
+            {
+              "sourceId": "original",
+              "startSeconds": 2955,
+              "endSeconds": 3000
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "比較材料，再寫報導",
+          "action": "並列調查結果與訪問內容，保留一致或不同的聲音，寫出對象、數量與資料來源。",
+          "why": "影片強調第一手材料與如實呈現；比較、標記樣本限制及寫作格式是編輯延伸。",
+          "example": "調查和訪問若不一致，先回看問題及對象，不強行湊成結論。",
+          "check": "推測與資料分開，引用前再次確認。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 3054,
+              "endSeconds": 3082
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "從問題到第一手資料",
+          "note": "題目、比較與備課安排為編輯延伸。",
+          "nodes": [
+            {
+              "id": "n1",
+              "label": "選問題",
+              "detail": "確定對象"
+            },
+            {
+              "id": "n2",
+              "label": "設計調查",
+              "detail": "試填修改"
+            },
+            {
+              "id": "n3",
+              "label": "邀請訪問",
+              "detail": "先取得同意"
+            },
+            {
+              "id": "n4",
+              "label": "比較寫作",
+              "detail": "交代來源限制"
+            }
+          ],
+          "edges": [
+            {
+              "from": "n1",
+              "to": "n2"
+            },
+            {
+              "from": "n2",
+              "to": "n3"
+            },
+            {
+              "from": "n3",
+              "to": "n4"
+            }
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "一次調查加一次訪問就能代表所有人的看法。",
+          "status": "unverified",
+          "explanation": "蒐集到的資料受對象、人數和問題設計限制；不能直接推論為全體意見。",
+          "sourceIds": [
+            "original"
+          ],
+          "checkedAt": "2026-10-30"
+        }
+      ],
+      "pitfalls": [
+        "先依校內規範取得必要同意，只蒐集確實需要的資料。",
+        "未獲授權不要公開個人資訊，或把訪談原文交給外部 AI。",
+        "AI 產生的問卷須自行修改，調查人數與樣本限制要說清楚。"
+      ],
+      "practice": {
+        "title": "二十分鐘報導備課卡",
+        "minutes": 20,
+        "prompt": "編輯設計：寫一個問題、三個調查題及兩個訪問題；請同儕試填試問後修改，列出蒐集與呈現的對象、數量和限制。實際發放及採訪另需安排時間。",
+        "deliverable": "一份調查與訪問規劃",
+        "checklist": [
+          "問題和對象明確",
+          "調查題經試填修正",
+          "訪問前說明用途與同意",
+          "寫作時交代資料來源和限制"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "編輯提示：不同聲音可以並存",
+          "text": "調查和訪問不一致時，先檢查問題與對象，保留差異，不把少數回答直接說成全體。",
+          "sourceIds": []
+        }
+      ],
+      "overview": {
+        "image": "/assets/overviews/student-field-report-desktop.webp",
+        "mobileImage": "/assets/overviews/student-field-report-mobile.webp",
+        "cardImage": "/assets/overviews/student-field-report-desktop.webp",
+        "alt": "方法練習室夥伴設計調查、邀請訪問並比較第一手資料。",
+        "caption": "備課卡與資料比較為編輯延伸；採訪應先取得必要同意。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      },
+      "publishedAt": "2026-10-30T08:02:01+08:00"
     }
   ],
   "demo": {
