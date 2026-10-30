@@ -122350,6 +122350,192 @@
         "mobileHeight": 1600
       },
       "publishedAt": "2026-10-30T08:35:25+08:00"
+    },
+    {
+      "id": "compare-three-ai-answers-and-reasons",
+      "title": "同一個問題，問三個 AI：練習比較回答並說明理由",
+      "summary": "先寫自己的想法，再用同題比較三個 AI 的回答，核對事實後說明自己的選擇。",
+      "categoryId": "reading",
+      "topicIds": [
+        "learning",
+        "teaching"
+      ],
+      "audience": "想帶學生練習判斷 AI 回答的教師",
+      "output": "一張三份回答比較表與自己的結論",
+      "minutes": 20,
+      "level": "入門",
+      "status": "ready",
+      "contentType": "article_method",
+      "reviewedAt": "2026-10-30",
+      "coverLabel": "AI 素養 · 比較與判斷",
+      "keywords": [
+        "AI 素養",
+        "比較回答",
+        "判斷理由",
+        "查證"
+      ],
+      "sourceCoverage": "指定 Notion 的 Podcast 音訊 MP3 約 32:07，whisper.cpp small 自動字幕至約 31:56，末約 11 秒無字幕；尚未逐句人工聽校。節目約 09:14–09:49 提到同一題詢問不同 AI、比較回答並說明選擇；初步想法、表格、查證與課堂情境為編輯延伸，尚未試教。",
+      "sources": [
+        {
+          "id": "original",
+          "title": "K歌Su房｜AI 時代，老師最該教學生的生存技能是什麼？Podcast 節目頁",
+          "kind": "article",
+          "url": "https://open.firstory.fm/story/cmvt8nyv3015u01vh3fecf9ji",
+          "channel": "翻轉教育 Podcast",
+          "note": "來源是 Podcast 音訊；自動字幕尚未人工逐句聽校。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "先寫自己的想法",
+          "action": "選一個適合比較觀點的問題，先用兩句話寫下自己的初步想法與理由。",
+          "why": "這是編輯設計，讓學生在看到 AI 回答前保留自己的起點。",
+          "example": "編輯例子：學校減少一次性用品，可以先從哪裡開始？",
+          "check": "寫下一個初步主張與理由。",
+          "contribution": "editorial",
+          "sourceRefs": []
+        },
+        {
+          "id": "step-2",
+          "title": "問相同的問題",
+          "action": "將相同問題交給三個可使用的 AI，保留各自回答；無法讓學生登入時，可由教師準備回答。",
+          "why": "節目提到對不同模型提出同一個問題，再比較回答。",
+          "example": "教師先確認可使用的帳號與學校規範，不輸入學生個資。",
+          "check": "三份回答來自同一個問題。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 554,
+              "endSeconds": 589
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "並排比較回答",
+          "action": "將回答的主張、理由和建議分欄整理，標出相同與不同的地方。",
+          "why": "節目提到比較不同 AI 的回答；三欄表格為編輯設計。",
+          "example": "編輯示範：一欄寫建議、一欄寫理由、一欄寫尚待確認的資訊。",
+          "check": "至少指出一個相同處與一個不同處。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 554,
+              "endSeconds": 589
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "說明自己的選擇並查證",
+          "action": "選出適合情境的建議，說明理由與不足，再用可信資料核對涉及事實的部分。",
+          "why": "節目要求學生比較後說明哪個回答較好及原因；查證與整合為編輯延伸。",
+          "example": "編輯追問：『如果對象從學校換成社區，你的判斷會改變嗎？』",
+          "check": "自己的結論有理由，且不把多個 AI 一致當成正確證明。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 554,
+              "endSeconds": 589
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "從比較走向自己的判斷",
+          "note": "表格與課堂情境為編輯設計。",
+          "nodes": [
+            {
+              "id": "n1",
+              "label": "先寫想法",
+              "detail": "保留起點"
+            },
+            {
+              "id": "n2",
+              "label": "問同一題",
+              "detail": "保留回答"
+            },
+            {
+              "id": "n3",
+              "label": "並排比較",
+              "detail": "找異同"
+            },
+            {
+              "id": "n4",
+              "label": "說明選擇",
+              "detail": "查證事實"
+            }
+          ],
+          "edges": [
+            {
+              "from": "n1",
+              "to": "n2"
+            },
+            {
+              "from": "n2",
+              "to": "n3"
+            },
+            {
+              "from": "n3",
+              "to": "n4"
+            }
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "三個 AI 給出相同答案，就代表答案一定正確。",
+          "status": "unverified",
+          "explanation": "不同工具可能共享錯誤或依據不足；仍需回到可信資料核對。",
+          "sourceIds": [
+            "original"
+          ],
+          "checkedAt": "2026-10-30"
+        }
+      ],
+      "pitfalls": [
+        "選適合討論的問題，不把 AI 的回答當成標準答案。",
+        "使用前確認工具、帳號和學校規範，避免輸入學生個資。",
+        "比較後仍需查證事實，並說明採用與捨棄的理由。"
+      ],
+      "practice": {
+        "title": "三份回答比較卡",
+        "minutes": 20,
+        "prompt": "編輯設計：先寫自己的想法，用同題取得三份 AI 回答，分欄記下主張、理由與待查資訊，最後寫自己的選擇及原因。",
+        "deliverable": "一張比較卡與自己的結論",
+        "checklist": [
+          "先保留自己的想法",
+          "三個工具收到同一題",
+          "指出回答異同",
+          "查證事實並說明選擇"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "編輯提示：無帳號也能比較",
+          "text": "如果學生不適合登入工具，教師可先準備回答供小組比較，並提醒不要輸入個資。",
+          "sourceIds": []
+        }
+      ],
+      "overview": {
+        "image": "/assets/overviews/three-ai-compare-desktop.webp",
+        "mobileImage": "/assets/overviews/three-ai-compare-mobile.webp",
+        "cardImage": "/assets/overviews/three-ai-compare-desktop.webp",
+        "alt": "方法練習室夥伴比較三份 AI 回答，查證後說明自己的判斷。",
+        "caption": "比較表與課堂情境為編輯延伸。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      },
+      "publishedAt": "2026-10-30T08:44:56+08:00"
     }
   ],
   "demo": {
