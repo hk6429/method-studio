@@ -121974,6 +121974,194 @@
         "mobileHeight": 1600
       },
       "publishedAt": "2026-10-30T08:12:33+08:00"
+    },
+    {
+      "id": "handwriting-align-upper-lower-centres",
+      "title": "讓上下結構的字站穩：先找重心，再觀察部件位置",
+      "summary": "觀察字的上下部件，以中線作參考，檢查重心關係，再比較練習前後的字。",
+      "categoryId": "reading",
+      "topicIds": [
+        "learning",
+        "teaching"
+      ],
+      "audience": "想練習硬筆字結構的學習者與教師",
+      "output": "一組上下結構字的比較練習",
+      "minutes": 15,
+      "level": "入門",
+      "status": "ready",
+      "contentType": "video_method",
+      "reviewedAt": "2026-10-30",
+      "coverLabel": "硬筆字 · 上下重心",
+      "keywords": [
+        "硬筆字",
+        "字形結構",
+        "重心",
+        "書寫練習"
+      ],
+      "sourceCoverage": "指定 Notion 影片 MP3 約 07:16，MLX Whisper large-v3-turbo 自動字幕主要講解約 00:13–07:06；片尾疑有靜音重複幻覺，已排除。字幕有錯字，依部分畫面核對例字；未逐句人工聽校或逐格檢查筆畫。比較初稿與圈記為編輯延伸，教學成效未驗證。",
+      "sources": [
+        {
+          "id": "original",
+          "title": "你的字有沒有站直｜重心直對，字不跑位",
+          "kind": "video",
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=F5LPFb08B_4",
+          "channel": "寫字練心",
+          "videoId": "F5LPFb08B_4",
+          "note": "字幕自動辨識有錯字；部分畫面已核對例字，精細筆畫仍須對照原片。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "找出上下部件",
+          "action": "挑一個上下結構的字，觀察上方和下方各由什麼部分組成。",
+          "why": "影片以泉、要、秀、多等字示範上下部件與重心。",
+          "example": "例如泉的上方是白、下方是水。",
+          "check": "能指出字的上下兩部分。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 100,
+              "endSeconds": 163
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "觀察各部件的重心",
+          "action": "想像上下部件各自的視覺重心，留意兩者是否向同一側或不同側偏移。",
+          "why": "影片示範以重心關係觀察上下結構，使整體看起來較穩。",
+          "example": "可先以米字格的垂直中線作觀察參考。",
+          "check": "能指出上下部件大致的位置關係。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 100,
+              "endSeconds": 163
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "對照中線練習",
+          "action": "參照影片示範書寫，觀察上下部件的重心與中線關係，留意字形及比例。",
+          "why": "影片以米字格與重心線示範不同上下結構的字。",
+          "example": "可從影片示範的泉或要開始，暫不追求一次寫好所有字。",
+          "check": "重心線只作觀察參考，不要求每一筆都壓在正中央。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 164,
+              "endSeconds": 243
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "比較後再寫一次",
+          "action": "回看第一次寫的字，選一個部件位置想調整的地方，再寫一次比較。",
+          "why": "影片結尾邀請觀眾拿紙筆練習；保留初稿、比較與圈記是編輯延伸。",
+          "example": "圈出上方或下方偏移的位置，再觀察第二次書寫的差異。",
+          "check": "保留兩次練習，能說出自己調整了什麼。",
+          "contribution": "editorial",
+          "sourceRefs": []
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "從觀察到比較",
+          "note": "重心線是觀察參考，非每一筆都必須居中。",
+          "nodes": [
+            {
+              "id": "n1",
+              "label": "找部件",
+              "detail": "看上下結構"
+            },
+            {
+              "id": "n2",
+              "label": "觀察重心",
+              "detail": "注意位置"
+            },
+            {
+              "id": "n3",
+              "label": "對照中線",
+              "detail": "參考示範"
+            },
+            {
+              "id": "n4",
+              "label": "比較再寫",
+              "detail": "記下一處調整"
+            }
+          ],
+          "edges": [
+            {
+              "from": "n1",
+              "to": "n2"
+            },
+            {
+              "from": "n2",
+              "to": "n3"
+            },
+            {
+              "from": "n3",
+              "to": "n4"
+            }
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "只要對齊重心線，每個人的字都會立即變好。",
+          "status": "unverified",
+          "explanation": "影片提供觀察與練習方式，本文未做書寫成效驗證。",
+          "sourceIds": [
+            "original"
+          ],
+          "checkedAt": "2026-10-30"
+        }
+      ],
+      "pitfalls": [
+        "重心線是觀察參考，不表示每個筆畫都要壓在格子正中央。",
+        "具體字形、比例和筆畫方向應對照原片或可靠字帖。",
+        "字幕有辨識錯字，精細筆畫未逐格核對。"
+      ],
+      "practice": {
+        "title": "上下結構的比較練習",
+        "minutes": 15,
+        "prompt": "編輯設計：先寫一個上下結構的字，參照影片觀察上下部件與中線，再寫一次，圈出一處想調整的位置。",
+        "deliverable": "兩次書寫及一處調整紀錄",
+        "checklist": [
+          "指出上下部件",
+          "觀察各部件位置",
+          "參照影片示範",
+          "比較並記下一處調整"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "編輯提示：看整體，不只看中線",
+          "text": "中線能幫助觀察，但字的筆畫、部件比例與整體平衡仍需一起看。",
+          "sourceIds": []
+        }
+      ],
+      "overview": {
+        "image": "/assets/overviews/handwriting-centre-desktop.webp",
+        "mobileImage": "/assets/overviews/handwriting-centre-mobile.webp",
+        "cardImage": "/assets/overviews/handwriting-centre-desktop.webp",
+        "alt": "方法練習室夥伴觀察上下部件、重心與中線，再比較練習。",
+        "caption": "重心線是觀察參考；具體字形請對照原片。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      },
+      "publishedAt": "2026-10-30T08:17:48+08:00"
     }
   ],
   "demo": {
