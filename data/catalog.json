@@ -123522,6 +123522,198 @@
         "mobileHeight": 1600
       },
       "publishedAt": "2026-10-30T09:41:44+08:00"
+    },
+    {
+      "id": "ai-draft-sentence-progress-check",
+      "title": "每一句都有新意思嗎？用逐句檢查修訂 AI 草稿",
+      "summary": "先留下自己的原意，再逐句找出重複、補上真實細節，最後由作者決定怎麼修改。",
+      "categoryId": "reading",
+      "topicIds": [
+        "strategies",
+        "teaching"
+      ],
+      "audience": "想保留自己觀點並檢查 AI 修改建議的寫作者與教師",
+      "output": "一張逐句檢查與修改決策表",
+      "minutes": 20,
+      "level": "入門",
+      "status": "ready",
+      "contentType": "article_method",
+      "reviewedAt": "2026-10-30",
+      "coverLabel": "寫作修訂 · 逐句檢查",
+      "keywords": [
+        "寫作修訂",
+        "AI 寫作",
+        "逐句檢查",
+        "來源查證"
+      ],
+      "sourceCoverage": "指定 Notion Podcast 節目音訊約 20:08，MLX Whisper large-v3-turbo 自動轉錄全段；未完整人工聽校，辨識及時間可能有誤。節目討論同義反覆、細節、個人比喻與先列修改建議；逐句標記、查證和練習表為編輯設計。節目含課程推廣；方法為講者經驗分享。",
+      "sources": [
+        {
+          "id": "original",
+          "title": "Podcast 節目頁：當個會指揮 AI 的作文高手",
+          "kind": "article",
+          "url": "https://player.soundon.fm/p/73930beb-4136-4b36-a910-39984335b7bb/episodes/712fcd7a-6839-4822-b7be-509e38ec0e1f",
+          "channel": "吳淡如人生實用商學院",
+          "note": "來源為 Podcast 音訊；本機機器轉錄尚未完整人工聽校。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "先寫下自己的原意",
+          "action": "寫下這段文字的主張、讀者與已有材料；請 AI 先列出可以修改之處，不急著重寫。",
+          "why": "依節目討論整理；標記方式與完成判準為編輯設計。",
+          "example": "編輯示範：列出一個觀點與兩項已有材料。",
+          "check": "讀者與核心主張清楚可辨。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "逐句檢查有沒有推進",
+          "action": "逐句標記新的事實、理由或觀點；若只是同義反覆，考慮合併或刪除。",
+          "why": "依節目討論整理；標記方式與完成判準為編輯設計。",
+          "example": "編輯示範：兩句都只說「讀書很重要」時，檢查第二句是否增加理由。",
+          "check": "每一處刪改都有明確原因。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "補上真實而具體的細節",
+          "action": "對空泛敘述，回到自己的觀察或可核對資料，補上有根據的內容。",
+          "why": "依節目討論整理；標記方式與完成判準為編輯設計。",
+          "example": "編輯示範：把空泛描述改成自己確實觀察到的課堂情境。",
+          "check": "每項細節有來源，沒有依據就先保留空白。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "逐項決定並回查",
+          "action": "把 AI 建議標成採用、保留或待查；核對資料來源後由作者決定。",
+          "why": "依節目討論整理；標記方式與完成判準為編輯設計。",
+          "example": "編輯示範：保留能表達原意的個人比喻，對數字回到原始資料。",
+          "check": "保留作者原意，待查內容不冒充事實。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "逐句檢查與作者決定",
+          "note": "標記與查證流程是編輯整理。",
+          "nodes": [
+            {
+              "id": "n1",
+              "label": "先寫下自己的原意",
+              "detail": "讀者與核心主張清楚可辨。"
+            },
+            {
+              "id": "n2",
+              "label": "逐句檢查有沒有推進",
+              "detail": "每一處刪改都有明確原因。"
+            },
+            {
+              "id": "n3",
+              "label": "補上真實而具體的細節",
+              "detail": "每項細節有來源，沒有依據就先保留空白。"
+            },
+            {
+              "id": "n4",
+              "label": "逐項決定並回查",
+              "detail": "保留作者原意，待查內容不冒充事實。"
+            }
+          ],
+          "edges": [
+            {
+              "from": "n1",
+              "to": "n2"
+            },
+            {
+              "from": "n2",
+              "to": "n3"
+            },
+            {
+              "from": "n3",
+              "to": "n4"
+            }
+          ]
+        }
+      ],
+      "practice": {
+        "title": "編輯練習：標出一句話的新資訊",
+        "minutes": 20,
+        "prompt": "拿一段自己的文字，逐句標記新資訊、重複或待查。請 AI 先列修改建議，不要補造事實；逐項審核後再改。",
+        "deliverable": "一段附有修改理由與待查標記的文字",
+        "checklist": [
+          "先寫下作者原意",
+          "逐句標出新資訊或重複",
+          "細節有來源或明示待查",
+          "由作者決定採用與否"
+        ]
+      },
+      "pitfalls": [
+        "不是所有重複都要刪；有意識的強調與節奏可以保留。",
+        "AI 不能替你補造親身經驗或資料。",
+        "另一個模型也可能出錯；引述、數字與人名仍需回原始來源核對。"
+      ],
+      "supplements": [
+        {
+          "title": "編輯示範：請 AI 先提出建議",
+          "text": "請標出意思重複、需要證據或空泛的句子，說明原因；保留我的語氣，不要補造事實，也先不要重寫。",
+          "sourceIds": []
+        }
+      ],
+      "validation": [
+        {
+          "claim": "逐句檢查或 AI 潤稿一定能讓作文得到更高分",
+          "status": "unverified",
+          "explanation": "節目是個人寫作經驗分享，未提供支持普遍成效的研究；實際結果取決於寫作情境與修改品質。",
+          "sourceIds": [
+            "original"
+          ],
+          "checkedAt": "2026-10-30"
+        }
+      ],
+      "overview": {
+        "image": "/assets/overviews/ai-draft-sentence-check-desktop.webp",
+        "mobileImage": "/assets/overviews/ai-draft-sentence-check-mobile.webp",
+        "cardImage": "/assets/overviews/ai-draft-sentence-check-desktop.webp",
+        "alt": "小硯陪讀者逐句檢查 AI 草稿並保留作者決定。",
+        "caption": "逐句檢查表為編輯設計，資料仍須回原文查證。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      },
+      "publishedAt": "2026-10-30T09:43:59+08:00"
     }
   ],
   "demo": {
