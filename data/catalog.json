@@ -121773,6 +121773,207 @@
         "mobileHeight": 1600
       },
       "publishedAt": "2026-10-30T08:02:01+08:00"
+    },
+    {
+      "id": "short-sentence-compare-language-patterns",
+      "title": "用短句觀察語言規則：並排比較，再帶回真實情境",
+      "summary": "選幾個簡短句子並排比較，觀察語序與形式變化，再用新情境測試並核對。",
+      "categoryId": "reading",
+      "topicIds": [
+        "learning",
+        "strategies"
+      ],
+      "audience": "想從例句觀察英文基本結構的學習者",
+      "output": "一張例句比較卡與一個待查問題",
+      "minutes": 15,
+      "level": "入門",
+      "status": "ready",
+      "contentType": "video_method",
+      "reviewedAt": "2026-10-30",
+      "coverLabel": "語言學習 · 例句比較",
+      "keywords": [
+        "英文文法",
+        "例句比較",
+        "語序",
+        "自學"
+      ],
+      "sourceCoverage": "指定 Notion 影片 MP3 約 21:55，whisper.cpp small 自動字幕至約 21:49；尚未逐句人工聽校。影片約 10:00–15:00 分享並排比較短句中的語序與形式；下文例句、卡片與檢查方式為編輯設計。影片對學習效率、腦科學及人物經歷的說法未另行查證。",
+      "sources": [
+        {
+          "id": "original",
+          "title": "別再像嬰兒一樣學英語：用短句觀察語言結構",
+          "kind": "video",
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=dEJpNiL2yzo",
+          "channel": "brain 學霸",
+          "videoId": "dEJpNiL2yzo",
+          "note": "自動字幕未逐句人工聽校；效率與人物經歷未查證。"
+        },
+        {
+          "id": "grammar",
+          "title": "Clauses: introduction, main and subordinate clauses",
+          "kind": "official",
+          "url": "https://dictionary.cambridge.org/us/grammar/british-grammar/clauses-subordinate",
+          "note": "編輯補充：以可信語法資料核對子句與結構。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "選幾個短句",
+          "action": "從教材選幾個意思相近、結構不同的短句，先確認意思與來源。",
+          "why": "影片分享以一組短句觀察語言結構；選材與來源檢查為編輯安排。",
+          "example": "編輯例句：I read a book. 與 She reads a book. 可先看主詞和動詞的變化。",
+          "check": "每句都有可回查的來源，並理解大意。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 600,
+              "endSeconds": 660
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "並排比較",
+          "action": "把短句排在一起，標出主詞、動詞或其他想觀察的部分。",
+          "why": "影片示範比較短句以觀察語序、代名詞和動詞形式。",
+          "example": "編輯示範：比較 I read 與 She reads 的主詞與動詞形式。",
+          "check": "能指出一個相同處及一個不同處。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 660,
+              "endSeconds": 710
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "記下差異並核對",
+          "action": "用自己的話寫下觀察到的差異，再對照教材、辭典或可信語法資料。",
+          "why": "影片以短句整理結構；紀錄與查證為編輯延伸，避免把少數例句當成完整規則。",
+          "example": "編輯示範：這兩句的主詞不同，動詞形式也不同；再查語法確認適用範圍。",
+          "check": "觀察與尚待確認的問題分開記錄。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "grammar"
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "放回真實情境再試",
+          "action": "找一段程度合適的真實對話或文章，看看相似結構如何使用，並試寫或說出自己的句子。",
+          "why": "影片也提醒僅靠幾個短句不足以涵蓋複雜語境；練習方式為編輯設計。",
+          "example": "寫一句關於自己今天閱讀的話，再請教師或可信資料協助核對。",
+          "check": "新句與情境都已核對，不只背下例句。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 710,
+              "endSeconds": 765
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "從例句比較到情境使用",
+          "note": "例句與卡片為編輯設計。",
+          "nodes": [
+            {
+              "id": "n1",
+              "label": "選短句",
+              "detail": "先懂意思"
+            },
+            {
+              "id": "n2",
+              "label": "並排比較",
+              "detail": "標出變化"
+            },
+            {
+              "id": "n3",
+              "label": "記下差異",
+              "detail": "查證規則"
+            },
+            {
+              "id": "n4",
+              "label": "回到情境",
+              "detail": "再試一例"
+            }
+          ],
+          "edges": [
+            {
+              "from": "n1",
+              "to": "n2"
+            },
+            {
+              "from": "n2",
+              "to": "n3"
+            },
+            {
+              "from": "n3",
+              "to": "n4"
+            }
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "只要比較少數短句，就能完全掌握一門語言的文法。",
+          "status": "unverified",
+          "explanation": "少數例句只能提供觀察起點；影片的學習效率說法未經本文獨立查證，仍須透過更多語境核對。",
+          "sourceIds": [
+            "original"
+          ],
+          "checkedAt": "2026-10-30"
+        }
+      ],
+      "pitfalls": [
+        "不要把少數例句直接當成所有情境的通則。",
+        "先確認原句正確與意思，再比較形式；不確定處查教材或詢問教師。",
+        "影片的認知機制與學習效率主張未經本文驗證。"
+      ],
+      "practice": {
+        "title": "兩個短句，一個發現",
+        "minutes": 15,
+        "prompt": "編輯設計：挑兩句相近的英文，標出主詞與動詞，寫一個差異，查語法資料後再用自己的情境造句。",
+        "deliverable": "一張例句比較卡與待查問題",
+        "checklist": [
+          "確認例句來源與意思",
+          "標出一個差異",
+          "查證觀察到的規則",
+          "在新情境試用並核對"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "編輯提示：例句是起點",
+          "text": "比較可以幫助提出問題；不同語境與例外仍要持續觀察，並與可信資料核對。",
+          "sourceIds": [
+            "grammar"
+          ]
+        }
+      ],
+      "overview": {
+        "image": "/assets/overviews/short-sentence-grammar-desktop.webp",
+        "mobileImage": "/assets/overviews/short-sentence-grammar-mobile.webp",
+        "cardImage": "/assets/overviews/short-sentence-grammar-desktop.webp",
+        "alt": "方法練習室夥伴並排比較短句，記下差異並回到情境練習。",
+        "caption": "少數例句是觀察起點，不等於全部文法。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      },
+      "publishedAt": "2026-10-30T08:12:33+08:00"
     }
   ],
   "demo": {
