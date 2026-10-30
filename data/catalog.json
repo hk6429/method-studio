@@ -122722,6 +122722,194 @@
         "mobileHeight": 1600
       },
       "publishedAt": "2026-10-30T09:02:04+08:00"
+    },
+    {
+      "id": "text-place-observation-comparison",
+      "title": "把課文帶到現場：對照文字與生活中的觀察",
+      "summary": "選一段描述地點的文字，帶著問題觀察，再並排比較課文與自己的發現。",
+      "categoryId": "reading",
+      "topicIds": [
+        "teaching",
+        "learning"
+      ],
+      "audience": "帶學生閱讀地景、歷史或生活文化文本的教師",
+      "output": "一張課文與現場的比較卡",
+      "minutes": 25,
+      "level": "入門",
+      "status": "ready",
+      "contentType": "video_method",
+      "reviewedAt": "2026-10-30",
+      "coverLabel": "閱讀踏查 · 文字與現場",
+      "keywords": [
+        "課文閱讀",
+        "踏查",
+        "觀察比較",
+        "生活文化"
+      ],
+      "sourceCoverage": "指定 Notion 影片全長約 01:42:02；本文僅依 20:00–35:00 音訊的 whisper.cpp small 自動字幕整理，其餘時間未轉錄。字幕尚未逐句人工聽校或核對投影片。影片分享學生赴臺體驗教科書中提及的地點及日常中文互動；選課文、比較卡、照片替代與分享活動均為編輯設計，未試教。",
+      "sources": [
+        {
+          "id": "original",
+          "title": "讓世界看見臺灣：日本僑校臺灣文化推廣活動的創新實踐與經驗分享",
+          "kind": "video",
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=WjeGOl2gq_w",
+          "channel": "全球華文網",
+          "videoId": "WjeGOl2gq_w",
+          "note": "僅採 20:00–35:00 片段自動字幕，未逐句人工聽校或核對投影片。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "選一段有地點的文字",
+          "action": "選一段描述地景、歷史場所或生活文化的課文，圈出與地點有關的句子。",
+          "why": "影片分享讓學生親身看見臺灣教科書提過的地方；選文與課堂任務是編輯設計。",
+          "example": "編輯提問：『現場和作者寫的一樣嗎？』",
+          "check": "能指出一處具體文字與位置。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 1804,
+              "endSeconds": 1846
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "帶著問題觀察",
+          "action": "在安全可及的地點記錄看見的細節；無法實地走訪時，可使用標示來源及時間的照片。",
+          "why": "影片分享實地文化體驗；分組記錄、照片替代與安全安排為編輯延伸。",
+          "example": "記下兩項觀察與一個疑問；使用照片時註明不是親身觀察。",
+          "check": "記錄來源、觀察時間或照片拍攝時間。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 1804,
+              "endSeconds": 1846
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "回到課文比對",
+          "action": "用三欄記錄『課文怎麼寫／我觀察到什麼／還想查證什麼』。",
+          "why": "文字與現場比對是編輯設計，讓學生分清文本、觀察和待查問題。",
+          "example": "若不一致，先記下差異；可能涉及不同時間或觀察角度。",
+          "check": "一欄有文字依據，一欄有具體觀察。",
+          "contribution": "editorial",
+          "sourceRefs": []
+        },
+        {
+          "id": "step-4",
+          "title": "分享發現並追問",
+          "action": "邀請學生分享一個發現與一個未解問題，讓同學詢問支持說法的細節。",
+          "why": "影片描述教師與學生在日常中文互動中表達想法；口語任務為編輯延伸。",
+          "example": "編輯追問：『哪一個細節支持你的說法？』",
+          "check": "說出一個來源或觀察依據，不要求全班結論一致。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 1279,
+              "endSeconds": 1306
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "從課文走回生活",
+          "note": "比較卡與課堂流程為編輯設計。",
+          "nodes": [
+            {
+              "id": "n1",
+              "label": "選文字",
+              "detail": "圈出地點"
+            },
+            {
+              "id": "n2",
+              "label": "帶問題觀察",
+              "detail": "記下時間"
+            },
+            {
+              "id": "n3",
+              "label": "比對課文",
+              "detail": "保留差異"
+            },
+            {
+              "id": "n4",
+              "label": "分享追問",
+              "detail": "說出依據"
+            }
+          ],
+          "edges": [
+            {
+              "from": "n1",
+              "to": "n2"
+            },
+            {
+              "from": "n2",
+              "to": "n3"
+            },
+            {
+              "from": "n3",
+              "to": "n4"
+            }
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "只要走訪課文場景，每個學生的語言能力都一定提升。",
+          "status": "unverified",
+          "explanation": "影片描述特定學校的活動與講者觀察，本文未試教或進行比較研究。",
+          "sourceIds": [
+            "original"
+          ],
+          "checkedAt": "2026-10-30"
+        }
+      ],
+      "pitfalls": [
+        "先確認場地安全與可達性；照片代替現場時應標明來源與拍攝時間。",
+        "課文與觀察不同可能涉及時間、地點或角度；先保留差異再查證。",
+        "影片字幕僅涵蓋部分內容，口語活動為編輯延伸。"
+      ],
+      "practice": {
+        "title": "課文與現場比較卡",
+        "minutes": 25,
+        "prompt": "編輯設計：圈出課文中描述地點的一句話，記錄兩個現場或照片細節，填入『文字／觀察／待查』三欄，再分享一個發現。",
+        "deliverable": "一張比較卡與一個待查問題",
+        "checklist": [
+          "指出課文位置",
+          "記錄觀察來源與時間",
+          "分開文字、觀察與待查問題",
+          "分享一個有依據的發現"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "編輯提示：不能到場也能觀察",
+          "text": "可以使用標示來源與時間的照片，但要明確區分照片中的資訊與親身觀察。",
+          "sourceIds": []
+        }
+      ],
+      "overview": {
+        "image": "/assets/overviews/text-place-compare-desktop.webp",
+        "mobileImage": "/assets/overviews/text-place-compare-mobile.webp",
+        "cardImage": "/assets/overviews/text-place-compare-desktop.webp",
+        "alt": "方法練習室夥伴帶著課文問題觀察生活場景，再比較與分享。",
+        "caption": "課堂任務與比較卡為編輯延伸。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      },
+      "publishedAt": "2026-10-30T09:15:06+08:00"
     }
   ],
   "demo": {
