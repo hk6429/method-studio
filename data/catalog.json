@@ -123303,6 +123303,225 @@
         "mobileHeight": 1600
       },
       "publishedAt": "2026-10-30T09:27:10+08:00"
+    },
+    {
+      "id": "english-songs-from-melody-to-own-sentence",
+      "title": "用英文歌練出自己的句子",
+      "summary": "挑一首想理解的歌，查清句子的意思和語氣，再離開旋律練說，換成自己的生活用語。",
+      "categoryId": "english",
+      "topicIds": [
+        "speaking",
+        "habits"
+      ],
+      "audience": "喜歡音樂、想把歌詞轉成英文口說練習的學習者與教師",
+      "output": "一張選歌與句子轉用練習卡",
+      "minutes": 20,
+      "level": "入門",
+      "status": "ready",
+      "contentType": "video_method",
+      "reviewedAt": "2026-10-30",
+      "coverLabel": "英文歌曲 · 生活句子",
+      "keywords": [
+        "英文歌曲",
+        "口說練習",
+        "句型轉用",
+        "自主學習"
+      ],
+      "sourceCoverage": "指定 Notion 影片音訊約 21:27，Whisper base 中文自動轉錄到約 21:05，尾端約 21 秒未覆蓋；辨識有錯且尚未完整人工聽校。選歌與練習依影片整理；示例、檢核與實際時間安排為編輯補充。影片提及的研究尚未核實，不以此宣稱效果。",
+      "sources": [
+        {
+          "id": "original",
+          "title": "用英文歌練習日常表達",
+          "kind": "video",
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=54pnZ3lnkhU",
+          "channel": "brain 學霸",
+          "videoId": "54pnZ3lnkhU",
+          "note": "本機自動轉錄，尾端未覆蓋且尚未逐字聽校。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "選一首適合練習的歌",
+          "action": "從願意重聽的歌曲中，觀察大意、聲音清晰度及是否有日常可用的句子。",
+          "why": "依影片方法整理；例子與檢核為編輯示範。",
+          "example": "編輯示範：挑一首自己想理解、聲音清楚且有邀請句的歌。",
+          "check": "說出選歌理由，找到想學的表達。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "先聽整體，再選一兩句",
+          "action": "先聽完整首歌感受大意，再挑一兩句想在日常使用的表達。",
+          "why": "依影片方法整理；例子與檢核為編輯示範。",
+          "example": "編輯示範：挑一句提出建議的表達。",
+          "check": "能指出想使用的場合。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "查意思和語氣",
+          "action": "查核用詞、句型及語氣，留意歌詞可能是詩意用法。",
+          "why": "依影片方法整理；例子與檢核為編輯示範。",
+          "example": "編輯示範：查詢一句話在日常對話中的語氣。",
+          "check": "能說明意思並指出可能的使用情境。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "跟唱，再離開旋律說",
+          "action": "跟著原聲練節奏，接著關掉音樂，用平常說話速度說出句子。",
+          "why": "依影片方法整理；例子與檢核為編輯示範。",
+          "example": "編輯示範：先跟唱一句，再暫停音樂對同伴說。",
+          "check": "不靠旋律也能說出並解釋句子。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "step-5",
+          "title": "換成自己的話，之後回想",
+          "action": "保留句型，換成自己的生活內容；之後再不看歌詞回想，卡住再查核。",
+          "why": "依影片方法整理；例子與檢核為編輯示範。",
+          "example": "編輯示範：用「Let’s take a break.」邀請同學休息。",
+          "check": "說出自己的句子，回想後記下仍需確認的地方。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "從歌曲走到自己的句子",
+          "note": "步驟依影片整理，例子與檢核為編輯設計。",
+          "nodes": [
+            {
+              "id": "n1",
+              "label": "選一首適合練習的歌",
+              "detail": "說出選歌理由，找到想學的表達。"
+            },
+            {
+              "id": "n2",
+              "label": "先聽整體，再選一兩句",
+              "detail": "能指出想使用的場合。"
+            },
+            {
+              "id": "n3",
+              "label": "查意思和語氣",
+              "detail": "能說明意思並指出可能的使用情境。"
+            },
+            {
+              "id": "n4",
+              "label": "跟唱，再離開旋律說",
+              "detail": "不靠旋律也能說出並解釋句子。"
+            },
+            {
+              "id": "n5",
+              "label": "換成自己的話，之後回想",
+              "detail": "說出自己的句子，回想後記下仍需確認的地方。"
+            }
+          ],
+          "edges": [
+            {
+              "from": "n1",
+              "to": "n2"
+            },
+            {
+              "from": "n2",
+              "to": "n3"
+            },
+            {
+              "from": "n3",
+              "to": "n4"
+            },
+            {
+              "from": "n4",
+              "to": "n5"
+            }
+          ]
+        }
+      ],
+      "practice": {
+        "title": "編輯練習：一首歌、一張句子卡",
+        "minutes": 20,
+        "prompt": "選一首歌，寫下選擇理由；挑一兩句，查清意思和語氣，跟唱後不靠旋律說，再試著改寫成自己的生活情境。",
+        "deliverable": "選歌理由、句子意思與一個自己的句子",
+        "checklist": [
+          "說得出選歌理由",
+          "查核意思和語氣",
+          "關掉音樂後能說出句子",
+          "用自己的情境改寫並再次回想"
+        ]
+      },
+      "pitfalls": [
+        "唱得順不等於能在日常情境使用，試著離開旋律再說。",
+        "歌詞可能使用詩意或特殊語氣；先核對語境，不直接套用到所有場合。",
+        "影片建議的回想間隔可視自己的需要調整。"
+      ],
+      "supplements": [
+        {
+          "title": "編輯提示：給自己選擇權",
+          "text": "教師可讓學生各自選一個願意分享的表達，說明意思與語氣，再改寫成校園情境；這是教學延伸。",
+          "sourceIds": []
+        }
+      ],
+      "validation": [
+        {
+          "claim": "聽歌一定能快速提升英文口說能力",
+          "status": "unverified",
+          "explanation": "影片分享個人練習方法，所提研究未核實；不保證個人成效。",
+          "sourceIds": [
+            "original"
+          ],
+          "checkedAt": "2026-10-30"
+        }
+      ],
+      "overview": {
+        "image": "/assets/overviews/english-song-own-sentence-desktop.webp",
+        "mobileImage": "/assets/overviews/english-song-own-sentence-mobile.webp",
+        "cardImage": "/assets/overviews/english-song-own-sentence-desktop.webp",
+        "alt": "知行陪伴讀者從英文歌挑句、理解、練說與改寫。",
+        "caption": "歌曲練習流程；編輯設計可依自己的節奏調整。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      },
+      "publishedAt": "2026-10-30T09:41:44+08:00"
     }
   ],
   "demo": {
