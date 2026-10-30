@@ -122910,6 +122910,399 @@
         "mobileHeight": 1600
       },
       "publishedAt": "2026-10-30T09:15:06+08:00"
+    },
+    {
+      "id": "bopomofo-listen-record-compare",
+      "title": "注音發音回聽：先聽、錄下來，再找出聲音的差異",
+      "summary": "聽一個示範音，錄下自己的聲音，交替回聽後選一處再試，不以一次念對為目標。",
+      "categoryId": "reading",
+      "topicIds": [
+        "teaching",
+        "learning"
+      ],
+      "audience": "陪伴孩子認識注音、練習聽說的教師與家長",
+      "output": "一段注音練習錄音與一個觀察到的差異",
+      "minutes": 10,
+      "level": "入門",
+      "status": "ready",
+      "contentType": "video_method",
+      "reviewedAt": "2026-10-30",
+      "coverLabel": "注音學習 · 聽與回聽",
+      "keywords": [
+        "注音",
+        "發音練習",
+        "錄音回聽",
+        "聽說"
+      ],
+      "sourceCoverage": "指定 Notion 影片音訊全長約 67:10；本文僅使用 28:00–37:00 的 whisper.cpp base 自動字幕，其餘未轉錄。字幕尚未逐句人工聽校或核對畫面。影片示範聽示範音、錄音、回聽與觀察嘴形；播放順序、小卡與時間為編輯延伸，未實測工具或教學成效。",
+      "sources": [
+        {
+          "id": "original",
+          "title": "讓學習不再卡關：破解注音符號的難關",
+          "kind": "video",
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=9bnZBBjWU-k",
+          "channel": "謙懿科技",
+          "videoId": "9bnZBBjWU-k",
+          "note": "僅採 28:00–37:00 自動字幕；未逐句人工聽校或核對畫面。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "先聽示範音",
+          "action": "選一個孩子正在練習的音，播放清楚的示範；需要時再聽一次。",
+          "why": "影片討論讓孩子有時間注意聲音；一次只選一個音為編輯安排。",
+          "example": "不急著連續跟讀，可先聽完再試。",
+          "check": "孩子能先聽到清楚、可重播的示範。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 1811,
+              "endSeconds": 1837
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "自己說並錄下",
+          "action": "孩子試著說出這個音並錄下來，再播放自己的聲音。",
+          "why": "影片示範聽示範音、錄音與回聽自己的聲音。",
+          "example": "可使用學校允許的錄音工具；替代工具是編輯延伸。",
+          "check": "孩子有機會聽到自己的錄音。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 1983,
+              "endSeconds": 2112
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "交替聽，找一個差異",
+          "action": "交替播放示範與錄音，問孩子哪裡聽起來一樣、哪裡不一樣。",
+          "why": "影片示範講者聽出差異後再試著念一次；提問與播放順序為編輯示範。",
+          "example": "聽不出來也沒關係，可以再聽或先休息。",
+          "check": "記下一個孩子自己注意到的地方，或標記暫時不確定。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 2071,
+              "endSeconds": 2101
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "再試一次",
+          "action": "視需要用鏡子觀察自己的嘴形，再錄一次並比較；不要強求立即改變。",
+          "why": "影片提到回聽與鏡子可協助觀察和修正。",
+          "example": "孩子可以選擇下一次想試的地方。",
+          "check": "保留練習機會，不以一次念對或速度作為唯一評量。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 2140,
+              "endSeconds": 2168
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "聽、錄、比較，再試一次",
+          "note": "小卡及播放順序為編輯延伸。",
+          "nodes": [
+            {
+              "id": "n1",
+              "label": "聽示範",
+              "detail": "一次一個音"
+            },
+            {
+              "id": "n2",
+              "label": "自己錄音",
+              "detail": "回聽聲音"
+            },
+            {
+              "id": "n3",
+              "label": "找差異",
+              "detail": "可以再聽"
+            },
+            {
+              "id": "n4",
+              "label": "再試一次",
+              "detail": "不急著念對"
+            }
+          ],
+          "edges": [
+            {
+              "from": "n1",
+              "to": "n2"
+            },
+            {
+              "from": "n2",
+              "to": "n3"
+            },
+            {
+              "from": "n3",
+              "to": "n4"
+            }
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "回聽或看鏡子一定能立即改善每個孩子的發音。",
+          "status": "unverified",
+          "explanation": "影片示範教學活動；本文未做成效驗證，個別需要可能不同。",
+          "sourceIds": [
+            "original"
+          ],
+          "checkedAt": "2026-10-30"
+        }
+      ],
+      "pitfalls": [
+        "不以一次念對、速度或能否立刻聽出差異判定孩子能力。",
+        "錄音資料依學校及家庭規範處理；工具現行功能未實測。",
+        "若長期有發音或溝通困難，可和教師或語言治療專業人員討論。"
+      ],
+      "practice": {
+        "title": "一個音的回聽小卡",
+        "minutes": 10,
+        "prompt": "編輯設計：選一個正在學的音，聽示範後自己錄音；交替回聽，寫下聽到的差異及下一次想試的地方。",
+        "deliverable": "一段錄音與一張觀察小卡",
+        "checklist": [
+          "先聽清楚示範",
+          "錄下並回聽自己的聲音",
+          "記下一個差異或疑問",
+          "依孩子狀態決定是否再試"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "編輯提示：聽不出來也可以",
+          "text": "可以縮短練習、重聽或休息，讓孩子有選擇再試的空間。",
+          "sourceIds": []
+        }
+      ],
+      "overview": {
+        "image": "/assets/overviews/bopomofo-listen-desktop.webp",
+        "mobileImage": "/assets/overviews/bopomofo-listen-mobile.webp",
+        "cardImage": "/assets/overviews/bopomofo-listen-desktop.webp",
+        "alt": "方法練習室夥伴聽示範音、錄音、比較並再次練習。",
+        "caption": "小卡及播放順序為編輯延伸。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      },
+      "publishedAt": "2026-10-30T09:27:10+08:00"
+    },
+    {
+      "id": "language-difficulty-choose-small-practice",
+      "title": "英文卡關時，先分辨哪一種練習需要調整",
+      "summary": "觀察困難是在辨音、句子結構、例句規律或回想詞義，再選一個小練習試做與核對。",
+      "categoryId": "reading",
+      "topicIds": [
+        "learning",
+        "strategies"
+      ],
+      "audience": "想調整英文自學練習的學生與教師",
+      "output": "一張卡點與下一次練習紀錄",
+      "minutes": 20,
+      "level": "入門",
+      "status": "ready",
+      "contentType": "video_method",
+      "reviewedAt": "2026-10-30",
+      "coverLabel": "英語自學 · 選擇練習",
+      "keywords": [
+        "英語學習",
+        "練習選擇",
+        "辨音",
+        "句子結構"
+      ],
+      "sourceCoverage": "指定 Notion 影片音檔約 20:38，既有自動辨識稿約至 20:31；另以 whisper.cpp base 複辨 05:50–07:20。尚未完整人工聽校，英文與專名有辨識錯誤。影片以四個面向討論語言練習，並說明示例不是正式 MLAT；卡點分類、句子卡與時間配置為編輯延伸，不作能力診斷。",
+      "sources": [
+        {
+          "id": "original",
+          "title": "MLAT 語言學習能力與練習方向",
+          "kind": "video",
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=kYx7MRkB3iI",
+          "channel": "brain 學霸",
+          "videoId": "kYx7MRkB3iI",
+          "note": "自動辨識稿未完整人工聽校，影片小題不是正式測驗。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "選材料，記下卡點",
+          "action": "選一小段正在學的英文，觀察自己比較常卡在聽聲音、理解句構、找規律或回想詞義。",
+          "why": "影片分別討論辨音、結構、歸納及回想；自我記錄卡點為編輯延伸。",
+          "example": "編輯例子：看文字知道意思，但聽原聲時不易辨認。",
+          "check": "記下一個具體困難，而非替自己貼能力標籤。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 143,
+              "endSeconds": 186
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "聽不清楚：縮短辨音",
+          "action": "選短音訊，聽一小段後試著說出聽到的內容，再對照文字或示範音。",
+          "why": "影片提到辨音與聲音練習；短音訊及核對安排為編輯延伸。",
+          "example": "先選程度合適的一句話，必要時重聽。",
+          "check": "記下哪個音或停頓需要再聽。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 187,
+              "endSeconds": 317
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "看不懂結構：替詞找角色",
+          "action": "對一個已理解意思的句子，問誰做了什麼、誰收到什麼，再與另一句比較。",
+          "why": "影片以句子中人物與物品的位置討論結構；句子卡為編輯示範。",
+          "example": "I gave John a book. 與 I showed Mary a photo. 可觀察人物及物品的位置。",
+          "check": "先標記，再對照教材，避免將同一結構套用到所有動詞。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 317,
+              "endSeconds": 416
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "找規律或回想詞義：各試一小步",
+          "action": "若看不出規律，並排比較可靠例句後查解釋；若遮住答案就忘記，先回想再核對。",
+          "why": "影片建議比較例句、猜測規則後查說明，也談到回想與間隔練習。",
+          "example": "例句太少時把規則記成待查假設；詞義練習先選少量。",
+          "check": "只選一種方式試做，記下下次想調整的地方。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 606,
+              "endSeconds": 649
+            },
+            {
+              "sourceId": "original",
+              "startSeconds": 666,
+              "endSeconds": 709
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "卡在哪裡，就先調整哪一步",
+          "note": "分類卡與練習安排為編輯延伸，不是正式測驗。",
+          "nodes": [
+            {
+              "id": "n1",
+              "label": "記下卡點",
+              "detail": "選一個困難"
+            },
+            {
+              "id": "n2",
+              "label": "挑練習",
+              "detail": "辨音或拆句"
+            },
+            {
+              "id": "n3",
+              "label": "比較與回想",
+              "detail": "選合適方式"
+            },
+            {
+              "id": "n4",
+              "label": "核對調整",
+              "detail": "記下下一步"
+            }
+          ],
+          "edges": [
+            {
+              "from": "n1",
+              "to": "n2"
+            },
+            {
+              "from": "n2",
+              "to": "n3"
+            },
+            {
+              "from": "n3",
+              "to": "n4"
+            }
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "這些小題能診斷語言能力，或準確預測一個人能否學會英文。",
+          "status": "unverified",
+          "explanation": "影片說明示例不是正式 MLAT；本文的卡點觀察也不是診斷或能力預測。",
+          "sourceIds": [
+            "original"
+          ],
+          "checkedAt": "2026-10-30"
+        }
+      ],
+      "pitfalls": [
+        "疲勞、材料熟悉度和當天狀態都可能影響練習；不要以一次表現替自己貼標籤。",
+        "少數例句只能形成待查假設，需對照教材及其他語境。",
+        "時間與練習份量可依需求縮短或分次完成。"
+      ],
+      "practice": {
+        "title": "一張英文卡點選擇卡",
+        "minutes": 20,
+        "prompt": "編輯設計：選一段材料並記下一個卡點，從辨音、拆句、比較例句或回想詞義中選一種方式練習，再核對並記下下一步。",
+        "deliverable": "一張卡點與練習紀錄",
+        "checklist": [
+          "具體記下困難",
+          "選一種可完成的練習",
+          "對照材料或教材核對",
+          "記下下一次調整"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "編輯提示：練習不是診斷",
+          "text": "這張卡幫助選擇下一步，不判定固定天賦或預測學習結果。",
+          "sourceIds": []
+        }
+      ],
+      "overview": {
+        "image": "/assets/overviews/language-practice-choice-desktop.webp",
+        "mobileImage": "/assets/overviews/language-practice-choice-mobile.webp",
+        "cardImage": "/assets/overviews/language-practice-choice-desktop.webp",
+        "alt": "方法練習室夥伴依英文卡點選擇辨音、拆句、比較或回想。",
+        "caption": "卡點選擇卡為編輯延伸，不是能力診斷。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      },
+      "publishedAt": "2026-10-30T09:27:10+08:00"
     }
   ],
   "demo": {
