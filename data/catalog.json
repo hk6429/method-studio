@@ -123714,6 +123714,200 @@
         "mobileHeight": 1600
       },
       "publishedAt": "2026-10-30T09:43:59+08:00"
+    },
+    {
+      "id": "arithmetic-duel-game-learning-design",
+      "title": "把四則運算放進對戰遊戲：先寫規則，再檢查題目",
+      "summary": "從要練的運算出發，設定對戰中何時出題、答題回饋及試玩檢查。",
+      "categoryId": "reading",
+      "topicIds": [
+        "learning",
+        "teaching"
+      ],
+      "audience": "想設計數學互動練習的教師與教材製作者",
+      "output": "一張運算遊戲規則與試玩檢核表",
+      "minutes": 25,
+      "level": "入門",
+      "status": "ready",
+      "contentType": "video_method",
+      "reviewedAt": "2026-10-30",
+      "coverLabel": "數學練習 · 遊戲設計",
+      "keywords": [
+        "數學練習",
+        "互動教材",
+        "遊戲設計",
+        "教師檢核"
+      ],
+      "sourceCoverage": "指定 Notion 所收藏影片音訊約 26:39，本機 Whisper tiny 自動轉錄全段；尚未完整人工聽校或核對影片畫面，工具與 API 名稱辨識可能有誤。影片約 22:30–23:05 提出運算遊戲構想，24:24–25:05 口述選角色、選攻擊後出現題目。年級、範圍、答題回饋與試玩表為編輯設計；影片未完整展示答對答錯規則或課堂成效。",
+      "sources": [
+        {
+          "id": "original",
+          "title": "老師這樣用 AI 就對了",
+          "kind": "video",
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=ikQ9yhBj5Yg",
+          "channel": "飛碟聯播網",
+          "videoId": "ikQ9yhBj5Yg",
+          "note": "教師訪談及遊戲示範；機器字幕尚未完整人工聽校。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "選定要練習的運算",
+          "action": "先指定年級、加減乘除範圍與題目難度，讓練習目標清楚。",
+          "why": "影片展示把運算題融入對戰情境；題目範圍、答題規則與檢核為編輯延伸。",
+          "example": "編輯示範：為學生設定十以內的加減練習。",
+          "check": "能寫出適用學生與運算範圍。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 1350,
+              "endSeconds": 1385
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "說明對戰情境與題目出現時機",
+          "action": "請 AI 設計可選角色的對戰場景，並說明何時出題；影片示範選擇攻擊方式後出現題目。",
+          "why": "影片展示把運算題融入對戰情境；題目範圍、答題規則與檢核為編輯延伸。",
+          "example": "編輯示範：每次選擇動作後顯示一道運算題。",
+          "check": "能說明玩家做什麼、題目何時出現。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 1350,
+              "endSeconds": 1385
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "補上答題規則與回饋",
+          "action": "決定答對、答錯後畫面顯示什麼，以及玩家能否繼續；這些具體規則是編輯設計。",
+          "why": "影片展示把運算題融入對戰情境；題目範圍、答題規則與檢核為編輯延伸。",
+          "example": "編輯示範：答錯時先顯示提示並允許重試。",
+          "check": "規則中有明確答案、回饋與重試方式。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 1464,
+              "endSeconds": 1505
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "教師試玩並核對題目",
+          "action": "檢查每題答案與回饋，嘗試答對、答錯及重新開始，修正不符合規則的地方。",
+          "why": "影片展示把運算題融入對戰情境；題目範圍、答題規則與檢核為編輯延伸。",
+          "example": "編輯示範：各試一輪答對與答錯，記錄不正常的畫面。",
+          "check": "題目、答案與流程經教師逐項檢查後再考慮課堂使用。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 1464,
+              "endSeconds": 1505
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "從學習目標到遊戲試玩",
+          "note": "答題回饋與教師檢查為編輯延伸。",
+          "nodes": [
+            {
+              "id": "n1",
+              "label": "選定要練習的運算",
+              "detail": "能寫出適用學生與運算範圍。"
+            },
+            {
+              "id": "n2",
+              "label": "說明對戰情境與題目出現時機",
+              "detail": "能說明玩家做什麼、題目何時出現。"
+            },
+            {
+              "id": "n3",
+              "label": "補上答題規則與回饋",
+              "detail": "規則中有明確答案、回饋與重試方式。"
+            },
+            {
+              "id": "n4",
+              "label": "教師試玩並核對題目",
+              "detail": "題目、答案與流程經教師逐項檢查後再考慮課堂使用。"
+            }
+          ],
+          "edges": [
+            {
+              "from": "n1",
+              "to": "n2"
+            },
+            {
+              "from": "n2",
+              "to": "n3"
+            },
+            {
+              "from": "n3",
+              "to": "n4"
+            }
+          ]
+        }
+      ],
+      "practice": {
+        "title": "編輯練習：寫一張運算遊戲規則卡",
+        "minutes": 25,
+        "prompt": "選一個運算範圍，寫下角色、題目出現時機、答對與答錯回饋，再請教師以幾組題目試玩核對。",
+        "deliverable": "運算範圍、遊戲規則與試玩檢查紀錄",
+        "checklist": [
+          "明確指定運算範圍",
+          "寫清楚題目出現與答題回饋",
+          "教師核對題目與答案",
+          "記錄試玩時需修正的地方"
+        ]
+      },
+      "pitfalls": [
+        "只顧角色與畫面，忘記先定義要練的數學內容。",
+        "沒有檢查答案、答錯回饋和重新開始流程。",
+        "影片提到的工具介面及角色資料來源可能改變；使用前自行核對可用性與授權。"
+      ],
+      "supplements": [
+        {
+          "title": "編輯示範：寫給 AI 的教材需求",
+          "text": "請設計一個練習指定範圍加減法的小遊戲：玩家選角色後，完成每個動作前出一道題；答對、答錯要有清楚回饋，並提供重新開始。先說明規則，題目與答案請列出供教師核對。",
+          "sourceIds": []
+        }
+      ],
+      "validation": [
+        {
+          "claim": "把算術放進對戰遊戲一定能提升學習成效",
+          "status": "unverified",
+          "explanation": "來源為教師操作示範，沒有提供足以確認普遍學習成效的研究。",
+          "sourceIds": [
+            "original"
+          ],
+          "checkedAt": "2026-10-30"
+        }
+      ],
+      "overview": {
+        "image": "/assets/overviews/arithmetic-duel-learning-desktop.webp",
+        "mobileImage": "/assets/overviews/arithmetic-duel-learning-mobile.webp",
+        "cardImage": "/assets/overviews/arithmetic-duel-learning-desktop.webp",
+        "alt": "以澄陪教師規劃並核對算術對戰練習。",
+        "caption": "規則及教師檢查為編輯延伸。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      },
+      "publishedAt": "2026-10-30T09:51:33+08:00"
     }
   ],
   "demo": {
