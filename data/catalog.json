@@ -122536,6 +122536,192 @@
         "mobileHeight": 1600
       },
       "publishedAt": "2026-10-30T08:44:56+08:00"
+    },
+    {
+      "id": "same-book-different-reading-perspectives",
+      "title": "同一本書，不同的發現：保留獨讀時間，也邀請彼此分享",
+      "summary": "先各自閱讀，挑一個片段分享，再聽見與自己不同的角度，帶回一個新的問題。",
+      "categoryId": "reading",
+      "topicIds": [
+        "learning",
+        "teaching"
+      ],
+      "audience": "想在獨立閱讀與小組交流之間安排節奏的帶領者",
+      "output": "一張閱讀分享卡與一個新問題",
+      "minutes": 20,
+      "level": "入門",
+      "status": "ready",
+      "contentType": "article_method",
+      "reviewedAt": "2026-10-30",
+      "coverLabel": "共讀練習 · 不同角度",
+      "keywords": [
+        "讀書會",
+        "閱讀分享",
+        "獨立閱讀",
+        "不同觀點"
+      ],
+      "sourceCoverage": "指定 Notion 的 Podcast 音訊約 46:36，whisper.cpp small 自動字幕至約 46:27，末約 9 秒無字幕；尚未逐句人工聽校。節目約 32:36–33:20 談到同一本書中每個人可能看到不同角度，也提到獨讀與交流可以並存；選片段、分享卡與時間安排均為編輯延伸，未試行。",
+      "sources": [
+        {
+          "id": "original",
+          "title": "當靈感在日常發芽：紀錄片導演對話｜獨角獸的靈感圖書館 Podcast 節目頁",
+          "kind": "article",
+          "url": "https://www.ic975.com/episodes/23837/",
+          "channel": "IC 之音",
+          "note": "來源是 Podcast 音訊；自動字幕尚未逐句人工聽校。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "保留各自閱讀的時間",
+          "action": "選一段大家都能取得的文本，先安靜閱讀；每個人可以依自己的步調做記號。",
+          "why": "節目討論獨自閱讀與希望交流並不衝突；具體課堂安排為編輯設計。",
+          "example": "編輯示範：先讀同一個短段落，不必急著寫完整心得。",
+          "check": "每個人有自主閱讀與安靜思考的時間。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 1992,
+              "endSeconds": 2000
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "選一個想分享的片段",
+          "action": "各自挑一句或一段，寫下自己注意到什麼，以及為什麼選它。",
+          "why": "節目談到同一本書的不同讀者可能注意到不同內容；分享卡為編輯設計。",
+          "example": "編輯卡片：『我選了＿＿，因為我注意到＿＿。』",
+          "check": "分享有文本位置與自己的理由。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 1970,
+              "endSeconds": 1978
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "聽見不同角度",
+          "action": "邀請願意分享的人說明自己的發現；其他人聽完後，可問一個釐清問題。",
+          "why": "講者分享讀書會能讓人接觸自己未曾想過的角度；提問規則為編輯延伸。",
+          "example": "編輯提問：『你是從哪個字或哪一段注意到這件事？』",
+          "check": "至少記下一個原本沒有想到的角度，或一個還想理解的問題。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 1970,
+              "endSeconds": 1978
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "帶回一個新問題",
+          "action": "回到文本再看一次，寫下聽完他人觀點後仍想追問的一件事。",
+          "why": "回讀與問題卡為編輯設計，讓交流接回個人的閱讀。",
+          "example": "編輯示範：『這個角色的選擇，還有沒有其他解釋？』",
+          "check": "保留原本想法及交流後的新問題，不要求所有人得出相同結論。",
+          "contribution": "editorial",
+          "sourceRefs": []
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "獨讀與交流可以並存",
+          "note": "分享卡、提問與時間安排為編輯延伸。",
+          "nodes": [
+            {
+              "id": "n1",
+              "label": "各自閱讀",
+              "detail": "保留安靜時間"
+            },
+            {
+              "id": "n2",
+              "label": "選片段",
+              "detail": "說出理由"
+            },
+            {
+              "id": "n3",
+              "label": "分享角度",
+              "detail": "聽見差異"
+            },
+            {
+              "id": "n4",
+              "label": "帶回問題",
+              "detail": "回到文本"
+            }
+          ],
+          "edges": [
+            {
+              "from": "n1",
+              "to": "n2"
+            },
+            {
+              "from": "n2",
+              "to": "n3"
+            },
+            {
+              "from": "n3",
+              "to": "n4"
+            }
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "參加讀書會一定能讓所有人更理解一本書。",
+          "status": "unverified",
+          "explanation": "節目分享來賓對閱讀與交流的感受；本文的練習尚未試行。",
+          "sourceIds": [
+            "original"
+          ],
+          "checkedAt": "2026-10-30"
+        }
+      ],
+      "pitfalls": [
+        "尊重不同閱讀步調，不強迫每個人公開分享。",
+        "不同看法可並存，應回到文本說明依據。",
+        "分享卡與時間安排為編輯設計，不是節目中的固定教案。"
+      ],
+      "practice": {
+        "title": "同一段文字的兩種角度",
+        "minutes": 20,
+        "prompt": "編輯設計：各自閱讀同一短段，挑一處寫下理由；自願分享並聽一個不同觀點，最後回到文本寫一個新問題。",
+        "deliverable": "一張分享卡與一個新問題",
+        "checklist": [
+          "保留獨立閱讀時間",
+          "選出有位置的片段",
+          "聽見不同角度",
+          "回到文本提出新問題"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "編輯提示：可以不發言",
+          "text": "不想公開分享的人可以只寫卡或安靜閱讀；交流與獨讀不必互相排斥。",
+          "sourceIds": []
+        }
+      ],
+      "overview": {
+        "image": "/assets/overviews/same-book-perspectives-desktop.webp",
+        "mobileImage": "/assets/overviews/same-book-perspectives-mobile.webp",
+        "cardImage": "/assets/overviews/same-book-perspectives-desktop.webp",
+        "alt": "方法練習室夥伴各自閱讀同一本書，再交流不同發現。",
+        "caption": "分享卡與教學安排為編輯延伸。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      },
+      "publishedAt": "2026-10-30T09:02:04+08:00"
     }
   ],
   "demo": {
