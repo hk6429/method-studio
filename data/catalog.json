@@ -126811,6 +126811,200 @@
         "mobileHeight": 1600
       },
       "publishedAt": "2026-10-31T10:58:14+08:00"
+    },
+    {
+      "id": "drum-pattern-song-purpose",
+      "title": "鼓譜練會之後：把一段節奏放進歌曲試試",
+      "summary": "先選一段能掌握的鼓節奏，跟歌曲試打，再依歌曲氣氛與演出目的調整。這是爵士鼓教師分享的練習思路，本文把它整理成一輪可記錄的練習。",
+      "categoryId": "reading",
+      "topicIds": [
+        "learning"
+      ],
+      "audience": "想練習爵士鼓、已能演奏基本節奏，想嘗試配合歌曲的人",
+      "output": "一段跟歌練習與一張節奏選擇、聽感及調整紀錄",
+      "minutes": 20,
+      "level": "入門",
+      "status": "ready",
+      "contentType": "video_method",
+      "reviewedAt": "2026-10-31",
+      "coverLabel": "音樂學習 · 節奏與歌曲",
+      "keywords": [
+        "爵士鼓",
+        "節奏練習",
+        "音樂",
+        "即興",
+        "演出目的"
+      ],
+      "sourceCoverage": "指定 Notion 影片資料庫收錄 Hey! Guugo 影片，全長 22:54，已取得完整音訊並閱讀 whisper.cpp small 自動辨識逐字稿；尚未逐字人工聽校，音樂示範及術語待聽校。00:56–01:42 談照譜與在新音樂中使用；12:09–14:48 談慢練、放入歌曲示範與依目的判斷；16:23–16:52 談以固定節奏為基礎做變化；17:45–18:26 談從能掌握的簡單單位開始。四步順序、紀錄表、時間安排與具體例子均為編輯設計；影片為個人教學經驗，沒有本文練習的成效驗證。",
+      "sources": [
+        {
+          "id": "original",
+          "title": "別再照著譜練了，你缺的是把它丟進一首歌裡 | Hey! Guugo | 爵士鼓教學",
+          "kind": "video",
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=u3WZJIBEEzo",
+          "channel": "Hey! Guugo",
+          "videoId": "u3WZJIBEEzo",
+          "note": "完整音訊以 Whisper 自動辨識；字幕未逐字人工聽校，音樂示範與術語需回聽。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "選一段能掌握的節奏",
+          "action": "從練過的鼓譜中選一小段基本節奏；先慢速單獨練，直到能在自己選定的速度下穩定打幾次。",
+          "why": "講者建議放慢練習，並從能掌握的簡單單位開始；連續次數與判斷方式由編輯設計。",
+          "example": "編輯示範：先選自己已熟悉的基本節奏，配合慢速節拍器試打。",
+          "check": "寫下選用的節奏與速度；若仍常中斷，先放慢或請老師協助。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 729,
+              "endSeconds": 746
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "選歌曲與這一輪的目的",
+          "action": "挑一首速度能跟上的歌，先聽出想要的氣氛，寫下一句目的：維持平穩、營造輕快，或單純探索新的感覺。",
+          "why": "講者的快節奏配慢歌示範提醒，同一選擇是否適合，要看當下演出想呈現的氣氛。",
+          "example": "編輯示範：選一首速度較慢的歌，目的寫「保持平穩，讓旋律清楚」。",
+          "check": "寫下歌名、歌曲速度或體感，以及本輪目的。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 794,
+              "endSeconds": 846
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "跟歌曲試打並聽整體",
+          "action": "播放選定歌曲，在合適的一小段試打剛才的節奏；能錄音時錄下，聽整體是否穩、是否符合目的。",
+          "why": "影片示範將練過的節奏放入歌曲；錄音與記錄欄位是編輯延伸。",
+          "example": "編輯示範：在一小段副歌試打，回聽節奏是否蓋過想突出的旋律。",
+          "check": "記下一處跟得上或卡住的地方，以及一個聽感。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 720,
+              "endSeconds": 806
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "改一處再比較",
+          "action": "依照目的減少或增加一個節奏點，或換回更簡單的節奏，再試同一段；比較兩次聽感並決定下一步。",
+          "why": "講者提出在固定節奏基礎上增減節點；單次只改一處與比較方式為編輯設計。",
+          "example": "編輯示範：想保留歌曲平靜感，就先減少一個節奏點，再聽一次。",
+          "check": "寫下改動及比較結果；如果仍不穩，回到較慢的速度或請老師協助。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 983,
+              "endSeconds": 1012
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "一輪跟歌練習",
+          "note": "編輯依影片教學思路設計，非原片固定流程。",
+          "nodes": [
+            {
+              "id": "n1",
+              "label": "選節奏",
+              "detail": "先慢練至能掌握"
+            },
+            {
+              "id": "n2",
+              "label": "選歌曲",
+              "detail": "寫下演出目的"
+            },
+            {
+              "id": "n3",
+              "label": "跟歌試打",
+              "detail": "記下整體聽感"
+            },
+            {
+              "id": "n4",
+              "label": "改一處",
+              "detail": "再聽並比較"
+            }
+          ],
+          "edges": [
+            {
+              "from": "n1",
+              "to": "n2"
+            },
+            {
+              "from": "n2",
+              "to": "n3"
+            },
+            {
+              "from": "n3",
+              "to": "n4"
+            }
+          ]
+        }
+      ],
+      "practice": {
+        "title": "20 分鐘：一首歌的節奏選擇",
+        "minutes": 20,
+        "prompt": "編輯設計：用 5 分鐘選一段熟悉的節奏並慢練；用 3 分鐘選歌、寫下想保留的氣氛；用 6 分鐘跟歌試打並記下聽感；最後 6 分鐘改一處再比較。時間依熟練程度調整，無須急著完成。",
+        "deliverable": "一張歌曲、節奏、目的、第一次聽感與調整結果的紀錄",
+        "checklist": [
+          "記下選用的歌曲與熟悉節奏。",
+          "寫出這一輪想呈現的氣氛。",
+          "記下至少一處跟得上的地方或卡點。",
+          "寫出一個改動，或記明需先回到慢練。"
+        ]
+      },
+      "pitfalls": [
+        "把譜面與慢速基本功視為不需要；手腳尚未穩定時仍要花時間練習。",
+        "以為越快、越複雜就越適合；先聽歌曲並考慮演出目的。",
+        "把一次試打不順直接當成能力判斷；可降低速度或請老師協助。"
+      ],
+      "supplements": [
+        {
+          "title": "編輯示範：同一段節奏，兩種目的",
+          "text": "假設你用同一段節奏配慢歌：如果目的是安靜伴奏，可試著保留較少節點；如果只是探索新的風味，可嘗試不同密度。這是假設示範，實際是否合適仍要聽歌曲與演奏成果。",
+          "sourceIds": []
+        }
+      ],
+      "validation": [
+        {
+          "claim": "這套練習一定能提升即興或演奏能力。",
+          "status": "unverified",
+          "explanation": "來源是講者的教學經驗及示範；本文設計的練習流程尚無實測或比較研究。",
+          "sourceIds": [
+            "original"
+          ],
+          "checkedAt": "2026-10-31"
+        }
+      ],
+      "overview": {
+        "image": "/assets/overviews/drum-pattern-song-purpose-desktop.webp",
+        "mobileImage": "/assets/overviews/drum-pattern-song-purpose-mobile.webp",
+        "cardImage": "/assets/overviews/drum-pattern-song-purpose-desktop.webp",
+        "alt": "知行練習把鼓節奏放進歌曲，並思考是否符合演出目的。",
+        "caption": "依來源教學思路製圖，練習步驟為編輯延伸。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      },
+      "publishedAt": "2026-10-31T11:00:29+08:00"
     }
   ],
   "demo": {
