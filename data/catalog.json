@@ -128970,6 +128970,365 @@
         "mobileWidth": 1000,
         "mobileHeight": 1600
       }
+    },
+    {
+      "id": "teacher-partner-edtech-codesign",
+      "title": "教具別關門做：邀教師一起找需求、看原型",
+      "summary": "一個數位教具能否幫上忙，要回到教師真正在意的問題。Jacob Kantor 分享教育科技產業經驗：先聽需求、找共同主題，再邀願意投入的實際使用者持續看開發進度。本文將做法延伸為教師共創紀錄卡，先談清楚參與時間與回饋安排。",
+      "categoryId": "ai",
+      "topicIds": [
+        "workflow"
+      ],
+      "audience": "想與教師共同設計或改進數位教具的人",
+      "output": "一張教師需求與共創回合紀錄卡",
+      "minutes": 20,
+      "level": "入門",
+      "status": "ready",
+      "contentType": "article_method",
+      "reviewedAt": "2026-10-31",
+      "coverLabel": "真實需求 · 持續共創",
+      "sourceCoverage": "依節目方公開完整逐字稿閱讀，取材約 20:45–26:40 討論學校需求、彙整主題與邀請使用者定期看開發進度；逐字稿未與音檔逐句聽校。來源是受訪者的產業經驗，並非成效實驗。本文的四步、20 分鐘安排、課堂例子與紀錄卡均為編輯延伸，不保證教學或產品成效。",
+      "sources": [
+        {
+          "id": "original",
+          "title": "Whose Problem Is EdTech Solving? | My EdTech Life 374",
+          "url": "https://www.myedtech.life/kantor/",
+          "kind": "article",
+          "channel": "My EdTech Life",
+          "note": "節目方公開逐字稿；約 20:45–26:40 提及需求、共創與時間回饋。自動文字未人工聽校。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "先聽教師遇到什麼問題",
+          "action": "邀請實際使用教具的教師說明最近遇到的具體情境，記下希望解決的問題。",
+          "why": "受訪者主張先了解教育現場的需求，而不是急著展示產品功能。",
+          "example": "編輯示範：教師說明學生閱讀時在哪個環節需要提示。",
+          "check": "問題能對應到具體課堂情境。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 1245,
+              "endSeconds": 1600
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "找出共同需求，確認參與條件",
+          "action": "整理不同教師反覆提到的需求，邀請有意願的人合作；事先談妥投入時間、回饋或報酬及可退出方式。",
+          "why": "受訪者提出彙整需求、邀請參與並回饋時間，也承認有人無暇參與；報酬及退出安排為編輯補充。",
+          "example": "編輯示範：約定每次討論所需時間與酬勞，教師可自由拒絕。",
+          "check": "教師自願參與，時間與回饋安排已說清楚。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 1245,
+              "endSeconds": 1600
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "定期一起看進度",
+          "action": "依共同約定的頻率展示小範圍原型，請參與教師指出符合需求與仍卡住的地方。",
+          "why": "受訪者舉每兩週向理想使用者展示進度的例子；頻率應由雙方協調。",
+          "example": "編輯示範：用虛構材料試看一張閱讀提示卡，記下教師如何使用。",
+          "check": "記錄教師回饋與尚待確認的問題。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 1245,
+              "endSeconds": 1600
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "回報修改，再決定下一輪",
+          "action": "整理本輪回饋，說明採納、暫不處理的理由及下一步，與教師確認是否繼續合作。",
+          "why": "持續共創呼應受訪者的開發夥伴構想；回報格式與續約確認為編輯設計。",
+          "example": "編輯示範：回覆已調整提示文字、尚待測試的操作與下一次討論時間。",
+          "check": "教師能看到處理結果，下一輪時間與參與意願已確認。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 1245,
+              "endSeconds": 1600
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "教師參與教具共創",
+          "note": "編輯整理；課堂轉用並非來源成效驗證。",
+          "nodes": [
+            {
+              "id": "n1",
+              "label": "聽需求",
+              "detail": "具體情境"
+            },
+            {
+              "id": "n2",
+              "label": "談條件",
+              "detail": "自願與時間回饋"
+            },
+            {
+              "id": "n3",
+              "label": "看進度",
+              "detail": "定期交換意見"
+            },
+            {
+              "id": "n4",
+              "label": "回報修正",
+              "detail": "確認下一輪"
+            }
+          ],
+          "edges": [
+            {
+              "from": "n1",
+              "to": "n2"
+            },
+            {
+              "from": "n2",
+              "to": "n3"
+            },
+            {
+              "from": "n3",
+              "to": "n4"
+            }
+          ]
+        }
+      ],
+      "practice": {
+        "title": "先準備一張共創紀錄卡",
+        "minutes": 20,
+        "prompt": "編輯設計：使用情境＿＿；教師遇到的問題＿＿；邀請對象與自願確認＿＿；投入時間與報酬或其他回饋＿＿；原型與回饋＿＿；修改結果＿＿；下次安排＿＿。20 分鐘可先擬卡與邀請內容；實際訪談及後續共創另行安排。",
+        "deliverable": "一張教師需求與共創回合紀錄卡",
+        "checklist": [
+          "記下具體情境，而非只列功能。",
+          "確認教師有意願且知道時間與回饋安排。",
+          "區分教師原話與自己的推測。",
+          "將尚未執行的合作標記為待確認。"
+        ]
+      },
+      "pitfalls": [
+        "只展示功能，沒有先了解教師需求。",
+        "把教師的時間當成無限且免費。",
+        "只蒐集一次意見，卻沒有回報後續處理。"
+      ],
+      "supplements": [
+        {
+          "title": "編輯補充：一張卡不是一場共創",
+          "text": "紀錄卡只能協助準備，實際共創仍要有教師自願參與、雙方可負擔的時間與事先講清楚的回饋安排。範例使用虛構資料。",
+          "sourceIds": [
+            "original"
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "這份紀錄卡可協助規劃教師共創。",
+          "status": "unverified",
+          "explanation": "來源是受訪者的產業經驗；本文未取得紀錄卡的實測研究，不保證學習或產品成效。逐字稿未逐句聽校。",
+          "sourceIds": [
+            "original"
+          ],
+          "checkedAt": "2026-10-31"
+        }
+      ],
+      "keywords": [
+        "教師共創",
+        "教具需求",
+        "My EdTech Life"
+      ],
+      "publishedAt": "2026-10-31T12:07:18+08:00",
+      "overview": {
+        "image": "/assets/overviews/teacher-partner-edtech-codesign-desktop.webp",
+        "mobileImage": "/assets/overviews/teacher-partner-edtech-codesign-mobile.webp",
+        "cardImage": "/assets/overviews/teacher-partner-edtech-codesign-desktop.webp",
+        "alt": "知行與以澄邀請教師一起討論需求與教具原型。",
+        "caption": "依來源觀點製圖，實際練習為編輯延伸。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      }
+    },
+    {
+      "id": "caro-document-clue-interview-followup",
+      "title": "訪談前先讀文件：從一處具體差異追問脈絡",
+      "summary": "Robert Caro 回憶先讀資金分配筆記，再向直接經手者詢問批註意思，並追問背後原因。本文將這個採訪經驗延伸成文件、訪談與交叉核對練習，尊重受訪者拒絕與資料使用界限。",
+      "categoryId": "reading",
+      "topicIds": [
+        "teaching",
+        "strategies"
+      ],
+      "level": "入門",
+      "minutes": 20,
+      "output": "一張文件線索與訪談問題卡",
+      "audience": "指導學生做專題報導的教師與自主研究者",
+      "status": "ready",
+      "contentType": "article_method",
+      "reviewedAt": "2026-10-31",
+      "sourceCoverage": "已實讀節目官方公開逐字稿 00:00:00「How Caro gets people to talk」章節；00:00 是章節起點，並非該段精確逐秒時間，未逐字聽校音訊。Caro 描述自己讀過資金分配筆記，向經手者詢問批註及其原因的個人經驗；以下時間、課堂流程、示例、交叉核對與同意及資料界限均為編輯延伸，未經成效驗證。",
+      "coverLabel": "文件追問",
+      "sources": [
+        {
+          "id": "original",
+          "title": "Robert Caro – The master biographer reflects at 91",
+          "url": "https://www.dwarkesh.com/p/robert-caro",
+          "kind": "article",
+          "channel": "Dwarkesh Podcast",
+          "note": "官方公開逐字稿，2026-10-30；00:00:00 章節起點。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "選一份可使用的文件",
+          "action": "選與研究問題相關、允許閱讀與使用的文件，記下來源和日期。",
+          "why": "編輯延伸：保留可回查的依據，也先確認資料界限。",
+          "example": "例如選公開的校園活動公告，想了解活動安排如何決定。",
+          "check": "能指出文件出處，並確認適合使用。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 0,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "圈出一處具體線索",
+          "action": "找一項值得釐清的差異、用詞或批註，抄錄必要片段及位置。",
+          "why": "Caro 描述先讀資金分配筆記，注意到不同批註；記錄方式為編輯延伸。",
+          "example": "例如兩年的公開活動公告採用不同的時間安排。",
+          "check": "線索可在原文件中找到，觀察與猜測分開。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 0,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "找知情者並邀請",
+          "action": "找可能直接參與的人，說明用途並詢問是否願意受訪；對方可拒絕或略過問題。",
+          "why": "Caro 說明找直接經手資金的人詢問；邀請與同意流程為編輯延伸。",
+          "example": "例如邀請願意分享的活動承辦人，先說明是否記錄與使用方式。",
+          "check": "受訪對象願意參與，並理解資料將如何使用。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 0,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "先問意思，再問原因",
+          "action": "指出文件中的具體線索，先請對方說明意思，再以開放問題詢問背景與原因。",
+          "why": "Caro 先問批註意思，再問為何如此對待該議員。",
+          "example": "例如：「兩年時間不同，當時各有什麼考量？」",
+          "check": "問題不預設動機，並允許對方說不記得。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 0,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "step-5",
+          "title": "留下說法，再核對",
+          "action": "經同意記錄回答，與文件及其他可用來源對照；不一致與尚未知曉的地方如實標記。",
+          "why": "編輯延伸：口述可能不完整或有誤，不能單憑回答確認事實。",
+          "example": "例如核對另一份公開紀錄，若仍無法確認，就寫出尚待查證。",
+          "check": "可分辨文件、受訪者說法與自己的推測。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 0,
+              "endSeconds": null
+            }
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "此練習能確保訪談回答真實或提升研究表現",
+          "status": "unverified",
+          "explanation": "來源是作家的個人採訪經驗，未驗證編輯設計的練習效果；受訪者說法仍需核對。",
+          "sourceIds": [
+            "original"
+          ],
+          "checkedAt": "2026-10-31"
+        }
+      ],
+      "pitfalls": [
+        "把受訪者的記憶或說法直接當成已證實的事實。",
+        "先替對方預設動機，以誘導性問題逼出想要的答案。",
+        "未取得同意就記錄、公開訪談或使用不適合揭露的個資。",
+        "把拒訪視為必須突破的障礙。"
+      ],
+      "practice": {
+        "title": "編輯延伸：做一張文件追問卡",
+        "minutes": 20,
+        "prompt": "選一份可使用的公開文件，圈出一處需要釐清的細節，寫下出處、可詢問的知情角色、意思與原因兩個問題，以及可核對的另一個來源。這次練習不必真的進行訪談。",
+        "deliverable": "一張文件線索、兩個問題與待核對事項",
+        "checklist": [
+          "文件來源與線索位置可回查",
+          "問題不預設答案，尊重拒訪",
+          "區分事實、受訪說法與推測，標出待查處"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "來源與延伸的界線",
+          "text": "逐字稿提供 Caro 由筆記批註進入訪談的具體經驗；教學步驟、同意、交叉核對與時間安排由編輯補充。單一訪談不是事實驗證，分享或公開前應依資料性質與適用規範處理。",
+          "sourceIds": [
+            "original"
+          ]
+        }
+      ],
+      "keywords": [
+        "訪談準備",
+        "文件線索",
+        "開放追問",
+        "資料查證"
+      ],
+      "publishedAt": "2026-10-31T12:07:19+08:00",
+      "overview": {
+        "image": "/assets/overviews/caro-document-clue-interview-desktop.webp",
+        "mobileImage": "/assets/overviews/caro-document-clue-interview-mobile.webp",
+        "cardImage": "/assets/overviews/caro-document-clue-interview-desktop.webp",
+        "alt": "小硯和阿問先讀文件，再向知情者提問並核對資料。",
+        "caption": "依來源觀點製圖，實際練習為編輯延伸。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      }
     }
   ],
   "demo": {
