@@ -128185,6 +128185,199 @@
         "mobileWidth": 1000,
         "mobileHeight": 1600
       }
+    },
+    {
+      "id": "ai-tutor-simulated-student-paths",
+      "title": "AI 家教上線前，先模擬學生卡關的對話",
+      "summary": "Brilliant 共同創辦人 Sue Khim 分享，團隊用模擬學生走不同的不順路徑，檢查 AI 家教如何回應。本文將產品測試的概念延伸成教師可試做的對話紀錄與核對練習；模擬不能取代真實學生的使用觀察。",
+      "categoryId": "ai",
+      "topicIds": [
+        "workflow"
+      ],
+      "audience": "想在學生使用前檢查 AI 家教對話的教師",
+      "output": "一份模擬卡關對話與教師核對紀錄",
+      "minutes": 25,
+      "level": "入門",
+      "status": "ready",
+      "contentType": "video_method",
+      "reviewedAt": "2026-10-31",
+      "coverLabel": "AI 家教 · 對話預演",
+      "keywords": [
+        "AI 家教",
+        "模擬學生",
+        "對話測試",
+        "教師審查"
+      ],
+      "sourceCoverage": "已讀創作者公布的英文逐字稿，並對照第三方附時間逐字稿 29:46–32:12；未逐秒聽校或核對畫面，逐字稿可能有語音辨識錯誤。講者描述自家產品測試，未提供此教師練習的成效證據。所有教師操作腳本、虛構情境、記錄表、核對項目、重跑流程與時長均為編輯延伸。現有 ai-tutor-protect-thinking-assessment 與 teacher-question-sequence-ai-implementation 同用這一集；本篇聚焦家教上線前的多路徑對話測試。模擬不能替代真實學生資料或使用觀察。",
+      "sources": [
+        {
+          "id": "original",
+          "title": "AI Makes Cheating Easy. Here’s How It Can Make Kids Smarter Instead | Sue Khim",
+          "kind": "video",
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=NsVayi42I0I",
+          "channel": "Behind the Craft",
+          "videoId": "NsVayi42I0I",
+          "note": "指定 Notion 紀錄：https://app.notion.com/p/3d32d00e283a8128b7b1d8bc483bb231；創作者逐字稿：https://github.com/petergyang/behind-the-craft-transcripts/blob/main/transcripts/2026/167-ai-makes-cheating-easy-heres-how-it-can-make-kids-smarter-instead-sue-khim.md；附時間逐字稿：https://pod.wave.co/podcast/behind-the-craft/ai-makes-cheating-easy-heres-how-it-can-make-kids-smarter-instead-sue-khim"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "選一題與檢查重點",
+          "action": "選一個教學概念及一段 AI 家教互動，寫下學生應練習的能力，以及需要留意的錯誤回應。",
+          "why": "原訪談討論上線前的品質檢查；選題和檢查規準為編輯延伸。",
+          "example": "編輯示範：學生須根據描寫推論人物情緒；檢查提示有無錯引原文或直接代答。",
+          "check": "學習目標與檢查重點能讓另一位教師理解。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 1786,
+              "endSeconds": 1865
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "準備多條虛構卡關路徑",
+          "action": "寫下幾種虛構的學生回應，例如一直要求答案、誤解題意或反覆答錯；由教師扮演，或請 AI 協助生成模擬回應。",
+          "why": "講者描述用合成學生走不同的不順路徑；這些情境與教師操作腳本為編輯延伸。",
+          "example": "編輯示範：學生回覆「我不知道，你直接告訴我答案」。",
+          "check": "每條路徑都標記為虛構，且不含可辨識的學生資料。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 1869,
+              "endSeconds": 1896
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "逐條對話並由教師核對",
+          "action": "將各種模擬回應輸入家教，記下輸入、回覆與疑似問題；教師核對內容是否正確、提示是否符合教學目標。",
+          "why": "講者以模擬路徑檢查家教介入並強調人工判斷；逐條紀錄與核對項目為編輯延伸。",
+          "example": "編輯示範：家教引用了文中不存在的句子，教師將該回合標為待修正。",
+          "check": "每個疑點都保留原始對話及教師判斷理由。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 1786,
+              "endSeconds": 1932
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "修改後重跑，再觀察實際使用",
+          "action": "修正可調整的提示或設定，重跑同一路徑；後續依學校規範觀察真實學生使用，記錄仍待處理的問題。",
+          "why": "講者說明真實學生資料不可替代；修改、重跑及課堂安排為編輯延伸。",
+          "example": "編輯示範：修改指令後再次輸入相同的虛構回應，比較家教是否仍錯引原文。",
+          "check": "紀錄修改前後差異；不把模擬通過當成學生已學會的證據。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 1896,
+              "endSeconds": 1932
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "從虛構路徑到真實觀察",
+          "note": "教師操作流程為編輯延伸；模擬不能取代真實學生資料。",
+          "nodes": [
+            {
+              "id": "n1",
+              "label": "選題與規準",
+              "detail": "寫下學習目標"
+            },
+            {
+              "id": "n2",
+              "label": "模擬卡關",
+              "detail": "準備不同對話"
+            },
+            {
+              "id": "n3",
+              "label": "教師核對",
+              "detail": "記錄並修正"
+            },
+            {
+              "id": "n4",
+              "label": "真實觀察",
+              "detail": "依規範回看使用"
+            }
+          ],
+          "edges": [
+            {
+              "from": "n1",
+              "to": "n2"
+            },
+            {
+              "from": "n2",
+              "to": "n3"
+            },
+            {
+              "from": "n3",
+              "to": "n4"
+            }
+          ]
+        }
+      ],
+      "practice": {
+        "title": "編輯練習：預演三條卡關對話",
+        "minutes": 25,
+        "prompt": "選一題，寫下三種虛構卡關回應，逐一測試 AI 家教；記錄教師判斷、修改與重跑結果。",
+        "deliverable": "一份模擬卡關對話與教師核對紀錄",
+        "checklist": [
+          "寫下學習目標與檢查重點。",
+          "情境標記為虛構，不含可辨識學生資料。",
+          "保留對話與教師核對理由。",
+          "記錄修改前後差異與真實使用時仍需觀察的問題。"
+        ]
+      },
+      "pitfalls": [
+        "把模擬學生的反應當成真實學生的想法或學習成果。",
+        "只檢查順利作答，忽略誤解、反覆答錯與要求直接給答案的路徑。",
+        "將講者對自家產品的描述當成此教師練習已獲實證的成效。"
+      ],
+      "supplements": [
+        {
+          "title": "編輯提醒：模擬只是上線前的一道檢查",
+          "text": "AI 生成的虛構學生可能反映刻板印象或漏掉真實困難。後續仍須依學校規範與適當同意，觀察真實使用並保護學生資料。",
+          "sourceIds": []
+        }
+      ],
+      "validation": [
+        {
+          "claim": "模擬學生通過測試，就能證明 AI 家教能改善學生學習。",
+          "status": "unverified",
+          "explanation": "訪談是業者對產品測試的描述，講者也強調模擬不如真實學生資料；未提供此教師練習的效果研究。",
+          "sourceIds": [
+            "original"
+          ],
+          "checkedAt": "2026-10-31"
+        }
+      ],
+      "publishedAt": "2026-10-31T11:37:42+08:00",
+      "overview": {
+        "image": "/assets/overviews/ai-tutor-simulated-paths-desktop.webp",
+        "mobileImage": "/assets/overviews/ai-tutor-simulated-paths-mobile.webp",
+        "cardImage": "/assets/overviews/ai-tutor-simulated-paths-desktop.webp",
+        "alt": "小硯和以澄模擬學生卡關，檢查 AI 家教的回覆。",
+        "caption": "依來源觀點製圖，具體測試活動為編輯延伸。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      }
     }
   ],
   "demo": {
