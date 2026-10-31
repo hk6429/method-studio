@@ -128820,6 +128820,156 @@
         "mobileWidth": 1000,
         "mobileHeight": 1600
       }
+    },
+    {
+      "id": "caro-writing-central-sentence",
+      "title": "寫長文前先問：這篇真正想說什麼？",
+      "summary": "傳記作家 Robert Caro 分享，寫長篇作品前先思考整體，試著用一句話或一段話說明作品核心，再讓內容圍繞核心。本文將其個人寫作經驗延伸為課堂練習，並保留修正主軸與處理反例的空間。",
+      "categoryId": "reading",
+      "topicIds": [
+        "teaching",
+        "strategies"
+      ],
+      "level": "入門",
+      "minutes": 20,
+      "output": "一張主軸句、材料對照與修訂紀錄",
+      "audience": "指導學生寫作的教師與自主寫作者",
+      "status": "ready",
+      "contentType": "article_method",
+      "reviewedAt": "2026-10-31",
+      "sourceCoverage": "已實讀節目官方公開逐字稿中 41:00「Getting a book down to one sentence」段落，未逐字聽校音訊；時間為節目章節起點，不表示整段均逐秒校對。Caro 描述個人長篇傳記寫作經驗，並坦承無法確保方向正確；讀者、課堂步驟、反例處理、示例與時間均為編輯延伸，未經課堂成效驗證。",
+      "coverLabel": "寫前主軸",
+      "sources": [
+        {
+          "id": "original",
+          "title": "Robert Caro – The master biographer reflects at 91",
+          "url": "https://www.dwarkesh.com/p/robert-caro",
+          "kind": "article",
+          "channel": "Dwarkesh Podcast",
+          "note": "官方逐字稿；發布日期 2026-10-30；41:00 章節。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "先說清寫作任務",
+          "action": "選定讀者與題目，寫下想回答的問題。",
+          "why": "編輯延伸：讓寫作選擇與材料依據可供討論。",
+          "example": "給國中生的文章想回答：怎樣的回饋能幫助修改？",
+          "check": "能說出讀者與問題。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 2460,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "試寫主軸句",
+          "action": "用一句話寫出整篇真正想說的意思；需要時可以先寫一小段。",
+          "why": "編輯延伸：讓寫作選擇與材料依據可供討論。",
+          "example": "編輯示範：具體回饋要讓學生知道下一步如何修改。",
+          "check": "主軸句表達了要說的意思，而不只是題目。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 2460,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "對照材料與反例",
+          "action": "列出預計使用的材料，說明每一項與主軸的關係；留下不支持主軸的證據，並標記待查之處。",
+          "why": "編輯延伸：讓寫作選擇與材料依據可供討論。",
+          "example": "編輯示範：對照去識別的學生修訂紀錄；若有人收到具體回饋仍未修改，也保留並探問原因。",
+          "check": "支持與不支持的材料都留下，出處與待查問題清楚。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 2460,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "寫後回看並修正",
+          "action": "完成草稿後檢查段落是否回應主軸；若材料顯示原主張過於簡化，就修改主軸和內容。",
+          "why": "編輯延伸：讓寫作選擇與材料依據可供討論。",
+          "example": "編輯示範：把「具體回饋就能促進修改」改成「具體回饋能指出方向，學生仍需時間與支持」。",
+          "check": "能說明一次修改及其材料依據。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 2460,
+              "endSeconds": null
+            }
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "此課堂改編能提升寫作表現",
+          "status": "unverified",
+          "explanation": "來源為作家的個人經驗，未提供本課堂練習的成效驗證，不能保證結果。",
+          "sourceIds": [
+            "original"
+          ],
+          "checkedAt": "2026-10-31"
+        }
+      ],
+      "pitfalls": [
+        "把主軸句當作不可更改的結論。",
+        "只挑支持主張的材料，篩掉反例。",
+        "把一句話當成事實查證的替代品。"
+      ],
+      "practice": {
+        "title": "編輯延伸：寫出並檢查主軸",
+        "minutes": 20,
+        "prompt": "選一個寫作題目，寫一句主軸，列出支持與不支持的材料及待查問題；依材料修訂一次。",
+        "deliverable": "主軸句、材料對照與一次修訂紀錄",
+        "checklist": [
+          "能說明文章要回應的問題",
+          "保留反例並標示來源",
+          "必要時依證據修正主軸"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "來源與延伸的界線",
+          "text": "Caro 描述寫作前思考全書、用一句至一段表達核心；課堂流程與反例檢查是編輯設計，不是其原有教案。",
+          "sourceIds": [
+            "original"
+          ]
+        }
+      ],
+      "keywords": [
+        "長篇寫作",
+        "主軸句",
+        "材料核對",
+        "寫作教學"
+      ],
+      "publishedAt": "2026-10-31T11:56:23+08:00",
+      "overview": {
+        "image": "/assets/overviews/caro-writing-central-sentence-desktop.webp",
+        "mobileImage": "/assets/overviews/caro-writing-central-sentence-mobile.webp",
+        "cardImage": "/assets/overviews/caro-writing-central-sentence-desktop.webp",
+        "alt": "知行與小硯整理寫作材料，先寫下一句可修正的文章主軸。",
+        "caption": "依來源觀點製圖，寫作活動為編輯延伸。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      }
     }
   ],
   "demo": {
