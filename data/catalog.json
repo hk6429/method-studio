@@ -125261,6 +125261,200 @@
         "mobileHeight": 1600
       },
       "publishedAt": "2026-10-31T09:52:23+08:00"
+    },
+    {
+      "id": "unfamiliar-accent-context-clarify",
+      "title": "聽不熟悉的英語口音時：從熟悉話題與澄清開始",
+      "summary": "先掌握對話脈絡，聽不清楚時請對方換句話或重說，重要內容再確認。",
+      "categoryId": "english",
+      "topicIds": [
+        "speaking",
+        "habits"
+      ],
+      "audience": "在英文對話或會議中遇到不熟悉說話方式的學習者",
+      "output": "一張聽不清楚時的澄清與核對清單",
+      "minutes": 10,
+      "level": "入門",
+      "status": "ready",
+      "contentType": "video_method",
+      "reviewedAt": "2026-10-31",
+      "coverLabel": "英語聽力 · 對話澄清",
+      "keywords": [
+        "英語聽力",
+        "口音",
+        "會議溝通",
+        "澄清"
+      ],
+      "sourceCoverage": "指定 Notion 影片已下載 MP3，以本機 Whisper small 產生時間碼字幕；尚未完整人工聽校，字幕有辨識錯字。影片約 00:50–01:47 分享以熟悉話題開始對話，01:47–02:33 提到請對方重說，02:42–02:58 提到對照文字紀錄。本文英文句、練習及檢核為編輯設計；每個人的說話方式不同，不以國籍一概推斷。",
+      "sources": [
+        {
+          "id": "original",
+          "title": "聽不懂口音應該怎麼辦",
+          "kind": "video",
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=jy2LAk7EklY",
+          "channel": "Carrie Wang",
+          "videoId": "jy2LAk7EklY",
+          "note": "本機自動字幕，尚未完整人工聽校。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "從熟悉話題開始",
+          "action": "在對方方便的情況下，以簡短、熟悉的話題開啟對話，先掌握談話脈絡。",
+          "why": "依講者的交流與澄清建議整理；例子與檢核為編輯設計。",
+          "example": "編輯示範：先詢問對方今天的行程，再進入會議主題。",
+          "check": "能說出這一段對話大致在談什麼。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 50,
+              "endSeconds": 107
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "留意對方的說話方式",
+          "action": "在交流中注意自己沒聽清楚的聲音或表達，避免僅憑國籍猜測個人口音。",
+          "why": "依講者的交流與澄清建議整理；例子與檢核為編輯設計。",
+          "example": "編輯示範：記下某個重複聽不清楚的詞，之後再確認。",
+          "check": "指出一個需要進一步確認的地方。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 50,
+              "endSeconds": 107
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "沒有聽清楚就禮貌追問",
+          "action": "請對方重說、放慢或換句話說，再試著確認自己的理解。",
+          "why": "依講者的交流與澄清建議整理；例子與檢核為編輯設計。",
+          "example": "編輯示範：Could you say that another way?",
+          "check": "對方有機會澄清，你也能重述關鍵意思。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 107,
+              "endSeconds": 153
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "事後核對重要內容",
+          "action": "若有權使用會議錄音或文字紀錄，可對照回看；重要資訊仍向對方確認。",
+          "why": "依講者的交流與澄清建議整理；例子與檢核為編輯設計。",
+          "example": "編輯示範：經同意後回聽一小段會議，確認日期和待辦。",
+          "check": "記下已確認的重點與仍不確定之處。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 162,
+              "endSeconds": 178
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "從脈絡到澄清",
+          "note": "例句與會後檢核為編輯設計。",
+          "nodes": [
+            {
+              "id": "n1",
+              "label": "從熟悉話題開始",
+              "detail": "能說出這一段對話大致在談什麼。"
+            },
+            {
+              "id": "n2",
+              "label": "留意對方的說話方式",
+              "detail": "指出一個需要進一步確認的地方。"
+            },
+            {
+              "id": "n3",
+              "label": "沒有聽清楚就禮貌追問",
+              "detail": "對方有機會澄清，你也能重述關鍵意思。"
+            },
+            {
+              "id": "n4",
+              "label": "事後核對重要內容",
+              "detail": "記下已確認的重點與仍不確定之處。"
+            }
+          ],
+          "edges": [
+            {
+              "from": "n1",
+              "to": "n2"
+            },
+            {
+              "from": "n2",
+              "to": "n3"
+            },
+            {
+              "from": "n3",
+              "to": "n4"
+            }
+          ]
+        }
+      ],
+      "practice": {
+        "title": "編輯練習：準備一句澄清用語",
+        "minutes": 10,
+        "prompt": "想一個可能遇到聽不清楚的對話情境，準備一句禮貌追問，再練習用自己的話確認重點。",
+        "deliverable": "一句澄清用語及一則確認重點",
+        "checklist": [
+          "說出對話的大致脈絡",
+          "指出不確定內容",
+          "以禮貌方式請對方澄清",
+          "確認重要資訊"
+        ]
+      },
+      "pitfalls": [
+        "假設同一國家的人說話方式都一樣。",
+        "沒有聽懂卻不確認，讓日期或任務資訊出錯。",
+        "未取得適當同意或權限，就錄製或分享他人談話。"
+      ],
+      "supplements": [
+        {
+          "title": "編輯示範：確認重點",
+          "text": "可以試著說「Let me check: do you mean …?」，再用自己的話重述對方的重點。",
+          "sourceIds": []
+        }
+      ],
+      "validation": [
+        {
+          "claim": "只要寒暄一下就一定能聽懂所有口音",
+          "status": "unverified",
+          "explanation": "影片分享講者的個人經驗；理解受語境、聲音、熟悉程度與溝通方式等因素影響。",
+          "sourceIds": [
+            "original"
+          ],
+          "checkedAt": "2026-10-31"
+        }
+      ],
+      "overview": {
+        "image": "/assets/overviews/unfamiliar-accent-clarify-desktop.webp",
+        "mobileImage": "/assets/overviews/unfamiliar-accent-clarify-mobile.webp",
+        "cardImage": "/assets/overviews/unfamiliar-accent-clarify-desktop.webp",
+        "alt": "阿問陪讀者以熟悉話題和澄清理解不同說話方式。",
+        "caption": "澄清示例與練習為編輯設計。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      },
+      "publishedAt": "2026-10-31T10:05:55+08:00"
     }
   ],
   "demo": {
