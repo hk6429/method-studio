@@ -123908,6 +123908,198 @@
         "mobileHeight": 1600
       },
       "publishedAt": "2026-10-30T09:51:33+08:00"
+    },
+    {
+      "id": "reading-question-knowledge-tree-feedback",
+      "title": "帶問題讀書：先建立知識樹，再回到生活試做",
+      "summary": "先寫下想解決的問題，建立主要概念，再透過追問、比較與實作回饋調整理解。",
+      "categoryId": "reading",
+      "topicIds": [
+        "strategies",
+        "learning"
+      ],
+      "audience": "想把閱讀連結實際問題的學習者與教師",
+      "output": "一張問題、知識主幹與試做回饋卡",
+      "minutes": 25,
+      "level": "入門",
+      "status": "ready",
+      "contentType": "article_method",
+      "reviewedAt": "2026-10-31",
+      "coverLabel": "閱讀方法 · 知識樹",
+      "keywords": [
+        "問題導向閱讀",
+        "知識樹",
+        "閱讀筆記",
+        "學以致用"
+      ],
+      "sourceCoverage": "指定 Notion 所收藏的 Podcast 音訊約 16:19；本機 Whisper small 自動轉錄全段，前後含廣告，約 15:25–15:49 出現重複辨識幻覺，未採用；尚未逐字人工聽校。節目以樹幹、枝葉談先理解基本原理，再討論追問及運用。卡片、課堂例子和實作步驟為編輯整理；節目中人物經歷及引言未獨立核實。",
+      "sources": [
+        {
+          "id": "original",
+          "title": "Podcast 節目頁：學習馬斯克功利型讀書法",
+          "kind": "article",
+          "url": "https://player.soundon.fm/p/73930beb-4136-4b36-a910-39984335b7bb/episodes/677c7a34-aed3-43e0-82cd-40e9e752cd79",
+          "channel": "吳淡如人生實用商學院",
+          "note": "音訊由本機自動轉錄，尚未完整人工聽校。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "把想解決的問題寫清楚",
+          "action": "選一個自己正在面對的真實問題，再決定要讀什麼。",
+          "why": "依節目分享整理；表格、例子和檢核為編輯設計。",
+          "example": "編輯示範：想設計一個班級共讀活動，先問「如何讓學生提出自己的問題？」",
+          "check": "問題能以一句具體問句寫出。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "先建立主幹，再放進細節",
+          "action": "先從材料找主要概念、原理與彼此關係，暫時不要急著蒐集所有細節。",
+          "why": "依節目分享整理；表格、例子和檢核為編輯設計。",
+          "example": "編輯示範：畫一棵知識樹，樹幹寫閱讀目標，枝幹寫提問、討論與回饋。",
+          "check": "能用自己的話說出主要概念，以及哪些部分仍不清楚。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "追問並比較不同看法",
+          "action": "對照資料追問原有想法，找出不同觀點及需要查證的地方。",
+          "why": "依節目分享整理；表格、例子和檢核為編輯設計。",
+          "example": "編輯示範：比較兩種共讀提問方式，記下各自適用條件。",
+          "check": "至少留下一個可查證的疑問，不把推測當定論。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "試做，再根據回饋補讀",
+          "action": "在現實情境中試一小步，觀察結果，再決定要補哪些資料或調整做法。",
+          "why": "依節目分享整理；表格、例子和檢核為編輯設計。",
+          "example": "編輯示範：先和少數同學試一題，記下實際回應再修題。",
+          "check": "留下這次做了什麼、發現什麼、下一步想調整什麼。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "從問題到試做回饋",
+          "note": "流程與課堂例子為編輯整理。",
+          "nodes": [
+            {
+              "id": "n1",
+              "label": "把想解決的問題寫清楚",
+              "detail": "問題能以一句具體問句寫出。"
+            },
+            {
+              "id": "n2",
+              "label": "先建立主幹，再放進細節",
+              "detail": "能用自己的話說出主要概念，以及哪些部分仍不清楚。"
+            },
+            {
+              "id": "n3",
+              "label": "追問並比較不同看法",
+              "detail": "至少留下一個可查證的疑問，不把推測當定論。"
+            },
+            {
+              "id": "n4",
+              "label": "試做，再根據回饋補讀",
+              "detail": "留下這次做了什麼、發現什麼、下一步想調整什麼。"
+            }
+          ],
+          "edges": [
+            {
+              "from": "n1",
+              "to": "n2"
+            },
+            {
+              "from": "n2",
+              "to": "n3"
+            },
+            {
+              "from": "n3",
+              "to": "n4"
+            }
+          ]
+        }
+      ],
+      "practice": {
+        "title": "編輯練習：畫一張知識樹",
+        "minutes": 25,
+        "prompt": "寫下真實問題，閱讀一段可靠材料，畫出主要概念及關係，留下待查疑問，再設計一個可試做的小步驟。",
+        "deliverable": "問題、知識樹及下一次試做計畫",
+        "checklist": [
+          "問題具體可理解",
+          "主要概念連回閱讀材料",
+          "至少一處疑問或假設有標記",
+          "寫出下一次試做與回看方式"
+        ]
+      },
+      "pitfalls": [
+        "只記漂亮架構，卻說不清楚概念彼此如何連結。",
+        "把節目中未核實的人物事蹟或引言當作證據。",
+        "將閱讀視為只能追求立即實用；探索與欣賞本身也可以是閱讀目的。"
+      ],
+      "supplements": [
+        {
+          "title": "編輯示範：知識樹模板",
+          "text": "我的問題：＿＿；主要概念：＿＿；概念之間的關係：＿＿；尚待查證：＿＿；可以試做的一小步：＿＿。",
+          "sourceIds": []
+        }
+      ],
+      "validation": [
+        {
+          "claim": "依照知識樹閱讀一定能快速掌握任何領域",
+          "status": "unverified",
+          "explanation": "節目分享個人閱讀觀點，沒有提供足以支持普遍成效的研究；文章示例是編輯設計。",
+          "sourceIds": [
+            "original"
+          ],
+          "checkedAt": "2026-10-31"
+        }
+      ],
+      "overview": {
+        "image": "/assets/overviews/reading-knowledge-tree-feedback-desktop.webp",
+        "mobileImage": "/assets/overviews/reading-knowledge-tree-feedback-mobile.webp",
+        "cardImage": "/assets/overviews/reading-knowledge-tree-feedback-desktop.webp",
+        "alt": "以澄陪伴讀者建立知識架構並回到生活試做。",
+        "caption": "知識樹與試做流程為編輯整理。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      },
+      "publishedAt": "2026-10-31T09:24:39+08:00"
     }
   ],
   "demo": {
