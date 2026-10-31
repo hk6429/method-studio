@@ -126227,6 +126227,200 @@
         "mobileHeight": 1600
       },
       "publishedAt": "2026-10-31T10:41:10+08:00"
+    },
+    {
+      "id": "exam-errors-ability-text-matrix",
+      "title": "國文模考後，用能力與文類交叉表整理錯題",
+      "summary": "把錯題放進能力與文類交叉表，看見值得回頭查的分布，再回原題分析判斷。",
+      "categoryId": "reading",
+      "topicIds": [
+        "learning",
+        "teaching"
+      ],
+      "audience": "想整理國文模考錯題的學生與教師",
+      "output": "一張錯題交叉表與一則錯因紀錄",
+      "minutes": 25,
+      "level": "入門",
+      "status": "ready",
+      "contentType": "video_method",
+      "reviewedAt": "2026-10-31",
+      "coverLabel": "國文複習 · 錯題交叉表",
+      "keywords": [
+        "國文會考",
+        "錯題整理",
+        "交叉表",
+        "複習策略"
+      ],
+      "sourceCoverage": "指定 Notion 影片音檔約 95:19；本機自動轉錄全片，並重新擷取 01:09:20 起的三分鐘以 Whisper small 轉錄，尚未人工聽校或核對投影片。來源約 01:09:40–01:11:52 討論依能力與文類標錯題、看分布及回原題；總題數、紀錄格式和討論為編輯設計。",
+      "sources": [
+        {
+          "id": "original",
+          "title": "116 年國中教育會考趨勢分析與複習策略講座：國文＋寫作測驗",
+          "kind": "video",
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=6ik_V7VDTCc",
+          "channel": "臺北酷課雲",
+          "videoId": "6ik_V7VDTCc",
+          "note": "自動字幕與重新擷取片段尚未人工聽校，未核對投影片。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "依題目建立能力與文類表",
+          "action": "依這份試卷實際題目，核對每題的能力類型與文類，將題號填入交叉表。",
+          "why": "影片展示依能力與文類整理錯題並回看原題；分類總數、紀錄卡與課堂討論為編輯設計。",
+          "example": "編輯示範：將教師確認為「推論」且屬「白話文」的題號放入相應格子。",
+          "check": "每題的分類有題目或教師核對依據。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 4180,
+              "endSeconds": 4243
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "圈出答錯的題號",
+          "action": "將自己的錯題在表上標記，並記錄各分類的總題數。",
+          "why": "影片展示依能力與文類整理錯題並回看原題；分類總數、紀錄卡與課堂討論為編輯設計。",
+          "example": "編輯示範：在某格圈出一題，旁邊註明該格共有幾題。",
+          "check": "錯題和各分類題量都能回到原試卷核對。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 4180,
+              "endSeconds": 4243
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "先看分布，再回到原題",
+          "action": "觀察哪些格子值得再看，選一題回原文與選項，記下自己當時的判斷。",
+          "why": "影片展示依能力與文類整理錯題並回看原題；分類總數、紀錄卡與課堂討論為編輯設計。",
+          "example": "編輯示範：選一題推論題，寫下當時選項與自己依據的句子。",
+          "check": "能指出一個可檢查的推理步驟，不只寫「粗心」。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 4260,
+              "endSeconds": 4291
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "核對原因並決定下一步",
+          "action": "對照題目、解析或與教師討論，寫下可能的錯因和下一次練習方向。",
+          "why": "影片展示依能力與文類整理錯題並回看原題；分類總數、紀錄卡與課堂討論為編輯設計。",
+          "example": "編輯示範：發現漏讀限制詞，就挑一道同類題練習找限制。",
+          "check": "至少寫下一項可執行的調整與仍不確定之處。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 4260,
+              "endSeconds": 4291
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "從交叉表回到原題",
+          "note": "分類總數及錯因紀錄為編輯設計。",
+          "nodes": [
+            {
+              "id": "n1",
+              "label": "依題目建立能力與文類表",
+              "detail": "每題的分類有題目或教師核對依據。"
+            },
+            {
+              "id": "n2",
+              "label": "圈出答錯的題號",
+              "detail": "錯題和各分類題量都能回到原試卷核對。"
+            },
+            {
+              "id": "n3",
+              "label": "先看分布，再回到原題",
+              "detail": "能指出一個可檢查的推理步驟，不只寫「粗心」。"
+            },
+            {
+              "id": "n4",
+              "label": "核對原因並決定下一步",
+              "detail": "至少寫下一項可執行的調整與仍不確定之處。"
+            }
+          ],
+          "edges": [
+            {
+              "from": "n1",
+              "to": "n2"
+            },
+            {
+              "from": "n2",
+              "to": "n3"
+            },
+            {
+              "from": "n3",
+              "to": "n4"
+            }
+          ]
+        }
+      ],
+      "practice": {
+        "title": "編輯練習：填一張錯題交叉表",
+        "minutes": 25,
+        "prompt": "依教師核對過的能力與文類分類，填入一份試卷題號及各類題數，標記錯題；選一題回原文與解析檢查自己的判斷。",
+        "deliverable": "一張交叉表與一則錯因、下一步紀錄",
+        "checklist": [
+          "題目分類已核對",
+          "記下錯題與分類總題數",
+          "回原題查判斷依據",
+          "寫出可執行的下一步"
+        ]
+      },
+      "pitfalls": [
+        "只看錯題數，忽略各分類原本題數可能不同。",
+        "用題數很少的單一格子判定固定能力高低。",
+        "圈出錯題就結束，沒有回原題找出判斷卡點。"
+      ],
+      "supplements": [
+        {
+          "title": "編輯提示：交叉表只是線索",
+          "text": "先將分布當成值得回看的線索，再逐題查原因；題目分類與題量也要先核對。",
+          "sourceIds": []
+        }
+      ],
+      "validation": [
+        {
+          "claim": "一次模考的交叉表可以準確測出學生全部弱點",
+          "status": "unverified",
+          "explanation": "單次試卷的分類與題量可能不均，表格只能提供待查線索，不能單獨判定完整能力。",
+          "sourceIds": [
+            "original"
+          ],
+          "checkedAt": "2026-10-31"
+        }
+      ],
+      "overview": {
+        "image": "/assets/overviews/exam-ability-text-matrix-desktop.webp",
+        "mobileImage": "/assets/overviews/exam-ability-text-matrix-mobile.webp",
+        "cardImage": "/assets/overviews/exam-ability-text-matrix-desktop.webp",
+        "alt": "知行陪學生用交叉表回看國文模考錯題。",
+        "caption": "分類總數及錯因紀錄為編輯設計。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      },
+      "publishedAt": "2026-10-31T10:49:48+08:00"
     }
   ],
   "demo": {
