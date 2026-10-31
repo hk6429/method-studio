@@ -128378,6 +128378,448 @@
         "mobileWidth": 1000,
         "mobileHeight": 1600
       }
+    },
+    {
+      "id": "student-guides-teacher-research-reading",
+      "title": "讓學生帶老師共讀：從一篇文章反推關鍵想法",
+      "summary": "數學教授 Ankur Moitra 分享研究生指導經驗：選擇自己也想理解的相鄰領域論文，請學生向他解釋，兩人一起反推論文的關鍵想法。本文以此為起點，編輯設計一份適合國中以上的共讀卡；課堂版本的效果尚未驗證。",
+      "categoryId": "reading",
+      "topicIds": [
+        "strategies",
+        "teaching"
+      ],
+      "keywords": [
+        "師生共讀",
+        "學生主導",
+        "閱讀理解",
+        "關鍵想法",
+        "類比",
+        "研究生指導"
+      ],
+      "level": "入門",
+      "minutes": 20,
+      "audience": "想讓學生帶領文本討論的國中以上教師；原始經驗來自研究生指導",
+      "output": "一張列出文本線索、關鍵想法、類比與待查問題的共讀卡",
+      "status": "ready",
+      "contentType": "video_method",
+      "reviewedAt": "2026-10-31",
+      "coverLabel": "閱讀教學 · 師生共讀",
+      "sourceCoverage": "依節目官方發布的英文人工逐字稿 02:22:45–02:25:28 翻譯改述；官方提示逐字稿可能有誤，本稿未人工聽校，亦未審閱全片。講者描述研究生讀相鄰領域研究論文並向導師解釋的個人指導經驗。國中課堂的文本、時間、問題、共讀卡、證據核對和示例均為編輯延伸，尚未驗證成效。",
+      "sources": [
+        {
+          "id": "podcast-video",
+          "title": "#503 – AI Crisis in Math: Navier-Stokes, Riemann Hypothesis & Complexity Theory",
+          "kind": "video",
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=ZAzWPE9CItg",
+          "channel": "Lex Fridman Podcast",
+          "videoId": "ZAzWPE9CItg",
+          "note": "來源由指定 Notion 頁確認：https://app.notion.com/p/4052d00e283a81c3b4def9fa0d8f9842。時間碼依官方逐字稿；影片未聽校。"
+        },
+        {
+          "id": "official-transcript",
+          "title": "Transcript for AI Crisis in Math: Navier-Stokes, Riemann Hypothesis & Complexity Theory",
+          "kind": "article",
+          "url": "https://lexfridman.com/math-ai-crisis-transcript/",
+          "channel": "Lex Fridman Podcast",
+          "note": "節目官方人工逐字稿；官方提醒仍可能有誤。本文只取 02:22:45–02:25:28 的指導經驗。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "choose",
+          "title": "選一篇師生都想理解的文本",
+          "action": "選一篇適合學生閱讀的短文，提出一個教師也想深入理解的問題，說明閱讀範圍與可使用的資料。",
+          "why": "講者說，他改選與自己研究領域相鄰、自己也想了解的論文；國中短文和選材方式為編輯延伸。",
+          "example": "編輯示範：師生選一篇談校園樹木的短文，問作者如何從觀察走到保護建議。",
+          "check": "文本與提問已確定，學生知道可以參考哪些資料。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "podcast-video",
+              "startSeconds": 8614,
+              "endSeconds": 8649
+            }
+          ]
+        },
+        {
+          "id": "student-explains",
+          "title": "讓學生先帶老師理解",
+          "action": "學生先讀文本，選一個認為重要的想法，用自己的話向老師說明；老師先提出釐清問題，讓學生保有說明的主導權。",
+          "why": "講者請研究生消化論文並教他，讓學生坐在主導位置。課堂形式為編輯延伸。",
+          "example": "編輯示範：學生指出作者觀察到樹蔭下的溫度與空地不同，並說明為何認為這是重要線索。",
+          "check": "學生能指出一個關鍵想法，並向老師說明自己的理解。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "podcast-video",
+              "startSeconds": 8685,
+              "endSeconds": 8728
+            }
+          ]
+        },
+        {
+          "id": "reason-backward",
+          "title": "一起反推關鍵想法和類比",
+          "action": "師生討論這個想法如何形成，找出相關文本線索；再提出一個幫助理解的類比，說清楚它不適用的地方。",
+          "why": "講者描述與學生反推研究結果為何可能成立、找出關鍵想法，並討論不必字面完全成立的類比。回原文找線索與檢查類比限制為編輯延伸。",
+          "example": "編輯示範：把校園比成小生態系，接著指出比喻本身不能證明不同樹種的實際作用。",
+          "check": "共讀卡寫出一條文本線索、一個關鍵想法，以及類比的一個限制。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "podcast-video",
+              "startSeconds": 8614,
+              "endSeconds": 8728
+            }
+          ]
+        },
+        {
+          "id": "check-and-revise",
+          "title": "留下疑問，回到材料核對",
+          "action": "把仍不確定的說法標成待查，回原文或其他可靠資料核對，必要時修正共讀卡。",
+          "why": "回查證據、記錄疑問與修正是編輯延伸；讀過的片段沒有提供這份課堂檢核流程。",
+          "example": "編輯示範：若文章沒有實際溫度數據，就寫下待查問題，不自行補上數字。",
+          "check": "每項結論可指出依據；尚未確認者明確標為待查。",
+          "contribution": "editorial",
+          "sourceRefs": []
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "編輯延伸：師生共讀卡",
+          "note": "由研究生指導經驗延伸成國中以上共讀流程；圖解不證明成效。",
+          "nodes": [
+            {
+              "id": "text",
+              "label": "選文本",
+              "detail": "找師生都想了解的問題"
+            },
+            {
+              "id": "explain",
+              "label": "學生說明",
+              "detail": "提煉一個關鍵想法"
+            },
+            {
+              "id": "reason",
+              "label": "共同反推",
+              "detail": "找線索與類比限制"
+            },
+            {
+              "id": "check",
+              "label": "核對修正",
+              "detail": "保留待查問題"
+            }
+          ],
+          "edges": [
+            {
+              "from": "text",
+              "to": "explain"
+            },
+            {
+              "from": "explain",
+              "to": "reason"
+            },
+            {
+              "from": "reason",
+              "to": "check"
+            }
+          ]
+        }
+      ],
+      "practice": {
+        "title": "編輯練習：完成一張共讀卡",
+        "minutes": 20,
+        "prompt": "選一篇短文和一個共同想了解的問題。學生先說明關鍵想法；師生共同找文本線索、想一個類比並指出限制；把仍不確定的內容標示待查，再回材料核對。20 分鐘是編輯示意，可依學生與文本調整。",
+        "deliverable": "一張有文本線索、關鍵想法、類比限制與待查問題的共讀卡。",
+        "checklist": [
+          "學生用自己的話說明關鍵想法。",
+          "至少一項判斷能對應文本線索。",
+          "類比有指出不適用之處。",
+          "不能確認的內容標示待查。"
+        ]
+      },
+      "pitfalls": [
+        "把老師早已預設的答案包裝成開放問題，學生一說完就直接代答。",
+        "把類比當成證明，忽略類比不能解釋的部分。",
+        "將研究生與導師共讀論文的經驗直接視為國中學生的成效證據。",
+        "把逐字稿的記錄當成已逐句聽校或整集已審閱。"
+      ],
+      "supplements": [
+        {
+          "title": "編輯觀點：讓學生真的有說明的位置",
+          "text": "課堂共讀的關鍵安排，是讓學生先提出自己的理解，老師保留追問和共同核對的空間。短文、共讀卡及核對流程都是從講者的研究生指導經驗延伸而來，教師可依學生程度與時間調整。",
+          "sourceIds": [
+            "podcast-video",
+            "official-transcript"
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "這份師生共讀卡能提升國中學生的閱讀理解。",
+          "status": "unverified",
+          "explanation": "來源是講者研究生指導的個人經驗，沒有檢驗本編輯設計的國中課堂效果。",
+          "sourceIds": [
+            "podcast-video",
+            "official-transcript"
+          ],
+          "checkedAt": "2026-10-31"
+        }
+      ],
+      "publishedAt": "2026-10-31T11:43:27+08:00",
+      "overview": {
+        "image": "/assets/overviews/student-guides-teacher-reading-desktop.webp",
+        "mobileImage": "/assets/overviews/student-guides-teacher-reading-mobile.webp",
+        "cardImage": "/assets/overviews/student-guides-teacher-reading-desktop.webp",
+        "alt": "以澄帶知行一起閱讀並共同找出關鍵想法。",
+        "caption": "依來源觀點製圖，具體教學活動為編輯延伸。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      }
+    },
+    {
+      "id": "news-event-long-term-trend",
+      "title": "一則新聞之外：用同一指標看長期變化",
+      "summary": "看到一則事件，很容易覺得整體正在變好或變壞。這篇依瓦基與派翠克談《真確》的公開文章，設計一張趨勢觀察卡：先留下直覺，再查同一指標的多年資料，同時寫出仍存在的問題與觀察到的變化。",
+      "categoryId": "reading",
+      "topicIds": [
+        "strategies",
+        "teaching"
+      ],
+      "level": "入門",
+      "minutes": 25,
+      "output": "一張記有原判斷、同指標趨勢、資料限制與修訂結論的觀察卡",
+      "audience": "想練習媒體識讀的學生、教師與一般讀者",
+      "status": "ready",
+      "contentType": "article_method",
+      "reviewedAt": "2026-10-31",
+      "coverLabel": "讀事件・看趨勢",
+      "sourceCoverage": "依瓦基 2026 年 10 月 19 日公開的《真確》訪談整理文章編排，已讀全文；Notion 是 Podcast 推播索引，並非逐字稿。未取得或核對完整錄音逐字稿，未採文中人口預測、電力比率等數據，也未查核全書。五步練習、交通情境、排程與卡片皆為編輯延伸，不宣稱源自節目逐字內容或已有教學成效。",
+      "keywords": [
+        "真確",
+        "新聞識讀",
+        "長期趨勢",
+        "數據判讀",
+        "直覺偏誤",
+        "資料比較"
+      ],
+      "sources": [
+        {
+          "id": "original",
+          "title": "《真確》讀後心得：世界一直在進步，我們的認知卻停在原地？",
+          "url": "https://readingoutpost.com/factfulness-bad-but-better/",
+          "kind": "article",
+          "channel": "閱讀前哨站／瓦基",
+          "publishedAt": "2026-10-19",
+          "note": "瓦基整理與派翠克的訪談重點；本文依此公開文章，不視為完整逐字稿。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "從一則事件寫下你的判斷",
+          "action": "選一則可追溯的新聞，分開記下事件和它讓你想到的整體趨勢，再先寫自己的直覺。",
+          "why": "來源提醒新聞呈現事件，讀者對長期變化的感受可能和資料不同；留下原判斷，才能回頭比較。",
+          "example": "編輯示範：讀到某地一件交通事故，寫下「我猜這地區近年事故愈來愈多」，並保留新聞連結。",
+          "check": "一句是事件，一句是暫待檢查的推測。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "把印象改寫為可查的問題",
+          "action": "界定同一地區、對象、時間及具體指標，列出比較時需要的資料。",
+          "why": "同一件事故不能直接代表整個地區的長期變化；明確界定問題才能找到可比的資料。",
+          "example": "編輯示範：查同一縣市歷年交通事故件數與人口，先確認定義是否一致。",
+          "check": "問題明確到可以判斷資料是否切題；尚未取得的部分留白。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "找同一指標的多年資料",
+          "action": "尋找可追溯的資料，記下來源、發布時間、統計範圍和各年度數字；有需要時也看人口或其他分母。",
+          "why": "來源指出有些變化需要拉長時間觀察；指標、年份及資料來源的記錄欄位是編輯補充。",
+          "example": "編輯示範：列出公開統計中可比的各年資料，同時確認事故件數與人口的年份對應。",
+          "check": "先檢查指標定義是否改變，無法確認時不勉強比較。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "同時寫出問題與變化",
+          "action": "檢視資料的起點、終點與中間波動，分兩句寫出仍存在的問題和觀察期間的指標變化。",
+          "why": "文章用 Bad but better 說明：問題仍在，特定面向也可能比過去改善。",
+          "example": "編輯示範：若資料顯示事故率降低，仍可寫「事故仍會造成傷害；在這段期間，該地每十萬人的事故率下降」。若未下降，就忠實寫出結果。",
+          "check": "不預設一定改善；標明區域、期間、指標與例外。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "step-5",
+          "title": "回頭修訂並保留未知",
+          "action": "比較原來的推測與資料，寫一個修訂後的判斷，再列出資料無法回答的問題。",
+          "why": "文章後記重視發現原先理解有誤並更新認知；此處回看卡片是編輯設計。",
+          "example": "編輯示範：原本以為愈來愈多，查證後改成「這段期間事故率下降，但單一數據無法解釋原因」。",
+          "check": "結論沒有把相關變化直接寫成因果，且保留資料缺口。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "從事件到可修訂的判斷",
+          "note": "編輯設計的閱讀練習；圖解與完成練習不代表成效已獲證實。",
+          "nodes": [
+            {
+              "id": "n0",
+              "label": "寫判斷",
+              "detail": "分開事件與推測"
+            },
+            {
+              "id": "n1",
+              "label": "定指標",
+              "detail": "限定對象與時間"
+            },
+            {
+              "id": "n2",
+              "label": "查趨勢",
+              "detail": "核對來源與定義"
+            },
+            {
+              "id": "n3",
+              "label": "雙句記錄",
+              "detail": "問題與變化並列"
+            },
+            {
+              "id": "n4",
+              "label": "修訂",
+              "detail": "保留未知"
+            }
+          ],
+          "edges": [
+            {
+              "from": "n0",
+              "to": "n1"
+            },
+            {
+              "from": "n1",
+              "to": "n2"
+            },
+            {
+              "from": "n2",
+              "to": "n3"
+            },
+            {
+              "from": "n3",
+              "to": "n4"
+            }
+          ]
+        }
+      ],
+      "practice": {
+        "title": "25 分鐘做一張趨勢觀察卡",
+        "minutes": 25,
+        "prompt": "編輯設計：選一則可追溯的新聞。依序記錄：新聞來源與事件＿＿；我的直覺＿＿；地區與對象＿＿；指標及統計時間＿＿；多年資料來源、定義與數字＿＿；仍存在的問題＿＿；同一期間觀察到的變化＿＿；修訂後判斷＿＿；尚不知道＿＿。找不到可靠且可比較資料，就保留未知，不必湊出結論。",
+        "deliverable": "一張記有來源、比較範圍、判斷修訂與資料缺口的趨勢觀察卡",
+        "checklist": [
+          "事件與對整體的推測分開記錄。",
+          "比較同一對象、範圍與定義，註明資料來源。",
+          "同時記下仍存在的問題與數據呈現的變化，不預設改善。",
+          "保留資料缺口，不把相關當因果。"
+        ]
+      },
+      "pitfalls": [
+        "只挑有利的起點與終點，忽略中間波動或定義改變。",
+        "用總人數比較不同規模的群體，未確認是否需要比率。",
+        "看見一項指標改善，就推論所有群體都變好或問題已解決。",
+        "為了完成練習使用無法追溯、不可比較或過時的資料。"
+      ],
+      "supplements": [
+        {
+          "title": "編輯觀點：保留兩句話的位置",
+          "text": "把「問題仍然存在」和「某項指標在特定期間的變化」分開寫，可以避免讓情緒或單一數字包辦結論。若指標沒有改善，也照資料記錄；練習的目的是修正理解，不是證明世界一定變好。",
+          "sourceIds": [
+            "original"
+          ]
+        },
+        {
+          "title": "編輯補充：課堂如何轉用",
+          "text": "教師可先準備定義一致的公開資料，讓學生先記錄直覺，再分組畫出變化與討論資料缺口。使用真實議題時，保留當事人的處境，避免把痛苦當成抽象的數字。",
+          "sourceIds": [
+            "original"
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "文章以事件與長期趨勢的差異，以及問題尚存但部分情況改善，說明認知可能需要更新。",
+          "status": "supported",
+          "explanation": "瓦基的公開訪談整理第五節與後記有此表述；屬文章觀點，並非已獨立核實每項例證。",
+          "sourceIds": [
+            "original"
+          ],
+          "checkedAt": "2026-10-31"
+        },
+        {
+          "claim": "這份趨勢觀察卡能提升學生的媒體識讀或判斷能力。",
+          "status": "unverified",
+          "explanation": "五步與課堂安排為編輯延伸，沒有對這份練習的實測或成效研究。",
+          "sourceIds": [
+            "original"
+          ],
+          "checkedAt": "2026-10-31"
+        }
+      ],
+      "publishedAt": "2026-10-31T11:43:28+08:00",
+      "overview": {
+        "image": "/assets/overviews/news-event-long-term-trend-desktop.webp",
+        "mobileImage": "/assets/overviews/news-event-long-term-trend-mobile.webp",
+        "cardImage": "/assets/overviews/news-event-long-term-trend-desktop.webp",
+        "alt": "小硯將新聞主張放入多年資料中重新檢視。",
+        "caption": "依來源觀點製圖，具體教學活動為編輯延伸。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      }
     }
   ],
   "demo": {
