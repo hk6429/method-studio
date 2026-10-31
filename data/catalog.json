@@ -124682,6 +124682,391 @@
         "mobileHeight": 1600
       },
       "publishedAt": "2026-10-31T09:41:05+08:00"
+    },
+    {
+      "id": "speaking-same-topic-three-rounds",
+      "title": "同一個主題，分三輪練英文口說：說順、說對、加細節",
+      "summary": "先想清楚內容，接著分輪專注流暢、正確和補充細節，不必同時顧好所有事。",
+      "categoryId": "english",
+      "topicIds": [
+        "speaking",
+        "habits"
+      ],
+      "audience": "想練習自主英文口說的學習者與教師",
+      "output": "一組同主題的三輪口說練習紀錄",
+      "minutes": 15,
+      "level": "入門",
+      "status": "ready",
+      "contentType": "video_method",
+      "reviewedAt": "2026-10-31",
+      "coverLabel": "英語口說 · 分輪練習",
+      "keywords": [
+        "英語口說",
+        "流暢度",
+        "正確性",
+        "口說細節"
+      ],
+      "sourceCoverage": "指定 Notion 影片音訊約 28:07，取得 YouTube 中文自動字幕至約 27:53；尚未完整人工聽校。影片約 13:41–15:33 討論分辨想法或英文表達的卡點，18:25–19:51 示範把流暢、正確與複雜度分開練習。本文練習時間、情境及例子為編輯設計；影片提及研究尚未獨立核實。",
+      "sources": [
+        {
+          "id": "original",
+          "title": "讓英文像日文一樣自然說出口：英語學習分享",
+          "kind": "video",
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=cOJ7CXyZCHE",
+          "channel": "青茶說",
+          "videoId": "cOJ7CXyZCHE",
+          "note": "YouTube 自動字幕，尾端約 14 秒未涵蓋且尚未完整人工聽校。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "先想清楚內容",
+          "action": "選一個熟悉的主題，先想自己真正要表達的內容；若沒想法，可先用母語說一次。",
+          "why": "依影片將流暢、正確與複雜度分開練習整理；具體例子與檢核為編輯設計。",
+          "example": "編輯示範：用母語說明最近一次校外旅行發生了什麼。",
+          "check": "能列出一兩個自己想表達的重點。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 821,
+              "endSeconds": 933
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "第一輪練流暢",
+          "action": "用熟悉的詞句連續表達，不在每個字上停下修正；時間依程度調整。",
+          "why": "依影片將流暢、正確與複雜度分開練習整理；具體例子與檢核為編輯設計。",
+          "example": "編輯示範：先用熟悉的簡單句說明旅行經過。",
+          "check": "能不中斷說出自己已熟悉的內容。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 1105,
+              "endSeconds": 1191
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "第二輪練正確",
+          "action": "放慢速度，挑少量句子確認詞句、語法或發音，必要時查教材或請人回饋。",
+          "why": "依影片將流暢、正確與複雜度分開練習整理；具體例子與檢核為編輯設計。",
+          "example": "編輯示範：挑兩三句，核對時態及主要動詞。",
+          "check": "至少修正或確認一處用法。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 1105,
+              "endSeconds": 1191
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "第三輪加入細節",
+          "action": "在已確認的句子上，試著補充原因、條件或具體資訊。",
+          "why": "依影片將流暢、正確與複雜度分開練習整理；具體例子與檢核為編輯設計。",
+          "example": "編輯示範：在「我去了海邊」後補上和誰去、為什麼喜歡。",
+          "check": "同一主題多一個能理解的原因或細節。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 1105,
+              "endSeconds": 1191
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "同主題、每輪一個目標",
+          "note": "具體課堂例子與練習時間為編輯設計。",
+          "nodes": [
+            {
+              "id": "n1",
+              "label": "先想清楚內容",
+              "detail": "能列出一兩個自己想表達的重點。"
+            },
+            {
+              "id": "n2",
+              "label": "第一輪練流暢",
+              "detail": "能不中斷說出自己已熟悉的內容。"
+            },
+            {
+              "id": "n3",
+              "label": "第二輪練正確",
+              "detail": "至少修正或確認一處用法。"
+            },
+            {
+              "id": "n4",
+              "label": "第三輪加入細節",
+              "detail": "同一主題多一個能理解的原因或細節。"
+            }
+          ],
+          "edges": [
+            {
+              "from": "n1",
+              "to": "n2"
+            },
+            {
+              "from": "n2",
+              "to": "n3"
+            },
+            {
+              "from": "n3",
+              "to": "n4"
+            }
+          ]
+        }
+      ],
+      "practice": {
+        "title": "編輯練習：用三輪介紹一次經驗",
+        "minutes": 15,
+        "prompt": "選一段熟悉經驗，先想內容，再依序試著說順、核對少量句子、補上一個細節。",
+        "deliverable": "同主題的三輪練習紀錄",
+        "checklist": [
+          "能說出主要內容",
+          "第一輪用熟悉詞句表達",
+          "第二輪核對一處用法",
+          "第三輪補上一個細節"
+        ]
+      },
+      "pitfalls": [
+        "急著同時追求速度、零錯誤和複雜句，反而不知道要修哪裡。",
+        "把猜測的英文用法反覆練習，卻不查證。",
+        "依一次停頓就認定自己沒有語言能力；先分辨內容與表達卡在哪。"
+      ],
+      "supplements": [
+        {
+          "title": "編輯提示：分辨卡點",
+          "text": "如果用母語也說不出內容，可以先補想法；如果想法清楚但英語說不出，可先縮短句子並確認用法。",
+          "sourceIds": []
+        }
+      ],
+      "validation": [
+        {
+          "claim": "分三輪練習一定能讓每個人快速流利",
+          "status": "unverified",
+          "explanation": "影片分享練習策略，研究及書籍原文未獨立核實，效果依程度和練習情境而異。",
+          "sourceIds": [
+            "original"
+          ],
+          "checkedAt": "2026-10-31"
+        }
+      ],
+      "overview": {
+        "image": "/assets/overviews/speaking-three-rounds-desktop.webp",
+        "mobileImage": "/assets/overviews/speaking-three-rounds-mobile.webp",
+        "cardImage": "/assets/overviews/speaking-three-rounds-desktop.webp",
+        "alt": "阿問陪學習者把同一個主題分輪練習。",
+        "caption": "練習安排與例子為編輯設計。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      },
+      "publishedAt": "2026-10-31T09:44:29+08:00"
+    },
+    {
+      "id": "teacher-ai-data-classify-synthetic-practice",
+      "title": "資料交給 AI 前，先分類並用虛構資料練習",
+      "summary": "先檢查資料內容與使用規範，測試流程時使用完全虛構的案例，再決定是否能提供資料。",
+      "categoryId": "ai",
+      "topicIds": [
+        "workflow"
+      ],
+      "audience": "想在教學或行政工作使用 AI 的教師",
+      "output": "一張資料檢查與虛構練習紀錄",
+      "minutes": 15,
+      "level": "入門",
+      "status": "ready",
+      "contentType": "article_method",
+      "reviewedAt": "2026-10-31",
+      "coverLabel": "AI 教學 · 資料使用",
+      "keywords": [
+        "AI 教學",
+        "資料分類",
+        "虛構資料",
+        "隱私"
+      ],
+      "sourceCoverage": "指定 Notion 所收藏 Podcast 音訊約 24:35，本機 MLX Whisper large-v3-turbo 自動轉錄全段，尚未逐字人工聽校。節目約 01:27–05:42 討論資料分類、先由人處理以及分開保存副本；本文虛構資料示例、校園檢查流程為編輯設計。縮寫或刪名本身不能保證資料無法重新辨識。",
+      "sources": [
+        {
+          "id": "original",
+          "title": "Podcast 節目頁：想在 AI 之前與資安紅黃綠燈 Part 2",
+          "kind": "article",
+          "url": "https://open.firstory.fm/story/cmvj99i2t098801xhf9nfdgjd",
+          "channel": "高效人生商學院",
+          "note": "本機機器轉錄尚未完整人工聽校。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "先檢查資料內容",
+          "action": "列出資料中的姓名、聯絡方式、成績、個別敘述或其他可能辨識身分的線索。",
+          "why": "節目討論上傳前分類、由人先處理及保留副本；虛構案例與教學檢查表為編輯延伸。",
+          "example": "編輯示範：在虛構的三列作業表中，標記姓名欄及特殊事蹟欄。",
+          "check": "能指出直接或組合後可能辨識身分的欄位。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "依單位規範判斷能否使用",
+          "action": "確認資料性質、用途及校方規定；不確定能否提供給工具時，先暫停並詢問權責人員。",
+          "why": "節目討論上傳前分類、由人先處理及保留副本；虛構案例與教學檢查表為編輯延伸。",
+          "example": "編輯示範：把資料標成已公開、需確認或不可外傳，並向管理者確認。",
+          "check": "每份資料都記下判斷依據與待確認事項。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "準備完全虛構的練習資料",
+          "action": "若只是測試提示詞或流程，使用自行編造且不對應真實個人的例子。",
+          "why": "節目討論上傳前分類、由人先處理及保留副本；虛構案例與教學檢查表為編輯延伸。",
+          "example": "編輯示範：用虛構的課堂作業主題與不存在的學生代號練習。",
+          "check": "練習資料不來自可辨識的真實紀錄。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "分開保存並再次檢查",
+          "action": "保留原件，將測試檔清楚命名，檢查內容、用途及所用服務的條件後再決定下一步。",
+          "why": "節目討論上傳前分類、由人先處理及保留副本；虛構案例與教學檢查表為編輯延伸。",
+          "example": "編輯示範：把原始資料與虛構測試檔分開存放，確認沒有混入原始內容。",
+          "check": "檔案內容和用途清楚；有疑慮時不交給工具。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "先檢查，再決定如何使用",
+          "note": "分類練習與虛構資料為編輯設計。",
+          "nodes": [
+            {
+              "id": "n1",
+              "label": "先檢查資料內容",
+              "detail": "能指出直接或組合後可能辨識身分的欄位。"
+            },
+            {
+              "id": "n2",
+              "label": "依單位規範判斷能否使用",
+              "detail": "每份資料都記下判斷依據與待確認事項。"
+            },
+            {
+              "id": "n3",
+              "label": "準備完全虛構的練習資料",
+              "detail": "練習資料不來自可辨識的真實紀錄。"
+            },
+            {
+              "id": "n4",
+              "label": "分開保存並再次檢查",
+              "detail": "檔案內容和用途清楚；有疑慮時不交給工具。"
+            }
+          ],
+          "edges": [
+            {
+              "from": "n1",
+              "to": "n2"
+            },
+            {
+              "from": "n2",
+              "to": "n3"
+            },
+            {
+              "from": "n3",
+              "to": "n4"
+            }
+          ]
+        }
+      ],
+      "practice": {
+        "title": "編輯練習：用虛構資料檢查欄位",
+        "minutes": 15,
+        "prompt": "自行編造少量不對應真實個人的課堂練習資料，列出欄位並確認用途；再查閱校方的資料使用規範。",
+        "deliverable": "一張欄位清單與用途確認紀錄",
+        "checklist": [
+          "辨認可能涉及身分的欄位",
+          "確認使用目的與校方規範",
+          "練習資料完全虛構",
+          "有疑慮時先暫停並詢問"
+        ]
+      },
+      "pitfalls": [
+        "只刪掉姓名，卻忽略其他欄位組合仍可能辨識身分。",
+        "請外部 AI 先幫忙處理原始資料，卻忽略服務已收到原始內容。",
+        "以為公開資料一定能任意使用，或認為縮寫後就保證安全。"
+      ],
+      "supplements": [
+        {
+          "title": "編輯提示：先用虛構案例",
+          "text": "測試流程時不需要真實學生資料；若處理實際資料，應依校方規定和權責人員指示，確認使用目的與服務條件。",
+          "sourceIds": []
+        }
+      ],
+      "validation": [
+        {
+          "claim": "把姓名改成縮寫，就保證資料無法被辨識",
+          "status": "unverified",
+          "explanation": "其他欄位或資訊組合仍可能辨識身分；本文不以單一處理方式保證安全。",
+          "sourceIds": [
+            "original"
+          ],
+          "checkedAt": "2026-10-31"
+        }
+      ],
+      "overview": {
+        "image": "/assets/overviews/teacher-ai-data-check-desktop.webp",
+        "mobileImage": "/assets/overviews/teacher-ai-data-check-mobile.webp",
+        "cardImage": "/assets/overviews/teacher-ai-data-check-desktop.webp",
+        "alt": "小硯陪教師檢查資料與練習案例。",
+        "caption": "虛構案例及教學流程為編輯設計。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      },
+      "publishedAt": "2026-10-31T09:49:16+08:00"
     }
   ],
   "demo": {
