@@ -124100,6 +124100,200 @@
         "mobileHeight": 1600
       },
       "publishedAt": "2026-10-31T09:24:39+08:00"
+    },
+    {
+      "id": "unfinished-draft-return-start",
+      "title": "寫不下去時，先留一份未完成的草稿",
+      "summary": "打開資料、寫下零散想法，留下一個下次能接續的位置，不要求一次完成。",
+      "categoryId": "reading",
+      "topicIds": [
+        "learning",
+        "strategies"
+      ],
+      "audience": "寫作、備課或自主學習時不知如何開始的人",
+      "output": "一份可接續的未完成草稿",
+      "minutes": 10,
+      "level": "入門",
+      "status": "ready",
+      "contentType": "video_method",
+      "reviewedAt": "2026-10-31",
+      "coverLabel": "學習啟動 · 留下起點",
+      "keywords": [
+        "寫作啟動",
+        "學習習慣",
+        "草稿",
+        "拖延"
+      ],
+      "sourceCoverage": "指定 Notion 影片音訊約 32:31，取得 YouTube 英文自動字幕至約 32:28，並以本機 ASR 轉錄；尚未逐字人工聽校。文章取材約 04:25–06:00 講者分享漸進開始、留下未完成草稿的例子；寫下下一步及時間安排為編輯延伸。講者對心理效應的解釋未獨立驗證，不當作普遍效果保證。",
+      "sources": [
+        {
+          "id": "original",
+          "title": "關於拖延與逐步開始的學習分享",
+          "kind": "video",
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=0Jpx6eNfpoo",
+          "channel": "Justin Sung",
+          "videoId": "0Jpx6eNfpoo",
+          "note": "英文自動字幕與本機轉錄，尚未完整人工聽校。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "選一件卡住的事",
+          "action": "挑一件你想開始卻一直擱著的學習、寫作或備課任務。",
+          "why": "依講者的漸進開始與未完成草稿例子整理；接續標記與例子為編輯補充。",
+          "example": "編輯示範：挑出一直沒動筆的教學反思。",
+          "check": "能指出一件具體任務。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 265,
+              "endSeconds": 360
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "打開文件與相關資料",
+          "action": "先準備好文件與需要參照的資料，讓自己接近任務，不必立刻完成。",
+          "why": "依講者的漸進開始與未完成草稿例子整理；接續標記與例子為編輯補充。",
+          "example": "編輯示範：開啟一份空白文件與上課筆記。",
+          "check": "相關文件與資料已備妥。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 265,
+              "endSeconds": 360
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "隨手寫下零散想法",
+          "action": "把想到的句子、問題或片段先寫出來，不要求完整或順序正確。",
+          "why": "依講者的漸進開始與未完成草稿例子整理；接續標記與例子為編輯補充。",
+          "example": "編輯示範：寫下學生的一個反應和自己的一個疑問。",
+          "check": "文件中留下至少一個可接續的片段。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 265,
+              "endSeconds": 360
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "儲存草稿，留一個接續點",
+          "action": "儲存尚未完成的內容；可在結尾寫下下次想做的一步，之後從這裡繼續。",
+          "why": "依講者的漸進開始與未完成草稿例子整理；接續標記與例子為編輯補充。",
+          "example": "編輯示範：寫下「下次補上課堂例子」並儲存。",
+          "check": "下次能找到草稿與可行的接續動作。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 265,
+              "endSeconds": 360
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "把開始縮成一份草稿",
+          "note": "具體接續標記與練習為編輯設計。",
+          "nodes": [
+            {
+              "id": "n1",
+              "label": "選一件卡住的事",
+              "detail": "能指出一件具體任務。"
+            },
+            {
+              "id": "n2",
+              "label": "打開文件與相關資料",
+              "detail": "相關文件與資料已備妥。"
+            },
+            {
+              "id": "n3",
+              "label": "隨手寫下零散想法",
+              "detail": "文件中留下至少一個可接續的片段。"
+            },
+            {
+              "id": "n4",
+              "label": "儲存草稿，留一個接續點",
+              "detail": "下次能找到草稿與可行的接續動作。"
+            }
+          ],
+          "edges": [
+            {
+              "from": "n1",
+              "to": "n2"
+            },
+            {
+              "from": "n2",
+              "to": "n3"
+            },
+            {
+              "from": "n3",
+              "to": "n4"
+            }
+          ]
+        }
+      ],
+      "practice": {
+        "title": "編輯練習：留下下次的第一步",
+        "minutes": 10,
+        "prompt": "挑一件卡住的學習任務，打開資料並寫下目前想到的片段，儲存草稿後寫下一個下次能做的動作。",
+        "deliverable": "一份未完成草稿及可辨識的接續點",
+        "checklist": [
+          "選定具體任務",
+          "打開所需資料",
+          "留下至少一個想法",
+          "記下接續動作並儲存"
+        ]
+      },
+      "pitfalls": [
+        "把草稿當正式成品，花太久修飾才開始。",
+        "強迫自己中斷；如果當下願意繼續，可以繼續。",
+        "把個人經驗或心理效應當成對所有人有效的保證。"
+      ],
+      "supplements": [
+        {
+          "title": "編輯示範：草稿最後一行",
+          "text": "我目前想到：＿＿；還不確定：＿＿；下次打開時，先做：＿＿。",
+          "sourceIds": []
+        }
+      ],
+      "validation": [
+        {
+          "claim": "只要留下未完成草稿，就一定能消除拖延",
+          "status": "unverified",
+          "explanation": "這是講者分享的個人策略，影片的心理效應解釋尚未獨立查證，結果因人與情境而異。",
+          "sourceIds": [
+            "original"
+          ],
+          "checkedAt": "2026-10-31"
+        }
+      ],
+      "overview": {
+        "image": "/assets/overviews/unfinished-draft-return-desktop.webp",
+        "mobileImage": "/assets/overviews/unfinished-draft-return-mobile.webp",
+        "cardImage": "/assets/overviews/unfinished-draft-return-desktop.webp",
+        "alt": "知行陪伴讀者留下可接續的未完成草稿。",
+        "caption": "接續提示為編輯補充，可依狀況調整。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      },
+      "publishedAt": "2026-10-31T09:30:16+08:00"
     }
   ],
   "demo": {
