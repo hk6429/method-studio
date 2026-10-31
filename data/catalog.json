@@ -127603,6 +127603,201 @@
         "mobileWidth": 1000,
         "mobileHeight": 1600
       }
+    },
+    {
+      "id": "player-to-game-designer-observation",
+      "title": "玩完先拆遊戲：從玩家觀察到設計者提案",
+      "summary": "玩一個遊戲後，試著換到設計者的位置：玩家的目標是什麼？規則如何運作？改一個地方，體驗可能怎麼變？講者分享自己思考遊戲設計的角度；本文將它延伸成觀察卡與一項改動提案，AI 為選用工具。",
+      "categoryId": "ai",
+      "topicIds": [
+        "workflow"
+      ],
+      "audience": "想把遊戲觀察轉成設計討論的教師與學習者",
+      "output": "一張遊戲觀察卡與一項改動提案",
+      "minutes": 20,
+      "level": "入門",
+      "status": "ready",
+      "contentType": "video_method",
+      "reviewedAt": "2026-10-31",
+      "coverLabel": "觀察遊戲 · 設計提案",
+      "keywords": [
+        "遊戲機制",
+        "設計思考",
+        "玩家體驗",
+        "AI 協作",
+        "課堂討論"
+      ],
+      "sourceCoverage": "指定 Notion 資料來源收藏的影片，僅讀取 11:15–11:53 本機 Whisper small 機器轉錄；未完整轉錄、未人工聽校或核對畫面。講者分享觀察遊戲設計目的、機制與改善玩家體驗的想法，並提到可請 AI 製作遊戲。觀察卡、課堂任務、示例、AI 提示詞、試玩及時間安排為編輯延伸，AI 可不使用；來源未提供本練習的成效證據。",
+      "sources": [
+        {
+          "id": "original",
+          "title": "【AI時代的全新學習模式】專訪：連續創業家 謝銘元(艾克斯) ｜ 2026.10.20 10:00 《生活同樂會》蕭彤雯 主持",
+          "kind": "video",
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=nFVohQGBgXY",
+          "channel": "飛碟聯播網",
+          "videoId": "nFVohQGBgXY",
+          "note": "指定 Notion 來源：https://app.notion.com/p/3ff2d00e283a814a80eecb011b0f4080 。僅讀 11:15–11:53 本機機器轉錄，未完整轉錄或人工聽校。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "選一個可以觀察的遊戲",
+          "action": "選擇合齡且可以使用的遊戲，或用紙本虛構一個簡單遊戲；寫下玩家目標與實際發生的規則。",
+          "why": "講者提出觀察遊戲機制；選材與紀錄方式為編輯延伸。",
+          "example": "編輯示範：配對卡中，玩家輪流翻兩張相同的圖卡，配對成功可拿走。",
+          "check": "能區分實際觀察到的規則與自己的推測。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 675,
+              "endSeconds": 685
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "推測設計目的",
+          "action": "選一條規則，寫下它可能帶給玩家的體驗；標明這只是自己的推測。",
+          "why": "講者思考遊戲設計某個元素的目的；問句與紀錄方式為編輯延伸。",
+          "example": "編輯示範：每回合翻兩張，可能讓玩家需要記住先前看過的圖卡。",
+          "check": "至少寫出一項可能，也保留設計者原意未知。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 675,
+              "endSeconds": 685
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "提出一項可測試的改動",
+          "action": "假設自己是設計者，選一條規則提出改動，預測它可能帶來的好處與代價。",
+          "why": "講者提到站在製作人角度思考如何讓玩家更好玩；提案格式為編輯延伸。",
+          "example": "編輯示範：每人每回合可翻三張；可能更快找到配對，也可能增加等待或混淆。",
+          "check": "說清楚改哪條規則、怎麼玩，以及至少一項可能代價。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 685,
+              "endSeconds": 695
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "試玩並修正，AI 可選用",
+          "action": "用紙卡或口頭演練原規則與新規則，記錄玩家實際遇到的問題；可選擇請 AI 協助整理提案，再由人檢查並修正。",
+          "why": "講者提到請 AI 製作遊戲；比較試玩、使用紙卡和提示詞均為編輯延伸。",
+          "example": "編輯示範：先用紙卡試玩三張翻牌，再問玩家是否理解新規則。",
+          "check": "有無 AI 均可完成；記錄實際觀察，不把想像當作測試結果。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 698,
+              "endSeconds": 713
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "遊戲觀察到提案",
+          "note": "編輯依講者觀點設計；觀察卡、試玩與 AI 選用為編輯延伸。",
+          "nodes": [
+            {
+              "id": "n1",
+              "label": "觀察",
+              "detail": "目標與規則"
+            },
+            {
+              "id": "n2",
+              "label": "推測",
+              "detail": "設計目的"
+            },
+            {
+              "id": "n3",
+              "label": "改動",
+              "detail": "好處與代價"
+            },
+            {
+              "id": "n4",
+              "label": "試玩",
+              "detail": "記錄並修正"
+            }
+          ],
+          "edges": [
+            {
+              "from": "n1",
+              "to": "n2"
+            },
+            {
+              "from": "n2",
+              "to": "n3"
+            },
+            {
+              "from": "n3",
+              "to": "n4"
+            }
+          ]
+        }
+      ],
+      "practice": {
+        "title": "20 分鐘完成一張遊戲改動卡",
+        "minutes": 20,
+        "prompt": "編輯設計：挑一個熟悉的合齡遊戲，或使用虛構紙卡遊戲。寫下玩家目標、一條實際規則、你推測的設計目的，以及一項改動與可能代價。用紙卡或口頭試玩後，記下觀察與下一次修正。可選用 AI：請依我提供的虛構規則，協助整理一項改動及其可能的好處與代價；不要補造我未提供的原規則。輸出由我檢查。",
+        "deliverable": "一張觀察與改動卡，以及一次試玩紀錄",
+        "checklist": [
+          "目標與規則來自實際觀察，或明確標示為虛構。",
+          "設計目的標記為推測。",
+          "改動與可能代價各有一項。",
+          "試玩結果與預測分開記錄。"
+        ]
+      },
+      "pitfalls": [
+        "把對設計目的的猜測當成原設計者的事實。",
+        "把課堂試玩的反應或 AI 生成的遊戲視為學習成效證據。",
+        "未核對生成規則和內容就直接給學生使用。",
+        "在 AI 提示中輸入學生姓名、作品或其他可辨識個資。"
+      ],
+      "supplements": [
+        {
+          "title": "編輯補充：不必使用 AI 或電子遊戲",
+          "text": "可用紙卡或虛構遊戲完成整個練習；使用 AI 時先移除個資，由教師或學習者核對輸出。若使用或分享既有作品，應先確認素材的使用權限。",
+          "sourceIds": []
+        }
+      ],
+      "validation": [
+        {
+          "claim": "分析或改造遊戲能提升學生的學習成效或創造力。",
+          "status": "unverified",
+          "explanation": "所讀片段是講者的個人觀點與工具主張，沒有提供此練習的對照或成效證據。",
+          "sourceIds": [
+            "original"
+          ],
+          "checkedAt": "2026-10-31"
+        }
+      ],
+      "publishedAt": "2026-10-31T11:13:57+08:00",
+      "overview": {
+        "image": "/assets/overviews/player-to-game-designer-desktop.webp",
+        "mobileImage": "/assets/overviews/player-to-game-designer-mobile.webp",
+        "cardImage": "/assets/overviews/player-to-game-designer-desktop.webp",
+        "alt": "知行與阿問從玩家角度觀察並改造紙本遊戲。",
+        "caption": "依來源觀點製圖，教學活動與試玩為編輯延伸。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      }
     }
   ],
   "demo": {
