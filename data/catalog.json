@@ -124488,6 +124488,200 @@
         "mobileHeight": 1600
       },
       "publishedAt": "2026-10-31T09:33:12+08:00"
+    },
+    {
+      "id": "compare-student-screenshots-reading-evidence",
+      "title": "把學生作答並排：一起比較閱讀線索與理由",
+      "summary": "收集個別作答後並排不同想法，討論文本線索與推論，讓學生回頭修正自己的理由。",
+      "categoryId": "reading",
+      "topicIds": [
+        "teaching",
+        "strategies"
+      ],
+      "audience": "想讓全班比較閱讀判斷的教師",
+      "output": "一組並排作答及修正後的閱讀理由",
+      "minutes": 20,
+      "level": "入門",
+      "status": "ready",
+      "contentType": "video_method",
+      "reviewedAt": "2026-10-31",
+      "coverLabel": "課堂互動 · 比較作答",
+      "keywords": [
+        "閱讀理解",
+        "課堂討論",
+        "學生作答",
+        "形成性回饋"
+      ],
+      "sourceCoverage": "指定 Notion 所收藏的影片約 04:19，本機 Whisper small 機器轉錄涵蓋全片，含辨識錯誤且尚未逐字人工聽校。影片約 01:32–02:48 介紹截圖出題、收集作答、並排比較與繪圖重播；本文國文題目、同儕討論及修改步驟為編輯延伸，未實測該軟體。",
+      "sources": [
+        {
+          "id": "original",
+          "title": "螢幕畫筆－區網互動版－課堂互動介紹影片（AI 生成版）",
+          "kind": "video",
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=zcyivxUviwM",
+          "channel": "阿剛老師的電腦教學",
+          "videoId": "zcyivxUviwM",
+          "note": "本機機器字幕，尚未逐字人工聽校或實測工具。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "選一段值得比較的文本",
+          "action": "準備一小段文本或圖像，選出能讓學生提出不同判斷的問題。",
+          "why": "影片展示截圖收答及並排比較；閱讀題、討論與修答流程為編輯設計。",
+          "example": "編輯示範：挑一段人物對話，問哪一句能支持對角色心情的推論。",
+          "check": "問題能回到材料尋找依據。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 92,
+              "endSeconds": 132
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "讓每位學生圈線索、寫理由",
+          "action": "請學生各自在畫面或紙本上圈出線索，並用一句話說明自己的判斷。",
+          "why": "影片展示截圖收答及並排比較；閱讀題、討論與修答流程為編輯設計。",
+          "example": "編輯示範：圈一個動詞，寫下它與人物心情的關係。",
+          "check": "每份回應都能區分所圈原文與學生推論。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 92,
+              "endSeconds": 132
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "並排比較不同作答",
+          "action": "選出兩至四份適合討論的回應，並排觀察所用線索與推論差異。",
+          "why": "影片展示截圖收答及並排比較；閱讀題、討論與修答流程為編輯設計。",
+          "example": "編輯示範：比較兩位學生圈出的不同句子，詢問各自理由。",
+          "check": "學生能說出兩份回答的具體差異。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 132,
+              "endSeconds": 168
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "回饋後讓學生修改",
+          "action": "教師依回應決定要補充哪個推理步驟，再請學生回到自己的答案修改。",
+          "why": "影片展示截圖收答及並排比較；閱讀題、討論與修答流程為編輯設計。",
+          "example": "編輯示範：先示範證據和推論的差別，再讓學生補一句理由。",
+          "check": "留下一次修改或仍待討論的疑問。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 132,
+              "endSeconds": 168
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "從個別作答到比較與修正",
+          "note": "國文課範例與同儕討論為編輯設計。",
+          "nodes": [
+            {
+              "id": "n1",
+              "label": "選一段值得比較的文本",
+              "detail": "問題能回到材料尋找依據。"
+            },
+            {
+              "id": "n2",
+              "label": "讓每位學生圈線索、寫理由",
+              "detail": "每份回應都能區分所圈原文與學生推論。"
+            },
+            {
+              "id": "n3",
+              "label": "並排比較不同作答",
+              "detail": "學生能說出兩份回答的具體差異。"
+            },
+            {
+              "id": "n4",
+              "label": "回饋後讓學生修改",
+              "detail": "留下一次修改或仍待討論的疑問。"
+            }
+          ],
+          "edges": [
+            {
+              "from": "n1",
+              "to": "n2"
+            },
+            {
+              "from": "n2",
+              "to": "n3"
+            },
+            {
+              "from": "n3",
+              "to": "n4"
+            }
+          ]
+        }
+      ],
+      "practice": {
+        "title": "編輯練習：比較兩份閱讀判斷",
+        "minutes": 20,
+        "prompt": "選一段短文，請學生圈出支持判斷的文字並寫理由；比較兩份回應，討論依據與推論後修改。",
+        "deliverable": "一組作答比較與學生修正後的理由",
+        "checklist": [
+          "問題能回到文本找依據",
+          "學生先個別作答",
+          "比較不同線索與理由",
+          "討論後留下修正或疑問"
+        ]
+      },
+      "pitfalls": [
+        "只挑答案正確者展示，忽略不同推理歷程。",
+        "把學生推測直接當成文本明寫的事實。",
+        "展示作品前應依課堂規範處理姓名與隱私，必要時隱去身分。"
+      ],
+      "supplements": [
+        {
+          "title": "編輯提示：紙本也能比較",
+          "text": "若沒有畫面截取或並排工具，可用匿名紙本回答與投影，重點是比較線索和理由。",
+          "sourceIds": []
+        }
+      ],
+      "validation": [
+        {
+          "claim": "並排展示學生作答一定能提升閱讀理解",
+          "status": "unverified",
+          "explanation": "來源是軟體操作示範；國文課流程為編輯延伸，未提供足以確認學習成效的研究。",
+          "sourceIds": [
+            "original"
+          ],
+          "checkedAt": "2026-10-31"
+        }
+      ],
+      "overview": {
+        "image": "/assets/overviews/compare-reading-answers-desktop.webp",
+        "mobileImage": "/assets/overviews/compare-reading-answers-mobile.webp",
+        "cardImage": "/assets/overviews/compare-reading-answers-desktop.webp",
+        "alt": "知行陪教師比較學生閱讀線索與理由。",
+        "caption": "國文課討論及修答流程為編輯設計。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      },
+      "publishedAt": "2026-10-31T09:41:05+08:00"
     }
   ],
   "demo": {
