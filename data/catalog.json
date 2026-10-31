@@ -126610,6 +126610,207 @@
         "mobileWidth": 1000,
         "mobileHeight": 1600
       }
+    },
+    {
+      "id": "reflection-new-information-card",
+      "title": "想了很久仍卡住？先為問題找一份新資訊",
+      "summary": "反覆思考卻沒有新線索時，先寫出目前猜測，再找一份與問題相關的資訊，回來比較並試一個小行動。",
+      "categoryId": "reading",
+      "topicIds": [
+        "learning"
+      ],
+      "audience": "在學習或日常工作中反覆思考同一個問題，想嘗試換個角度的人",
+      "output": "一張問題、原猜測、新資訊與下一步的紀錄卡",
+      "minutes": 20,
+      "level": "入門",
+      "status": "ready",
+      "contentType": "video_method",
+      "reviewedAt": "2026-10-31",
+      "coverLabel": "反思與學習 · 新資訊",
+      "keywords": [
+        "反思",
+        "外部資訊",
+        "自主學習",
+        "觀點",
+        "行動"
+      ],
+      "sourceCoverage": "來源為指定 Notion 資料庫收錄的樊登讀書《人性實驗》EP04。已閱讀影片約 00:00–09:13 的 YouTube 中文字幕，字幕尚未逐句人工聽校。本文取材 07:29–09:12 對重複內省與閱讀、交流等外部資訊的觀點；講者說法是導讀者的詮釋，未核對原書與其研究。四步、卡片、時間配置及例子皆為編輯延伸，不是原片提供的完整方法，也未經成效驗證。其他心理實驗與研究數字未採用。",
+      "sources": [
+        {
+          "id": "original",
+          "title": "想來想去都沒答案，真正缺的可能是「新的輸入」｜庫爾特•弗雷、艾登•格雷格《人性實驗》EP04",
+          "kind": "video",
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=njM267MZs3E",
+          "channel": "樊登讀書",
+          "videoId": "njM267MZs3E",
+          "note": "影片為書籍導讀；中文字幕未逐句人工聽校，未核對書籍原文。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "寫下問題與目前猜測",
+          "action": "選一件可以稍後決定、反覆想仍卡住的學習或工作問題；寫下目前的解釋，標記這只是猜測。",
+          "why": "原片提醒反省可能受熟悉觀念限制；將問題和猜測寫下是編輯延伸。",
+          "example": "編輯示範：總是讀不完，可能是我不夠自律。",
+          "check": "有一個具體問題，猜測沒有寫成確定原因。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 449,
+              "endSeconds": 553
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "選一項需要補充的資訊",
+          "action": "問自己還缺什麼：實際花費的時間、任務的難度，或不同人的經驗？先選一項。",
+          "why": "影片建議引入外部資訊；選擇資訊類型是編輯延伸。",
+          "example": "編輯示範：想知道讀書開始前，時間花在哪裡。",
+          "check": "問題與要補充的資訊有直接關係。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 449,
+              "endSeconds": 553
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "取得一份新資訊",
+          "action": "找與問題相關且可回查的資訊，例如記錄兩次實際流程、請教了解情況的人或閱讀可信資料；記下來源與適用範圍。",
+          "why": "影片舉出讀書、與人交流與外出等來源；記錄方式與查核是編輯延伸。",
+          "example": "編輯示範：記錄兩次從準備教材到開始閱讀的時間。",
+          "check": "留下來源與觀察，分清他人經驗和自己的情況。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 449,
+              "endSeconds": 553
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "比較猜測，試一個小行動",
+          "action": "新資訊支持、挑戰或不足以判定原猜測？依觀察決定一個小行動，試後再記錄並調整。",
+          "why": "影片主張外部輸入有助反省；比較、試作與回看是編輯設計，並非影片提供的步驟。",
+          "example": "編輯示範：兩次都花許多時間找教材；改為前一晚準備，試兩次再看。",
+          "check": "寫下新資訊與下一步；沒有實測的結果標記待觀察。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 449,
+              "endSeconds": 553
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "從卡住的想法到下一個嘗試",
+          "note": "流程由編輯依影片觀點設計，並非原片的固定步驟。",
+          "nodes": [
+            {
+              "id": "n1",
+              "label": "寫問題",
+              "detail": "留下原猜測"
+            },
+            {
+              "id": "n2",
+              "label": "找新資訊",
+              "detail": "記下來源與範圍"
+            },
+            {
+              "id": "n3",
+              "label": "比較判斷",
+              "detail": "保留不確定"
+            },
+            {
+              "id": "n4",
+              "label": "試小行動",
+              "detail": "觀察後再調整"
+            }
+          ],
+          "edges": [
+            {
+              "from": "n1",
+              "to": "n2"
+            },
+            {
+              "from": "n2",
+              "to": "n3"
+            },
+            {
+              "from": "n3",
+              "to": "n4"
+            }
+          ]
+        }
+      ],
+      "practice": {
+        "title": "20 分鐘做一張新資訊卡",
+        "minutes": 20,
+        "prompt": "編輯設計：選一個可暫緩決定的問題，寫下原猜測與需要的資訊，找一份可回查的資訊，再寫下它如何影響判斷及一個可試的小行動。若新資訊需要較久取得，先寫取得計畫，結果留待下次補。",
+        "deliverable": "一張問題、原猜測、資訊來源與下一步的紀錄卡",
+        "checklist": [
+          "問題具體，原猜測標記為猜測。",
+          "記下資訊來源及適用範圍，或寫明待取得。",
+          "比較結果可寫支持、挑戰或尚無法判定。",
+          "下一步具體，尚未實施的結果標記待觀察。"
+        ]
+      },
+      "pitfalls": [
+        "把影片對內省的批評解讀成所有反思都沒有價值。",
+        "把單一案例或他人經驗視為適用所有人的結論。",
+        "蒐集資訊無限延長；需要立即處理的事情先採取必要行動。"
+      ],
+      "supplements": [
+        {
+          "title": "編輯示範：讀書準備時間",
+          "text": "假設一位學生覺得自己讀不完是因為不夠自律，記錄兩次後發現都花不少時間找教材。這項觀察可讓他試著前一晚準備教材，再看是否符合自己的情況。這是假設例子，不能證明改善效果。",
+          "sourceIds": []
+        },
+        {
+          "title": "先檢查新資訊的範圍",
+          "text": "與人交流或閱讀時，問一問資料從哪裡來、描述的是什麼情境、哪些地方仍未知。新資訊提供的是重新判斷的材料，不會自動成為正確答案。",
+          "sourceIds": [
+            "original"
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "加入外部資訊後，這張卡一定能改善反思或學習成效。",
+          "status": "unverified",
+          "explanation": "影片提供導讀者的觀點，未提供本卡的實測資料；本文未核對原書或相關研究。",
+          "sourceIds": [
+            "original"
+          ],
+          "checkedAt": "2026-10-31"
+        }
+      ],
+      "overview": {
+        "image": "/assets/overviews/reflection-new-information-desktop.webp",
+        "mobileImage": "/assets/overviews/reflection-new-information-mobile.webp",
+        "cardImage": "/assets/overviews/reflection-new-information-desktop.webp",
+        "alt": "小硯陪你為卡住的學習問題尋找新資訊。",
+        "caption": "依來源觀點製圖，具體步驟為編輯延伸。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      },
+      "publishedAt": "2026-10-31T10:58:14+08:00"
     }
   ],
   "demo": {
