@@ -125455,6 +125455,390 @@
         "mobileHeight": 1600
       },
       "publishedAt": "2026-10-31T10:05:55+08:00"
+    },
+    {
+      "id": "yes-no-classification-tree-classroom",
+      "title": "用是非問題畫分類樹：也看看哪些差異被留下",
+      "summary": "從虛構圖卡出發，用連續的是非問題畫出分支，再討論分類沒有呈現的特徵。",
+      "categoryId": "reading",
+      "topicIds": [
+        "teaching",
+        "learning"
+      ],
+      "audience": "想帶學生認識分類與抽象限制的教師",
+      "output": "一棵圖卡分類樹及一則分類限制紀錄",
+      "minutes": 20,
+      "level": "入門",
+      "status": "ready",
+      "contentType": "article_method",
+      "reviewedAt": "2026-10-31",
+      "coverLabel": "AI 素養 · 分類練習",
+      "keywords": [
+        "AI 素養",
+        "分類樹",
+        "提問",
+        "課堂討論"
+      ],
+      "sourceCoverage": "指定 Notion Podcast 音訊約 30:33，本機 Whisper small 自動字幕至約 30:20，尾端約 12 秒未涵蓋，尚未人工逐字聽校；10:20–11:20 另用第二模型辨識，仍有不清楚的詞。節目討論學生生活問題、連續是非問題分類，另談抽象化可能忽略特徵。本文虛構圖卡、畫樹與討論流程為編輯設計，未經試教；不能視為節目完整教案。",
+      "sources": [
+        {
+          "id": "original",
+          "title": "Podcast 節目頁：AI 愈像人，人是什麼？｜AI 親職學 EP.16",
+          "kind": "article",
+          "url": "https://player.soundon.fm/p/f5ef415f-481b-4374-a939-1dfb794d847e/episodes/3a10c07f-6a2e-4801-b11e-5c34b92e5caa",
+          "channel": "親子天下Podcast",
+          "note": "本機自動轉錄，尾端未完整涵蓋；尚未逐字人工聽校。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "挑選虛構對象",
+          "action": "準備幾個不對應真實同學的虛構物件或角色，避免對真實人物貼標籤。",
+          "why": "節目以連續是非問題與二分類介紹分類；此圖卡課堂活動為編輯設計。",
+          "example": "編輯示範：挑選不同顏色、形狀的虛構小圖卡。",
+          "check": "每張圖卡都有可觀察的特徵。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "提出一個是非問題",
+          "action": "針對圖卡特徵提出可回答是或否的問題，再依回答分成兩組。",
+          "why": "節目以連續是非問題與二分類介紹分類；此圖卡課堂活動為編輯設計。",
+          "example": "編輯示範：這張圖卡是圓形的嗎？",
+          "check": "每張圖卡都能依問題找到一個分支；不確定者先保留。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "沿分支繼續提問",
+          "action": "選一個分支再提出下一個是非問題，用線條把問題與兩種回答連起來。",
+          "why": "節目以連續是非問題與二分類介紹分類；此圖卡課堂活動為編輯設計。",
+          "example": "編輯示範：在圓形圖卡中，再問「它是藍色的嗎？」",
+          "check": "能沿圖從問題走到分類結果。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "討論分類留下了什麼",
+          "action": "比較換問題或順序後的分法，再討論這棵樹沒有呈現哪些特徵。",
+          "why": "節目以連續是非問題與二分類介紹分類；此圖卡課堂活動為編輯設計。",
+          "example": "編輯示範：分類樹只問形狀和顏色，沒有記錄圖卡大小。",
+          "check": "能說出一個分類呈現的特徵與一個被忽略的特徵。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "用是非問題練分類",
+          "note": "圖卡與討論流程為編輯設計。",
+          "nodes": [
+            {
+              "id": "n1",
+              "label": "挑選虛構對象",
+              "detail": "每張圖卡都有可觀察的特徵。"
+            },
+            {
+              "id": "n2",
+              "label": "提出一個是非問題",
+              "detail": "每張圖卡都能依問題找到一個分支；不確定者先保留。"
+            },
+            {
+              "id": "n3",
+              "label": "沿分支繼續提問",
+              "detail": "能沿圖從問題走到分類結果。"
+            },
+            {
+              "id": "n4",
+              "label": "討論分類留下了什麼",
+              "detail": "能說出一個分類呈現的特徵與一個被忽略的特徵。"
+            }
+          ],
+          "edges": [
+            {
+              "from": "n1",
+              "to": "n2"
+            },
+            {
+              "from": "n2",
+              "to": "n3"
+            },
+            {
+              "from": "n3",
+              "to": "n4"
+            }
+          ]
+        }
+      ],
+      "practice": {
+        "title": "編輯練習：替虛構圖卡畫一棵樹",
+        "minutes": 20,
+        "prompt": "準備幾張虛構圖卡，先問一個是非問題分組，再挑一組問第二題；畫出分支，討論它沒表示的特徵。",
+        "deliverable": "一棵分類樹及一項被忽略特徵",
+        "checklist": [
+          "使用虛構對象",
+          "問題可以回答是或否",
+          "畫出兩層分支",
+          "說明分類未呈現的特徵"
+        ]
+      },
+      "pitfalls": [
+        "用真實同學的性格或身分當作標籤。",
+        "把分類結果當作對對象完整、永久的描述。",
+        "把課堂二分類樹當作大型語言模型完整運作方式。"
+      ],
+      "supplements": [
+        {
+          "title": "編輯提示：保留不確定",
+          "text": "若圖卡特徵不足以回答，就先標記「不確定」並補資料；不必勉強歸類。",
+          "sourceIds": []
+        }
+      ],
+      "validation": [
+        {
+          "claim": "用二分類樹一次活動就能完整理解 AI 如何運作",
+          "status": "unverified",
+          "explanation": "節目提出課堂切入點；本文活動為編輯設計，不能代表 AI 系統的全部運作或保證成效。",
+          "sourceIds": [
+            "original"
+          ],
+          "checkedAt": "2026-10-31"
+        }
+      ],
+      "overview": {
+        "image": "/assets/overviews/yes-no-classification-tree-desktop.webp",
+        "mobileImage": "/assets/overviews/yes-no-classification-tree-mobile.webp",
+        "cardImage": "/assets/overviews/yes-no-classification-tree-desktop.webp",
+        "alt": "以澄陪學生用是非問題畫出圖卡分類樹。",
+        "caption": "虛構圖卡練習與討論為編輯設計。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      },
+      "publishedAt": "2026-10-31T10:20:02+08:00"
+    },
+    {
+      "id": "ask-child-how-opinion-formed",
+      "title": "孩子有了想法之後：追問觀點從哪裡來",
+      "summary": "先聽孩子的回答，再問想法如何形成、是否可信，以及別人可能怎麼看。",
+      "categoryId": "reading",
+      "topicIds": [
+        "teaching",
+        "parenting"
+      ],
+      "audience": "陪孩子討論問題的教師與家長",
+      "output": "一張觀點、依據與待確認問題卡",
+      "minutes": 15,
+      "level": "入門",
+      "status": "ready",
+      "contentType": "article_method",
+      "reviewedAt": "2026-10-31",
+      "coverLabel": "思考練習 · 開放提問",
+      "keywords": [
+        "開放提問",
+        "思考過程",
+        "證據",
+        "不同觀點"
+      ],
+      "sourceCoverage": "指定 Notion 收藏 Podcast 音訊約 33:46，本機 Whisper small 自動轉錄至約 33:43，尚未逐字人工聽校，末段含疑似辨識幻覺。約 23:03–24:00 的候選片段另以第二模型辨識，兩份字幕都出現追問觀點來源、可信度與別人看法；雙模型比對不等於原音聽校。本文課文、回答示例與紀錄卡為編輯設計。",
+      "sources": [
+        {
+          "id": "original",
+          "title": "Podcast 節目頁：AI 親職學 EP.13",
+          "kind": "article",
+          "url": "https://player.soundon.fm/p/f5ef415f-481b-4374-a939-1dfb794d847e/episodes/ffd183f3-cc8f-44bf-b65d-0aa028d2ab6e",
+          "channel": "親子天下Podcast",
+          "note": "機器字幕尚未完整人工聽校。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "先聽完整想法",
+          "action": "請孩子回答一個開放問題，先聽他說完，不急著判斷或替他補答案。",
+          "why": "依節目對開放題與思考來源的追問整理；課文例子和檢核為編輯設計。",
+          "example": "編輯示範：問學生「你覺得角色為什麼沒有說話？」",
+          "check": "能用自己的話重述孩子的想法。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "問想法從哪裡來",
+          "action": "邀請孩子說明是根據觀察、資料，還是由其他經驗聯想到的。",
+          "why": "依節目對開放題與思考來源的追問整理；課文例子和檢核為編輯設計。",
+          "example": "編輯示範：問「你看到什麼，讓你這樣想？」",
+          "check": "能區分觀察到的事與自己的聯想。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "一起檢查可信度",
+          "action": "問有哪些內容可以查證、哪些仍是推測；不確定時先把問題留下來。",
+          "why": "依節目對開放題與思考來源的追問整理；課文例子和檢核為編輯設計。",
+          "example": "編輯示範：回到短文找原句，找不到就標記待查。",
+          "check": "至少指出一項依據或仍待確認之處。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "想想別人可能怎麼看",
+          "action": "邀請孩子想像其他人可能有哪些不同看法，並提醒那仍需向本人確認。",
+          "why": "依節目對開放題與思考來源的追問整理；課文例子和檢核為編輯設計。",
+          "example": "編輯示範：問「同一件事，另一個角色可能注意到什麼？」",
+          "check": "說出一種可能的不同視角，並清楚標示是推測。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "陪孩子回看思考過程",
+          "note": "課文例子與紀錄卡為編輯設計。",
+          "nodes": [
+            {
+              "id": "n1",
+              "label": "先聽完整想法",
+              "detail": "能用自己的話重述孩子的想法。"
+            },
+            {
+              "id": "n2",
+              "label": "問想法從哪裡來",
+              "detail": "能區分觀察到的事與自己的聯想。"
+            },
+            {
+              "id": "n3",
+              "label": "一起檢查可信度",
+              "detail": "至少指出一項依據或仍待確認之處。"
+            },
+            {
+              "id": "n4",
+              "label": "想想別人可能怎麼看",
+              "detail": "說出一種可能的不同視角，並清楚標示是推測。"
+            }
+          ],
+          "edges": [
+            {
+              "from": "n1",
+              "to": "n2"
+            },
+            {
+              "from": "n2",
+              "to": "n3"
+            },
+            {
+              "from": "n3",
+              "to": "n4"
+            }
+          ]
+        }
+      ],
+      "practice": {
+        "title": "編輯練習：一張想法來源卡",
+        "minutes": 15,
+        "prompt": "選一個開放問題，先聽回答，再問想法從哪裡來、什麼可以查證，以及別人可能怎麼想。",
+        "deliverable": "一張想法、依據、不同視角及待確認問題卡",
+        "checklist": [
+          "先完整聽對方說",
+          "分開觀察與聯想",
+          "指出可查證或不確定處",
+          "將他人的想法標為待確認的推測"
+        ]
+      },
+      "pitfalls": [
+        "連續追問變成盤問，讓孩子只想找標準答案。",
+        "把孩子的猜測當成他人真實想法。",
+        "只問對錯，沒有聽見觀點如何形成。"
+      ],
+      "supplements": [
+        {
+          "title": "編輯提示：留下思考空間",
+          "text": "如果孩子暫時不知道，可以先保留問題，改天查資料或再談，不必勉強立刻回答。",
+          "sourceIds": []
+        }
+      ],
+      "validation": [
+        {
+          "claim": "只靠這四個問題就能保證孩子具備批判思考",
+          "status": "unverified",
+          "explanation": "節目分享對話提問方向；本文練習為編輯設計，未驗證普遍教學成效。",
+          "sourceIds": [
+            "original"
+          ],
+          "checkedAt": "2026-10-31"
+        }
+      ],
+      "overview": {
+        "image": "/assets/overviews/child-opinion-thinking-desktop.webp",
+        "mobileImage": "/assets/overviews/child-opinion-thinking-mobile.webp",
+        "cardImage": "/assets/overviews/child-opinion-thinking-desktop.webp",
+        "alt": "阿問陪家長與孩子追問想法的來源。",
+        "caption": "課文例子及練習為編輯設計。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      },
+      "publishedAt": "2026-10-31T10:21:41+08:00"
     }
   ],
   "demo": {
