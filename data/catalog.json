@@ -125839,6 +125839,200 @@
         "mobileHeight": 1600
       },
       "publishedAt": "2026-10-31T10:21:41+08:00"
+    },
+    {
+      "id": "english-personal-topic-five-materials",
+      "title": "把自己的生活變成英語口說素材：先準備一個話題",
+      "summary": "從生活挑一個想談的主題，準備單字、表達、細節、經驗與問題，練習自己的回答。",
+      "categoryId": "english",
+      "topicIds": [
+        "speaking",
+        "habits"
+      ],
+      "audience": "想自己準備英文口說話題的學習者",
+      "output": "一張生活話題與口說素材卡",
+      "minutes": 20,
+      "level": "入門",
+      "status": "ready",
+      "contentType": "video_method",
+      "reviewedAt": "2026-10-31",
+      "coverLabel": "英文口說 · 生活話題",
+      "keywords": [
+        "英文口說",
+        "生活話題",
+        "自主學習",
+        "口說素材"
+      ],
+      "sourceCoverage": "指定 Notion 影片音訊約 29:42，YouTube 英文自動字幕涵蓋至約 29:41，尚未逐字人工聽校。影片按興趣、日常活動與重要的人找話題，並介紹單字、表達、細節、經驗與問題五類素材。本文從一個話題開始及例子為編輯設計；影片的流利與記憶成效主張未獨立核實。",
+      "sources": [
+        {
+          "id": "original",
+          "title": "Getting Fluent In English By Yourself - Where To Actually Start",
+          "kind": "video",
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=oOPtizCPFr0",
+          "channel": "Teacher Tiffani",
+          "videoId": "oOPtizCPFr0",
+          "note": "YouTube 英文自動字幕，尚未完整人工聽校。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "選一個生活話題",
+          "action": "從自己的興趣、日常活動或重視的人事物，選一個願意談的主題。",
+          "why": "依影片個人話題及口說材料的分類整理；本篇例子與檢核為編輯設計。",
+          "example": "編輯示範：選擇「準備一堂國文課」。",
+          "check": "能說出選這個主題的原因。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 80,
+              "endSeconds": 344
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "準備單字與常用表達",
+          "action": "列出與主題相關的幾個單字及常用說法，並透過教材或詞典確認用法。",
+          "why": "依影片個人話題及口說材料的分類整理；本篇例子與檢核為編輯設計。",
+          "example": "編輯示範：列出 lesson、draft、feedback，再查核 prepare a lesson 的用法。",
+          "check": "每個詞或表達都能說明意思與使用場合。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 825,
+              "endSeconds": 1093
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "補充細節與經驗",
+          "action": "記下與話題相關的具體細節，並回想一段自己願意分享的經驗。",
+          "why": "依影片個人話題及口說材料的分類整理；本篇例子與檢核為編輯設計。",
+          "example": "編輯示範：記下備課時間與材料，並回想一次學生提問。",
+          "check": "至少留下一個細節與一段可說的經驗。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 1130,
+              "endSeconds": 1464
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "用問題練習回答",
+          "action": "為這個話題寫幾個可能被問的問題，試著用準備好的材料回答。",
+          "why": "依影片個人話題及口說材料的分類整理；本篇例子與檢核為編輯設計。",
+          "example": "編輯示範：問自己 How do you prepare for class?",
+          "check": "能用自己的話回答一個問題，並記下需要查核的地方。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 1572,
+              "endSeconds": 1652
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "用生活話題準備口說素材",
+          "note": "從一個話題開始及例子為編輯設計。",
+          "nodes": [
+            {
+              "id": "n1",
+              "label": "選一個生活話題",
+              "detail": "能說出選這個主題的原因。"
+            },
+            {
+              "id": "n2",
+              "label": "準備單字與常用表達",
+              "detail": "每個詞或表達都能說明意思與使用場合。"
+            },
+            {
+              "id": "n3",
+              "label": "補充細節與經驗",
+              "detail": "至少留下一個細節與一段可說的經驗。"
+            },
+            {
+              "id": "n4",
+              "label": "用問題練習回答",
+              "detail": "能用自己的話回答一個問題，並記下需要查核的地方。"
+            }
+          ],
+          "edges": [
+            {
+              "from": "n1",
+              "to": "n2"
+            },
+            {
+              "from": "n2",
+              "to": "n3"
+            },
+            {
+              "from": "n3",
+              "to": "n4"
+            }
+          ]
+        }
+      ],
+      "practice": {
+        "title": "編輯練習：完成一張生活話題卡",
+        "minutes": 20,
+        "prompt": "選一個願意分享的生活話題，列出單字、常用表達、細節、經驗與想回答的問題，再試著說一次。",
+        "deliverable": "一張含五類材料的口說話題卡",
+        "checklist": [
+          "選好一個話題",
+          "查核單字與表達",
+          "記下一項細節或經驗",
+          "用一個問題練習回答"
+        ]
+      },
+      "pitfalls": [
+        "一次準備太多主題，卻沒有開口使用。",
+        "只背單字清單，不核對意思和常用語境。",
+        "為了練習勉強分享自己或他人的隱私；可使用虛構或不具辨識性的例子。"
+      ],
+      "supplements": [
+        {
+          "title": "編輯模板：生活話題卡",
+          "text": "話題：＿＿；單字：＿＿；常用表達：＿＿；細節：＿＿；經驗：＿＿；我想練習回答的問題：＿＿。",
+          "sourceIds": []
+        }
+      ],
+      "validation": [
+        {
+          "claim": "準備固定數量的素材就一定能流利說英語",
+          "status": "unverified",
+          "explanation": "影片分享個人練習策略，未提供足以證實普遍成效的資料；素材數量可依程度調整。",
+          "sourceIds": [
+            "original"
+          ],
+          "checkedAt": "2026-10-31"
+        }
+      ],
+      "overview": {
+        "image": "/assets/overviews/english-personal-topic-materials-desktop.webp",
+        "mobileImage": "/assets/overviews/english-personal-topic-materials-mobile.webp",
+        "cardImage": "/assets/overviews/english-personal-topic-materials-desktop.webp",
+        "alt": "知行陪學習者把生活話題整理成英文口說素材。",
+        "caption": "先從一個話題開始為編輯建議。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      },
+      "publishedAt": "2026-10-31T10:31:40+08:00"
     }
   ],
   "demo": {
