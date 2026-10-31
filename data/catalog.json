@@ -129329,6 +129329,407 @@
         "mobileWidth": 1000,
         "mobileHeight": 1600
       }
+    },
+    {
+      "id": "edtech-pilot-shared-renewal-decision",
+      "title": "教學工具試用後要不要續用？先約定指標，再一起看證據",
+      "summary": "一項教學工具的登入人數，只能告訴我們有多少人使用。從 Podcast 訪談出發，先約定想解決的問題與觀察指標，小規模試行後一起看學生表現、師生回饋與使用情況，再決定續用、調整或停止。決策卡為編輯延伸。",
+      "categoryId": "reading",
+      "topicIds": [
+        "teaching",
+        "review"
+      ],
+      "level": "入門",
+      "minutes": 20,
+      "output": "一張載明目標、試行安排、觀察資料與回看時間的工具決策卡",
+      "audience": "想評估教學工具是否適合持續使用的教師、教學團隊與學校行政人員",
+      "status": "ready",
+      "contentType": "article_method",
+      "reviewedAt": "2026-10-31",
+      "coverLabel": "教育科技・試行決策",
+      "sourceCoverage": "已閱讀 My EdTech Life 第 373 集節目方公開逐字稿「What District Leaders Should Demand」及相鄰對話：受訪者提出先定優先目標、小規模試行、預設指標，並結合師生質性回饋；「Great Teaching Becomes More Valuable」談教師保留判斷。逐字稿尚未對照音訊聽校；節目頁不同章節時間與逐字稿長度不一致，故不採精確時間碼。Dacia Toll 為教育科技公司 Coursemojo 共同創辦人，此為業界觀點，產品功能與效果未獨立驗證。班級例子、步驟、決策卡及 20 分鐘規劃時間為編輯延伸，非節目標準流程，未經試教。",
+      "sources": [
+        {
+          "id": "podcast",
+          "title": "Stop Measuring Logins, Start Measuring Learning | My EdTech Life 373",
+          "url": "https://www.myedtech.life/learning/",
+          "kind": "article",
+          "channel": "My EdTech Life",
+          "note": "節目方公開逐字稿；參考章節「What District Leaders Should Demand」及「Great Teaching Becomes More Valuable」，尚未聽校。受訪者為 Coursemojo 共同創辦人。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "先約定要解決的一個問題",
+          "action": "教師與相關成員描述對象、教學情境及希望改善的具體表現；將工具使用與學習目標分開寫。",
+          "why": "受訪者主張先辨識優先問題，再尋找適合的解決方案。",
+          "example": "編輯示範：學生能找出文章線索，卻難以說明線索如何支持推論。",
+          "check": "問題與對象具體；目標不是「讓學生登入平台」。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "podcast",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "試行前寫下觀察方式",
+          "action": "約定試行期間、負責人與一項可觀察的學習表現，並規劃如何記錄使用情形、障礙及師生感受。",
+          "why": "受訪者建議事前明確設定指標，也要納入學生與教師的質性回饋。",
+          "example": "編輯示範：用同一判準觀察試行前後兩份不同但相當的短答，同時記下設備障礙與教師準備負擔。",
+          "check": "有預先約定的觀察、資料來源與回看時間；不把前後差異直接歸因於工具。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "podcast",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "小規模試行並留下脈絡",
+          "action": "選定可行的班級或課程，在既定支持下試行；記錄實際使用、課程安排以及期間的重要變動。",
+          "why": "受訪者提出可從小規模開始，並依在地目標觀察結果；具體實施安排為編輯設計。",
+          "example": "編輯示範：一個班級在一段課程中使用，記下哪些學生因設備或登入問題無法參與。",
+          "check": "知道誰參與、如何使用，以及哪些因素可能影響觀察。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "podcast",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "邀請師生一起看證據",
+          "action": "按約定時間檢視使用紀錄、學生作品及師生回饋，保留不同經驗與資料不足之處。",
+          "why": "來源同時重視量化結果與師生對學習過程的感受。",
+          "example": "編輯示範：問學生哪一步有幫助或卡住；問教師準備與追蹤增加了哪些工作。",
+          "check": "不只呈現登入量或平均數，也記錄無法使用的人及其障礙。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "podcast",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "step-5",
+          "title": "寫下續用、調整或停止的理由",
+          "action": "依現有資料共同選擇續用、調整後再試或停止，並記下依據、未解問題與下次回看時間；資料不足可先補資料。",
+          "why": "受訪者建議事先約定目標與執行條件，並定期共同檢視；三種決策選項為編輯延伸。",
+          "example": "編輯示範：學生回饋有幫助，但登入障礙多；先改善設備與登入方式，約定下次再檢視。",
+          "check": "決定連得回實際資料，並保留仍不確定的因素。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "podcast",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "schedule",
+          "title": "編輯設計：工具試行決策卡",
+          "note": "問題、指標及例子依班級調整；前後差異不等於工具造成的效果。",
+          "columns": [
+            "要記下的內容",
+            "回看問題"
+          ],
+          "rows": [
+            {
+              "label": "目標與安排",
+              "cells": [
+                "對象、問題、教學目標、試行期間",
+                "要解決的是什麼？"
+              ]
+            },
+            {
+              "label": "事前指標",
+              "cells": [
+                "學生表現、使用情形、師生回饋與障礙",
+                "如何觀察？何時回看？"
+              ]
+            },
+            {
+              "label": "共同決定",
+              "cells": [
+                "續用、調整後再試或停止；依據與未知",
+                "資料是否足夠？下一步是什麼？"
+              ]
+            }
+          ]
+        }
+      ],
+      "practice": {
+        "title": "規劃一張試行決策卡",
+        "minutes": 20,
+        "prompt": "編輯設計：對象與問題＿＿；教學目標＿＿；試行期間及負責人＿＿；預先約定的學生表現、使用情形與師生回饋＿＿；回看時間＿＿；試行後的決定、依據及未知＿＿。最後一項留待實際回看後填寫。",
+        "deliverable": "一張載明目標、試行安排、觀察資料與回看時間的工具決策卡",
+        "checklist": [
+          "教學目標與工具使用分開寫",
+          "事前約定如何觀察、誰負責及何時回看",
+          "兼顧學生作品、使用障礙及師生回饋",
+          "試行後再寫決定；不把前後差異直接歸因於工具"
+        ]
+      },
+      "pitfalls": [
+        "以登入人數或使用時間直接判斷學生已經學會。",
+        "只看平均表現，忽略不能登入或無法參與的學生。",
+        "將前後表現差異歸因於工具，忽略教材、教學、時間與學生差異。",
+        "把受訪者的產品效果說法當成獨立研究結論。"
+      ],
+      "supplements": [
+        {
+          "title": "與既有課堂觀察的差異",
+          "text": "這張卡處理跨課次工具試行的共同決策；單堂新情境題可以作為其中一項觀察資料，但無法獨自決定工具效果。",
+          "sourceIds": [
+            "podcast"
+          ]
+        },
+        {
+          "title": "學生資料",
+          "text": "依學校規範處理資料，討論時使用匿名化作品；不要求學生公開私人資訊。",
+          "sourceIds": []
+        }
+      ],
+      "validation": [
+        {
+          "claim": "這張決策卡能證明工具造成學習進步",
+          "status": "unverified",
+          "explanation": "逐字稿提供受訪者業界觀點，決策卡與課堂安排為編輯延伸，未經試教；前後比較不足以建立因果。",
+          "sourceIds": [
+            "podcast"
+          ],
+          "checkedAt": "2026-10-31"
+        }
+      ],
+      "keywords": [
+        "教育科技",
+        "教學工具",
+        "小規模試行",
+        "學習證據",
+        "師生回饋",
+        "續用決策"
+      ],
+      "publishedAt": "2026-10-31T12:16:00+08:00",
+      "overview": {
+        "image": "/assets/overviews/edtech-pilot-shared-decision-desktop.webp",
+        "mobileImage": "/assets/overviews/edtech-pilot-shared-decision-mobile.webp",
+        "cardImage": "/assets/overviews/edtech-pilot-shared-decision-desktop.webp",
+        "alt": "以澄與小硯先約定觀察指標，再試用教學工具。",
+        "caption": "依來源觀點製圖，具體教學活動為編輯延伸。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      }
+    },
+    {
+      "id": "animal-protection-research-board-game",
+      "title": "把動物保護資料變成桌遊題目：讓學生查、設計、討論",
+      "summary": "從影片觀察與線索配對出發，讓學生查找動物相關資料，再把內容轉成桌遊題目，結合視覺設計。具體任務單、查證方式與試玩步驟為編輯延伸。",
+      "categoryId": "reading",
+      "topicIds": [
+        "teaching",
+        "learning"
+      ],
+      "audience": "希望結合議題探究與創作的教師",
+      "output": "一組附有資料來源的動物保護桌遊題目",
+      "minutes": 45,
+      "level": "入門",
+      "status": "ready",
+      "contentType": "video_method",
+      "reviewedAt": "2026-10-31",
+      "coverLabel": "探究教學・桌遊創作",
+      "keywords": [
+        "動物保護",
+        "資料查找",
+        "桌遊設計",
+        "課堂任務"
+      ],
+      "sourceCoverage": "已閱讀既有 MLX Whisper large-v3-turbo 轉錄，另以 Whisper small 重新轉錄影片 12:16–13:15，兩份均呈現看影片記錄、配對線索、學生自行查找資料並把題目放進動物主題桌遊，再學習配色與字體的順序。兩份均為自動轉錄，尚未人工聽校；桌遊名稱辨識不確定，不引用具體名稱或法律內容。流程拆解、查證要求、試玩、回饋與課堂時間為編輯延伸，未經試教。這是教師個人課堂經驗，不代表已證實成效。",
+      "sources": [
+        {
+          "id": "original",
+          "title": "我的教室，開始不一樣了：把學習還給學生，我改變的四件事｜王筱瑜",
+          "kind": "video",
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=iWzCwRX7XYo",
+          "channel": "學思達教育基金會",
+          "videoId": "iWzCwRX7XYo",
+          "note": "2026-10-14 上傳；2026-08-22 講座。兩套機器轉錄比對，尚未人工聽校。Notion：https://app.notion.com/p/3f92d00e283a813e8f8dc47b15635830"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "帶著任務觀看",
+          "action": "選擇動物相關影片，請學生記下看到的事情；教師在適當時機提供線索，讓學生嘗試配對。",
+          "why": "講者分享觀看時記錄、尋找線索並配對的課堂安排。",
+          "example": "編輯示範：記錄影片中人如何照顧動物，再將事件與線索卡配對。",
+          "check": "每組留下觀察紀錄與配對結果。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 736,
+              "endSeconds": 752
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "查找主題資料",
+          "action": "學生查找與動物保護有關的可靠資料，記下出處，討論哪些資訊適合變成題目。",
+          "why": "講者提到桌遊內容由學生自己查找，包括動物相關議題和社會新聞；可靠來源與記錄出處是編輯補充。",
+          "example": "編輯示範：從動物保護機構公開資料查找照顧動物的注意事項，記錄網址與日期。",
+          "check": "每個擬用資訊都能回到來源核對。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 752,
+              "endSeconds": 774
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "轉成桌遊題目與版面",
+          "action": "將查得的資料改寫成題目或情境，設計可閱讀的字體、配色與版面。",
+          "why": "講者分享學生將資料融入動物主題桌遊，並在過程中學習字體、配色及版面。",
+          "example": "編輯示範：把一項照護事實改寫成情境選擇題，並在答案卡註明來源。",
+          "check": "題目可對照來源，字體與配色清楚可讀。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 774,
+              "endSeconds": 795
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "交換試玩並調整",
+          "action": "讓另一組試玩，檢查題目是否清楚、答案是否能從來源核對，再依回饋修正。",
+          "why": "試玩與核對是編輯延伸，用於檢查作品是否可理解。",
+          "example": "編輯示範：記錄一題讓人誤解的文字，修改後再請同學確認。",
+          "check": "至少完成一次來源核對及一項修改。",
+          "contribution": "editorial",
+          "sourceRefs": []
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "從觀察到桌遊題目",
+          "note": "查證與試玩為編輯延伸。",
+          "nodes": [
+            {
+              "id": "n1",
+              "label": "觀看與記錄"
+            },
+            {
+              "id": "n2",
+              "label": "配對線索"
+            },
+            {
+              "id": "n3",
+              "label": "學生查資料"
+            },
+            {
+              "id": "n4",
+              "label": "設計題目與版面"
+            },
+            {
+              "id": "n5",
+              "label": "試玩修正"
+            }
+          ],
+          "edges": [
+            {
+              "from": "n1",
+              "to": "n2"
+            },
+            {
+              "from": "n2",
+              "to": "n3"
+            },
+            {
+              "from": "n3",
+              "to": "n4"
+            },
+            {
+              "from": "n4",
+              "to": "n5"
+            }
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "設計桌遊一定能提升學生的動物保護知識。",
+          "status": "unverified",
+          "explanation": "影片為教師經驗分享，沒有提供可支持因果結論的獨立研究。",
+          "sourceIds": [
+            "original"
+          ],
+          "checkedAt": "2026-10-31"
+        }
+      ],
+      "pitfalls": [
+        "不要把未經核對的網路資訊直接當成答案。",
+        "課堂時間視素材、查找能力與作品規模調整。",
+        "學生可使用不同形式呈現，不以美術技巧取代知識判斷。"
+      ],
+      "practice": {
+        "title": "一張桌遊題目卡",
+        "minutes": 45,
+        "prompt": "編輯設計：觀察影片並配對線索，查找一項動物照護資料，改寫為題目，附上來源並請同學試答。",
+        "deliverable": "一張附來源與修改紀錄的題目卡",
+        "checklist": [
+          "留下觀察紀錄",
+          "寫出資料來源",
+          "題目與答案可核對",
+          "依同學回饋修改"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "編輯補充：題目卡欄位",
+          "text": "主題：＿＿；題目：＿＿；答案與理由：＿＿；資料來源：＿＿；同學回饋：＿＿；修改：＿＿。",
+          "sourceIds": []
+        }
+      ],
+      "publishedAt": "2026-10-31T12:16:00+08:00",
+      "overview": {
+        "image": "/assets/overviews/animal-protection-research-board-game-desktop.webp",
+        "mobileImage": "/assets/overviews/animal-protection-research-board-game-mobile.webp",
+        "cardImage": "/assets/overviews/animal-protection-research-board-game-desktop.webp",
+        "alt": "知行與阿問查找資料，改寫成動物保護桌遊題目。",
+        "caption": "依來源觀點製圖，具體教學活動為編輯延伸。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      }
     }
   ],
   "demo": {
