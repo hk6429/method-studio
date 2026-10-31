@@ -127798,6 +127798,195 @@
         "mobileWidth": 1000,
         "mobileHeight": 1600
       }
+    },
+    {
+      "id": "labor-scenario-discussion-evidence",
+      "title": "先看工作情境，再查資料：討論勞動者的處境",
+      "summary": "從一張工作情境圖出發，先討論工作者可能遇到的問題，再閱讀資料拓展理解。本文把教師分享的做法延伸成觀察、推測、查證與修正練習；圖像不代表現實全貌或特定族群。",
+      "categoryId": "reading",
+      "topicIds": [
+        "strategies",
+        "teaching"
+      ],
+      "audience": "希望帶學生討論社會議題與資料判讀的教師",
+      "output": "一張觀察、推測與查證紀錄表",
+      "minutes": 20,
+      "level": "入門",
+      "status": "ready",
+      "contentType": "video_method",
+      "reviewedAt": "2026-10-31",
+      "coverLabel": "社會探究 · 情境討論",
+      "keywords": [
+        "勞動者",
+        "情境討論",
+        "資料查證",
+        "社會教學"
+      ],
+      "sourceCoverage": "指定 Notion 來源影片有本機 Whisper tiny 全片機器轉錄，另將 01:17:29–01:19:13 以 Whisper small 重新轉錄；兩版均未人工聽校，也未核對畫面。所讀片段顯示教師以 AI 情境圖引導討論工作者的處境，之後提供資料討論。觀察與推測分欄、逐項核對、表格、練習時間和示例均為編輯延伸。影片中的數據及法規主張未獨立核實，本文不據此下結論。",
+      "sources": [
+        {
+          "id": "original",
+          "title": "社會課本裡新住民節慶與移工生活－「報紙資料庫＋AI」妙用探究助手｜新北市光華國小 陳香吟老師",
+          "kind": "video",
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=4tdrjYHBJoU",
+          "channel": "謙懿科技",
+          "videoId": "4tdrjYHBJoU",
+          "note": "指定 Notion 紀錄：https://app.notion.com/3e52d00e283a8101943ed18a958d0465。tiny 全片及 small 指定片段均為機器轉錄，尚未人工聽校。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "選一張情境圖",
+          "action": "教師選擇與課題相關、可合法使用的工作情境圖，先確認內容合齡；也可以用文字描述虛構情境。",
+          "why": "講者分享由教師製作情境圖供討論；選材及文字替代為編輯延伸。",
+          "example": "編輯示範：一張虛構的工廠工作場景圖。",
+          "check": "說明圖像是討論起點，不代表真實經歷或整個族群。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 4649,
+              "endSeconds": 4661
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "分開觀察與推測",
+          "action": "請學生先描述圖中實際看得到的內容，再問工作者可能遇到什麼需要或困難，並將推測另行標記。",
+          "why": "講者詢問工作者會遇到什麼問題；觀察與推測分欄是編輯延伸。",
+          "example": "編輯示範：看到人物站在工作臺前；是否需要休息或防護設備，仍要查資料。",
+          "check": "至少寫下一項觀察和一項標為待查的推測。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 4661,
+              "endSeconds": 4672
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "找資料拓展理解",
+          "action": "提供或共同尋找適合學生閱讀、具出處及日期的材料，檢查其適用的工作、地點與時間。",
+          "why": "講者在討論角色後提供資料並請學生查閱；資料選擇與核對條件為編輯延伸。",
+          "example": "編輯示範：閱讀有出處的職業介紹或勞動者訪談，記錄作者與日期。",
+          "check": "能指出資料出處，也知道一份資料的適用範圍有限。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 4694,
+              "endSeconds": 4717
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "核對推測並留下疑問",
+          "action": "將原先推測與材料並排，寫出哪些有依據、哪些仍待查，再修正說法。",
+          "why": "逐項核對推測及記錄表是編輯延伸，並非逐字稿證實的完整課堂流程。",
+          "example": "編輯示範：資料未說明休息安排，便保留問題，不替人物補上答案。",
+          "check": "每項結論能回指材料；找不到依據就標示待查。",
+          "contribution": "editorial",
+          "sourceRefs": []
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "編輯練習：從情境走向查證",
+          "note": "觀察與推測分欄及核對流程為編輯延伸。",
+          "nodes": [
+            {
+              "id": "n1",
+              "label": "看情境",
+              "detail": "辨認可見內容"
+            },
+            {
+              "id": "n2",
+              "label": "提推測",
+              "detail": "標記尚待查證"
+            },
+            {
+              "id": "n3",
+              "label": "讀資料",
+              "detail": "記錄來源與範圍"
+            },
+            {
+              "id": "n4",
+              "label": "核對",
+              "detail": "修正或保留疑問"
+            }
+          ],
+          "edges": [
+            {
+              "from": "n1",
+              "to": "n2"
+            },
+            {
+              "from": "n2",
+              "to": "n3"
+            },
+            {
+              "from": "n3",
+              "to": "n4"
+            }
+          ]
+        }
+      ],
+      "practice": {
+        "title": "編輯練習：製作一張查證表",
+        "minutes": 20,
+        "prompt": "選一張合適的工作情境圖或一段虛構描述，寫下可見內容、一項推測、一份有出處的材料，以及查到或仍待查的內容；最後修正自己的說法。",
+        "deliverable": "一張觀察、推測與查證紀錄表",
+        "checklist": [
+          "圖像或描述標明為情境，不代表整個族群。",
+          "觀察和推測分開。",
+          "資料註明出處、日期及適用範圍。",
+          "無法確認的內容標示待查。"
+        ]
+      },
+      "pitfalls": [
+        "把 AI 情境圖當成真實人物經歷或族群的共同特徵。",
+        "將一份資料或一人的經驗推論成所有勞動者的處境。",
+        "要求學生透露自己的家庭照顧或身分經驗。",
+        "把影片中的未核實數據或法規陳述當成現行事實。"
+      ],
+      "supplements": [
+        {
+          "title": "編輯提醒：讓討論保持開放",
+          "text": "優先選用經授權且符合課題的素材，呈現不同經驗；學生可選擇不分享個人經驗。若討論勞動權益，應查詢當時適用的官方規定與具體條件。",
+          "sourceIds": []
+        }
+      ],
+      "validation": [
+        {
+          "claim": "使用情境圖討論一定能改善學生對勞動者的理解。",
+          "status": "unverified",
+          "explanation": "所讀片段為教師個人課堂分享，未提供此編輯練習的成效證據。",
+          "sourceIds": [
+            "original"
+          ],
+          "checkedAt": "2026-10-31"
+        }
+      ],
+      "publishedAt": "2026-10-31T11:17:58+08:00",
+      "overview": {
+        "image": "/assets/overviews/labor-scenario-evidence-desktop.webp",
+        "mobileImage": "/assets/overviews/labor-scenario-evidence-mobile.webp",
+        "cardImage": "/assets/overviews/labor-scenario-evidence-desktop.webp",
+        "alt": "小硯和知行以工作情境圖與資料展開討論。",
+        "caption": "依來源觀點製圖，觀察及核對表為編輯延伸。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      }
     }
   ],
   "demo": {
