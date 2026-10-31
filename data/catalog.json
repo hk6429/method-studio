@@ -127407,6 +127407,202 @@
         "mobileHeight": 1600
       },
       "publishedAt": "2026-10-31T11:06:59+08:00"
+    },
+    {
+      "id": "three-perspectives-classroom-conversation",
+      "title": "一場對話之後：從自己、對方與旁觀者三個角度回看",
+      "summary": "一場師生對話結束後，自己的感受可能佔滿整個畫面。林逸蓁在訪談中談到切換自己、對方與第三者的視角；本文將這個觀點轉成一張課後回看卡，區分觀察與推測，再思考下一步。卡片與師生情境是編輯延伸。",
+      "categoryId": "reading",
+      "topicIds": [
+        "review",
+        "mindset"
+      ],
+      "audience": "想回看師生溝通或日常互動的教師與學習者",
+      "output": "一張三視角回看卡與一個待嘗試的回應",
+      "minutes": 10,
+      "level": "入門",
+      "status": "ready",
+      "contentType": "video_method",
+      "reviewedAt": "2026-10-31",
+      "coverLabel": "換個角度 · 課後回看",
+      "keywords": [
+        "三人稱視角",
+        "換位思考",
+        "師生溝通",
+        "課後反思",
+        "第三者視角"
+      ],
+      "sourceCoverage": "指定 Notion 來源的閱讀人訪談；已閱讀 YouTube 標示為人工製作的繁體中文字幕，尚未回聽音訊，也未核對投影畫面。13:46–14:25 講者區分三人稱視角與另一組六個角度，描述從自己、對方到第三者觀看同一件事。三欄書寫、師生情境、區分觀察與推測、向本人確認、下一步與時間安排均為編輯延伸；來源未提供本練習的效度或成效證據。",
+      "sources": [
+        {
+          "id": "original",
+          "title": "閱讀人專題讀書會《把資歷變資產》直播專訪林逸蓁",
+          "kind": "video",
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=gzxdTARrLbM",
+          "channel": "閱讀人 鄭俊德",
+          "videoId": "gzxdTARrLbM",
+          "note": "依 YouTube 標示為人工製作的繁體中文字幕整理；尚未回聽音訊，也未核對投影畫面。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "先記下自己的視角",
+          "action": "選一段願意回看的互動，寫下自己當時觀察到的事與感受；兩者分開。",
+          "why": "講者提到事情發生、尤其有情緒時，人常處於自己的第一人稱視角。分欄和問句為編輯設計。",
+          "example": "編輯示範：我提醒學生交作業，他沒有回答；我當時感到著急。",
+          "check": "寫下具體互動，不把感受直接當成對方的意圖。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 839,
+              "endSeconds": 850
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "想像對方可能怎麼看",
+          "action": "換到對方的位置，寫下一種可能的理解，標記為推測；有合適機會時，邀請對方補充或修正。",
+          "why": "講者提到跳到對方視角會看到不同角度；記錄推測與確認為編輯補充。",
+          "example": "編輯示範：學生可能沒聽清楚，也可能正在想怎麼回答；我還不知道。",
+          "check": "清楚區分已觀察的事與尚待確認的想法。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 850,
+              "endSeconds": 857
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "從第三者角度再看一次",
+          "action": "想像一位不急著評斷的旁觀者，會看到哪些互動與尚缺的資訊。",
+          "why": "講者提到以第三者角度觀看事件，有機會看到較完整的局面；問題與記錄方式為編輯設計。",
+          "example": "編輯示範：旁觀者可能看到老師提醒、學生沉默，但不知道學生為何沉默。",
+          "check": "列出互動和未知，不替任何一方下定論。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 857,
+              "endSeconds": 865
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "選一個溫和的下一步",
+          "action": "依情境寫下一個可以嘗試的回應；若不適合立即對話，可以先等待或尋求適當協助。",
+          "why": "下一步不在該段三視角說明中，是編輯為實際應用補上的安排。",
+          "example": "編輯示範：下課後私下問：「剛才我提醒交作業，你有聽清楚嗎？」",
+          "check": "選擇不強迫對方揭露、不預設答案的做法。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 839,
+              "endSeconds": 865
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "三視角回看卡",
+          "note": "編輯依訪談觀點設計；確認與下一步為編輯延伸。",
+          "nodes": [
+            {
+              "id": "n1",
+              "label": "我",
+              "detail": "觀察與感受"
+            },
+            {
+              "id": "n2",
+              "label": "對方",
+              "detail": "可能的理解，標記推測"
+            },
+            {
+              "id": "n3",
+              "label": "第三者",
+              "detail": "互動與未知"
+            },
+            {
+              "id": "n4",
+              "label": "下一步",
+              "detail": "選擇適合的回應"
+            }
+          ],
+          "edges": [
+            {
+              "from": "n1",
+              "to": "n2"
+            },
+            {
+              "from": "n2",
+              "to": "n3"
+            },
+            {
+              "from": "n3",
+              "to": "n4"
+            }
+          ]
+        }
+      ],
+      "practice": {
+        "title": "10 分鐘寫一張三視角回看卡",
+        "minutes": 10,
+        "prompt": "編輯設計：選一段願意回看的對話，寫下我觀察到什麼、我有什麼感受；對方可能怎麼看，哪些只是推測；第三者會看到哪些互動、還不知道什麼。最後寫下一個適合情境的下一步。時間可自行調整。",
+        "deliverable": "一張三視角回看卡與一個待嘗試的回應",
+        "checklist": [
+          "事件描述與個人感受有分開。",
+          "對方的可能想法標記為推測。",
+          "第三者視角保留尚未知道的資訊。",
+          "下一步尊重對方是否願意回應。"
+        ]
+      },
+      "pitfalls": [
+        "把想像中的對方感受或意圖當作事實；需要時以開放問題確認。",
+        "把第三者視角當作完全客觀的裁判；旁觀者也可能缺少資訊。",
+        "要求學生公開私人經驗，或以是否分享作為評分依據。",
+        "把這個反思工具當作診斷、治療或保證解決衝突的方法。"
+      ],
+      "supplements": [
+        {
+          "title": "編輯補充：課堂使用界線",
+          "text": "可先用虛構、低風險的師生情境練習；若涉及真實事件，保留學生不分享的選擇，避免公開辨認當事人。此教學安排為編輯延伸。",
+          "sourceIds": []
+        }
+      ],
+      "validation": [
+        {
+          "claim": "三視角回看卡或 NLP 三人稱視角能改善師生關係或有效處理衝突。",
+          "status": "unverified",
+          "explanation": "訪談提供講者觀點，未提供本練習或相關方法的效度、成效研究；不保證使用結果。",
+          "sourceIds": [
+            "original"
+          ],
+          "checkedAt": "2026-10-31"
+        }
+      ],
+      "publishedAt": "2026-10-31T11:10:26+08:00",
+      "overview": {
+        "image": "/assets/overviews/three-perspectives-classroom-desktop.webp",
+        "mobileImage": "/assets/overviews/three-perspectives-classroom-mobile.webp",
+        "cardImage": "/assets/overviews/three-perspectives-classroom-desktop.webp",
+        "alt": "知行與以澄從三個視角回看同一件事。",
+        "caption": "依來源觀點製圖，教學活動為編輯延伸。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      }
     }
   ],
   "demo": {
