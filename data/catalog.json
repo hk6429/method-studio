@@ -124294,6 +124294,200 @@
         "mobileHeight": 1600
       },
       "publishedAt": "2026-10-31T09:30:16+08:00"
+    },
+    {
+      "id": "digital-learning-transfer-evidence",
+      "title": "數位學習不只看登入：用新情境檢查學生能否運用",
+      "summary": "先定義希望學生能做到的事，再用新情境、作品和理由觀察學習，調整下一次教學。",
+      "categoryId": "reading",
+      "topicIds": [
+        "teaching",
+        "learning"
+      ],
+      "audience": "使用數位教材、想了解學生學習狀況的教師",
+      "output": "一張學習目標、新情境及觀察紀錄卡",
+      "minutes": 20,
+      "level": "入門",
+      "status": "ready",
+      "contentType": "video_method",
+      "reviewedAt": "2026-10-31",
+      "coverLabel": "數位教學 · 學習證據",
+      "keywords": [
+        "數位學習",
+        "形成性評量",
+        "學習遷移",
+        "教學回饋"
+      ],
+      "sourceCoverage": "指定 Notion 所收藏影片音訊約 11:27，已取得 YouTube 英文自動字幕與本機 ASR；尚未完整人工聽校。影片約 02:15–03:10 討論平台登入與實際理解的差別，約 04:31–05:40 談知識遷移、嘗試及回饋。本文課堂活動、閱讀題及檢核表為編輯設計；影片對科技影響的廣泛主張未獨立查證，不作結論。",
+      "sources": [
+        {
+          "id": "original",
+          "title": "Why Critical Thinking is Disappearing",
+          "kind": "video",
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=umVX5wK6OZc",
+          "channel": "Justin Sung",
+          "videoId": "umVX5wK6OZc",
+          "note": "英文自動字幕與本機轉錄，尚未完整人工聽校。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "先寫出想看到的學習表現",
+          "action": "明確寫下學生學完後能獨立做到什麼，不只列出使用工具的次數。",
+          "why": "節目討論使用數據與知識運用、遷移的差別；課堂流程為編輯設計。",
+          "example": "編輯示範：學生能根據短文中的線索解釋自己的判斷。",
+          "check": "目標能對應一份可觀察的作品或說明。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 135,
+              "endSeconds": 190
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "設計一個新情境",
+          "action": "提供與練習材料不同、但需要相同概念的問題，請學生嘗試運用。",
+          "why": "節目討論使用數據與知識運用、遷移的差別；課堂流程為編輯設計。",
+          "example": "編輯示範：換一篇短文，請學生找出支持觀點的句子。",
+          "check": "新題與目標相連，且不只要求記住原題答案。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 271,
+              "endSeconds": 340
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "蒐集作品與學生的理由",
+          "action": "看學生的答案或口頭解釋，記下他們如何判斷以及仍不清楚的地方。",
+          "why": "節目討論使用數據與知識運用、遷移的差別；課堂流程為編輯設計。",
+          "example": "編輯示範：請學生圈出一句依據，再說明為何選它。",
+          "check": "至少保留一份作品或一段可檢視的理由。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 271,
+              "endSeconds": 340
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "回饋後調整下一次活動",
+          "action": "比較平台使用資料與實際作品，用觀察到的困難調整後續練習。",
+          "why": "節目討論使用數據與知識運用、遷移的差別；課堂流程為編輯設計。",
+          "example": "編輯示範：如果學生能找句子卻說不出理由，下次安排理由比較。",
+          "check": "記下一項具體調整，而非只用登入數判定理解。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 271,
+              "endSeconds": 340
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "用學習表現調整教學",
+          "note": "課堂流程與題目為編輯設計。",
+          "nodes": [
+            {
+              "id": "n1",
+              "label": "先寫出想看到的學習表現",
+              "detail": "目標能對應一份可觀察的作品或說明。"
+            },
+            {
+              "id": "n2",
+              "label": "設計一個新情境",
+              "detail": "新題與目標相連，且不只要求記住原題答案。"
+            },
+            {
+              "id": "n3",
+              "label": "蒐集作品與學生的理由",
+              "detail": "至少保留一份作品或一段可檢視的理由。"
+            },
+            {
+              "id": "n4",
+              "label": "回饋後調整下一次活動",
+              "detail": "記下一項具體調整，而非只用登入數判定理解。"
+            }
+          ],
+          "edges": [
+            {
+              "from": "n1",
+              "to": "n2"
+            },
+            {
+              "from": "n2",
+              "to": "n3"
+            },
+            {
+              "from": "n3",
+              "to": "n4"
+            }
+          ]
+        }
+      ],
+      "practice": {
+        "title": "編輯練習：一張學習證據卡",
+        "minutes": 20,
+        "prompt": "寫下一個可觀察的目標，設計不同於原題的新情境；蒐集學生答案與理由，再記錄下一次想調整的方式。",
+        "deliverable": "目標、新題、學生理由及後續調整紀錄",
+        "checklist": [
+          "目標具體可觀察",
+          "新情境需要相同概念",
+          "蒐集作品及判斷理由",
+          "依觀察調整後續教學"
+        ]
+      },
+      "pitfalls": [
+        "把高登入次數或長使用時間直接當成理解的證據。",
+        "只看新題答對與否，不了解學生怎麼想。",
+        "以單次表現判斷學生全部能力，忽略任務設計與情境。"
+      ],
+      "supplements": [
+        {
+          "title": "編輯觀點：使用紀錄與作品搭配看",
+          "text": "平台資料可幫助了解參與情形；學生的作品與說明則提供另一種觀察角度。兩者都需要放回課堂脈絡判讀。",
+          "sourceIds": []
+        }
+      ],
+      "validation": [
+        {
+          "claim": "只要換一道新題，就能完整測出學生是否理解",
+          "status": "unverified",
+          "explanation": "影片提供評量觀點，本文課堂流程為編輯設計；單一題目無法涵蓋全部理解或學習情境。",
+          "sourceIds": [
+            "original"
+          ],
+          "checkedAt": "2026-10-31"
+        }
+      ],
+      "overview": {
+        "image": "/assets/overviews/digital-learning-transfer-desktop.webp",
+        "mobileImage": "/assets/overviews/digital-learning-transfer-mobile.webp",
+        "cardImage": "/assets/overviews/digital-learning-transfer-desktop.webp",
+        "alt": "小硯陪教師以新情境觀察學生的理解與理由。",
+        "caption": "課堂活動與檢核方式為編輯設計。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      },
+      "publishedAt": "2026-10-31T09:33:12+08:00"
     }
   ],
   "demo": {
