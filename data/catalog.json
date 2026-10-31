@@ -127005,6 +127005,408 @@
         "mobileHeight": 1600
       },
       "publishedAt": "2026-10-31T11:00:29+08:00"
+    },
+    {
+      "id": "align-ai-learning-with-values",
+      "title": "學 AI 前先問四個問題：讓行動與自己的方向對齊",
+      "summary": "新工具不斷出現，先從目前的行動出發，想一想要練的能力、看重的理由和下一步。四題練習卡是編輯依訪談整理，幫助自己做選擇。",
+      "categoryId": "reading",
+      "topicIds": [
+        "learning",
+        "review",
+        "mindset"
+      ],
+      "audience": "想釐清 AI 學習方向、教師與自我學習者",
+      "output": "一張目前行動、目標能力、個人價值和下一步的對齊卡",
+      "minutes": 10,
+      "level": "入門",
+      "status": "ready",
+      "contentType": "video_method",
+      "reviewedAt": "2026-10-31",
+      "coverLabel": "自我領導 · 學習選擇",
+      "keywords": [
+        "AI 學習",
+        "自我領導",
+        "價值觀",
+        "學習方向",
+        "反思"
+      ],
+      "sourceCoverage": "指定 Notion 資料庫的閱讀人訪談；已閱讀 YouTube 提供並標示為人工製作的繁體中文字幕，涵蓋 03:00–53:58，未逐字聽校音訊或核對投影畫面。14:39–16:16 講者以學 AI 為例談行動、能力及個人方向的一致性；16:36–17:10 討論信念與價值；18:18–19:47 說可從容易回答的問題開始，並思考讀書後的下一步及優先順序。四題、順序、時間、教師例子與紀錄卡為編輯設計，並非影片完整的六層圖或書中 GAME 全貌。影片將 NLP 邏輯層次用作反思架構，未驗證其效度或本練習成效。",
+      "sources": [
+        {
+          "id": "original",
+          "title": "閱讀人專題讀書會《把資歷變資產》直播專訪林逸蓁",
+          "kind": "video",
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=gzxdTARrLbM",
+          "channel": "閱讀人 鄭俊德",
+          "videoId": "gzxdTARrLbM",
+          "note": "閱讀影片繁體中文字幕；尚未逐字聽校，簡報圖中文字未核對。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "寫下目前正在做的事",
+          "action": "選一項最近持續投入的 AI 學習活動，寫下實際做了什麼。",
+          "why": "講者建議從容易感受到的當下行為開始，慢慢往回思考。四問的編排是編輯設計。",
+          "example": "編輯示範：最近每天看三支新工具介紹。",
+          "check": "寫出一件具體、能觀察的行動。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 1108,
+              "endSeconds": 1150
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "寫出想練成的能力",
+          "action": "問自己這項學習想幫助完成什麼任務，寫成「我想能夠……」。",
+          "why": "影片以學 AI 為例談到行為與能力；具體問句與判準是編輯設計。",
+          "example": "編輯示範：我想能夠把課文改寫成適合不同程度學生的練習。",
+          "check": "寫出一項可以描述的任務或能力。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 894,
+              "endSeconds": 916
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "找出自己看重的理由",
+          "action": "問這項任務與自己的價值、角色或目前優先順序有什麼關係；暫時不知道也可以留白。",
+          "why": "講者提醒檢視個人信念與價值，而不是只因別人學什麼就跟進；問句和例子是編輯設計。",
+          "example": "編輯示範：我希望學生得到更適合自己的閱讀支持。",
+          "check": "寫下一個理由，或標記仍需探索的疑問。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 996,
+              "endSeconds": 1028
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "決定一個下一步",
+          "action": "依目前的優先順序，決定繼續、調整或暫停一項行動，寫下本週可以做的事與觀察方式。",
+          "why": "講者建議思考讀書會後能做什麼，以及行動是否符合個人優先順序；決策選項與紀錄方式是編輯設計。",
+          "example": "編輯示範：挑一篇課文試做分層練習並親自核對；其餘工具介紹先收藏。",
+          "check": "寫下行動、預計時間，以及如何判斷它有沒有幫上忙。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 1131,
+              "endSeconds": 1169
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "四問對齊卡",
+          "note": "編輯依訪談設計的反思順序，並非原書六層圖。",
+          "nodes": [
+            {
+              "id": "n1",
+              "label": "現在做什麼",
+              "detail": "一項具體行動"
+            },
+            {
+              "id": "n2",
+              "label": "想練成什麼",
+              "detail": "一項能力或任務"
+            },
+            {
+              "id": "n3",
+              "label": "為何重要",
+              "detail": "價值或優先順序"
+            },
+            {
+              "id": "n4",
+              "label": "下一步",
+              "detail": "決定行動與觀察"
+            }
+          ],
+          "edges": [
+            {
+              "from": "n1",
+              "to": "n2"
+            },
+            {
+              "from": "n2",
+              "to": "n3"
+            },
+            {
+              "from": "n3",
+              "to": "n4"
+            }
+          ]
+        }
+      ],
+      "practice": {
+        "title": "10 分鐘寫一張對齊卡",
+        "minutes": 10,
+        "prompt": "編輯設計：挑一項最近的 AI 學習活動，依序寫下目前行動、想練成的能力、看重的理由與本週下一步；也可以先從最容易回答的題目開始。時間依需要調整。",
+        "deliverable": "一張四問對齊卡，以及一個可觀察的下一步",
+        "checklist": [
+          "寫出一項目前行動。",
+          "寫出一項想練的能力或任務。",
+          "寫出個人理由，或保留尚未想清楚的問題。",
+          "寫下下一步、預計時間及觀察方式。"
+        ]
+      },
+      "pitfalls": [
+        "把一次回答視為不可更改的人生定論；優先順序會隨情況調整。",
+        "以為每項新技能都必須立即產出；探索和休息也可以是有意識的選擇。",
+        "把反思框架當作心理診斷，或把尚未驗證的效果當成保證。"
+      ],
+      "supplements": [
+        {
+          "title": "編輯觀點：把選擇縮小到這一週",
+          "text": "不必一次回答人生使命。先想這週的一項行動是否支持眼前重要的任務，做完再回頭檢視；如果學校或工作有既定要求，也要把可用時間與限制放進考量。這是編輯延伸，不是訪談原定流程。",
+          "sourceIds": []
+        }
+      ],
+      "validation": [
+        {
+          "claim": "四問對齊卡或 NLP 邏輯層次能有效減輕 AI 焦慮、提升學習成果。",
+          "status": "unverified",
+          "explanation": "訪談提出個人反思框架，未提供該框架效度或本文練習的成效研究；本卡可作整理想法的工具，不作診斷或效果保證。",
+          "sourceIds": [
+            "original"
+          ],
+          "checkedAt": "2026-10-31"
+        }
+      ],
+      "overview": {
+        "image": "/assets/overviews/align-ai-learning-with-values-desktop.webp",
+        "mobileImage": "/assets/overviews/align-ai-learning-with-values-mobile.webp",
+        "cardImage": "/assets/overviews/align-ai-learning-with-values-desktop.webp",
+        "alt": "以澄陪你思考 AI 學習與自己的方向。",
+        "caption": "依來源觀點製圖，練習步驟為編輯延伸。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      },
+      "publishedAt": "2026-10-31T11:06:58+08:00"
+    },
+    {
+      "id": "voluntary-early-draft-feedback",
+      "title": "怕被評價時，先讓信任的人看一小段粗稿",
+      "summary": "不必等作品完成才面對他人的意見。先自願拿出一小段未完成的草稿，向可信任的人說明還在修改，再分次取得回饋、決定下一步。",
+      "categoryId": "reading",
+      "topicIds": [
+        "learning",
+        "mindset"
+      ],
+      "audience": "因擔心他人評價而不敢分享學習作品或教案的教師與學習者",
+      "output": "一份粗稿、一則回饋與一次修改或保留的決定",
+      "minutes": 20,
+      "level": "入門",
+      "status": "ready",
+      "contentType": "video_method",
+      "reviewedAt": "2026-10-31",
+      "coverLabel": "學習方法・草稿回饋",
+      "keywords": [
+        "草稿",
+        "回饋",
+        "完美主義",
+        "拖延",
+        "作品修改"
+      ],
+      "sourceCoverage": "指定 Notion 來源已收錄同一影片的另一篇文章，既有文章取材 04:25–06:00，著重留下草稿以便接續；此候選依 12:03–15:47，著重擔心評價時主動展示粗稿並分次取得回饋。已閱讀接近全長的 YouTube 英文自動字幕及 ASR，尚未逐字人工聽校。操作順序、課堂例子、時間與檢查方式為編輯設計；效果未經本方法實測，不保證能減少拖延或焦慮。",
+      "sources": [
+        {
+          "id": "original",
+          "title": "Every Type Of Procrastination Explained In 32 Minutes",
+          "kind": "video",
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=0Jpx6eNfpoo",
+          "channel": "Justin Sung",
+          "videoId": "0Jpx6eNfpoo",
+          "note": "英文自動字幕及 ASR 尚未逐字人工聽校；影片已有另一篇使用不同片段的方法。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "選一件因怕評價而遲遲不敢分享的作品",
+          "action": "選一份仍在製作中的作品，寫下自己擔心別人如何看待它；不必公開這個擔心。",
+          "why": "講者討論對成果或評價的擔心可能造成拖延；選擇情境與寫下擔心是編輯設計。",
+          "example": "編輯示範：一份閱讀課教案寫到一半，擔心同事覺得活動設計太簡單。",
+          "check": "能指出作品和一個擔心；若不想分享，保留選擇權。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 723,
+              "endSeconds": 792
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "自願選一小段，說明這是粗稿",
+          "action": "挑選願意分享的一小段，找一位可信任的人，先說這是尚未完成、仍可修改的版本；對方若不方便，可另約時間。",
+          "why": "講者建議在完成之前做一點、展示，並明確承認這還不是完美版本。自願選擇、可信任對象及尊重對方時間是編輯延伸。",
+          "example": "編輯示範：向同事說：「這只是活動開頭的草稿，還沒寫完，你方便看一眼嗎？」",
+          "check": "分享範圍由作者決定，接收者知道這不是定稿。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 826,
+              "endSeconds": 873
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "邀請具體回饋，先聽再決定",
+          "action": "向對方提出想了解的問題，聽完後記下一則回饋；作者保留採納、調整或不採納的決定。",
+          "why": "講者主張主動請求回饋，而非等作品全部完成才面對評判；問題與決定方式是編輯設計。",
+          "example": "編輯示範：「這段活動說明哪裡讓你不確定學生要做什麼？」",
+          "check": "記下一個對方的觀察，並分清對方的建議與自己的選擇。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 859,
+              "endSeconds": 909
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "修改或保留，再決定是否進行下一輪",
+          "action": "依回饋選擇修改一處，或記下保留原樣的理由；若雙方願意，再約下一次看另一版。",
+          "why": "講者提出較頻繁的草稿、回饋與修訂循環，也舉例約定定期回饋；單次修改一處和保留原樣為編輯設計。",
+          "example": "編輯示範：補上一句學生要先做什麼；下週再問同事是否看懂。",
+          "check": "留下修改內容或保留理由；下一輪須經雙方同意。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 826,
+              "endSeconds": 884
+            },
+            {
+              "sourceId": "original",
+              "startSeconds": 923,
+              "endSeconds": 947
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "一輪自願的粗稿回饋",
+          "note": "流程與用語由編輯依影片整理；分享與下一輪都由參與者決定。",
+          "nodes": [
+            {
+              "id": "n1",
+              "label": "選作品",
+              "detail": "辨認擔心"
+            },
+            {
+              "id": "n2",
+              "label": "分享粗稿",
+              "detail": "自願選對象與範圍"
+            },
+            {
+              "id": "n3",
+              "label": "邀請回饋",
+              "detail": "問一個具體問題"
+            },
+            {
+              "id": "n4",
+              "label": "決定下一步",
+              "detail": "修改或保留"
+            }
+          ],
+          "edges": [
+            {
+              "from": "n1",
+              "to": "n2"
+            },
+            {
+              "from": "n2",
+              "to": "n3"
+            },
+            {
+              "from": "n3",
+              "to": "n4"
+            }
+          ]
+        }
+      ],
+      "practice": {
+        "title": "準備一段願意分享的粗稿",
+        "minutes": 20,
+        "prompt": "編輯設計：選一份作品，花時間整理願意給人看的小段，寫一句粗稿說明與一個回饋問題；若有合適對象且彼此方便，再邀請回饋，否則先保留草稿。收到意見後再決定修改或保留。",
+        "deliverable": "一段粗稿、一句說明與一個回饋問題；收到回饋後另記決定",
+        "checklist": [
+          "自己決定是否分享及分享範圍。",
+          "對方知道這是尚未完成的草稿。",
+          "問題具體，回饋後保留自行決定的權利。"
+        ]
+      },
+      "pitfalls": [
+        "把擔心評價當作所有拖延的原因，或把講者的解釋當成診斷。",
+        "強迫學生公開草稿或私人困境；可使用虛構例子並尊重不分享的選擇。",
+        "把每一則建議都當成必須接受的命令，或以為這個流程保證改善焦慮與表現。"
+      ],
+      "supplements": [
+        {
+          "title": "與同片既有文章的差異",
+          "text": "站內〈寫不下去時，先留一份未完成的草稿〉取材同片 04:25–06:00，著重留下草稿、方便下次接續。本文取材 12:03–15:47，著重自願向他人展示粗稿與分次回饋；兩篇有草稿及拖延的共同脈絡。",
+          "sourceIds": [
+            "original"
+          ]
+        },
+        {
+          "title": "課堂轉用示例",
+          "text": "編輯示範：學生可自願選作文開頭，請信任的同儕指出已讀懂之處與一個想追問的問題；學生再決定如何修改。此安排並非影片原有教案。",
+          "sourceIds": []
+        }
+      ],
+      "validation": [
+        {
+          "claim": "分次分享草稿一定能減少拖延或焦慮、提升作品表現。",
+          "status": "unverified",
+          "explanation": "影片呈現講者的解釋與建議；字幕尚未逐字聽校，編輯設計的練習未經成效測試，不保證有效。",
+          "sourceIds": [
+            "original"
+          ],
+          "checkedAt": "2026-10-31"
+        }
+      ],
+      "overview": {
+        "image": "/assets/overviews/voluntary-early-draft-feedback-desktop.webp",
+        "mobileImage": "/assets/overviews/voluntary-early-draft-feedback-mobile.webp",
+        "cardImage": "/assets/overviews/voluntary-early-draft-feedback-desktop.webp",
+        "alt": "知行與以澄一起討論自願分享的粗稿。",
+        "caption": "依來源觀點製圖，練習步驟為編輯延伸。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      },
+      "publishedAt": "2026-10-31T11:06:59+08:00"
     }
   ],
   "demo": {
