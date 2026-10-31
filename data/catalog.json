@@ -126421,6 +126421,195 @@
         "mobileHeight": 1600
       },
       "publishedAt": "2026-10-31T10:49:48+08:00"
+    },
+    {
+      "id": "tiny-experiment-curiosity-ambition-check",
+      "title": "不確定時先看兩個方向：企圖心與好奇心狀態卡",
+      "summary": "面對不確定的學習任務時，瓦基轉述《微實驗》的兩軸框架：企圖心與好奇心的組合，能幫助我們觀察眼前狀態。本文把框架延伸為一張自我觀察卡，保留實際限制，再選擇是否嘗試下一小步。",
+      "categoryId": "reading",
+      "topicIds": [
+        "mindset",
+        "learning"
+      ],
+      "level": "入門",
+      "minutes": 10,
+      "output": "一張包含情境、兩軸觀察、限制與下一步的狀態卡",
+      "audience": "面對不確定的學習任務，希望整理當下狀態的教師與自主學習者",
+      "status": "ready",
+      "contentType": "article_method",
+      "reviewedAt": "2026-10-31",
+      "coverLabel": "自我觀察・編輯練習",
+      "sourceCoverage": "已閱讀瓦基公開讀後心得的四象限段落，並核對同集 06:53–09:30 的機器語音辨識稿；時間依機器辨識，尚未人工聽校，非官方逐字稿。文章與節目均是同一人轉述，未核對原書或框架的科學效度。操作步驟、提問、練習時間與示例為編輯延伸，不是來源提供的標準流程。 節目頁：https://open.firstory.me/story/cmtqh1h1m0zpl01wlfjwwcqcx；約 07:09–08:34 說明四格、08:43–09:30 說明非人格標籤，時間待聽校。",
+      "sources": [
+        {
+          "id": "article",
+          "title": "《微實驗》讀後心得：把人生當實驗，失敗也會變成收穫",
+          "url": "https://readingoutpost.com/tiny-experiments/",
+          "kind": "article",
+          "channel": "瓦基／閱讀前哨站"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "選一個具體情境",
+          "action": "寫下最近面對不確定時的一個學習情境，以及自己實際做過什麼。",
+          "why": "先限定情境，避免把狀態當成整個人的個性。",
+          "example": "編輯示範：想嘗試一種閱讀教學，已看過幾篇分享，但還沒有試做。",
+          "check": "有一個情境及可描述的行動或尚未行動。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "article",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "分別觀察企圖心與好奇心",
+          "action": "問自己：目前有多願意推動這件事？有多願意探索不同可能？兩項可暫記高、低或不確定。",
+          "why": "來源以企圖心為橫軸、好奇心為縱軸。",
+          "example": "編輯示範：想法很多、仍想探索，但目前推動它的意願較低。",
+          "check": "兩項分開記錄；願意推動不等於已經行動。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "article",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "對照四格，保留不確定",
+          "action": "比較來源的四種狀態：低企圖低好奇為犬儒；低企圖高好奇為逃避；高企圖低好奇為完美；兩者高為實驗心態。無法判斷也可以留白。",
+          "why": "來源強調這些是不同情境可能出現的狀態，並非固定人格。",
+          "example": "編輯示範：此刻可能接近低企圖、高好奇；但也可能只是時間不足，還要再觀察。",
+          "check": "只描述此時此事，不替自己或他人貼標籤。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "article",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "考量限制，決定下一小步",
+          "action": "寫下目前時間、資源或休息需求，選擇一個負擔得起的行動及回看時間；也可暫停。",
+          "why": "來源邀請讀者察覺狀態並思考如何切換；具體做法由編輯設計。",
+          "example": "編輯示範：明天花十分鐘試寫一張提問卡，記下一處發現；若時間不允許，先安排休息並另訂回看日。",
+          "check": "下一步與回看時間具體，且沒有忽略現有限制。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "article",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "schedule",
+          "title": "編輯設計：狀態觀察卡",
+          "note": "以下提問與練習順序為編輯延伸，不是原書或節目的標準測驗。",
+          "columns": [
+            "要記下的內容",
+            "自我檢查"
+          ],
+          "rows": [
+            {
+              "label": "情境",
+              "cells": [
+                "哪件事有不確定？我做了什麼？",
+                "限於當下事件"
+              ]
+            },
+            {
+              "label": "兩軸",
+              "cells": [
+                "推動意願與探索意願如何？",
+                "可寫高、低或不確定"
+              ]
+            },
+            {
+              "label": "限制與下一步",
+              "cells": [
+                "資源、休息需求、行動及回看時間",
+                "可暫停，不作人格評價"
+              ]
+            }
+          ]
+        }
+      ],
+      "practice": {
+        "title": "填一張狀態卡",
+        "minutes": 10,
+        "prompt": "編輯設計：目前情境＿＿；已做的事＿＿；推動意願＿＿；探索意願＿＿；可能的狀態或不確定＿＿；現有限制＿＿；下一步或暫停＿＿；回看時間＿＿。",
+        "deliverable": "一張包含情境、兩軸觀察、限制與下一步的狀態卡",
+        "checklist": [
+          "只針對一個具體情境",
+          "允許不確定，也不將狀態視為人格",
+          "下一步符合現有限制並有回看時間"
+        ]
+      },
+      "pitfalls": [
+        "將四格當成經過驗證的人格測驗或替學生貼標籤。",
+        "把推動意願直接當作實際行動，或忽略時間、資源與休息需求。",
+        "把編輯設計的練習當成原書標準流程或保證成效。"
+      ],
+      "supplements": [
+        {
+          "title": "與站內既有方法的差異",
+          "text": "本文聚焦不確定情境中企圖心與好奇心的狀態觀察；〈把「我不行」換成待檢驗的問題〉聚焦嘗試後的預期、觀察與第二種解讀。兩者互補，均非心理診斷。",
+          "sourceIds": [
+            "article"
+          ]
+        },
+        {
+          "title": "課堂轉用",
+          "text": "使用虛構或學生自願選擇的低風險情境，不要求公開私人困境，也不替學生判定象限。",
+          "sourceIds": []
+        }
+      ],
+      "validation": [
+        {
+          "claim": "兩軸狀態卡是否能改善學習或自我領導",
+          "status": "unverified",
+          "explanation": "來源為讀後心得及同作者節目，本文未核對原書與效度研究，也未測試編輯設計的練習。",
+          "sourceIds": [
+            "article"
+          ],
+          "checkedAt": "2026-10-31"
+        }
+      ],
+      "keywords": [
+        "微實驗",
+        "企圖心",
+        "好奇心",
+        "不確定",
+        "自我觀察"
+      ],
+      "publishedAt": "2026-10-31T10:56:56+08:00",
+      "overview": {
+        "image": "/assets/overviews/tiny-experiment-curiosity-ambition-desktop.webp",
+        "mobileImage": "/assets/overviews/tiny-experiment-curiosity-ambition-mobile.webp",
+        "cardImage": "/assets/overviews/tiny-experiment-curiosity-ambition-desktop.webp",
+        "alt": "阿問與墨丸陪你用好奇心與企圖心觀察不確定的學習情境。",
+        "caption": "依來源概念製圖；四步練習是編輯延伸，不是人格測驗。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      }
     }
   ],
   "demo": {
