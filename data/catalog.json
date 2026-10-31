@@ -127987,6 +127987,204 @@
         "mobileWidth": 1000,
         "mobileHeight": 1600
       }
+    },
+    {
+      "id": "teacher-question-sequence-ai-implementation",
+      "title": "先設計題目順序，再請 AI 實作教材",
+      "summary": "Brilliant 共同創辦人 Sue Khim 分享，教學設計者先規劃概念的教學主線、題目和順序，再讓 AI 實作；本文延伸成教師可使用的草圖、交付和核對練習。",
+      "categoryId": "ai",
+      "topicIds": [
+        "workflow"
+      ],
+      "audience": "想以 AI 協助製作教材的教師",
+      "output": "一份題序草圖與教材核對紀錄",
+      "minutes": 25,
+      "level": "入門",
+      "status": "ready",
+      "contentType": "video_method",
+      "reviewedAt": "2026-10-31",
+      "coverLabel": "AI 備課 · 題序設計",
+      "keywords": [
+        "教材設計",
+        "題目順序",
+        "AI 備課",
+        "人工審查"
+      ],
+      "sourceCoverage": "已讀節目創作者公布的英文逐字稿，並對照第三方附時間逐字稿的 17:12–21:41 與 22:33–25:22。未逐秒聽校或核對畫面，逐字稿可能有語音辨識錯誤；講者對自家產品的描述與能力判斷屬其觀點，不代表獨立驗證。國文例子、記錄表、時長和逐題核對流程為編輯延伸。現有文章 ai-tutor-protect-thinking-assessment 使用同一集，聚焦診斷學生卡點與提示；本篇聚焦教材設計與實作分工。",
+      "sources": [
+        {
+          "id": "original",
+          "title": "AI Makes Cheating Easy. Here’s How It Can Make Kids Smarter Instead | Sue Khim",
+          "kind": "video",
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=NsVayi42I0I",
+          "channel": "Behind the Craft",
+          "videoId": "NsVayi42I0I",
+          "note": "指定 Notion 紀錄：https://app.notion.com/p/3d32d00e283a8128b7b1d8bc483bb231；逐字稿：https://github.com/petergyang/behind-the-craft-transcripts/blob/main/transcripts/2026/167-ai-makes-cheating-easy-heres-how-it-can-make-kids-smarter-instead-sue-khim.md；附時間逐字稿：https://pod.wave.co/podcast/behind-the-craft/ai-makes-cheating-easy-heres-how-it-can-make-kids-smarter-instead-sue-khim"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "先寫出學習目標與教學主線",
+          "action": "選定一個概念，寫下學生學完要能做什麼，並用幾句話規劃理解的順序。",
+          "why": "講者說明教學主線由人設計；目標紀錄方式是編輯延伸。",
+          "example": "編輯示範：學生能從兩句描寫推論人物情緒，並指出文字依據。",
+          "check": "目標可以用學生的具體表現檢查。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 1032,
+              "endSeconds": 1159
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "自己排出每題與順序",
+          "action": "列出每一題想讓學生思考的內容，安排先後，註明每題和前一題的關係。",
+          "why": "訪談說明由人設計每題及順序，再交由 AI 實作。",
+          "example": "編輯示範：先圈出描寫，再比較兩種情緒推論，最後寫證據與理由。",
+          "check": "每題有明確用途，後題不依賴尚未介紹的概念。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 1032,
+              "endSeconds": 1164
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "交給 AI 製作初稿",
+          "action": "提供題序草圖、學生年級、素材與格式限制，請 AI 依指定順序實作；確認使用的素材有適當授權。",
+          "why": "講者展示依教學設計實作，並介紹以既有元件組裝互動；具體提示內容為編輯延伸。",
+          "example": "編輯示範：請 AI 依三題順序產生可列印學習單，不更動教師指定的原文。",
+          "check": "初稿保留題序，素材和要求均可追溯。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 1032,
+              "endSeconds": 1164
+            },
+            {
+              "sourceId": "original",
+              "startSeconds": 1353,
+              "endSeconds": 1507
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "逐題核對並修正",
+          "action": "教師逐題檢查文本、答案、難度和銜接；若為互動教材，也親自操作每個按鈕，再修正初稿。",
+          "why": "訪談提到人工規劃和驗證；核對項目及順序是編輯延伸。",
+          "example": "編輯示範：發現情緒推論的兩個選項都可成立，就補上允許多解的理由提示。",
+          "check": "記錄至少一項檢查結果與修改，無法核實之處先不交給學生使用。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 1262,
+              "endSeconds": 1301
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "先設計，再製作與核對",
+          "note": "具體核對流程為編輯延伸。",
+          "nodes": [
+            {
+              "id": "n1",
+              "label": "訂目標",
+              "detail": "確定學習表現"
+            },
+            {
+              "id": "n2",
+              "label": "排題序",
+              "detail": "寫出每題用途"
+            },
+            {
+              "id": "n3",
+              "label": "AI 實作",
+              "detail": "依草圖生成初稿"
+            },
+            {
+              "id": "n4",
+              "label": "教師核對",
+              "detail": "檢查內容與操作"
+            }
+          ],
+          "edges": [
+            {
+              "from": "n1",
+              "to": "n2"
+            },
+            {
+              "from": "n2",
+              "to": "n3"
+            },
+            {
+              "from": "n3",
+              "to": "n4"
+            }
+          ]
+        }
+      ],
+      "practice": {
+        "title": "編輯練習：製作三題教材",
+        "minutes": 25,
+        "prompt": "選一個課堂概念，寫下可觀察的目標與三題的順序；請 AI 按草圖製作初稿，再逐題核對並記錄修改。",
+        "deliverable": "一份題序草圖與教材核對紀錄",
+        "checklist": [
+          "每題有清楚的教學用途。",
+          "AI 初稿保留教師指定順序。",
+          "逐題核對正確性與前後銜接。",
+          "互動教材實際操作，並留下修改紀錄。"
+        ]
+      },
+      "pitfalls": [
+        "把 AI 初稿直接交給學生，沒有核對文本、答案與難度。",
+        "只寫活動名稱，沒有交代每題要學生思考什麼。",
+        "把講者對自家產品與模型能力的觀點視為一般成效證據。"
+      ],
+      "supplements": [
+        {
+          "title": "編輯提醒：從小範圍開始",
+          "text": "先選一個概念和少量題目，檢查學生需要的先備知識；如要使用學生作品或資料，應先依學校規範處理。",
+          "sourceIds": []
+        }
+      ],
+      "validation": [
+        {
+          "claim": "教師設計題序後交由 AI 實作，一定能提高學習成效。",
+          "status": "unverified",
+          "explanation": "訪談呈現業者工作方式與觀點，沒有提供此編輯練習的對照研究或課堂成效。",
+          "sourceIds": [
+            "original"
+          ],
+          "checkedAt": "2026-10-31"
+        }
+      ],
+      "publishedAt": "2026-10-31T11:32:54+08:00",
+      "overview": {
+        "image": "/assets/overviews/teacher-question-sequence-ai-desktop.webp",
+        "mobileImage": "/assets/overviews/teacher-question-sequence-ai-mobile.webp",
+        "cardImage": "/assets/overviews/teacher-question-sequence-ai-desktop.webp",
+        "alt": "以澄和知行先設計題序，再使用 AI 協助製作教材。",
+        "caption": "依來源觀點製圖，教師核對流程為編輯延伸。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      }
     }
   ],
   "demo": {
