@@ -125067,6 +125067,200 @@
         "mobileHeight": 1600
       },
       "publishedAt": "2026-10-31T09:49:16+08:00"
+    },
+    {
+      "id": "quarter-project-up-down-task-breakdown",
+      "title": "季度目標怎麼開始？向前向後補齊專案任務",
+      "summary": "先寫清專案成果，再安排期限，向前向後找缺的任務，最後拆出可開始的一步。",
+      "categoryId": "reading",
+      "topicIds": [
+        "learning",
+        "review"
+      ],
+      "audience": "想把學習目標轉成可執行專案的教師與學習者",
+      "output": "一張季度專案卡與下一步行動",
+      "minutes": 25,
+      "level": "入門",
+      "status": "ready",
+      "contentType": "video_method",
+      "reviewedAt": "2026-10-31",
+      "coverLabel": "自我領導 · 專案拆解",
+      "keywords": [
+        "季度目標",
+        "專案拆解",
+        "學習計畫",
+        "下一步"
+      ],
+      "sourceCoverage": "指定 Notion 影片已下載 MP3，並以本機 MLX Whisper large-v3-turbo 產生時間碼字幕；尚未逐字人工聽校，時間及字詞可能有誤。影片約 03:40–05:21 說明年目標與季專案，07:30–09:49 說明專案欄位，13:34–15:13 以向前向後思考補任務。本文欄位範例與檢核為編輯整理；不把影片提到的時間長度當作注意力的普遍上限。",
+      "sources": [
+        {
+          "id": "original",
+          "title": "季專案：用 Obsidian 管理專案實現個人年目標",
+          "kind": "video",
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=0a0wMUNO4PY",
+          "channel": "跟朱騏一起打造知識型一人公司",
+          "videoId": "0a0wMUNO4PY",
+          "note": "本機自動字幕，尚未逐字人工聽校。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "寫下這季要完成的成果",
+          "action": "從年度方向挑一件多步驟的事，寫下為何做、想得到什麼成果，以及它對自己的價值。",
+          "why": "依影片的季度專案、任務拆解與前後追問整理；例子與檢核為編輯設計。",
+          "example": "編輯示範：把「提升英文」轉成「建立每週英文閱讀練習」。",
+          "check": "成果具體到能辨識是否完成。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 230,
+              "endSeconds": 321
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "安排專案與期限",
+          "action": "列出專案的開始、預計結束日期，並保留實際完成日期欄位，檢查這季負荷。",
+          "why": "依影片的季度專案、任務拆解與前後追問整理；例子與檢核為編輯設計。",
+          "example": "編輯示範：在季度總覽中保留一個閱讀專案及預計完成時間。",
+          "check": "日期與成果寫在同一份紀錄中。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 450,
+              "endSeconds": 589
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "向前、向後補齊任務",
+          "action": "對每個任務問：開始前還缺什麼？完成後離成果還缺什麼？把缺少的步驟補上。",
+          "why": "依影片的季度專案、任務拆解與前後追問整理；例子與檢核為編輯設計。",
+          "example": "編輯示範：開始閱讀前先選材料；讀完後建立簡單追蹤紀錄。",
+          "check": "任務之間有可理解的先後關係。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 814,
+              "endSeconds": 913
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "拆出可以開始的下一步",
+          "action": "把太大的任務拆成可在短時間動手的行動，時間可依個人狀況調整。",
+          "why": "依影片的季度專案、任務拆解與前後追問整理；例子與檢核為編輯設計。",
+          "example": "編輯示範：今晚打開教材，挑選一篇適合程度的短文。",
+          "check": "下一步包含具體動作與所需材料。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 590,
+              "endSeconds": 803
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "從成果到可開始的行動",
+          "note": "步驟與範例為編輯整理。",
+          "nodes": [
+            {
+              "id": "n1",
+              "label": "寫下這季要完成的成果",
+              "detail": "成果具體到能辨識是否完成。"
+            },
+            {
+              "id": "n2",
+              "label": "安排專案與期限",
+              "detail": "日期與成果寫在同一份紀錄中。"
+            },
+            {
+              "id": "n3",
+              "label": "向前、向後補齊任務",
+              "detail": "任務之間有可理解的先後關係。"
+            },
+            {
+              "id": "n4",
+              "label": "拆出可以開始的下一步",
+              "detail": "下一步包含具體動作與所需材料。"
+            }
+          ],
+          "edges": [
+            {
+              "from": "n1",
+              "to": "n2"
+            },
+            {
+              "from": "n2",
+              "to": "n3"
+            },
+            {
+              "from": "n3",
+              "to": "n4"
+            }
+          ]
+        }
+      ],
+      "practice": {
+        "title": "編輯練習：建立一張季度專案卡",
+        "minutes": 25,
+        "prompt": "選一個多步驟的學習目標，寫下原因、成果、期限；對一項任務向前後補步驟，再挑一個今天可開始的行動。",
+        "deliverable": "一張專案卡、任務清單及下一步",
+        "checklist": [
+          "寫下原因與具體成果",
+          "記錄開始及預計結束時間",
+          "補齊前後步驟",
+          "下一步可以立即開始"
+        ]
+      },
+      "pitfalls": [
+        "只寫抽象願望，沒有具體成果或下一步。",
+        "把所有年度目標塞進同一季，忽略可用時間。",
+        "把影片示範的時間長度當成每個人都適用的限制。"
+      ],
+      "supplements": [
+        {
+          "title": "編輯示範：專案卡模板",
+          "text": "專案：＿＿；為什麼：＿＿；成果：＿＿；預計期限：＿＿；先準備：＿＿；完成後還需：＿＿；下一步：＿＿。",
+          "sourceIds": []
+        }
+      ],
+      "validation": [
+        {
+          "claim": "照固定分鐘數拆任務一定能消除拖延",
+          "status": "unverified",
+          "explanation": "這是來源分享的個人規劃方法；時間可依個人狀況調整，不保證效果。",
+          "sourceIds": [
+            "original"
+          ],
+          "checkedAt": "2026-10-31"
+        }
+      ],
+      "overview": {
+        "image": "/assets/overviews/quarter-project-task-breakdown-desktop.webp",
+        "mobileImage": "/assets/overviews/quarter-project-task-breakdown-mobile.webp",
+        "cardImage": "/assets/overviews/quarter-project-task-breakdown-desktop.webp",
+        "alt": "以澄陪讀者把季度目標拆成具體任務。",
+        "caption": "步驟與例子為編輯整理。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      },
+      "publishedAt": "2026-10-31T09:52:23+08:00"
     }
   ],
   "demo": {
