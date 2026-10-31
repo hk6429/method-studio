@@ -126033,6 +126033,200 @@
         "mobileHeight": 1600
       },
       "publishedAt": "2026-10-31T10:31:40+08:00"
+    },
+    {
+      "id": "visible-goal-character-study-handout",
+      "title": "從學習目標到自學講義：讓學生自己觀察生字",
+      "summary": "先讓學生看見這堂課的目標，再用圈詞、觀察字形與讀音，以及同儕比較設計學習任務。",
+      "categoryId": "reading",
+      "topicIds": [
+        "teaching",
+        "learning"
+      ],
+      "audience": "準備國語文自學講義的教師",
+      "output": "一張包含學習目標與生字任務的講義",
+      "minutes": 25,
+      "level": "入門",
+      "status": "ready",
+      "contentType": "video_method",
+      "reviewedAt": "2026-10-31",
+      "coverLabel": "國文教學 · 自學講義",
+      "keywords": [
+        "自學講義",
+        "學習目標",
+        "生字教學",
+        "同儕討論"
+      ],
+      "sourceCoverage": "指定 Notion 所收藏影片已取得完整 MP3；本機 Whisper small 僅轉錄與審讀約 30:00–40:00 片段，未檢視講義畫面或逐字人工聽校。影片片段約 31:09–31:54 提到講義目標、圈詞及觀察生字；約 34:41–35:16 說明課堂分享。本文講義欄位、同儕核對與例子為編輯設計。",
+      "sources": [
+        {
+          "id": "original",
+          "title": "學思達增能講座：藝術、自然學科社群",
+          "kind": "video",
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=eCNhP4VP4Rc",
+          "channel": "學思達教育基金會",
+          "videoId": "eCNhP4VP4Rc",
+          "note": "僅轉錄影片部分片段；尚未逐字聽校或核對講義畫面。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "寫出學生看得懂的目標",
+          "action": "將這堂課希望學生完成的事寫成一句具體目標，放在講義前面。",
+          "why": "依影片講義目標與生字活動整理；具體講義框、同儕核對與例子為編輯設計。",
+          "example": "編輯示範：我能在課文中找到本課生字組成的詞。",
+          "check": "學生能說出這堂課要做什麼。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 1855,
+              "endSeconds": 1914
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "提供短文並圈出詞語",
+          "action": "讓學生閱讀課文，圈出與指定生字相關的詞，再確認圈選依據。",
+          "why": "依影片講義目標與生字活動整理；具體講義框、同儕核對與例子為編輯設計。",
+          "example": "編輯示範：在短文中找出包含本課生字的詞。",
+          "check": "每個圈出的詞都能指出包含哪個生字。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 1855,
+              "endSeconds": 1914
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "從字形、讀音與詞義觀察",
+          "action": "選一個生字，觀察字形結構、讀音、部首，並查找相關詞語或同音字。",
+          "why": "依影片講義目標與生字活動整理；具體講義框、同儕核對與例子為編輯設計。",
+          "example": "編輯示範：查字典記下讀音與部首，再寫一個由這個字組成的詞。",
+          "check": "能說出至少一項觀察，並回字典或課本核對。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 1855,
+              "endSeconds": 1914
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "分享比較，再修正",
+          "action": "讓同學比較所找的詞和字形觀察，有不同答案時回課本或字典查核。",
+          "why": "依影片講義目標與生字活動整理；具體講義框、同儕核對與例子為編輯設計。",
+          "example": "編輯示範：兩人比較找到的詞，說明自己如何確認。",
+          "check": "留下一個補充、修正或待確認問題。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 2081,
+              "endSeconds": 2116
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "把目標拆成學生的任務",
+          "note": "講義欄位與同儕核對為編輯設計。",
+          "nodes": [
+            {
+              "id": "n1",
+              "label": "寫出學生看得懂的目標",
+              "detail": "學生能說出這堂課要做什麼。"
+            },
+            {
+              "id": "n2",
+              "label": "提供短文並圈出詞語",
+              "detail": "每個圈出的詞都能指出包含哪個生字。"
+            },
+            {
+              "id": "n3",
+              "label": "從字形、讀音與詞義觀察",
+              "detail": "能說出至少一項觀察，並回字典或課本核對。"
+            },
+            {
+              "id": "n4",
+              "label": "分享比較，再修正",
+              "detail": "留下一個補充、修正或待確認問題。"
+            }
+          ],
+          "edges": [
+            {
+              "from": "n1",
+              "to": "n2"
+            },
+            {
+              "from": "n2",
+              "to": "n3"
+            },
+            {
+              "from": "n3",
+              "to": "n4"
+            }
+          ]
+        }
+      ],
+      "practice": {
+        "title": "編輯練習：試寫一張生字講義",
+        "minutes": 25,
+        "prompt": "選一段課文與一個生字，寫出本課目標、圈詞任務與字形讀音觀察欄位，再安排學生比較與核對。",
+        "deliverable": "一張學習目標與生字觀察講義",
+        "checklist": [
+          "目標讓學生看得懂",
+          "圈詞任務有明確範圍",
+          "有字形讀音觀察空間",
+          "安排查核或比較"
+        ]
+      },
+      "pitfalls": [
+        "只列教師要教的內容，學生看不出自己要做什麼。",
+        "把觀察字形變成抄寫答案，沒有說明查核方法。",
+        "講義難度與題量固定不變，沒有依學生狀況調整。"
+      ],
+      "supplements": [
+        {
+          "title": "編輯示範：講義欄位",
+          "text": "今日目標：＿＿；我圈出的詞：＿＿；選一個字：＿＿；讀音與部首：＿＿；比較後補充：＿＿。",
+          "sourceIds": []
+        }
+      ],
+      "validation": [
+        {
+          "claim": "一張自學講義必然能提升所有學生的學習成效",
+          "status": "unverified",
+          "explanation": "影片展示教學講義與課堂經驗，本文講義框為編輯設計；未提供足以確認普遍成效的研究。",
+          "sourceIds": [
+            "original"
+          ],
+          "checkedAt": "2026-10-31"
+        }
+      ],
+      "overview": {
+        "image": "/assets/overviews/visible-goal-character-handout-desktop.webp",
+        "mobileImage": "/assets/overviews/visible-goal-character-handout-mobile.webp",
+        "cardImage": "/assets/overviews/visible-goal-character-handout-desktop.webp",
+        "alt": "以澄陪教師把生字學習目標拆成講義任務。",
+        "caption": "講義框及同儕核對為編輯設計。",
+        "kind": "infographic",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600
+      },
+      "publishedAt": "2026-10-31T10:41:10+08:00"
     }
   ],
   "demo": {
