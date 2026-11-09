@@ -178957,6 +178957,6170 @@
         "alt": "預期搶答：用 AI 語音製造三秒壓力，再用對照答案記住母語說法：依本文核心關係整理的雙版資訊圖。",
         "caption": "依來源方法製作的編輯整理；例子與操作安排為編輯設計，不代表成效保證。"
       }
+    },
+    {
+      "id": "english-input-topic-island-levels",
+      "title": "英文資訊流整理：一個主題島、三層難度，再刻意破推薦慣性",
+      "summary": "影片從一個語言學習短影音產品的思路，提出安排英文輸入的三件事：先固定一個感興趣的主題、把材料分成三種難度、再主動加入推薦系統不會給你的內容。本文整理成每週檢查一次的輸入規劃表。",
+      "categoryId": "english",
+      "topicIds": [
+        "reading",
+        "habits"
+      ],
+      "level": "入門",
+      "minutes": 10,
+      "output": "一張本週英文輸入規劃表（主題島／三層材料／一個破慣性選擇）",
+      "audience": "習慣刷英文影片，但內容零碎、看得順卻覺得沒進步的學習者",
+      "contentType": "video_method",
+      "reviewedAt": "2026-11-09",
+      "keywords": [
+        "語言島",
+        "主題固定",
+        "三層難度",
+        "推薦系統慣性",
+        "英文影片",
+        "資訊流"
+      ],
+      "sourceCoverage": "中文本機 ASR 全文 00:00–17:40，片長 1069 秒；前半為受訪者學日語與創業故事，未採用為步驟；只取 15:05–17:29 的輸入規劃建議。ASR 對產品名稱有誤聽（如 Dumersion），僅依上下文引述，不確認其拼寫；影片稱的使用時數與產品效果未獨立查證。 本文步驟安排、示範與練習時長為編輯整理或補充，效果未驗證。",
+      "coverLabel": "編輯整理",
+      "sources": [
+        {
+          "id": "source",
+          "kind": "video",
+          "provider": "youtube",
+          "videoId": "VKwwWC-pUwI",
+          "url": "https://www.youtube.com/watch?v=VKwwWC-pUwI",
+          "title": "自學日語4000小時做出AI神器，把語言學習做成TikTok：偷時間的演算法也能教你英文",
+          "channel": "brain 學霸",
+          "note": "由 Notion 每日新知紀錄的 YouTube 連結核對；來源原述與編輯設計分開呈現。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "先看最近的英文資訊流是否零碎",
+          "action": "打開最近看過的英文影片紀錄，列出主題與難度，看看今天旅遊、明天日常對話，彼此是否沒有關聯。",
+          "why": "影片指出材料各自不錯，但彼此無關時，每次都要重新熟悉背景。",
+          "example": "編輯示範：本週看了旅遊 vlog、新聞、美劇片段，各一支，沒有重複出現的詞彙。",
+          "check": "列出最近五支影片的主題，標出是否重複。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 905,
+              "endSeconds": 919
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "選一個主題島，連續一陣子圍繞它",
+          "action": "挑一個真正感興趣的主題，接下來一段時間只在這個主題裡找新聞、產品介紹、評論與訪談。",
+          "why": "影片稱同一主題反覆出現，會越來越熟悉背景和常見表達，也不用每天重找方向。",
+          "example": "影片舉例：選 AI，圍繞 AI 新聞、產品介紹、創作者評論與訪談。",
+          "check": "寫下主題與本週要看的三類材料名稱。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 919,
+              "endSeconds": 943
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "把材料分成三層難度",
+          "action": "第一層放基本看得懂的，第二層放稍有挑戰、語速較自然的，第三層放訪談、播客等更真實的交流；不必每天都看完三層，但不要永遠停在第一層。",
+          "why": "影片提醒不要只看最容易理解的內容，要有意識地安排難度往上。",
+          "example": "編輯示範：第一層看 AI 工具介紹，第二層看創作者評論，第三層試聽 20 分鐘訪談。",
+          "check": "三層各有一支具體材料，並標出本週先看哪一層。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 943,
+              "endSeconds": 979
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "刻意加入一個推薦不會給的內容",
+          "action": "每週至少主動挑一個「推薦系統不會常給」的選擇：換一個頻道、加一支生活類影片，或找沒有腳本的自然對話。",
+          "why": "影片說推薦平台會根據過去選擇推送更相近內容，首頁會越來越相似。",
+          "example": "影片舉例：總看科技就加相關生活影片；總看有字幕的教學，就找無腳本對話。",
+          "check": "寫下本週刻意加入的一支新頻道或新類型。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 979,
+              "endSeconds": 1017
+            }
+          ]
+        },
+        {
+          "id": "step-5",
+          "title": "每週用三個問題回頭檢查",
+          "action": "週末問自己：我最近是否一直重複同一件事？有沒有接觸新主題？有沒有刻意挑戰平常不點開的內容？再決定下週調整。",
+          "why": "影片以這三個自問收尾；固定每週檢查一次的頻率為編輯安排。",
+          "example": "編輯示範：發現本週三層都只看同一位創作者，下週第二層換成另一位。",
+          "check": "寫下一個下週要換掉的來源。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 1025,
+              "endSeconds": 1049
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "操作順序",
+          "note": "編輯整理：依本文練習安排呈現；不是效果證據。",
+          "nodes": [
+            {
+              "id": "step-1",
+              "label": "先看最近的英文資訊流是否零碎",
+              "detail": "列出最近五支影片的主題，標出是否重複。"
+            },
+            {
+              "id": "step-2",
+              "label": "選一個主題島，連續一陣子圍繞它",
+              "detail": "寫下主題與本週要看的三類材料名稱。"
+            },
+            {
+              "id": "step-3",
+              "label": "把材料分成三層難度",
+              "detail": "三層各有一支具體材料，並標出本週先看哪一層。"
+            },
+            {
+              "id": "step-4",
+              "label": "刻意加入一個推薦不會給的內容",
+              "detail": "寫下本週刻意加入的一支新頻道或新類型。"
+            },
+            {
+              "id": "step-5",
+              "label": "每週用三個問題回頭檢查",
+              "detail": "寫下一個下週要換掉的來源。"
+            }
+          ],
+          "edges": [
+            {
+              "from": "step-1",
+              "to": "step-2"
+            },
+            {
+              "from": "step-2",
+              "to": "step-3"
+            },
+            {
+              "from": "step-3",
+              "to": "step-4"
+            },
+            {
+              "from": "step-4",
+              "to": "step-5"
+            }
+          ]
+        },
+        {
+          "type": "schedule",
+          "title": "每週 10 分鐘輸入規劃",
+          "note": "編輯自訂的起步示例。時間分配可調整，並非來源指定課表或研究結論。",
+          "columns": [
+            "做什麼",
+            "留下什麼"
+          ],
+          "rows": [
+            {
+              "label": "0–3 分鐘",
+              "cells": [
+                "回看本週影片，找出重複與零碎",
+                "五支影片主題清單"
+              ]
+            },
+            {
+              "label": "3–6 分鐘",
+              "cells": [
+                "確認主題島，補三層材料",
+                "主題與三層各一支"
+              ]
+            },
+            {
+              "label": "6–8 分鐘",
+              "cells": [
+                "選一個推薦不會給的內容",
+                "一個新頻道或新類型"
+              ]
+            },
+            {
+              "label": "8–10 分鐘",
+              "cells": [
+                "三個自問，決定下週調整",
+                "一句下週調整"
+              ]
+            },
+            {
+              "label": "下週",
+              "cells": [
+                "照規劃看，週末再檢查",
+                "是否離開舒適圈？"
+              ]
+            }
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "來源所述做法可依本文步驟重現",
+          "status": "partial",
+          "explanation": "本文步驟取自來源可辨識的段落並加上編輯整理；是否適合你的情境仍需自己試做與調整，來源未提供對照研究。",
+          "sourceIds": [
+            "source"
+          ],
+          "checkedAt": "2026-11-09"
+        },
+        {
+          "claim": "本文練習可改善理解或工作表現",
+          "status": "unverified",
+          "explanation": "來源為個人分享、案例或講解，未對本篇編輯練習進行對照測試；完成檢核僅代表留下可查看的產出。",
+          "sourceIds": [
+            "source"
+          ],
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "pitfalls": [
+        "把「看得順」當成進步；影片自己也提醒只看熟悉內容會讓詞彙重複。",
+        "主題選太大或一直換，失去主題島的熟悉效果。",
+        "三層一次塞滿而放棄；影片說不必每天全做，只要有意識安排。",
+        "完全交給推薦系統決定；至少保留一個自己主動選的內容。"
+      ],
+      "practice": {
+        "title": "編輯補充：一份本週輸入規劃",
+        "minutes": 10,
+        "prompt": "編輯補充：以下時間為建議試做安排，可自行調整。回看最近五支英文影片，照五步填一張規劃表，列出下週要看的三層材料。",
+        "deliverable": "一張本週英文輸入規劃表（主題島／三層材料／一個破慣性選擇）",
+        "checklist": [
+          "列出最近五支影片的主題，標出是否重複。",
+          "寫下主題與本週要看的三類材料名稱。",
+          "三層各有一支具體材料，並標出本週先看哪一層。",
+          "寫下本週刻意加入的一支新頻道或新類型。",
+          "寫下一個下週要換掉的來源。"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "編輯觀點：它規劃的是「材料」，不是練習",
+          "text": "我認為這套做法解決的是找材料的選擇疲勞，並不取代精聽、複述或口說練習。若要把看影片變成有產出，可以另外搭配每看完一支寫一句摘要；影片沒有提供這套安排的成效資料。",
+          "sourceIds": [
+            "source"
+          ]
+        },
+        {
+          "title": "編輯補充：可複製表格",
+          "text": "編輯補充模板：主題島＝＿＿／第一層＝＿＿／第二層＝＿＿／第三層＝＿＿／本週破慣性＝＿＿／下週要換掉＝＿＿。",
+          "sourceIds": [
+            "source"
+          ]
+        }
+      ],
+      "status": "ready",
+      "publishedAt": "2026-11-09T20:00:00+08:00",
+      "overview": {
+        "kind": "infographic",
+        "image": "/assets/overviews/english-input-topic-island-levels-desktop.webp",
+        "mobileImage": "/assets/overviews/english-input-topic-island-levels-mobile.webp",
+        "cardImage": "/assets/overviews/english-input-topic-island-levels-desktop.webp",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600,
+        "alt": "英文資訊流整理：一個主題島、三層難度，再刻意破推薦慣性：依本文核心關係整理的雙版資訊圖。",
+        "caption": "依來源方法製作的編輯整理；例子與操作安排為編輯設計，不代表成效保證。"
+      }
+    },
+    {
+      "id": "net-worth-ten-thousandth-spending-rule",
+      "title": "萬分之一消費法則的使用界線：先算概略門檻，再回到現金流預算",
+      "summary": "節目用淨資產的萬分之一，說明小額消費與資產規模的相對關係。這只是講者的概算法；本文把它當成預算討論的起點，另以現金流、必要支出與累積消費作檢查，不當成可以直接花掉的額度。",
+      "categoryId": "reading",
+      "topicIds": [
+        "strategies",
+        "review"
+      ],
+      "level": "入門",
+      "minutes": 15,
+      "output": "一張個人消費門檻卡（淨資產估算／萬分之一金額／分級／例外清單）",
+      "audience": "想減少日常小額消費糾結、但不希望失控的成人",
+      "contentType": "video_method",
+      "reviewedAt": "2026-11-09",
+      "keywords": [
+        "萬分之一",
+        "淨資產",
+        "消費門檻",
+        "省時間",
+        "財務分級",
+        "無腦花"
+      ],
+      "sourceCoverage": "中文本機 ASR 全文，節目開頭為贊助片段不採用；本篇取約 05:26–15:21 的法則說明與例子。節目中的各階層人口比例、各國統計與個別年齡案例皆為講者所述，未查證，本文不引用數據。這是個人決策輔助，不構成投資或財務建議。「門檻卡」為編輯補充。已閱讀保存的完整文字，不等於收聽原音檔。 本文步驟安排、示範與練習時長為編輯整理或補充，效果未驗證。",
+      "coverLabel": "編輯整理",
+      "sources": [
+        {
+          "id": "source",
+          "kind": "video",
+          "provider": "youtube",
+          "videoId": "Na98JzQoyyk",
+          "url": "https://www.youtube.com/watch?v=Na98JzQoyyk",
+          "title": "EP718 你在「#財富階梯」的哪一階？你想上升到哪一階？你打算怎麼做？｜大人的Small Talk",
+          "channel": "大人學",
+          "note": "由 Notion 每日新知紀錄的 YouTube 連結核對；來源原述與編輯設計分開呈現。"
+        },
+        {
+          "id": "budget",
+          "title": "Investor.gov：Build Wealth Over Time Through Saving and Investing",
+          "url": "https://www.investor.gov/build-wealth-over-time-through-saving-and-investing",
+          "kind": "official",
+          "note": "編輯補充：收入、帳單與預算，投資無保證報酬。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "先算出自己的淨資產",
+          "action": "用房產等資產扣掉房貸與負債，估出家庭淨資產；若與家人共有，再依家庭人數換算到個人。",
+          "why": "講者稱要用家庭淨資產（房產扣除房貸）估算，並除以家庭人數換算到個人；精確度不必太高，抓大略即可。",
+          "example": "編輯示範：假設淨資產約 300 萬元（僅為示範數字）。",
+          "check": "寫出一個大略的淨資產數字。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 326,
+              "endSeconds": 617
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "除以一萬，得到「不必糾結」的金額",
+          "action": "依節目算法將淨資產除以一萬，寫下結果並標示「講者概算，非安全支出額度」。",
+          "why": "講者稱單筆消費低於淨資產萬分之一時，不必花時間計較。",
+          "example": "影片原述：淨資產 300 萬，300 元以內可以無腦買。",
+          "check": "卡片有計算結果與非安全額度的註記。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 611,
+              "endSeconds": 617
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "低於門檻：直接決定，高於門檻：再比價",
+          "action": "先檢查必要支出、債務、儲蓄與可支配現金；即使單筆低於概算，也不直接視為可以消費。編輯補充：不把非流動資產等同手上現金。",
+          "why": "講者稱把省下來的判斷時間留給真正重要的決定，因為小額差價對整體財務影響很小。",
+          "example": "影片稱：每日一點錢對整體影響很小。編輯示範：50 元的飲料不必比價，3 萬元的電器就要。",
+          "check": "寫出兩個情境，分別是低於與高於門檻。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 629,
+              "endSeconds": 921
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "設定例外：容易失控的類別不適用",
+          "action": "列出你容易衝動消費的類別，例如線上購物或訂閱，這些類別即使金額小也要設週上限。",
+          "why": "此步為編輯補充：講者提的是單筆判斷，並未說明高頻小額會累積的情況；列出例外能避免誤用。",
+          "example": "編輯示範：外送與手遊儲值，每週各設上限。",
+          "check": "至少寫出一個例外類別與上限。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 629,
+              "endSeconds": 921
+            }
+          ]
+        },
+        {
+          "id": "step-5",
+          "title": "每年重算一次，並看到自己在哪個階段",
+          "action": "每年底更新淨資產與門檻，檢視這一年低於門檻的支出總和是否仍在可接受範圍。",
+          "why": "講者以不同淨資產等級說明日花費感受不同，淨資產變了，門檻也應跟著變；年度回看為編輯整理。",
+          "example": "編輯示範：年底重算後，門檻從 300 元調為 330 元。",
+          "check": "卡片上有更新日期。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 923,
+              "endSeconds": 1184
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "操作順序",
+          "note": "編輯整理：依本文練習安排呈現；不是效果證據。",
+          "nodes": [
+            {
+              "id": "step-1",
+              "label": "先算出自己的淨資產",
+              "detail": "寫出一個大略的淨資產數字。"
+            },
+            {
+              "id": "step-2",
+              "label": "除以一萬，得到「不必糾結」的金額",
+              "detail": "卡片有計算結果與非安全額度的註記。"
+            },
+            {
+              "id": "step-3",
+              "label": "低於門檻：直接決定，高於門檻：再比價",
+              "detail": "寫出兩個情境，分別是低於與高於門檻。"
+            },
+            {
+              "id": "step-4",
+              "label": "設定例外：容易失控的類別不適用",
+              "detail": "至少寫出一個例外類別與上限。"
+            },
+            {
+              "id": "step-5",
+              "label": "每年重算一次，並看到自己在哪個階段",
+              "detail": "卡片上有更新日期。"
+            }
+          ],
+          "edges": [
+            {
+              "from": "step-1",
+              "to": "step-2"
+            },
+            {
+              "from": "step-2",
+              "to": "step-3"
+            },
+            {
+              "from": "step-3",
+              "to": "step-4"
+            },
+            {
+              "from": "step-4",
+              "to": "step-5"
+            }
+          ]
+        },
+        {
+          "type": "schedule",
+          "title": "15 分鐘做門檻卡",
+          "note": "編輯自訂的起步示例。時間分配可調整，並非來源指定課表或研究結論。",
+          "columns": [
+            "做什麼",
+            "留下什麼"
+          ],
+          "rows": [
+            {
+              "label": "0–5 分鐘",
+              "cells": [
+                "估淨資產",
+                "一個數字"
+              ]
+            },
+            {
+              "label": "5–8 分鐘",
+              "cells": [
+                "除以一萬",
+                "門檻金額"
+              ]
+            },
+            {
+              "label": "8–12 分鐘",
+              "cells": [
+                "寫兩個情境",
+                "高低各一"
+              ]
+            },
+            {
+              "label": "12–15 分鐘",
+              "cells": [
+                "列例外與年度回看",
+                "例外清單"
+              ]
+            }
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "來源所述做法可依本文步驟重現",
+          "status": "partial",
+          "explanation": "本文步驟取自來源可辨識的段落並加上編輯整理；是否適合你的情境仍需自己試做與調整，來源未提供對照研究。",
+          "sourceIds": [
+            "source"
+          ],
+          "checkedAt": "2026-11-09"
+        },
+        {
+          "claim": "本文練習可改善理解或工作表現",
+          "status": "unverified",
+          "explanation": "來源為個人分享、案例或講解，未對本篇編輯練習進行對照測試；完成檢核僅代表留下可查看的產出。",
+          "sourceIds": [
+            "source"
+          ],
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "pitfalls": [
+        "把法則當成可以亂花的理由；它只用於節省判斷時間。",
+        "忽略高頻小額累積；每天都低於門檻，一個月加起來仍可能很高。",
+        "用不準的數字做決定；淨資產若為負或不穩定，先以現金流為主。",
+        "把這條規則套給孩子或家人；每個人的淨資產與風險不同。",
+        "淨資產含可能無法立即變現的項目；不能假設固定報酬會抵銷每日支出。"
+      ],
+      "practice": {
+        "title": "編輯補充：我的消費門檻卡",
+        "minutes": 15,
+        "prompt": "編輯補充：以下時間為建議試做安排，可自行調整。估算淨資產與萬分之一金額，寫兩個情境與一個例外類別。",
+        "deliverable": "一張個人消費門檻卡（淨資產估算／萬分之一金額／分級／例外清單）",
+        "checklist": [
+          "寫出一個大略的淨資產數字。",
+          "卡片有計算結果與非安全額度的註記。",
+          "寫出兩個情境，分別是低於與高於門檻。",
+          "至少寫出一個例外類別與上限。",
+          "卡片上有更新日期。"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "編輯觀點：省下的是注意力，不是錢",
+          "text": "我覺得這條法則真正的價值是保護注意力：把糾結的力氣留給大額決定。它不是教你多花，而是教你不必為小事耗神。",
+          "sourceIds": [
+            "source"
+          ]
+        },
+        {
+          "title": "編輯補充：教學運用",
+          "text": "可以用在高年級或高中的財商課，讓學生先估算家庭可支配金額（不涉及家長隱私），計算自己的零用錢門檻，再討論哪些花費該糾結。",
+          "sourceIds": [
+            "source"
+          ]
+        },
+        {
+          "title": "編輯補充：回到實際預算",
+          "text": "先列收入、必要支出、債務與儲蓄安排，再決定可支配金額；單筆低於門檻也要合計，投資報酬不能保證。",
+          "sourceIds": [
+            "budget"
+          ]
+        }
+      ],
+      "status": "ready",
+      "publishedAt": "2026-11-09T20:00:00+08:00",
+      "overview": {
+        "kind": "infographic",
+        "image": "/assets/overviews/net-worth-ten-thousandth-spending-rule-desktop.webp",
+        "mobileImage": "/assets/overviews/net-worth-ten-thousandth-spending-rule-mobile.webp",
+        "cardImage": "/assets/overviews/net-worth-ten-thousandth-spending-rule-desktop.webp",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600,
+        "alt": "萬分之一消費法則的使用界線：先算概略門檻，再回到現金流預算：依本文核心關係整理的雙版資訊圖。",
+        "caption": "依來源方法製作的編輯整理；例子與操作安排為編輯設計，不代表成效保證。"
+      }
+    },
+    {
+      "id": "nonverbal-yes-no-eye-signal-conversation",
+      "title": "和無法開口說話的人對話：假定聰明、約定眼神「是／否」、用是非題問",
+      "summary": "一位無法口語的講者提出簡短的溝通方法：先假定對方有理解力、約定向上看是、向下看否、用是非題逐步詢問，必要時用字母表拼字。本文整理成班級融合與日常相處用的角色練習，不取代醫療或特教專業流程。",
+      "categoryId": "reading",
+      "topicIds": [
+        "classroom"
+      ],
+      "level": "入門",
+      "minutes": 8,
+      "output": "一張「是／否眼神訊號」溝通卡（約定方式＋三個常用是非題＋確認句）",
+      "audience": "想學會與無法口語的同學、家人或病人溝通的老師、學生與一般成人",
+      "contentType": "video_method",
+      "reviewedAt": "2026-11-09",
+      "keywords": [
+        "無法口語",
+        "是非題",
+        "眼神訊號",
+        "字母表",
+        "假定對方聰明",
+        "溝通尊重"
+      ],
+      "sourceCoverage": "英文本機 ASR 全文 00:00–06:13，片長 382 秒；英文原文清楚，已閱讀保存的完整文字，未逐句聽校原片。講者是個人經驗與建議，非臨床研究；醫療場所的實際做法應依院方與專業人員指引。「四個步驟」為講者所述，第五步（日常相處）與練習為編輯整理。 本文步驟安排、示範與練習時長為編輯整理或補充，效果未驗證。",
+      "coverLabel": "編輯整理",
+      "sources": [
+        {
+          "id": "source",
+          "kind": "video",
+          "provider": "youtube",
+          "videoId": "84wVmiEl7Dg",
+          "url": "https://www.youtube.com/watch?v=84wVmiEl7Dg",
+          "title": "I Can’t Speak. Here’s How I Get People to Listen | Jessica Irwin | TED",
+          "channel": "TED",
+          "note": "由 Notion 每日新知紀錄的 YouTube 連結核對；來源原述與編輯設計分開呈現。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "先假定對方是聰明、聽得懂的",
+          "action": "開口前先提醒自己：對方不能說話，不代表想法或理解力受限。用平常對同齡人的態度和內容說話。",
+          "why": "講者說她的狀況影響的是動作，不是智力；人們常因「腦傷」二字就忽略整個人的想法。",
+          "example": "影片原述：Assume the patient is intelligent。編輯示範：直接問「你要不要我幫你把書遞過去？」，而不是對旁人講「她大概不懂」。",
+          "check": "能用一句話說出：不能說話不等於不能理解。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 180,
+              "endSeconds": 188
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "約定向上看是、向下看否，當場試一次",
+          "action": "先詢問對方偏好的溝通方式，若有慣用溝通裝置或照護約定就優先沿用。編輯補充：只有對方同意且能穩定做出眼神訊號時，才約定例如向上看是、向下看否，並用已知答案確認；無法確認就不要猜。",
+          "why": "講者示範只靠這兩個眼神，不必開口就能完成一段對話。",
+          "example": "影片原述：look up for yes，look down for no。編輯示範：先問「今天是星期一嗎？」，確認訊號再往下問。",
+          "check": "對方的是與否訊號都被你看懂一次。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 188,
+              "endSeconds": 211
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "改用是非題，一次問一件事",
+          "action": "把想知道的事拆成可以回答是或否的問題，再逐一確認。",
+          "why": "講者說這個做法也適用於比較複雜的情境，例如是否疼痛、要不要找人、可不可以檢查。",
+          "example": "影片舉例：Are you in pain? Do you want me to call someone? Can I examine where you are hurting?",
+          "check": "寫出三個常用是非題，且每題只問一件事。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 211,
+              "endSeconds": 227
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "需要拼字時，用字母表讓對方指字",
+          "action": "當是非題不夠用，詢問對方是否願意逐個念字母，對方在對的字母時用約定眼神回應，一字一字拼出詞。",
+          "why": "講者列為四個步驟的最後一步，說這四步簡單卻能救命。",
+          "example": "影片原述：Can I run through the alphabet so you can spell out a word。編輯示範：先拼出想找的人名縮寫。",
+          "check": "說明字母表怎麼用，並先徵求對方是否同意。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 221,
+              "endSeconds": 232
+            }
+          ]
+        },
+        {
+          "id": "step-5",
+          "title": "平常相處：自我介紹、正常音量、看表情",
+          "action": "用「Hi, my name is…」開場，不要放大音量、放慢語速或拍頭；觀察表情、眼神與對方是否正在使用溝通裝置。",
+          "why": "講者說被大聲說話和拍頭是常見的不尊重；看表情和對方的笑點可以判斷對方是否聽得懂。",
+          "example": "編輯示範：對輪椅旁的同學說「嗨，我是小班導，今天分組你想跟誰一組？」，並看著對方等回應。",
+          "check": "演練一次不提高音量也不拍頭的開場。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 294,
+              "endSeconds": 340
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "操作順序",
+          "note": "編輯整理：依本文練習安排呈現；不是效果證據。",
+          "nodes": [
+            {
+              "id": "step-1",
+              "label": "先假定對方是聰明、聽得懂的",
+              "detail": "能用一句話說出：不能說話不等於不能理解。"
+            },
+            {
+              "id": "step-2",
+              "label": "約定向上看是、向下看否，當場試一次",
+              "detail": "對方的是與否訊號都被你看懂一次。"
+            },
+            {
+              "id": "step-3",
+              "label": "改用是非題，一次問一件事",
+              "detail": "寫出三個常用是非題，且每題只問一件事。"
+            },
+            {
+              "id": "step-4",
+              "label": "需要拼字時，用字母表讓對方指字",
+              "detail": "說明字母表怎麼用，並先徵求對方是否同意。"
+            },
+            {
+              "id": "step-5",
+              "label": "平常相處：自我介紹、正常音量、看表情",
+              "detail": "演練一次不提高音量也不拍頭的開場。"
+            }
+          ],
+          "edges": [
+            {
+              "from": "step-1",
+              "to": "step-2"
+            },
+            {
+              "from": "step-2",
+              "to": "step-3"
+            },
+            {
+              "from": "step-3",
+              "to": "step-4"
+            },
+            {
+              "from": "step-4",
+              "to": "step-5"
+            }
+          ]
+        },
+        {
+          "type": "schedule",
+          "title": "8 分鐘角色練習",
+          "note": "編輯自訂的起步示例。時間分配可調整，並非來源指定課表或研究結論。",
+          "columns": [
+            "做什麼",
+            "留下什麼"
+          ],
+          "rows": [
+            {
+              "label": "0–2 分鐘",
+              "cells": [
+                "兩人一組，一人扮演只用眼神回應者",
+                "約定向上看是、向下看否"
+              ]
+            },
+            {
+              "label": "2–5 分鐘",
+              "cells": [
+                "發問者連問三個是非題",
+                "三題記錄與回應"
+              ]
+            },
+            {
+              "label": "5–7 分鐘",
+              "cells": [
+                "換角色，加上一次字母表拼字",
+                "拼出一個短詞"
+              ]
+            },
+            {
+              "label": "7–8 分鐘",
+              "cells": [
+                "雙方說「被問時最舒服／最不舒服」",
+                "各一句回饋"
+              ]
+            }
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "這四步可作為日常與班級溝通的起點",
+          "status": "partial",
+          "explanation": "內容來自講者個人經驗，提供清楚且低成本的溝通順序；但並非臨床指引，是否適用要依對方習慣與專業建議調整。",
+          "sourceIds": [
+            "source"
+          ],
+          "checkedAt": "2026-11-09"
+        },
+        {
+          "claim": "本文練習可改善理解或工作表現",
+          "status": "unverified",
+          "explanation": "來源為個人分享、案例或講解，未對本篇編輯練習進行對照測試；完成檢核僅代表留下可查看的產出。",
+          "sourceIds": [
+            "source"
+          ],
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "pitfalls": [
+        "把手捏緊當作「是」；講者提醒她的肌肉會不自主握緊，不一定是回答。",
+        "一次問太多問題；是非題一次只問一件事。",
+        "把角色練習當成遊戲取笑；練習前先說明目的並徵求同意。",
+        "在醫療或緊急情況只靠本文；應通知醫護或專業人員，並尊重院方流程。"
+      ],
+      "practice": {
+        "title": "編輯補充：眼神是非角色練習",
+        "minutes": 8,
+        "prompt": "編輯補充：以下時間為建議試做安排，可自行調整。兩人一組，一人只用眼神回答，另一人練習假定聰明、用是非題詢問，最後互相回饋。",
+        "deliverable": "一張「是／否眼神訊號」溝通卡（約定方式＋三個常用是非題＋確認句）",
+        "checklist": [
+          "能用一句話說出：不能說話不等於不能理解。",
+          "對方的是與否訊號都被你看懂一次。",
+          "寫出三個常用是非題，且每題只問一件事。",
+          "說明字母表怎麼用，並先徵求對方是否同意。",
+          "演練一次不提高音量也不拍頭的開場。"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "編輯觀點：它是溝通禮貌，不是技巧表演",
+          "text": "我認為這支影片最有力的地方是把「尊重」放在第一步。班級練習時，重點應該是讓大家理解被忽略的感受，而不是模仿對方；影片也沒有提供這套方法的成效資料。",
+          "sourceIds": [
+            "source"
+          ]
+        },
+        {
+          "title": "編輯補充：教學運用與限制",
+          "text": "可在融合教育週用 8 分鐘角色練習引入，並先與特教老師確認班上實際需要。若班上有真實需求，應以該生與家長同意的方式為準，不使用他人的個資。",
+          "sourceIds": [
+            "source"
+          ]
+        }
+      ],
+      "status": "ready",
+      "publishedAt": "2026-11-09T20:00:00+08:00",
+      "overview": {
+        "kind": "infographic",
+        "image": "/assets/overviews/nonverbal-yes-no-eye-signal-conversation-desktop.webp",
+        "mobileImage": "/assets/overviews/nonverbal-yes-no-eye-signal-conversation-mobile.webp",
+        "cardImage": "/assets/overviews/nonverbal-yes-no-eye-signal-conversation-desktop.webp",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600,
+        "alt": "和無法開口說話的人對話：假定聰明、約定眼神「是／否」、用是非題問：依本文核心關係整理的雙版資訊圖。",
+        "caption": "依來源方法製作的編輯整理；例子與操作安排為編輯設計，不代表成效保證。"
+      }
+    },
+    {
+      "id": "perspective-switch-title-rewrite",
+      "title": "同一個題目換視角：用一、二、三人稱與角色視角改寫標題",
+      "summary": "節目主張好題目不必照抄，可以換敘事視角重做：同一題目改成「我」、「你」、「他人」，甚至全知或角色視角。本文整理成一套標題改寫練習，適合寫作課、短影音與公開文章的發想。",
+      "categoryId": "reading",
+      "topicIds": [
+        "learning",
+        "teaching"
+      ],
+      "level": "入門",
+      "minutes": 15,
+      "output": "一份同一題目的四種視角標題對照表與一則選擇理由",
+      "audience": "需要發想標題、寫作題目或短影音主題的老師、學生與創作者",
+      "contentType": "article_method",
+      "reviewedAt": "2026-11-09",
+      "keywords": [
+        "敘事視角",
+        "第二人稱",
+        "第一人稱",
+        "第三人稱",
+        "全知視角",
+        "標題改寫"
+      ],
+      "sourceCoverage": "中文本機 ASR（強制中文辨識）全文 00:00–16:24，片長 984 秒；開頭約 00:00–02:10 與結尾含廣告及商品推銷，未採用；人名與節目例子有同音誤辨，依上下文整理。節目為個人經驗分享，未提供成效統計；本文只取視角改寫的做法與提醒。 本文步驟安排、示範與練習時長為編輯整理或補充，效果未驗證。",
+      "coverLabel": "編輯整理",
+      "sources": [
+        {
+          "id": "source",
+          "kind": "article",
+          "url": "https://player.soundon.fm/p/73930beb-4136-4b36-a910-39984335b7bb/episodes/92ea6582-0f07-4b05-b84b-99abc2282e6b",
+          "title": "EP2535【吳淡如】模仿也可以變成真的創造，但是你要會這個技巧！",
+          "channel": "吳淡如人生實用商學院",
+          "note": "由 Notion 每日新知紀錄的集數連結核對；依本機 ASR 編輯，非影音實測。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "先挑一個已證明有人想看的好題目",
+          "action": "從你欣賞的內容中挑一個題目，寫下它吸引人的原因，但不照抄原文，而是準備換視角重做。",
+          "why": "節目說看到好題目時可以換個角度，這種做法的重點在視角轉換而不是複製。",
+          "example": "編輯示範：看到「40 歲還沒找到方向怎麼辦」很有共鳴，先寫下它抓住了誰的焦慮。",
+          "check": "寫出一個題目和它吸引人的一句理由。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 135,
+              "endSeconds": 149
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "把同題目各寫一個一人稱、二人稱、三人稱標題",
+          "action": "用「我」、「你」與第三者各寫一個標題，三個放在同一張表上比較。",
+          "why": "節目舉例說同一個題目只要視角換了，可以一變再變。",
+          "example": "節目舉例：40 歲辭職後我找到目標（一人稱）／對你來講…（二人稱）／第三人稱版本。編輯示範：我如何整理三十歲的方向／你的方向其實藏在這件事／他靠這三步重新開始。",
+          "check": "同一題目有三種人稱標題。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 149,
+              "endSeconds": 194
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "用「40 歲找方向」的例子對照三種感受",
+          "action": "逐一唸出三個標題，記錄第一人稱的距離、二人稱的代入感、三人稱的客觀感差在哪。",
+          "why": "節目用同一個人生題目示範視角一轉，感受與可信度就不一樣。",
+          "example": "編輯示範：二人稱讓我覺得被點名，第三人稱讓我像在看別人的案例。",
+          "check": "每個標題各寫一句感受。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 237,
+              "endSeconds": 306
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "依對象與場合選視角，留意各自的風險",
+          "action": "根據目標讀者選一種視角：一人稱需要讀者本來就想聽你的經驗，二人稱要有對話感但少用威脅語氣，第三人稱較有距離。",
+          "why": "節目提醒一人稱要有一定知名度，二人稱的侵入感過強會令人不適。",
+          "example": "編輯示範：班刊文章用一人稱分享自己，面對陌生讀者就改用第三人稱案例，避免太像說教。",
+          "check": "寫出選擇理由，並避開威脅或說教語氣。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 313,
+              "endSeconds": 406
+            }
+          ]
+        },
+        {
+          "id": "step-5",
+          "title": "再試一次角色視角或全知視角",
+          "action": "把題目換成作品角色或當事人的視角，或用全知視角重新敘述，看看標題能不能更有新意。",
+          "why": "節目舉例用孫悟空、賈寶玉的視角解讀名著，說明視角轉換能產生新的切入點。",
+          "example": "影片原述：用孫悟空的視角解讀西遊記。編輯示範：用「班級的黑板」視角寫期末回顧。",
+          "check": "寫出一個角色視角版本，並說明它多了什麼新切入點。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 638,
+              "endSeconds": 675
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "操作順序",
+          "note": "編輯整理：依本文練習安排呈現；不是效果證據。",
+          "nodes": [
+            {
+              "id": "step-1",
+              "label": "先挑一個已證明有人想看的好題目",
+              "detail": "寫出一個題目和它吸引人的一句理由。"
+            },
+            {
+              "id": "step-2",
+              "label": "把同題目各寫一個一人稱、二人稱、三人稱標題",
+              "detail": "同一題目有三種人稱標題。"
+            },
+            {
+              "id": "step-3",
+              "label": "用「40 歲找方向」的例子對照三種感受",
+              "detail": "每個標題各寫一句感受。"
+            },
+            {
+              "id": "step-4",
+              "label": "依對象與場合選視角，留意各自的風險",
+              "detail": "寫出選擇理由，並避開威脅或說教語氣。"
+            },
+            {
+              "id": "step-5",
+              "label": "再試一次角色視角或全知視角",
+              "detail": "寫出一個角色視角版本，並說明它多了什麼新切入點。"
+            }
+          ],
+          "edges": [
+            {
+              "from": "step-1",
+              "to": "step-2"
+            },
+            {
+              "from": "step-2",
+              "to": "step-3"
+            },
+            {
+              "from": "step-3",
+              "to": "step-4"
+            },
+            {
+              "from": "step-4",
+              "to": "step-5"
+            }
+          ]
+        },
+        {
+          "type": "schedule",
+          "title": "15 分鐘改寫練習",
+          "note": "編輯自訂的起步示例。時間分配可調整，並非來源指定課表或研究結論。",
+          "columns": [
+            "做什麼",
+            "留下什麼"
+          ],
+          "rows": [
+            {
+              "label": "0–3 分鐘",
+              "cells": [
+                "挑題目，寫吸引人的原因",
+                "題目與一句理由"
+              ]
+            },
+            {
+              "label": "3–7 分鐘",
+              "cells": [
+                "寫一、二、三人稱各一個標題",
+                "三個標題"
+              ]
+            },
+            {
+              "label": "7–10 分鐘",
+              "cells": [
+                "比較三個標題的感受",
+                "三句感受"
+              ]
+            },
+            {
+              "label": "10–13 分鐘",
+              "cells": [
+                "試角色或全知視角",
+                "一個角色視角標題"
+              ]
+            },
+            {
+              "label": "13–15 分鐘",
+              "cells": [
+                "選一個並寫選擇理由",
+                "一則決定"
+              ]
+            }
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "來源所述做法可依本文步驟重現",
+          "status": "partial",
+          "explanation": "本文步驟取自來源可辨識的段落並加上編輯整理；是否適合你的情境仍需自己試做與調整，來源未提供對照研究。",
+          "sourceIds": [
+            "source"
+          ],
+          "checkedAt": "2026-11-09"
+        },
+        {
+          "claim": "本文練習可改善理解或工作表現",
+          "status": "unverified",
+          "explanation": "來源為個人分享、案例或講解，未對本篇編輯練習進行對照測試；完成檢核僅代表留下可查看的產出。",
+          "sourceIds": [
+            "source"
+          ],
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "pitfalls": [
+        "照抄原標題的結構與關鍵句；節目強調要學視角轉換而不是複製。",
+        "用第二人稱製造威脅或貶低讀者；容易讓人不舒服。",
+        "沒有知名度卻用「我如何成功」的一人稱，缺乏可信度。",
+        "把標題改得很吸睛卻和內容不符；標題要和文章對得上。"
+      ],
+      "practice": {
+        "title": "編輯補充：四種視角標題對照表",
+        "minutes": 15,
+        "prompt": "編輯補充：以下時間為建議試做安排，可自行調整。挑一個作文或短影音題目，寫出四種視角的標題，並說明最後選哪一個。",
+        "deliverable": "一份同一題目的四種視角標題對照表與一則選擇理由",
+        "checklist": [
+          "寫出一個題目和它吸引人的一句理由。",
+          "同一題目有三種人稱標題。",
+          "每個標題各寫一句感受。",
+          "寫出選擇理由，並避開威脅或說教語氣。",
+          "寫出一個角色視角版本，並說明它多了什麼新切入點。"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "編輯觀點：視角不是改寫模板",
+          "text": "我認為這套方法適合拿來打開發想，而不是用來機械套用。選視角之前，先想清楚你要對誰說、說什麼；節目沒有提供任何點擊或閱讀成效資料，這點需要自己累積觀察。",
+          "sourceIds": [
+            "source"
+          ]
+        },
+        {
+          "title": "編輯補充：寫作課運用",
+          "text": "寫作課可讓學生用同一個題目寫三種人稱的開頭各兩句，再討論讀起來的差別，不必要求最後選哪一個。",
+          "sourceIds": [
+            "source"
+          ]
+        }
+      ],
+      "status": "ready",
+      "publishedAt": "2026-11-09T20:00:00+08:00",
+      "overview": {
+        "kind": "infographic",
+        "image": "/assets/overviews/perspective-switch-title-rewrite-desktop.webp",
+        "mobileImage": "/assets/overviews/perspective-switch-title-rewrite-mobile.webp",
+        "cardImage": "/assets/overviews/perspective-switch-title-rewrite-desktop.webp",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600,
+        "alt": "同一個題目換視角：用一、二、三人稱與角色視角改寫標題：依本文核心關係整理的雙版資訊圖。",
+        "caption": "依來源方法製作的編輯整理；例子與操作安排為編輯設計，不代表成效保證。"
+      }
+    },
+    {
+      "id": "replace-habit-loop-with-interest",
+      "title": "壞習慣戒不掉？用有趣的新行為取代，並換掉自我對話",
+      "summary": "親子天下 Podcast 邀請精神科醫師談神經可塑性：壞習慣是省力的舊迴路，直接戒除很難，比較可行的是覺察、用更有趣的事取代、換掉自我對話，並選每天做得到的運動與多元刺激。本文只整理行為部分，不採用醫療與用藥說法。",
+      "categoryId": "reading",
+      "topicIds": [
+        "parenting",
+        "mindset"
+      ],
+      "level": "入門",
+      "minutes": 15,
+      "output": "一張習慣替換卡（舊迴路觸發點／替代行為／自我對話改寫／每天做得到的運動）",
+      "audience": "想改變滑手機等習慣的家長、青少年與教師",
+      "contentType": "article_method",
+      "reviewedAt": "2026-11-09",
+      "keywords": [
+        "壞習慣",
+        "取代",
+        "神經可塑性",
+        "自我對話",
+        "運動",
+        "換位思考"
+      ],
+      "sourceCoverage": "中文本機 ASR 全文 00:00–27:19，已閱讀壓縮摘要並核對時間碼；節目中的醫學、藥物、飲食、保健食品等說法為來賓所述，與診斷治療相關，本文不採用也不建議，請諮詢專業醫師。只取覺察、取代、語言改寫與活動的行為做法。「替換卡」為編輯補充。已閱讀保存的完整文字，不等於收聽原音檔。 本文步驟安排、示範與練習時長為編輯整理或補充，效果未驗證。",
+      "coverLabel": "編輯整理",
+      "sources": [
+        {
+          "id": "source",
+          "kind": "article",
+          "url": "https://player.soundon.fm/p/f5ef415f-481b-4374-a939-1dfb794d847e/episodes/e9ee4ced-2d80-4b69-b89b-924f59d373bb",
+          "title": "壞習慣本來就戒不掉！用新迴路「取代」，鍛鍊神經可塑性 ft. 馬大元｜關係相談所EP.201",
+          "channel": "親子天下Podcast",
+          "note": "集數連結取自 Notion 每日新知紀錄；中文來源，來源原述與編輯設計分開呈現。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "先覺察：自己陷在哪個省力模式",
+          "action": "記錄一週中最常重複的一個習慣，例如放學就滑手機，並寫下它出現的時間與觸發點。",
+          "why": "來賓稱大腦偏好省力的舊迴路，習慣越做迴路越強；第一步是覺察自己已陷入模式。",
+          "example": "編輯示範：每天回家第一件事滑手機，觸發點是到家後沒有安排。",
+          "check": "寫出一個習慣與一個觸發點。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 221,
+              "endSeconds": 467
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "不是硬戒，而是挑一件更有趣的事取代",
+          "action": "在觸發的時間點，預先準備一件更有吸引力的行為，並把它放在觸手可及的位置。",
+          "why": "來賓稱不要只想戒掉，要用更有趣的事取代，例如攀岩或找朋友聊天。",
+          "example": "編輯示範：到家後先約朋友通話十分鐘，或打開事先放好的桌遊。",
+          "check": "寫出替代行為與放在哪裡。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 469,
+              "endSeconds": 699
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "把「我沒辦法」改成「我還在找方法」",
+          "action": "選出三句最常對自己說的負面話，各改寫成一個帶有行動的句子。",
+          "why": "來賓稱替換負向語言可以改變自我對話的方向，例子是『我沒辦法』換成『我還在找方法』。",
+          "example": "影片原述：「我沒辦法」改成「我還在找方法」。編輯示範：「我又失敗了」改成「這次我學到什麼」。",
+          "check": "寫出三組改寫句。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 469,
+              "endSeconds": 699
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "選一個每天願意做的運動",
+          "action": "挑一種容易開始、不需要很多裝備的活動，例如散步，訂出固定時間。",
+          "why": "來賓稱運動是公認第一的幫助腦部可塑性的方式，建議選每天都願意做的類型；有疾病者請先諮詢醫師。",
+          "example": "編輯示範：晚餐後散步十五分鐘。",
+          "check": "寫出活動與時間，並連續做三天。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 701,
+              "endSeconds": 963
+            }
+          ]
+        },
+        {
+          "id": "step-5",
+          "title": "主動換刺激、換位思考",
+          "action": "每週加入一個新刺激，並在卡住時練習從另一個人的角度寫一段話。",
+          "why": "來賓稱環境越多變、越能練習不同迴路，也提到以客觀實驗的精神換位思考。",
+          "example": "影片原述：一分十元桌球結合專注、競爭與社交。編輯示範：每週和不同的人打一次球，或寫一段從老師角度的看法。",
+          "check": "寫出本週的新刺激與一段換位文字。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 965,
+              "endSeconds": 1187
+            }
+          ]
+        },
+        {
+          "id": "step-6",
+          "title": "一週後回看替換卡",
+          "action": "整理一週的替代行為與運動次數，挑一個有效的繼續，其餘調整或換掉。",
+          "why": "此步為編輯延伸：節目沒有給固定回顧流程，回看能讓替代行為更貼近自己。",
+          "example": "編輯示範：桌遊有效，散步只做兩天，下週改放在睡前。",
+          "check": "保留一項、調整一項。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 1434,
+              "endSeconds": 1639
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "操作順序",
+          "note": "編輯整理：依本文練習安排呈現；不是效果證據。",
+          "nodes": [
+            {
+              "id": "step-1",
+              "label": "先覺察：自己陷在哪個省力模式",
+              "detail": "寫出一個習慣與一個觸發點。"
+            },
+            {
+              "id": "step-2",
+              "label": "不是硬戒，而是挑一件更有趣的事取代",
+              "detail": "寫出替代行為與放在哪裡。"
+            },
+            {
+              "id": "step-3",
+              "label": "把「我沒辦法」改成「我還在找方法」",
+              "detail": "寫出三組改寫句。"
+            },
+            {
+              "id": "step-4",
+              "label": "選一個每天願意做的運動",
+              "detail": "寫出活動與時間，並連續做三天。"
+            },
+            {
+              "id": "step-5",
+              "label": "主動換刺激、換位思考",
+              "detail": "寫出本週的新刺激與一段換位文字。"
+            },
+            {
+              "id": "step-6",
+              "label": "一週後回看替換卡",
+              "detail": "保留一項、調整一項。"
+            }
+          ],
+          "edges": [
+            {
+              "from": "step-1",
+              "to": "step-2"
+            },
+            {
+              "from": "step-2",
+              "to": "step-3"
+            },
+            {
+              "from": "step-3",
+              "to": "step-4"
+            },
+            {
+              "from": "step-4",
+              "to": "step-5"
+            },
+            {
+              "from": "step-5",
+              "to": "step-6"
+            }
+          ]
+        },
+        {
+          "type": "schedule",
+          "title": "15 分鐘做替換卡",
+          "note": "編輯自訂的起步示例。時間分配可調整，並非來源指定課表或研究結論。",
+          "columns": [
+            "做什麼",
+            "留下什麼"
+          ],
+          "rows": [
+            {
+              "label": "0–3 分鐘",
+              "cells": [
+                "寫習慣與觸發點",
+                "兩項"
+              ]
+            },
+            {
+              "label": "3–7 分鐘",
+              "cells": [
+                "選替代行為",
+                "一件事"
+              ]
+            },
+            {
+              "label": "7–10 分鐘",
+              "cells": [
+                "改寫負面語句",
+                "三組"
+              ]
+            },
+            {
+              "label": "10–13 分鐘",
+              "cells": [
+                "選運動與時間",
+                "固定時段"
+              ]
+            },
+            {
+              "label": "13–15 分鐘",
+              "cells": [
+                "排一週後回看",
+                "一個日期"
+              ]
+            }
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "來源所述做法可依本文步驟重現",
+          "status": "partial",
+          "explanation": "本文步驟取自來源可辨識的段落並加上編輯整理；是否適合你的情境仍需自己試做與調整，來源未提供對照研究。",
+          "sourceIds": [
+            "source"
+          ],
+          "checkedAt": "2026-11-09"
+        },
+        {
+          "claim": "本文練習可改善理解或工作表現",
+          "status": "unverified",
+          "explanation": "來源為個人分享、案例或講解，未對本篇編輯練習進行對照測試；完成檢核僅代表留下可查看的產出。",
+          "sourceIds": [
+            "source"
+          ],
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "pitfalls": [
+        "把節目的醫療與用藥說法當成建議；有診斷或治療需求請找醫師。",
+        "一次想改很多習慣；先挑一個。",
+        "用懲罰取代；替代行為要比舊習慣更有吸引力。",
+        "對孩子強迫改變；先讓他自己選替代活動。"
+      ],
+      "practice": {
+        "title": "編輯補充：我的習慣替換卡",
+        "minutes": 15,
+        "prompt": "編輯補充：以下時間為建議試做安排，可自行調整。寫下一個習慣、一個替代行為與三句自我對話改寫，連續做一週。",
+        "deliverable": "一張習慣替換卡（舊迴路觸發點／替代行為／自我對話改寫／每天做得到的運動）",
+        "checklist": [
+          "寫出一個習慣與一個觸發點。",
+          "寫出替代行為與放在哪裡。",
+          "寫出三組改寫句。",
+          "寫出活動與時間，並連續做三天。",
+          "寫出本週的新刺激與一段換位文字。",
+          "保留一項、調整一項。"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "編輯觀點：替代比戒除更有人味",
+          "text": "我認為這集最實用的是『不用戒，只要取代』的想法，它承認習慣有功能，再給它更好的去處。",
+          "sourceIds": [
+            "source"
+          ]
+        },
+        {
+          "title": "編輯補充：家長與教師",
+          "text": "與孩子談替代行為時，建議先問他『你想做什麼會比滑手機更有趣』，讓選項來自孩子本人，而不是大人指定。",
+          "sourceIds": [
+            "source"
+          ]
+        }
+      ],
+      "status": "ready",
+      "publishedAt": "2026-11-09T20:00:00+08:00",
+      "overview": {
+        "kind": "infographic",
+        "image": "/assets/overviews/replace-habit-loop-with-interest-desktop.webp",
+        "mobileImage": "/assets/overviews/replace-habit-loop-with-interest-mobile.webp",
+        "cardImage": "/assets/overviews/replace-habit-loop-with-interest-desktop.webp",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600,
+        "alt": "壞習慣戒不掉？用有趣的新行為取代，並換掉自我對話：依本文核心關係整理的雙版資訊圖。",
+        "caption": "依來源方法製作的編輯整理；例子與操作安排為編輯設計，不代表成效保證。"
+      }
+    },
+    {
+      "id": "small-business-apprenticeship-low-risk-trial",
+      "title": "想創業又怕冒險：先去小企業見習，用低成本實驗保護自己",
+      "summary": "影片作者建議有家庭、有穩定收入的人，創業前先去一家已賺錢的小企業當見習者，用經驗換報酬，觀察老闆如何獲客、成交與服務。本文抽成一個低風險試驗流程：找對象、與家人約定時間、設定要觀察的問題、定期回顧。",
+      "categoryId": "reading",
+      "topicIds": [
+        "strategies",
+        "mindset"
+      ],
+      "level": "進階",
+      "minutes": 20,
+      "output": "一張見習計畫卡（對象條件／每週時間／三個觀察問題／六個月回顧點）",
+      "audience": "想嘗試副業或創業、但需要顧及家庭與穩定收入的成人",
+      "contentType": "video_method",
+      "reviewedAt": "2026-11-09",
+      "keywords": [
+        "創業前",
+        "見習",
+        "低成本實驗",
+        "小企業",
+        "觀察創辦人",
+        "風險控管"
+      ],
+      "sourceCoverage": "英文本機 ASR 全文 00:00–09:23，片長約 9 分 25 秒，已閱讀壓縮摘要並核對時間碼；影片中的營收範圍、案例與致富故事皆為講者所述（影片稱），未查證，也沒有成效資料。這是創業建議，不構成財務或職涯建議。最後一步的回顧點為編輯補充。已閱讀保存的完整文字，不等於觀看原片。 本文步驟安排、示範與練習時長為編輯整理或補充，效果未驗證。",
+      "coverLabel": "編輯整理",
+      "sources": [
+        {
+          "id": "source",
+          "kind": "video",
+          "provider": "youtube",
+          "videoId": "wATfm_oNa4M",
+          "url": "https://www.youtube.com/watch?v=wATfm_oNa4M",
+          "title": "Don't Quit Your Job to Start a Business (Do This First)",
+          "channel": "Ali Abdaal – Lifestyle Business Academy",
+          "note": "由 Notion 每日新知紀錄的 YouTube 連結核對；英文來源改述，來源原述與編輯設計分開呈現。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "先把目標改成「用實驗降低風險」",
+          "action": "寫下三樣不想拿去冒險的東西，例如家庭、存款、時間，再寫下「我想用最小成本驗證的是什麼」。",
+          "why": "講者稱見習的本質是快速、低成本、保護自己的實驗，不是一次押上全部。",
+          "example": "編輯示範：不想動的是房貸與家人時間；想驗證的是『我喜歡經營小店嗎』。",
+          "check": "寫出三樣保護清單與一個驗證問題。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 0,
+              "endSeconds": 127
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "設定要找的見習對象條件",
+          "action": "找一家已有穩定獲利的小企業，依講者的標準：年營收約七位數美元、獲利約六位數美元，再換算成自己所在地的規模。",
+          "why": "講者稱這個規模的企業已經驗證過賺錢，又夠小，創辦人比較容易接觸。",
+          "example": "影片原述：想開日間 SPA，就去一家賺錢的 SPA 幫忙。編輯示範：想開咖啡店就找一家獲利穩定的獨立咖啡店。",
+          "check": "寫下三個條件與三個候選對象。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 9,
+              "endSeconds": 124
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "和家人約定固定的見習時間",
+          "action": "和配偶或家人談好每週固定一天或週末幾小時，並說明這是控管風險的實驗。",
+          "why": "講者稱要事先與配偶約定每週一天或週末，目標是不讓孩子、婚姻與房貸陷入風險。",
+          "example": "編輯示範：每週六上午三小時，兩個月後回顧是否調整。",
+          "check": "寫出雙方同意的時段與回顧時間。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 127,
+              "endSeconds": 249
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "提出請求：用經驗換報酬",
+          "action": "向創辦人說明你願意協助哪些具體工作，表明不以薪水為主要目的，並問他願不願意讓你近距離觀察。",
+          "why": "講者稱以經驗當報酬，薪水只是額外加分；能接觸創辦人看到他如何做決策是重點。",
+          "example": "影片原述：跟在創辦人身邊，看他怎麼推銷、招募、架設頁面。編輯示範：我可以幫忙整理客戶名單，換取每月與你談一次。",
+          "check": "寄出至少一封請求，並寫清楚能提供的協助。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 251,
+              "endSeconds": 368
+            }
+          ]
+        },
+        {
+          "id": "step-5",
+          "title": "帶著三個問題觀察，並記錄",
+          "action": "每次見習只帶三個問題，例如客人從哪來、怎麼成交、怎麼服務，結束後 5 分鐘內寫下答案。",
+          "why": "講者稱收穫在自我認知、商業敏感度與人脈資源，這些比現金更值錢；有問題才看得出來。",
+          "example": "編輯示範：今天看到老闆如何處理客訴，記三個重點。",
+          "check": "每次見習後有一頁三問記錄。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 373,
+              "endSeconds": 481
+            }
+          ]
+        },
+        {
+          "id": "step-6",
+          "title": "設六個月回顧點，決定繼續、換對象或停止",
+          "action": "在見習計畫卡上寫回顧日期，屆時依記錄與家人回饋決定繼續、換對象或停止。",
+          "why": "講者以六個月為例；回顧與停損規則為編輯補充，避免實驗無限延長。",
+          "example": "編輯示範：六個月後若仍沒有想學的東西，就換對象或停止。",
+          "check": "計畫卡有回顧日期與三個決定選項。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 30,
+              "endSeconds": 124
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "操作順序",
+          "note": "編輯整理：依本文練習安排呈現；不是效果證據。",
+          "nodes": [
+            {
+              "id": "step-1",
+              "label": "先把目標改成「用實驗降低風險」",
+              "detail": "寫出三樣保護清單與一個驗證問題。"
+            },
+            {
+              "id": "step-2",
+              "label": "設定要找的見習對象條件",
+              "detail": "寫下三個條件與三個候選對象。"
+            },
+            {
+              "id": "step-3",
+              "label": "和家人約定固定的見習時間",
+              "detail": "寫出雙方同意的時段與回顧時間。"
+            },
+            {
+              "id": "step-4",
+              "label": "提出請求：用經驗換報酬",
+              "detail": "寄出至少一封請求，並寫清楚能提供的協助。"
+            },
+            {
+              "id": "step-5",
+              "label": "帶著三個問題觀察，並記錄",
+              "detail": "每次見習後有一頁三問記錄。"
+            },
+            {
+              "id": "step-6",
+              "label": "設六個月回顧點，決定繼續、換對象或停止",
+              "detail": "計畫卡有回顧日期與三個決定選項。"
+            }
+          ],
+          "edges": [
+            {
+              "from": "step-1",
+              "to": "step-2"
+            },
+            {
+              "from": "step-2",
+              "to": "step-3"
+            },
+            {
+              "from": "step-3",
+              "to": "step-4"
+            },
+            {
+              "from": "step-4",
+              "to": "step-5"
+            },
+            {
+              "from": "step-5",
+              "to": "step-6"
+            }
+          ]
+        },
+        {
+          "type": "schedule",
+          "title": "20 分鐘排出見習計畫",
+          "note": "編輯自訂的起步示例。時間分配可調整，並非來源指定課表或研究結論。",
+          "columns": [
+            "做什麼",
+            "留下什麼"
+          ],
+          "rows": [
+            {
+              "label": "0–4 分鐘",
+              "cells": [
+                "寫保護清單與驗證問題",
+                "三項保護、一個問題"
+              ]
+            },
+            {
+              "label": "4–9 分鐘",
+              "cells": [
+                "列對象條件與候選",
+                "三個候選"
+              ]
+            },
+            {
+              "label": "9–13 分鐘",
+              "cells": [
+                "和家人排時間",
+                "每週時段"
+              ]
+            },
+            {
+              "label": "13–17 分鐘",
+              "cells": [
+                "寫請求訊息",
+                "一封草稿"
+              ]
+            },
+            {
+              "label": "17–20 分鐘",
+              "cells": [
+                "設三個觀察問題與回顧日",
+                "計畫卡"
+              ]
+            }
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "講者稱透過見習可以快速獲得真實經驗並降低創業風險",
+          "status": "partial",
+          "explanation": "影片中的成功案例（接管家業、轉型創業、員工創業致富）為講者所述，未查證，也沒有系統性資料。",
+          "sourceIds": [
+            "source"
+          ],
+          "checkedAt": "2026-11-09"
+        },
+        {
+          "claim": "本文練習可改善理解或工作表現",
+          "status": "unverified",
+          "explanation": "來源為個人分享、案例或講解，未對本篇編輯練習進行對照測試；完成檢核僅代表留下可查看的產出。",
+          "sourceIds": [
+            "source"
+          ],
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "pitfalls": [
+        "把講者的營收範圍直接套到自己的地區；請依當地物價與市場調整。",
+        "未經對方同意就觀察或錄影；涉及客戶與營業資料時要先取得同意。",
+        "為了見習而影響現職表現；需先確認公司規範與利益衝突。",
+        "把成功案例當成保證；案例是講者所述，不代表每個人都有相同結果。"
+      ],
+      "practice": {
+        "title": "編輯補充：我的見習計畫卡",
+        "minutes": 20,
+        "prompt": "編輯補充：以下時間為建議試做安排，可自行調整。寫下保護清單、三個候選對象與每週時間，並草擬一封請求訊息。",
+        "deliverable": "一張見習計畫卡（對象條件／每週時間／三個觀察問題／六個月回顧點）",
+        "checklist": [
+          "寫出三樣保護清單與一個驗證問題。",
+          "寫下三個條件與三個候選對象。",
+          "寫出雙方同意的時段與回顧時間。",
+          "寄出至少一封請求，並寫清楚能提供的協助。",
+          "每次見習後有一頁三問記錄。",
+          "計畫卡有回顧日期與三個決定選項。"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "編輯觀點：重點是『觀察』不是『打工』",
+          "text": "我認為這個方法最大的價值是強迫自己近距離看一家已運作的小企業。如果只是去做雜務而不觀察，就失去實驗意義，所以計畫卡裡的三個問題是關鍵。",
+          "sourceIds": [
+            "source"
+          ]
+        },
+        {
+          "title": "編輯補充：教師與學校的限制",
+          "text": "教師兼職有法規限制，若是在職教師想做類似嘗試，請先確認學校與主管機關的規定，再決定形式。",
+          "sourceIds": [
+            "source"
+          ]
+        }
+      ],
+      "status": "ready",
+      "publishedAt": "2026-11-09T20:00:00+08:00",
+      "overview": {
+        "kind": "infographic",
+        "image": "/assets/overviews/small-business-apprenticeship-low-risk-trial-desktop.webp",
+        "mobileImage": "/assets/overviews/small-business-apprenticeship-low-risk-trial-mobile.webp",
+        "cardImage": "/assets/overviews/small-business-apprenticeship-low-risk-trial-desktop.webp",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600,
+        "alt": "想創業又怕冒險：先去小企業見習，用低成本實驗保護自己：依本文核心關係整理的雙版資訊圖。",
+        "caption": "依來源方法製作的編輯整理；例子與操作安排為編輯設計，不代表成效保證。"
+      }
+    },
+    {
+      "id": "stress-awareness-threat-to-challenge",
+      "title": "壓力來時：先覺察身體，再把威脅反應轉成挑戰反應",
+      "summary": "一集 Huberman Lab 精華，訪談壓力研究者 Dr. Elissa Epel，談到壓力不一定有害，關鍵在反應。本文整理成一組日常小步驟：覺察身體緊繃、選一類做法、把心跳加快視為備戰、列出不能改變的事並練習接納。",
+      "categoryId": "reading",
+      "topicIds": [
+        "mindset",
+        "review"
+      ],
+      "level": "入門",
+      "minutes": 15,
+      "output": "一張壓力反應小卡（身體訊號／情境類型／重新解讀的一句話／不能改變的事）",
+      "audience": "長期處於工作、照顧或考試壓力下的成人與青少年",
+      "contentType": "article_method",
+      "reviewedAt": "2026-11-09",
+      "keywords": [
+        "壓力反應",
+        "威脅與挑戰",
+        "覺察身體",
+        "重新解讀",
+        "徹底接納",
+        "壓力韌性"
+      ],
+      "sourceCoverage": "英文本機 ASR 全文 00:00–24:39 之前段落（共約 35 分鐘音檔，已閱讀壓縮摘要），略過贊助廣告段落；研究結果與數字皆為來賓所述（節目稱），未另行查證原始論文，不構成醫療建議。「壓力反應小卡」為編輯補充。已閱讀保存的完整文字，不等於收聽或逐句校對原音檔。 本文步驟安排、示範與練習時長為編輯整理或補充，效果未驗證。",
+      "coverLabel": "編輯整理",
+      "sources": [
+        {
+          "id": "source",
+          "kind": "article",
+          "url": "https://www.hubermanlab.com/episode/essentials-manage-stress-and-build-resilience-elissa-epel",
+          "title": "Essentials: Manage Stress & Build Resilience | Dr. Elissa Epel",
+          "channel": "Huberman Lab",
+          "note": "集數連結取自 Notion 每日新知紀錄；英文來源改述，來源原述與編輯設計分開呈現。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "先分清楚：想法不是事實",
+          "action": "當腦中反覆出現同一個念頭，先寫下「我現在在想：＿＿」，標示這是念頭，不是已發生的事。",
+          "why": "節目稱反覆思考是常見的壓力來源，第一步是覺察念頭如何運作，不把想法當成事實。",
+          "example": "編輯示範：寫下「我在想：這次簡報一定會搞砸」，旁邊標上「念頭」。",
+          "check": "有一句標記為念頭的句子。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 0,
+              "endSeconds": 146
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "掃描身體：找出緊繃的位置",
+          "action": "每天固定兩個時間，例如午休前與睡前，花一分鐘掃過手、肩、下巴，標記哪裡在用力。",
+          "why": "節目稱現代人習慣壓力，常不自覺握拳，覺察身體緊繃是關鍵線索。",
+          "example": "編輯示範：發現自己握拳打字，肩膀抬高，放鬆三次呼吸。",
+          "check": "記下一個緊繃位置與放鬆後的感受。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 153,
+              "endSeconds": 298
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "挑一類做法：心態、身體或情境",
+          "action": "依當下情境選一類：調整信念（心態）、先釋放身體緊繃、或換環境並放上能提醒安全的物件。",
+          "why": "節目稱策略分三類：由上而下調整信念、藉身體改變心智、改變情境並設置安全信號，如寵物、照片、氣味、音樂。",
+          "example": "編輯示範：下班前先走十分鐘（身體），桌上放一張家人照片（情境）。",
+          "check": "寫下今天選哪一類與具體做法。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 153,
+              "endSeconds": 298
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "把心跳加速重新解讀成備戰",
+          "action": "壓力來臨前，對自己說一句準備好的話，例如「我的心跳加快，是身體在幫我準備」，再開始任務。",
+          "why": "節目稱挑戰型反應的血流與思考表現較佳，心態可帶動身體，並提到把壓力視為正面的受試者表現較好、恢復較快。",
+          "example": "節目原述：獅子與瞪羚同樣高壓，獅子視追獵為機會。編輯示範：上台前說「這是備戰，不是危險」。",
+          "check": "寫出一句可信的重新解讀話語。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 878,
+              "endSeconds": 1019
+            }
+          ]
+        },
+        {
+          "id": "step-5",
+          "title": "列出壓力，圈出無法改變的，練習接納",
+          "action": "寫出目前的壓力清單，圈起自己無法改變的，對那幾項練習「接受現狀」，少花力氣想解決或希望事情不同。",
+          "why": "節目稱無法改變的壓力要靠心態，視作「壞事不該發生」容易生受害感；來賓提到自己以接納取代期望。",
+          "example": "編輯示範：圈出『孩子的考試時間』，改寫成『我能做的是陪他複習』。",
+          "check": "清單上有圈起的項目與一句接納的話。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 1317,
+              "endSeconds": 1479
+            }
+          ]
+        },
+        {
+          "id": "step-6",
+          "title": "一週後回看，調整小卡",
+          "action": "把一週的緊繃位置、做法與重新解讀整理在小卡上，挑一個有效的繼續，其餘調整。",
+          "why": "這是編輯延伸：節目沒有給出固定流程，一週回顧能讓個人化的做法浮現。",
+          "example": "編輯示範：發現午休走路最有效，下週固定。",
+          "check": "小卡上有一個保留項與一個調整項。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 304,
+              "endSeconds": 452
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "操作順序",
+          "note": "編輯整理：依本文練習安排呈現；不是效果證據。",
+          "nodes": [
+            {
+              "id": "step-1",
+              "label": "先分清楚：想法不是事實",
+              "detail": "有一句標記為念頭的句子。"
+            },
+            {
+              "id": "step-2",
+              "label": "掃描身體：找出緊繃的位置",
+              "detail": "記下一個緊繃位置與放鬆後的感受。"
+            },
+            {
+              "id": "step-3",
+              "label": "挑一類做法：心態、身體或情境",
+              "detail": "寫下今天選哪一類與具體做法。"
+            },
+            {
+              "id": "step-4",
+              "label": "把心跳加速重新解讀成備戰",
+              "detail": "寫出一句可信的重新解讀話語。"
+            },
+            {
+              "id": "step-5",
+              "label": "列出壓力，圈出無法改變的，練習接納",
+              "detail": "清單上有圈起的項目與一句接納的話。"
+            },
+            {
+              "id": "step-6",
+              "label": "一週後回看，調整小卡",
+              "detail": "小卡上有一個保留項與一個調整項。"
+            }
+          ],
+          "edges": [
+            {
+              "from": "step-1",
+              "to": "step-2"
+            },
+            {
+              "from": "step-2",
+              "to": "step-3"
+            },
+            {
+              "from": "step-3",
+              "to": "step-4"
+            },
+            {
+              "from": "step-4",
+              "to": "step-5"
+            },
+            {
+              "from": "step-5",
+              "to": "step-6"
+            }
+          ]
+        },
+        {
+          "type": "schedule",
+          "title": "15 分鐘壓力小卡",
+          "note": "編輯自訂的起步示例。時間分配可調整，並非來源指定課表或研究結論。",
+          "columns": [
+            "做什麼",
+            "留下什麼"
+          ],
+          "rows": [
+            {
+              "label": "0–3 分鐘",
+              "cells": [
+                "標記念頭",
+                "一句念頭"
+              ]
+            },
+            {
+              "label": "3–6 分鐘",
+              "cells": [
+                "掃描身體",
+                "一個緊繃位置"
+              ]
+            },
+            {
+              "label": "6–9 分鐘",
+              "cells": [
+                "選一類做法",
+                "具體做法"
+              ]
+            },
+            {
+              "label": "9–12 分鐘",
+              "cells": [
+                "寫重新解讀的話",
+                "一句話"
+              ]
+            },
+            {
+              "label": "12–15 分鐘",
+              "cells": [
+                "列壓力並圈出不能改變的",
+                "清單"
+              ]
+            }
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "來源所述做法可依本文步驟重現",
+          "status": "partial",
+          "explanation": "本文步驟取自來源可辨識的段落並加上編輯整理；是否適合你的情境仍需自己試做與調整，來源未提供對照研究。",
+          "sourceIds": [
+            "source"
+          ],
+          "checkedAt": "2026-11-09"
+        },
+        {
+          "claim": "本文練習可改善理解或工作表現",
+          "status": "unverified",
+          "explanation": "來源為個人分享、案例或講解，未對本篇編輯練習進行對照測試；完成檢核僅代表留下可查看的產出。",
+          "sourceIds": [
+            "source"
+          ],
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "pitfalls": [
+        "把節目內容當作診斷或治療；長期焦慮、失眠或憂鬱請找專業人員。",
+        "硬把所有壓力都說成好事；節目也說慢性壓力會帶來負擔。",
+        "用重新解讀來壓抑感受；先承認難受，再談備戰。",
+        "對無法改變的事強迫自己立刻接納；可先從一小件開始。"
+      ],
+      "practice": {
+        "title": "編輯補充：我的壓力反應小卡",
+        "minutes": 15,
+        "prompt": "編輯補充：以下時間為建議試做安排，可自行調整。寫下一個念頭、一個緊繃位置、一句重新解讀與一件不能改變的事。",
+        "deliverable": "一張壓力反應小卡（身體訊號／情境類型／重新解讀的一句話／不能改變的事）",
+        "checklist": [
+          "有一句標記為念頭的句子。",
+          "記下一個緊繃位置與放鬆後的感受。",
+          "寫下今天選哪一類與具體做法。",
+          "寫出一句可信的重新解讀話語。",
+          "清單上有圈起的項目與一句接納的話。",
+          "小卡上有一個保留項與一個調整項。"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "編輯觀點：覺察比解法更重要",
+          "text": "我覺得這集最有用的是順序：先看到自己握拳，才談得上選哪個策略。許多人急著找解法，卻沒發現身體早就在報警。",
+          "sourceIds": [
+            "source"
+          ]
+        },
+        {
+          "title": "編輯補充：給教師與家長",
+          "text": "面對考前學生時，可以先帶他們掃描身體、說出一句備戰的話，而不是只說『不要緊張』。但不宜強迫孩子立即接受自己無法改變的事。",
+          "sourceIds": [
+            "source"
+          ]
+        }
+      ],
+      "status": "ready",
+      "publishedAt": "2026-11-09T20:00:00+08:00",
+      "overview": {
+        "kind": "infographic",
+        "image": "/assets/overviews/stress-awareness-threat-to-challenge-desktop.webp",
+        "mobileImage": "/assets/overviews/stress-awareness-threat-to-challenge-mobile.webp",
+        "cardImage": "/assets/overviews/stress-awareness-threat-to-challenge-desktop.webp",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600,
+        "alt": "壓力來時：先覺察身體，再把威脅反應轉成挑戰反應：依本文核心關係整理的雙版資訊圖。",
+        "caption": "依來源方法製作的編輯整理；例子與操作安排為編輯設計，不代表成效保證。"
+      }
+    },
+    {
+      "id": "two-plus-five-overwhelm-one-page",
+      "title": "忙到喘不過氣：一張紙的「2+5」計畫，守住每日小練習與五個小專案",
+      "summary": "生產力作家 Cal Newport 在節目中分享應付忙亂期的短期心理策略：每天固定做 2 項很小的練習，再列出 5 個無期限的小專案，一次推進一個。它不是時間管理的替代品，而是讓人在被瑣事淹沒時，仍保有未來感與自主感。本文整理成一張紙的做法。",
+      "categoryId": "reading",
+      "topicIds": [
+        "strategies",
+        "mindset"
+      ],
+      "level": "入門",
+      "minutes": 20,
+      "output": "一張紙的 2+5 清單（2 項每日練習／5 個小專案／下一個推進項／何時重設）",
+      "audience": "學期中被突發事務、會議與訊息壓得喘不過氣的教師與上班族",
+      "contentType": "video_method",
+      "reviewedAt": "2026-11-09",
+      "keywords": [
+        "2+5 計畫",
+        "旋風",
+        "每日練習",
+        "小專案",
+        "自主感",
+        "忙亂期",
+        "少做事"
+      ],
+      "sourceCoverage": "英文本機 ASR 全文 00:00–約 27 分，已閱讀壓縮摘要並核對時間碼；節目前段與中段的贊助與產品推薦（理財與電子郵件工具）不採用。講者的個人經驗與例子（如萬聖節燈光程式、健行）為講者所述，未查證成效，也沒有研究資料。「重設規則」與每週回看為編輯補充。已閱讀保存的完整文字，不等於觀看原片。 本文步驟安排、示範與練習時長為編輯整理或補充，效果未驗證。",
+      "coverLabel": "編輯整理",
+      "sources": [
+        {
+          "id": "source",
+          "kind": "video",
+          "provider": "youtube",
+          "videoId": "5_6sXI4Ka40",
+          "url": "https://www.youtube.com/watch?v=5_6sXI4Ka40",
+          "title": "A Single Sheet of Paper Can Fix Your Overwhelm",
+          "channel": "Cal Newport",
+          "note": "Notion 紀錄標題為播客版標題（Combating the Whirlwind with a Single Sheet of Paper）；YouTube 版標題不同，內容經核對為同一集主題，來源原述與編輯設計分開呈現。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "先承認：現在是「旋風期」，目標只是撐過去",
+          "action": "在紙上寫下目前同時壓著你的三件事，標上「這是暫時的旋風」，並把短期目標改成『讓生活過得下去』。",
+          "why": "講者稱數位訊息與突發事務會讓人隨時待命、生活變平淡，借用『旋風』一詞；這個方法是短期的心理策略，不是大目標。",
+          "example": "編輯示範：寫下『期中考週、公文、親師座談』，標上暫時旋風。",
+          "check": "紙上有三件壓力來源與一句暫時性說明。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 142,
+              "endSeconds": 426
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "挑 2 項「每天都做得到」的小練習",
+          "action": "選兩件每天花不到幾分鐘、不強制、但連結你在意之事的小習慣，列在紙的上半。",
+          "why": "講者稱練習是每天能做、耗時很少、不強制，卻連結在意之事的小習慣，用來維持未來感、興奮與當下感。",
+          "example": "影片原述：「聯絡一個人」最多約 5 分鐘；「午餐讀書」不看手機，讀一兩章。編輯示範：每天寫一句感謝、午餐後散步五分鐘。",
+          "check": "列出兩項，並各寫「做完的樣子」。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 430,
+              "endSeconds": 563
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "列出 5 個「無期限的小專案」",
+          "action": "寫下五件小而具體、可在數小時到數週內完成、沒有截止壓力的事，要選你做了會開心的。",
+          "why": "講者稱專案不必宏大，值得做的是做了會開心又有明確完成點的小事；他的例子包括分段課表、業餘程式小作品與一次健行。",
+          "example": "影片原述：一個約數小時完成的萬聖節燈光程式。編輯示範：整理照片、設定窗台小菜園、讀完一本薄書。",
+          "check": "紙上有五個專案，各有明確完成點。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 715,
+              "endSeconds": 848
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "每次只推進一項，做完才換新",
+          "action": "每週挑一個專案推進，劃掉完成的；清單不補新項，五項做完才重設。",
+          "why": "講者稱每次挑一項推進、約一週可完成，清單做完為止，不補新項，用以保持自主感與成效感。",
+          "example": "編輯示範：本週只做『整理照片』，其他四項先放著。",
+          "check": "紙上標出本週推進的一項。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 850,
+              "endSeconds": 964
+            }
+          ]
+        },
+        {
+          "id": "step-5",
+          "title": "把紙放在每天會看到的地方",
+          "action": "把清單印出來或寫在紙上，放在每天一定會看見的位置，每天只檢查一次兩項練習。",
+          "why": "講者稱把每日小練習印出來放在襪子抽屜，使每天都會看見；每天一點自選的事，能保有自主感。",
+          "example": "影片原述：放在襪子抽屜。編輯示範：貼在書桌側邊或手機錄音提醒。",
+          "check": "紙放在固定位置，並約好每天檢查的時間。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 966,
+              "endSeconds": 1100
+            }
+          ]
+        },
+        {
+          "id": "step-6",
+          "title": "旋風過後，回頭檢查承諾量",
+          "action": "忙亂期結束後，列出自己答應的專業與個人工作，檢視哪些不該再接，以減少下一次的旋風。",
+          "why": "講者稱 2+5 是短期應急，長期要從源頭檢視承諾與工作量，少做事；此步的回看日期與取捨為編輯整理。",
+          "example": "編輯示範：寫下本學期的所有承諾，下學期少接一項委員會。",
+          "check": "寫出一項要少接的承諾。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 1236,
+              "endSeconds": 1364
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "操作順序",
+          "note": "編輯整理：依本文練習安排呈現；不是效果證據。",
+          "nodes": [
+            {
+              "id": "step-1",
+              "label": "先承認：現在是「旋風期」，目標只是撐過去",
+              "detail": "紙上有三件壓力來源與一句暫時性說明。"
+            },
+            {
+              "id": "step-2",
+              "label": "挑 2 項「每天都做得到」的小練習",
+              "detail": "列出兩項，並各寫「做完的樣子」。"
+            },
+            {
+              "id": "step-3",
+              "label": "列出 5 個「無期限的小專案」",
+              "detail": "紙上有五個專案，各有明確完成點。"
+            },
+            {
+              "id": "step-4",
+              "label": "每次只推進一項，做完才換新",
+              "detail": "紙上標出本週推進的一項。"
+            },
+            {
+              "id": "step-5",
+              "label": "把紙放在每天會看到的地方",
+              "detail": "紙放在固定位置，並約好每天檢查的時間。"
+            },
+            {
+              "id": "step-6",
+              "label": "旋風過後，回頭檢查承諾量",
+              "detail": "寫出一項要少接的承諾。"
+            }
+          ],
+          "edges": [
+            {
+              "from": "step-1",
+              "to": "step-2"
+            },
+            {
+              "from": "step-2",
+              "to": "step-3"
+            },
+            {
+              "from": "step-3",
+              "to": "step-4"
+            },
+            {
+              "from": "step-4",
+              "to": "step-5"
+            },
+            {
+              "from": "step-5",
+              "to": "step-6"
+            }
+          ]
+        },
+        {
+          "type": "schedule",
+          "title": "20 分鐘排出這張紙",
+          "note": "編輯自訂的起步示例。時間分配可調整，並非來源指定課表或研究結論。",
+          "columns": [
+            "做什麼",
+            "留下什麼"
+          ],
+          "rows": [
+            {
+              "label": "0–4 分鐘",
+              "cells": [
+                "寫三個壓力來源",
+                "暫時旋風說明"
+              ]
+            },
+            {
+              "label": "4–9 分鐘",
+              "cells": [
+                "選 2 項每日練習",
+                "兩項練習"
+              ]
+            },
+            {
+              "label": "9–15 分鐘",
+              "cells": [
+                "列 5 個小專案",
+                "五個專案"
+              ]
+            },
+            {
+              "label": "15–18 分鐘",
+              "cells": [
+                "選本週推進項",
+                "一項"
+              ]
+            },
+            {
+              "label": "18–20 分鐘",
+              "cells": [
+                "放置位置與檢查時間",
+                "約定"
+              ]
+            }
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "來源所述做法可依本文步驟重現",
+          "status": "partial",
+          "explanation": "本文步驟取自來源可辨識的段落並加上編輯整理；是否適合你的情境仍需自己試做與調整，來源未提供對照研究。",
+          "sourceIds": [
+            "source"
+          ],
+          "checkedAt": "2026-11-09"
+        },
+        {
+          "claim": "本文練習可改善理解或工作表現",
+          "status": "unverified",
+          "explanation": "來源為個人分享、案例或講解，未對本篇編輯練習進行對照測試；完成檢核僅代表留下可查看的產出。",
+          "sourceIds": [
+            "source"
+          ],
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "pitfalls": [
+        "把五個專案都當待辦一起做；規則是一次推進一個。",
+        "把練習設得太大，結果忙時做不到；每項要小到再忙也做得到。",
+        "以為這張紙能取代時間管理；講者自己也說它獨立於其他規劃方式。",
+        "把清單當成績效要求，沒做就自責；它是用來保護心情的。"
+      ],
+      "practice": {
+        "title": "編輯補充：我的 2+5 一頁紙",
+        "minutes": 20,
+        "prompt": "編輯補充：以下時間為建議試做安排，可自行調整。寫下兩項每日練習與五個小專案，貼在每天會看到的地方，本週只推進一項。",
+        "deliverable": "一張紙的 2+5 清單（2 項每日練習／5 個小專案／下一個推進項／何時重設）",
+        "checklist": [
+          "紙上有三件壓力來源與一句暫時性說明。",
+          "列出兩項，並各寫「做完的樣子」。",
+          "紙上有五個專案，各有明確完成點。",
+          "紙上標出本週推進的一項。",
+          "紙放在固定位置，並約好每天檢查的時間。",
+          "寫出一項要少接的承諾。"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "編輯觀點：重點是『自選』",
+          "text": "我認為這個方法有效的關鍵是自選：兩項練習與五個專案都是自己想做的事，不是別人交代的。忙亂期最缺的就是自主感，所以刻意留一塊給自己。",
+          "sourceIds": [
+            "source"
+          ]
+        },
+        {
+          "title": "編輯補充：學期中的版本",
+          "text": "教師可以把五個專案設計成與教學無關的小事（例如整理相片、讀完一本書），避免『好像又多了工作』的心理負擔。",
+          "sourceIds": [
+            "source"
+          ]
+        }
+      ],
+      "status": "ready",
+      "publishedAt": "2026-11-09T20:00:00+08:00",
+      "overview": {
+        "kind": "infographic",
+        "image": "/assets/overviews/two-plus-five-overwhelm-one-page-desktop.webp",
+        "mobileImage": "/assets/overviews/two-plus-five-overwhelm-one-page-mobile.webp",
+        "cardImage": "/assets/overviews/two-plus-five-overwhelm-one-page-desktop.webp",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600,
+        "alt": "忙到喘不過氣：一張紙的「2+5」計畫，守住每日小練習與五個小專案：依本文核心關係整理的雙版資訊圖。",
+        "caption": "依來源方法製作的編輯整理；例子與操作安排為編輯設計，不代表成效保證。"
+      }
+    },
+    {
+      "id": "work-change-one-page-quantified-options",
+      "title": "老闆突然要提早上線：用一頁表把「趕不完」變成可選的方案",
+      "summary": "專案管理顧問在 Podcast 說，不是專案經理也常在做專案管理：被要求提早時，不要只說做不到或硬接，而是把任務、負責人、期限與依賴攤成一頁表，量化各方案的成本，讓主管能做選擇。本文整理成六步流程。",
+      "categoryId": "reading",
+      "topicIds": [
+        "strategies",
+        "mindset"
+      ],
+      "level": "進階",
+      "minutes": 25,
+      "output": "一頁專案現況表（任務／負責人／期限／依賴）與三個方案的成本比較",
+      "audience": "沒有專案經理頭銜、卻常被要求協調進度的教師與行政人員",
+      "contentType": "article_method",
+      "reviewedAt": "2026-11-09",
+      "keywords": [
+        "專案管理",
+        "量化",
+        "變更成本",
+        "負責人",
+        "視覺化",
+        "向上溝通"
+      ],
+      "sourceCoverage": "中文本機 ASR 全文 00:00–約 30 分，已閱讀壓縮摘要並核對時間碼；節目後段為課程介紹，不採用。講者的年資、案例與數字（如原計畫 12 項完成 5 項）皆為講者所述，未查證。「方案成本比較表」格式為編輯整理。已閱讀保存的完整文字，不等於收聽原音檔。 本文步驟安排、示範與練習時長為編輯整理或補充，效果未驗證。",
+      "coverLabel": "編輯整理",
+      "sources": [
+        {
+          "id": "source",
+          "kind": "article",
+          "url": "https://player.soundon.fm/p/6731d283-54f0-49ec-a040-e5a641c3125f/episodes/35826a5e-6d4d-4bf8-8f35-38e64e84c55f",
+          "title": "EP707 你的職稱不是PM，卻天天都在追進度、跟同事協調工作？那你很可能早就在做專案管理了！",
+          "channel": "大人的Small Talk",
+          "note": "集數連結取自 Notion 每日新知紀錄；中文來源，來源原述與編輯設計分開呈現。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "先拆工作，確認每件事有一個負責人",
+          "action": "把要交付的成果拆成可以一週內完成的小工作，每一項只寫一位負責人，不寫「大家」。",
+          "why": "講者稱工作要細拆，免得上線前才發現沒人負責；每個任務一位負責人，「大家做」等於沒人做。",
+          "example": "編輯示範：校慶海報分成文案、插圖、排版、印刷四項，各寫一位負責人。",
+          "check": "表上每一列都有一位負責人。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 1153,
+              "endSeconds": 1441
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "把任務、期限、依賴放進同一張表",
+          "action": "在一張表寫下每項任務的負責人、期限，以及誰在等誰。",
+          "why": "講者稱用單頁表單掌握任務、成本、人力、資源與時間，並以視覺化說服；例子是一項延後三天，後續任務會被壓縮。",
+          "example": "影片稱：原計畫 12 項完成 5 項、落後約兩成。編輯示範：插圖延後三天，排版和印刷也往後。",
+          "check": "表上看得出哪些任務會被連鎖影響。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 862,
+              "endSeconds": 1152
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "收到變更要求，先量化衝擊",
+          "action": "主管或客戶要求提早或改需求時，先算出三件事：範圍、時間、成本各受多少影響。",
+          "why": "講者稱範疇、時間、成本彼此牽動，量化後老闆才能合理判斷，而不是只聽到『趕不完』。",
+          "example": "編輯示範：提早兩天需要加一位排版人力，或減少兩頁內容。",
+          "check": "寫出變更的三項影響。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 584,
+              "endSeconds": 859
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "準備兩到三個方案，各附成本",
+          "action": "列出可選方案，例如減少範圍、加人、重新談優先順序，每一個都寫出代價。",
+          "why": "講者稱提出分版砍功能、加人、與客戶確認優先順序等路徑，並各附成本，能讓溝通聚焦在怎麼辦。",
+          "example": "影片稱：加人約需一週才能上手。編輯示範：方案 B 加人，成本是新人一週的訓練時間。",
+          "check": "至少三個方案，各有一句成本。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 584,
+              "endSeconds": 859
+            }
+          ]
+        },
+        {
+          "id": "step-5",
+          "title": "向上溝通：給選項，不只說做不到",
+          "action": "帶著一頁表與方案去談，開口先說已經想過怎麼辦，請主管在方案之間選擇。",
+          "why": "講者稱先想好第一反應、再分析、調整計畫，最後向上溝通；以數字佐證，也能用在協商加人。",
+          "example": "編輯示範：「依現況延後五天，我整理了三個方案請您選。」",
+          "check": "約好談話時間，並事前傳出一頁表。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 1442,
+              "endSeconds": 1836
+            }
+          ]
+        },
+        {
+          "id": "step-6",
+          "title": "決定後，更新表並固定回看",
+          "action": "決定方案後立即更新表，每週固定看一次落後與依賴，必要時再做一次變更評估。",
+          "why": "此步為編輯延伸：講者強調動態更新，但沒有給固定頻率；每週回看是方便實行的做法。",
+          "example": "編輯示範：每週五 10 分鐘更新，並標記風險。",
+          "check": "表上有更新日期與下次檢查時間。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 1153,
+              "endSeconds": 1441
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "操作順序",
+          "note": "編輯整理：依本文練習安排呈現；不是效果證據。",
+          "nodes": [
+            {
+              "id": "step-1",
+              "label": "先拆工作，確認每件事有一個負責人",
+              "detail": "表上每一列都有一位負責人。"
+            },
+            {
+              "id": "step-2",
+              "label": "把任務、期限、依賴放進同一張表",
+              "detail": "表上看得出哪些任務會被連鎖影響。"
+            },
+            {
+              "id": "step-3",
+              "label": "收到變更要求，先量化衝擊",
+              "detail": "寫出變更的三項影響。"
+            },
+            {
+              "id": "step-4",
+              "label": "準備兩到三個方案，各附成本",
+              "detail": "至少三個方案，各有一句成本。"
+            },
+            {
+              "id": "step-5",
+              "label": "向上溝通：給選項，不只說做不到",
+              "detail": "約好談話時間，並事前傳出一頁表。"
+            },
+            {
+              "id": "step-6",
+              "label": "決定後，更新表並固定回看",
+              "detail": "表上有更新日期與下次檢查時間。"
+            }
+          ],
+          "edges": [
+            {
+              "from": "step-1",
+              "to": "step-2"
+            },
+            {
+              "from": "step-2",
+              "to": "step-3"
+            },
+            {
+              "from": "step-3",
+              "to": "step-4"
+            },
+            {
+              "from": "step-4",
+              "to": "step-5"
+            },
+            {
+              "from": "step-5",
+              "to": "step-6"
+            }
+          ]
+        },
+        {
+          "type": "schedule",
+          "title": "25 分鐘做第一版",
+          "note": "編輯自訂的起步示例。時間分配可調整，並非來源指定課表或研究結論。",
+          "columns": [
+            "做什麼",
+            "留下什麼"
+          ],
+          "rows": [
+            {
+              "label": "0–7 分鐘",
+              "cells": [
+                "拆工作、寫負責人",
+                "任務列表"
+              ]
+            },
+            {
+              "label": "7–12 分鐘",
+              "cells": [
+                "補期限與依賴",
+                "一頁表"
+              ]
+            },
+            {
+              "label": "12–17 分鐘",
+              "cells": [
+                "量化變更衝擊",
+                "三項影響"
+              ]
+            },
+            {
+              "label": "17–22 分鐘",
+              "cells": [
+                "列兩到三個方案",
+                "方案成本表"
+              ]
+            },
+            {
+              "label": "22–25 分鐘",
+              "cells": [
+                "排向上溝通時間",
+                "約定時間"
+              ]
+            }
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "來源所述做法可依本文步驟重現",
+          "status": "partial",
+          "explanation": "本文步驟取自來源可辨識的段落並加上編輯整理；是否適合你的情境仍需自己試做與調整，來源未提供對照研究。",
+          "sourceIds": [
+            "source"
+          ],
+          "checkedAt": "2026-11-09"
+        },
+        {
+          "claim": "本文練習可改善理解或工作表現",
+          "status": "unverified",
+          "explanation": "來源為個人分享、案例或講解，未對本篇編輯練習進行對照測試；完成檢核僅代表留下可查看的產出。",
+          "sourceIds": [
+            "source"
+          ],
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "pitfalls": [
+        "把一頁表當成專案管理的全部；它只是溝通的起點。",
+        "只列困難，不列方案；主管會覺得只是在抱怨。",
+        "數字隨意估；至少用過去的實際工時校正。",
+        "把學生或同事的個資放進公開表；表格只寫工作與負責人。"
+      ],
+      "practice": {
+        "title": "編輯補充：我的一頁專案表",
+        "minutes": 25,
+        "prompt": "編輯補充：以下時間為建議試做安排，可自行調整。挑一個正在進行的活動，完成一頁表與三個方案，並約好向主管說明的時間。",
+        "deliverable": "一頁專案現況表（任務／負責人／期限／依賴）與三個方案的成本比較",
+        "checklist": [
+          "表上每一列都有一位負責人。",
+          "表上看得出哪些任務會被連鎖影響。",
+          "寫出變更的三項影響。",
+          "至少三個方案，各有一句成本。",
+          "約好談話時間，並事前傳出一頁表。",
+          "表上有更新日期與下次檢查時間。"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "編輯觀點：量化是為了給對方選擇",
+          "text": "我認為這集最有價值的是把『說不行』變成『請選』。這不只是技巧，也是對主管的尊重，因為他需要的是決策資訊，不是情緒。",
+          "sourceIds": [
+            "source"
+          ]
+        },
+        {
+          "title": "編輯補充：學校情境",
+          "text": "學校活動常因為臨時要求而調整，行政人員可以把表格放在共用文件上，讓各處室看到同一張表，減少口頭傳話的落差。",
+          "sourceIds": [
+            "source"
+          ]
+        }
+      ],
+      "status": "ready",
+      "publishedAt": "2026-11-09T20:00:00+08:00",
+      "overview": {
+        "kind": "infographic",
+        "image": "/assets/overviews/work-change-one-page-quantified-options-desktop.webp",
+        "mobileImage": "/assets/overviews/work-change-one-page-quantified-options-mobile.webp",
+        "cardImage": "/assets/overviews/work-change-one-page-quantified-options-desktop.webp",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600,
+        "alt": "老闆突然要提早上線：用一頁表把「趕不完」變成可選的方案：依本文核心關係整理的雙版資訊圖。",
+        "caption": "依來源方法製作的編輯整理；例子與操作安排為編輯設計，不代表成效保證。"
+      }
+    },
+    {
+      "id": "workplace-soft-request-positive-intent",
+      "title": "請同事幫忙不踩雷：先體諒、說原因，再用正向意圖開頭",
+      "summary": "一集職場溝通訪談，談到「高情商不是委屈求全」：請託時先體諒對方忙碌、說明急迫原因，指出問題時先說對方的正向意圖，再把期限改成檢查點。本文整理成一套請託話術與三個檢查動作。",
+      "categoryId": "reading",
+      "topicIds": [
+        "strategies",
+        "mindset"
+      ],
+      "level": "入門",
+      "minutes": 20,
+      "output": "一張請託話術卡（體諒句／原因句／正向意圖句／三個時段／檢查點）",
+      "audience": "需要跨部門協調、帶學生活動或請同事協助的教師與上班族",
+      "contentType": "video_method",
+      "reviewedAt": "2026-11-09",
+      "keywords": [
+        "請託",
+        "正向意圖",
+        "柔性溝通",
+        "三個時段",
+        "檢查點",
+        "溝通風格"
+      ],
+      "sourceCoverage": "中文本機 ASR 全文 00:00–54:46，已閱讀壓縮摘要並核對時間碼；ASR 有少量同音字，不影響步驟。訪談中的案例與職場情境為講者所述，未查證成效。「話術卡」為編輯補充。已閱讀保存的完整文字，不等於觀看原片。本篇只取請託與提出問題的流程；另一篇取情緒調節。 本文步驟安排、示範與練習時長為編輯整理或補充，效果未驗證。",
+      "coverLabel": "編輯整理",
+      "sources": [
+        {
+          "id": "source",
+          "kind": "video",
+          "provider": "youtube",
+          "videoId": "RyRlVacXqgo",
+          "url": "https://www.youtube.com/watch?v=RyRlVacXqgo",
+          "title": "EP93 好好說話，不代表什麼都要答應！怎麼拒絕、怎麼談合作？職場溝通 ft. 陳煥庭",
+          "channel": "人生解扣方程式",
+          "note": "由 Notion 每日新知紀錄的 YouTube 連結核對；Notion 標題為節目前段，來源原述與編輯設計分開呈現。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "請託先體諒，再說明急迫的原因",
+          "action": "開口前先寫兩句：一句承認對方很忙，一句說明這件事為什麼現在需要，並問對方能不能不打亂手邊工作地幫忙。",
+          "why": "講者稱有溫度、有原則的請託，先體諒對方，說明緊急原因，再問能否在不打擾現有工作下協助。",
+          "example": "影片原述：「劉姐，抱歉打擾，下午老闆真的需要這份資料，麻煩你了。」",
+          "check": "寫出體諒句與原因句各一句。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 0,
+              "endSeconds": 286
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "把質問句改成想知道的句子",
+          "action": "找出自己常用的催促語，改成一句問時間的話，語氣放慢但態度保持堅定。",
+          "why": "講者稱語氣嗆會讓對方覺得被打擾，柔軟的請求才是高情商的表達；溝通要先調整自己。",
+          "example": "影片原述：「你到底要拖多久？」改成「這件事能讓我知道何時完成嗎？」",
+          "check": "改寫三句催促語。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 288,
+              "endSeconds": 569
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "依對方的風格調整說法",
+          "action": "用一個問題觀察對方：喜歡先看重點與圖表、喜歡聽例子、還是需要停下來想？再決定怎麼開場。",
+          "why": "講者依 NLP 風格說：視覺型要直說重點給架構、聽覺型多用故事與例子、感覺型的停頓是細膩，不是慢，要給時間。",
+          "example": "編輯示範：對喜歡看圖的主管，附一張表格；對需要思考的同事，先傳訊息再約時間。",
+          "check": "為一位常合作的對象寫下「我會怎麼說」。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 570,
+              "endSeconds": 839
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "指出問題前，先說對方的正向意圖",
+          "action": "先用一句話說對方做得好的地方或出發點，再點出影響，句子中少用「但是」，多用「我們」。",
+          "why": "講者稱錯誤行為背後多有正向意圖，先說出來可降低反感；例子是『你做事有效率，但急重快易造成壓力』。",
+          "example": "編輯示範：「你很快回覆，我們一起想想怎麼讓大家更有餘裕。」",
+          "check": "改寫一句指責句為正向意圖開頭。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 1958,
+              "endSeconds": 2231
+            }
+          ]
+        },
+        {
+          "id": "step-5",
+          "title": "約時間給三個選項，並設檢查點",
+          "action": "提出三個時段讓對方選；對方沒定下來就主動追蹤；期限之前設一個中途檢查點，別把期限當完成日。",
+          "why": "講者稱約定時間可提三個時段，若對方當下無法決定要追蹤，否則容易無疾而終；也建議設檢查點，讓對方說出時間。",
+          "example": "編輯示範：週三下午、週四上午、週五中午三選一；週四先看初稿。",
+          "check": "寫出三個時段與一個檢查日期。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 2232,
+              "endSeconds": 2530
+            }
+          ]
+        },
+        {
+          "id": "step-6",
+          "title": "事後感謝並回報結果",
+          "action": "完成後花一分鐘說謝謝，並說明這件事如何幫到你，下次請託就更容易。",
+          "why": "此步為編輯延伸：講者提到平時建立關係、事後真誠感謝，能讓跨部門協助更順利。",
+          "example": "編輯示範：「謝謝你的資料，今天報告順利，你的表格很有用。」",
+          "check": "寫出一句感謝與一句結果回報。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 2833,
+              "endSeconds": 3096
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "操作順序",
+          "note": "編輯整理：依本文練習安排呈現；不是效果證據。",
+          "nodes": [
+            {
+              "id": "step-1",
+              "label": "請託先體諒，再說明急迫的原因",
+              "detail": "寫出體諒句與原因句各一句。"
+            },
+            {
+              "id": "step-2",
+              "label": "把質問句改成想知道的句子",
+              "detail": "改寫三句催促語。"
+            },
+            {
+              "id": "step-3",
+              "label": "依對方的風格調整說法",
+              "detail": "為一位常合作的對象寫下「我會怎麼說」。"
+            },
+            {
+              "id": "step-4",
+              "label": "指出問題前，先說對方的正向意圖",
+              "detail": "改寫一句指責句為正向意圖開頭。"
+            },
+            {
+              "id": "step-5",
+              "label": "約時間給三個選項，並設檢查點",
+              "detail": "寫出三個時段與一個檢查日期。"
+            },
+            {
+              "id": "step-6",
+              "label": "事後感謝並回報結果",
+              "detail": "寫出一句感謝與一句結果回報。"
+            }
+          ],
+          "edges": [
+            {
+              "from": "step-1",
+              "to": "step-2"
+            },
+            {
+              "from": "step-2",
+              "to": "step-3"
+            },
+            {
+              "from": "step-3",
+              "to": "step-4"
+            },
+            {
+              "from": "step-4",
+              "to": "step-5"
+            },
+            {
+              "from": "step-5",
+              "to": "step-6"
+            }
+          ]
+        },
+        {
+          "type": "schedule",
+          "title": "20 分鐘整理話術卡",
+          "note": "編輯自訂的起步示例。時間分配可調整，並非來源指定課表或研究結論。",
+          "columns": [
+            "做什麼",
+            "留下什麼"
+          ],
+          "rows": [
+            {
+              "label": "0–4 分鐘",
+              "cells": [
+                "寫體諒句與原因句",
+                "兩句開場"
+              ]
+            },
+            {
+              "label": "4–8 分鐘",
+              "cells": [
+                "改寫催促語",
+                "三句改寫"
+              ]
+            },
+            {
+              "label": "8–12 分鐘",
+              "cells": [
+                "為一位對象寫風格",
+                "一段備註"
+              ]
+            },
+            {
+              "label": "12–16 分鐘",
+              "cells": [
+                "寫正向意圖句",
+                "一句"
+              ]
+            },
+            {
+              "label": "16–20 分鐘",
+              "cells": [
+                "排三個時段與檢查點",
+                "一個約定"
+              ]
+            }
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "來源所述做法可依本文步驟重現",
+          "status": "partial",
+          "explanation": "本文步驟取自來源可辨識的段落並加上編輯整理；是否適合你的情境仍需自己試做與調整，來源未提供對照研究。",
+          "sourceIds": [
+            "source"
+          ],
+          "checkedAt": "2026-11-09"
+        },
+        {
+          "claim": "本文練習可改善理解或工作表現",
+          "status": "unverified",
+          "explanation": "來源為個人分享、案例或講解，未對本篇編輯練習進行對照測試；完成檢核僅代表留下可查看的產出。",
+          "sourceIds": [
+            "source"
+          ],
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "pitfalls": [
+        "把話術當成操控；目的是讓對方願意協助，不是讓對方不能拒絕。",
+        "用「正向意圖」包裝批評；如果實際在責備，對方聽得出來。",
+        "把風格分類當成貼標籤；同一個人在不同情境可能改變。",
+        "只重話術、不重平時關係；關係不佳時方法再對也不容易有效。"
+      ],
+      "practice": {
+        "title": "編輯補充：我的請託話術卡",
+        "minutes": 20,
+        "prompt": "編輯補充：以下時間為建議試做安排，可自行調整。挑一件下週要請同事幫忙的事，寫完話術卡，並約好檢查點。",
+        "deliverable": "一張請託話術卡（體諒句／原因句／正向意圖句／三個時段／檢查點）",
+        "checklist": [
+          "寫出體諒句與原因句各一句。",
+          "改寫三句催促語。",
+          "為一位常合作的對象寫下「我會怎麼說」。",
+          "改寫一句指責句為正向意圖開頭。",
+          "寫出三個時段與一個檢查日期。",
+          "寫出一句感謝與一句結果回報。"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "編輯觀點：話術是關係的最後一哩",
+          "text": "我認為這集最值得記的是『關係先於方法』：平常有往來，一句柔和的請託就夠；沒有往來，話術再好也像在套公式。",
+          "sourceIds": [
+            "source"
+          ]
+        },
+        {
+          "title": "編輯補充：學校情境",
+          "text": "教務處與各處室互相請託很常見，可以先把『體諒、原因、時段』三項放進公告或訊息範本，讓每次請託都有一致格式。",
+          "sourceIds": [
+            "source"
+          ]
+        }
+      ],
+      "status": "ready",
+      "publishedAt": "2026-11-09T20:00:00+08:00",
+      "overview": {
+        "kind": "infographic",
+        "image": "/assets/overviews/workplace-soft-request-positive-intent-desktop.webp",
+        "mobileImage": "/assets/overviews/workplace-soft-request-positive-intent-mobile.webp",
+        "cardImage": "/assets/overviews/workplace-soft-request-positive-intent-desktop.webp",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600,
+        "alt": "請同事幫忙不踩雷：先體諒、說原因，再用正向意圖開頭：依本文核心關係整理的雙版資訊圖。",
+        "caption": "依來源方法製作的編輯整理；例子與操作安排為編輯設計，不代表成效保證。"
+      }
+    },
+    {
+      "id": "abc-belief-five-questions-before-reacting",
+      "title": "被惹毛的當下：用 ABC 與五個提問，找出你的「理所當然」",
+      "summary": "導讀影片介紹，同一件事會因為信念不同而有不同反應。本文整理成五步自我提問：先寫事件，再寫信念與情緒，找口頭禪，用五問自省，最後換一個更有彈性的信念。",
+      "categoryId": "reading",
+      "topicIds": [
+        "mindset"
+      ],
+      "level": "入門",
+      "minutes": 20,
+      "output": "一張包含事件、信念、情緒、口頭禪、五個自問與替代信念的 ABC 提問卡",
+      "audience": "情緒容易被同事、家人或學生事件觸動，想先看懂自己的反應的成人",
+      "contentType": "video_method",
+      "reviewedAt": "2026-11-09",
+      "keywords": [
+        "ABC 理論",
+        "理所當然",
+        "信念",
+        "自我覺察",
+        "情緒"
+      ],
+      "sourceCoverage": "中文語音辨識全文約 56 分鐘，片長 3351 秒；內容為導讀者對書的轉述，艾利斯 ABC 理論與書中案例未回查原書；非心理治療或診斷建議。取 1605–2172 秒。 本文步驟、示範與練習安排為編輯整理或補充，效果未驗證。",
+      "coverLabel": "編輯整理",
+      "sources": [
+        {
+          "id": "source",
+          "title": "閱讀人專題讀書會《初級大人找回自我的心理練習》閱讀人導讀",
+          "url": "https://www.youtube.com/watch?v=XMPsmVrT5Yc",
+          "kind": "video",
+          "provider": "youtube",
+          "videoId": "XMPsmVrT5Yc",
+          "channel": "閱讀人 鄭俊德",
+          "note": "由 Notion 紀錄與中繼資料比對取得原片；內容為導讀者對書的轉述，來源原述與編輯設計分開呈現。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "寫下事件，只寫看得見的事實",
+          "action": "用一句話寫下發生什麼事（A），不加入解讀。",
+          "why": "導讀指出外在刺激是中性的，情緒取決於內在信念；例子是好友已讀不回。",
+          "example": "編輯示範：同事對我的提案只回了「好」就沒再說話。",
+          "check": "這句話沒有「他故意」「他看不起我」這類推測。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 1605,
+              "endSeconds": 1873
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "寫下當下的第一個想法和情緒",
+          "action": "寫下你的信念（B）與情緒反應（C）：體諒、自我懷疑，或憤怒。",
+          "why": "導讀的例子是同樣已讀不回，可能反應為體諒、自我懷疑或憤怒報復；同一事件會因信念不同而反應不同。",
+          "example": "編輯示範：B 是「他不重視我的努力」，C 是生氣與沮喪。",
+          "check": "寫出一個信念和一個情緒詞。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 1605,
+              "endSeconds": 1873
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "找出你的口頭禪：「理所當然」「一定要」",
+          "action": "看看你的信念裡有沒有「應該」「理所當然」「一定如此」，標出來。",
+          "why": "導讀稱口頭禪「理所當然」「一定如此」代表固化的信念，容易引爆衝突；僵化的信念可能是過去受傷後的防護盾。",
+          "example": "編輯示範：「同事理所當然要回覆」→ 標記為固化信念。",
+          "check": "至少找出一個「應該」。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 1605,
+              "endSeconds": 1873
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "用五問自省：難過在哪、不適原因、敏感來由、判斷標準、看見自己什麼",
+          "action": "依序回答五個問題，每題只寫一兩句。",
+          "why": "導讀稱做法是五問自省，包括難過何處、不適原因、敏感來由、判斷標準，以及從中看見自己什麼。",
+          "example": "編輯示範：我最難過的是「沒被看見」，判斷標準是「有回應才算尊重」。",
+          "check": "五題都有答案，且至少一題與過去經驗有關。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 1873,
+              "endSeconds": 2172
+            }
+          ]
+        },
+        {
+          "id": "step-5",
+          "title": "把「一定」換成可以有彈性的信念，再行動",
+          "action": "把固化信念改寫成更有彈性的版本，並決定一個小行動。",
+          "why": "導讀的例子是演講者面對台下睡覺的人，若想成「可能太累」，就能包容並照常分享。",
+          "example": "編輯示範：改成「他可能還在想，我可以明天再問一次」，行動是隔天傳一句話確認。",
+          "check": "新信念沒有「一定」，且有一個小行動。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 1873,
+              "endSeconds": 2172
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "操作順序",
+          "note": "編輯整理：依本文練習安排呈現；箭頭表示建議順序，不是效果證據。",
+          "nodes": [
+            {
+              "id": "step-1",
+              "label": "寫下事件，只寫看得見的事實",
+              "detail": "這句話沒有「他故意」「他看不起我」這類推測。"
+            },
+            {
+              "id": "step-2",
+              "label": "寫下當下的第一個想法和情緒",
+              "detail": "寫出一個信念和一個情緒詞。"
+            },
+            {
+              "id": "step-3",
+              "label": "找出你的口頭禪：「理所當然」「一定要」",
+              "detail": "至少找出一個「應該」。"
+            },
+            {
+              "id": "step-4",
+              "label": "用五問自省：難過在哪、不適原因、敏感來由、判斷標準、看見自己什麼",
+              "detail": "五題都有答案，且至少一題與過去經驗有關。"
+            },
+            {
+              "id": "step-5",
+              "label": "把「一定」換成可以有彈性的信念，再行動",
+              "detail": "新信念沒有「一定」，且有一個小行動。"
+            }
+          ],
+          "edges": [
+            {
+              "from": "step-1",
+              "to": "step-2"
+            },
+            {
+              "from": "step-2",
+              "to": "step-3"
+            },
+            {
+              "from": "step-3",
+              "to": "step-4"
+            },
+            {
+              "from": "step-4",
+              "to": "step-5"
+            }
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "本文練習能在實際情境產生預期改善",
+          "status": "unverified",
+          "explanation": "來源為個人分享、節目討論或工具示範；未對本篇編輯練習進行對照測試，完成檢核僅代表留下可查看的產出，不宣稱長期效果或因果。",
+          "sourceIds": [
+            "source"
+          ],
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "pitfalls": [
+        "把改寫信念變成否認自己的感受；情緒本身是訊號，先承認再轉換。",
+        "用五問自省反覆責怪自己；重點是理解，而非批評。",
+        "長期情緒困擾或嚴重影響生活時，應尋求專業協助。"
+      ],
+      "practice": {
+        "title": "編輯補充：20分鐘試作",
+        "minutes": 20,
+        "prompt": "編輯補充：20分鐘為試作安排，可依自己的情境調整。選一件最近被惹毛的小事，完成五步 ABC 提問卡。",
+        "deliverable": "一張包含事件、信念、情緒、口頭禪、五個自問與替代信念的 ABC 提問卡",
+        "checklist": [
+          "這句話沒有「他故意」「他看不起我」這類推測。",
+          "寫出一個信念和一個情緒詞。",
+          "至少找出一個「應該」。",
+          "五題都有答案，且至少一題與過去經驗有關。",
+          "新信念沒有「一定」，且有一個小行動。"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "編輯補充：可複製模板",
+          "text": "編輯補充模板：A 事件：＿＿；B 信念：＿＿；C 情緒與行為：＿＿；我的「理所當然」：＿＿；五問答案：＿＿；替代信念與小行動：＿＿。",
+          "sourceIds": [
+            "source"
+          ]
+        },
+        {
+          "title": "編輯觀點：先看懂自己的「一定」",
+          "text": "編輯觀點：我覺得 ABC 的價值在於把「他讓我生氣」改成「我是怎麼解讀的」。但這份內容是導讀者對書的轉述，不是治療步驟；嚴重情緒困擾時請交給專業人員。",
+          "sourceIds": [
+            "source"
+          ]
+        }
+      ],
+      "status": "ready",
+      "publishedAt": "2026-11-09T20:00:00+08:00",
+      "overview": {
+        "kind": "infographic",
+        "image": "/assets/overviews/abc-belief-five-questions-before-reacting-desktop.webp",
+        "mobileImage": "/assets/overviews/abc-belief-five-questions-before-reacting-mobile.webp",
+        "cardImage": "/assets/overviews/abc-belief-five-questions-before-reacting-desktop.webp",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600,
+        "alt": "被惹毛的當下：用 ABC 與五個提問，找出你的「理所當然」：依本文核心關係整理的雙版資訊圖。",
+        "caption": "依來源方法製作的編輯整理；例子與操作安排為編輯設計，不代表成效保證。"
+      }
+    },
+    {
+      "id": "attention-transition-we-lead-and-check-listening",
+      "title": "叫不應不一定是不專心：用「我們」帶孩子轉換，再確認他真的聽懂",
+      "summary": "節目從語言治療師的角度說明，孩子沉浸在喜歡的事時叫不應，可能是注意力正放在別處。本文整理成五步：先分辨、漸進提醒、用「我們」帶、減少干擾，最後不用「我剛說什麼」而用換句話說來確認聽懂。",
+      "categoryId": "reading",
+      "topicIds": [
+        "parenting"
+      ],
+      "level": "入門",
+      "minutes": 20,
+      "output": "一張包含一個常見轉換情境、提醒順序、邀請句與聽懂確認問法的家長行動卡",
+      "audience": "常需要叫孩子吃飯、寫作業或換活動的家長與老師",
+      "contentType": "article_method",
+      "reviewedAt": "2026-11-09",
+      "keywords": [
+        "注意力轉換",
+        "漸進提醒",
+        "我們開頭",
+        "確認聽懂",
+        "共同關注"
+      ],
+      "sourceCoverage": "中文本機語音辨識（Groq whisper）全文約 36 分鐘；取 0–1917 秒。節目涉及過動與診斷的說明未採用為本文步驟；本文只整理日常溝通做法，不做診斷或醫療建議。 本文步驟、示範與練習安排為編輯整理或補充，效果未驗證。",
+      "coverLabel": "編輯整理",
+      "sources": [
+        {
+          "id": "source",
+          "title": "2026-10-24 🎙 ADHD過動兒12歲前，比他人多吸收了兩萬次負面語言！提升專注力，給父母的超實用錦囊 ft. 好好老師語言治療師｜《焦慮爸媽診聊室》親子學特別企劃EP.02",
+          "url": "https://player.soundon.fm/p/f5ef415f-481b-4374-a939-1dfb794d847e/episodes/0b2676fe-91aa-4cc0-afbb-d0a878880097",
+          "kind": "article",
+          "channel": "親子天下Podcast",
+          "note": "由 Notion 紀錄取得 SoundOn 集數頁；依本機語音辨識編輯，非逐句聽校。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "先分辨：是沒聽到，還是注意力正放在別處",
+          "action": "回想孩子叫不應的場景：他正在做什麼、是不是他喜歡的事。把孩子的專心與叫喚當成兩種訊號來看。",
+          "why": "節目說玩樂高是目標訊號，叫吃飯是干擾訊號，孩子不一定能分辨；只看單一事件不足以說他沒有專注力。",
+          "example": "編輯示範：小朋友玩積木時叫三次沒回應，先記下「正在拼最後一塊」。",
+          "check": "能寫出孩子當時專注的是什麼。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 0,
+              "endSeconds": 286
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "轉換前先漸進提醒，不直接大喊",
+          "action": "先走近，收掉旁邊不用的玩具、搭手在肩上輕聲提醒，或用計時器事先約好。",
+          "why": "節目說干擾應該漸進，先讓孩子感受到「要換了」，比一次叫名字更有效；也可以依孩子的容量決定提醒方式。",
+          "example": "編輯示範：先說「再兩分鐘」，鈴響時再說「該吃飯了」。",
+          "check": "寫下由輕到重的三個提醒步驟。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 287,
+              "endSeconds": 566
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "用「我們」開頭，拿孩子喜歡的東西帶他走",
+          "action": "用「我們去……」邀請，拿孩子喜歡的物件當引導，把干擾變成下一個目標。",
+          "why": "節目稱以「我們」開頭、由前面引導，比在後面推更有用，例如「寶貝，我們去看鴨鴨」。",
+          "example": "編輯示範：把玩具車帶到餐桌：「我們讓車子去吃飯」。",
+          "check": "寫出一個邀請句，句子裡有「我們」。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 1112,
+              "endSeconds": 1389
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "說重要的話時，先減少干擾並一起看同一件事",
+          "action": "先關掉電視或靜音，說話時採 90 度的座位而不是並肩，找一個大家共同注意的東西。",
+          "why": "節目提到吃飯時電視會分心、90 度座位方便眼神接觸，並用家長、孩子、共同關注事物的「注意力三角形」。",
+          "example": "編輯示範：一起看桌上掉的鑰匙，再說「那是我們要出門用的」。",
+          "check": "說話前已完成減干擾的一個動作。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 1392,
+              "endSeconds": 1660
+            }
+          ]
+        },
+        {
+          "id": "step-5",
+          "title": "不問「我剛說什麼」，改用換句話說確認聽懂",
+          "action": "用關鍵字、挖空填字、換句話說來確認；孩子沒回應時依序改成選擇題、是非題、連連看。",
+          "why": "節目稱直接問「剛說什麼」是無效溝通，應換成能讓孩子表達理解的形式。",
+          "example": "編輯示範：說「紅綠燈亮了要怎樣？」讓孩子填「停下來」。",
+          "check": "寫出兩種不同問法，並在孩子沒回應時有備用題型。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 1662,
+              "endSeconds": 1917
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "操作順序",
+          "note": "編輯整理：依本文練習安排呈現；箭頭表示建議順序，不是效果證據。",
+          "nodes": [
+            {
+              "id": "step-1",
+              "label": "先分辨：是沒聽到，還是注意力正放在別處",
+              "detail": "能寫出孩子當時專注的是什麼。"
+            },
+            {
+              "id": "step-2",
+              "label": "轉換前先漸進提醒，不直接大喊",
+              "detail": "寫下由輕到重的三個提醒步驟。"
+            },
+            {
+              "id": "step-3",
+              "label": "用「我們」開頭，拿孩子喜歡的東西帶他走",
+              "detail": "寫出一個邀請句，句子裡有「我們」。"
+            },
+            {
+              "id": "step-4",
+              "label": "說重要的話時，先減少干擾並一起看同一件事",
+              "detail": "說話前已完成減干擾的一個動作。"
+            },
+            {
+              "id": "step-5",
+              "label": "不問「我剛說什麼」，改用換句話說確認聽懂",
+              "detail": "寫出兩種不同問法，並在孩子沒回應時有備用題型。"
+            }
+          ],
+          "edges": [
+            {
+              "from": "step-1",
+              "to": "step-2"
+            },
+            {
+              "from": "step-2",
+              "to": "step-3"
+            },
+            {
+              "from": "step-3",
+              "to": "step-4"
+            },
+            {
+              "from": "step-4",
+              "to": "step-5"
+            }
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "本文練習能在實際情境產生預期改善",
+          "status": "unverified",
+          "explanation": "來源為個人分享、節目討論或工具示範；未對本篇編輯練習進行對照測試，完成檢核僅代表留下可查看的產出，不宣稱長期效果或因果。",
+          "sourceIds": [
+            "source"
+          ],
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "pitfalls": [
+        "把本文當成診斷依據；懷疑有注意力問題時應請專業人員評估。",
+        "只用「看著我的眼睛」要求眼神接觸，孩子可能只是放空。",
+        "每次提醒都帶指責的語氣，孩子容易把提醒當成負面標籤。"
+      ],
+      "practice": {
+        "title": "編輯補充：20分鐘試作",
+        "minutes": 20,
+        "prompt": "編輯補充：20分鐘為試作安排，可依自己的情境調整。選一個每天都會發生的轉換情境，寫出漸進提醒、邀請句與兩種確認聽懂的問法，並用一週。",
+        "deliverable": "一張包含一個常見轉換情境、提醒順序、邀請句與聽懂確認問法的家長行動卡",
+        "checklist": [
+          "能寫出孩子當時專注的是什麼。",
+          "寫下由輕到重的三個提醒步驟。",
+          "寫出一個邀請句，句子裡有「我們」。",
+          "說話前已完成減干擾的一個動作。",
+          "寫出兩種不同問法，並在孩子沒回應時有備用題型。"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "編輯補充：可複製模板",
+          "text": "編輯補充模板：轉換情境：＿＿；孩子正專注的事：＿＿；三級提醒：＿＿；「我們」邀請句：＿＿；減干擾動作：＿＿；確認聽懂的兩種問法：＿＿。",
+          "sourceIds": [
+            "source"
+          ]
+        },
+        {
+          "title": "編輯觀點：先看孩子在專注什麼",
+          "text": "編輯觀點：我覺得節目的好處是先為孩子的「叫不應」找一個合理解釋，再給可操作的語言。但這些做法來自單一來賓的經驗，沒有對照研究；若孩子在多個場合都有明顯困難，仍建議諮詢專業人員。",
+          "sourceIds": [
+            "source"
+          ]
+        }
+      ],
+      "status": "ready",
+      "publishedAt": "2026-11-09T20:00:00+08:00",
+      "overview": {
+        "kind": "infographic",
+        "image": "/assets/overviews/attention-transition-we-lead-and-check-listening-desktop.webp",
+        "mobileImage": "/assets/overviews/attention-transition-we-lead-and-check-listening-mobile.webp",
+        "cardImage": "/assets/overviews/attention-transition-we-lead-and-check-listening-desktop.webp",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600,
+        "alt": "叫不應不一定是不專心：用「我們」帶孩子轉換，再確認他真的聽懂：依本文核心關係整理的雙版資訊圖。",
+        "caption": "依來源方法製作的編輯整理；例子與操作安排為編輯設計，不代表成效保證。"
+      }
+    },
+    {
+      "id": "claude-code-mod-pick-by-pain-point-and-verify",
+      "title": "要不要加 Claude Code 外掛：先寫痛點，再分「看得見、擋得住、少動手」三組",
+      "summary": "影片整理社群外掛的常見需求：看用量與快取、避免多個對話改到同一檔案、危險操作先停下。本文整理成五步選用流程：寫痛點、選一組、先確認外掛是否連網、小範圍試用，再決定是否保留。",
+      "categoryId": "ai",
+      "topicIds": [
+        "claude",
+        "workflow"
+      ],
+      "level": "入門",
+      "minutes": 20,
+      "output": "一張包含痛點清單、選用的外掛類型、安全檢查、試用紀錄與保留決定的外掛評估卡",
+      "audience": "已在使用 Claude Code、想加強用量掌握與操作安全的進階使用者",
+      "contentType": "video_method",
+      "reviewedAt": "2026-11-09",
+      "keywords": [
+        "Claude Code",
+        "外掛",
+        "用量與快取",
+        "撞車警報",
+        "交接摘要"
+      ],
+      "sourceCoverage": "中文語音辨識全文約 9:50，片長 592 秒；影片中的外掛數量、快取時間與各項功能均為影片自述，未實測；本文不整理任何安裝指令，也不採用影片中的具體外掛名稱作為推薦。取 0–590 秒。 本文步驟、示範與練習安排為編輯整理或補充，效果未驗證。",
+      "coverLabel": "編輯整理",
+      "sources": [
+        {
+          "id": "source",
+          "title": "EP421 - Claude Code Mods 實用篇：社群兩千多個 mod，最值得開著的六個",
+          "url": "https://www.youtube.com/watch?v=akXACpd4ulg",
+          "kind": "video",
+          "provider": "youtube",
+          "videoId": "akXACpd4ulg",
+          "channel": "AI懶人報",
+          "note": "由 Notion 紀錄與標題比對取得原片；影片稱的數字未實測。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "先寫下你實際遇過的痛點",
+          "action": "回想最近使用時卡住的地方：看不到用量、同時開兩個對話改同一份檔案、擔心危險指令、對話太長變慢。",
+          "why": "影片稱社群常見痛點是看不到用量與快取、雙開改同檔易衝突、危險指令難攔。",
+          "example": "編輯示範：這週有兩次不知道額度還剩多少，一次兩個視窗改了同一份文件。",
+          "check": "寫出至少一個你親身遇到的痛點。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 0,
+              "endSeconds": 197
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "把需求歸成三組：看得見、擋得住、少動手",
+          "action": "把痛點分成三類：看得見（用量、快取）、擋得住（危險操作前停下）、少動手（重複動作變成按鈕）。",
+          "why": "影片稱社群中的外掛逾兩千六百個，用量儀表最多，其次是長對話交接與攔截。",
+          "example": "編輯示範：看不到額度屬看得見，兩視窗撞車屬擋得住。",
+          "check": "每個痛點都歸入其中一組。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 0,
+              "endSeconds": 197
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "只挑一組、一個功能先試",
+          "action": "先選最痛的一組，只試一個功能，例如額度顯示或撞車提醒。",
+          "why": "影片介紹額度列、快取倒數、寫檔前檢查近 30 分鐘是否被他對話改過，以及錄影模式遮罩敏感資訊，並稱訂閱方案內快取為一小時，其他情況預設五分鐘。",
+          "example": "編輯示範：先只開額度顯示，其他一週後再看。",
+          "check": "一次只開一個，並記下開啟日期。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 197,
+              "endSeconds": 401
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "裝之前先驗證：它會不會連網、讀到什麼",
+          "action": "打開之前先看說明與程式碼，確認它是否連網，以及能讀到哪些內容；來路不明就不要使用。",
+          "why": "影片提醒陌生外掛須先驗證是否連網，也提醒它只在終端機中顯示。",
+          "example": "編輯示範：在清單寫下「外掛名稱／來源／是否連網／讀取範圍」四欄。",
+          "check": "四欄都填完才啟用。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 403,
+              "endSeconds": 590
+            }
+          ]
+        },
+        {
+          "id": "step-5",
+          "title": "用一週，決定保留、關閉或改別的方式",
+          "action": "一週後回頭檢查：它有沒有真的解決你寫下的痛點，沒有就關閉。",
+          "why": "影片介紹交接按鈕：用量約七成時產生摘要（目標、進度、待辦、改檔），存檔後開新對話貼上，這也可以用手動方式替代。",
+          "example": "編輯示範：若只用了一次，就改為手動寫交接摘要。",
+          "check": "清單上每個外掛都有「保留／關閉」的結論。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 403,
+              "endSeconds": 590
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "操作順序",
+          "note": "編輯整理：依本文練習安排呈現；箭頭表示建議順序，不是效果證據。",
+          "nodes": [
+            {
+              "id": "step-1",
+              "label": "先寫下你實際遇過的痛點",
+              "detail": "寫出至少一個你親身遇到的痛點。"
+            },
+            {
+              "id": "step-2",
+              "label": "把需求歸成三組：看得見、擋得住、少動手",
+              "detail": "每個痛點都歸入其中一組。"
+            },
+            {
+              "id": "step-3",
+              "label": "只挑一組、一個功能先試",
+              "detail": "一次只開一個，並記下開啟日期。"
+            },
+            {
+              "id": "step-4",
+              "label": "裝之前先驗證：它會不會連網、讀到什麼",
+              "detail": "四欄都填完才啟用。"
+            },
+            {
+              "id": "step-5",
+              "label": "用一週，決定保留、關閉或改別的方式",
+              "detail": "清單上每個外掛都有「保留／關閉」的結論。"
+            }
+          ],
+          "edges": [
+            {
+              "from": "step-1",
+              "to": "step-2"
+            },
+            {
+              "from": "step-2",
+              "to": "step-3"
+            },
+            {
+              "from": "step-3",
+              "to": "step-4"
+            },
+            {
+              "from": "step-4",
+              "to": "step-5"
+            }
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "本文練習能在實際情境產生預期改善",
+          "status": "unverified",
+          "explanation": "來源為個人分享、節目討論或工具示範；未對本篇編輯練習進行對照測試，完成檢核僅代表留下可查看的產出，不宣稱長期效果或因果。",
+          "sourceIds": [
+            "source"
+          ],
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "pitfalls": [
+        "看到功能多就全部打開，無法知道是哪一個造成問題。",
+        "沒確認來源與是否連網就使用陌生外掛。",
+        "把影片的數字（快取時間、用量比例）當成永久規則；軟體更新後可能不同。"
+      ],
+      "practice": {
+        "title": "編輯補充：20分鐘試作",
+        "minutes": 20,
+        "prompt": "編輯補充：20分鐘為試作安排，可依自己的情境調整。寫下三個痛點，歸入三組，挑一個功能試用一週並記錄結論。",
+        "deliverable": "一張包含痛點清單、選用的外掛類型、安全檢查、試用紀錄與保留決定的外掛評估卡",
+        "checklist": [
+          "寫出至少一個你親身遇到的痛點。",
+          "每個痛點都歸入其中一組。",
+          "一次只開一個，並記下開啟日期。",
+          "四欄都填完才啟用。",
+          "清單上每個外掛都有「保留／關閉」的結論。"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "編輯補充：可複製模板",
+          "text": "編輯補充模板：我的痛點：＿＿；所屬分組：＿＿；試用的功能：＿＿；來源／是否連網／讀取範圍：＿＿；一週後的結論：＿＿。",
+          "sourceIds": [
+            "source"
+          ]
+        },
+        {
+          "title": "編輯觀點：先寫痛點，再選工具",
+          "text": "編輯觀點：我覺得這支影片最值得學的是挑選順序：先有痛點才裝外掛。但影片的數字與功能會隨版本改變，我沒有實測，也不整理安裝步驟；請以官方文件與你信任的來源為準。",
+          "sourceIds": [
+            "source"
+          ]
+        }
+      ],
+      "status": "ready",
+      "publishedAt": "2026-11-09T20:00:00+08:00",
+      "overview": {
+        "kind": "infographic",
+        "image": "/assets/overviews/claude-code-mod-pick-by-pain-point-and-verify-desktop.webp",
+        "mobileImage": "/assets/overviews/claude-code-mod-pick-by-pain-point-and-verify-mobile.webp",
+        "cardImage": "/assets/overviews/claude-code-mod-pick-by-pain-point-and-verify-desktop.webp",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600,
+        "alt": "要不要加 Claude Code 外掛：先寫痛點，再分「看得見、擋得住、少動手」三組：依本文核心關係整理的雙版資訊圖。",
+        "caption": "依來源方法製作的編輯整理；例子與操作安排為編輯設計，不代表成效保證。"
+      }
+    },
+    {
+      "id": "credit-stolen-meeting-and-aftermeeting-response",
+      "title": "功勞被同事攬走時：會上不吵，會後把成果讓主管看見",
+      "summary": "節目從來賓經驗談，如何在會議上被同事搶先講成果時應對：不正面反駁、順勢感謝協助者並點出團隊貢獻，會後整理成果主動讓主管看見，並先釐清自己真正想要什麼。",
+      "categoryId": "reading",
+      "topicIds": [
+        "mindset"
+      ],
+      "level": "入門",
+      "minutes": 15,
+      "output": "一張包含會上回應句、會後成果整理、想要的目標與避免做法的職場應對卡",
+      "audience": "在團隊裡默默做事、擔心功勞被攬走的老師與上班族",
+      "contentType": "article_method",
+      "reviewedAt": "2026-11-09",
+      "keywords": [
+        "被搶功",
+        "會議應對",
+        "成果可見",
+        "釐清目標",
+        "向上溝通"
+      ],
+      "sourceCoverage": "中文本機語音辨識（Groq whisper）全文約 36 分鐘，音訊 2151 秒；來賓為個人經驗談，案例未驗證；本文不評斷任何同事動機，也不構成法律或勞資建議。取 864–1137 秒。 本文步驟、示範與練習安排為編輯整理或補充，效果未驗證。",
+      "coverLabel": "編輯整理",
+      "sources": [
+        {
+          "id": "original",
+          "title": "2026-10-27 🎙 EP2554【吳淡如Ｘ岳啟儒】工作總是鞠躬盡瘁，升遷卻老是別人？",
+          "url": "https://player.soundon.fm/p/73930beb-4136-4b36-a910-39984335b7bb/episodes/dcd88134-e9ab-42a3-9dc7-6206244644fb",
+          "kind": "article",
+          "channel": "吳淡如人生實用商學院",
+          "note": "由 Notion 紀錄取得 SoundOn 集數頁；依本機語音辨識編輯，非逐句聽校。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "先分清楚：他是推責任、還是剛好表現得好",
+          "action": "回想事件，區分對方是否刻意推責、攬功，還是只是表達方式讓你覺得被忽略。",
+          "why": "節目提出的困境是：對方表現好，但事情其實多是你做的。",
+          "example": "編輯示範：寫下三個具體事實，如「簡報內容是我做的」「他在會上沒有提到」，不加推測。",
+          "check": "寫出三個可觀察的事實。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 864,
+              "endSeconds": 1137
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "會議上不正面反駁，改成順勢感謝並點出貢獻",
+          "action": "會上被搶先講時，不爭辯，接話說明「這部分有誰協助」，並點出團隊與自己的貢獻。",
+          "why": "節目建議接話時感謝協助者，並點出團隊貢獻，而不是正面反駁。",
+          "example": "編輯示範：「謝謝你整理，這份資料的數據彙整是我和另一位同事一起做的。」",
+          "check": "準備一句包含「感謝」與「貢獻」的回應。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 864,
+              "endSeconds": 1137
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "會後整理自己的成果，主動讓主管看見",
+          "action": "會後整理一份簡短成果摘要（做了什麼、結果、日期），主動給主管，而不是等待被發現。",
+          "why": "節目的做法是會後整理自己的工作成果，主動讓主管看見。",
+          "example": "編輯示範：每週五寄一封三行的進度，內容含成果與下一步。",
+          "check": "成果摘要不超過三行，包含日期。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 864,
+              "endSeconds": 1137
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "不要抱怨或在茶水間八卦，並想清楚你真正要什麼",
+          "action": "避免悶氣與抱怨；先寫下你真正在意的是升遷、加薪，還是被看見，再決定做法。",
+          "why": "節目提醒避免抱怨、悶氣、茶水間八卦，並建議先釐清你真正在意什麼。",
+          "example": "編輯示範：寫下「我最想要的是下學期能主持專案」，並把成果摘要與此目標連結。",
+          "check": "寫出一個具體的目標。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 864,
+              "endSeconds": 1137
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "操作順序",
+          "note": "編輯整理：依本文練習安排呈現；箭頭表示建議順序，不是效果證據。",
+          "nodes": [
+            {
+              "id": "step-1",
+              "label": "先分清楚：他是推責任、還是剛好表現得好",
+              "detail": "寫出三個可觀察的事實。"
+            },
+            {
+              "id": "step-2",
+              "label": "會議上不正面反駁，改成順勢感謝並點出貢獻",
+              "detail": "準備一句包含「感謝」與「貢獻」的回應。"
+            },
+            {
+              "id": "step-3",
+              "label": "會後整理自己的成果，主動讓主管看見",
+              "detail": "成果摘要不超過三行，包含日期。"
+            },
+            {
+              "id": "step-4",
+              "label": "不要抱怨或在茶水間八卦，並想清楚你真正要什麼",
+              "detail": "寫出一個具體的目標。"
+            }
+          ],
+          "edges": [
+            {
+              "from": "step-1",
+              "to": "step-2"
+            },
+            {
+              "from": "step-2",
+              "to": "step-3"
+            },
+            {
+              "from": "step-3",
+              "to": "step-4"
+            }
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "本文練習能在實際情境產生預期改善",
+          "status": "unverified",
+          "explanation": "來源為個人分享、節目討論或工具示範；未對本篇編輯練習進行對照測試，完成檢核僅代表留下可查看的產出，不宣稱長期效果或因果。",
+          "sourceIds": [
+            "original"
+          ],
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "pitfalls": [
+        "把順勢感謝說成酸言酸語，反而造成衝突。",
+        "只在心裡不滿卻從不讓主管看見成果。",
+        "涉及侵權、明顯不當或職場霸凌時，應走正式管道，不適用本方法。"
+      ],
+      "practice": {
+        "title": "編輯補充：15分鐘試作",
+        "minutes": 15,
+        "prompt": "編輯補充：15分鐘為試作安排，可依自己的情境調整。回想最近一次功勞被忽略的事件，寫出三個事實、一句會上回應、一份成果摘要與你的目標。",
+        "deliverable": "一張包含會上回應句、會後成果整理、想要的目標與避免做法的職場應對卡",
+        "checklist": [
+          "寫出三個可觀察的事實。",
+          "準備一句包含「感謝」與「貢獻」的回應。",
+          "成果摘要不超過三行，包含日期。",
+          "寫出一個具體的目標。"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "編輯補充：可複製模板",
+          "text": "編輯補充模板：事實（三項）：＿＿；會上回應句：＿＿；會後成果摘要（三行）：＿＿；我真正想要的是：＿＿。",
+          "sourceIds": [
+            "original"
+          ]
+        },
+        {
+          "title": "編輯觀點：先讓成果被看見，再談公平",
+          "text": "編輯觀點：我覺得這集的實用在於「會上不吵、會後補上」。但這是來賓的經驗，每個職場文化不同，請先確認你的主管是否重視書面成果，再決定做法。",
+          "sourceIds": [
+            "original"
+          ]
+        }
+      ],
+      "status": "ready",
+      "publishedAt": "2026-11-09T20:00:00+08:00",
+      "overview": {
+        "kind": "infographic",
+        "image": "/assets/overviews/credit-stolen-meeting-and-aftermeeting-response-desktop.webp",
+        "mobileImage": "/assets/overviews/credit-stolen-meeting-and-aftermeeting-response-mobile.webp",
+        "cardImage": "/assets/overviews/credit-stolen-meeting-and-aftermeeting-response-desktop.webp",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600,
+        "alt": "功勞被同事攬走時：會上不吵，會後把成果讓主管看見：依本文核心關係整理的雙版資訊圖。",
+        "caption": "依來源方法製作的編輯整理；例子與操作安排為編輯設計，不代表成效保證。"
+      }
+    },
+    {
+      "id": "difficult-coworker-motive-check-and-boundary",
+      "title": "遇到難相處的同事：先看動機，再決定回應與界線",
+      "summary": "導讀影片整理一本書談職場麻煩人物的相處思路：不急著貼標籤，先猜對方的動機，再用認同加引導、具體界線或透明機制去回應，最後回頭檢查自己。本文整理成六步。",
+      "categoryId": "reading",
+      "topicIds": [
+        "mindset",
+        "classroom"
+      ],
+      "level": "入門",
+      "minutes": 20,
+      "output": "一張包含同事行為描述、可能動機、回應方式、界線句與自我檢查的相處卡",
+      "audience": "在職場或學校團隊裡被同事言行消耗的老師與上班族",
+      "contentType": "video_method",
+      "reviewedAt": "2026-11-09",
+      "keywords": [
+        "難相處同事",
+        "動機判斷",
+        "界線",
+        "搭便車",
+        "自我檢視"
+      ],
+      "sourceCoverage": "中文語音辨識全文約 52:36，片長 3178 秒；內容為閱讀人對書的導讀，書中七種人物的類型描述採導讀者轉述，未回查書籍；片尾的個案細節與廣告未採用。取 438–3156 秒。 本文步驟、示範與練習安排為編輯整理或補充，效果未驗證。",
+      "coverLabel": "編輯整理",
+      "sources": [
+        {
+          "id": "source",
+          "title": "閱讀人專題讀書會《討人厭的同事圖鑑：看懂7種職場麻煩人物》閱讀人導讀",
+          "url": "https://www.youtube.com/watch?v=vKXtCmy84no",
+          "kind": "video",
+          "provider": "youtube",
+          "videoId": "vKXtCmy84no",
+          "channel": "閱讀人 鄭俊德",
+          "note": "由 Notion 紀錄與標題比對取得原片；內容為導讀者對書的轉述，來源原述與編輯設計分開呈現。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "先寫下具體行為，暫時不貼人格標籤",
+          "action": "把讓你困擾的事寫成「他做了什麼、發生在什麼場合」，不使用「很討厭」「很自私」這類詞。",
+          "why": "導讀強調高手不是沒有討厭的人，而是能與任何人合作；理解行為背後的動機與需要是起點。",
+          "example": "編輯示範：寫「他在會議上三次打斷別人糾正用字」，而不是「他很愛現」。",
+          "check": "描述只包含可被看到的行為與場合。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 438,
+              "endSeconds": 728
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "猜動機：是想保護自己，還是在宣洩",
+          "action": "針對質疑或否定型的同事，看他是具體指出風險，還是全盤否定。前者可當成把關，後者另外設情緒界限。",
+          "why": "導讀提到悲觀者可以是預先排雷的偵察兵，需要可預測性與可信資料；反對者若只是宣洩，則要設情緒界限。",
+          "example": "編輯示範：他說「這個日期有三個風險」是把關；只說「根本不可能」是宣洩。",
+          "check": "對每個行為寫下一個可能動機，並標註「推測」。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 2281,
+              "endSeconds": 2601
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "先認同，再引導出可以做的東西",
+          "action": "遇到過度樂觀的人，先認同他的熱情，再請他寫下可執行的步驟與備案；遇到愛糾正的人，把說教導向提問。",
+          "why": "導讀稱對樂天派可先認同再引導；對萬事通可從被說教轉為提問、挑戰與延伸。",
+          "example": "編輯示範：對說「一定會好」的同事問「如果第二週卡住，我們的備案是什麼？」",
+          "check": "寫出一句「先認同＋再問」的回應。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 1964,
+              "endSeconds": 2279
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "需要時，具體畫界線",
+          "action": "被當眾說教或搶話時，先肯定對方，再說明自己現在要做的事與期待。",
+          "why": "導讀的例子是新人先肯定對方，再明確說「我已經學會，今天要趕報告」，必要時冷處理或轉換話題。",
+          "example": "編輯示範：謝謝你提醒，這個我已經處理了，我先把報告趕完。",
+          "check": "界線句包含事實、自己的行動與請求。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 1329,
+              "endSeconds": 1642
+            }
+          ]
+        },
+        {
+          "id": "step-5",
+          "title": "搭便車的情況，用透明機制處理",
+          "action": "對追問細節就模糊、責任不清的情況，建立可看見貢獻的機制：分工、主辦責任、明確交付。",
+          "why": "導讀稱混水摸魚者不適合單靠理解對話，應建立透明機制讓每個人的付出與成果看得見。",
+          "example": "編輯示範：每項工作標註「負責人／完成日」，在週會逐項更新。",
+          "check": "每項任務都有負責人與日期。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 2603,
+              "endSeconds": 2907
+            }
+          ]
+        },
+        {
+          "id": "step-6",
+          "title": "最後回頭問：我是不是也有這種傾向",
+          "action": "挑一個你處理的類型，問自己最近是否也有類似行為，並寫下想調整的一件事。",
+          "why": "導讀提醒麻煩人物也可能是自己，並建議先把自己的責任做好、反思自己的互動方式。",
+          "example": "編輯示範：我也會在會議上急著補充，下次先問「你還有要補充的嗎？」",
+          "check": "有一件針對自己的調整，寫成一個可觀察的動作。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 2910,
+              "endSeconds": 3156
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "操作順序",
+          "note": "編輯整理：依本文練習安排呈現；箭頭表示建議順序，不是效果證據。",
+          "nodes": [
+            {
+              "id": "step-1",
+              "label": "先寫下具體行為，暫時不貼人格標籤",
+              "detail": "描述只包含可被看到的行為與場合。"
+            },
+            {
+              "id": "step-2",
+              "label": "猜動機：是想保護自己，還是在宣洩",
+              "detail": "對每個行為寫下一個可能動機，並標註「推測」。"
+            },
+            {
+              "id": "step-3",
+              "label": "先認同，再引導出可以做的東西",
+              "detail": "寫出一句「先認同＋再問」的回應。"
+            },
+            {
+              "id": "step-4",
+              "label": "需要時，具體畫界線",
+              "detail": "界線句包含事實、自己的行動與請求。"
+            },
+            {
+              "id": "step-5",
+              "label": "搭便車的情況，用透明機制處理",
+              "detail": "每項任務都有負責人與日期。"
+            },
+            {
+              "id": "step-6",
+              "label": "最後回頭問：我是不是也有這種傾向",
+              "detail": "有一件針對自己的調整，寫成一個可觀察的動作。"
+            }
+          ],
+          "edges": [
+            {
+              "from": "step-1",
+              "to": "step-2"
+            },
+            {
+              "from": "step-2",
+              "to": "step-3"
+            },
+            {
+              "from": "step-3",
+              "to": "step-4"
+            },
+            {
+              "from": "step-4",
+              "to": "step-5"
+            },
+            {
+              "from": "step-5",
+              "to": "step-6"
+            }
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "本文練習能在實際情境產生預期改善",
+          "status": "unverified",
+          "explanation": "來源為個人分享、節目討論或工具示範；未對本篇編輯練習進行對照測試，完成檢核僅代表留下可查看的產出，不宣稱長期效果或因果。",
+          "sourceIds": [
+            "source"
+          ],
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "pitfalls": [
+        "把七種類型當成標籤去分類同事；導讀本身也強調動機與情境。",
+        "對涉及騷擾、霸凌或安全的情況使用本方法；這類情況應走正式管道。",
+        "只改變別人、不檢視自己，就失去第六步的意義。"
+      ],
+      "practice": {
+        "title": "編輯補充：20分鐘試作",
+        "minutes": 20,
+        "prompt": "編輯補充：20分鐘為試作安排，可依自己的情境調整。挑一位讓你困擾的同事，填完相處卡的前五欄，再做第六步自我檢查。",
+        "deliverable": "一張包含同事行為描述、可能動機、回應方式、界線句與自我檢查的相處卡",
+        "checklist": [
+          "描述只包含可被看到的行為與場合。",
+          "對每個行為寫下一個可能動機，並標註「推測」。",
+          "寫出一句「先認同＋再問」的回應。",
+          "界線句包含事實、自己的行動與請求。",
+          "每項任務都有負責人與日期。",
+          "有一件針對自己的調整，寫成一個可觀察的動作。"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "編輯補充：可複製模板",
+          "text": "編輯補充模板：具體行為與場合：＿＿；我推測的動機（標註推測）：＿＿；先認同＋再問的句子：＿＿；界線句：＿＿；需要的透明機制：＿＿；我自己想調整的一件事：＿＿。",
+          "sourceIds": [
+            "source"
+          ]
+        },
+        {
+          "title": "編輯觀點：類型是提示，不是判決",
+          "text": "編輯觀點：導讀的七種類型很有畫面，但畫面也容易讓人貼標籤。我建議當成「想一下動機」的提示，而不是用來判斷人。因為內容是導讀者對書的轉述，我沒有回查原書，也不保證每個建議都適用於你的職場文化。",
+          "sourceIds": [
+            "source"
+          ]
+        }
+      ],
+      "status": "ready",
+      "publishedAt": "2026-11-09T20:00:00+08:00",
+      "overview": {
+        "kind": "infographic",
+        "image": "/assets/overviews/difficult-coworker-motive-check-and-boundary-desktop.webp",
+        "mobileImage": "/assets/overviews/difficult-coworker-motive-check-and-boundary-mobile.webp",
+        "cardImage": "/assets/overviews/difficult-coworker-motive-check-and-boundary-desktop.webp",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600,
+        "alt": "遇到難相處的同事：先看動機，再決定回應與界線：依本文核心關係整理的雙版資訊圖。",
+        "caption": "依來源方法製作的編輯整理；例子與操作安排為編輯設計，不代表成效保證。"
+      }
+    },
+    {
+      "id": "ecommerce-agent-product-photo-to-detail-page",
+      "title": "一張商品照做出整套介紹頁：先設定圖片規格，再逐張檢查",
+      "summary": "影片示範用開源電商出圖工具，上傳一張商品照後由 AI 分析並生成主圖與詳情頁。本文只整理工作流程與檢查點，不整理安裝步驟，並提醒生成後必須逐張核對商品事實。",
+      "categoryId": "ai",
+      "topicIds": [
+        "workflow"
+      ],
+      "level": "入門",
+      "minutes": 40,
+      "output": "一份商品照、圖片規格、提示詞與逐張檢查紀錄的出圖清單",
+      "audience": "需要為小型商品或活動製作介紹圖與文案的教師、行政與小店經營者",
+      "contentType": "video_method",
+      "reviewedAt": "2026-11-09",
+      "keywords": [
+        "商品圖",
+        "詳情頁",
+        "圖片規格",
+        "逐張檢查",
+        "電商 Agent"
+      ],
+      "sourceCoverage": "影片有字幕，抓取字幕全文，片長 843 秒；影片為簡體中文並含工具安裝與 API 設定示範，本文不採用安裝、取得與金鑰設定步驟，也未實測該工具。取 0–231、445–842 秒。03:51–07:24 段的摘要未成功，不採用。影片稱的耗時與張數為影片示範，不代表一般結果。 本文步驟、示範與練習安排為編輯整理或補充，效果未驗證。",
+      "coverLabel": "編輯整理",
+      "sources": [
+        {
+          "id": "source",
+          "title": "2026-11-08 🎬 1张商品图，AI做出整套详情页！主图＋文案一起搞定｜电商Agent实测",
+          "url": "https://www.youtube.com/watch?v=gFpfCtNz1Lk",
+          "kind": "video",
+          "provider": "youtube",
+          "videoId": "gFpfCtNz1Lk",
+          "channel": "yuangeAI",
+          "note": "由 Notion 紀錄取得原片連結；影片為簡體中文，本文以繁體改寫，來源原述與編輯設計分開呈現。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "確認有一個會讀圖、寫文案的模型和一個出圖模型",
+          "action": "開工前先弄清楚：誰負責看商品照與寫文案，誰負責出圖，並確認自己能使用的模型與費用。",
+          "why": "影片說明這類工具需要大模型做讀圖與文案，另外需要圖片模型做文生圖。",
+          "example": "編輯示範：寫下「讀圖與文案用 A 模型，出圖用 B 模型，預算上限＿＿」。",
+          "check": "兩種用途各有一個確定能用的模型與預算。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 0,
+              "endSeconds": 231
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "上傳商品照，讓 AI 先分析",
+          "action": "上傳一張清楚的商品照（影片以 T 恤示範），先看 AI 對商品的分析是否符合實物。",
+          "why": "影片的流程從上傳商品照、AI 分析開始，之後的圖與文案都依這份分析。",
+          "example": "編輯示範：分析寫「純棉短袖」，但實物是混紡，就先改掉再往下。",
+          "check": "分析中的材質、顏色、用途與實物一致。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 445,
+              "endSeconds": 665
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "依模型支援規格設定畫質、比例與張數",
+          "action": "查模型文件支援的尺寸，設定畫質與比例（影片示範 1:1、不壓縮），並決定主圖與詳情頁各幾張。",
+          "why": "影片提醒尺寸必須符合模型支援規格；示範是頭圖 2 張加詳情頁 3 張共 5 張，2K、4K 需選特定模型且較貴。",
+          "example": "編輯示範：先做頭圖 2 張、詳情頁 2 張，確認風格再加量。",
+          "check": "尺寸、比例與張數有寫下，且在模型支援範圍內。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 445,
+              "endSeconds": 665
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "確認提示詞後再生成，並預留等待時間",
+          "action": "先檢查並統一修改提示詞，再開始生成；生成時間長，可先排好任務。",
+          "why": "影片稱流程是確認提示詞、生成圖片、預覽下載，5 頁耗時 10 分 55 秒，完成後 AI 還會逐張檢查，單次逾時上限 10 分鐘並自動重試。",
+          "example": "編輯示範：統一寫上「背景乾淨、不要新增品牌標誌」再送出。",
+          "check": "提示詞已核對，並知道失敗時是重試還是重排。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 667,
+              "endSeconds": 842
+            }
+          ]
+        },
+        {
+          "id": "step-5",
+          "title": "逐張預覽，單張修改或重生，確認事實後再下載",
+          "action": "逐張檢查文字、商品外觀、尺寸比例與宣稱內容；不對的單張重生，通過的才下載使用。",
+          "why": "影片說明可單張點選修改或重生，產出含詳情長圖與分圖。AI 生成的文案與圖可能與實物不符，需要人工核對。",
+          "example": "編輯示範：把檢查表分成「外觀」「文字」「宣稱」三欄，逐張打勾。",
+          "check": "每張圖都有檢查結果，沒有未經核對的功效或規格宣稱。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 667,
+              "endSeconds": 842
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "操作順序",
+          "note": "編輯整理：依本文練習安排呈現；箭頭表示建議順序，不是效果證據。",
+          "nodes": [
+            {
+              "id": "step-1",
+              "label": "確認有一個會讀圖、寫文案的模型和一個出圖模型",
+              "detail": "兩種用途各有一個確定能用的模型與預算。"
+            },
+            {
+              "id": "step-2",
+              "label": "上傳商品照，讓 AI 先分析",
+              "detail": "分析中的材質、顏色、用途與實物一致。"
+            },
+            {
+              "id": "step-3",
+              "label": "依模型支援規格設定畫質、比例與張數",
+              "detail": "尺寸、比例與張數有寫下，且在模型支援範圍內。"
+            },
+            {
+              "id": "step-4",
+              "label": "確認提示詞後再生成，並預留等待時間",
+              "detail": "提示詞已核對，並知道失敗時是重試還是重排。"
+            },
+            {
+              "id": "step-5",
+              "label": "逐張預覽，單張修改或重生，確認事實後再下載",
+              "detail": "每張圖都有檢查結果，沒有未經核對的功效或規格宣稱。"
+            }
+          ],
+          "edges": [
+            {
+              "from": "step-1",
+              "to": "step-2"
+            },
+            {
+              "from": "step-2",
+              "to": "step-3"
+            },
+            {
+              "from": "step-3",
+              "to": "step-4"
+            },
+            {
+              "from": "step-4",
+              "to": "step-5"
+            }
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "本文練習能在實際情境產生預期改善",
+          "status": "unverified",
+          "explanation": "來源為個人分享、節目討論或工具示範；未對本篇編輯練習進行對照測試，完成檢核僅代表留下可查看的產出，不宣稱長期效果或因果。",
+          "sourceIds": [
+            "source"
+          ],
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "pitfalls": [
+        "直接使用生成的功效、材質或價格說法；必須對照實物與實際資料。",
+        "一次就跑最大張數與最高畫質，花了費用才發現風格不對。",
+        "把 API 金鑰貼進公開聊天或文件；金鑰應只放在自己的電腦或環境設定。"
+      ],
+      "practice": {
+        "title": "編輯補充：40分鐘試作",
+        "minutes": 40,
+        "prompt": "編輯補充：40分鐘為試作安排，可依自己的情境調整。用一件自己的商品或活動素材，依五步列出出圖計畫，先跑少量張數，再填逐張檢查表。",
+        "deliverable": "一份商品照、圖片規格、提示詞與逐張檢查紀錄的出圖清單",
+        "checklist": [
+          "兩種用途各有一個確定能用的模型與預算。",
+          "分析中的材質、顏色、用途與實物一致。",
+          "尺寸、比例與張數有寫下，且在模型支援範圍內。",
+          "提示詞已核對，並知道失敗時是重試還是重排。",
+          "每張圖都有檢查結果，沒有未經核對的功效或規格宣稱。"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "編輯補充：可複製模板",
+          "text": "編輯補充模板：商品：＿＿；讀圖／文案模型：＿＿；出圖模型：＿＿；尺寸與比例：＿＿；張數：＿＿；提示詞重點：＿＿；逐張檢查（外觀／文字／宣稱）：＿＿。",
+          "sourceIds": [
+            "source"
+          ]
+        },
+        {
+          "title": "編輯觀點：工具會變，檢查表不會",
+          "text": "編輯觀點：這支影片的工具介面可能很快改版，我更看重它的流程：先分析、再設規格、再生成、最後人工檢查。如果要給學生用，也建議把「宣稱要有依據」寫進檢查表。我沒有實測這個工具，本文不保證它仍可使用。",
+          "sourceIds": [
+            "source"
+          ]
+        }
+      ],
+      "status": "ready",
+      "publishedAt": "2026-11-09T20:00:00+08:00",
+      "overview": {
+        "kind": "infographic",
+        "image": "/assets/overviews/ecommerce-agent-product-photo-to-detail-page-desktop.webp",
+        "mobileImage": "/assets/overviews/ecommerce-agent-product-photo-to-detail-page-mobile.webp",
+        "cardImage": "/assets/overviews/ecommerce-agent-product-photo-to-detail-page-desktop.webp",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600,
+        "alt": "一張商品照做出整套介紹頁：先設定圖片規格，再逐張檢查：依本文核心關係整理的雙版資訊圖。",
+        "caption": "依來源方法製作的編輯整理；例子與操作安排為編輯設計，不代表成效保證。"
+      }
+    },
+    {
+      "id": "effort-direction-design-slow-act-fast",
+      "title": "動手前先抓核心：設計慢一點，行動才快",
+      "summary": "節目用打掃、裝潢與工程的例子說明，努力用錯順序會事倍功半。本文整理成四步：先抓核心、決定順序、設計階段多花時間、發現問題就往前端補。",
+      "categoryId": "reading",
+      "topicIds": [
+        "mindset"
+      ],
+      "level": "入門",
+      "minutes": 15,
+      "output": "一張包含目標核心、動手順序、設計階段檢查與前端補強點的做事前檢查卡",
+      "audience": "常覺得很努力卻事倍功半的老師與上班族",
+      "contentType": "article_method",
+      "reviewedAt": "2026-11-09",
+      "keywords": [
+        "做事順序",
+        "核心",
+        "設計慢行動快",
+        "預防勝於補救",
+        "事倍功半"
+      ],
+      "sourceCoverage": "中文本機語音辨識（Groq whisper）全文約 20 分鐘，音訊 1195 秒；開頭與結尾的商品廣告與保健食品促銷不採用；NASA 的預算占比、波音事件等案例為節目口述，未回查。取 359–750 秒。 本文步驟、示範與練習安排為編輯整理或補充，效果未驗證。",
+      "coverLabel": "編輯整理",
+      "sources": [
+        {
+          "id": "original",
+          "title": "2026-10-07 🎙 EP2534【吳淡如】學解決人生困難，這三種方法最有效！",
+          "url": "https://player.soundon.fm/p/73930beb-4136-4b36-a910-39984335b7bb/episodes/55a0aaf2-5be2-47ed-9f00-619c7bc01d3d",
+          "kind": "article",
+          "channel": "吳淡如人生實用商學院",
+          "note": "由 Notion 紀錄取得 SoundOn 集數頁；依本機語音辨識編輯，非逐句聽校。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "先寫下這件事的核心是什麼",
+          "action": "動手之前，用一句話寫出這件事最重要的目標與不能出錯的地方。",
+          "why": "節目的主張是選對方向，努力才有意義；做法之一是先抓核心。",
+          "example": "編輯示範：整理期末成績，核心是「成績不能算錯」，排版是其次。",
+          "check": "寫出一句核心與一個不能出錯的點。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 359,
+              "endSeconds": 750
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "決定順序：先水電，再刷牆",
+          "action": "把工作拆成幾個階段，標出哪些必須先做（打底）、哪些後做（美化）。",
+          "why": "節目用裝潢「先把水電管線弄好才刷牆」與掃地「由下往上、由近往遠」的例子說明順序。",
+          "example": "編輯示範：寫教案前先確認學習目標與評量方式，最後才做版面。",
+          "check": "每個階段標出「先」或「後」。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 359,
+              "endSeconds": 750
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "設計階段多花時間，行動階段再加快",
+          "action": "在動手前留一段時間檢查設計，確認方向與關鍵限制；之後依檢查點執行，發現新證據或風險時仍可修正。",
+          "why": "節目稱設計慢、行動快；NASA 設計期只占預算約 15%，卻鎖定大半成本（節目口述）。",
+          "example": "編輯示範：開課前先花十分鐘檢查流程與器材，正式上課就不卡。",
+          "check": "設計階段有固定的檢查時間。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 359,
+              "endSeconds": 750
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "發現問題，就往前端補，不要只在下游補洞",
+          "action": "遇到錯誤時，追問「哪一個前端環節少了什麼」，補在源頭。",
+          "why": "節目舉出軟體缺陷常拖到下游才暴露，波音事件被說成少加一個感應器（節目口述）。",
+          "example": "編輯示範：學生常交錯格式，就在作業說明加範例，而不是逐份改。",
+          "check": "寫出一個可以補在前端的改法。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 359,
+              "endSeconds": 750
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "操作順序",
+          "note": "編輯整理：依本文練習安排呈現；箭頭表示建議順序，不是效果證據。",
+          "nodes": [
+            {
+              "id": "step-1",
+              "label": "先寫下這件事的核心是什麼",
+              "detail": "寫出一句核心與一個不能出錯的點。"
+            },
+            {
+              "id": "step-2",
+              "label": "決定順序：先水電，再刷牆",
+              "detail": "每個階段標出「先」或「後」。"
+            },
+            {
+              "id": "step-3",
+              "label": "設計階段多花時間，行動階段再加快",
+              "detail": "設計階段有固定的檢查時間。"
+            },
+            {
+              "id": "step-4",
+              "label": "發現問題，就往前端補，不要只在下游補洞",
+              "detail": "寫出一個可以補在前端的改法。"
+            }
+          ],
+          "edges": [
+            {
+              "from": "step-1",
+              "to": "step-2"
+            },
+            {
+              "from": "step-2",
+              "to": "step-3"
+            },
+            {
+              "from": "step-3",
+              "to": "step-4"
+            }
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "本文練習能在實際情境產生預期改善",
+          "status": "unverified",
+          "explanation": "來源為個人分享、節目討論或工具示範；未對本篇編輯練習進行對照測試，完成檢核僅代表留下可查看的產出，不宣稱長期效果或因果。",
+          "sourceIds": [
+            "original"
+          ],
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "pitfalls": [
+        "設計變成沒完沒了，遲遲不開始；應設定時間上限。",
+        "把案例當作一般規則；不同行業的「前端」不同。",
+        "把「預防」當成不能犯錯，忽略小步試錯。"
+      ],
+      "practice": {
+        "title": "編輯補充：15分鐘試作",
+        "minutes": 15,
+        "prompt": "編輯補充：15分鐘為試作安排，可依自己的情境調整。挑一件即將開始的工作，完成核心、順序、設計檢查、前端補強四欄。",
+        "deliverable": "一張包含目標核心、動手順序、設計階段檢查與前端補強點的做事前檢查卡",
+        "checklist": [
+          "寫出一句核心與一個不能出錯的點。",
+          "每個階段標出「先」或「後」。",
+          "設計階段有固定的檢查時間。",
+          "寫出一個可以補在前端的改法。"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "編輯補充：可複製模板",
+          "text": "編輯補充模板：核心（一句話）：＿＿；順序（先／後）：＿＿；設計檢查時間：＿＿；可以補在前端的點：＿＿。",
+          "sourceIds": [
+            "original"
+          ]
+        },
+        {
+          "title": "編輯觀點：先弄對順序，再提高速度",
+          "text": "編輯觀點：我覺得這集的價值在於提醒「努力要先問方向」。案例多是節目口述，沒有逐一驗證，我只取最通用的順序與設計檢查，其餘請依自己的行業調整。",
+          "sourceIds": [
+            "original"
+          ]
+        }
+      ],
+      "status": "ready",
+      "publishedAt": "2026-11-09T20:00:00+08:00",
+      "overview": {
+        "kind": "infographic",
+        "image": "/assets/overviews/effort-direction-design-slow-act-fast-desktop.webp",
+        "mobileImage": "/assets/overviews/effort-direction-design-slow-act-fast-mobile.webp",
+        "cardImage": "/assets/overviews/effort-direction-design-slow-act-fast-desktop.webp",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600,
+        "alt": "動手前先抓核心：設計慢一點，行動才快：依本文核心關係整理的雙版資訊圖。",
+        "caption": "依來源方法製作的編輯整理；例子與操作安排為編輯設計，不代表成效保證。"
+      }
+    },
+    {
+      "id": "kids-ai-use-understand-analyze-ladder",
+      "title": "陪孩子用 AI：先自己練基本功，再依「使用、理解、分析」三階段往上走",
+      "summary": "來賓提出，孩子接觸 AI 的時機不看年齡，而看是否有裝置與大人陪伴。本文整理成五步：認識幾種 AI、基礎能力自己練、用三階段素養設定目標、自己為成果負責，以及守住隱私邊界。",
+      "categoryId": "reading",
+      "topicIds": [
+        "parenting"
+      ],
+      "level": "入門",
+      "minutes": 25,
+      "output": "一張包含孩子目前階段、必須自己練的基本功、與 AI 協作的任務、查證方式與隱私清單的家庭 AI 使用卡",
+      "audience": "孩子開始接觸 AI 的家長與國小至國中老師",
+      "contentType": "article_method",
+      "reviewedAt": "2026-11-09",
+      "keywords": [
+        "AI 素養",
+        "親子共讀",
+        "基礎能力",
+        "使用理解分析",
+        "查證與隱私"
+      ],
+      "sourceCoverage": "中文本機語音辨識（Groq whisper）全文約 42 分鐘，音訊 2532 秒；片尾評分呼籲不採用。來賓提到的研究、作者背景與具體案例均為節目口述，未回查。取 527–2502 秒。 本文步驟、示範與練習安排為編輯整理或補充，效果未驗證。",
+      "coverLabel": "編輯整理",
+      "sources": [
+        {
+          "id": "original",
+          "title": "2026-11-09 🎙 會用AI，不等於懂AI ft.林日璇｜AI親職學EP.17",
+          "url": "https://player.soundon.fm/p/f5ef415f-481b-4374-a939-1dfb794d847e/episodes/a6787612-c664-4836-b83b-8c3e6e0cfc6a",
+          "kind": "article",
+          "channel": "親子天下Podcast",
+          "note": "由 Notion 紀錄取得 SoundOn 集數頁；依本機語音辨識編輯，非逐句聽校。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "先分清楚家裡說的 AI 是哪一種",
+          "action": "把孩子接觸到的 AI 分成幾類：辨識（拍照問是什麼樹）、生成（依提示詞產生內容）、推理、代理、預測，再討論各自適合的場合。",
+          "why": "來賓稱家長常把不同 AI 混為一談，建議先分情境；例如辨識型 AI 很適合孩子，補足需要上網搜尋的知識。",
+          "example": "編輯示範：用辨識型 App 認出公園裡的植物，與請 AI 代寫作業放在不同欄位討論。",
+          "check": "能說出至少兩種 AI 以及各自的用途。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 527,
+              "endSeconds": 773
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "基本功自己練，AI 只當討論夥伴",
+          "action": "造句、寫作、畫畫與加減法這類基礎能力由孩子自己完成，完成後再請 AI 給建議並說明理由。",
+          "why": "來賓以爬山比喻：要自己爬，不能坐纜車；先打好基礎，再與 AI 協作，就像自己會寫 HTML 之後再用 vibe coding。",
+          "example": "編輯示範：孩子先寫三句造句，再問 AI「哪一句可以更清楚？為什麼？」",
+          "check": "每個任務都標出「孩子先做」與「AI 協助」的順序。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 774,
+              "endSeconds": 1027
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "用三階段設定目標：使用、理解、分析",
+          "action": "先教怎麼下指令與判斷何時有效；再理解 AI 依機率逐字預測、可能出錯、重問答案會不同；最後才練習分析，如廣告的說服意圖。",
+          "why": "來賓稱全面禁用不切實際；分析階段約到國中才成熟，可靠公民課與辯論練習。",
+          "example": "編輯示範：小學先練「同一問題問兩次，答案哪裡不同」，國中再練分析廣告目的。",
+          "check": "寫出孩子現在在哪一階段，以及下一階段的一個練習。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 1518,
+              "endSeconds": 1766
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "成果百分之百自己負責：查證並用自己的話重述",
+          "action": "要求 AI 附來源，逐一打開核對；閱讀原文後用自己的話重述，並標明引用。分享前檢查版權與隱私。",
+          "why": "來賓舉例說，教授請 AI 寫文章，AI 自行加入兩篇虛構文獻；交出的成果要自己負責，不能推給 AI。",
+          "example": "編輯示範：孩子的報告每個引用都要附上連結，並用一句話說明「我從這篇學到什麼」。",
+          "check": "每個引用都有連結且已被打開確認過。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 1276,
+              "endSeconds": 1516
+            }
+          ]
+        },
+        {
+          "id": "step-5",
+          "title": "列出不能交給 AI 的個資清單",
+          "action": "和孩子一起列出不上傳的資料：住址、照片、身分證字號、履歷與出生年月，並說明理由。",
+          "why": "來賓在結尾提醒避免上傳住址、照片、身份證字號、履歷與出生年月，重點是怎麼用而不是有沒有用。",
+          "example": "編輯示範：把清單貼在電腦旁，每次上傳前先對一次。",
+          "check": "清單寫下至少四項，並由孩子自己念出來。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 2276,
+              "endSeconds": 2502
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "操作順序",
+          "note": "編輯整理：依本文練習安排呈現；箭頭表示建議順序，不是效果證據。",
+          "nodes": [
+            {
+              "id": "step-1",
+              "label": "先分清楚家裡說的 AI 是哪一種",
+              "detail": "能說出至少兩種 AI 以及各自的用途。"
+            },
+            {
+              "id": "step-2",
+              "label": "基本功自己練，AI 只當討論夥伴",
+              "detail": "每個任務都標出「孩子先做」與「AI 協助」的順序。"
+            },
+            {
+              "id": "step-3",
+              "label": "用三階段設定目標：使用、理解、分析",
+              "detail": "寫出孩子現在在哪一階段，以及下一階段的一個練習。"
+            },
+            {
+              "id": "step-4",
+              "label": "成果百分之百自己負責：查證並用自己的話重述",
+              "detail": "每個引用都有連結且已被打開確認過。"
+            },
+            {
+              "id": "step-5",
+              "label": "列出不能交給 AI 的個資清單",
+              "detail": "清單寫下至少四項，並由孩子自己念出來。"
+            }
+          ],
+          "edges": [
+            {
+              "from": "step-1",
+              "to": "step-2"
+            },
+            {
+              "from": "step-2",
+              "to": "step-3"
+            },
+            {
+              "from": "step-3",
+              "to": "step-4"
+            },
+            {
+              "from": "step-4",
+              "to": "step-5"
+            }
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "本文練習能在實際情境產生預期改善",
+          "status": "unverified",
+          "explanation": "來源為個人分享、節目討論或工具示範；未對本篇編輯練習進行對照測試，完成檢核僅代表留下可查看的產出，不宣稱長期效果或因果。",
+          "sourceIds": [
+            "original"
+          ],
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "pitfalls": [
+        "全面禁用，孩子反而在沒有大人陪伴時偷偷使用。",
+        "只靠年齡決定能不能用，忽略孩子有沒有基本功與大人陪伴。",
+        "把來賓的建議當作標準；各家庭的裝置、孩子的程度與學校規範不同，需要自行調整。"
+      ],
+      "practice": {
+        "title": "編輯補充：25分鐘試作",
+        "minutes": 25,
+        "prompt": "編輯補充：25分鐘為試作安排，可依自己的情境調整。選一項孩子常做的作業，標出自己做的部分與 AI 協作的部分，並列出隱私清單。",
+        "deliverable": "一張包含孩子目前階段、必須自己練的基本功、與 AI 協作的任務、查證方式與隱私清單的家庭 AI 使用卡",
+        "checklist": [
+          "能說出至少兩種 AI 以及各自的用途。",
+          "每個任務都標出「孩子先做」與「AI 協助」的順序。",
+          "寫出孩子現在在哪一階段，以及下一階段的一個練習。",
+          "每個引用都有連結且已被打開確認過。",
+          "清單寫下至少四項，並由孩子自己念出來。"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "編輯補充：可複製模板",
+          "text": "編輯補充模板：孩子目前階段（使用／理解／分析）：＿＿；必須自己練的基本功：＿＿；與 AI 協作的任務：＿＿；查證方式：＿＿；不能上傳的資料：＿＿。",
+          "sourceIds": [
+            "original"
+          ]
+        },
+        {
+          "title": "編輯觀點：先讓孩子會，再讓 AI 幫",
+          "text": "編輯觀點：我覺得節目最實用的是「先自己做，再請 AI 討論」這個順序，以及陪伴是關鍵。內容是來賓的觀點，沒有提供實證研究，建議以一個小任務試一週，再看孩子的反應調整。",
+          "sourceIds": [
+            "original"
+          ]
+        }
+      ],
+      "status": "ready",
+      "publishedAt": "2026-11-09T20:00:00+08:00",
+      "overview": {
+        "kind": "infographic",
+        "image": "/assets/overviews/kids-ai-use-understand-analyze-ladder-desktop.webp",
+        "mobileImage": "/assets/overviews/kids-ai-use-understand-analyze-ladder-mobile.webp",
+        "cardImage": "/assets/overviews/kids-ai-use-understand-analyze-ladder-desktop.webp",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600,
+        "alt": "陪孩子用 AI：先自己練基本功，再依「使用、理解、分析」三階段往上走：依本文核心關係整理的雙版資訊圖。",
+        "caption": "依來源方法製作的編輯整理；例子與操作安排為編輯設計，不代表成效保證。"
+      }
+    },
+    {
+      "id": "knowing-not-doing-emotional-cost-check",
+      "title": "道理都懂卻做不到：先找出你不想付的「情緒成本」",
+      "summary": "節目認為，知道方法卻一直不動，常常不是方法或自律的問題，而是不願承擔失敗、丟臉等情緒代價。本文整理成五步自我檢查，把卡住的原因寫下來，再縮小第一步。",
+      "categoryId": "reading",
+      "topicIds": [
+        "mindset"
+      ],
+      "level": "入門",
+      "minutes": 15,
+      "output": "一張包含卡住的事、可能的情緒成本、結果與自我評價分開的句子，以及最小第一步的檢查卡",
+      "audience": "買了很多方法與工具卻一直沒開始行動的成人與學生",
+      "contentType": "article_method",
+      "reviewedAt": "2026-11-09",
+      "keywords": [
+        "情緒成本",
+        "知道卻做不到",
+        "拖延",
+        "自我保護",
+        "最小第一步"
+      ],
+      "sourceCoverage": "中文本機語音辨識（Groq whisper）全文約 22:21，音訊 1352 秒；開頭贊助段與結尾課程宣傳不採用。取 307–1341 秒。節目未提供研究數據，屬主持人經驗分享。 本文步驟、示範與練習安排為編輯整理或補充，效果未驗證。",
+      "coverLabel": "編輯整理",
+      "sources": [
+        {
+          "id": "source",
+          "title": "2026-10-29 🎙 EP719 道理明明你都懂，但為何卻做不到呢？",
+          "url": "https://player.soundon.fm/p/6731d283-54f0-49ec-a040-e5a641c3125f/episodes/51569d97-a79a-404a-96f9-36d218e4b09a",
+          "kind": "article",
+          "channel": "大人的Small Talk",
+          "note": "由 Notion 紀錄取得 SoundOn 集數頁；依本機語音辨識編輯，非逐句聽校。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "寫下一件「知道該做卻一直沒做」的事",
+          "action": "選一件具體的事，寫出你已經學過、買過、準備過哪些方法或工具，仍然沒有開始。",
+          "why": "節目的起點是：學了一堆方法、買書、下載待辦 App，正事仍不動，問題可能不在方法。",
+          "example": "編輯示範：想開始用英文寫日記，已買了三本書和兩個 App，但一行都沒寫。",
+          "check": "事情具體到可以說出「做了什麼就算開始」。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 307,
+              "endSeconds": 597
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "問自己：我在躲哪一種情緒成本",
+          "action": "依序檢查：怕做了還是失敗、怕起步太晚而丟臉、怕面對過去做過的決定。在最像的一項旁邊寫下一句話。",
+          "why": "節目把阻力歸為情緒成本：怕失敗、怕打破完美想像、怕晚起步丟臉。",
+          "example": "編輯示範：我怕寫出來的英文很爛，被自己看見。",
+          "check": "至少有一句話對應到具體的恐懼或羞愧。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 307,
+              "endSeconds": 597
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "看出「不上場」保護了什麼",
+          "action": "寫下：不開始的時候，我保住了什麼想像或身分？例如「我只是還沒空，不是不會」。",
+          "why": "節目稱內心是在保護自我認同，不是不懂方法；越晚開始越羞恥，落差越大。",
+          "example": "編輯示範：不寫的話，我可以繼續相信自己「寫起來會很棒」。",
+          "check": "寫出一句「不開始保住了什麼」。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 599,
+              "endSeconds": 890
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "把結果和自我評價分開",
+          "action": "把「這次做不好」改寫成只描述結果的一句話，不包含「我很差」或「我沒天分」。",
+          "why": "節目建議承認並辨識情緒，並把結果與自我評價分開；失敗只代表尚未成功，創業失敗不等於沒有商業能力。",
+          "example": "編輯示範：第一篇日記文法錯很多，不等於我沒有語言天分。",
+          "check": "改寫後的句子只講結果，不評斷人。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 891,
+              "endSeconds": 1187
+            }
+          ]
+        },
+        {
+          "id": "step-5",
+          "title": "把第一步縮小到今天就能上場",
+          "action": "決定一個最小而真實的第一步，今天就做，做完看看實際的答案和想像差多少。",
+          "why": "節目說不上場，完美想像就保得住；一上場，答案就出來了。",
+          "example": "編輯示範：今天只寫三行英文，不修改，也不給誰看。",
+          "check": "第一步在今天內完成，並記下與想像的差異。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 307,
+              "endSeconds": 597
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "操作順序",
+          "note": "編輯整理：依本文練習安排呈現；箭頭表示建議順序，不是效果證據。",
+          "nodes": [
+            {
+              "id": "step-1",
+              "label": "寫下一件「知道該做卻一直沒做」的事",
+              "detail": "事情具體到可以說出「做了什麼就算開始」。"
+            },
+            {
+              "id": "step-2",
+              "label": "問自己：我在躲哪一種情緒成本",
+              "detail": "至少有一句話對應到具體的恐懼或羞愧。"
+            },
+            {
+              "id": "step-3",
+              "label": "看出「不上場」保護了什麼",
+              "detail": "寫出一句「不開始保住了什麼」。"
+            },
+            {
+              "id": "step-4",
+              "label": "把結果和自我評價分開",
+              "detail": "改寫後的句子只講結果，不評斷人。"
+            },
+            {
+              "id": "step-5",
+              "label": "把第一步縮小到今天就能上場",
+              "detail": "第一步在今天內完成，並記下與想像的差異。"
+            }
+          ],
+          "edges": [
+            {
+              "from": "step-1",
+              "to": "step-2"
+            },
+            {
+              "from": "step-2",
+              "to": "step-3"
+            },
+            {
+              "from": "step-3",
+              "to": "step-4"
+            },
+            {
+              "from": "step-4",
+              "to": "step-5"
+            }
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "本文練習能在實際情境產生預期改善",
+          "status": "unverified",
+          "explanation": "來源為個人分享、節目討論或工具示範；未對本篇編輯練習進行對照測試，完成檢核僅代表留下可查看的產出，不宣稱長期效果或因果。",
+          "sourceIds": [
+            "source"
+          ],
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "pitfalls": [
+        "把情緒成本當成又一個要研究的方法，繼續只讀不做。",
+        "一次把第一步訂得太大，反而又增加一次羞愧。",
+        "長期內耗、焦慮或情緒困擾嚴重時只靠這張卡；需要時應尋求專業協助。"
+      ],
+      "practice": {
+        "title": "編輯補充：15分鐘試作",
+        "minutes": 15,
+        "prompt": "編輯補充：15分鐘為試作安排，可依自己的情境調整。挑一件卡住的事，填完五欄檢查卡，並完成最小第一步。",
+        "deliverable": "一張包含卡住的事、可能的情緒成本、結果與自我評價分開的句子，以及最小第一步的檢查卡",
+        "checklist": [
+          "事情具體到可以說出「做了什麼就算開始」。",
+          "至少有一句話對應到具體的恐懼或羞愧。",
+          "寫出一句「不開始保住了什麼」。",
+          "改寫後的句子只講結果，不評斷人。",
+          "第一步在今天內完成，並記下與想像的差異。"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "編輯補充：可複製模板",
+          "text": "編輯補充模板：卡住的事：＿＿；已準備的方法：＿＿；我在躲的情緒成本：＿＿；不開始保住了什麼：＿＿；只描述結果的句子：＿＿；今天的第一步：＿＿。",
+          "sourceIds": [
+            "source"
+          ]
+        },
+        {
+          "title": "編輯觀點：第一步要小到不需要意志力",
+          "text": "編輯觀點：我覺得這集把「方法不夠」換成「不想付的代價」很有幫助，但它屬於經驗分享，沒有證據顯示每個人都是這個原因。建議把這張卡當診斷工具之一，若第一步縮小後仍動不了，再去看是否有其他阻礙。",
+          "sourceIds": [
+            "source"
+          ]
+        }
+      ],
+      "status": "ready",
+      "publishedAt": "2026-11-09T20:00:00+08:00",
+      "overview": {
+        "kind": "infographic",
+        "image": "/assets/overviews/knowing-not-doing-emotional-cost-check-desktop.webp",
+        "mobileImage": "/assets/overviews/knowing-not-doing-emotional-cost-check-mobile.webp",
+        "cardImage": "/assets/overviews/knowing-not-doing-emotional-cost-check-desktop.webp",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600,
+        "alt": "道理都懂卻做不到：先找出你不想付的「情緒成本」：依本文核心關係整理的雙版資訊圖。",
+        "caption": "依來源方法製作的編輯整理；例子與操作安排為編輯設計，不代表成效保證。"
+      }
+    },
+    {
+      "id": "meeting-parking-lot-and-closing-summary",
+      "title": "讓會議敢發言：先說「我認真聽」，偏題放停車場，結尾寫下決議與負責人",
+      "summary": "主持人的表情與回應，決定下次還有沒有人願意開口。本文整理主持會議的五個動作：會前說目的、不同意先聆聽、偏題放停車場、點名基層發言，最後總結決議、負責人與時間。",
+      "categoryId": "reading",
+      "topicIds": [
+        "mindset",
+        "classroom"
+      ],
+      "level": "入門",
+      "minutes": 20,
+      "output": "一張包含會議目的、邀請對象、停車場清單、發言點名與結尾總結的主持卡",
+      "audience": "主持校內會議、社群共備或小組討論的老師與上班族",
+      "contentType": "video_method",
+      "reviewedAt": "2026-11-09",
+      "keywords": [
+        "會議主持",
+        "心理安全感",
+        "停車場",
+        "會議總結",
+        "點名發言"
+      ],
+      "sourceCoverage": "中文語音辨識全文約 57 分鐘，片長 3424 秒；為受訪者口述經驗，未驗證成效；與同一來源另一篇「向上提案」為不同流程。取 1989–2533 秒。 本文步驟、示範與練習安排為編輯整理或補充，效果未驗證。",
+      "coverLabel": "編輯整理",
+      "sources": [
+        {
+          "id": "source",
+          "title": "EP98 前 Yahoo 亞太區總經理的帶人心法 feat. Rose 鄒開蓮",
+          "url": "https://www.youtube.com/watch?v=uDZa--s_MPM",
+          "kind": "video",
+          "provider": "youtube",
+          "videoId": "uDZa--s_MPM",
+          "channel": "人生解扣方程式",
+          "note": "由 Notion 紀錄與中繼資料比對取得原片；與另一篇為同一支影片的不同流程。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "開會前先說目的，邀對的人，並請大家預備",
+          "action": "在通知中寫下會議目的、需要決定的事與要邀請的人，請大家先想過。",
+          "why": "受訪者建議會前說清目的、邀對的人，並請大家先預備。",
+          "example": "編輯示範：通知寫「本次要決定下學期共備時段」，並附兩個選項。",
+          "check": "通知中有目的與需要決定的事。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 2261,
+              "endSeconds": 2533
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "不同意時，也先說「這想法有意思，我認真聽」",
+          "action": "聽到不同意的想法，先回應「我認真聽」，暫時不評論，等對方說完再說你的看法。",
+          "why": "受訪者稱主管的表情與回應，決定下次還有沒有人發言；不同意也先聽。",
+          "example": "編輯示範：新老師提出不同做法，先說「謝謝，我想先完整聽你的想法」。",
+          "check": "你的第一句不是反駁。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 2261,
+              "endSeconds": 2533
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "偏題的想法放進「停車場」，會後再談",
+          "action": "在白板或文件邊欄寫一個「停車場」，把偏題但有價值的想法記在那裡，守住主軸。",
+          "why": "受訪者稱偏題想法放停車場，之後再談，守住主軸。",
+          "example": "編輯示範：在共筆文件最後建立「停車場」，會後逐條指定處理人。",
+          "check": "會議紀錄有停車場，並指定後續處理時間。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 2261,
+              "endSeconds": 2533
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "主動點名較少發言的人，並避免一人獨占",
+          "action": "先邀請平常較少說話的人，再開放自由討論；若有人說太久，簡短收束。",
+          "why": "受訪者提到避免一人獨佔，主動點名基層發言，並稱團隊表情會反映主管的價值觀。",
+          "example": "編輯示範：「這件事會直接影響導師，我們先請導師代表說明現況。」",
+          "check": "至少一位平常較少說話的人被邀請發言。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 1989,
+              "endSeconds": 2260
+            }
+          ]
+        },
+        {
+          "id": "step-5",
+          "title": "結尾總結決議、負責人、時間與下次會議",
+          "action": "最後三分鐘逐項唸出：決定了什麼、誰負責、何時完成、下次何時再看。",
+          "why": "受訪者稱結尾要總結決議、負責人、時間與下次會議。",
+          "example": "編輯示範：在共筆文件最下方寫「決議／負責人／完成日／下次會議日」。",
+          "check": "每個決議都有負責人與日期。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 2261,
+              "endSeconds": 2533
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "操作順序",
+          "note": "編輯整理：依本文練習安排呈現；箭頭表示建議順序，不是效果證據。",
+          "nodes": [
+            {
+              "id": "step-1",
+              "label": "開會前先說目的，邀對的人，並請大家預備",
+              "detail": "通知中有目的與需要決定的事。"
+            },
+            {
+              "id": "step-2",
+              "label": "不同意時，也先說「這想法有意思，我認真聽」",
+              "detail": "你的第一句不是反駁。"
+            },
+            {
+              "id": "step-3",
+              "label": "偏題的想法放進「停車場」，會後再談",
+              "detail": "會議紀錄有停車場，並指定後續處理時間。"
+            },
+            {
+              "id": "step-4",
+              "label": "主動點名較少發言的人，並避免一人獨占",
+              "detail": "至少一位平常較少說話的人被邀請發言。"
+            },
+            {
+              "id": "step-5",
+              "label": "結尾總結決議、負責人、時間與下次會議",
+              "detail": "每個決議都有負責人與日期。"
+            }
+          ],
+          "edges": [
+            {
+              "from": "step-1",
+              "to": "step-2"
+            },
+            {
+              "from": "step-2",
+              "to": "step-3"
+            },
+            {
+              "from": "step-3",
+              "to": "step-4"
+            },
+            {
+              "from": "step-4",
+              "to": "step-5"
+            }
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "本文練習能在實際情境產生預期改善",
+          "status": "unverified",
+          "explanation": "來源為個人分享、節目討論或工具示範；未對本篇編輯練習進行對照測試，完成檢核僅代表留下可查看的產出，不宣稱長期效果或因果。",
+          "sourceIds": [
+            "source"
+          ],
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "pitfalls": [
+        "停車場變成無人處理的垃圾桶；必須指定處理時間。",
+        "點名造成壓力時，可先讓對方有準備時間或改以書面發言。",
+        "只在形式上說「我認真聽」，表情或語氣卻明顯否定。"
+      ],
+      "practice": {
+        "title": "編輯補充：20分鐘試作",
+        "minutes": 20,
+        "prompt": "編輯補充：20分鐘為試作安排，可依自己的情境調整。下次主持會議時，使用五個動作，並在會後檢查停車場與總結是否都有人跟進。",
+        "deliverable": "一張包含會議目的、邀請對象、停車場清單、發言點名與結尾總結的主持卡",
+        "checklist": [
+          "通知中有目的與需要決定的事。",
+          "你的第一句不是反駁。",
+          "會議紀錄有停車場，並指定後續處理時間。",
+          "至少一位平常較少說話的人被邀請發言。",
+          "每個決議都有負責人與日期。"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "編輯補充：可複製模板",
+          "text": "編輯補充模板：會議目的：＿＿；需要決定的事：＿＿；邀請對象：＿＿；停車場清單：＿＿；會議結尾：決議＿／負責人＿／完成日＿／下次會議＿。",
+          "sourceIds": [
+            "source"
+          ]
+        },
+        {
+          "title": "編輯觀點：主持人的第一反應就是規則",
+          "text": "編輯觀點：我覺得這段最有價值的是「主持人的反應會決定下次有沒有人發言」。但這是受訪者的經驗談，沒有數據證明成效。建議先從兩個動作做起：停車場與結尾總結。",
+          "sourceIds": [
+            "source"
+          ]
+        }
+      ],
+      "status": "ready",
+      "publishedAt": "2026-11-09T20:00:00+08:00",
+      "overview": {
+        "kind": "infographic",
+        "image": "/assets/overviews/meeting-parking-lot-and-closing-summary-desktop.webp",
+        "mobileImage": "/assets/overviews/meeting-parking-lot-and-closing-summary-mobile.webp",
+        "cardImage": "/assets/overviews/meeting-parking-lot-and-closing-summary-desktop.webp",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600,
+        "alt": "讓會議敢發言：先說「我認真聽」，偏題放停車場，結尾寫下決議與負責人：依本文核心關係整理的雙版資訊圖。",
+        "caption": "依來源方法製作的編輯整理；例子與操作安排為編輯設計，不代表成效保證。"
+      }
+    },
+    {
+      "id": "partner-money-worry-before-solution",
+      "title": "伴侶對花錢意見不同：先問擔憂，再說感受，最後才談方案",
+      "summary": "訪談中提到，夫妻對花錢與投資意見不同，常是各自背後的不安不同。本文整理成五步對話流程：先分開預算、了解對方在意什麼、辨認自己的傾向、說出感受，最後一起決定。",
+      "categoryId": "reading",
+      "topicIds": [
+        "mindset"
+      ],
+      "level": "入門",
+      "minutes": 20,
+      "output": "一張包含家庭預算分區、雙方擔憂、各自傾向、感受句與共同決定的伴侶金錢對話卡",
+      "audience": "與伴侶或家人常為花錢、存錢、投資意見不同而爭執的成人",
+      "contentType": "video_method",
+      "reviewedAt": "2026-11-09",
+      "keywords": [
+        "伴侶金錢觀",
+        "金錢性格",
+        "擔憂與需求",
+        "說出感受",
+        "預算分區"
+      ],
+      "sourceCoverage": "中文語音辨識全文約 31 分鐘，片長 1880 秒；內容為作者訪談，案例與數字（如每日飲料花費試算）為受訪者口述，未驗證；精油、情緒用品段落及與主題無關的產品討論未採用，也不構成理財或醫療建議。取 840–1673 秒。 本文步驟、示範與練習安排為編輯整理或補充，效果未驗證。",
+      "coverLabel": "編輯整理",
+      "sources": [
+        {
+          "id": "source",
+          "title": "閱讀人專訪《值得過上好日子》精算媽咪 珊迪兔",
+          "url": "https://www.youtube.com/watch?v=ashD5YHd6uM",
+          "kind": "video",
+          "provider": "youtube",
+          "videoId": "ashD5YHd6uM",
+          "channel": "閱讀人 鄭俊德",
+          "note": "由 Notion 紀錄與中繼資料比對取得原片；內容為作者訪談，來源原述與編輯設計分開呈現。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "先把錢分成三個區：消費、投資、存款",
+          "action": "寫下每月可用的錢，分成日常消費、投資、存款三塊，各自有上限，不要把所有錢拿去追求最大化。",
+          "why": "受訪者主張不必追求資產最大化，可把資金分成消費、投資與存款，符合預算的享受是照顧生活。",
+          "example": "編輯示範：每月留一小筆「不需要解釋」的自由花費，兩人各一份。",
+          "check": "三個區各有金額或比例，且兩人都看過。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 1393,
+              "endSeconds": 1673
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "先問對方在意什麼，不急著說服",
+          "action": "用一句話問：「你對這筆錢最擔心的是什麼？」先聽完，不反駁。",
+          "why": "受訪者的例子是太太想出國、先生覺得浪費，深談後發現太太重視家庭、珍惜相處時光。",
+          "example": "編輯示範：問「這趟旅行對你最重要的是什麼？」並把答案寫下來。",
+          "check": "你能複述對方的擔憂，並得到對方「對，就是這樣」的確認。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 1133,
+              "endSeconds": 1390
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "看出雙方各自的傾向，但不貼標籤",
+          "action": "各自勾選自己較像控制、逃避、自由或焦慮型的哪一種，只用來理解，不拿來定論對方。",
+          "why": "受訪者提到可覺察自己偏向控制、逃避、自由或焦慮型，並提醒不要貼標籤；先生因父親炒股賠錢而不敢冒險。",
+          "example": "編輯示範：我比較偏控制，所以看到支出就緊張，這和你的方式不同，不代表誰錯。",
+          "check": "每人寫出一個自己的傾向與其背後的經驗。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 1393,
+              "endSeconds": 1673
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "用「我覺得……」說出感受，不指責",
+          "action": "把感受說成「我覺得不被信任」，再問對方的想法，一起釐清。",
+          "why": "受訪者建議直接說出感受，並舉例說出感受後，對方便理解。",
+          "example": "編輯示範：「我看到這筆花費會緊張，想先聽你怎麼想。」",
+          "check": "句子以「我」開頭，不含「你總是」。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 1393,
+              "endSeconds": 1673
+            }
+          ]
+        },
+        {
+          "id": "step-5",
+          "title": "定一個共同決定與回頭檢視的日期",
+          "action": "針對這筆錢寫下共同的決定、預算上限，以及一年後或下次健檢時再看一次的日期。",
+          "why": "受訪者也建議每年做一次財務健檢，並用「一年後這東西還有意義嗎？」檢查支出。",
+          "example": "編輯示範：訂在每年生日當週一起看帳目，決定可保留或調整的項目。",
+          "check": "決定、上限與檢視日期都已寫下。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 840,
+              "endSeconds": 1130
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "操作順序",
+          "note": "編輯整理：依本文練習安排呈現；箭頭表示建議順序，不是效果證據。",
+          "nodes": [
+            {
+              "id": "step-1",
+              "label": "先把錢分成三個區：消費、投資、存款",
+              "detail": "三個區各有金額或比例，且兩人都看過。"
+            },
+            {
+              "id": "step-2",
+              "label": "先問對方在意什麼，不急著說服",
+              "detail": "你能複述對方的擔憂，並得到對方「對，就是這樣」的確認。"
+            },
+            {
+              "id": "step-3",
+              "label": "看出雙方各自的傾向，但不貼標籤",
+              "detail": "每人寫出一個自己的傾向與其背後的經驗。"
+            },
+            {
+              "id": "step-4",
+              "label": "用「我覺得……」說出感受，不指責",
+              "detail": "句子以「我」開頭，不含「你總是」。"
+            },
+            {
+              "id": "step-5",
+              "label": "定一個共同決定與回頭檢視的日期",
+              "detail": "決定、上限與檢視日期都已寫下。"
+            }
+          ],
+          "edges": [
+            {
+              "from": "step-1",
+              "to": "step-2"
+            },
+            {
+              "from": "step-2",
+              "to": "step-3"
+            },
+            {
+              "from": "step-3",
+              "to": "step-4"
+            },
+            {
+              "from": "step-4",
+              "to": "step-5"
+            }
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "本文練習能在實際情境產生預期改善",
+          "status": "unverified",
+          "explanation": "來源為個人分享、節目討論或工具示範；未對本篇編輯練習進行對照測試，完成檢核僅代表留下可查看的產出，不宣稱長期效果或因果。",
+          "sourceIds": [
+            "source"
+          ],
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "pitfalls": [
+        "把金錢性格當成標籤，用來證明對方不對。",
+        "在情緒很高時談方案；應先暫停，等彼此平靜。",
+        "把訪談中的投資報酬試算當成保證，實際決定仍要依各自財務狀況，必要時諮詢專業人員。"
+      ],
+      "practice": {
+        "title": "編輯補充：20分鐘試作",
+        "minutes": 20,
+        "prompt": "編輯補充：20分鐘為試作安排，可依自己的情境調整。選一筆彼此意見不同的花費，完成五步對話卡，並在約定日期回頭檢視。",
+        "deliverable": "一張包含家庭預算分區、雙方擔憂、各自傾向、感受句與共同決定的伴侶金錢對話卡",
+        "checklist": [
+          "三個區各有金額或比例，且兩人都看過。",
+          "你能複述對方的擔憂，並得到對方「對，就是這樣」的確認。",
+          "每人寫出一個自己的傾向與其背後的經驗。",
+          "句子以「我」開頭，不含「你總是」。",
+          "決定、上限與檢視日期都已寫下。"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "編輯補充：可複製模板",
+          "text": "編輯補充模板：這筆錢：＿＿；三分區預算：＿＿；對方的擔憂（複述）：＿＿；我的傾向與背後經驗：＿＿；我的感受句：＿＿；共同決定與檢視日期：＿＿。",
+          "sourceIds": [
+            "source"
+          ]
+        },
+        {
+          "title": "編輯觀點：先聽擔憂，錢的問題才會鬆開",
+          "text": "編輯觀點：我覺得這段訪談最有用的是把爭執從「該不該花」換成「你在擔心什麼」。但案例是受訪者個人經驗，也不是專業理財建議；金額大或家庭負債複雜時，仍建議找專業人員協助。",
+          "sourceIds": [
+            "source"
+          ]
+        }
+      ],
+      "status": "ready",
+      "publishedAt": "2026-11-09T20:00:00+08:00",
+      "overview": {
+        "kind": "infographic",
+        "image": "/assets/overviews/partner-money-worry-before-solution-desktop.webp",
+        "mobileImage": "/assets/overviews/partner-money-worry-before-solution-mobile.webp",
+        "cardImage": "/assets/overviews/partner-money-worry-before-solution-desktop.webp",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600,
+        "alt": "伴侶對花錢意見不同：先問擔憂，再說感受，最後才談方案：依本文核心關係整理的雙版資訊圖。",
+        "caption": "依來源方法製作的編輯整理；例子與操作安排為編輯設計，不代表成效保證。"
+      }
+    },
+    {
+      "id": "pitch-upward-market-size-and-time-window",
+      "title": "向上提案：先講市場規模、給時間窗口，再講團隊的使命",
+      "summary": "前外商主管談如何在極短時間內說服遠端上層：不講細節而講大市場，給明確的時間窗口，並讓團隊與合作方看見意義。本文整理成五步提案流程。",
+      "categoryId": "reading",
+      "topicIds": [
+        "mindset"
+      ],
+      "level": "入門",
+      "minutes": 25,
+      "output": "一張包含上層關心的大數字、時間窗口、對方得到的好處、給團隊的使命句與資源請求的提案卡",
+      "audience": "需要向主管、校長或外部單位爭取資源、通常只有短時間說明的老師與上班族",
+      "contentType": "video_method",
+      "reviewedAt": "2026-11-09",
+      "keywords": [
+        "向上提案",
+        "市場規模",
+        "時間窗口",
+        "意義",
+        "跨部門請託"
+      ],
+      "sourceCoverage": "中文語音辨識全文約 57 分鐘，片長 3424 秒；案例（如市場規模數字、談判情境）為受訪者口述，未驗證，數字寫「受訪者稱」；已排除片尾書籍介紹；一小段 ASR 摘要失敗，改依原稿核對。取 1440–1704 秒及 1672–1704 秒。 本文步驟、示範與練習安排為編輯整理或補充，效果未驗證。",
+      "coverLabel": "編輯整理",
+      "sources": [
+        {
+          "id": "source",
+          "title": "EP98 前 Yahoo 亞太區總經理的帶人心法 feat. Rose 鄒開蓮",
+          "url": "https://www.youtube.com/watch?v=uDZa--s_MPM",
+          "kind": "video",
+          "provider": "youtube",
+          "videoId": "uDZa--s_MPM",
+          "channel": "人生解扣方程式",
+          "note": "由 Notion 紀錄與中繼資料比對取得原片；內容為受訪者個人經驗，來源原述與編輯設計分開呈現。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "先接受時間很短、對方懷疑的事實",
+          "action": "假設你只有三十分鐘，對方意願不高、帶著疑問。把簡報縮到讓外行也能一次聽懂。",
+          "why": "受訪者稱會議時間極短、對方懷疑，簡報必須精簡到非常好懂。",
+          "example": "編輯示範：把十頁簡報壓成一頁，只放目標、大數字與請求。",
+          "check": "整份說明可在三分鐘內講完。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 1440,
+              "endSeconds": 1704
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "不談細節，先講上層關心的大市場",
+          "action": "找出上層在意的規模，例如整體市場、受益人數或預算，用大未來取代小數字。",
+          "why": "受訪者說向上層簡報時不談細節，只講市場規模，例如台灣廣告市場約五六百億、零售約三兆（受訪者稱）。",
+          "example": "編輯示範：向校長說明「全校一千名學生都會用到」，而不是先講功能細節。",
+          "check": "提案第一句是對方關心的規模或影響。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 1440,
+              "endSeconds": 1704
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "給明確的時間窗口，製造需要現在決定的理由",
+          "action": "說明這件事的時機只有這段時間，並請對方在會上給出初步答覆或下一步。",
+          "why": "受訪者以「只有六個月」的時間窗口說服老闆，並不接受「明天再討論」。",
+          "example": "編輯示範：這項補助三月截止，所以今天想先請您確定是否繼續。",
+          "check": "提案中有一個具體日期或期限，以及一個要對方給出的下一步。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 1440,
+              "endSeconds": 1704
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "講「成長我們的市場」，不講個人加薪",
+          "action": "把動機放在團隊、本地用戶與整體成果，而不是個人好處。",
+          "why": "受訪者稱打動決策者的是本土人才的熱情與企圖心，並對團隊訴諸使命感「改寫臺灣電商歷史」。",
+          "example": "編輯示範：我們想讓本校的學生也能用到這個工具，不是只為了某個班。",
+          "check": "寫出一句使命句，不涉及個人利益。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 1440,
+              "endSeconds": 1704
+            }
+          ]
+        },
+        {
+          "id": "step-5",
+          "title": "請託跨部門時，讓對方覺得有意義、好玩",
+          "action": "請不同單位協助前，先講這件事對他們工作的意義，並盡量在平時就維持關係。",
+          "why": "受訪者稱要讓對方覺得有意義、好玩，而不只是分內工作，且這取決於平時的關係經營。",
+          "example": "編輯示範：邀請另一處室時，先說這個活動可以幫他們達成什麼，再說需要什麼。",
+          "check": "請託的第一句話先講對方得到什麼。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 1672,
+              "endSeconds": 1704
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "操作順序",
+          "note": "編輯整理：依本文練習安排呈現；箭頭表示建議順序，不是效果證據。",
+          "nodes": [
+            {
+              "id": "step-1",
+              "label": "先接受時間很短、對方懷疑的事實",
+              "detail": "整份說明可在三分鐘內講完。"
+            },
+            {
+              "id": "step-2",
+              "label": "不談細節，先講上層關心的大市場",
+              "detail": "提案第一句是對方關心的規模或影響。"
+            },
+            {
+              "id": "step-3",
+              "label": "給明確的時間窗口，製造需要現在決定的理由",
+              "detail": "提案中有一個具體日期或期限，以及一個要對方給出的下一步。"
+            },
+            {
+              "id": "step-4",
+              "label": "講「成長我們的市場」，不講個人加薪",
+              "detail": "寫出一句使命句，不涉及個人利益。"
+            },
+            {
+              "id": "step-5",
+              "label": "請託跨部門時，讓對方覺得有意義、好玩",
+              "detail": "請託的第一句話先講對方得到什麼。"
+            }
+          ],
+          "edges": [
+            {
+              "from": "step-1",
+              "to": "step-2"
+            },
+            {
+              "from": "step-2",
+              "to": "step-3"
+            },
+            {
+              "from": "step-3",
+              "to": "step-4"
+            },
+            {
+              "from": "step-4",
+              "to": "step-5"
+            }
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "本文練習能在實際情境產生預期改善",
+          "status": "unverified",
+          "explanation": "來源為個人分享、節目討論或工具示範；未對本篇編輯練習進行對照測試，完成檢核僅代表留下可查看的產出，不宣稱長期效果或因果。",
+          "sourceIds": [
+            "source"
+          ],
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "pitfalls": [
+        "用大數字誇大效益；數字要有依據，說不出來就不要講。",
+        "把「時間窗口」說成逼迫，造成對方反感；理由必須真實。",
+        "只談使命而沒有具體請求，對方不知道要做什麼。"
+      ],
+      "practice": {
+        "title": "編輯補充：25分鐘試作",
+        "minutes": 25,
+        "prompt": "編輯補充：25分鐘為試作安排，可依自己的情境調整。為一件想爭取的事寫一頁提案卡，並在三分鐘內講給別人聽。",
+        "deliverable": "一張包含上層關心的大數字、時間窗口、對方得到的好處、給團隊的使命句與資源請求的提案卡",
+        "checklist": [
+          "整份說明可在三分鐘內講完。",
+          "提案第一句是對方關心的規模或影響。",
+          "提案中有一個具體日期或期限，以及一個要對方給出的下一步。",
+          "寫出一句使命句，不涉及個人利益。",
+          "請託的第一句話先講對方得到什麼。"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "編輯補充：可複製模板",
+          "text": "編輯補充模板：對方在意的規模：＿＿；時間窗口與期限：＿＿；對方的好處：＿＿；使命句：＿＿；我要請對方做的一件事：＿＿；跨單位請託的第一句：＿＿。",
+          "sourceIds": [
+            "source"
+          ]
+        },
+        {
+          "title": "編輯觀點：提案先講對方的世界",
+          "text": "編輯觀點：我覺得這段對年輕老師很實用：許多提案敗在先講細節。但這些數字與情境來自受訪者口述，不同組織的決策流程差很多，請把它當作思考框架，而不是話術。",
+          "sourceIds": [
+            "source"
+          ]
+        }
+      ],
+      "status": "ready",
+      "publishedAt": "2026-11-09T20:00:00+08:00",
+      "overview": {
+        "kind": "infographic",
+        "image": "/assets/overviews/pitch-upward-market-size-and-time-window-desktop.webp",
+        "mobileImage": "/assets/overviews/pitch-upward-market-size-and-time-window-mobile.webp",
+        "cardImage": "/assets/overviews/pitch-upward-market-size-and-time-window-desktop.webp",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600,
+        "alt": "向上提案：先講市場規模、給時間窗口，再講團隊的使命：依本文核心關係整理的雙版資訊圖。",
+        "caption": "依來源方法製作的編輯整理；例子與操作安排為編輯設計，不代表成效保證。"
+      }
+    },
+    {
+      "id": "raise-request-prep-profit-evidence-and-timing",
+      "title": "要談加薪之前：看時機、列功勞、備好三十秒",
+      "summary": "來賓提出，加薪不是「我很累」，而是對公司的具體貢獻。本文整理成四步：先看公司狀況、把苦勞換成貢獻、找到一對一的時機、備好電梯裡的三十秒回應。",
+      "categoryId": "reading",
+      "topicIds": [
+        "mindset"
+      ],
+      "level": "入門",
+      "minutes": 15,
+      "output": "一張包含時機判斷、具體貢獻清單、談話時機與三十秒說法的加薪準備卡",
+      "audience": "考慮向主管提出加薪或增加職責的上班族與行政人員",
+      "contentType": "article_method",
+      "reviewedAt": "2026-11-09",
+      "keywords": [
+        "加薪",
+        "具體貢獻",
+        "時機",
+        "三十秒",
+        "向上溝通"
+      ],
+      "sourceCoverage": "中文本機語音辨識（Groq whisper）全文約 36 分鐘，音訊 2151 秒；來賓經驗談，無統計；不構成薪資談判或勞動法律建議；各單位制度差異大。取 1140–1425 秒。 本文步驟、示範與練習安排為編輯整理或補充，效果未驗證。",
+      "coverLabel": "編輯整理",
+      "sources": [
+        {
+          "id": "original",
+          "title": "2026-10-27 🎙 EP2554【吳淡如Ｘ岳啟儒】工作總是鞠躬盡瘁，升遷卻老是別人？",
+          "url": "https://player.soundon.fm/p/73930beb-4136-4b36-a910-39984335b7bb/episodes/dcd88134-e9ab-42a3-9dc7-6206244644fb",
+          "kind": "article",
+          "channel": "吳淡如人生實用商學院",
+          "note": "與另一篇為同一集的不同流程。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "先看公司的狀況與時機",
+          "action": "開口前先判斷公司的獲利、近期是否有裁員或虧損，再決定今天談不談。",
+          "why": "節目提醒在虧損或裁員期提加薪不合時宜。",
+          "example": "編輯示範：每季看一次單位的預算或業績消息，再決定時間。",
+          "check": "寫出你對目前時機的判斷與依據。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 1140,
+              "endSeconds": 1425
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "把「我很累」改成具體貢獻清單",
+          "action": "列出你對業績、成本或效率的具體貢獻：做了什麼、帶來什麼變化、日期。",
+          "why": "節目稱「我很累所以要加薪」屬苦勞，老闆可能覺得你效率不佳；要列出對業績或成本控制的具體功勞。",
+          "example": "編輯示範：整理每月報表流程，由三小時縮短為一小時。",
+          "check": "清單至少有三項，各有數字或結果。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 1140,
+              "endSeconds": 1425
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "參考被肯定者的做法，把後勤包裝成成果",
+          "action": "觀察單位裡被稱讚或升遷的人如何表達成果，並把你的後勤工作轉成對整體的價值。",
+          "why": "節目建議參考被稱讚與被升遷者的表現，把後勤包裝成利潤；舉例用 AI 完成多人工作，本身就是效率功勞。",
+          "example": "編輯示範：把「整理資料」改寫為「讓決策提前兩天完成」。",
+          "check": "每項貢獻都有「對誰有用」。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 1140,
+              "endSeconds": 1425
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "選對時機，並備好電梯裡的三十秒",
+          "action": "先找到一對一的時間（如年度談話），預先做功課；平時也備好三十秒版本。",
+          "why": "節目提到年度一對一、預做功課，並準備電梯與茶水間三十秒的回應。",
+          "example": "編輯示範：三十秒版：「這半年我完成了三件事，節省了……，我想和您談談下一步的角色。」",
+          "check": "三十秒版本可以一口氣講完。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "original",
+              "startSeconds": 1140,
+              "endSeconds": 1425
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "操作順序",
+          "note": "編輯整理：依本文練習安排呈現；箭頭表示建議順序，不是效果證據。",
+          "nodes": [
+            {
+              "id": "step-1",
+              "label": "先看公司的狀況與時機",
+              "detail": "寫出你對目前時機的判斷與依據。"
+            },
+            {
+              "id": "step-2",
+              "label": "把「我很累」改成具體貢獻清單",
+              "detail": "清單至少有三項，各有數字或結果。"
+            },
+            {
+              "id": "step-3",
+              "label": "參考被肯定者的做法，把後勤包裝成成果",
+              "detail": "每項貢獻都有「對誰有用」。"
+            },
+            {
+              "id": "step-4",
+              "label": "選對時機，並備好電梯裡的三十秒",
+              "detail": "三十秒版本可以一口氣講完。"
+            }
+          ],
+          "edges": [
+            {
+              "from": "step-1",
+              "to": "step-2"
+            },
+            {
+              "from": "step-2",
+              "to": "step-3"
+            },
+            {
+              "from": "step-3",
+              "to": "step-4"
+            }
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "本文練習能在實際情境產生預期改善",
+          "status": "unverified",
+          "explanation": "來源為個人分享、節目討論或工具示範；未對本篇編輯練習進行對照測試，完成檢核僅代表留下可查看的產出，不宣稱長期效果或因果。",
+          "sourceIds": [
+            "original"
+          ],
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "pitfalls": [
+        "只談辛苦與資歷，沒有任何具體貢獻。",
+        "不看時機，在單位氣氛緊張時提出。",
+        "把貢獻誇大或虛構，被追問時無法說明。"
+      ],
+      "practice": {
+        "title": "編輯補充：15分鐘試作",
+        "minutes": 15,
+        "prompt": "編輯補充：15分鐘為試作安排，可依自己的情境調整。完成貢獻清單與三十秒說法，選擇一個一對一時機。",
+        "deliverable": "一張包含時機判斷、具體貢獻清單、談話時機與三十秒說法的加薪準備卡",
+        "checklist": [
+          "寫出你對目前時機的判斷與依據。",
+          "清單至少有三項，各有數字或結果。",
+          "每項貢獻都有「對誰有用」。",
+          "三十秒版本可以一口氣講完。"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "編輯補充：可複製模板",
+          "text": "編輯補充模板：時機判斷與依據：＿＿；貢獻清單（三項，有結果）：＿＿；對誰有用：＿＿；三十秒說法：＿＿；預計時間：＿＿。",
+          "sourceIds": [
+            "original"
+          ]
+        },
+        {
+          "title": "編輯觀點：把苦勞換成貢獻",
+          "text": "編輯觀點：我覺得這段最有價值的是「列貢獻」，而不是練話術。不過來賓經驗不等於你的單位規則；公立學校與公家機關的薪資制度不同，請先確認制度再使用。",
+          "sourceIds": [
+            "original"
+          ]
+        }
+      ],
+      "status": "ready",
+      "publishedAt": "2026-11-09T20:00:00+08:00",
+      "overview": {
+        "kind": "infographic",
+        "image": "/assets/overviews/raise-request-prep-profit-evidence-and-timing-desktop.webp",
+        "mobileImage": "/assets/overviews/raise-request-prep-profit-evidence-and-timing-mobile.webp",
+        "cardImage": "/assets/overviews/raise-request-prep-profit-evidence-and-timing-desktop.webp",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600,
+        "alt": "要談加薪之前：看時機、列功勞、備好三十秒：依本文核心關係整理的雙版資訊圖。",
+        "caption": "依來源方法製作的編輯整理；例子與操作安排為編輯設計，不代表成效保證。"
+      }
+    },
+    {
+      "id": "values-pick-three-and-explain-with-feedback",
+      "title": "迷茫時先盤點價值觀：從清單選三到六項，寫出怎麼落實，再請人回饋",
+      "summary": "導讀影片提到，迷茫時可以先檢視價值觀。本文整理成五步：先把今天過好，從清單挑三項，寫下怎麼詮釋，請人回饋，再看真實我與理想我的差距。",
+      "categoryId": "reading",
+      "topicIds": [
+        "mindset"
+      ],
+      "level": "入門",
+      "minutes": 20,
+      "output": "一張包含三至六項價值觀、各自落實方式、他人回饋與落差觀察的價值盤點卡",
+      "audience": "工作或生活方向迷茫、想先釐清自己在意什麼的成人與高年級學生",
+      "contentType": "video_method",
+      "reviewedAt": "2026-11-09",
+      "keywords": [
+        "價值觀盤點",
+        "自我差距",
+        "他人回饋",
+        "詮釋價值觀",
+        "迷茫"
+      ],
+      "sourceCoverage": "中文語音辨識全文約 56 分鐘，片長 3351 秒；內容為導讀者對書的轉述，書中的清單（50 項）與案例未回查原書；與同來源另一篇 ABC 提問為不同流程；非心理諮商。取 1015–1620 秒。 本文步驟、示範與練習安排為編輯整理或補充，效果未驗證。",
+      "coverLabel": "編輯整理",
+      "sources": [
+        {
+          "id": "source",
+          "title": "閱讀人專題讀書會《初級大人找回自我的心理練習》閱讀人導讀",
+          "url": "https://www.youtube.com/watch?v=XMPsmVrT5Yc",
+          "kind": "video",
+          "provider": "youtube",
+          "videoId": "XMPsmVrT5Yc",
+          "channel": "閱讀人 鄭俊德",
+          "note": "由 Notion 紀錄與中繼資料比對取得原片；與另一篇為同一支影片的不同流程。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "茫然時，先把今天過好",
+          "action": "先決定今天要進步一點點的一件事，例如多讀一頁書或學一個新技能。",
+          "why": "導讀稱茫然時先把今天過好，每天進步一點點，而不是急著找答案。",
+          "example": "編輯示範：今天讀十分鐘，並記下一句話。",
+          "check": "寫下今天可完成的一件小事。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 1015,
+              "endSeconds": 1308
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "從價值觀清單挑三項最在意的",
+          "action": "拿到一份價值觀清單（書中有 50 項），先挑出三項，不求完整。",
+          "why": "導讀稱焦躁時檢視價值觀，從 50 個中挑三個，例如智慧、成長、愛。",
+          "example": "編輯示範：我先挑「學習」「自主」「陪伴」。",
+          "check": "剛好選出三項，不多不少。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 1015,
+              "endSeconds": 1308
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "擴大到三至六項，並寫出「我怎麼詮釋它」",
+          "action": "把清單挑到三至六項，每項用一句話寫出對你而言是什麼意思、怎麼做。",
+          "why": "導讀稱價值觀盤點後挑三至六項，思索如何擁有並詮釋，詮釋越清楚，代表越能落實。",
+          "example": "編輯示範：「陪伴」＝每週一晚上不看手機，陪孩子十分鐘。",
+          "check": "每項都有一句具體行為的詮釋。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 1310,
+              "endSeconds": 1602
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "請一位信任的人回饋你的樣子",
+          "action": "把你的價值觀與詮釋給一位信任的人看，問「你覺得我有做到嗎？」",
+          "why": "導讀稱向他人求回饋，可以看見自己在別人眼中的模樣。",
+          "example": "編輯示範：問同事「你覺得我平常看起來比較在意什麼？」",
+          "check": "得到至少一則具體回饋。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 1310,
+              "endSeconds": 1602
+            }
+          ]
+        },
+        {
+          "id": "step-5",
+          "title": "看看真實我和理想我、應該我的落差",
+          "action": "比較你現在的樣子、你想成為的樣子，與你覺得應該的樣子；落差大時寫下一個小調整。",
+          "why": "導讀提到自我差距理論：真實我與理想我差距大易憂鬱，與應該我差距大易焦慮。",
+          "example": "編輯示範：我覺得「應該」每天運動，但目前只做到週一，先把目標調成每週兩次。",
+          "check": "寫出一個落差和一個小調整。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 1310,
+              "endSeconds": 1602
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "flow",
+          "title": "操作順序",
+          "note": "編輯整理：依本文練習安排呈現；箭頭表示建議順序，不是效果證據。",
+          "nodes": [
+            {
+              "id": "step-1",
+              "label": "茫然時，先把今天過好",
+              "detail": "寫下今天可完成的一件小事。"
+            },
+            {
+              "id": "step-2",
+              "label": "從價值觀清單挑三項最在意的",
+              "detail": "剛好選出三項，不多不少。"
+            },
+            {
+              "id": "step-3",
+              "label": "擴大到三至六項，並寫出「我怎麼詮釋它」",
+              "detail": "每項都有一句具體行為的詮釋。"
+            },
+            {
+              "id": "step-4",
+              "label": "請一位信任的人回饋你的樣子",
+              "detail": "得到至少一則具體回饋。"
+            },
+            {
+              "id": "step-5",
+              "label": "看看真實我和理想我、應該我的落差",
+              "detail": "寫出一個落差和一個小調整。"
+            }
+          ],
+          "edges": [
+            {
+              "from": "step-1",
+              "to": "step-2"
+            },
+            {
+              "from": "step-2",
+              "to": "step-3"
+            },
+            {
+              "from": "step-3",
+              "to": "step-4"
+            },
+            {
+              "from": "step-4",
+              "to": "step-5"
+            }
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "本文練習能在實際情境產生預期改善",
+          "status": "unverified",
+          "explanation": "來源為個人分享、節目討論或工具示範；未對本篇編輯練習進行對照測試，完成檢核僅代表留下可查看的產出，不宣稱長期效果或因果。",
+          "sourceIds": [
+            "source"
+          ],
+          "checkedAt": "2026-11-09"
+        }
+      ],
+      "pitfalls": [
+        "一次選太多價值觀，反而無法落實。",
+        "只看他人的回饋，而不問自己的感受。",
+        "把自我差距理論當成診斷；長期情緒困擾請找專業人員。"
+      ],
+      "practice": {
+        "title": "編輯補充：20分鐘試作",
+        "minutes": 20,
+        "prompt": "編輯補充：20分鐘為試作安排，可依自己的情境調整。花二十分鐘完成價值盤點卡，並約一位信任的人回饋。",
+        "deliverable": "一張包含三至六項價值觀、各自落實方式、他人回饋與落差觀察的價值盤點卡",
+        "checklist": [
+          "寫下今天可完成的一件小事。",
+          "剛好選出三項，不多不少。",
+          "每項都有一句具體行為的詮釋。",
+          "得到至少一則具體回饋。",
+          "寫出一個落差和一個小調整。"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "編輯補充：可複製模板",
+          "text": "編輯補充模板：今天的小進步：＿＿；選出的價值觀：＿＿；每項的詮釋：＿＿；他人的回饋：＿＿；落差與小調整：＿＿。",
+          "sourceIds": [
+            "source"
+          ]
+        },
+        {
+          "title": "編輯觀點：先挑三個，說清楚一個",
+          "text": "編輯觀點：我覺得這套方法的重點是「詮釋要具體」，不是選出漂亮的詞。因為清單與理論來自導讀者的轉述，建議當作自我整理的工具，而不是測驗。",
+          "sourceIds": [
+            "source"
+          ]
+        }
+      ],
+      "status": "ready",
+      "publishedAt": "2026-11-09T20:00:00+08:00",
+      "overview": {
+        "kind": "infographic",
+        "image": "/assets/overviews/values-pick-three-and-explain-with-feedback-desktop.webp",
+        "mobileImage": "/assets/overviews/values-pick-three-and-explain-with-feedback-mobile.webp",
+        "cardImage": "/assets/overviews/values-pick-three-and-explain-with-feedback-desktop.webp",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600,
+        "alt": "迷茫時先盤點價值觀：從清單選三到六項，寫出怎麼落實，再請人回饋：依本文核心關係整理的雙版資訊圖。",
+        "caption": "依來源方法製作的編輯整理；例子與操作安排為編輯設計，不代表成效保證。"
+      }
     }
   ],
   "demo": {
