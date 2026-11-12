@@ -215730,6 +215730,786 @@
         "alt": "有檔案卻交不出去？把說明、測試案例與可重用條件一起盤點：依本文核心關係整理的雙版資訊圖。",
         "caption": "依來源方法製作的編輯整理；例子與操作安排為編輯設計，不代表成效保證。"
       }
+    },
+    {
+      "id": "gpu-vendor-spec-node-acceptance-support-evidence",
+      "title": "GPU供應商別只報張數：先列規格，再留單節點驗收與支援紀錄",
+      "status": "ready",
+      "summary": "供應商說有幾張GPU，仍不足以判斷能否承接工作。訪談提到先發規格表、盡可能做單節點驗收，再累積可靠性與支援經驗。本文把它整理成紙上資料表，沒有實際租機、簽約或判定任何供應商合格。",
+      "output": "一張供應規格、單節點待測與支援證據表",
+      "audience": "想把AI基礎設施問題整理成可討論草案的資訊教師、開發者與自主學習者",
+      "categoryId": "ai",
+      "topicIds": [
+        "workflow"
+      ],
+      "keywords": [],
+      "minutes": 20,
+      "level": "進階",
+      "contentType": "article_method",
+      "reviewedAt": "2026-11-12",
+      "coverLabel": "紙上設計",
+      "sourceCoverage": "完整審讀原發布者正文的自動Transcript，共99372字元、58段、18555字詞，未逐句原音聽校，未觀看完整示範畫面。發布者註明人名及文字可能有誤，不採用未核對的人名、年份、效能、價格與市場主張。採用原段落時間碼，每段約90秒，不推估逐句起訖。本文操作表、虛構材料、問句及20分鐘練習為編輯補充；不以來源的公司經驗證明本篇有效。",
+      "sources": [
+        {
+          "id": "source",
+          "kind": "article",
+          "title": "2026-10-23 🎙 Why AI Compute Comes in Rectangles — Erik Bernhardsson, Modal CEO",
+          "url": "https://www.latent.space/p/modal-d",
+          "channel": "Latent Space",
+          "note": "指定Notion同canonical發布者頁面的自動Transcript；每90秒段落時間供回查，不代表逐句精準聽校。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "先把任務轉成供應規格",
+          "action": "編輯補充：以一個固定工作列出需要確認的磁碟、CPU與網路條件，寫規格依據；未定數值就留待定，不因GPU張數足夠便視為全部合格。",
+          "why": "來源說向供應商先發規格表，包含IOPS、CPU與進出頻寬；本文未取得其數值門檻。",
+          "example": "編輯示範：虛構工作需要讀取一包可公開測試資料，規格表先列磁碟讀取、CPU與進出頻寬三列；數值及依據全部待定。這不是現行硬體規格。",
+          "check": "規格列有任務用途與未知，沒有捏造節目門檻。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 1350,
+              "endSeconds": 1440
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "把單節點試用寫成驗收安排",
+          "action": "編輯補充：若未來可取得一個試用節點，列出準備測的項目、預期資料與要保留的實際結果欄。本練習不租用或連線，所有未測結果保持空白或未測。",
+          "why": "來源會盡可能安排單節點驗收並執行一段時間，不能只靠對方口頭規格。",
+          "example": "編輯示範：虛構方案寫「節點A待提供；磁碟/CPU/網路測法待確認；實測結果未測」，不填通過。",
+          "check": "試用安排與實測結果分開，缺節點不冒稱已驗收。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 1350,
+              "endSeconds": 1440
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "把可靠性和支援反應一起記",
+          "action": "編輯補充：分別記可用性事件、提出問題時間、回應及修復資訊；將未知原因與未回覆分開，不用好感取代紀錄。",
+          "why": "來源除了看可靠性，也在意供應商回應問題與修復的速度。",
+          "example": "編輯示範：完整虛構紀錄：A在09:00回報連線問題，09:20收到回覆，修復時間未知；B未提供事件紀錄。A只能記20分鐘有回應，不能填20分鐘修好；B不能填從未故障。",
+          "check": "每個支援判斷有紀錄依據；未知修復與無紀錄沒有被改成成功。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 1440,
+              "endSeconds": 1530
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "列後續合作前還缺哪些證據",
+          "action": "編輯補充：並排規格、單節點驗收與支援紀錄，寫待補問或待測項目；資料不足停在草案，由實際負責人另評估，不在這次練習簽約或付款。",
+          "why": "來源傾向與過去可靠、回應好的供應商繼續合作；本文用三欄表保留判斷依據與缺口。",
+          "example": "編輯示範：就上述虛構材料，A仍缺規格依據、實測與修復紀錄；B缺相同前兩項也缺事件紀錄。交出待補表，不選出已合格供應商。",
+          "check": "結論與已有證據相符，沒有把待補資料寫成推薦或採購核准。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 1350,
+              "endSeconds": 1530
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "schedule",
+          "title": "編輯補充：20分鐘完成草表",
+          "note": "只用本文虛構材料；沒有測試、購買或實際操作要求。",
+          "columns": [
+            "動作",
+            "留下什麼"
+          ],
+          "rows": [
+            {
+              "label": "0–5分鐘",
+              "cells": [
+                "先把任務轉成供應規格",
+                "規格列有任務用途與未知，沒有捏造節目門檻。"
+              ]
+            },
+            {
+              "label": "5–10分鐘",
+              "cells": [
+                "把單節點試用寫成驗收安排",
+                "試用安排與實測結果分開，缺節點不冒稱已驗收。"
+              ]
+            },
+            {
+              "label": "10–15分鐘",
+              "cells": [
+                "把可靠性和支援反應一起記",
+                "每個支援判斷有紀錄依據；未知修復與無紀錄沒有被改成成功。"
+              ]
+            },
+            {
+              "label": "15–20分鐘",
+              "cells": [
+                "列後續合作前還缺哪些證據",
+                "結論與已有證據相符，沒有把待補資料寫成推薦或採購核准。"
+              ]
+            }
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "這張草表可否改善實際選擇或測試效率",
+          "status": "unverified",
+          "explanation": "本篇只核對來源與紙上設計，未租用節點、執行CI或比較結果；來源公司經驗不是本篇成效實證。",
+          "sourceIds": [
+            "source"
+          ],
+          "checkedAt": "2026-11-12"
+        }
+      ],
+      "pitfalls": [
+        "來源沒有IOPS、CPU或頻寬門檻，不自行填入並假稱原述。",
+        "收到支援回覆不等於已修復；沒有事件紀錄也不等於沒有故障。",
+        "節點試用不構成長期可靠性、安全或採購適法性的證明。"
+      ],
+      "practice": {
+        "title": "編輯補充：使用完整虛構材料",
+        "minutes": 20,
+        "prompt": "只用本文虛構A/B紀錄。依四步列任務需求、待定規格、單節點待測、事件與回覆/修復狀態，再列兩家尚缺的證據；不租機、不填假benchmark、不簽約或聯絡供應商。",
+        "deliverable": "一張供應規格、單節點待測與支援證據表",
+        "checklist": [
+          "規格列有任務用途與未知，沒有捏造節目門檻。",
+          "試用安排與實測結果分開，缺節點不冒稱已驗收。",
+          "每個支援判斷有紀錄依據；未知修復與無紀錄沒有被改成成功。",
+          "結論與已有證據相符，沒有把待補資料寫成推薦或採購核准。"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "編輯補充：可直接填的欄位",
+          "text": "編輯設計欄位：任務用途｜規格項｜依據/待定｜單節點待測項｜實際結果未測｜事件｜回覆｜修復｜待補問。完整虛構A/B紀錄見步驟3，不需要另找真供應商。",
+          "sourceIds": [
+            "source"
+          ]
+        },
+        {
+          "title": "編輯觀點：教學轉用",
+          "text": "可讓資訊社團用虛構資料練習分清宣稱、測試安排和已取得紀錄。這是資料判讀，不是要求學校購買雲端服務。",
+          "sourceIds": [
+            "source"
+          ]
+        }
+      ],
+      "publishedAt": "2026-11-12T11:43:04.943Z",
+      "overview": {
+        "kind": "infographic",
+        "image": "/assets/overviews/gpu-vendor-spec-node-acceptance-support-evidence-desktop.webp",
+        "mobileImage": "/assets/overviews/gpu-vendor-spec-node-acceptance-support-evidence-mobile.webp",
+        "cardImage": "/assets/overviews/gpu-vendor-spec-node-acceptance-support-evidence-desktop.webp",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600,
+        "alt": "GPU供應商別只報張數：先列規格，再留單節點驗收與支援紀錄：依本文核心關係整理的雙版資訊圖。",
+        "caption": "依來源方法製作的編輯整理；例子與操作安排為編輯設計，不代表成效保證。"
+      }
+    },
+    {
+      "id": "test-setup-snapshot-independent-clone-plan",
+      "title": "每個測試都重裝一次？先畫一次準備、快照複製與獨立執行方案",
+      "status": "ready",
+      "summary": "把測試拆成很多片，若每片仍重複安裝，未必更快。訪談提出一次準備、保存狀態，再讓獨立複本各跑測試的構想。本文只做兩條路徑的紙上對照，保留啟停、可恢復性與共享資源的待驗條件。",
+      "output": "一張重複準備與快照複本方案的對照草圖及待驗前提表",
+      "audience": "想把AI基礎設施問題整理成可討論草案的資訊教師、開發者與自主學習者",
+      "categoryId": "ai",
+      "topicIds": [
+        "workflow"
+      ],
+      "keywords": [],
+      "minutes": 20,
+      "level": "進階",
+      "contentType": "article_method",
+      "reviewedAt": "2026-11-12",
+      "coverLabel": "紙上設計",
+      "sourceCoverage": "完整審讀原發布者正文的自動Transcript，共99372字元、58段、18555字詞，未逐句原音聽校，未觀看完整示範畫面。發布者註明人名及文字可能有誤，不採用未核對的人名、年份、效能、價格與市場主張。採用原段落時間碼，每段約90秒，不推估逐句起訖。本文操作表、虛構材料、問句及20分鐘練習為編輯補充；不以來源的公司經驗證明本篇有效。",
+      "sources": [
+        {
+          "id": "source",
+          "kind": "article",
+          "title": "2026-10-23 🎙 Why AI Compute Comes in Rectangles — Erik Bernhardsson, Modal CEO",
+          "url": "https://www.latent.space/p/modal-d",
+          "channel": "Latent Space",
+          "note": "指定Notion同canonical發布者頁面的自動Transcript；每90秒段落時間供回查，不代表逐句精準聽校。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "先標每分片重複的準備",
+          "action": "編輯補充：選一組虛構測試，分清共同安裝/準備與各自測試本體，畫出現在每片都從頭準備的路徑；沒有實際時間資料就標待測。",
+          "why": "來源指出一般分片仍各自安裝與準備，這些重複開銷可能限制平行化收益。",
+          "example": "編輯示範：完整虛構組合：準備P＝安裝同一依賴並建立唯讀樣本；測試甲＝讀樣本檢查格式；測試乙＝讀樣本檢查欄位。原方案畫P→甲及P→乙兩條，不填耗時。",
+          "check": "共同P與不同甲乙分清，沒有把示意當成跑過的紀錄。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 2700,
+              "endSeconds": 2790
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "畫一次準備後的快照位置",
+          "action": "編輯補充：把P完成後的狀態標為候選快照S，再畫S產生複本甲與複本乙。環境能否快照、內容與可恢復性列待查，不給未核對的產品指令。",
+          "why": "來源提出先做一次測試準備，再快照容器並複製的構想。",
+          "example": "編輯示範：紙上畫P→S→複本甲/複本乙；S清單只寫預計包含依賴與唯讀樣本，實際取得及恢復結果均待測。",
+          "check": "快照放在共同準備之後，且沒有把構想寫成已建立的環境。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 2700,
+              "endSeconds": 2880
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "讓每個複本只跑自己的測試",
+          "action": "編輯補充：把甲和乙分別配到各自複本，列結果回收位置；另問樣本、暫存資料及外部服務是否仍共用，不能把容器複製當成外部資源已隔離。",
+          "why": "來源希望各測試能在獨立sandbox中執行；隔離問題表與回收欄為編輯延伸。",
+          "example": "編輯示範：複本甲→測試甲→結果甲；複本乙→測試乙→結果乙。若甲會修改共用資料，先在草圖標「需確認隔離，不安排同跑」，不假裝複本已解決共享問題。",
+          "check": "測試與結果一一對應，共用或可變資源有待確認標記。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 2700,
+              "endSeconds": 2880
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "連啟停開銷一起列待測",
+          "action": "編輯補充：將原方案的重複準備、新方案的準備/快照/複製/啟停與測試本體並排列待測。先交前提清單；之後有環境、隔離與真實紀錄才比較，不預填省時倍數。",
+          "why": "來源把快速啟停視為這種大幅平行構想的前提，指出開銷過高便難兌現收益。",
+          "example": "編輯示範：兩欄都填「實際時間待測」；新方案另列能否恢復S、甲乙是否獨立、結果能否對回原測試。這次只有草圖完成，沒有CI通過率。",
+          "check": "準備與啟停都在比較範圍，未測數字和未驗隔離沒有被省略。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 2610,
+              "endSeconds": 2790
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "schedule",
+          "title": "編輯補充：20分鐘完成草表",
+          "note": "只用本文虛構材料；沒有測試、購買或實際操作要求。",
+          "columns": [
+            "動作",
+            "留下什麼"
+          ],
+          "rows": [
+            {
+              "label": "0–5分鐘",
+              "cells": [
+                "先標每分片重複的準備",
+                "共同P與不同甲乙分清，沒有把示意當成跑過的紀錄。"
+              ]
+            },
+            {
+              "label": "5–10分鐘",
+              "cells": [
+                "畫一次準備後的快照位置",
+                "快照放在共同準備之後，且沒有把構想寫成已建立的環境。"
+              ]
+            },
+            {
+              "label": "10–15分鐘",
+              "cells": [
+                "讓每個複本只跑自己的測試",
+                "測試與結果一一對應，共用或可變資源有待確認標記。"
+              ]
+            },
+            {
+              "label": "15–20分鐘",
+              "cells": [
+                "連啟停開銷一起列待測",
+                "準備與啟停都在比較範圍，未測數字和未驗隔離沒有被省略。"
+              ]
+            }
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "這張草表可否改善實際選擇或測試效率",
+          "status": "unverified",
+          "explanation": "本篇只核對來源與紙上設計，未租用節點、執行CI或比較結果；來源公司經驗不是本篇成效實證。",
+          "sourceIds": [
+            "source"
+          ],
+          "checkedAt": "2026-11-12"
+        }
+      ],
+      "pitfalls": [
+        "來源談構想，不表示你使用的CI或sandbox目前支援這套流程。",
+        "快照/複本不保證外部資料庫、檔案或服務已隔離；待確認便先留待測。",
+        "平行測試的執行時間不是全部成本，準備、快照、複製與啟停也要納入。"
+      ],
+      "practice": {
+        "title": "編輯補充：使用完整虛構材料",
+        "minutes": 20,
+        "prompt": "只用P、甲、乙的完整虛構測試描述，畫原方案與P→S→兩複本的新方案，逐一配測試與結果，列快照恢復、共享資料及啟停時間待確認。沒有工具也可交付紙上方案；不啟動sandbox、不填假測時。",
+        "deliverable": "一張重複準備與快照複本方案的對照草圖及待驗前提表",
+        "checklist": [
+          "共同P與不同甲乙分清，沒有把示意當成跑過的紀錄。",
+          "快照放在共同準備之後，且沒有把構想寫成已建立的環境。",
+          "測試與結果一一對應，共用或可變資源有待確認標記。",
+          "準備與啟停都在比較範圍，未測數字和未驗隔離沒有被省略。"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "編輯補充：可直接填的欄位",
+          "text": "編輯設計模板：原路徑｜候選快照點｜複本→測試→結果對應｜共享/可變資源｜恢復前提｜準備/快照/啟停/測試時間待測。本文P、甲、乙均是虛構材料，不含可執行程式。",
+          "sourceIds": [
+            "source"
+          ]
+        },
+        {
+          "title": "編輯觀點：教學轉用",
+          "text": "可讓程式社團用紙卡移動P、S、甲乙，比較重複準備和複製狀態的不同。真正測試仍須確認環境、隔離及正確性，圖解不是速度證據。",
+          "sourceIds": [
+            "source"
+          ]
+        }
+      ],
+      "publishedAt": "2026-11-12T11:43:04.943Z",
+      "overview": {
+        "kind": "infographic",
+        "image": "/assets/overviews/test-setup-snapshot-independent-clone-plan-desktop.webp",
+        "mobileImage": "/assets/overviews/test-setup-snapshot-independent-clone-plan-mobile.webp",
+        "cardImage": "/assets/overviews/test-setup-snapshot-independent-clone-plan-desktop.webp",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600,
+        "alt": "每個測試都重裝一次？先畫一次準備、快照複製與獨立執行方案：依本文核心關係整理的雙版資訊圖。",
+        "caption": "依來源方法製作的編輯整理；例子與操作安排為編輯設計，不代表成效保證。"
+      }
+    },
+    {
+      "id": "demo-manual-connect-separate-input-choice-plan",
+      "title": "先看示範，再選資料怎麼進：把體驗與連接帳號分開設計",
+      "status": "ready",
+      "summary": "使用者想先知道工具能做什麼，未必願意立刻連接私人帳號。訪談分別談到示範帳號與不連線的手動輸入。本文轉成非金融產品的紙上設計，分清體驗、資料導入和使用者選擇，不評估或推薦原產品。",
+      "output": "一張示範、手動與連接三路的體驗草圖",
+      "audience": "想把AI產品與語音流程分清楚的教師、開發者與自主學習者",
+      "categoryId": "ai",
+      "topicIds": [
+        "workflow"
+      ],
+      "keywords": [
+        "示範資料",
+        "手動輸入",
+        "產品體驗"
+      ],
+      "minutes": 20,
+      "level": "入門",
+      "contentType": "article_method",
+      "reviewedAt": "2026-11-12",
+      "coverLabel": "紙上設計",
+      "sourceCoverage": "完整審讀本機MLX Whisper large-v3-turbo英文辨識稿，共64282字元、685行，未逐句聽校、未試用產品。原Notion Spotify episode與同頁音訊、官方RSS enclosure及GUID相符。本篇僅取966.84–982.46及1893.66–1924.48秒的示範/手動入口構想，不採金融、稅務、認證、資安或成效主張。三路草圖、非金融虛構材料與20分鐘練習為編輯補充。",
+      "sources": [
+        {
+          "id": "source",
+          "kind": "article",
+          "title": "2026-10-18 🎙 We Built an AI CFO to Help You Grow Your Net Worth | Anthony Pompliano",
+          "url": "https://podcasters.spotify.com/pod/show/peter-yang42/episodes/We-Built-an-AI-CFO-to-Help-You-Grow-Your-Net-Worth--Anthony-Pompliano-e3ql9dv",
+          "channel": "Behind the Craft",
+          "note": "指定Notion與官方同集音訊身份鏈；引用本機ASR原端點供回查，未逐句聽校。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "先固定想體驗的動作",
+          "action": "編輯補充：選一個虛構資料產品，寫使用者想先試什麼、還沒願意連接哪些帳號。把體驗問題與資料導入要求分開，不把遲疑視為使用者做錯。",
+          "why": "來源示範帳號的出發點是先試產品，再決定要不要連接帳號。",
+          "example": "編輯示範：完整虛構材料：藏書工具使用者想看「找出同主題書籍」；他尚未願意連接閱讀帳號。這次沒有真帳號與書單。",
+          "check": "有單一體驗動作和未願連接的資料範圍。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 966.84,
+              "endSeconds": 982.46
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "先畫不接真帳號的示範入口",
+          "action": "編輯補充：用本文提供的自製示範資料，畫出從入口到核心動作的路線；清楚標示這是示意，沒有真實使用紀錄或個人化結果。",
+          "why": "來源描述讓人先試的demo account；虛構資料與示意標記為本文設計，不保證原產品的demo設定。",
+          "example": "編輯示範：自製示範資料只有三本虛構書：A《紙橋》主題建築、B《樹影》主題自然、C《窗格》主題建築。畫「開啟示範→選建築→呈現A/C」，只表示預期設計，不聲稱功能已跑過。",
+          "check": "示範材料完整且可和真資料分辨，沒有把預期當實測。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 966.84,
+              "endSeconds": 982.46
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "保留不連線的手動輸入方案",
+          "action": "編輯補充：另畫使用者自行輸入資料的路徑，標示哪些內容由本人更新；若某項功能需要連接才能做，先列待確認，不假設兩路功能完全相同。",
+          "why": "來源另提供手動新增資料、不連接帳號的途徑；這是一種使用選項，不是零風險保證。",
+          "example": "編輯示範：紙上新增虛構D《河線》主題自然，預期手動路徑可列D。更新頻率、可輸入欄位與是否保存仍待確認，不把手動資料寫成自動同步。",
+          "check": "手動與自動取得資料分開，更新責任與未知限制有列出。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 1893.66,
+              "endSeconds": 1924.48
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "並排三路，保留本人選擇",
+          "action": "編輯補充：整理示範、手動與連接三路的資料來源、核心動作和待確認條件；連接路徑只留草案，不要求使用者為看結果先交私人帳號。",
+          "why": "來源認為不同人可以用不同方式使用產品。三欄核對與停止條件是本文延伸，不代表任何服務都支援三路。",
+          "example": "編輯示範：三路表填：示範＝A/B/C自製資料；手動＝本人輸入虛構D；連接＝資料/權限/更新方式待查。使用者可停在示範，不填已連接或已核准。",
+          "check": "三路都有來源與限制，未操作或未知項沒有填成已開通。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 1893.66,
+              "endSeconds": 1924.48
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "schedule",
+          "title": "編輯補充：20分鐘完成一張草表",
+          "note": "只用本文提供的完整虛構材料，時間可調整。",
+          "columns": [
+            "動作",
+            "留下什麼"
+          ],
+          "rows": [
+            {
+              "label": "0–5分鐘",
+              "cells": [
+                "先固定想體驗的動作",
+                "有單一體驗動作和未願連接的資料範圍。"
+              ]
+            },
+            {
+              "label": "5–10分鐘",
+              "cells": [
+                "先畫不接真帳號的示範入口",
+                "示範材料完整且可和真資料分辨，沒有把預期當實測。"
+              ]
+            },
+            {
+              "label": "10–15分鐘",
+              "cells": [
+                "保留不連線的手動輸入方案",
+                "手動與自動取得資料分開，更新責任與未知限制有列出。"
+              ]
+            },
+            {
+              "label": "15–20分鐘",
+              "cells": [
+                "並排三路，保留本人選擇",
+                "三路都有來源與限制，未操作或未知項沒有填成已開通。"
+              ]
+            }
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "這份紙上設計能否改善產品體驗或溝通成效",
+          "status": "unverified",
+          "explanation": "只核對來源與編輯設計，未測產品、錄音或課堂成效；來源經驗不能直接外推。",
+          "sourceIds": [
+            "source"
+          ],
+          "checkedAt": "2026-11-12"
+        }
+      ],
+      "pitfalls": [
+        "示範、手動或連接都是待設計選項，不宣稱原服務目前功能、安全或成效。",
+        "手動輸入仍可能涉及個資，不等於資料不保存或不外送。",
+        "預期搜尋結果不是已測輸出；示範資料也不是匿名化真實資料。"
+      ],
+      "practice": {
+        "title": "編輯補充：只用虛構材料完成草表",
+        "minutes": 20,
+        "prompt": "只用A《紙橋》建築、B《樹影》自然、C《窗格》建築與D《河線》自然四筆自製資料，畫示範/手動/連接三路。示範搜尋建築預期A/C；手動新增D留更新責任；連接路權限及資料來源待查。只交草圖，不開帳號或輸入私事。",
+        "deliverable": "一張示範、手動與連接三路的體驗草圖",
+        "checklist": [
+          "有單一體驗動作和未願連接的資料範圍。",
+          "示範材料完整且可和真資料分辨，沒有把預期當實測。",
+          "手動與自動取得資料分開，更新責任與未知限制有列出。",
+          "三路都有來源與限制，未操作或未知項沒有填成已開通。"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "編輯補充：可直接填的欄位",
+          "text": "編輯設計欄位：路徑｜資料來源｜想試的動作｜預期顯示｜誰更新｜仍待確認。練習全部虛構書名，不要匯入真人閱讀紀錄。",
+          "sourceIds": [
+            "source"
+          ]
+        },
+        {
+          "title": "編輯觀點：教學轉用",
+          "text": "可用於共備討論教學工具的新手入口：先讓教師看示範任務，再討論是否需要自己輸入或連接資料。不要為了方便示範，就要求提供學生個資。",
+          "sourceIds": [
+            "source"
+          ]
+        }
+      ],
+      "publishedAt": "2026-11-12T11:43:04.943Z",
+      "overview": {
+        "kind": "infographic",
+        "image": "/assets/overviews/demo-manual-connect-separate-input-choice-plan-desktop.webp",
+        "mobileImage": "/assets/overviews/demo-manual-connect-separate-input-choice-plan-mobile.webp",
+        "cardImage": "/assets/overviews/demo-manual-connect-separate-input-choice-plan-desktop.webp",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600,
+        "alt": "先看示範，再選資料怎麼進：把體驗與連接帳號分開設計：依本文核心關係整理的雙版資訊圖。",
+        "caption": "依來源方法製作的編輯整理；例子與操作安排為編輯設計，不代表成效保證。"
+      }
+    },
+    {
+      "id": "speech-recognition-synthesis-prosody-role-map",
+      "title": "聲音工具先分三層：聽成文字、把文字發聲，再看語氣",
+      "status": "ready",
+      "summary": "聲音辨識、把文字讀出來與語氣處理，是不同的問題。訪談說明兩種語音素材的目的，並提到先解決文字辨識，再看輸出聲音。本文將它整理成一句話的紙上角色表，不訓練模型、不收集他人聲音，也不當作醫療或復健建議。",
+      "output": "一張辨識、發聲與語氣三層角色及待驗表",
+      "audience": "想把AI產品與語音流程分清楚的教師、開發者與自主學習者",
+      "categoryId": "ai",
+      "topicIds": [
+        "workflow"
+      ],
+      "keywords": [
+        "語音辨識",
+        "文字發聲",
+        "語氣"
+      ],
+      "minutes": 20,
+      "level": "入門",
+      "contentType": "article_method",
+      "reviewedAt": "2026-11-12",
+      "coverLabel": "紙上設計",
+      "sourceCoverage": "完整審讀本機MLX Whisper large-v3-turbo中文辨識稿，共28840字元、1045行，未逐句聽校。原Notion Firstory與官方RSS同集enclosure/GUID已核對。2144.18–2174.16秒疑似無關字幕幻覺且跨原音末端，整段不採；0–29.72及1081.24–1109.60秒廣告不採。本篇取1282.68–1356.22與1512.38–1636.80秒的角色區分，不採錄音時數、辨識率、醫療個案或安全保證。表格、虛構句子與20分鐘練習為編輯補充。",
+      "sources": [
+        {
+          "id": "source",
+          "kind": "article",
+          "title": "2026-10-12 🎙 高效人生商學院｜EP.0696｜職人訪談｜當大腦有千言萬語，世界卻聽不懂？用 AI 重建「非典型語音」，讓每種聲音都被世界聽懂！（與談人：VocaLink創辦人Eric）",
+          "url": "https://open.firstory.fm/story/cmv4u8pys00hq01y8aa29b2br",
+          "channel": "高效人生商學院",
+          "note": "指定Notion與官方同集音訊身份鏈；引用本機ASR原端點供回查，未逐句聽校。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "先標聲音到文字的輸入輸出",
+          "action": "編輯補充：固定一個普通溝通目標，把原聲音與預期文字分成兩欄；本次用虛構描述代替錄音，不診斷說話者也不收集別人的聲音。",
+          "why": "來源將說話轉成文字和之後的發聲分開說明。",
+          "example": "編輯示範：完整虛構目標是問「明天要一起看展嗎？」；輸入欄寫「假設有人說這句話，未提供音檔」，文字目標照寫該句。辨識結果欄留未測。",
+          "check": "輸入、文字目標與實際結果分清，沒有虛構已辨識成功。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 1282.68,
+              "endSeconds": 1307.34
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "另列文字到聲音的素材目的",
+          "action": "編輯補充：畫文字再變成輸出聲音的下一段，寫它處理發聲而非聽懂原聲音；音色來源及可使用條件留待確認，不以一份聲音素材自動涵蓋兩種用途。",
+          "why": "來源澄清一般語音素材另用於發出聲音，與辨識個人聲音的目的不同。",
+          "example": "編輯示範：同一張表另畫「正確文字→輸出聲音」，音色寫「中性示意，素材與使用條件待確認」。不填某人的聲音，也不錄音。",
+          "check": "辨識與發聲有各自輸入輸出及待確認素材，不把用途混成一格。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 1308.34,
+              "endSeconds": 1356.22
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "先核意思，再要求好聽",
+          "action": "編輯補充：對照文字目標與假設辨識內容，找意思是否改變；文字仍有問題就先標待修，不用輸出音色自然來判定原話已被理解。",
+          "why": "來源說眼前先處理正確轉成文字，語氣是後續問題；錯誤對照為本文設計。",
+          "example": "編輯示範：提供兩筆假設結果：甲「明天要一起看展嗎？」；乙「明天要一起看展。」。乙少了問句標記，先記需回查原意，兩筆都不是實測模型輸出。",
+          "check": "文字差異與待回查之處有記錄，沒有用好聽與否掩蓋意思差異。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 1624.28,
+              "endSeconds": 1636.8
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "再列語氣需求與回聽問題",
+          "action": "編輯補充：分清想表達的是詢問、陳述或其他意思，再寫輸出聲音需要回聽的問題；語氣不能只靠單一標點推定，本次沒有音檔就標待回聽。",
+          "why": "來源舉問句不應被講成肯定語氣，並說較長溝通還需語氣或語意判斷；本文不把串接模型當成自然語氣保證。",
+          "example": "編輯示範：對這句看展邀請，填「希望保留詢問/邀請意思；要回聽是否像在問、是否少字；音檔未提供，未測」。不畫已改善的分數。",
+          "check": "語氣需求、回聽問題與未測狀態並列，沒有宣稱已生成或有療效。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 1512.38,
+              "endSeconds": 1623.66
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "schedule",
+          "title": "編輯補充：20分鐘完成一張草表",
+          "note": "只用本文提供的完整虛構材料，時間可調整。",
+          "columns": [
+            "動作",
+            "留下什麼"
+          ],
+          "rows": [
+            {
+              "label": "0–5分鐘",
+              "cells": [
+                "先標聲音到文字的輸入輸出",
+                "輸入、文字目標與實際結果分清，沒有虛構已辨識成功。"
+              ]
+            },
+            {
+              "label": "5–10分鐘",
+              "cells": [
+                "另列文字到聲音的素材目的",
+                "辨識與發聲有各自輸入輸出及待確認素材，不把用途混成一格。"
+              ]
+            },
+            {
+              "label": "10–15分鐘",
+              "cells": [
+                "先核意思，再要求好聽",
+                "文字差異與待回查之處有記錄，沒有用好聽與否掩蓋意思差異。"
+              ]
+            },
+            {
+              "label": "15–20分鐘",
+              "cells": [
+                "再列語氣需求與回聽問題",
+                "語氣需求、回聽問題與未測狀態並列，沒有宣稱已生成或有療效。"
+              ]
+            }
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "這份紙上設計能否改善產品體驗或溝通成效",
+          "status": "unverified",
+          "explanation": "只核對來源與編輯設計，未測產品、錄音或課堂成效；來源經驗不能直接外推。",
+          "sourceIds": [
+            "source"
+          ],
+          "checkedAt": "2026-11-12"
+        }
+      ],
+      "pitfalls": [
+        "這是紙上角色規劃，不是醫療、復健或現行VocaLink操作教程，也沒有辨識率保證。",
+        "去掉姓名不代表聲音不能識別本人；本文不要求收集或上傳真人聲音。",
+        "語氣不能單靠標點完全判定，沒有音檔不填回聽結果。"
+      ],
+      "practice": {
+        "title": "編輯補充：只用虛構材料完成草表",
+        "minutes": 20,
+        "prompt": "只用虛構看展問句與兩筆假設文字，畫「聲音→文字→輸出聲音」，另掛語氣檢查欄；核甲乙問句差異，留下音色素材條件、實際辨識及回聽未測。沒有音檔仍可完成角色表，不錄他人、不串模型。",
+        "deliverable": "一張辨識、發聲與語氣三層角色及待驗表",
+        "checklist": [
+          "輸入、文字目標與實際結果分清，沒有虛構已辨識成功。",
+          "辨識與發聲有各自輸入輸出及待確認素材，不把用途混成一格。",
+          "文字差異與待回查之處有記錄，沒有用好聽與否掩蓋意思差異。",
+          "語氣需求、回聽問題與未測狀態並列，沒有宣稱已生成或有療效。"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "編輯補充：可直接填的欄位",
+          "text": "編輯設計欄位：處理層｜輸入｜預期輸出｜素材目的｜文字差異｜需要回聽什麼｜實測/待測。虛構甲乙只用來檢查問句意思，不代表任何模型實際錯誤。",
+          "sourceIds": [
+            "source"
+          ]
+        },
+        {
+          "title": "編輯觀點：教學轉用",
+          "text": "可讓學生用紙卡排三層，區分「聽懂字」和「把字說出來」。不需錄音、不把不同說話方式當缺陷，也不拿課堂活動判斷任何人的醫療需求。",
+          "sourceIds": [
+            "source"
+          ]
+        }
+      ],
+      "publishedAt": "2026-11-12T11:43:04.943Z",
+      "overview": {
+        "kind": "infographic",
+        "image": "/assets/overviews/speech-recognition-synthesis-prosody-role-map-desktop.webp",
+        "mobileImage": "/assets/overviews/speech-recognition-synthesis-prosody-role-map-mobile.webp",
+        "cardImage": "/assets/overviews/speech-recognition-synthesis-prosody-role-map-desktop.webp",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600,
+        "alt": "聲音工具先分三層：聽成文字、把文字發聲，再看語氣：依本文核心關係整理的雙版資訊圖。",
+        "caption": "依來源方法製作的編輯整理；例子與操作安排為編輯設計，不代表成效保證。"
+      }
     }
   ],
   "demo": {
