@@ -194651,6 +194651,3189 @@
         "alt": "文字資料先抽成參考檔：保留原始 PDF，需要版面時再回查：依本文核心關係整理的雙版資訊圖。",
         "caption": "依來源方法製作的編輯整理；例子與操作安排為編輯設計，不代表成效保證。"
       }
+    },
+    {
+      "categoryId": "reading",
+      "topicIds": [
+        "learning",
+        "mindset"
+      ],
+      "minutes": 25,
+      "level": "入門",
+      "contentType": "article_method",
+      "reviewedAt": "2026-11-12",
+      "coverLabel": "來源整理・編輯練習",
+      "id": "content-platform-later-viewer-path-test",
+      "title": "影片該放自己網站嗎：先走一次觀眾稍後再看的路徑",
+      "summary": "把影片留在自己的網站，未必等於觀眾比較容易回來。節目來賓分享一次團隊討論：同事會從網站發現訪談，再到熟悉的平台加入稍後觀看，之後運動或通勤時再打開；若只能留在單一網頁，關掉可能就找不到。本文把這個案例改成內容交付前的觀看路徑測試，不以平台推薦或廣告收入預測作結。",
+      "output": "一張內容發現、收藏與再次播放路徑表",
+      "audience": "決定教學影片、訪談或共學內容交付位置的教師與編輯",
+      "keywords": [
+        "內容交付",
+        "稍後觀看",
+        "觀眾路徑",
+        "平台取捨",
+        "再次播放"
+      ],
+      "sources": [
+        {
+          "id": "source",
+          "kind": "article",
+          "url": "https://open.firstory.fm/story/cmvax0u190kme01x91az29nfi",
+          "title": "數位關鍵字262｜Cookie沒消滅，AI來了！當AI幫讀者把答案查完，做內容的賺得到廣告錢嗎？",
+          "channel": "數位時代 Business Next",
+          "note": "指定Notion原頁與公開來源核對；文字為來源改述，不將講者經驗視為普遍成效。"
+        }
+      ],
+      "steps": [
+        {
+          "title": "把經營者想保留的事先列出來",
+          "action": "寫出希望內容留在哪裡，以及背後考量，例如維護成本、觀看紀錄或品牌關係；先把自己的假設攤開，不直接當成觀眾需求。",
+          "why": "來源團隊比較自有播放器與平台嵌入時，討論主機成本、廣告與使用者關係的取捨。",
+          "example": "編輯示範：學校希望影片與講義同頁，也擔心學生稍後找不到；兩項都先列為需求。",
+          "check": "經營者需求與尚未查證的觀眾假設分開。",
+          "id": "step-1",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 3860,
+              "endSeconds": 3907
+            }
+          ]
+        },
+        {
+          "title": "問一個真實的稍後觀看情境",
+          "action": "找願意回饋的人說明：在哪裡發現內容、當下能不能看完、想在何時與什麼裝置再打開；不預設大家和製作者一樣。",
+          "why": "來源同事從消費者角度說，自己會先加入平台稍後觀看清單，再於運動或通勤時播放。",
+          "example": "編輯示範：觀眾說現在只能存下來，晚餐後才用平板看；記下這條實際情境。",
+          "check": "已知道發現、暫存與再看三個時點，不只問喜歡哪個平台。",
+          "id": "step-2",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 3907,
+              "endSeconds": 3939
+            }
+          ]
+        },
+        {
+          "title": "親自走完關閉之後再找回的路",
+          "action": "用允許測試的內容與帳號，從入口打開、按選定方式收藏，關閉頁面後再找回播放；記錄需要的步驟、登入條件與卡點。",
+          "why": "來源指出平台收藏可幫同事再找到影片，自有網頁關閉後卻可能遺失；實際測試為編輯設計。",
+          "example": "編輯示範：教師自己測一次書籤或觀看清單，確認重新開啟能回到正確影片，不拿學生正式紀錄試驗。",
+          "check": "已實際關閉再找回，不能只看入口連結存在。",
+          "id": "step-3",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 3921,
+              "endSeconds": 3952
+            }
+          ]
+        },
+        {
+          "title": "依測試選交付位置，保留取捨",
+          "action": "比較可找回性、觀看便利與原本維護條件，選一條主要路徑並寫清楚入口；需要保留自有說明頁時，可把說明與播放位置分開。",
+          "why": "來源由此重新思考站內瀏覽量與觀眾實際記住內容的差異，強調便利性。",
+          "example": "編輯示範：講義頁保留內容說明，清楚標示影片播放與保存方法；回報觀看問題後再調整。",
+          "check": "交付選擇有觀眾路徑證據與限制，不用單一流量數字代替方便程度。",
+          "id": "step-4",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 3952,
+              "endSeconds": 4017
+            }
+          ]
+        }
+      ],
+      "pitfalls": [
+        "只站在網站經營角度決定入口，沒有問觀眾怎麼再看。",
+        "把連結能開啟當成之後一定找得回來。",
+        "假設所有平台、帳號與裝置都有同樣收藏功能。",
+        "為了站內瀏覽量增加登入或導覽負擔，卻沒有測實際路徑。"
+      ],
+      "supplements": [
+        {
+          "title": "編輯觀點：關掉之後找得到，才算交付的一部分",
+          "text": "我會把「晚一點還能再打開嗎」放進內容驗收。影片做好、連結貼好，只完成了當下開啟；觀眾可能正忙，真正看完的時機在別處。本文不替大家選平台，而是用一次關閉與找回測試，把取捨放回實際使用情境。",
+          "sourceIds": [
+            "source"
+          ]
+        }
+      ],
+      "sourceCoverage": "完整審讀本機MLX Whisper large-v3-turbo中文辨識稿，未逐句人工聽校，共2734段至[71:03]。來源為團隊單一使用情境；未實測各平台現況，不承諾流量、收入或讀者留存改善。步驟、例子、對照表與練習時長為編輯設計；來源經驗不作普遍成效，時間碼不保證播放器精準跳轉。",
+      "visuals": [],
+      "practice": {
+        "title": "編輯練習：一張內容發現、收藏與再次播放路徑表",
+        "minutes": 25,
+        "prompt": "編輯設計：以一個自己能確認的小情境完成本文步驟，記下實際產出、未確認條件與下一次修正；不把完成表格當成效果證明。",
+        "deliverable": "一張內容發現、收藏與再次播放路徑表",
+        "checklist": [
+          "經營者需求與尚未查證的觀眾假設分開。",
+          "已知道發現、暫存與再看三個時點，不只問喜歡哪個平台。",
+          "已實際關閉再找回，不能只看入口連結存在。",
+          "交付選擇有觀眾路徑證據與限制，不用單一流量數字代替方便程度。"
+        ]
+      },
+      "validation": [
+        {
+          "claim": "本文練習能穩定改善作品、學習或工作結果。",
+          "status": "unverified",
+          "explanation": "已核對來源段落，但未實測本文編輯練習或取得比較研究；不保證成效。",
+          "sourceIds": [
+            "source"
+          ],
+          "checkedAt": "2026-11-12"
+        }
+      ],
+      "status": "ready",
+      "publishedAt": "2026-11-12T07:29:05.646Z",
+      "overview": {
+        "kind": "infographic",
+        "image": "/assets/overviews/content-platform-later-viewer-path-test-desktop.webp",
+        "mobileImage": "/assets/overviews/content-platform-later-viewer-path-test-mobile.webp",
+        "cardImage": "/assets/overviews/content-platform-later-viewer-path-test-desktop.webp",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600,
+        "alt": "影片該放自己網站嗎：先走一次觀眾稍後再看的路徑：依本文核心關係整理的雙版資訊圖。",
+        "caption": "依來源方法製作的編輯整理；例子與操作安排為編輯設計，不代表成效保證。"
+      }
+    },
+    {
+      "categoryId": "reading",
+      "topicIds": [
+        "learning",
+        "mindset"
+      ],
+      "minutes": 25,
+      "level": "入門",
+      "contentType": "article_method",
+      "reviewedAt": "2026-11-12",
+      "coverLabel": "來源整理・編輯練習",
+      "id": "crawler-purpose-inventory-before-rules",
+      "title": "先別把機器流量一律擋掉：盤點爬蟲，再依用途寫處理表",
+      "summary": "看到網站請求暴增，很容易直接把機器流量全部封鎖。數位關鍵字262的來賓回顧，團隊最初全面阻擋，後來發現搜尋、代使用者查資料與模型訓練，並不是同一用途。本文整理成管理規則前的盤點表，不提供封鎖設定，也不以來源地或單一訊號認定訪客身分。",
+      "output": "一張爬蟲用途、證據與待確認處理表",
+      "audience": "需要和技術同事討論內容網站機器存取規則的編輯與管理者",
+      "keywords": [
+        "爬蟲盤點",
+        "用途分類",
+        "存取規則",
+        "機器流量",
+        "未知身分"
+      ],
+      "sources": [
+        {
+          "id": "source",
+          "kind": "article",
+          "url": "https://open.firstory.fm/story/cmvax0u190kme01x91az29nfi",
+          "title": "數位關鍵字262｜Cookie沒消滅，AI來了！當AI幫讀者把答案查完，做內容的賺得到廣告錢嗎？",
+          "channel": "數位時代 Business Next",
+          "note": "指定Notion原頁與公開來源核對；文字為來源改述，不將講者經驗視為普遍成效。"
+        }
+      ],
+      "steps": [
+        {
+          "title": "先留現況，不急著下封鎖結論",
+          "action": "請技術同事提供一段時間的請求概況，分出已確認機器、疑似機器與尚不清楚的流量，留下判斷依據。",
+          "why": "來源建議治理的第一步先理清有哪些爬蟲來、清查現在的存取狀況。",
+          "example": "編輯示範：表格記路徑、時間、請求特徵與身分查證狀態；不把境外來源直接判成機器。",
+          "check": "已確認、疑似與未知分開，原始紀錄可回查。",
+          "id": "step-1",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 3033,
+              "endSeconds": 3069
+            }
+          ]
+        },
+        {
+          "title": "按目的分類，未知就留未知",
+          "action": "把有證據的存取目的分為建立搜尋索引、代使用者即時查詢、模型訓練或其他；無法確認的，不硬塞進某一類。",
+          "why": "來源區分搜尋、代理人與訓練三類，同時提醒爬蟲不一定會表明身分。",
+          "example": "編輯示範：某請求宣稱是搜尋工具，仍標「待技術查證」，不把自報名稱當已驗證用途。",
+          "check": "每一分類都有依據，無法辨識的項目有保留。",
+          "id": "step-2",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 2821,
+              "endSeconds": 2962
+            }
+          ]
+        },
+        {
+          "title": "依內容需求寫不同處理原則",
+          "action": "先討論希望內容被找到、被即時引用或是否接受訓練取用，再寫各類的處理原則與負責確認的人；此表先作討論，不直接改站。",
+          "why": "來源回顧團隊從全面阻擋，改成依爬蟲用途與媒體需求調整政策。",
+          "example": "編輯示範：搜尋索引希望保留；不明用途先評估；具體服務規則交給技術與權責人員確認。",
+          "check": "需求、原則與負責人清楚，未假定任何工具都能辨認或攔住全部機器。",
+          "id": "step-3",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 2995,
+              "endSeconds": 3060
+            }
+          ]
+        },
+        {
+          "title": "回看實際影響，再修下一版",
+          "action": "將討論表交給相應人員評估；若日後試行規則，回查正常讀者與需要的搜尋入口有沒有受影響，並保留版本與調整理由。",
+          "why": "來源表示政策隨代理人用途增加而持續改變；影響回看與版本欄為編輯補充。",
+          "example": "編輯示範：若正常讀者回報無法閱讀，先保留問題紀錄，請負責人查證原因，而非斷定對方一定是機器。",
+          "check": "有回看責任與修正條件，規則不是一次定終身。",
+          "id": "step-4",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 2995,
+              "endSeconds": 3027
+            }
+          ]
+        }
+      ],
+      "pitfalls": [
+        "以來源國家、語言或單一請求特徵直接認定機器身分。",
+        "只憑自報名稱就相信對方用途。",
+        "把搜尋索引、即時代查與訓練混為一談。",
+        "套用全部阻擋後不回看正常閱讀與搜尋是否受影響。"
+      ],
+      "supplements": [
+        {
+          "title": "編輯觀點：先把不知道的事放進表裡",
+          "text": "我會先留一欄「目前無法確認」。把不知道的流量硬分成好壞，可能讓討論看似果斷卻失去查證空間。這張表的用途是讓編輯需求與技術判斷能對話；它不代替實際身分查證，也不保證規則能完全辨識用途。",
+          "sourceIds": [
+            "source"
+          ]
+        }
+      ],
+      "sourceCoverage": "完整審讀本機MLX Whisper large-v3-turbo中文辨識稿，未逐句人工聽校，共2734段至[71:03]。未核實平台當前功能、爬蟲數量與法律論述；本文僅做討論表，不提供封鎖設定或辨識保證。步驟、例子、對照表與練習時長為編輯設計；來源經驗不作普遍成效，時間碼不保證播放器精準跳轉。",
+      "visuals": [],
+      "practice": {
+        "title": "編輯練習：一張爬蟲用途、證據與待確認處理表",
+        "minutes": 25,
+        "prompt": "編輯設計：以一個自己能確認的小情境完成本文步驟，記下實際產出、未確認條件與下一次修正；不把完成表格當成效果證明。",
+        "deliverable": "一張爬蟲用途、證據與待確認處理表",
+        "checklist": [
+          "已確認、疑似與未知分開，原始紀錄可回查。",
+          "每一分類都有依據，無法辨識的項目有保留。",
+          "需求、原則與負責人清楚，未假定任何工具都能辨認或攔住全部機器。",
+          "有回看責任與修正條件，規則不是一次定終身。"
+        ]
+      },
+      "validation": [
+        {
+          "claim": "本文練習能穩定改善作品、學習或工作結果。",
+          "status": "unverified",
+          "explanation": "已核對來源段落，但未實測本文編輯練習或取得比較研究；不保證成效。",
+          "sourceIds": [
+            "source"
+          ],
+          "checkedAt": "2026-11-12"
+        }
+      ],
+      "status": "ready",
+      "publishedAt": "2026-11-12T07:29:05.646Z",
+      "overview": {
+        "kind": "infographic",
+        "image": "/assets/overviews/crawler-purpose-inventory-before-rules-desktop.webp",
+        "mobileImage": "/assets/overviews/crawler-purpose-inventory-before-rules-mobile.webp",
+        "cardImage": "/assets/overviews/crawler-purpose-inventory-before-rules-desktop.webp",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600,
+        "alt": "先別把機器流量一律擋掉：盤點爬蟲，再依用途寫處理表：依本文核心關係整理的雙版資訊圖。",
+        "caption": "依來源方法製作的編輯整理；例子與操作安排為編輯設計，不代表成效保證。"
+      }
+    },
+    {
+      "categoryId": "reading",
+      "topicIds": [
+        "learning",
+        "mindset"
+      ],
+      "minutes": 25,
+      "level": "入門",
+      "contentType": "article_method",
+      "reviewedAt": "2026-11-12",
+      "coverLabel": "來源整理・編輯練習",
+      "id": "field-interview-observe-listen-separate",
+      "title": "人物採訪先別追苦難：看他怎麼做，再聽他願意說的故事",
+      "summary": "想寫一個人的故事，不必先從最辛苦的經歷問起。楊煥世在親師關鍵字EP115回顧，自己先設定不以苦難比較人物，花時間跟著對方的日常觀察，耐心聽，也承認自己對受訪者經驗未必了解。本文把這些採訪做法整理成小型人物紀錄；不公開未成年受訪者的姓名，也不要求對方交代創傷。",
+      "output": "一張日常觀察、受訪者說法與編輯理解對照表",
+      "audience": "帶領人物寫作、校園採訪或社區紀錄的教師與學生",
+      "keywords": [
+        "人物採訪",
+        "日常觀察",
+        "傾聽",
+        "觀察與推測",
+        "人物寫作"
+      ],
+      "sources": [
+        {
+          "id": "source",
+          "kind": "article",
+          "url": "https://player.soundon.fm/p/f5ef415f-481b-4374-a939-1dfb794d847e/episodes/00f3722c-ece0-434f-a7ee-0a1c0e334a43",
+          "title": "親師關鍵字EP115｜末班車司機為何每天多等幾分鐘才開車？",
+          "channel": "親子天下Podcast",
+          "note": "指定Notion原頁與公開來源核對；文字為來源改述，不將講者經驗視為普遍成效。"
+        }
+      ],
+      "steps": [
+        {
+          "title": "先用一件具體的小事選題",
+          "action": "寫下想了解的日常行動與對方願意分享的範圍，不以誰更辛苦、誰的故事更悲慘決定採訪價值。",
+          "why": "來源明確說不以苦難比較，而是尋找資源有限仍努力做一件小事的人。",
+          "example": "編輯示範：訪問願意分享的成人志工如何每天整理書架；不要求先講人生最低潮。",
+          "check": "選題指向具體行動，對方知道可拒絕問題與公開內容。",
+          "id": "step-1",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 118,
+              "endSeconds": 151
+            }
+          ]
+        },
+        {
+          "title": "先跟著看，留下看得見的動作",
+          "action": "在不干擾工作的前提下，約定可觀察的時段，記下對方如何做事與回應情境，先不要替行為下人格結論。",
+          "why": "來源描述乘坐公車觀察司機對乘客的動作，也說自己會花足夠時間跟著人物。",
+          "example": "編輯示範：記「先把書脊對齊，再看分類號」；不直接寫「他天生就是細心的人」。",
+          "check": "至少一個動作與發生情境可被說清楚。",
+          "id": "step-2",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 237,
+              "endSeconds": 263
+            }
+          ]
+        },
+        {
+          "title": "從剛看見的行動提問，留時間傾聽",
+          "action": "用具體觀察請對方說明做法與考量，聽完再追問；遇到停頓先留空間，對方不想談的部分就停下。",
+          "why": "來源從司機如何關心乘客問起，也回顧真心聆聽與願意理解經歷的重要。拒答界線為編輯補充。",
+          "example": "編輯示範：「剛才你先看分類再放書，是怎麼決定順序的？」不連續逼問私人原因。",
+          "check": "問題連到當下行動，沒有把停頓當成必須逼出答案。",
+          "id": "step-3",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 1564,
+              "endSeconds": 1579
+            }
+          ]
+        },
+        {
+          "title": "承認不知道，讓受訪者修正假設",
+          "action": "把自己的不熟悉說清楚，改問對方如何描述與理解經驗；已知問法不合適時，停止用自己的感受代替對方回答。",
+          "why": "來源承認曾因沒有先了解而問出不合適的視覺問題；後段提醒不要假設已知道對方故事。",
+          "example": "編輯示範：「我剛才那個描述可能不準確，你願意用自己的方式說明嗎？」不知道就保留。",
+          "check": "對方說法有機會修正採訪者的原先想像。",
+          "id": "step-4",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 946,
+              "endSeconds": 960
+            }
+          ]
+        },
+        {
+          "title": "把觀察、對方說法與自己的理解分欄",
+          "action": "整理時分開寫親眼所見、對方願意公開的說法，以及自己的感受或推測；有不確定之處就標記，不編成對方的內心。",
+          "why": "來源描述拍攝現場時，特別說孤單是自己從父親角度的感覺；分欄為編輯檢核。",
+          "example": "編輯示範：「他安靜站著」是觀察，「我覺得孤單」是我的感受，不能合寫成「他很孤單」。",
+          "check": "讀者能分清觀察、受訪者說法與編輯理解，未同意內容未公開。",
+          "id": "step-5",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 1699,
+              "endSeconds": 1740
+            }
+          ]
+        }
+      ],
+      "pitfalls": [
+        "把人物故事變成苦難競賽。",
+        "尚未觀察就用既定故事安排對方回答。",
+        "把沉默當成必須挖出私事的訊號。",
+        "把自己的情緒與想像寫成受訪者的內心。"
+      ],
+      "supplements": [
+        {
+          "title": "編輯觀點：人物不是用來證明我的道理",
+          "text": "我會先檢查自己的稿子裡，哪些句子其實是我的解釋。願意花時間看與聽，不保證一定得到動人的文章，也不能成為追問私事的理由。讓人物保有自己的說法與拒絕空間，是我想保留的採訪起點。",
+          "sourceIds": [
+            "source"
+          ]
+        }
+      ],
+      "sourceCoverage": "完整審讀本機MLX Whisper large-v3-turbo中文辨識稿，未逐句人工聽校，共1032段至[30:09]。本機辨識15:24–15:32混語段不採；未採醫療說法、未成年姓名與家庭細節，不以單一個案推論任何群體。步驟、例子、對照表與練習時長為編輯設計；來源經驗不作普遍成效，時間碼不保證播放器精準跳轉。",
+      "visuals": [],
+      "practice": {
+        "title": "編輯練習：一張日常觀察、受訪者說法與編輯理解對照表",
+        "minutes": 25,
+        "prompt": "編輯設計：以一個自己能確認的小情境完成本文步驟，記下實際產出、未確認條件與下一次修正；不把完成表格當成效果證明。",
+        "deliverable": "一張日常觀察、受訪者說法與編輯理解對照表",
+        "checklist": [
+          "選題指向具體行動，對方知道可拒絕問題與公開內容。",
+          "至少一個動作與發生情境可被說清楚。",
+          "問題連到當下行動，沒有把停頓當成必須逼出答案。",
+          "對方說法有機會修正採訪者的原先想像。",
+          "讀者能分清觀察、受訪者說法與編輯理解，未同意內容未公開。"
+        ]
+      },
+      "validation": [
+        {
+          "claim": "本文練習能穩定改善作品、學習或工作結果。",
+          "status": "unverified",
+          "explanation": "已核對來源段落，但未實測本文編輯練習或取得比較研究；不保證成效。",
+          "sourceIds": [
+            "source"
+          ],
+          "checkedAt": "2026-11-12"
+        }
+      ],
+      "status": "ready",
+      "publishedAt": "2026-11-12T07:29:05.646Z",
+      "overview": {
+        "kind": "infographic",
+        "image": "/assets/overviews/field-interview-observe-listen-separate-desktop.webp",
+        "mobileImage": "/assets/overviews/field-interview-observe-listen-separate-mobile.webp",
+        "cardImage": "/assets/overviews/field-interview-observe-listen-separate-desktop.webp",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600,
+        "alt": "人物採訪先別追苦難：看他怎麼做，再聽他願意說的故事：依本文核心關係整理的雙版資訊圖。",
+        "caption": "依來源方法製作的編輯整理；例子與操作安排為編輯設計，不代表成效保證。"
+      }
+    },
+    {
+      "categoryId": "reading",
+      "topicIds": [
+        "learning",
+        "mindset"
+      ],
+      "minutes": 25,
+      "level": "入門",
+      "contentType": "article_method",
+      "reviewedAt": "2026-11-12",
+      "coverLabel": "來源整理・編輯練習",
+      "id": "language-signs-revise-place-assumptions",
+      "title": "看不懂，不代表沒有規則：從一面招牌修正地方印象",
+      "summary": "「這裡好像什麼都很自由」也可能只是自己看不懂文字。不良少年在訪談中回顧學泰文後，把路上的招牌拼讀出來，才發現原本沒注意到的禁止事項；能讀新聞後，又看見旅遊印象之外的日常問題。本文取這段實際經驗，練習用可回查文字修正對一個地方的概括印象。",
+      "output": "一張原先印象、現場文字與修正紀錄",
+      "audience": "想將語言學習連到生活閱讀與文化理解的學習者",
+      "keywords": [
+        "生活識讀",
+        "招牌閱讀",
+        "語言學習",
+        "印象修正",
+        "文化理解"
+      ],
+      "sources": [
+        {
+          "id": "source",
+          "kind": "article",
+          "url": "https://www.ic975.com/episodes/23865/",
+          "title": "生活慢慢學26EP85｜不規劃反而不焦慮？擺脫厭世的泰國生存之旅",
+          "channel": "IC之音・獨角獸的靈感圖書館",
+          "note": "指定Notion原頁與公開來源核對；文字為來源改述，不將講者經驗視為普遍成效。"
+        }
+      ],
+      "steps": [
+        {
+          "title": "先把自己的地方印象寫成暫時假設",
+          "action": "寫下一個原本的感覺，補上自己去過的範圍與看不懂的資訊；不把個人旅遊感受當整個地方的特質。",
+          "why": "來源回顧不懂泰文時，會覺得當地輕鬆、沒有煩惱；學會之後看法發生變化。",
+          "example": "編輯示範：「我只逛過兩條街，覺得限制少，但看不懂告示。」",
+          "check": "印象有範圍與未知，不用所有人、全部等概括語。",
+          "id": "step-1",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 836,
+              "endSeconds": 850
+            }
+          ]
+        },
+        {
+          "title": "選一面公開招牌，逐字讀懂",
+          "action": "在不妨礙通行的地方選一面公開告示，練習拼讀與查詞；不確定的字請可靠字典或懂該語言的人協助確認。",
+          "why": "來源先把路上泰文招牌拼出來、念出來，才發現許多禁止事項。",
+          "example": "編輯示範：看懂一張入口告示的動詞、對象與條件，而不是只用圖案猜意思。",
+          "check": "告示的主要意思已確認，未懂的部分保留。",
+          "id": "step-2",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 851,
+              "endSeconds": 879
+            }
+          ]
+        },
+        {
+          "title": "將文字意思與原先印象對照",
+          "action": "寫下這面告示實際規定什麼，以及它支持或修正了原先哪個假設；同時保留一張告示無法代表的範圍。",
+          "why": "來源發現並非當地沒有規矩，而是自己原先讀不懂；這是觀察能力的改變。",
+          "example": "編輯示範：「這個場地限制飲食」只能修正對該場地的判斷，不能推論整個城市。",
+          "check": "修正連到看得懂的文字，沒有由一例跳成另一個刻板印象。",
+          "id": "step-3",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 874,
+              "endSeconds": 885
+            }
+          ]
+        },
+        {
+          "title": "再找一份不同類型的文字補視角",
+          "action": "能力允許時，再讀一則公開生活資訊或新聞，記下它補出的日常問題；分清資訊說了什麼和自己的解釋。",
+          "why": "來源能讀新聞之後，看到當地每天也有要處理的問題，旅遊印象因此變得不單一。",
+          "example": "編輯示範：讀一則交通公告，記錄當地正在處理的事；不因單則資訊就給居民貼性格標籤。",
+          "check": "至少兩種文字來源可回查，結論保留範圍與疑問。",
+          "id": "step-4",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 885,
+              "endSeconds": 908
+            }
+          ]
+        }
+      ],
+      "pitfalls": [
+        "把看不懂誤當成當地沒有規則。",
+        "翻譯尚未確認就用猜測的意思做結論。",
+        "用一張告示或一則新聞概括所有居民。",
+        "把講者個人見聞當成心理、文化或國家特質的定論。"
+      ],
+      "supplements": [
+        {
+          "title": "編輯觀點：多懂一點文字，也多留一點餘地",
+          "text": "我喜歡這段經驗，是因為它把語言學習連到觀察的盲點。不是讀懂一面招牌就懂一個國家，而是終於知道自己原先少看見了什麼。把不知道的地方寫出來，往往比急著給地方下結論更有收穫。",
+          "sourceIds": [
+            "source"
+          ]
+        }
+      ],
+      "sourceCoverage": "完整審讀本機MLX Whisper large-v3-turbo中文辨識稿，未逐句人工聽校，共1223段至[41:47]。來源為個人語言學習經驗，未採各國薪資、民族性與心理比喻，不將旅行或消費當治療。步驟、例子、對照表與練習時長為編輯設計；來源經驗不作普遍成效，時間碼不保證播放器精準跳轉。",
+      "visuals": [],
+      "practice": {
+        "title": "編輯練習：一張原先印象、現場文字與修正紀錄",
+        "minutes": 25,
+        "prompt": "編輯設計：以一個自己能確認的小情境完成本文步驟，記下實際產出、未確認條件與下一次修正；不把完成表格當成效果證明。",
+        "deliverable": "一張原先印象、現場文字與修正紀錄",
+        "checklist": [
+          "印象有範圍與未知，不用所有人、全部等概括語。",
+          "告示的主要意思已確認，未懂的部分保留。",
+          "修正連到看得懂的文字，沒有由一例跳成另一個刻板印象。",
+          "至少兩種文字來源可回查，結論保留範圍與疑問。"
+        ]
+      },
+      "validation": [
+        {
+          "claim": "本文練習能穩定改善作品、學習或工作結果。",
+          "status": "unverified",
+          "explanation": "已核對來源段落，但未實測本文編輯練習或取得比較研究；不保證成效。",
+          "sourceIds": [
+            "source"
+          ],
+          "checkedAt": "2026-11-12"
+        }
+      ],
+      "status": "ready",
+      "publishedAt": "2026-11-12T07:29:05.646Z",
+      "overview": {
+        "kind": "infographic",
+        "image": "/assets/overviews/language-signs-revise-place-assumptions-desktop.webp",
+        "mobileImage": "/assets/overviews/language-signs-revise-place-assumptions-mobile.webp",
+        "cardImage": "/assets/overviews/language-signs-revise-place-assumptions-desktop.webp",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600,
+        "alt": "看不懂，不代表沒有規則：從一面招牌修正地方印象：依本文核心關係整理的雙版資訊圖。",
+        "caption": "依來源方法製作的編輯整理；例子與操作安排為編輯設計，不代表成效保證。"
+      }
+    },
+    {
+      "categoryId": "ai",
+      "topicIds": [
+        "workflow"
+      ],
+      "minutes": 25,
+      "sources": [
+        {
+          "id": "source",
+          "kind": "article",
+          "url": "https://open.firstory.fm/story/cmw4zjelm00tq01vp5ja53e99",
+          "title": "數位關鍵字265：怕被詐騙要如何自保？保存詐騙證據，從數位足跡、AI到可信存證",
+          "channel": "數位關鍵字",
+          "note": "指定Notion原頁與Firstory播放器音檔核對；法律與服務開放狀況僅為節目原述，本文不據以承諾。"
+        }
+      ],
+      "id": "official-channel-whitelist-impersonation-compare",
+      "title": "怕有人冒用品牌帳號：先建官方管道清單，再比對疑似冒名",
+      "summary": "等到陌生廣告出現，才追問哪個帳號是真的，往往已經很混亂。節目以小農主動提交販售通路與社群帳號的做法，說明官方清單與疑似冒名線索如何互相比對。本文將這個方向改成組織內部可做的官方管道表，不需使用尚未確認開放的存證服務。",
+      "output": "一張經本人確認的官方管道表與疑似差異紀錄",
+      "audience": "管理學校活動、個人品牌或小型組織公開管道的工作者",
+      "keywords": [
+        "官方管道",
+        "冒名",
+        "白名單",
+        "比對",
+        "帳號"
+      ],
+      "steps": [
+        {
+          "title": "先界定要保護的名稱與管道",
+          "action": "選一項活動或品牌，列出可能被冒用的公開名稱與管道類型，指定一位可以確認真偽的負責人。",
+          "why": "來源指出企業也面臨官方帳號、商標與網頁被冒用；選範圍與負責人為編輯安排。",
+          "example": "編輯示範：以虛構讀書會為例，先列活動網頁、粉絲頁與報名管道，不蒐集成員私人帳號。",
+          "check": "清單有明確對象與負責人，不把所有同名帳號都當成冒用。",
+          "id": "step-1",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 2544,
+              "endSeconds": 2587
+            }
+          ]
+        },
+        {
+          "title": "由本人填官方管道表",
+          "action": "請管道本人或實際管理者確認正式網址、帳號名稱與用途，保留確認日期。",
+          "why": "節目小農白名單案例由本人提交在哪裡賣、自己的粉絲團與LINE帳號。",
+          "example": "編輯示範：活動承辦人填「報名只用這個網站」，管理者確認連結後寫日期。",
+          "check": "每個官方管道有確認者與日期，沒有憑搜尋排名認定。",
+          "id": "step-2",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 2755,
+              "endSeconds": 2784
+            }
+          ]
+        },
+        {
+          "title": "將疑似資料與官方表對照",
+          "action": "使用已取得的可疑公開材料，逐欄比較網址、帳號、販售或報名位置；保留差異，不逕自認定犯罪。",
+          "why": "來源說主動收集的疑似資料與白名單結合，讓本人及早知道被冒名。",
+          "example": "編輯示範：一張陌生海報的網址與官方表不同，先記成「待確認」，不點入付款或登入。",
+          "check": "差異寫在具體欄位，且能回看原材料。",
+          "id": "step-3",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 2784,
+              "endSeconds": 2823
+            }
+          ]
+        },
+        {
+          "title": "交本人複核並更新清單",
+          "action": "把差異紀錄交給原管理者確認；對已停用或新增管道更新日期與版本，後續處理由負責人依組織流程決定。",
+          "why": "來源提出本人白名單、AI協助疑似名單與跨單位合作；更新與內部交接為編輯延伸。",
+          "example": "編輯示範：承辦人確認舊報名站已停用，更新內部表，另依既有程序處理外部疑似冒名資料。",
+          "check": "表格分清正式、停用與待確認，沒有把AI標記當成最終認定。",
+          "id": "step-4",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 2823,
+              "endSeconds": 2848
+            }
+          ]
+        }
+      ],
+      "pitfalls": [
+        "靠帳號名稱相同就認定是官方。",
+        "把過期清單當成永遠有效。",
+        "將可疑標記當成已確定犯罪而公開指控。",
+        "為了比對要求別人提供密碼或私人對話。"
+      ],
+      "supplements": [
+        {
+          "title": "編輯觀點：先把自己的真實管道寫清楚",
+          "text": "我覺得這個流程最容易開始的部分，是先知道自己有哪些正式管道。這份表不是自動防詐系統，也不能確認對方身分；它提供負責人比對的基準，讓「哪裡不一樣」能說清楚。",
+          "sourceIds": [
+            "source"
+          ]
+        }
+      ],
+      "level": "入門",
+      "contentType": "article_method",
+      "reviewedAt": "2026-11-12",
+      "coverLabel": "來源整理・編輯練習",
+      "sourceCoverage": "本機 MLX Whisper large-v3-turbo 自動辨識中文音訊，完整審讀 1926 段至 [53:14]；未逐句人工聽校。廣告、人名、英文縮寫與法律段落有辨識誤差，本文只採可辨識的資料整理流程，不採法律效力、辨識準確率或服務已開放的宣稱。步驟編排、範例、檢核與練習時長均為編輯設計；時間碼依本機辨識段落，不保證播放器精準跳轉。",
+      "visuals": [],
+      "validation": [
+        {
+          "claim": "本文練習可以穩定改善理解或工作結果。",
+          "status": "unverified",
+          "explanation": "已核對節目取材段落，未實測編輯練習效果；完成產出不代表成效已獲證實。",
+          "sourceIds": [
+            "source"
+          ],
+          "checkedAt": "2026-11-12"
+        }
+      ],
+      "practice": {
+        "title": "編輯練習：一張經本人確認的官方管道表與疑似差異紀錄",
+        "minutes": 25,
+        "prompt": "編輯設計：選一項小範圍情境，依序完成本文步驟，留下每一步的紀錄。",
+        "deliverable": "一張經本人確認的官方管道表與疑似差異紀錄",
+        "checklist": [
+          "清單有明確對象與負責人，不把所有同名帳號都當成冒用。",
+          "每個官方管道有確認者與日期，沒有憑搜尋排名認定。",
+          "差異寫在具體欄位，且能回看原材料。",
+          "表格分清正式、停用與待確認，沒有把AI標記當成最終認定。"
+        ]
+      },
+      "status": "ready",
+      "publishedAt": "2026-11-12T07:29:05.646Z",
+      "overview": {
+        "kind": "infographic",
+        "image": "/assets/overviews/official-channel-whitelist-impersonation-compare-desktop.webp",
+        "mobileImage": "/assets/overviews/official-channel-whitelist-impersonation-compare-mobile.webp",
+        "cardImage": "/assets/overviews/official-channel-whitelist-impersonation-compare-desktop.webp",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600,
+        "alt": "怕有人冒用品牌帳號：先建官方管道清單，再比對疑似冒名：依本文核心關係整理的雙版資訊圖。",
+        "caption": "依來源方法製作的編輯整理；例子與操作安排為編輯設計，不代表成效保證。"
+      }
+    },
+    {
+      "categoryId": "reading",
+      "topicIds": [
+        "learning",
+        "mindset"
+      ],
+      "minutes": 25,
+      "level": "入門",
+      "contentType": "article_method",
+      "reviewedAt": "2026-11-12",
+      "coverLabel": "來源整理・編輯練習",
+      "id": "partner-channel-payment-role-map",
+      "title": "合作方願意幫忙之後：把通路、付費者與觸及位置分開",
+      "summary": "一句「我們可以幫忙」還不足以支持合作決策。IrisGo共同創辦人分享，自己追問硬體夥伴的具體協助，再把對方看成接觸使用者的通路，而非直接收費的客戶。本文取這個案例，練習拆清合作方、使用者、付費方式與實際入口，不採用節目中的市場數字估算收入。",
+      "output": "一張合作角色與使用者入口核對表",
+      "audience": "需要評估聯名活動、教材合作或服務通路的團隊",
+      "keywords": [
+        "合作角色",
+        "通路",
+        "使用者入口",
+        "付費者",
+        "具體承諾"
+      ],
+      "sources": [
+        {
+          "id": "source",
+          "kind": "article",
+          "url": "https://open.firstory.fm/story/cmvi08hw203lk01x9bmlva3kx",
+          "title": "數位時代EP316｜倒垃圾也能聊創業進度？在矽谷如何和吳恩達一起工作？",
+          "channel": "數位時代 Business Next",
+          "note": "指定Notion原頁與公開來源核對；文字為來源改述，不將講者經驗視為普遍成效。"
+        }
+      ],
+      "steps": [
+        {
+          "title": "把幫忙改問成具體交付",
+          "action": "請對方說明願意提供的實際資源、做到哪裡與仍未確定的部分，先不把好意當成已完成承諾。",
+          "why": "來源回顧對方說能幫忙時，自己持續追問具體是什麼，直到談到可協助預裝。",
+          "example": "編輯示範：不只記「協助推廣」，改問是寄送電子報、放活動頁，還是安排實際體驗。",
+          "check": "協助內容可以被核對，未確認部分有標記。",
+          "id": "step-1",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 826,
+              "endSeconds": 908
+            }
+          ]
+        },
+        {
+          "title": "分清誰合作、誰使用、誰付費",
+          "action": "畫三欄列出合作單位、實際使用者與預期付費者；同一人可扮演多個角色，但不要自動把合作方當付費客戶。",
+          "why": "來源把硬體業者從收授權費的對象，改看成協助軟體觸及使用者的夥伴。",
+          "example": "編輯示範：圖書館提供場地、家庭參與活動、補助單位支應費用；三種角色分開寫。",
+          "check": "三個角色明確，尚無付費安排就照實留白。",
+          "id": "step-2",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 2843,
+              "endSeconds": 2862
+            }
+          ]
+        },
+        {
+          "title": "比較雙方目標是否互相拉扯",
+          "action": "各寫一項對方要達成的目標與己方需要的條件，找出費用、成本或成長方向是否衝突，再討論可協商範圍。",
+          "why": "來源以硬體持續壓低成本、軟體希望訂閱成長的差異，解釋為何未採向硬體方收費的模式。",
+          "example": "編輯示範：場地希望增加到館人次，團隊希望保留報名資料最少化；先談可提供的統計，不預設一定交換名單。",
+          "check": "目標、衝突與待協商條件分開，沒有把單一案例當必勝商模。",
+          "id": "step-3",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 2778,
+              "endSeconds": 2839
+            }
+          ]
+        },
+        {
+          "title": "走一次實際觸及使用者的入口",
+          "action": "核對合作資源會出現在哪裡、使用者怎樣遇見與啟用，區分被放進系統和真的被看到；把轉換與收入留為待測假設。",
+          "why": "來源區分僅在選單中的預裝與可主動提醒的入口，也說投資人仍會追問轉換率。",
+          "example": "編輯示範：不是看到活動連結上架就算完成；用一般訪客視角找一次入口，記錄能否找到報名頁。",
+          "check": "已描述實際路徑，曝光、啟用與付費沒有混算。",
+          "id": "step-4",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 2899,
+              "endSeconds": 3051
+            }
+          ]
+        }
+      ],
+      "pitfalls": [
+        "把口頭支持寫成已簽定或已交付的承諾。",
+        "把合作夥伴、使用者與付費者混成同一種角色。",
+        "用可觸及人數直接推算營收，忽略啟用與付費。",
+        "照抄節目預裝模式，沒有看自己合作場景的限制。"
+      ],
+      "supplements": [
+        {
+          "title": "編輯觀點：入口需要真的走過",
+          "text": "我最想留下的是最後一欄：使用者到底怎樣遇見這項服務。合作規模聽起來很大，入口卻可能藏得很深。角色表能幫討論變具體，但它不是財務預測，也不能替代雙方實際確認合作條件。",
+          "sourceIds": [
+            "source"
+          ]
+        }
+      ],
+      "sourceCoverage": "完整審讀本機MLX Whisper large-v3-turbo中文辨識稿，未逐句人工聽校，共2198段至[56:52]。來源為公司個案；未核實市場規模、預裝成效或財務說法，不提供投資建議。步驟、例子、對照表與練習時長為編輯設計；來源經驗不作普遍成效，時間碼不保證播放器精準跳轉。",
+      "visuals": [],
+      "practice": {
+        "title": "編輯練習：一張合作角色與使用者入口核對表",
+        "minutes": 25,
+        "prompt": "編輯設計：以一個自己能確認的小情境完成本文步驟，記下實際產出、未確認條件與下一次修正；不把完成表格當成效果證明。",
+        "deliverable": "一張合作角色與使用者入口核對表",
+        "checklist": [
+          "協助內容可以被核對，未確認部分有標記。",
+          "三個角色明確，尚無付費安排就照實留白。",
+          "目標、衝突與待協商條件分開，沒有把單一案例當必勝商模。",
+          "已描述實際路徑，曝光、啟用與付費沒有混算。"
+        ]
+      },
+      "validation": [
+        {
+          "claim": "本文練習能穩定改善作品、學習或工作結果。",
+          "status": "unverified",
+          "explanation": "已核對來源段落，但未實測本文編輯練習或取得比較研究；不保證成效。",
+          "sourceIds": [
+            "source"
+          ],
+          "checkedAt": "2026-11-12"
+        }
+      ],
+      "status": "ready",
+      "publishedAt": "2026-11-12T07:29:05.646Z",
+      "overview": {
+        "kind": "infographic",
+        "image": "/assets/overviews/partner-channel-payment-role-map-desktop.webp",
+        "mobileImage": "/assets/overviews/partner-channel-payment-role-map-mobile.webp",
+        "cardImage": "/assets/overviews/partner-channel-payment-role-map-desktop.webp",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600,
+        "alt": "合作方願意幫忙之後：把通路、付費者與觸及位置分開：依本文核心關係整理的雙版資訊圖。",
+        "caption": "依來源方法製作的編輯整理；例子與操作安排為編輯設計，不代表成效保證。"
+      }
+    },
+    {
+      "categoryId": "ai",
+      "topicIds": [
+        "workflow"
+      ],
+      "minutes": 25,
+      "level": "入門",
+      "contentType": "video_method",
+      "reviewedAt": "2026-11-12",
+      "coverLabel": "來源整理・編輯練習",
+      "id": "rap-role-songs-lock-before-video",
+      "title": "饒舌對決先鎖兩首歌：分角色選版本，再交給影片製作",
+      "summary": "兩個角色擠在同一首生成歌曲裡，聲線與音樂轉換可能難以控制。來源示範先為每個角色各做歌曲版本，完整聽完主歌、副歌與結尾，選定之後才處理發音與接歌。本文整理的是雙角色音軌的交付順序，不重做既有歷史典故與課程互動設計。",
+      "output": "一張雙角色歌曲版本與接歌核對表",
+      "audience": "製作自編角色饒舌或課堂短片的教師與創作者",
+      "keywords": [
+        "饒舌對決",
+        "雙角色歌曲",
+        "版本選擇",
+        "完整審聽",
+        "音軌鎖版"
+      ],
+      "sources": [
+        {
+          "id": "source",
+          "kind": "video",
+          "url": "https://www.youtube.com/watch?v=YrEUMslKJ0M",
+          "title": "手把手教學：饒舌對決AI影片",
+          "channel": "三師爸Sense Bar",
+          "note": "指定Notion原頁與公開來源核對；文字為來源改述，不將講者經驗視為普遍成效。",
+          "provider": "youtube",
+          "videoId": "YrEUMslKJ0M"
+        }
+      ],
+      "steps": [
+        {
+          "title": "同場設計，角色各自成歌",
+          "action": "先把雙方歌詞放在同一份對決設計裡保持回應關係，再分成角色A與B的獨立歌曲，列出各自聲線、節奏與段落需求。",
+          "why": "來源說歌詞一起寫，但角色A與B各是一首歌，能分別控制聲音與旋律。",
+          "example": "編輯示範：自編的「拖延」與「行動」兩角色共用議題，A偏慢、B偏急，各有自己的音軌欄位。",
+          "check": "每個角色有獨立音軌與需求，兩方仍在回應同一主題。",
+          "id": "step-1",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 490,
+              "endSeconds": 589
+            }
+          ]
+        },
+        {
+          "title": "先聽整首，再選可用版本",
+          "action": "每位角色分別比較候選；要選用的版本須從頭聽到尾，檢查主歌、副歌與結尾，不以片頭幾十秒決定整首通過。",
+          "why": "來源指出不能只聽前面30秒，副歌或結尾可能不行；直播也淘汰候選後決定各用V1。",
+          "example": "編輯示範：A1副歌聽不清就不交付；B1已合適則先保留，不陪著A全部重做。",
+          "check": "兩角色各有已完整審聽的候選與選擇理由。",
+          "id": "step-2",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 3012,
+              "endSeconds": 3029
+            }
+          ]
+        },
+        {
+          "title": "選定音樂後，局部核對發音",
+          "action": "先確定歌曲整體可用，再把念錯、漏唱或不清楚的詞列成修正清單；生成用詞與公開字幕另行保存，避免為修音而把錯字帶進教材。",
+          "why": "來源先挑可用歌曲，再修一字多音等問題，也提到用不同字引導發音；分開字幕版本為編輯補充。",
+          "example": "編輯示範：標「A1第二句讀音有誤」，修完再聽；公開字幕保留正確文字，不照抄發音提示字。",
+          "check": "修正詞有實際回聽，公開文字與應有讀音一致。",
+          "id": "step-3",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 2667,
+              "endSeconds": 2705
+            }
+          ]
+        },
+        {
+          "title": "鎖定各自版本，再檢查接歌",
+          "action": "記下A、B最終檔案與版本，請製作流程處理尾奏截點與主持口白銜接；接好後再聽一次，確認未漏字或切掉句尾才往影片走。",
+          "why": "來源選兩首V1後交給代理接歌；先前說明會找尾奏位置截斷再接DJ，成品複聽為編輯檢核。",
+          "example": "編輯示範：表格記A2、B1與主持段；混音後發現A尾字被切，先退回修接點。",
+          "check": "使用的檔案可追溯，接點已回聽，未先渲染整部片。",
+          "id": "step-4",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 3515,
+              "endSeconds": 3528
+            }
+          ]
+        }
+      ],
+      "pitfalls": [
+        "聽了開頭就判整首通過，漏掉副歌或尾段問題。",
+        "一方已可用，仍連同另一方一起重生而失去版本。",
+        "把引導發音的替代字直接公開成歌詞字幕。",
+        "歌曲尚未鎖定就大量生成影片，後續音軌改動牽連重做。"
+      ],
+      "supplements": [
+        {
+          "title": "編輯觀點：先把會牽動後面的材料定下來",
+          "text": "我會先要求一份A、B最終音軌表，再讓影片製作往下跑。這樣不是要求每首都完美，而是讓「這次採用哪一版、哪裡還要修」可以被回查。聽感取捨仍由創作者判斷，本文不保證固定生成次數就能得到成品。",
+          "sourceIds": [
+            "source"
+          ]
+        }
+      ],
+      "sourceCoverage": "完整審讀公開繁中字幕，非ASR，共3175段至[137:54]。未實測工具介面、費用或授權；來源反覆生成次數不作保證，本文不用真實人物仿聲。步驟、例子、對照表與練習時長為編輯設計；來源經驗不作普遍成效，時間碼不保證播放器精準跳轉。",
+      "visuals": [],
+      "practice": {
+        "title": "編輯練習：一張雙角色歌曲版本與接歌核對表",
+        "minutes": 25,
+        "prompt": "編輯設計：以一個自己能確認的小情境完成本文步驟，記下實際產出、未確認條件與下一次修正；不把完成表格當成效果證明。",
+        "deliverable": "一張雙角色歌曲版本與接歌核對表",
+        "checklist": [
+          "每個角色有獨立音軌與需求，兩方仍在回應同一主題。",
+          "兩角色各有已完整審聽的候選與選擇理由。",
+          "修正詞有實際回聽，公開文字與應有讀音一致。",
+          "使用的檔案可追溯，接點已回聽，未先渲染整部片。"
+        ]
+      },
+      "validation": [
+        {
+          "claim": "本文練習能穩定改善作品、學習或工作結果。",
+          "status": "unverified",
+          "explanation": "已核對來源段落，但未實測本文編輯練習或取得比較研究；不保證成效。",
+          "sourceIds": [
+            "source"
+          ],
+          "checkedAt": "2026-11-12"
+        }
+      ],
+      "status": "ready",
+      "publishedAt": "2026-11-12T07:29:05.646Z",
+      "overview": {
+        "kind": "infographic",
+        "image": "/assets/overviews/rap-role-songs-lock-before-video-desktop.webp",
+        "mobileImage": "/assets/overviews/rap-role-songs-lock-before-video-mobile.webp",
+        "cardImage": "/assets/overviews/rap-role-songs-lock-before-video-desktop.webp",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600,
+        "alt": "饒舌對決先鎖兩首歌：分角色選版本，再交給影片製作：依本文核心關係整理的雙版資訊圖。",
+        "caption": "依來源方法製作的編輯整理；例子與操作安排為編輯設計，不代表成效保證。"
+      }
+    },
+    {
+      "categoryId": "ai",
+      "topicIds": [
+        "workflow"
+      ],
+      "minutes": 25,
+      "level": "入門",
+      "contentType": "video_method",
+      "reviewedAt": "2026-11-12",
+      "coverLabel": "來源整理・編輯練習",
+      "id": "song-lipsync-video-audio-separation",
+      "title": "歌曲要對上嘴型：先定音軌與文字，再分開畫面和聲音",
+      "summary": "歌曲完成後才處理嘴型，和先做一段會動的影片再配歌，是不同的製作順序。來源說明把歌聲與相應文字送入影片流程，利用生成畫面中的發音動作，再移除影片原音、疊回已選歌曲。本文整理成短片段核對流程，不採用影片中的模型排名或對嘴精準保證。",
+      "output": "一張歌曲片段、文字、嘴型與音軌對照表",
+      "audience": "需要為自編角色歌曲製作對嘴片段的創作者",
+      "keywords": [
+        "歌曲對嘴",
+        "聲畫分離",
+        "原音移除",
+        "音軌對照",
+        "短片段核對"
+      ],
+      "sources": [
+        {
+          "id": "source",
+          "kind": "video",
+          "url": "https://www.youtube.com/watch?v=YrEUMslKJ0M",
+          "title": "手把手教學：饒舌對決AI影片",
+          "channel": "三師爸Sense Bar",
+          "note": "指定Notion原頁與公開來源核對；文字為來源改述，不將講者經驗視為普遍成效。",
+          "provider": "youtube",
+          "videoId": "YrEUMslKJ0M"
+        }
+      ],
+      "steps": [
+        {
+          "title": "先確定歌曲片段與對應文字",
+          "action": "先選已審聽的歌曲，取一小段做測試，標出片段實際唱的文字；如果唱詞有誤，先修音軌而非讓畫面遷就錯詞。",
+          "why": "來源明說一定先有歌，再依歌曲與字送入影片流程生成嘴型。",
+          "example": "編輯示範：用自編角色唱「今天開始」，先確認這句話實際完整唱出，再列對應文字。",
+          "check": "測試音軌與文字相符，未用估計片長代替實際片段。",
+          "id": "step-1",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 3856,
+              "endSeconds": 3875
+            }
+          ]
+        },
+        {
+          "title": "讓畫面生成對應的發音動作",
+          "action": "將片段文字、歌曲與角色畫面交給支援此流程的工具，要求角色按這段內容做發音動作；先檢查短片，能力不足就記為未通過。",
+          "why": "來源描述把文字與歌曲送入影片流程，讓嘴巴發出相應聲音；是否支援需依實際工具確認。",
+          "example": "編輯示範：角色說唱「今天開始」，觀看口部是否在該段發音，而非只有任意開合。",
+          "check": "短片確實有對應發音動作，沒有以模型名稱代替檢查。",
+          "id": "step-2",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 3861,
+              "endSeconds": 3875
+            }
+          ]
+        },
+        {
+          "title": "移除生成原音，保留選定歌聲",
+          "action": "將生成片段的原聲音軌與最終歌曲分開，確認原音已靜音後再疊回歌曲，避免兩套聲音同時播放。",
+          "why": "來源明確說會把影片自行講出的聲音拿掉，只保留嘴型，再把歌曲疊上去。",
+          "example": "編輯示範：先單獨播放畫面軌確認無原音，再播放成品確認只聽到已選歌曲。",
+          "check": "原音與歌曲沒有重疊、回聲或雙重人聲。",
+          "id": "step-3",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 3897,
+              "endSeconds": 3925
+            }
+          ]
+        },
+        {
+          "title": "邊聽邊看對位，再決定是否重做",
+          "action": "連續播放測試段，觀察開口、收尾與音節是否明顯錯開；把問題記為片段與現象，先修這段再擴大製作。",
+          "why": "來源用聲畫分離說明對嘴原理，並強調成片需要人工審核；短測與錯位紀錄是編輯設計。",
+          "example": "編輯示範：記「句子唱完後嘴巴仍在說話」，退回檢查片段文字、音軌位置與尾段裁切。",
+          "check": "已實際聽看同一成品，未通過的片段沒有直接擴大成整片。",
+          "id": "step-4",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 3629,
+              "endSeconds": 3656
+            }
+          ]
+        }
+      ],
+      "pitfalls": [
+        "先把整部影片做好才選歌，增加聲畫重做的牽連。",
+        "只看嘴巴有動就當成對嘴準確。",
+        "保留生成原音又疊歌，造成雙重聲音。",
+        "把講者對模型的評價當本站實測，或保證任何語言都能準確對嘴。"
+      ],
+      "supplements": [
+        {
+          "title": "編輯觀點：聲音和畫面要各自有身分",
+          "text": "我會把「最終要聽到的歌」與「用來產生嘴型的畫面」分兩欄。這個區分讓排查有方向：是唱詞、音軌位置，還是畫面動作出了問題。先測一小段比整片生完才發現錯位容易回頭，但仍不保證工具能達到需求。",
+          "sourceIds": [
+            "source"
+          ]
+        }
+      ],
+      "sourceCoverage": "完整審讀公開繁中字幕，非ASR，共3175段至[137:54]。未實測對嘴工具；不採模型排名、價格、仿聲或片中肖像與著作權概括說法。步驟、例子、對照表與練習時長為編輯設計；來源經驗不作普遍成效，時間碼不保證播放器精準跳轉。",
+      "visuals": [],
+      "practice": {
+        "title": "編輯練習：一張歌曲片段、文字、嘴型與音軌對照表",
+        "minutes": 25,
+        "prompt": "編輯設計：以一個自己能確認的小情境完成本文步驟，記下實際產出、未確認條件與下一次修正；不把完成表格當成效果證明。",
+        "deliverable": "一張歌曲片段、文字、嘴型與音軌對照表",
+        "checklist": [
+          "測試音軌與文字相符，未用估計片長代替實際片段。",
+          "短片確實有對應發音動作，沒有以模型名稱代替檢查。",
+          "原音與歌曲沒有重疊、回聲或雙重人聲。",
+          "已實際聽看同一成品，未通過的片段沒有直接擴大成整片。"
+        ]
+      },
+      "validation": [
+        {
+          "claim": "本文練習能穩定改善作品、學習或工作結果。",
+          "status": "unverified",
+          "explanation": "已核對來源段落，但未實測本文編輯練習或取得比較研究；不保證成效。",
+          "sourceIds": [
+            "source"
+          ],
+          "checkedAt": "2026-11-12"
+        }
+      ],
+      "status": "ready",
+      "publishedAt": "2026-11-12T07:29:05.646Z",
+      "overview": {
+        "kind": "infographic",
+        "image": "/assets/overviews/song-lipsync-video-audio-separation-desktop.webp",
+        "mobileImage": "/assets/overviews/song-lipsync-video-audio-separation-mobile.webp",
+        "cardImage": "/assets/overviews/song-lipsync-video-audio-separation-desktop.webp",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600,
+        "alt": "歌曲要對上嘴型：先定音軌與文字，再分開畫面和聲音：依本文核心關係整理的雙版資訊圖。",
+        "caption": "依來源方法製作的編輯整理；例子與操作安排為編輯設計，不代表成效保證。"
+      }
+    },
+    {
+      "id": "team-ai-redesign-handoffs-owner",
+      "title": "團隊用了 AI 更忙：先重畫交接，再指定誰做決定",
+      "summary": "AI 讓個人產出增加，可能也把更多審查與交接留給同事。Julie Bedard 在 TED 提醒團隊要以成果重設流程，並讓人對 AI 產出承擔明確決策責任。本文從一項共備工作出發，整理交接、責任與出錯處理的紙上檢視。",
+      "output": "一張團隊交接與人類決策責任表",
+      "audience": "帶領共備、行政或小型內容團隊的工作者",
+      "categoryId": "ai",
+      "topicIds": [
+        "workflow"
+      ],
+      "keywords": [
+        "成果",
+        "負荷",
+        "交接",
+        "決策者"
+      ],
+      "minutes": 25,
+      "level": "入門",
+      "contentType": "video_method",
+      "reviewedAt": "2026-11-12",
+      "coverLabel": "來源整理・編輯練習",
+      "sourceCoverage": "透過 youtube-transcript-api 取得公開字幕，完整審讀 143 段至末段 08:59；字幕語言為繁體中文。本輪未使用 ASR；未逐句聽校或核對畫面，字幕是否自動產生尚未確認。取材範圍見各步驟時間；範例、檢核、模板與練習時長為編輯設計。來源提及的工具、數字與效果沒有獨立實測。",
+      "sources": [
+        {
+          "id": "source",
+          "kind": "video",
+          "provider": "youtube",
+          "videoId": "g3_TqjSLyLk",
+          "url": "https://www.youtube.com/watch?v=g3_TqjSLyLk",
+          "title": "AI Brain Fry Is Real. Here’s What Leaders Can Do | Julie Bedard | TED",
+          "channel": "TED",
+          "note": "由本線指定候選的 Notion 原頁核對正式來源：4132d00e283a81c18a36ed934a7aa2a9"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "先說清團隊成果與負荷",
+          "action": "選一項共同產出，讓製作與審查的人各寫下新增的監督、切換與等待工作。",
+          "why": "來源指出個別工作方式改善未必能擴展到組織，密切監督工具也會形成認知負荷。",
+          "example": "編輯示範：共備學習單：製作者列草稿量，審查者列查錯與返工時間，先不把草稿增量當成團隊變快。",
+          "check": "成果與製作、審查負荷並列，沒有只記產量。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 64,
+              "endSeconds": 90
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "以成果重畫交接順序",
+          "action": "讓相關人員一起列出工作順序，標出已無必要或重複的交接；由團隊決定保留與取消。",
+          "why": "講者主張以團隊和預期成果重設流程，案例取消不再需要的交接並同步調整技能。",
+          "example": "編輯示範：草稿先由同一位負責人整合，再交一次審查；原本重複搬檔的步驟列為待討論。",
+          "check": "每個交接都有目的；取消項目有人確認，不是擅自略過。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 201,
+              "endSeconds": 239
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "為 AI 產出指定人類決策者",
+          "action": "每項產出寫出誰有最後決策權，以及誰負責核對與接受；AI 名稱不可代替負責人。",
+          "why": "來源以 AI 員工命名實驗提醒責任感可能改變，接著要求有人類監督者及明確決策權。",
+          "example": "編輯示範：草稿由 AI 協助，甲負責查核題意，乙決定能否給學生；不要只填「AI助教負責」。",
+          "check": "責任表能找到實際的人與決策權。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 242,
+              "endSeconds": 340
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "把出錯去向與審核能力補齊",
+          "action": "在流程上寫明發現錯誤要交給誰、何時停止交付，並安排審核 AI 內容的訓練。",
+          "why": "來源要求建立向上呈報流程、承擔責任並訓練審核，不把取名字當作治理。",
+          "example": "編輯示範：題目出現無法確認的事實，先停止發放，由指定負責人查證並通知審查者。",
+          "check": "錯誤有接手者與處理路徑，審核者知道要檢查什麼。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 333,
+              "endSeconds": 350
+            }
+          ]
+        }
+      ],
+      "visuals": [],
+      "validation": [
+        {
+          "claim": "本文流程可以直接帶來穩定的效率或學習改善。",
+          "status": "unverified",
+          "explanation": "來源提供經驗、案例或研究摘要；本文沒有核對原始研究，也未實測此編輯練習的成效。可檢查產出，不以產出代替效果證明。",
+          "sourceIds": [
+            "source"
+          ],
+          "checkedAt": "2026-11-12"
+        }
+      ],
+      "pitfalls": [
+        "把個人草稿變多當成團隊效率提高。",
+        "刪除交接但沒有確認其原來目的。",
+        "用 AI 的暱稱取代人的決策責任。",
+        "只訂責任人，沒有審核訓練或出錯去向。"
+      ],
+      "practice": {
+        "title": "編輯練習：一張團隊交接與人類決策責任表",
+        "minutes": 25,
+        "prompt": "編輯補充：預留約 25 分鐘，以一項小範圍工作試做。\n先說清團隊成果與負荷＿＿｜以成果重畫交接順序＿＿｜為 AI 產出指定人類決策者＿＿｜把出錯去向與審核能力補齊＿＿。",
+        "deliverable": "一張團隊交接與人類決策責任表",
+        "checklist": [
+          "成果與製作、審查負荷並列，沒有只記產量。",
+          "每個交接都有目的；取消項目有人確認，不是擅自略過。",
+          "責任表能找到實際的人與決策權。",
+          "錯誤有接手者與處理路徑，審核者知道要檢查什麼。"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "編輯觀點：先留下可討論的差異",
+          "text": "我會先問「誰正在接住新增的工作」，再談導入了多少工具。這讓討論回到團隊的實際負荷。本文提供檢視表，並未量測使用後是否減少疲勞或錯誤。",
+          "sourceIds": [
+            "source"
+          ]
+        }
+      ],
+      "status": "ready",
+      "publishedAt": "2026-11-12T07:29:05.646Z",
+      "overview": {
+        "kind": "infographic",
+        "image": "/assets/overviews/team-ai-redesign-handoffs-owner-desktop.webp",
+        "mobileImage": "/assets/overviews/team-ai-redesign-handoffs-owner-mobile.webp",
+        "cardImage": "/assets/overviews/team-ai-redesign-handoffs-owner-desktop.webp",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600,
+        "alt": "團隊用了 AI 更忙：先重畫交接，再指定誰做決定：依本文核心關係整理的雙版資訊圖。",
+        "caption": "依來源方法製作的編輯整理；例子與操作安排為編輯設計，不代表成效保證。"
+      }
+    },
+    {
+      "id": "hosting-runtime-shape-inventory",
+      "title": "換主機先分工作型態：有人來才跑、持續等候、定時執行",
+      "summary": "比較主機以前，先問自己的服務在沒人使用時做什麼。來源將網站、持續等候的服務與定時任務分開，避免把不同需求混在同一張價格表。本文只做服務盤點與條件清單，不沿用節目未獨立核實的停運日期、免費額度或平台推薦。",
+      "categoryId": "ai",
+      "topicIds": [
+        "workflow"
+      ],
+      "level": "入門",
+      "minutes": 20,
+      "output": "一份服務型態、持久資料與主機必要條件清單",
+      "audience": "準備替網站或自動化流程評估主機的專案維護者",
+      "contentType": "article_method",
+      "reviewedAt": "2026-11-12",
+      "coverLabel": "編輯整理",
+      "sourceCoverage": "2026-11-12 由指定 Notion 集數連結核對 RSS，下載原音訊後以本機 MLX Whisper large-v3-turbo 轉錄中文，保存文字涵蓋00:00–11:28，RSS標示689秒。已閱讀保存全文，未逐句回聽；人名、術語及廣告段落有辨識疑點，本文不採不清楚處。所有例子、模板與20分鐘試做安排為編輯設計，不將節目宣傳或個人經驗當成成效證據。",
+      "sources": [
+        {
+          "id": "source",
+          "title": "EP436 雲端專案搬家選擇指南",
+          "url": "https://player.soundon.fm/p/ca974d36-6fcc-46fc-a339-ba7ed8902c80/episodes/4a55ea36-ed10-47ca-81cc-f085531ab411",
+          "kind": "article",
+          "channel": "AI懶人報",
+          "note": "指定 Notion 索引與 RSS 集數相符；下載原音訊後以本機 MLX Whisper large-v3-turbo 轉錄，非外部 API。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "列出現有服務，不先挑品牌",
+          "action": "把自己維護的網站、自動化、資料庫與機器人分開列，先寫實際工作與誰會觸發。這份盤點表為編輯補充。",
+          "why": "節目提醒不同服務不能只放在一起比哪一家便宜。",
+          "example": "編輯示範：教材網站由讀者開啟；收件流程由外部請求觸發；每日摘要由時間觸發。",
+          "check": "每個服務有名稱、工作與觸發來源。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 33,
+              "endSeconds": 64
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "問沒人使用時，它還在等什麼",
+          "action": "逐項判斷是請求來才處理、必須持續等候外部事件，還是某個時間才執行；同一系統混合多種型態時分列，不硬塞一類。",
+          "why": "來源用沒人使用時的狀態區分三種型態，並提到Webhook、工作流與排程。",
+          "example": "編輯示範：網站前端只處理請求，但另一個排程每天整理資料，將兩者分開列。",
+          "check": "每項的分類有實際等待或觸發行為支持。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 73,
+              "endSeconds": 123
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "另外列不能消失的資料與設定",
+          "action": "為每個服務補上資料庫、上傳檔、工作流、環境變數與憑證位置；只有設定匯出不能當成所有資料已有備份。",
+          "why": "節目區分專案設定匯出與資料另行備份，提醒主機功能需配合實際狀態。",
+          "example": "編輯示範：題庫資料在資料庫，圖片另放儲存空間；兩者各有備份位置，不只列部署設定。",
+          "check": "持久資料與設定各有位置、擁有者與備份方式。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 358,
+              "endSeconds": 389
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "用必要條件回查目前官方文件",
+          "action": "把分類轉成問題：會不會休眠、事件如何進入、排程如何執行、資料存哪裡、失敗由誰維護；再查候選主機現行文件。沒有答案就標未知，不憑節目年份推論目前功能。",
+          "why": "來源的可遷移重點是先對工作型態，再選承載環境；平台條件會變動。",
+          "example": "編輯示範：若任務需定時啟動，要求候選方案說明排程執行位置與休眠影響，未核實先不遷移。",
+          "check": "每個必要條件有官方依據、待確認或不適合的結論。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 265,
+              "endSeconds": 333
+            }
+          ]
+        }
+      ],
+      "visuals": [],
+      "validation": [
+        {
+          "claim": "本文流程能協助完成所列產出",
+          "status": "unverified",
+          "explanation": "來源為創作者示範或個人經驗，本站未獨立測試工具或比較成效。完成檢核只代表產出可供人工查看，不保證省時、獲利或結果正確。",
+          "sourceIds": [
+            "source"
+          ],
+          "checkedAt": "2026-11-12"
+        }
+      ],
+      "pitfalls": [
+        "不要把節目中的價格、免費額度或停運日期當成目前已核實資訊。",
+        "有多種執行型態的系統要分列，不把前端與背景工作混為一談。",
+        "設定匯出與資料備份分開核對，尚未確認前不移除舊服務。"
+      ],
+      "practice": {
+        "title": "編輯補充：完成一份小型產出",
+        "minutes": 20,
+        "prompt": "編輯補充：選擇自己有權處理、不含敏感資料的小案例，依各步完成判準試做。若缺少工具或材料，先記缺項，不把未執行當成成功。",
+        "deliverable": "一份服務型態、持久資料與主機必要條件清單",
+        "checklist": [
+          "每個服務有名稱、工作與觸發來源。",
+          "每項的分類有實際等待或觸發行為支持。",
+          "持久資料與設定各有位置、擁有者與備份方式。",
+          "每個必要條件有官方依據、待確認或不適合的結論。"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "編輯補充：可複製模板",
+          "text": "編輯補充模板：服務＿＿／觸發來源＿＿／沒人使用時的行為＿＿／型態＿＿／持久資料與位置＿＿／備份＿＿／休眠影響＿＿／排程或事件入口＿＿／目前官方依據＿＿／未知＿＿。",
+          "sourceIds": [
+            "source"
+          ]
+        },
+        {
+          "title": "編輯觀點：教學與實作界線",
+          "text": "學校網站與課堂自動化可以先共用這張盤點表，再交維護者決定承載方式。分類不是品牌推薦，也不代表一定需要另租一台主機；應看服務的實際需求。",
+          "sourceIds": [
+            "source"
+          ]
+        }
+      ],
+      "status": "ready",
+      "publishedAt": "2026-11-12T07:29:05.646Z",
+      "overview": {
+        "kind": "infographic",
+        "image": "/assets/overviews/hosting-runtime-shape-inventory-desktop.webp",
+        "mobileImage": "/assets/overviews/hosting-runtime-shape-inventory-mobile.webp",
+        "cardImage": "/assets/overviews/hosting-runtime-shape-inventory-desktop.webp",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600,
+        "alt": "換主機先分工作型態：有人來才跑、持續等候、定時執行：依本文核心關係整理的雙版資訊圖。",
+        "caption": "依來源方法製作的編輯整理；例子與操作安排為編輯設計，不代表成效保證。"
+      }
+    },
+    {
+      "id": "n8n-cutover-trigger-credential-readback",
+      "title": "n8n搬完不只看登入：核對觸發、網址與憑證結果",
+      "summary": "新主機能開啟n8n，不代表工作流已真正搬好。來源提醒舊新兩邊同時啟用可能重複執行、外部Webhook需要改入口、憑證需要實際任務驗證。本文整理切換前後的驗收紀錄；實際備份與憑證處理需依安裝版本的官方文件，不把匯出工作流當成完整備份。",
+      "categoryId": "ai",
+      "topicIds": [
+        "workflow"
+      ],
+      "level": "入門",
+      "minutes": 20,
+      "output": "一份附備份與回復條件的觸發、Webhook、憑證驗收表",
+      "audience": "已管理n8n、準備在測試環境驗證搬遷的維護者",
+      "contentType": "article_method",
+      "reviewedAt": "2026-11-12",
+      "coverLabel": "編輯整理",
+      "sourceCoverage": "2026-11-12 由指定 Notion 集數連結核對 RSS，下載原音訊後以本機 MLX Whisper large-v3-turbo 轉錄中文，保存文字涵蓋00:00–11:28，RSS標示689秒。已閱讀保存全文，未逐句回聽；人名、術語及廣告段落有辨識疑點，本文不採不清楚處。所有例子、模板與20分鐘試做安排為編輯設計，不將節目宣傳或個人經驗當成成效證據。",
+      "sources": [
+        {
+          "id": "source",
+          "title": "EP436 雲端專案搬家選擇指南",
+          "url": "https://player.soundon.fm/p/ca974d36-6fcc-46fc-a339-ba7ed8902c80/episodes/4a55ea36-ed10-47ca-81cc-f085531ab411",
+          "kind": "article",
+          "channel": "AI懶人報",
+          "note": "指定 Notion 索引與 RSS 集數相符；下載原音訊後以本機 MLX Whisper large-v3-turbo 轉錄，非外部 API。"
+        },
+        {
+          "id": "official-backup",
+          "kind": "official",
+          "title": "n8n官方：備份與回復",
+          "url": "https://docs.n8n.io/deploy/host-n8n/keep-n8n-running/backup-and-restore.md",
+          "note": "2026-11-12查核：工作流匯出不是完整instance備份；保留資料庫與加密金鑰的關係。"
+        },
+        {
+          "id": "official-cli",
+          "kind": "official",
+          "title": "n8n官方：Server CLI",
+          "url": "https://docs.n8n.io/deploy/host-n8n/configure-n8n/use-the-command-line.md",
+          "note": "2026-11-12查核：備份匯出範圍、憑證明文風險與版本狀態差異。本文不提供未核實命令。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "先確認完整備份與回復條件",
+          "action": "核對資料庫、設定、加密金鑰及需要保留的檔案各有受保護的備份，並記安裝版本與回復方式。憑證不能只看工作流匯出的名稱；不將金鑰貼到對話或提交進版本庫。",
+          "why": "來源區分設定與資料，指出憑證匯入、加密金鑰與環境變數都需處理；本文補查官方備份文件。",
+          "example": "編輯示範：表格只記金鑰由誰保管及是否已確認，不抄寫金鑰內容。",
+          "check": "備份涵蓋清單與回復負責人都已確認。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 358,
+              "endSeconds": 389
+            },
+            {
+              "sourceId": "official-backup",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "先在不會自動對外執行的新環境測試",
+          "action": "保留舊環境，先在隔離測試中核對匯入內容與一個低風險案例；正式排程與外部事件先不切到新環境。此測試順序是編輯補充。",
+          "why": "來源提醒新環境應先試用，並把打包、搬運與開箱核對分開。",
+          "example": "編輯示範：先以測試資料走一次只產生本機結果的流程，不寄通知、不寫正式資料。",
+          "check": "有測試產物與失敗時停止、回復的條件。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 505,
+              "endSeconds": 531
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "切換時只讓一邊承接正式觸發",
+          "action": "在事先安排的切換時間，依目前n8n版本確認舊工作流停止承接，再讓新環境接手；記錄啟用狀態與外部事件入口，避免兩邊同時執行。",
+          "why": "節目明確提醒舊新兩端同時開啟會讓排程重複執行。",
+          "example": "編輯示範：切換紀錄標明舊端停用時間、新端開始時間，以及誰確認目前正式入口。",
+          "check": "正式觸發的承接者只有一個，且有可查紀錄。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 585,
+              "endSeconds": 600
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "逐一核對Webhook與憑證的真實結果",
+          "action": "列出外部服務登記的Webhook，按遷移計畫更新並測試；另跑一個確實會使用憑證的低風險流程，看目的端結果，而不只看n8n可登入。",
+          "why": "節目最後分別要求改外部Webhook與實際執行憑證工作流。",
+          "example": "編輯示範：以一個測試請求確認新端收到一次；再用測試帳號讀取允許資料，核對目的端紀錄。",
+          "check": "Webhook一次送達、憑證實際可用，結果各有證據。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 600,
+              "endSeconds": 617
+            }
+          ]
+        },
+        {
+          "id": "step-5",
+          "title": "記下差異，驗收前保留回復能力",
+          "action": "將成功、失敗與未測項目寫入表格；涉及疑似外洩的服務金鑰，依提供者指引規劃更新與撤銷，先確認新連線可用，避免誤斷服務。不要直接更換n8n加密金鑰再期待舊憑證可讀。",
+          "why": "來源提醒舊服務秘密需要處理，但實際輪替必須依版本、供應商與備份條件執行；本文不提供盲換金鑰的捷徑。",
+          "example": "編輯示範：回復表保留舊環境與入口對應；憑證仍有失敗時先停止切換，不宣稱搬完。",
+          "check": "驗收表列未測項目、回復條件與金鑰處理負責人。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 532,
+              "endSeconds": 585
+            },
+            {
+              "sourceId": "official-cli",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        }
+      ],
+      "visuals": [],
+      "validation": [
+        {
+          "claim": "本文流程能協助完成所列產出",
+          "status": "unverified",
+          "explanation": "來源為創作者示範或個人經驗，本站未獨立測試工具或比較成效。完成檢核只代表產出可供人工查看，不保證省時、獲利或結果正確。",
+          "sourceIds": [
+            "source"
+          ],
+          "checkedAt": "2026-11-12"
+        }
+      ],
+      "pitfalls": [
+        "匯出工作流不等於已備份資料庫與憑證，驗收前不刪舊環境。",
+        "不能讓新舊正式排程同時承接，也不能忽略外部Webhook仍指向舊址。",
+        "不要任意換n8n加密金鑰；舊加密憑證可能因此無法解讀。"
+      ],
+      "practice": {
+        "title": "編輯補充：完成一份小型產出",
+        "minutes": 20,
+        "prompt": "編輯補充：選擇自己有權處理、不含敏感資料的小案例，依各步完成判準試做。若缺少工具或材料，先記缺項，不把未執行當成成功。",
+        "deliverable": "一份附備份與回復條件的觸發、Webhook、憑證驗收表",
+        "checklist": [
+          "備份涵蓋清單與回復負責人都已確認。",
+          "有測試產物與失敗時停止、回復的條件。",
+          "正式觸發的承接者只有一個，且有可查紀錄。",
+          "Webhook一次送達、憑證實際可用，結果各有證據。",
+          "驗收表列未測項目、回復條件與金鑰處理負責人。"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "編輯補充：可複製模板",
+          "text": "編輯補充模板：來源／目標版本＿＿／完整備份確認＿＿／回復負責人＿＿／舊端停止＿＿／新端承接＿＿／Webhook測試結果＿＿／憑證流程結果＿＿／未測＿＿／金鑰更新與撤銷計畫＿＿。",
+          "sourceIds": [
+            "source"
+          ]
+        },
+        {
+          "title": "編輯觀點：教學與實作界線",
+          "text": "這份表適合交由有維運權限的人實作。教學時可用虛構端點與測試資料演練，不要求學生交出帳密，也不把登入畫面當成功搬遷的證據。",
+          "sourceIds": [
+            "source"
+          ]
+        }
+      ],
+      "status": "ready",
+      "publishedAt": "2026-11-12T07:29:05.646Z",
+      "overview": {
+        "kind": "infographic",
+        "image": "/assets/overviews/n8n-cutover-trigger-credential-readback-desktop.webp",
+        "mobileImage": "/assets/overviews/n8n-cutover-trigger-credential-readback-mobile.webp",
+        "cardImage": "/assets/overviews/n8n-cutover-trigger-credential-readback-desktop.webp",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600,
+        "alt": "n8n搬完不只看登入：核對觸發、網址與憑證結果：依本文核心關係整理的雙版資訊圖。",
+        "caption": "依來源方法製作的編輯整理；例子與操作安排為編輯設計，不代表成效保證。"
+      }
+    },
+    {
+      "id": "local-agent-context-before-model-blame",
+      "title": "本機代理一直忘記前文：先核對脈絡容量，再換模型",
+      "summary": "模型檔能載入，不代表還有足夠空間容納代理的工具說明、對話與檔案。這集提醒先分開看模型本體與脈絡容量。本文以一個固定小任務記錄設定、記憶體與結果；不沿用節目未核實的硬體跑分，也不要求每台電腦直接拉到同一個數字。",
+      "categoryId": "ai",
+      "topicIds": [
+        "workflow"
+      ],
+      "level": "入門",
+      "minutes": 20,
+      "output": "一份本機代理脈絡設定、記憶體與小任務結果對照",
+      "audience": "已安裝本機模型與代理工具、想找出遺忘原因的使用者",
+      "contentType": "article_method",
+      "reviewedAt": "2026-11-12",
+      "coverLabel": "編輯整理",
+      "sourceCoverage": "2026-11-12 由指定 Notion 集數連結核對 RSS，下載原音訊後以本機 MLX Whisper large-v3-turbo 轉錄中文，保存文字涵蓋00:00–16:00，RSS標示961秒。已閱讀保存全文，未逐句回聽；人名、術語及廣告段落有辨識疑點，本文不採不清楚處。所有例子、模板與20分鐘試做安排為編輯設計，不將節目宣傳或個人經驗當成成效證據。",
+      "sources": [
+        {
+          "id": "source",
+          "title": "EP460 你的電腦能跑什麼AI",
+          "url": "https://player.soundon.fm/p/ca974d36-6fcc-46fc-a339-ba7ed8902c80/episodes/2b1703f5-def0-4f90-9af7-4dc4ac994e0a",
+          "kind": "article",
+          "channel": "AI懶人報",
+          "note": "指定 Notion 索引與 RSS 集數相符；下載原音訊後以本機 MLX Whisper large-v3-turbo 轉錄，非外部 API。"
+        },
+        {
+          "id": "official-context",
+          "kind": "official",
+          "title": "Ollama官方：Context length",
+          "url": "https://docs.ollama.com/context-length",
+          "note": "2026-11-12查核：實際脈絡容量與記憶體取捨；不把總記憶體當已配置Context。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "記下實際模型、執行軟體與脈絡設定",
+          "action": "保留模型版本、量化或檔案格式、執行軟體版本與目前Context設定；不要只記電腦總記憶體。設定查找以自己的軟體現行文件為準。",
+          "why": "來源指出代理工具在使用者輸入前就可能占用脈絡，模型能載入與任務有足夠空間是不同問題。",
+          "example": "編輯示範：表格記模型檔、目前容量與代理工具，不把模型宣傳的最大容量當本次實際配置。",
+          "check": "有可回查的目前配置，而非只有模型名稱。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 0,
+              "endSeconds": 57
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "用一個固定小任務觀察在哪裡失去前文",
+          "action": "選一段無敏感資訊的小材料，先要求回覆指定條件，再觀察是否遺漏；保留原輸入與輸出，不一次丟整個大專案。這個小測試是編輯設計。",
+          "why": "節目指出長輸入會先消耗讀取與脈絡資源，大專案失敗不能直接推論模型完全不可用。",
+          "example": "編輯示範：前文交代輸出兩欄表，加入同一份短材料後核對是否仍保留兩欄要求。",
+          "check": "有相同輸入可重跑，且能指出遺漏的是哪個條件。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 656,
+              "endSeconds": 681
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "只改一項容量條件，觀察記憶體與結果",
+          "action": "依目前工具文件及可用記憶體，調整一項脈絡設定或縮短輸入後重跑同一案例；保留舊設定。更大容量需要更多記憶體，無餘裕就先減少輸入而非硬拉上限。",
+          "why": "來源提醒拉長Context也會吃記憶體；Ollama官方文件亦說明此取捨。",
+          "example": "編輯示範：保留其他條件，先移除不相關長檔，再重跑同一任務，記遺漏是否仍發生。",
+          "check": "記錄改動前後的容量、記憶體狀況與任務結果。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 713,
+              "endSeconds": 733
+            },
+            {
+              "sourceId": "official-context",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "仍失敗時分開查模板與工具呼叫",
+          "action": "如果脈絡縮小後仍失敗，核對模型包是否有正確對話模板、代理是否支援工具格式，以及錯誤發生在哪一步；再決定換模型包或執行環境。不要同時改多項後宣稱找到原因。",
+          "why": "來源另列Chat Template、工具格式與過度壓縮等問題，這些不全是脈絡容量造成。",
+          "example": "編輯示範：答案能聊天但工具請求格式錯，另列格式問題，不再無限增加Context。",
+          "check": "結論區分脈絡、格式、模型能力或尚未確定。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 734,
+              "endSeconds": 780
+            }
+          ]
+        }
+      ],
+      "visuals": [],
+      "validation": [
+        {
+          "claim": "本文流程能協助完成所列產出",
+          "status": "unverified",
+          "explanation": "來源為創作者示範或個人經驗，本站未獨立測試工具或比較成效。完成檢核只代表產出可供人工查看，不保證省時、獲利或結果正確。",
+          "sourceIds": [
+            "source"
+          ],
+          "checkedAt": "2026-11-12"
+        }
+      ],
+      "pitfalls": [
+        "模型放得下不等於脈絡有餘裕，容量變大也需要更多記憶體。",
+        "不要把節目跑分、硬體世代或模型代號當已核實的購買依據。",
+        "一次只改一項條件；工具格式錯不一定能靠拉長Context修好。"
+      ],
+      "practice": {
+        "title": "編輯補充：完成一份小型產出",
+        "minutes": 20,
+        "prompt": "編輯補充：選擇自己有權處理、不含敏感資料的小案例，依各步完成判準試做。若缺少工具或材料，先記缺項，不把未執行當成成功。",
+        "deliverable": "一份本機代理脈絡設定、記憶體與小任務結果對照",
+        "checklist": [
+          "有可回查的目前配置，而非只有模型名稱。",
+          "有相同輸入可重跑，且能指出遺漏的是哪個條件。",
+          "記錄改動前後的容量、記憶體狀況與任務結果。",
+          "結論區分脈絡、格式、模型能力或尚未確定。"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "編輯補充：可複製模板",
+          "text": "編輯補充模板：模型與版本＿＿／檔案格式＿＿／執行軟體＿＿／代理工具＿＿／實際Context＿＿／固定輸入＿＿／原輸出錯處＿＿／唯一改動＿＿／記憶體與結果＿＿／下一個待查原因＿＿。",
+          "sourceIds": [
+            "source"
+          ]
+        },
+        {
+          "title": "編輯觀點：教學與實作界線",
+          "text": "教師可用一份小型教材測試，避免先把整個資料夾丟進代理。這張表記錄的是本次條件下的結果，不構成購機建議或任何本機模型都能勝任代理的保證。",
+          "sourceIds": [
+            "source"
+          ]
+        }
+      ],
+      "status": "ready",
+      "publishedAt": "2026-11-12T07:29:05.646Z",
+      "overview": {
+        "kind": "infographic",
+        "image": "/assets/overviews/local-agent-context-before-model-blame-desktop.webp",
+        "mobileImage": "/assets/overviews/local-agent-context-before-model-blame-mobile.webp",
+        "cardImage": "/assets/overviews/local-agent-context-before-model-blame-desktop.webp",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600,
+        "alt": "本機代理一直忘記前文：先核對脈絡容量，再換模型：依本文核心關係整理的雙版資訊圖。",
+        "caption": "依來源方法製作的編輯整理；例子與操作安排為編輯設計，不代表成效保證。"
+      }
+    },
+    {
+      "id": "multi-agent-proposal-no-self-vote",
+      "title": "同一題交給不同AI：先各提方案，再互評，最後由人取捨",
+      "summary": "多個AI都說同意，不等於方案正確。三師爸示範把同一件事交給多個實際代理，讓它們看彼此提案、不能投自己，最後交回優缺點與改進建議。本文把獨立提案和共同比較格式補進流程，保留人工否決與查證，不沿用模型排行或成本說法。",
+      "categoryId": "ai",
+      "topicIds": [
+        "workflow"
+      ],
+      "level": "入門",
+      "minutes": 20,
+      "output": "一份含獨立方案、互評理由與人工取捨的比較表",
+      "audience": "已有多個AI工具、想比較教學活動或工作方案的教師與工作者",
+      "contentType": "video_method",
+      "reviewedAt": "2026-11-12",
+      "coverLabel": "編輯整理",
+      "sourceCoverage": "2026-11-12 已審讀保存的57:26繁中字幕，本文操作依據取自38:20–41:19方法原段。公開繁中字幕，未逐句人工回聽。不採模型代號、權限不會出錯或費用保證；先獨立寫與共同判準為編輯補充。所有示範、模板與20分鐘練習為編輯設計；不宣稱產品現況或實測成效。",
+      "sources": [
+        {
+          "id": "source",
+          "title": "最新世代 AI Agent，一次搞懂基本原理",
+          "url": "https://www.youtube.com/watch?v=1MV-yuYLiV4",
+          "kind": "video",
+          "provider": "youtube",
+          "videoId": "1MV-yuYLiV4",
+          "channel": "三師爸Sense Bar",
+          "note": "原始影片由指定 Notion 檢視的本頁索引核對；字幕已保存，工具功能與介面以讀者目前可用版本為準。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "寫同一題與同一判準",
+          "action": "先由人寫目標、限制與完成條件，再把同一份說明交給各代理；先選低風險、不含私人資料的情境。這份共同任務書是編輯補充。",
+          "why": "來源讓各代理做一樣的事；先對齊判準才能看出方案差異。",
+          "example": "編輯示範：同樣設計15分鐘閱讀暖身，限定紙本、四人一組，產出一張可比較的回答卡。",
+          "check": "各代理收到相同目標、材料與限制。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 2300,
+              "endSeconds": 2339
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "各自留下完整方案",
+          "action": "讓各代理先交自己的步驟、所需材料與可能失敗處，再進入互評；將代理名稱與版本如實記錄，不用一個模型演四個角色冒充四次獨立產出。獨立先寫為編輯安排。",
+          "why": "來源實際開不同代理處理同一件事；本文將先寫與後看分成兩個階段。",
+          "example": "編輯示範：甲、乙先各交活動流程；未收到的方案標缺件，不補成已完成。",
+          "check": "每份方案有可讀內容，且在互評前留存。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 2327,
+              "endSeconds": 2364
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "互看後投別人，附理由與修法",
+          "action": "把方案交給參與者比較，規定不能投自己；請各自引用一個具體設計說明優點、缺點及如何修正。票數、棄權與未回覆分開記，不把多票解讀成正確機率。",
+          "why": "來源要求互投他人，回覆想法優缺點與可改進處。",
+          "example": "編輯示範：甲選乙，理由是題目能在時限內完成，但建議刪去第二次換組；不能只回「乙最好」。",
+          "check": "每票指向其他方案，並留下理由與改進建議。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 2415,
+              "endSeconds": 2479
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "由人查依據，再決定採哪部分",
+          "action": "人工回看限制與證據，可以採一份、混合修訂或全部不用；對事實、費用及重要風險另查原始依據。留下拒絕或採用的理由，再做小範圍試作。",
+          "why": "講者明說AI提案不見得接受，常會繼續修改。",
+          "example": "編輯示範：票數最高方案需要投影，但教室無設備，改採紙本方案並記下原因。",
+          "check": "最終決定有本人理由與待查事項，沒有自動執行外部動作。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 2430,
+              "endSeconds": 2455
+            }
+          ]
+        }
+      ],
+      "visuals": [],
+      "validation": [
+        {
+          "claim": "本文流程能協助完成所列產出",
+          "status": "unverified",
+          "explanation": "來源為創作者示範或個人經驗，本站未獨立測試工具或比較成效。完成檢核只代表產出可供人工查看，不保證省時、獲利或結果正確。",
+          "sourceIds": [
+            "source"
+          ],
+          "checkedAt": "2026-11-12"
+        }
+      ],
+      "pitfalls": [
+        "票數不等於正確率，重要事實仍須回到來源查證。",
+        "先確認工具與費用條件，不照抄影片的模型名或低成本聲稱。",
+        "不同工具也可能有共同盲點；人工可否決全部方案。"
+      ],
+      "practice": {
+        "title": "編輯補充：完成一份小型產出",
+        "minutes": 20,
+        "prompt": "編輯補充：選擇自己有權處理、不含敏感資料的小案例，依各步完成判準試做。若缺少工具或材料，先記缺項，不把未執行當成成功。",
+        "deliverable": "一份含獨立方案、互評理由與人工取捨的比較表",
+        "checklist": [
+          "各代理收到相同目標、材料與限制。",
+          "每份方案有可讀內容，且在互評前留存。",
+          "每票指向其他方案，並留下理由與改進建議。",
+          "最終決定有本人理由與待查事項，沒有自動執行外部動作。"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "編輯補充：可複製模板",
+          "text": "編輯補充模板：同題任務＿＿／共同判準＿＿／代理及版本＿＿／各自方案＿＿／投給誰＿＿／優點與缺點＿＿／修法＿＿／本人取捨＿＿／待查依據＿＿。",
+          "sourceIds": [
+            "source"
+          ]
+        },
+        {
+          "title": "編輯觀點：教學與實作界線",
+          "text": "我的編輯觀點：這裡值得保留的是不同實際產出之間的差異，不是把代理數量當品質保證。若只拿到相同空話，先縮小問題；沒有必要為湊票數再開工具。",
+          "sourceIds": [
+            "source"
+          ]
+        }
+      ],
+      "status": "ready",
+      "publishedAt": "2026-11-12T07:29:05.646Z",
+      "overview": {
+        "kind": "infographic",
+        "image": "/assets/overviews/multi-agent-proposal-no-self-vote-desktop.webp",
+        "mobileImage": "/assets/overviews/multi-agent-proposal-no-self-vote-mobile.webp",
+        "cardImage": "/assets/overviews/multi-agent-proposal-no-self-vote-desktop.webp",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600,
+        "alt": "同一題交給不同AI：先各提方案，再互評，最後由人取捨：依本文核心關係整理的雙版資訊圖。",
+        "caption": "依來源方法製作的編輯整理；例子與操作安排為編輯設計，不代表成效保證。"
+      }
+    },
+    {
+      "id": "drive-visible-list-readable-offline-probe",
+      "title": "雲端檔案看得到，內容讀得到嗎？用一個小檔核對同步與離線",
+      "summary": "資料夾名稱出現在電腦裡，不代表代理已讀到檔案正文。三師爸以班務資料夾說明桌面同步與鏡像、串流的選擇。本文改成小檔驗收：對內容、看同步狀態，再核對需要離線時是否可讀；不要求把整個硬碟改成鏡像。",
+      "categoryId": "ai",
+      "topicIds": [
+        "workflow"
+      ],
+      "level": "入門",
+      "minutes": 20,
+      "output": "一張小檔雲端、本機、離線內容核對表",
+      "audience": "想讓本機代理讀取自己雲端教材的教師與工作者",
+      "contentType": "video_method",
+      "reviewedAt": "2026-11-12",
+      "coverLabel": "編輯整理",
+      "sourceCoverage": "2026-11-12 已審讀保存的57:26繁中字幕，本文操作依據取自42:16–47:35方法原段。公開繁中字幕，未逐句人工回聽。未操作讀者電腦或實測Google Drive；不採用全庫改鏡像、串流完全不能離線等概括說法。所有示範、模板與20分鐘練習為編輯設計；不宣稱產品現況或實測成效。",
+      "sources": [
+        {
+          "id": "source",
+          "title": "最新世代 AI Agent，一次搞懂基本原理",
+          "url": "https://www.youtube.com/watch?v=1MV-yuYLiV4",
+          "kind": "video",
+          "provider": "youtube",
+          "videoId": "1MV-yuYLiV4",
+          "channel": "三師爸Sense Bar",
+          "note": "原始影片由指定 Notion 檢視的本頁索引核對；字幕已保存，工具功能與介面以讀者目前可用版本為準。"
+        },
+        {
+          "id": "official-drive",
+          "kind": "official",
+          "title": "Google官方：桌面版雲端硬碟串流與鏡像",
+          "url": "https://support.google.com/drive/answer/13401938?hl=en",
+          "note": "2026-11-12讀取官方全文；串流可指定離線、鏡像有本機副本；本文小檔驗收為編輯設計。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "選一個可公開的小檔與固定位置",
+          "action": "在已授權同步的測試資料夾選一份非敏感純文字或PDF，記雲端位置、本機位置與一句可辨識內容。只測這份，不搬動原班務檔案。",
+          "why": "來源以特定班務資料夾串起雲端與電腦，本文將測試縮小避免混入真實名單。",
+          "example": "編輯示範：測試檔寫「閱讀活動甲，版本A」；表上記兩邊位置，不放學生資料。",
+          "check": "可辨識句與兩邊位置都已記下。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 2536,
+              "endSeconds": 2588
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "先開本機正文，再請代理引回一小句",
+          "action": "先用檢視器確認檔案正文，再請代理只讀指定檔案並回述可辨識句；僅列出檔名不能算讀取成功。代理無法讀時記錯誤與檔案種類，不擴大權限。",
+          "why": "來源讓代理讀本機同步資料夾並把產物放回；本文補上內容驗收。",
+          "example": "編輯示範：若回覆只有「找到測試檔」，接著核對它能否說出版本A，而不是接受完成回報。",
+          "check": "人與代理都能核對同一句，或明列誰尚未讀到。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 2582,
+              "endSeconds": 2652
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "修改測試副本，等同步後核對版本",
+          "action": "只在測試檔改一個可辨識字，保留原副本；等桌面程式顯示同步完成後，到另一端開正文比對。遇衝突或同步未完，先停止修改並保留兩版。",
+          "why": "來源展示對話產物儲存到同步資料夾；同步狀態與衝突處理為編輯補充。",
+          "example": "編輯示範：把版本A改成版本B，另一端仍是A就記「尚未同步」，不反覆覆寫檔案。",
+          "check": "兩端正文一致，或有明確待處理差異。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 2632,
+              "endSeconds": 2683
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "有離線需求才做小檔讀取測試",
+          "action": "查目前Google桌面版說明與本機設定；串流檔可指定離線使用，鏡像保留本機副本。依官方方式讓這份小檔可離線後，在不影響他人的測試環境確認正文能開啟；Google原生文件需另查離線設定。未測就寫未測，不改全庫模式。",
+          "why": "影片接受串流也可用；Google官方區分串流離線條件與鏡像的本機副本。本文不把鏡像當唯一選項。",
+          "example": "編輯示範：測試PDF離線可讀，但線上文件只看得到捷徑，就分列結果，不宣稱所有檔案都已離線。",
+          "check": "結果記檔案類型、同步方式與實際可讀狀態。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 2833,
+              "endSeconds": 2855
+            },
+            {
+              "sourceId": "official-drive",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        }
+      ],
+      "visuals": [],
+      "validation": [
+        {
+          "claim": "本文流程能協助完成所列產出",
+          "status": "unverified",
+          "explanation": "來源為創作者示範或個人經驗，本站未獨立測試工具或比較成效。完成檢核只代表產出可供人工查看，不保證省時、獲利或結果正確。",
+          "sourceIds": [
+            "source"
+          ],
+          "checkedAt": "2026-11-12"
+        }
+      ],
+      "pitfalls": [
+        "串流也可指定離線，不能說一律不能離線或一定要鏡像。",
+        "同步會傳遞修改，不把刪檔當成排除故障；未確認前保留副本。",
+        "Google原生文件與一般PDF、文字檔離線條件不同，要分別記錄。"
+      ],
+      "practice": {
+        "title": "編輯補充：完成一份小型產出",
+        "minutes": 20,
+        "prompt": "編輯補充：選擇自己有權處理、不含敏感資料的小案例，依各步完成判準試做。若缺少工具或材料，先記缺項，不把未執行當成成功。",
+        "deliverable": "一張小檔雲端、本機、離線內容核對表",
+        "checklist": [
+          "可辨識句與兩邊位置都已記下。",
+          "人與代理都能核對同一句，或明列誰尚未讀到。",
+          "兩端正文一致，或有明確待處理差異。",
+          "結果記檔案類型、同步方式與實際可讀狀態。"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "編輯補充：可複製模板",
+          "text": "編輯補充模板：測試檔與類型＿＿／雲端位置＿＿／本機位置＿＿／可辨識句＿＿／人讀到＿＿／代理讀到＿＿／同步狀態＿＿／另一端版本＿＿／離線實測或未測＿＿。",
+          "sourceIds": [
+            "source"
+          ]
+        },
+        {
+          "title": "編輯觀點：教學與實作界線",
+          "text": "我的編輯觀點：路徑是地址，可讀內容才是本次工作的材料。這張表適合先測一份教材，不必為了解決一個缺檔問題就改整個同步策略。",
+          "sourceIds": [
+            "source"
+          ]
+        }
+      ],
+      "status": "ready",
+      "publishedAt": "2026-11-12T07:29:05.646Z",
+      "overview": {
+        "kind": "infographic",
+        "image": "/assets/overviews/drive-visible-list-readable-offline-probe-desktop.webp",
+        "mobileImage": "/assets/overviews/drive-visible-list-readable-offline-probe-mobile.webp",
+        "cardImage": "/assets/overviews/drive-visible-list-readable-offline-probe-desktop.webp",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600,
+        "alt": "雲端檔案看得到，內容讀得到嗎？用一個小檔核對同步與離線：依本文核心關係整理的雙版資訊圖。",
+        "caption": "依來源方法製作的編輯整理；例子與操作安排為編輯設計，不代表成效保證。"
+      }
+    },
+    {
+      "id": "ai-data-field-purpose-reduction-proposal",
+      "title": "資料先別整包送：逐欄寫用途，再提縮減版本給權責人審查",
+      "summary": "只問「能不能上傳」容易略過更前面的問題：完成這件工作到底要哪些欄位？EP116提出必要性、是否保留原樣及是否需要全量三個判斷。本文把它做成一份待審提案，逐欄對用途、候選轉換與驗證缺口，不把刪名或改代號當匿名保證。",
+      "categoryId": "ai",
+      "topicIds": [
+        "workflow"
+      ],
+      "level": "入門",
+      "minutes": 20,
+      "output": "一份欄位用途、縮減方案與待審風險對照表",
+      "audience": "規畫AI資料流程、需要與資料權責人討論的教師及專案人員",
+      "contentType": "article_method",
+      "reviewedAt": "2026-11-12",
+      "coverLabel": "編輯整理",
+      "sourceCoverage": "2026-11-12 完整審讀保存的689段ASR至20:03。本機MLX Whisper large-v3-turbo辨識中文，保存文字至20:03；原音訊經ffprobe讀得約1220秒，非RSS時長。未逐句人工回聽。未採節目「年齡不是個資」、userID加年齡即匿名、抽10%乘10與案例合規推論；未核實節目引述金融數據與公司效益。所有示範、模板與20分鐘練習為編輯設計。",
+      "sources": [
+        {
+          "id": "source",
+          "title": "EP116 敏感個資能不能送進外部AI系統？資料出門前的三大判斷",
+          "url": "https://open.firstory.fm/story/cmwaogxq1006201t07g814kj1",
+          "kind": "article",
+          "channel": "數創實驗室",
+          "note": "指定Notion集數與Firstory原音訊核對；本機MLX Whisper large-v3-turbo轉錄，未送外部辨識服務。"
+        },
+        {
+          "id": "official-nist",
+          "kind": "official",
+          "title": "NIST SP800-188：去識別化技術與治理",
+          "url": "https://csrc.nist.gov/pubs/sp/800/188/final",
+          "note": "2026-11-12讀官方摘要；變換準識別資料、評估揭露與再辨識風險，遮蔽工具不等於足夠去識別化。非台灣法遵許可。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "先寫工作輸出，不先交原始資料",
+          "action": "用一句話說AI要完成哪個工作與由誰最後確認，再列目前檔案欄位。討論階段使用自行編造、不對應真人的欄位樣本；不先讓外部AI讀原檔再問該刪什麼。",
+          "why": "節目第一關問資料是否為完成工作所必要；本文將盤點放在傳送之前。",
+          "example": "編輯示範：要整理活動回饋主題，不做個人追蹤；先列「姓名、聯絡方式、回饋文字、活動場次」的虛構欄位表。",
+          "check": "工作輸出與最後確認者清楚，未送出原始資料。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 357,
+              "endSeconds": 412
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "逐欄配用途，刪去沒有必要理由的候選欄",
+          "action": "為每欄寫「這欄支持哪項輸出」；答不出就列不提供的候選。需保留者也要寫明理由與處理限制，不因現成檔案有這欄就順便附上。",
+          "why": "節目以任務必需資訊對照姓名、地址等非必要資訊，強調資料最小化。",
+          "example": "編輯示範：姓名對彙整主題沒有直接用途，提案不提供；回饋文字仍可能提到身分，另列待審。",
+          "check": "每個保留欄位都有用途，未保留也有理由。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 359,
+              "endSeconds": 475
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "分開提欄位、形式與數量的縮減方案",
+          "action": "對確實需要的資訊，寫出能否先在受控環境轉換成更少細節，及是否只需部分資料的候選方案；同時列可能失去的訊息。這裡只產提案，不把加密、代號、年齡或抽樣當自動安全通行證。",
+          "why": "來源第二、三關問是否必須原樣或全量；節目的具體去識別化與抽樣推論不直接採用。",
+          "example": "編輯示範：活動場次可否只留月份？這會不會讓不同活動混在一起？把用途與損失一起交回討論。",
+          "check": "三種縮減各有可行、不可行或待確認，以及資訊損失。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 478,
+              "endSeconds": 507
+            },
+            {
+              "sourceId": "source",
+              "startSeconds": 681,
+              "endSeconds": 685
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "把再辨識與任務失真交給權責人回查",
+          "action": "由資料權責與相關專業人員確認組合辨識風險、允許用途、服務條件及轉換後仍能完成任務的證據；有疑慮就保留待審，不上傳。NIST提醒遮蔽工具未必足以去識別化，需評估風險。",
+          "why": "節目強調跨部門對焦；NIST官方補足變換準識別資料與再辨識風險的界線。",
+          "example": "編輯示範：即使沒有姓名，特殊事件敘述仍可能指向某個人；記為需再處理，不能蓋上安全印章。",
+          "check": "每個待審項有負責人、所缺證據與未核准狀態。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 970,
+              "endSeconds": 1031
+            },
+            {
+              "sourceId": "official-nist",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        }
+      ],
+      "visuals": [],
+      "validation": [
+        {
+          "claim": "本文流程能協助完成所列產出",
+          "status": "unverified",
+          "explanation": "來源為創作者示範或個人經驗，本站未獨立測試工具或比較成效。完成檢核只代表產出可供人工查看，不保證省時、獲利或結果正確。",
+          "sourceIds": [
+            "source"
+          ],
+          "checkedAt": "2026-11-12"
+        }
+      ],
+      "pitfalls": [
+        "改代號、刪姓名或把生日換成年齡，都不保證匿名或可外傳。",
+        "抽樣分析要檢查代表性與偏差，不能把回傳結果任意乘回全量。",
+        "本文是待審方案；不能替代單位核准、資安與相關專業審查。"
+      ],
+      "practice": {
+        "title": "編輯補充：完成一份小型產出",
+        "minutes": 20,
+        "prompt": "編輯補充：選擇自己有權處理、不含敏感資料的小案例，依各步完成判準試做。若缺少工具或材料，先記缺項，不把未執行當成成功。",
+        "deliverable": "一份欄位用途、縮減方案與待審風險對照表",
+        "checklist": [
+          "工作輸出與最後確認者清楚，未送出原始資料。",
+          "每個保留欄位都有用途，未保留也有理由。",
+          "三種縮減各有可行、不可行或待確認，以及資訊損失。",
+          "每個待審項有負責人、所缺證據與未核准狀態。"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "編輯補充：可複製模板",
+          "text": "編輯補充模板：工作輸出＿＿／欄位＿＿／用途＿＿／不提供候選＿＿／轉換候選＿＿／數量需求＿＿／資訊損失＿＿／組合辨識風險＿＿／權責人＿＿／待審證據＿＿。",
+          "sourceIds": [
+            "source"
+          ]
+        },
+        {
+          "title": "編輯觀點：教學與實作界線",
+          "text": "我的編輯觀點：分類表回答的是這份資料可能有什麼風險，這份提案再追一步：既然只做這件事，為何需要這一欄？能少帶資訊值得討論，卻不能由編輯替單位批准外傳。",
+          "sourceIds": [
+            "source"
+          ]
+        }
+      ],
+      "status": "ready",
+      "publishedAt": "2026-11-12T07:29:05.646Z",
+      "overview": {
+        "kind": "infographic",
+        "image": "/assets/overviews/ai-data-field-purpose-reduction-proposal-desktop.webp",
+        "mobileImage": "/assets/overviews/ai-data-field-purpose-reduction-proposal-mobile.webp",
+        "cardImage": "/assets/overviews/ai-data-field-purpose-reduction-proposal-desktop.webp",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600,
+        "alt": "資料先別整包送：逐欄寫用途，再提縮減版本給權責人審查：依本文核心關係整理的雙版資訊圖。",
+        "caption": "依來源方法製作的編輯整理；例子與操作安排為編輯設計，不代表成效保證。"
+      }
+    },
+    {
+      "id": "power-user-work-change-investment-interview",
+      "title": "AI投資先問實際使用者：展示工作怎麼變，再列仍缺的支援",
+      "summary": "工具採購清單看不出同事究竟怎麼工作。唐心慧在訪談中談到，由主管提出方向，同時盤點實際使用者如何改變作業、交付與代理使用。本文把這段縮成一次工作展示訪談，將可用經驗與支援缺口分開交回決策，不以使用次數評價個人。",
+      "categoryId": "ai",
+      "topicIds": [
+        "workflow"
+      ],
+      "level": "入門",
+      "minutes": 20,
+      "output": "一份含工作前後展示、可轉用條件與支援缺口的投資參考表",
+      "audience": "準備盤點團隊AI使用方式的主管、教學社群與資訊組",
+      "contentType": "article_method",
+      "reviewedAt": "2026-11-12",
+      "coverLabel": "編輯整理",
+      "sourceCoverage": "2026-11-12 完整審讀保存的2293段中文ASR至63:42。本機MLX Whisper large-v3-turbo辨識中文，保存文字至63:43；原音訊經ffprobe讀得約3830秒，非RSS時長。未逐句人工回聽。人名與英語術語有辨識疑點，依指定索引使用唐心慧；不採OpenAI廣告合作、未來AI主管、員工配比、投資比例與商業效益預測。所有示範、模板與20分鐘練習為編輯設計。",
+      "sources": [
+        {
+          "id": "source",
+          "title": "EP320 如何從做得更快到創造實際成長？唐心慧專訪",
+          "url": "https://open.firstory.fm/story/cmwbuc5x3004701sr8c8mf9e2",
+          "kind": "article",
+          "channel": "數位時代 Business Next",
+          "note": "指定Notion集數與Firstory原音訊核對；本機MLX Whisper large-v3-turbo轉錄，未送外部辨識服務。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "說清楚本次盤點要幫哪個工作",
+          "action": "先由負責人寫本次希望理解的工作與可投入範圍，說明訪談是為找支援需求，不要求交私人對話或敏感工作檔。這份邀請範圍為編輯補充。",
+          "why": "來源把主管策略與由下而上的實際作業經驗連起來，不只是請技術專家列工具。",
+          "example": "編輯示範：只盤點校內公開活動文宣製作，請同事準備可公開或虛構的前後例子。",
+          "check": "有工作範圍、展示材料界線與盤點目的。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 1080,
+              "endSeconds": 1206
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "請使用者展示作業與交付怎麼變",
+          "action": "邀請已實際使用的人，拿同一項工作說明原來做法、現在做法與交付給誰；把真正產物和口頭預期分開記，不只問最喜歡哪個工具。",
+          "why": "受訪者想知道實際使用者如何改變作業與service delivery。",
+          "example": "編輯示範：原本逐張改海報，現在先產文字版；展示可讀草稿，再指出哪裡仍由人修改。",
+          "check": "有一組可比較的工作前後材料，未展示處明標未確認。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 1230,
+              "endSeconds": 1275
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "分開記好用、缺項與代理調整方式",
+          "action": "追問哪一段真正接得上、還需要什麼，以及如何提供規則或調整代理；版本、資料條件與人工收尾寫在旁邊，不把個人順手視為全員可直接複製。",
+          "why": "來源將需要什麼、什麼好用、如何調整AI代理列為盤點項目。",
+          "example": "編輯示範：同事能快產三版文案，但校對仍花時間；需求寫可用範例與審校規準，不直接寫再買帳號。",
+          "check": "每項好用經驗有條件，每項缺口有具體工作位置。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 1260,
+              "endSeconds": 1288
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "把盤點回到一項支援決定與回看日期",
+          "action": "彙整共同缺口，先選一項可提供的支援或小試辦；註明成本、負責人及要再看哪份成果。這個決定格式為編輯補充，保留不同工作不採同工具的可能。",
+          "why": "來源把實際作業盤點作為組織投資參考，而非直接要求統一工具。",
+          "example": "編輯示範：先整理一份可公開的審校例子，兩週後看是否還卡在同一段；不預先宣稱節省時數。",
+          "check": "有一項具體支援、負責人與回看依據。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 1277,
+              "endSeconds": 1365
+            }
+          ]
+        }
+      ],
+      "visuals": [],
+      "validation": [
+        {
+          "claim": "本文流程能協助完成所列產出",
+          "status": "unverified",
+          "explanation": "來源為創作者示範或個人經驗，本站未獨立測試工具或比較成效。完成檢核只代表產出可供人工查看，不保證省時、獲利或結果正確。",
+          "sourceIds": [
+            "source"
+          ],
+          "checkedAt": "2026-11-12"
+        }
+      ],
+      "pitfalls": [
+        "工作展示不蒐集私人對話或未獲授權的文件。",
+        "個人展示不等於團隊實測，不用工具數量直接打績效分數。",
+        "先記條件與人工收尾，再討論是否值得投入支援。"
+      ],
+      "practice": {
+        "title": "編輯補充：完成一份小型產出",
+        "minutes": 20,
+        "prompt": "編輯補充：選擇自己有權處理、不含敏感資料的小案例，依各步完成判準試做。若缺少工具或材料，先記缺項，不把未執行當成成功。",
+        "deliverable": "一份含工作前後展示、可轉用條件與支援缺口的投資參考表",
+        "checklist": [
+          "有工作範圍、展示材料界線與盤點目的。",
+          "有一組可比較的工作前後材料，未展示處明標未確認。",
+          "每項好用經驗有條件，每項缺口有具體工作位置。",
+          "有一項具體支援、負責人與回看依據。"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "編輯補充：可複製模板",
+          "text": "編輯補充模板：盤點工作＿＿／原做法與材料＿＿／現做法與產物＿＿／交付對象＿＿／已確認好用處＿＿／仍缺支援＿＿／代理調整方式＿＿／轉用條件＿＿／支援決定與回看＿＿。",
+          "sourceIds": [
+            "source"
+          ]
+        },
+        {
+          "title": "編輯觀點：教學與實作界線",
+          "text": "我的編輯觀點：最會用工具的人未必最會描述方法，讓他展示一份產物，比請他列排行榜更容易發現團隊真正欠缺什麼。盤點也不能順勢變成對同事的監看。",
+          "sourceIds": [
+            "source"
+          ]
+        }
+      ],
+      "status": "ready",
+      "publishedAt": "2026-11-12T07:29:05.646Z",
+      "overview": {
+        "kind": "infographic",
+        "image": "/assets/overviews/power-user-work-change-investment-interview-desktop.webp",
+        "mobileImage": "/assets/overviews/power-user-work-change-investment-interview-mobile.webp",
+        "cardImage": "/assets/overviews/power-user-work-change-investment-interview-desktop.webp",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600,
+        "alt": "AI投資先問實際使用者：展示工作怎麼變，再列仍缺的支援：依本文核心關係整理的雙版資訊圖。",
+        "caption": "依來源方法製作的編輯整理；例子與操作安排為編輯設計，不代表成效保證。"
+      }
+    },
+    {
+      "id": "cross-team-capability-tags-assist-recognition",
+      "title": "跨組找人幫忙以前：把能力標籤、可用時間與助攻紀錄對起來",
+      "summary": "喊跨組合作，卻不知道誰能幫忙、主管是否同意，最後常又回到找熟人。唐心慧以人才標籤、可搜尋的平台及助攻肯定說明組織設計。本文改成一張小型協作名冊與邀請紀錄，不複製企業獎金制度，也不把名字列在表上當成已同意接案。",
+      "categoryId": "reading",
+      "topicIds": [
+        "classroom",
+        "learning"
+      ],
+      "level": "入門",
+      "minutes": 20,
+      "output": "一份自願能力名冊與附工作範圍、時間、助攻肯定的邀請紀錄",
+      "audience": "需要跨組協作的教學社群、校務團隊與活動帶領者",
+      "contentType": "article_method",
+      "reviewedAt": "2026-11-12",
+      "coverLabel": "編輯整理",
+      "sourceCoverage": "2026-11-12 完整審讀保存的2293段中文ASR至63:42。本機MLX Whisper large-v3-turbo辨識中文，保存文字至63:43；原音訊經ffprobe讀得約3830秒，非RSS時長。未逐句人工回聽。同集僅取第二個獨立流程：人才搜尋與協作承接；未核實企業平台現況，不採人才流動必然改善績效等推論。所有示範、模板與20分鐘練習為編輯設計。",
+      "sources": [
+        {
+          "id": "source",
+          "title": "EP320 如何從做得更快到創造實際成長？唐心慧專訪",
+          "url": "https://open.firstory.fm/story/cmwbuc5x3004701sr8c8mf9e2",
+          "kind": "article",
+          "channel": "數位時代 Business Next",
+          "note": "指定Notion集數與Firstory原音訊核對；本機MLX Whisper large-v3-turbo轉錄，未送外部辨識服務。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "先把需要的能力寫成可觀察工作",
+          "action": "從一個要完成的成果列需要什麼協助，不先指定人選；寫工作內容、期限與可討論的範圍。這份小型任務卡為編輯補充。",
+          "why": "訪談指出跨組協作牽涉資源、時間與考核，不只人彼此認識。",
+          "example": "編輯示範：閱讀展需要一位能整理動線的人，協助一次場地檢視，非全程接手活動。",
+          "check": "需求是一項可辨識工作，有範圍與期限。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 2881,
+              "endSeconds": 2950
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "讓成員自願填能力與經驗標籤",
+          "action": "用簡單共用表列願意公開的能力、做過的案例、語言或領域經驗；由本人確認與更新，不收私人資訊，不讓AI憑履歷猜能力。",
+          "why": "來源人才平台以專長、語言與產業經驗標籤協助找到資源。",
+          "example": "編輯示範：標籤是活動動線、簡報校對，旁邊附可公開的舊作品；沒做過的項目標想學。",
+          "check": "標籤由本人確認，與可回查經驗相連。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 3079,
+              "endSeconds": 3155
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "依標籤邀請，再確認時間與原責任",
+          "action": "搜尋符合需要的人，邀請時附任務卡，讓對方與相關負責人確認可用時間、原工作衝突及可拒絕的選項；名冊可找到人不等於已取得人力。",
+          "why": "訪談先談KPI與主管同意，再談跨市場找到資源；本文補成邀請前確認。",
+          "example": "編輯示範：詢問能否週四給30分鐘回饋；若原專案衝突，改找他人而不直接排進行事曆。",
+          "check": "有本人答覆與必要協調，尚未同意者未算到位。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 2881,
+              "endSeconds": 2965
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "完工後寫出助攻做了什麼，再回填名冊",
+          "action": "將直接成果與協助別人的具體貢獻分開記，依對方同意的範圍致謝；再由本人決定是否補充經驗標籤。不要只稱讚態度或公開原案機密。",
+          "why": "來源區分直接、間接貢獻，並以致意平台讓助攻被看見。",
+          "example": "編輯示範：記「協助指出入口壅塞，改了兩處標示」，而非只寫很熱心；活動完成後確認可否收為案例。",
+          "check": "貢獻可具體描述，致謝及案例公開範圍經確認。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 3156,
+              "endSeconds": 3238
+            }
+          ]
+        }
+      ],
+      "visuals": [],
+      "validation": [
+        {
+          "claim": "本文流程能協助完成所列產出",
+          "status": "unverified",
+          "explanation": "來源為創作者示範或個人經驗，本站未獨立測試工具或比較成效。完成檢核只代表產出可供人工查看，不保證省時、獲利或結果正確。",
+          "sourceIds": [
+            "source"
+          ],
+          "checkedAt": "2026-11-12"
+        }
+      ],
+      "pitfalls": [
+        "名冊不代表自動同意接案，不能跳過本人與既有責任協調。",
+        "標籤要可更新，避免把人永久固定成唯一會做某事的角色。",
+        "不複製節目企業的獎金或公開致謝制度；先依本團隊規範確認。"
+      ],
+      "practice": {
+        "title": "編輯補充：完成一份小型產出",
+        "minutes": 20,
+        "prompt": "編輯補充：選擇自己有權處理、不含敏感資料的小案例，依各步完成判準試做。若缺少工具或材料，先記缺項，不把未執行當成成功。",
+        "deliverable": "一份自願能力名冊與附工作範圍、時間、助攻肯定的邀請紀錄",
+        "checklist": [
+          "需求是一項可辨識工作，有範圍與期限。",
+          "標籤由本人確認，與可回查經驗相連。",
+          "有本人答覆與必要協調，尚未同意者未算到位。",
+          "貢獻可具體描述，致謝及案例公開範圍經確認。"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "編輯補充：可複製模板",
+          "text": "編輯補充模板：協作成果＿＿／需要能力＿＿／範圍期限＿＿／自願標籤與經驗＿＿／邀請對象＿＿／本人答覆＿＿／時間與原責任協調＿＿／實際助攻＿＿／致謝範圍＿＿／名冊更新＿＿。",
+          "sourceIds": [
+            "source"
+          ]
+        },
+        {
+          "title": "編輯觀點：教學與實作界線",
+          "text": "我的編輯觀點：協作系統除了讓人被找到，也得讓幫忙的工作被看見。小團隊不必先買平台，一張經本人確認的表就能開始；關鍵是邀請、時間與貢獻都沒有被省略。",
+          "sourceIds": [
+            "source"
+          ]
+        }
+      ],
+      "status": "ready",
+      "publishedAt": "2026-11-12T07:29:05.646Z",
+      "overview": {
+        "kind": "infographic",
+        "image": "/assets/overviews/cross-team-capability-tags-assist-recognition-desktop.webp",
+        "mobileImage": "/assets/overviews/cross-team-capability-tags-assist-recognition-mobile.webp",
+        "cardImage": "/assets/overviews/cross-team-capability-tags-assist-recognition-desktop.webp",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600,
+        "alt": "跨組找人幫忙以前：把能力標籤、可用時間與助攻紀錄對起來：依本文核心關係整理的雙版資訊圖。",
+        "caption": "依來源方法製作的編輯整理；例子與操作安排為編輯設計，不代表成效保證。"
+      }
+    },
+    {
+      "id": "purchase-object-speech-bubble-feeling-stages",
+      "title": "想買的東西會說什麼？畫一個對話框，寫下購買各階段的感受",
+      "summary": "同一件東西，可能讓人期待，也可能拿到後反而想退回。瓦基介紹《金錢治療》時提出一個小練習：替物品畫對話框，寫它會帶來什麼，再看想要、付款、收到及不買的感受。本文只作私人自我觀察，不把購物習慣診斷成童年創傷。",
+      "categoryId": "reading",
+      "topicIds": [
+        "mindset",
+        "review"
+      ],
+      "level": "入門",
+      "minutes": 20,
+      "output": "一張物品對話框與購買階段感受紀錄",
+      "audience": "想看清自己購買期待與當下感受的成人讀者",
+      "contentType": "article_method",
+      "reviewedAt": "2026-11-12",
+      "coverLabel": "編輯整理",
+      "sourceCoverage": "2026-11-12 完整審讀保存的771段中文ASR至25:55。本機MLX Whisper large-v3-turbo辨識中文，保存文字至25:56；原音訊經ffprobe讀得約1557秒，非RSS時長。未逐句人工回聽。未採廣告、調查比例、心理因果與臨床案例診斷；本文僅取24:15–25:16具體自問練習，不宣稱讀過原書。所有示範、模板與20分鐘練習為編輯設計。",
+      "sources": [
+        {
+          "id": "source",
+          "title": "EP668 《金錢治療》讀後心得：錢的問題，往往是心的問題",
+          "url": "https://open.firstory.fm/story/cmvym1kyd032501z7atrh5yfb",
+          "kind": "article",
+          "channel": "下一本讀什麼？",
+          "note": "指定Notion集數與Firstory原音訊核對；本機MLX Whisper large-v3-turbo轉錄，未送外部辨識服務。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "只選一件正在考慮的物品",
+          "action": "拿一件自己正在想買、可平靜思考的普通物品，寫名稱與當時情境，不必實際下單。這個縮小範圍的安排為編輯補充。",
+          "why": "來源用下一次想買東西的時刻，作為覺察入口，而非檢查別人的帳單。",
+          "example": "編輯示範：最近想換筆袋，先記剛看完同事分享照片，不填家庭資產或收入。",
+          "check": "有一件物品與當時情境，沒有為練習而購買。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 1433,
+              "endSeconds": 1461
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "替物品畫對話框，寫它答應帶來什麼",
+          "action": "在物品旁畫對話框，用自己的話寫「買下我，你會得到……」；再補一句它可能滿足什麼期待。不知道就寫不知道，不照抄書中的心理解釋。",
+          "why": "來源明確建議替想買的東西畫漫畫對話框，寫它會帶來或滿足什麼。",
+          "example": "編輯示範：筆袋說「換我之後，桌面看起來會更整齊」；我期待的是比較從容的工作感。",
+          "check": "對話框保留自己當時的期待，沒有替他人猜動機。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 1455,
+              "endSeconds": 1476
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "依順序寫想要、付款與收到的感受",
+          "action": "分別想像找到物品、按下付款與收到物品三個時刻，各寫自己的感受與不確定；若已有類似經驗可分欄補記，不能把想像當成已發生。",
+          "why": "節目接續問找到、刷卡與帶回家各自有何感受，及會想留下或退貨。",
+          "example": "編輯示範：想要時興奮，付款時猶豫；收到後可能覺得普通，這一欄標「預想」。",
+          "check": "三個時刻各有紀錄，預想與實際經驗分開。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 1476,
+              "endSeconds": 1497
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "補寫不買的感受，留下這次觀察",
+          "action": "再寫這次若不買，自己會有什麼感受；比較它與對話框的期待，決定暫緩、補資訊或照原計畫處理。本文不替讀者決定買不買，也不以省錢當練習成績。",
+          "why": "來源問忍住不買的感受，明說不是要戒掉購物，而是看清真正在處理什麼心情。",
+          "example": "編輯示範：不買可能先覺得少了新鮮感，但整齊也能先從整理舊筆袋試起；這是本人的選擇。",
+          "check": "有不買的感受與一項自己選的下一步，不做診斷或自責。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 1497,
+              "endSeconds": 1516
+            }
+          ]
+        }
+      ],
+      "visuals": [],
+      "validation": [
+        {
+          "claim": "本文流程能協助完成所列產出",
+          "status": "unverified",
+          "explanation": "來源為創作者示範或個人經驗，本站未獨立測試工具或比較成效。完成檢核只代表產出可供人工查看，不保證省時、獲利或結果正確。",
+          "sourceIds": [
+            "source"
+          ],
+          "checkedAt": "2026-11-12"
+        }
+      ],
+      "pitfalls": [
+        "練習不是投資或治療建議，不把一次消費解讀成心理診斷。",
+        "不要求實際購買，不要求公開收入、帳單或私人經驗。",
+        "預想感受與實際經驗分開，不以卡片保證能控制消費。"
+      ],
+      "practice": {
+        "title": "編輯補充：完成一份小型產出",
+        "minutes": 20,
+        "prompt": "編輯補充：選擇自己有權處理、不含敏感資料的小案例，依各步完成判準試做。若缺少工具或材料，先記缺項，不把未執行當成成功。",
+        "deliverable": "一張物品對話框與購買階段感受紀錄",
+        "checklist": [
+          "有一件物品與當時情境，沒有為練習而購買。",
+          "對話框保留自己當時的期待，沒有替他人猜動機。",
+          "三個時刻各有紀錄，預想與實際經驗分開。",
+          "有不買的感受與一項自己選的下一步，不做診斷或自責。"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "編輯補充：可複製模板",
+          "text": "編輯補充模板：物品＿＿／當時情境＿＿／物品對話框：買我會帶來＿＿／我的期待＿＿／想要時＿＿／付款時＿＿／收到時＿＿／預想或實際＿＿／不買時＿＿／我的下一步＿＿。",
+          "sourceIds": [
+            "source"
+          ]
+        },
+        {
+          "title": "編輯觀點：教學與實作界線",
+          "text": "我的編輯觀點：這張卡先讓感受被寫出來，不急著證明哪種花錢方式比較好。它與親子購物對話不同，不必交給任何人評分，更不適合被拿來解讀家人的心理。",
+          "sourceIds": [
+            "source"
+          ]
+        }
+      ],
+      "status": "ready",
+      "publishedAt": "2026-11-12T07:29:05.646Z",
+      "overview": {
+        "kind": "infographic",
+        "image": "/assets/overviews/purchase-object-speech-bubble-feeling-stages-desktop.webp",
+        "mobileImage": "/assets/overviews/purchase-object-speech-bubble-feeling-stages-mobile.webp",
+        "cardImage": "/assets/overviews/purchase-object-speech-bubble-feeling-stages-desktop.webp",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600,
+        "alt": "想買的東西會說什麼？畫一個對話框，寫下購買各階段的感受：依本文核心關係整理的雙版資訊圖。",
+        "caption": "依來源方法製作的編輯整理；例子與操作安排為編輯設計，不代表成效保證。"
+      }
+    },
+    {
+      "id": "account-connection-type-dependency-map",
+      "title": "用同一個帳號登入之後：分清登入、連結與資料存取，再畫相依表",
+      "summary": "一個帳號連著很多服務，卻不一定代表它們拿到相同資料。中田敦彥在資安解說末段提醒盤點帳號連結。本文補查Google官方，把登入、帳號連結與資料存取分開，先記服務相依關係與未知，再決定要不要調整；不因新聞驚慌一次斷開全部連線。",
+      "categoryId": "ai",
+      "topicIds": [
+        "workflow"
+      ],
+      "level": "入門",
+      "minutes": 20,
+      "output": "一份區分連線類型、資料範圍與停用影響的帳號相依表",
+      "audience": "想盤點自己第三方帳號連線、避免誤斷工作服務的成人使用者",
+      "contentType": "video_method",
+      "reviewedAt": "2026-11-12",
+      "coverLabel": "編輯整理",
+      "sourceCoverage": "2026-11-12完整審讀保存的958段英語字幕至36:06，原片為日語；字幕人工、自動或翻譯來源未確認，未逐句回聽。只採30:31–34:01帳號連結盤點原則；未核實新聞案例，不沿用定期改密碼或全連鎖入侵推論。三種連線分類與撤除界線補查Google官方；所有示範、相依表與20分鐘練習為編輯設計。",
+      "sources": [
+        {
+          "id": "source",
+          "title": "AI與網路攻擊：新時代犯罪與個人防護",
+          "url": "https://www.youtube.com/watch?v=vVOg6hKmQwY",
+          "kind": "video",
+          "provider": "youtube",
+          "videoId": "vVOg6hKmQwY",
+          "channel": "中田敦彥的YouTube大學",
+          "note": "原始影片由指定 Notion 檢視的本頁索引核對；字幕已保存，工具功能與介面以讀者目前可用版本為準。"
+        },
+        {
+          "id": "official-connections",
+          "kind": "official",
+          "title": "Google官方：管理與第三方應用程式的連結",
+          "url": "https://support.google.com/accounts/answer/13533235?hl=en",
+          "note": "2026-11-12讀取官方全文，三種連線類型、撤除功能影響及第三方既有資料留存。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "選一個本人帳號，從可信入口查連線",
+          "action": "只選本人有權管理的一個主帳號，從自己平常使用的官方入口查看第三方連線清單；不從催促改密碼的信件點進去，也不在紀錄表抄密碼或復原碼。",
+          "why": "來源提醒恐慌時可能遇到冒名通知，並要求知道帳號連了哪些服務。",
+          "example": "編輯示範：從已保存的官方帳號頁看日曆工具連線，表上只記服務名稱，不填完整個人帳號。",
+          "check": "清單來自可信官方入口，只記必要服務資訊。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 1831,
+              "endSeconds": 1878
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "把登入、帳號連結與資料存取分開",
+          "action": "依服務目前官方說明查看連線類型與方向：是用主帳號登入其他服務、讓主平台讀取另一服務，還是另一服務存取主帳號資料；不確定就記待確認。這份分類來自Google官方，不是影片原有三分法。",
+          "why": "來源用帳號連結提醒相依風險；官方進一步區分不同連線機制，避免把每次登入都當全資料授權。",
+          "example": "編輯示範：某工具只是以Google登入；另一個工具可讀日曆，兩者分開記，不用同一個「已連結」標籤含混帶過。",
+          "check": "每項有連線類型、方向與所見資料範圍或未知。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 1878,
+              "endSeconds": 1968
+            },
+            {
+              "sourceId": "official-connections",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "回到一項工作，標出它依靠哪條連線",
+          "action": "逐項問這條連線目前支援什麼工作、由誰使用、是否有替代登入或資料取得方式；不熟悉的權限先查用途，不直接撤銷工作中服務。相依工作欄為編輯補充。",
+          "why": "影片提醒共享入口與連鎖影響；本文把抽象連結改成實際工作依賴。",
+          "example": "編輯示範：研習報名工具需要讀自己的測試行事曆；若撤銷，先記預約確認可能停止，交維護者確認。",
+          "check": "每條保留連線能回到一項用途，未知有確認對象。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 1880,
+              "endSeconds": 1973
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "列保留、待確認或調整提案，另記資料留存",
+          "action": "盤點後由本人依官方流程決定保留或提出調整；調整前先確認登入與工作相依。移除連線不等於第三方已刪除先前取得的資料，需另查其資料處理與刪除方式。本練習只交提案，不執行刪除。",
+          "why": "來源最後要求思考連結與授權；Google官方另提醒移除連線後資料留存及功能影響。",
+          "example": "編輯示範：某閒置工具列待確認：若移除會否影響舊檔？舊資料是否另需刪除？先查清，不把連線消失當資料已清空。",
+          "check": "每項有決定理由與未解影響，不以撤銷數量當安全成績。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 1973,
+              "endSeconds": 2041
+            },
+            {
+              "sourceId": "official-connections",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        }
+      ],
+      "visuals": [],
+      "validation": [
+        {
+          "claim": "本文流程能協助完成所列產出",
+          "status": "unverified",
+          "explanation": "來源為創作者示範或個人經驗，本站未獨立測試工具或比較成效。完成檢核只代表產出可供人工查看，不保證省時、獲利或結果正確。",
+          "sourceIds": [
+            "source"
+          ],
+          "checkedAt": "2026-11-12"
+        }
+      ],
+      "pitfalls": [
+        "以同一帳號登入不等於已授予所有資料權限；依實際連線類型與範圍判斷。",
+        "移除連線不代表第三方已刪除先前資料，需另外確認。",
+        "先盤點相依與替代方式，不因新聞或陌生通知一次撤銷全部服務。"
+      ],
+      "practice": {
+        "title": "編輯補充：完成一份小型產出",
+        "minutes": 20,
+        "prompt": "編輯補充：選擇自己有權處理、不含敏感資料的小案例，依各步完成判準試做。若缺少工具或材料，先記缺項，不把未執行當成成功。",
+        "deliverable": "一份區分連線類型、資料範圍與停用影響的帳號相依表",
+        "checklist": [
+          "清單來自可信官方入口，只記必要服務資訊。",
+          "每項有連線類型、方向與所見資料範圍或未知。",
+          "每條保留連線能回到一項用途，未知有確認對象。",
+          "每項有決定理由與未解影響，不以撤銷數量當安全成績。"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "編輯補充：可複製模板",
+          "text": "編輯補充模板：主帳號服務名＿＿／第三方服務＿＿／連線類型＿＿／方向＿＿／資料範圍＿＿／依賴工作＿＿／替代方式＿＿／保留或待確認＿＿／調整影響＿＿／第三方既有資料＿＿。",
+          "sourceIds": [
+            "source"
+          ]
+        },
+        {
+          "title": "編輯觀點：教學與實作界線",
+          "text": "我的編輯觀點：這裡要拆開的是不同連線的意義，不是把所有整合都視為危險。看清楚誰向誰拿哪些資料，才有可能做出合適調整，也比較不會突然弄壞自己每天在用的流程。",
+          "sourceIds": [
+            "source"
+          ]
+        }
+      ],
+      "status": "ready",
+      "publishedAt": "2026-11-12T07:29:05.646Z",
+      "overview": {
+        "kind": "infographic",
+        "image": "/assets/overviews/account-connection-type-dependency-map-desktop.webp",
+        "mobileImage": "/assets/overviews/account-connection-type-dependency-map-mobile.webp",
+        "cardImage": "/assets/overviews/account-connection-type-dependency-map-desktop.webp",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600,
+        "alt": "用同一個帳號登入之後：分清登入、連結與資料存取，再畫相依表：依本文核心關係整理的雙版資訊圖。",
+        "caption": "依來源方法製作的編輯整理；例子與操作安排為編輯設計，不代表成效保證。"
+      }
+    },
+    {
+      "id": "ai-explanations-likelihood-consequence-two-orders",
+      "title": "AI先給最可能答案之後：再問不能漏掉什麼，分兩欄回查",
+      "summary": "最可能的解釋與一旦漏掉會造成較大後果的解釋，不一定是同一個。這集以兩種排序方式示範提問。本文只取雙欄提問的思考形式，轉成教材網站故障的非醫療練習：列常見原因，也列要排除的重要失敗，再由人查證，不讓AI憑空估機率。",
+      "categoryId": "ai",
+      "topicIds": [
+        "workflow"
+      ],
+      "level": "入門",
+      "minutes": 20,
+      "output": "一張分開常見解釋與重大後果、附回查依據的雙欄表",
+      "audience": "想檢查AI是否只回答第一個合理解釋的教師與網站維護者",
+      "contentType": "article_method",
+      "reviewedAt": "2026-11-12",
+      "coverLabel": "編輯整理",
+      "sourceCoverage": "2026-11-12 完整審讀保存的中文及英文引述ASR至16:16。本機MLX Whisper large-v3-turbo辨識中文，保存文字至16:17；RSS標示約978秒，非人工逐句完整保證。未逐句人工回聽。開場與多段英文引述存在漏字、混語與時間空隙，不採不清楚原句；未核實研究比例、產品或醫療效益，未提供任何症狀判讀、用藥或治療方法。全文只取清楚可核對的雙排序提問形式，轉用非醫療例子並逐步標編輯延伸。所有示範、模板與20分鐘練習為編輯設計。",
+      "sources": [
+        {
+          "id": "source",
+          "title": "EP455 同一套AI，為何提問方式影響答案？",
+          "url": "https://player.soundon.fm/p/ca974d36-6fcc-46fc-a339-ba7ed8902c80/episodes/300d91f6-6054-4ba5-8b0b-82609110fda8",
+          "kind": "article",
+          "channel": "AI懶人報",
+          "note": "指定Notion集數與SoundOn RSS原音訊核對；本機MLX Whisper large-v3-turbo轉錄，未送外部辨識服務。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "先寫可確認現象，暫不指定答案",
+          "action": "用非醫療的小情境寫出現象、發生時間與已知條件；不知道的地方留未知，不把自己的猜測直接寫進問題當前提。這個資料卡為編輯補充。",
+          "why": "節目提醒輸入資料不同會影響答案，也示範不要只讓AI順著單一猜測回答。",
+          "example": "編輯示範：教材網站今天開啟很慢；兩台裝置都有發生；尚未知道是否全校都一樣，先不說一定是主機壞了。",
+          "check": "現象、已知與未知分開，沒有預設唯一原因。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 247,
+              "endSeconds": 276
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "左欄請AI列較可能的解釋與根據",
+          "action": "請AI依目前條件列可能解釋，說明各自依據與缺少的資訊；無資料支持時只寫候選，不捏造百分比。此欄是依節目常見排序概念轉用。",
+          "why": "來源以同一張清單可以按不同條件排序，說明常見與嚴重需要分開看。",
+          "example": "編輯示範：候選是圖片太大、網路延遲或服務異常；每項都寫需要哪個可觀察證據，不直接排出95%。",
+          "check": "候選附依據或未知，沒有虛構機率。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 357,
+              "endSeconds": 406
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "右欄另問有什麼重要失敗不能漏掉",
+          "action": "接著問：若左欄判斷錯，哪些後果較大的可能值得另查？請AI分開寫可能性、影響與排除所需證據，不因後果嚴重就說一定正在發生。這個風險欄是編輯轉用。",
+          "why": "節目的第二個問題明確問若自己錯了，有什麼重要可能不能漏掉。本文不轉用其醫療判斷。",
+          "example": "編輯示範：另查是否誤公開私人檔案或資料庫連線錯誤；目前未見證據就標待查，不發出已遭入侵的通知。",
+          "check": "右欄各項有後果與查證方式，未把想像當事件。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 417,
+              "endSeconds": 456
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "由人選小範圍查證，回填兩欄狀態",
+          "action": "先用現有權限做不改資料的檢查，記實際結果、已排除與仍未知；需要專業判斷或更高權限就交權責人。不能因AI列很多可能，就盲目執行所有修復或關掉全部服務。",
+          "why": "來源提醒過度保守也可能產生額外代價；本文以低風險故障排查說明查證的分寸。",
+          "example": "編輯示範：先看檔案是否仍限本人可讀，再請維護者讀取錯誤紀錄；沒查的項目保留未知，不一次重設全部設定。",
+          "check": "兩欄狀態回填實際證據，改動前有權責確認。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 529,
+              "endSeconds": 601
+            }
+          ]
+        }
+      ],
+      "visuals": [],
+      "validation": [
+        {
+          "claim": "本文流程能協助完成所列產出",
+          "status": "unverified",
+          "explanation": "來源為創作者示範或個人經驗，本站未獨立測試工具或比較成效。完成檢核只代表產出可供人工查看，不保證省時、獲利或結果正確。",
+          "sourceIds": [
+            "source"
+          ],
+          "checkedAt": "2026-11-12"
+        }
+      ],
+      "pitfalls": [
+        "本文只作非醫療提問形式練習，不用此表自行診斷、排序症狀或決定治療。",
+        "常見不等於已證實，後果重大也不等於發生機率高。",
+        "AI列出的候選要回查，不盲目執行所有修復或擴大權限。"
+      ],
+      "practice": {
+        "title": "編輯補充：完成一份小型產出",
+        "minutes": 20,
+        "prompt": "編輯補充：選擇自己有權處理、不含敏感資料的小案例，依各步完成判準試做。若缺少工具或材料，先記缺項，不把未執行當成成功。",
+        "deliverable": "一張分開常見解釋與重大後果、附回查依據的雙欄表",
+        "checklist": [
+          "現象、已知與未知分開，沒有預設唯一原因。",
+          "候選附依據或未知，沒有虛構機率。",
+          "右欄各項有後果與查證方式，未把想像當事件。",
+          "兩欄狀態回填實際證據，改動前有權責確認。"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "編輯補充：可複製模板",
+          "text": "編輯補充模板：現象＿＿／已知＿＿／未知＿＿／左欄可能解釋＿＿／依據＿＿／右欄不能漏的後果＿＿／排除證據＿＿／人工查證＿＿／已排除或仍未知＿＿／權責人＿＿。",
+          "sourceIds": [
+            "source"
+          ]
+        },
+        {
+          "title": "編輯觀點：教學與實作界線",
+          "text": "我的編輯觀點：雙欄的價值是讓兩種問題都被問到，不是把右欄寫得越恐怖越周全。維護者仍需判斷哪些值得先查，避免用一串AI猜測替代實際觀察。",
+          "sourceIds": [
+            "source"
+          ]
+        }
+      ],
+      "status": "ready",
+      "publishedAt": "2026-11-12T07:29:05.646Z",
+      "overview": {
+        "kind": "infographic",
+        "image": "/assets/overviews/ai-explanations-likelihood-consequence-two-orders-desktop.webp",
+        "mobileImage": "/assets/overviews/ai-explanations-likelihood-consequence-two-orders-mobile.webp",
+        "cardImage": "/assets/overviews/ai-explanations-likelihood-consequence-two-orders-desktop.webp",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600,
+        "alt": "AI先給最可能答案之後：再問不能漏掉什麼，分兩欄回查：依本文核心關係整理的雙版資訊圖。",
+        "caption": "依來源方法製作的編輯整理；例子與操作安排為編輯設計，不代表成效保證。"
+      }
     }
   ],
   "demo": {
