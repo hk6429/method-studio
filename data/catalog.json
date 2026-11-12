@@ -211095,6 +211095,1451 @@
         "alt": "多模型合成真的多了什麼？保留原稿，再比融合稿：依本文核心關係整理的雙版資訊圖。",
         "caption": "依來源方法製作的編輯整理；例子與操作安排為編輯設計，不代表成效保證。"
       }
+    },
+    {
+      "id": "cross-repo-representatives-tested-instructions-draft",
+      "title": "跨程式庫試驗別只留心得：把適用操作寫成專案指令草案",
+      "summary": "先讓不同程式庫各有代表，辨認同一操作在前端、後端與行動端的差異，再把有證據的操作整理成對應專案可讀指令。本文只完成練習用文件草案，實際試驗及寫回另待授權。",
+      "output": "一份程式庫代表矩陣、試驗計畫及AGENTS.md／技能文件練習草案",
+      "audience": "要協調多類專案AI試用的工程主管、資訊組或開發團隊",
+      "categoryId": "ai",
+      "topicIds": [
+        "workflow"
+      ],
+      "keywords": [],
+      "minutes": 35,
+      "level": "進階",
+      "contentType": "video_method",
+      "status": "ready",
+      "reviewedAt": "2026-11-12",
+      "coverLabel": "編輯整理",
+      "sourceCoverage": "依發布者英文逐字稿取材，既有全文審查涵蓋00:01–44:56；轉寫機制未確認，非本站本機ASR，未回聽或核播放器偏移。本篇回看14:09–18:37，主要操作取15:04–18:37。虛構repo、矩陣、驗收表、草案及35分鐘安排均為編輯補充；未作模型試驗或實際寫回。",
+      "sources": [
+        {
+          "id": "video",
+          "kind": "video",
+          "title": "Building the Foundation for the Agentic AI Era",
+          "url": "https://www.youtube.com/watch?v=8Xp1UxlMU70",
+          "videoId": "8Xp1UxlMU70",
+          "channel": "Latent Space",
+          "note": "原集播放器；時間沿用既有逐字稿，未核播放器偏移。"
+        },
+        {
+          "id": "transcript",
+          "kind": "article",
+          "title": "Building the Foundation for the Agentic AI Era｜發布者逐字稿",
+          "url": "https://share.transistor.fm/s/123da941/transcript",
+          "channel": "Latent Space",
+          "note": "發布者英文逐字稿；人工或自動轉寫機制未確認，未回聽。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "列程式庫類型與代表",
+          "action": "列出主要、關鍵程式庫及所屬類型，為每類安排熟悉工作的代表；編輯補充：練習先用虛構專案，未確認的人選寫待邀請。",
+          "why": "來源要求主要repo皆有代表，且涵蓋前後端、iOS與Android。",
+          "example": "編輯示範：虛構前端甲、後端乙、行動端丙各一列；代表填角色或待邀請，不填不存在的同意。",
+          "check": "矩陣涵蓋不同類型，不把單一展示專案當全組織樣本。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "transcript",
+              "startSeconds": 904,
+              "endSeconds": 964
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "確認投入時間與試驗範圍",
+          "action": "與各代表直屬主管確認可投入時段及試驗工作；編輯補充：本次先寫協調問題，保留資料與工具邊界，不預設取得承諾。",
+          "why": "受訪者需取得非自己部屬的主管支持，投入時間用於把知識帶回系統。",
+          "example": "編輯示範：草案寫「請確認可用時段與測試副本」；原片30%不是本文要求。",
+          "check": "有時段、負責角色及待確認事項，未協調不寫已同意。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "transcript",
+              "startSeconds": 964,
+              "endSeconds": 1004
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "按類型安排相同操作的試做",
+          "action": "選一個操作，在各類型自己的可還原練習副本列輸入與驗收；編輯補充：記相同操作、不同repo條件及待測欄，未來實測才填輸出證據。",
+          "why": "來源強調實際大型repo與社群demo不同，網頁適用不代表行動端適用。",
+          "example": "編輯示範：同一「先讀本專案檢查說明再改畫面」操作，前端與行動端各列任務、既有檢查及實際輸出待測；不發明成功案例。",
+          "check": "每列可辨操作與repo差異；有失敗與未知欄，沒有把試驗計畫當結果。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "transcript",
+              "startSeconds": 1004,
+              "endSeconds": 1066
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "把有證據的操作寫成專案文件",
+          "action": "來源把有效context engineering、AGENTS.md及skills放回repo；編輯補充：只在練習資料夾寫候選文件，列適用類型、必要條件與證據位置，未測段落標候選待測。",
+          "why": "同事不必每人重學，代理可讀取專案約定；但不能從一次成功推通用規則。",
+          "example": "編輯示範：練習AGENTS.md草案：「本repo修改畫面前，讀本地檢查說明；適用前端甲，證據待取得。」技能草案只列觸發任務與已確認步驟，不改全域技能或任意.claude。",
+          "check": "候選文件與矩陣相互對應；無結果則保留待測，不標正式生效。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "transcript",
+              "startSeconds": 1066,
+              "endSeconds": 1105
+            }
+          ]
+        },
+        {
+          "id": "step-5",
+          "title": "向團隊說明差異與採用條件",
+          "action": "安排向各團隊展示哪些操作可用、哪些不適用，以及文件將放哪裡；編輯補充：草案列試驗證據、覆核者及保留或退回條件，未完成不要求已獲回饋。",
+          "why": "來源的brown bag說明重點是repo中放了什麼及原因，不只宣傳工具。",
+          "example": "編輯示範：會議提綱：前端甲待測；行動端丙待測；有證據後才提議寫回對應repo，跨類型一律另測。",
+          "check": "有可說明的差異與待辦；文件草案完成和正式寫回分開。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "transcript",
+              "startSeconds": 1066,
+              "endSeconds": 1117
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "schedule",
+          "title": "編輯補充：35分鐘草案安排",
+          "note": "時間為編輯建議，只計文件設計及紙上檢查；模型執行、實測與後續會議另計。",
+          "columns": [
+            "動作",
+            "保留成果"
+          ],
+          "rows": [
+            {
+              "label": "前8分鐘",
+              "cells": [
+                "列類型與代表",
+                "覆蓋矩陣"
+              ]
+            },
+            {
+              "label": "接著7分鐘",
+              "cells": [
+                "列時間與邊界問題",
+                "協調清單"
+              ]
+            },
+            {
+              "label": "再10分鐘",
+              "cells": [
+                "寫各repo試驗與驗收",
+                "待測表"
+              ]
+            },
+            {
+              "label": "最後10分鐘",
+              "cells": [
+                "寫文件及說明提綱",
+                "候選草案"
+              ]
+            }
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "本文編輯練習能否改善實際工作或模型表現",
+          "status": "unverified",
+          "explanation": "只編製設計草案，未執行本文實驗，未核外部研究、現行SDK或成效；原訪談經驗與技術說明不能代替本地驗證。",
+          "sourceIds": [
+            "transcript"
+          ],
+          "checkedAt": "2026-11-12"
+        }
+      ],
+      "pitfalls": [
+        "把單一網頁成功套到行動端：逐類列結果，未知維持待測。",
+        "只辦分享會，未整理代理可讀的repo文件：把適用操作對到具體文件草案。",
+        "未測就改全域規則：本練習只留專案文件候選，不代改真實設定。",
+        "把1/9/90或30%當通用配額：它們是受訪者框架與公司安排，不是本方法的驗收標準。"
+      ],
+      "practice": {
+        "title": "編輯補充：跨程式庫試驗別只留心得：把適用操作寫成專案指令草案練習",
+        "minutes": 35,
+        "prompt": "編輯示範：用三個虛構repo完成代表與適用矩陣，為一項操作各寫測試計畫，再把待測規則放進練習用AGENTS.md／技能草案。未實測的證據欄寫待測。",
+        "deliverable": "一份程式庫代表矩陣、試驗計畫及AGENTS.md／技能文件練習草案",
+        "checklist": [
+          "跨repo類型及代表齊備或明列缺口",
+          "操作、輸入、判準與待測欄可對應",
+          "候選文件有適用範圍，不改全域設定",
+          "說明提綱未把草案稱已導入"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "編輯補充：可複製矩陣",
+          "text": "編輯補充模板：repo類型＿＿／代表與投入時段待確認＿＿／操作＿＿／輸入及既有檢查＿＿／實際證據（未跑填待測）＿＿／可用或不適用＿＿／候選AGENTS.md或技能段落＿＿／覆核與後續寫回安排＿＿。",
+          "sourceIds": [
+            "transcript"
+          ]
+        },
+        {
+          "title": "編輯觀點：與單一規則消融的差別",
+          "text": "編輯觀點：刪一段規則比較保留或還原，是單一設定的消融；本文先看跨repo類型是否有人能試、差異是什麼，再決定對應文件內容。代表任務矩陣可協助測試，但不能取代跨repo的適用範圍與寫回安排。",
+          "sourceIds": [
+            "transcript"
+          ]
+        },
+        {
+          "title": "編輯觀點：教學可用不同作品類型",
+          "text": "編輯觀點：讓學生為虛構網頁、互動故事與簡報專案各寫代理可讀規則草案，討論同一要求為何不通用。先評文件與測試計畫，未執行不評導入成效。",
+          "sourceIds": [
+            "transcript"
+          ]
+        }
+      ],
+      "publishedAt": "2026-11-12T10:38:11.831Z",
+      "overview": {
+        "kind": "infographic",
+        "image": "/assets/overviews/cross-repo-representatives-tested-instructions-draft-desktop.webp",
+        "mobileImage": "/assets/overviews/cross-repo-representatives-tested-instructions-draft-mobile.webp",
+        "cardImage": "/assets/overviews/cross-repo-representatives-tested-instructions-draft-desktop.webp",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600,
+        "alt": "跨程式庫試驗別只留心得：把適用操作寫成專案指令草案：依本文核心關係整理的雙版資訊圖。",
+        "caption": "依來源方法製作的編輯整理；例子與操作安排為編輯設計，不代表成效保證。"
+      }
+    },
+    {
+      "id": "policy-checkpoint-world-model-screening-plan",
+      "title": "控制策略checkpoint怎麼選？先設計模擬篩選，再保留實測關卡",
+      "summary": "以同一任務的多個控制策略checkpoint為受測對象，規劃它們與世界模型互動後的動作和觀察比較；模擬只縮小候選，真實測試另列關卡。這是一份評估設計草案。",
+      "output": "一份控制策略checkpoint比較草表，分列模擬篩選、候選轉接與真實測試缺口",
+      "audience": "需要理解實體AI評估關係的開發者、研究讀者與資訊教師",
+      "categoryId": "ai",
+      "topicIds": [
+        "workflow"
+      ],
+      "keywords": [],
+      "minutes": 30,
+      "level": "進階",
+      "contentType": "video_method",
+      "status": "ready",
+      "reviewedAt": "2026-11-12",
+      "coverLabel": "編輯整理",
+      "sourceCoverage": "依發布者英文逐字稿取材，既有全文審查涵蓋00:01–47:03；轉寫機制未確認，未回聽，非本站本機ASR，未校播放器偏移。本篇回看29:35–31:44，主要操作取29:50–31:26。控制策略checkpoint、互動模擬與後續實測來自受訪者用途說明；A/B、比較草表、規準與30分鐘安排為編輯補充。未取得模型、SDK、硬體或實測結果，非研究重現或操作教程。",
+      "sources": [
+        {
+          "id": "video",
+          "kind": "video",
+          "title": "Open models and the future of Physical AI with NVIDIA",
+          "url": "https://www.youtube.com/watch?v=W1DSS-Sz3Fo",
+          "videoId": "W1DSS-Sz3Fo",
+          "channel": "Latent Space",
+          "note": "原集播放器；時間沿用既有逐字稿，未核播放器偏移。"
+        },
+        {
+          "id": "transcript",
+          "kind": "article",
+          "title": "Open models and the future of Physical AI with NVIDIA｜發布者逐字稿",
+          "url": "https://share.transistor.fm/s/217445d3/transcript",
+          "channel": "Latent Space",
+          "note": "發布者英文逐字稿；人工或自動轉寫機制未確認，未回聽。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "界定受測控制策略與任務",
+          "action": "來源以同一自駕控制任務的多個checkpoint作比較；編輯補充：草表列任務、checkpoint代號與版本，未取得模型就填待取得。",
+          "why": "受測對象是控制策略模型的訓練檢查點，policy不是法規政策。",
+          "example": "編輯示範：虛構checkpoint A、B執行同一導航任務；權重、版本與模型存取皆待取得，不宣稱已有自駕系統。",
+          "check": "能指出比較的是哪個策略與任務；未知項目留缺口。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "transcript",
+              "startSeconds": 1790,
+              "endSeconds": 1831
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "畫策略與世界模型的互動迴圈",
+          "action": "畫出策略依觀察選動作、世界模型回傳後續觀察、再讓策略決定下一步；編輯補充：只畫介面與待確認欄，不補SDK或控制程式。",
+          "why": "來源讓policy與world model互動，比較不同動作之後看到什麼。",
+          "example": "編輯示範：草圖：觀察O→策略A選動作a→世界模型回傳O′→策略A再選；同樣安排策略B。輸入格式與模型均待確認。",
+          "check": "圖中有回饋迴圈；不是把一張首幀丟給影片模型就結束。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "transcript",
+              "startSeconds": 1831,
+              "endSeconds": 1862
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "先寫模擬如何縮小候選",
+          "action": "編輯補充：為A、B規劃相同初始情境、可見條件及欲觀察事件，列候選保留規準與失敗處理；結果欄維持待測。",
+          "why": "原文說模擬可縮小假設，但沒有提供可重現指標、門檻或具體環境。",
+          "example": "編輯示範：設計欄寫「相同起始情境；記每步動作與後續觀察；異常先保留待查」。評分定義待研究團隊確認，不能填模擬分數。",
+          "check": "比較條件與選取規準草案存在；不憑空判A勝B。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "transcript",
+              "startSeconds": 1831,
+              "endSeconds": 1886
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "把保留候選接到獨立實測計畫",
+          "action": "為模擬保留的少數候選另設真實測試欄；編輯補充：列所需模型、環境、硬體、授權、負責人與實測判準，缺任一前提就停在待做。",
+          "why": "來源明說縮小候選之後仍做real test，沒有主張模擬能替代全部實測。",
+          "example": "編輯示範：轉接表：候選待模擬決定／真實環境待取得／硬體與授權待確認／實測輸出待測。本練習不控制車輛或機器人。",
+          "check": "有獨立實測缺口及轉接條件；草表完成不代表候選已通過。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "transcript",
+              "startSeconds": 1862,
+              "endSeconds": 1886
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "schedule",
+          "title": "編輯補充：30分鐘草案安排",
+          "note": "時間為編輯建議，只計文件設計及紙上檢查；模型執行、實測與後續會議另計。",
+          "columns": [
+            "動作",
+            "保留成果"
+          ],
+          "rows": [
+            {
+              "label": "前5分鐘",
+              "cells": [
+                "定義任務與A/B",
+                "checkpoint空表"
+              ]
+            },
+            {
+              "label": "接著10分鐘",
+              "cells": [
+                "畫互動與比較條件",
+                "閉迴路草圖"
+              ]
+            },
+            {
+              "label": "再10分鐘",
+              "cells": [
+                "寫篩選與轉接",
+                "規準及缺口"
+              ]
+            },
+            {
+              "label": "最後5分鐘",
+              "cells": [
+                "核對未測狀態",
+                "實測待辦"
+              ]
+            }
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "本文編輯練習能否改善實際工作或模型表現",
+          "status": "unverified",
+          "explanation": "只編製設計草案，未執行本文實驗，未核外部研究、現行SDK或成效；原訪談經驗與技術說明不能代替本地驗證。",
+          "sourceIds": [
+            "transcript"
+          ],
+          "checkedAt": "2026-11-12"
+        }
+      ],
+      "pitfalls": [
+        "把policy翻成政策而誤讀為法規：本篇指決定動作的控制策略。",
+        "只有首幀生成影片對比：缺策略依回饋反覆選動作，就不是本篇比較。",
+        "模擬勝出直接稱可部署：保留真實測試與相關前提。",
+        "用展示影片或主觀好看補分數：先取得評估定義與資料，不造研究重現。"
+      ],
+      "practice": {
+        "title": "編輯補充：控制策略checkpoint怎麼選？先設計模擬篩選，再保留實測關卡練習",
+        "minutes": 30,
+        "prompt": "編輯示範：以虛構A/B checkpoint畫一個觀察與動作迴圈，寫相同情境比較計畫及模擬到實測的轉接。所有模型、輸出與硬體缺口如實標待取得或待測。",
+        "deliverable": "一份控制策略checkpoint比較草表，分列模擬篩選、候選轉接與真實測試缺口",
+        "checklist": [
+          "受測對象是控制策略checkpoint",
+          "世界模型回饋會進入下一次策略決定",
+          "比較條件、候選規準及未知分開",
+          "實測有獨立缺口，沒有假結果"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "編輯補充：比較草表",
+          "text": "編輯補充模板：任務＿＿／checkpoint與版本＿＿／世界模型及存取＿＿／初始觀察＿＿／動作與回傳觀察欄＿＿／比較事件與規準待確認＿＿／模擬紀錄待測＿＿／候選理由待測＿＿／真實測試環境、硬體、授權與負責人待確認＿＿。",
+          "sourceIds": [
+            "transcript"
+          ]
+        },
+        {
+          "title": "編輯觀點：模擬的角色要放對",
+          "text": "編輯觀點：模型與操作環境矩陣比較程式任務，首幀影片評估比較生成後續；本文則把策略當受測者、世界模型當互動環境。這個區分決定要留下逐步動作與回饋，而非只保存終點影片。",
+          "sourceIds": [
+            "transcript"
+          ]
+        },
+        {
+          "title": "編輯觀點：教學先練辨認環節",
+          "text": "編輯觀點：可請學生在紙上用箭頭辨認策略、動作、世界回饋與下一次決定，另圈出真實測試。能畫對關係只是理解檢查，不能據此宣稱機器人控制能力。",
+          "sourceIds": [
+            "transcript"
+          ]
+        }
+      ],
+      "publishedAt": "2026-11-12T10:38:11.831Z",
+      "overview": {
+        "kind": "infographic",
+        "image": "/assets/overviews/policy-checkpoint-world-model-screening-plan-desktop.webp",
+        "mobileImage": "/assets/overviews/policy-checkpoint-world-model-screening-plan-mobile.webp",
+        "cardImage": "/assets/overviews/policy-checkpoint-world-model-screening-plan-desktop.webp",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600,
+        "alt": "控制策略checkpoint怎麼選？先設計模擬篩選，再保留實測關卡：依本文核心關係整理的雙版資訊圖。",
+        "caption": "依來源方法製作的編輯整理；例子與操作安排為編輯設計，不代表成效保證。"
+      }
+    },
+    {
+      "id": "vulnerability-poc-evidence-vendor-exposure-card",
+      "title": "看到漏洞PoC先分證據：再查自身與供應商的受影響範圍",
+      "summary": "把漏洞概念、驗證主張、實際影響三層分開，再將文件中的版本與條件對到自己和供應商設備。本文只做虛構文件判讀，不下載或執行PoC，也不據此判定真實系統安全。",
+      "output": "一份含三層證據、AI來源獨立欄及自身／供應商待確認處的安全交辦卡",
+      "audience": "需要閱讀漏洞通知的資訊人員、管理者與資安素養教師",
+      "categoryId": "ai",
+      "topicIds": [
+        "workflow"
+      ],
+      "keywords": [],
+      "minutes": 30,
+      "level": "進階",
+      "contentType": "video_method",
+      "status": "ready",
+      "reviewedAt": "2026-11-12",
+      "coverLabel": "編輯整理",
+      "sourceCoverage": "依發布者英文逐字稿取材，既有全文審查涵蓋00:01–44:57；轉寫機制未確認，非本站本機ASR，未回聽或校播放器偏移。本篇回看06:52–14:25及27:48–31:09；引用保留完整發言，三層證據、業務情境與供應商範圍出自訪談。虛構報告甲乙、資產表、文件判讀及30分鐘排程為編輯補充。未查當集漏洞、現行CVE、供應商部署或實際成效。",
+      "sources": [
+        {
+          "id": "video",
+          "kind": "video",
+          "title": "Exploit Development, Agentic Vulnerability Discovery, and Fake PoCs",
+          "url": "https://www.youtube.com/watch?v=rrc0ec_r6ls",
+          "videoId": "rrc0ec_r6ls",
+          "channel": "Latent Space",
+          "note": "原集播放器；時間沿用既有逐字稿，未核播放器偏移。"
+        },
+        {
+          "id": "transcript",
+          "kind": "article",
+          "title": "Exploit Development, Agentic Vulnerability Discovery, and Fake PoCs｜發布者逐字稿",
+          "url": "https://share.transistor.fm/s/9a42098b/transcript",
+          "channel": "Latent Space",
+          "note": "發布者英文逐字稿；人工或自動轉寫機制未確認，未回聽。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "把漏洞與驗證、影響分欄",
+          "action": "閱讀已有報告，分別抄錄「缺陷是什麼」「文件驗證到什麼」「具體影響證據是什麼」；編輯補充：只用虛構報告，缺證據填未驗證，不作真假裁定。",
+          "why": "來源區分漏洞抽象概念與具體利用，指出驗證與實際影響有落差。",
+          "example": "編輯示範：虛構報告甲：描述版本X有缺陷，附件只寫「測試時當機」；填缺陷主張有、當機驗證主張有、其他影響未驗證，不寫能接管服務。",
+          "check": "每個結論有文件段落依據或未知；當機未被擴大為完整攻擊能力。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "transcript",
+              "startSeconds": 412,
+              "endSeconds": 640
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "把PoC能否工作與AI來源分開",
+          "action": "分別記文件是否主張PoC工作、證明哪種結果，以及是否被標為AI產生；只讀文件，不以作者身分或AI標籤判功能。",
+          "why": "受訪者將是否AI產生與是否工作作兩個分類軸，並提醒PoC可能只驗證當機。",
+          "example": "編輯示範：虛構報告乙：標示AI協助撰寫，沒有可核對結果；功能填未驗證、AI來源填文件自述。不因標示AI就判假，也不下載附件求證。",
+          "check": "兩欄獨立，未驗證不寫已證偽；只有文件陳述時註記「主張」。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "transcript",
+              "startSeconds": 1668,
+              "endSeconds": 1869
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "對照自己與供應商底層範圍",
+          "action": "列自己已持有的資產版本清單及供應商說明，對照報告受影響版本與條件；底層元件、設備版本或雲端部署未知，列交辦問題。",
+          "why": "來源提醒自家程式未用某語言，不代表供應商設備底層沒有使用。",
+          "example": "編輯示範：虛構服務甲自建版本與報告不符；設備乙底層版本未知；雲端服務丙僅供應商能確認。乙丙保持待確認，不由甲的本地演示推斷雲端暴露。",
+          "check": "自建、設備、雲端分開；有資產清單或說明依據，未知沒有填無影響。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "transcript",
+              "startSeconds": 808,
+              "endSeconds": 865
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "寫交辦卡並保留未決風險",
+          "action": "將已知條件、未知暴露範圍、文件連結與需詢問事項交給既有資安窗口；編輯補充：草案列負責角色及確認事項，不設定真實修補期限或自行測試。",
+          "why": "來源把技術影響放回自身情境判優先，也提醒漏洞驗證值得認真處理，不必等完整利用證據才重視。",
+          "example": "編輯示範：交辦草案：「設備乙請確認底層版本與供應商公告；功能證據只到文件主張當機；其他影響未驗證。」這是虛構交辦文字，未送出。",
+          "check": "卡片可區分已知、未驗證及待確認；沒有以缺完整exploit為理由延後既有公告處置。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "transcript",
+              "startSeconds": 440,
+              "endSeconds": 663
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "schedule",
+          "title": "編輯補充：30分鐘草案安排",
+          "note": "時間為編輯建議，只計文件設計及紙上檢查；模型執行、實測與後續會議另計。",
+          "columns": [
+            "動作",
+            "保留成果"
+          ],
+          "rows": [
+            {
+              "label": "前8分鐘",
+              "cells": [
+                "分報告甲乙的三層主張",
+                "證據卡"
+              ]
+            },
+            {
+              "label": "接著7分鐘",
+              "cells": [
+                "分PoC兩軸",
+                "獨立欄"
+              ]
+            },
+            {
+              "label": "再10分鐘",
+              "cells": [
+                "對虛構資產與供應商",
+                "暴露範圍待確認"
+              ]
+            },
+            {
+              "label": "最後5分鐘",
+              "cells": [
+                "寫交辦草案",
+                "問題與負責角色"
+              ]
+            }
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "本文編輯練習能否改善實際工作或模型表現",
+          "status": "unverified",
+          "explanation": "只編製設計草案，未執行本文實驗，未核外部研究、現行SDK或成效；原訪談經驗與技術說明不能代替本地驗證。",
+          "sourceIds": [
+            "transcript"
+          ],
+          "checkedAt": "2026-11-12"
+        }
+      ],
+      "pitfalls": [
+        "沒有可用PoC就判安全：缺功能證據只代表未知，不會消除漏洞主張。",
+        "AI寫的PoC就是假的：來源方式與功能證據必須分欄。",
+        "本地展示影響某版本就說雲端供應商暴露：供應商部署與條件另待確認。",
+        "把當集事件或比例當今日修補建議：本篇不判讀真實CVE現況、不提供通用法律責任結論。",
+        "為確認真假而下載執行附件或掃描：本練習停在文件證據與交辦。"
+      ],
+      "practice": {
+        "title": "編輯補充：看到漏洞PoC先分證據：再查自身與供應商的受影響範圍練習",
+        "minutes": 30,
+        "prompt": "編輯示範：僅用虛構報告甲乙：甲有版本X缺陷與當機主張，乙自述AI協助但無結果。對照虛構自建服務甲、底層未知設備乙、部署未知雲端丙，寫安全交辦草案。",
+        "deliverable": "一份含三層證據、AI來源獨立欄及自身／供應商待確認處的安全交辦卡",
+        "checklist": [
+          "漏洞、驗證、實際影響分欄",
+          "AI來源與能否工作分開",
+          "自身與供應商範圍不互相代推",
+          "未驗證不等於假或安全",
+          "沒有下載、執行、探測或真實交辦"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "編輯補充：安全交辦卡",
+          "text": "編輯補充模板：報告及段落＿＿／缺陷主張＿＿／驗證主張與證據＿＿／實際影響與限制＿＿／AI來源（未知可留未知）＿＿／受影響版本＿＿／自建資產比對＿＿／設備與雲端供應商待確認＿＿／既有資安窗口與詢問事項＿＿。",
+          "sourceIds": [
+            "transcript"
+          ]
+        },
+        {
+          "title": "編輯觀點：不要把未知壓成真假",
+          "text": "編輯觀點：三層證據搭配資產範圍，能讓「我還不知道什麼」變成具體問題。這不等於能自行決定修補優先，既有供應商公告與組織流程仍需由負責窗口處理。",
+          "sourceIds": [
+            "transcript"
+          ]
+        },
+        {
+          "title": "編輯觀點：教學練的是證據歸屬",
+          "text": "編輯觀點：可讓學生替報告甲乙標出哪一句支持哪個結論，再找出對雲端丙過度推論的句子。全程用虛構文件，不帶真實漏洞測試、攻擊步驟或學生設備探測。",
+          "sourceIds": [
+            "transcript"
+          ]
+        }
+      ],
+      "publishedAt": "2026-11-12T10:38:11.831Z",
+      "overview": {
+        "kind": "infographic",
+        "image": "/assets/overviews/vulnerability-poc-evidence-vendor-exposure-card-desktop.webp",
+        "mobileImage": "/assets/overviews/vulnerability-poc-evidence-vendor-exposure-card-mobile.webp",
+        "cardImage": "/assets/overviews/vulnerability-poc-evidence-vendor-exposure-card-desktop.webp",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600,
+        "alt": "看到漏洞PoC先分證據：再查自身與供應商的受影響範圍：依本文核心關係整理的雙版資訊圖。",
+        "caption": "依來源方法製作的編輯整理；例子與操作安排為編輯設計，不代表成效保證。"
+      }
+    },
+    {
+      "id": "known-landscape-budgeted-query-decision-audit",
+      "title": "代理把查詢額度花在哪？用全結果已知的小環境檢查逐輪決策",
+      "summary": "先準備全結果已知的有限選項，執行者只看目錄、每問一次才揭露該項結果；在固定查詢預算內留當時理由與回饋，結束後檢查與全域最佳的差距、早停及重複查詢。",
+      "output": "一份虛構有限環境答案表、逐輪查詢紀錄空表與全域最佳差距稽核設計",
+      "audience": "想檢查代理搜尋決策的開發者、教師與評估設計讀者",
+      "categoryId": "ai",
+      "topicIds": [
+        "workflow"
+      ],
+      "keywords": [],
+      "minutes": 35,
+      "level": "進階",
+      "contentType": "video_method",
+      "status": "ready",
+      "reviewedAt": "2026-11-12",
+      "coverLabel": "編輯整理",
+      "sourceCoverage": "依本機MLX Whisper large-v3-turbo英文ASR取材，既有全文審查涵蓋00:00–16:27.18，音訊長16:33.63，尾段約6.45秒未轉寫；未人工聽校。985.68秒後重複告別及空段疑似解碼異常，全部排除。回看01:30–04:13及12:38–14:05，主要操作引用94.06–249.30及763.22–845.86秒原ASR完整段。模糊專名、模型排行與不清語句不採。原片分子案例僅取有限預算與完整環境的評估關係；海報卡、分數、3次額度、差距算式及35分鐘安排均為編輯補充。未查論文、資料集或SDK，未執行代理或證實遷移成效。",
+      "sources": [
+        {
+          "id": "video",
+          "kind": "video",
+          "title": "⚡ An Eval for AI Scientists That Knows the Answer Key - Ian Quigley, Leash Bio",
+          "url": "https://www.youtube.com/watch?v=vhPCo-8K78U",
+          "videoId": "vhPCo-8K78U",
+          "channel": "Latent Space",
+          "note": "原集播放器；時間沿用既有逐字稿，未核播放器偏移。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "準備全結果已知的有限選項",
+          "action": "建立每個選項皆有固定結果的離線環境，由評估者保管完整答案；編輯補充：只用自製低風險虛構卡片，先寫目標與固定查詢額度。",
+          "why": "來源的環境事先完整量測，讓執行者在有限預算內找結果；不是只有部分樣本答案。",
+          "example": "編輯示範：六張虛構海報卡A–F，可見特徵為A藍短、B藍長、C綠短、D綠長、E橘短、F橘長；私有虛構吸引力分數依序2、5、4、9、3、7，目標找最高分，額度3次。分數不是人類受試結果。",
+          "check": "六項都有唯一固定答案；目標、額度與可見目錄明確，完整分數不給執行者。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "video",
+              "startSeconds": 94.06,
+              "endSeconds": 111.54
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "分開目錄與逐次揭露規則",
+          "action": "只給執行者目錄、目標與額度；每次先寫選哪張、當時理由，再由評估者只揭露該張結果並扣額度，下一輪才可使用新回饋。編輯補充：同一張重問也扣一次，事先寫明。",
+          "why": "來源讓代理用有限預算測假設，而非一次讀完答案後挑最大值。",
+          "example": "編輯示範：主持人遮住六張分數；執行者先提交一張代號與理由才翻那一格。紙上練習用另一人保管答案；若自己已看全答案，就只能演示流程，不能算盲測。",
+          "check": "揭露順序、每次扣額與可見資訊寫清楚；完整答案沒有混進代理輸入。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "video",
+              "startSeconds": 144.62,
+              "endSeconds": 180.12
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "保留選擇前理由與逐輪軌跡",
+          "action": "每輪保存當時可見資料、理由、選項、收到結果、剩餘額度與下一步；編輯補充：可在紙上設計空表，未執行欄位填待測，不事後美化理由。",
+          "why": "來源觀察不同搜尋策略與預算花法，並用可讀假設理解選擇。",
+          "example": "編輯示範：空表：第1輪／先前已知無／理由待測／代號待測／回饋待揭露／剩餘額度待測。不要先填「選D得到9」冒充軌跡。",
+          "check": "理由時間先於回饋，軌跡能還原每輪資訊；未跑沒有觀察結果。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "video",
+              "startSeconds": 144.62,
+              "endSeconds": 180.12
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "用完整答案查差距與行為",
+          "action": "執行者在額度耗盡或自行停止後先凍結最後選擇，再由評估者開答案查全域最佳，逐輪核對早停、重複查詢、理由與選擇一致性；編輯補充：虛構分數以最佳分減最後分計差距。",
+          "why": "來源掌握完整環境，才能比較未選到的最佳，並看早停、重測及假設與行動不符。",
+          "example": "編輯示範：全域最佳D為9；若假設最後選B為5，差距示範是9−5＝4，這是算式示範而非本次觀察。早停欄記用了幾次與理由，不把未用完預算直接判錯。",
+          "check": "差距、額度用法與理由一致性各有欄；未執行寫待測，不宣稱搜尋改善。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "video",
+              "startSeconds": 208.16,
+              "endSeconds": 249.3
+            }
+          ]
+        },
+        {
+          "id": "step-5",
+          "title": "限定比較環境與結論",
+          "action": "保存同一份目錄、私有答案及揭露規則供後續不同軌跡比較；編輯補充：比較時固定預算與可見資訊，已讀答案的人不當未看過的受測者，環境外選項不給虛構回饋。",
+          "why": "預量測環境可重複執行，但可選範圍受當初量測集合限制，並不涵蓋新環境。",
+          "example": "編輯示範：未來換一位未看答案的執行者仍用同一3次額度；若問卡G就記超出環境並依事先規則退回，不臨時編分數。任何模型輸出仍待測。",
+          "check": "版本、額度與答案可回查；結論只限這組虛構環境，不推科研或生物能力。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "video",
+              "startSeconds": 763.22,
+              "endSeconds": 845.86
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "schedule",
+          "title": "編輯補充：35分鐘草案安排",
+          "note": "時間為編輯建議，只計文件設計及紙上檢查；模型執行、實測與後續會議另計。",
+          "columns": [
+            "動作",
+            "保留成果"
+          ],
+          "rows": [
+            {
+              "label": "前8分鐘",
+              "cells": [
+                "寫目錄、答案與額度",
+                "私有答案及可見卡"
+              ]
+            },
+            {
+              "label": "接著7分鐘",
+              "cells": [
+                "訂揭露與重問規則",
+                "主持人規則"
+              ]
+            },
+            {
+              "label": "再10分鐘",
+              "cells": [
+                "設逐輪空表與停止欄",
+                "理由與回饋空表"
+              ]
+            },
+            {
+              "label": "最後10分鐘",
+              "cells": [
+                "核對差距算式與限制",
+                "稽核設計，不算實測"
+              ]
+            }
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "本文編輯練習能否改善實際工作或模型表現",
+          "status": "unverified",
+          "explanation": "只編製設計草案，未執行本文實驗，未核外部研究、現行SDK或成效；原訪談經驗與技術說明不能代替本地驗證。",
+          "sourceIds": [
+            "video"
+          ],
+          "checkedAt": "2026-11-12"
+        }
+      ],
+      "pitfalls": [
+        "執行者先看到完整答案：只能作流程演示，不能評估搜尋決策。",
+        "只測最後答對沒有預算軌跡：會失去逐次回饋下如何選擇的核心。",
+        "重複問同卡不扣額：若規則如此，不能再用重問消耗有限預算作本次觀察；本文事先規定每問均扣。",
+        "剩額就停一律判錯：早停要連當時資訊與理由看，不發明通用最適停止門檻。",
+        "把虛構分數視為真實喜好或科學能力：只限自製環境，不接生物濕實驗、醫療或改造。"
+      ],
+      "practice": {
+        "title": "編輯補充：代理把查詢額度花在哪？用全結果已知的小環境檢查逐輪決策練習",
+        "minutes": 35,
+        "prompt": "編輯示範：照六張虛構海報卡設計「目錄可見、答案私有、最多3次」練習，先完成空表與主持規則。若未找另一位未看答案的人或未執行代理，所有軌跡與實測差距填待測；本文不要求已取得結果。",
+        "deliverable": "一份虛構有限環境答案表、逐輪查詢紀錄空表與全域最佳差距稽核設計",
+        "checklist": [
+          "完整結果由評估者持有，執行者只見目錄",
+          "每輪理由先於揭露且額度可核對",
+          "最後選擇先凍結再對完整最佳",
+          "早停、重問與理由一致性分欄",
+          "設計完成與實測待做分開"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "編輯補充：查詢與稽核空表",
+          "text": "編輯補充模板：環境版本＿＿／可見目錄＿＿／私有答案保管者＿＿／固定額度＿＿／重問扣額規則＿＿；逐輪：輪次＿＿／此前可見回饋＿＿／選前理由＿＿／代號＿＿／本次回饋＿＿／剩額＿＿／停止理由＿＿；結束：凍結選項＿＿／最佳結果＿＿／差距＿＿／重問次數＿＿／理由行動不一致處＿＿。未跑欄位填待測。",
+          "sourceIds": [
+            "video"
+          ]
+        },
+        {
+          "title": "編輯觀點：比藏答案多了序列決策",
+          "text": "編輯觀點：保留測試案例是在看評審對新材料的判斷；本文的執行者會依每輪回饋改變下一步，評估者則知道本可選但沒選的全部結果。固定預算和逐次揭露不可省，否則退回一般藏答案測驗。",
+          "sourceIds": [
+            "video"
+          ]
+        },
+        {
+          "title": "編輯觀點：教學練當時理由",
+          "text": "編輯觀點：可由教師主持卡片，學生提交選前理由後才得回饋，再比較理由如何隨資訊改變。評量記錄是否忠實，不以一次碰巧選到最高分推論策略優越；看過答案者可當主持人。",
+          "sourceIds": [
+            "video"
+          ]
+        }
+      ],
+      "publishedAt": "2026-11-12T10:38:11.831Z",
+      "overview": {
+        "kind": "infographic",
+        "image": "/assets/overviews/known-landscape-budgeted-query-decision-audit-desktop.webp",
+        "mobileImage": "/assets/overviews/known-landscape-budgeted-query-decision-audit-mobile.webp",
+        "cardImage": "/assets/overviews/known-landscape-budgeted-query-decision-audit-desktop.webp",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600,
+        "alt": "代理把查詢額度花在哪？用全結果已知的小環境檢查逐輪決策：依本文核心關係整理的雙版資訊圖。",
+        "caption": "依來源方法製作的編輯整理；例子與操作安排為編輯設計，不代表成效保證。"
+      }
+    },
+    {
+      "id": "scarce-token-project-opportunity-cost-map",
+      "title": "Token不夠分時，先比較同一批資源投向哪個專案",
+      "status": "ready",
+      "summary": "每項AI工作都說自己值得做，有限資源卻不能同時滿足。訪談提出的問題是：同一份token預算要給誰、為什麼，以及投入內部工具與核心產品的替代用途。本文把這個問題整理成專案用途比較草案；不把用量排行當價值，也不發明ROIT公式。",
+      "output": "一張列出兩個專案、替代用途、放棄項目與分配理由的資源取捨草案",
+      "audience": "已有核定資源範圍，需要比較兩個低風險AI工作候選的教師或小團隊",
+      "categoryId": "ai",
+      "topicIds": [
+        "workflow"
+      ],
+      "keywords": [
+        "跨專案取捨",
+        "機會成本"
+      ],
+      "minutes": 20,
+      "level": "入門",
+      "contentType": "article_method",
+      "reviewedAt": "2026-11-12",
+      "coverLabel": "編輯整理",
+      "sourceCoverage": "依 No Priors 英文本機 MLX Whisper large-v3-turbo 自動轉寫整理，非發布者人工字幕，未回聽完整音訊或逐句聽校。全段轉寫0.00–2367.12秒，音訊約2369.567秒，尾端約2.447秒未覆蓋；未見大於5秒相鄰空檔也不代表沒有漏轉。本篇取材1374.74–1437.06秒；專名與斷句可能誤辨。表格、中文示範、人工判準與20分鐘準備排程皆為編輯補充，不是受訪者實作教程，亦未驗證成效。",
+      "sources": [
+        {
+          "id": "source",
+          "kind": "article",
+          "title": "Chasing Trillion-Dollar Companies, Founder Ambition, Token Budgets, and Regulatory Capture with Sarah & Elad",
+          "url": "https://traffic.megaphone.fm/PDP3190127956.mp3",
+          "channel": "No Priors",
+          "note": "原紀錄MP3與發行者RSS enclosure精確相符；引用本機ASR時間，供人工對照，不承諾播放器跳轉。不是已核實的現行產品文件。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "先固定要比較的同一份資源",
+          "action": "先寫已知且已核定的有限token資源範圍，再列出至少兩個不能同時全做的專案用途。編輯補充：不清楚額度或授權就標待確認，只做紙上比較，不為測量新增呼叫。",
+          "why": "來源先問一定的token預算給誰及為何；比較必須面對同一個限制。",
+          "example": "編輯示範：虛構團隊已有本輪可用的同一份額度，A要重做現有活動通知排版，B要整理主要教材的公開文本索引；這輪無法兩者全做，先不填猜測耗量。",
+          "check": "至少列A、B及共同資源限制；未知額度沒有偽填數字。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 1374.74,
+              "endSeconds": 1393.32
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "對照專案真正交付與替代用途",
+          "action": "把每個候選會交付的產物、交付給誰、目前已有什麼替代做法並排列出。接著問：同一份token如果不投在它，還能投到哪個主要工作？編輯補充：用現有材料描述，不估收益百分比。",
+          "why": "來源比較重造低支出SaaS與把同樣token投入核心產品，不是單看某工具便宜與否。",
+          "example": "編輯示範：A交付一版通知排版，目前已有可用範本；B交付教材篇目與公開出處索引，目前只有散落清單。假例裡B是本輪主要交付，並非宣稱教材工作永遠優先。",
+          "check": "兩個候選都有具體產物與既有替代方式；同一資源的另一用途寫得出來。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 1403.54,
+              "endSeconds": 1415.98
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "把選擇與放棄並排寫清楚",
+          "action": "編輯補充：對A寫「若先做A，本輪B哪個產物延後」，再對B做相反比較；旁邊列證據、未知處與目前不能比較的原因。不要把職稱、使用量或「應該有ROI」當成分配理由。",
+          "why": "來源要求比較相同token的不同去處；本步把隱藏的替代用途明寫出來，表格與雙向句型是編輯設計。",
+          "example": "編輯示範：選A會延後教材索引草案；選B則暫用通知舊範本。若不知道舊範本是否仍可用，就把「需確認能否沿用」列未知，不能直接判B勝出。",
+          "check": "A與B各有一項具體放棄或延後的產物，未知假設明列，不只有抽象重要性。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 1403.54,
+              "endSeconds": 1415.98
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "寫分配理由，保留待確認條件",
+          "action": "編輯補充：依目前證據提出這一輪先給哪個專案及原因，寫出哪個假設改變就要重比；無法判斷就保留待確認。需要負責人核定時，只交草案，不把建議寫成已取得額度。",
+          "why": "來源最後追問哪些專案應得到較多預算；回看條件及草案欄為本文補充，並非來源已有實驗。",
+          "example": "編輯示範：若主要交付確實是教材索引且通知範本可沿用，草案先選B；若範本失效、通知成為本輪必交，就重比。這是虛構取捨，尚未核定、未耗token。",
+          "check": "理由明說選一項犧牲另一項的什麼，附待確認或重比條件，沒有宣稱提高收益。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 1415.98,
+              "endSeconds": 1437.06
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "schedule",
+          "title": "編輯補充：20分鐘準備草案",
+          "note": "時間為編輯建議，只完成紙上比較或資料設計，不代表已執行、已獲核定或已建成代理。",
+          "columns": [
+            "動作",
+            "留下什麼"
+          ],
+          "rows": [
+            {
+              "label": "0–5分鐘",
+              "cells": [
+                "列共同資源與A、B候選",
+                "同一限制"
+              ]
+            },
+            {
+              "label": "5–12分鐘",
+              "cells": [
+                "並排產物、替代方式與雙向放棄項",
+                "機會成本表"
+              ]
+            },
+            {
+              "label": "12–20分鐘",
+              "cells": [
+                "檢查未知並寫分配理由",
+                "建議及重比條件"
+              ]
+            }
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "此整理能改善資源分配或代理資料理解",
+          "status": "unverified",
+          "explanation": "來源是訪談觀點與公司內部設計自述，未提供本篇紙上方法的比較實驗；編輯未實測，完成表格不等於成效或系統正確。",
+          "sourceIds": [
+            "source"
+          ],
+          "checkedAt": "2026-11-12"
+        }
+      ],
+      "pitfalls": [
+        "不要把比較改成每月耗用記帳；用量只是條件，本文要回答同一資源為何放A而暫緩B。",
+        "不要用猜測收益除以token製造ROIT分數；訪談沒有提供可操作的公式或數字門檻。",
+        "不要以獲配token多寡評價人的能力或重要性；比較對象是這一輪的專案用途。",
+        "不知道候選是否可替代，就留下問題，不為完成表格額外購買或呼叫服務。"
+      ],
+      "practice": {
+        "title": "編輯補充：用虛構材料完成一張草案",
+        "minutes": 20,
+        "prompt": "編輯補充：只用下列虛構情境及已有紙筆，依四步填一張表；未知處寫待確認，不呼叫付費模型、不連外部系統、不使用私人資料。比較同一份有限資源投向A或B會放棄什麼。",
+        "deliverable": "一張列出兩個專案、替代用途、放棄項目與分配理由的資源取捨草案",
+        "checklist": [
+          "至少列A、B及共同資源限制；未知額度沒有偽填數字。",
+          "兩個候選都有具體產物與既有替代方式；同一資源的另一用途寫得出來。",
+          "A與B各有一項具體放棄或延後的產物，未知假設明列，不只有抽象重要性。",
+          "理由明說選一項犧牲另一項的什麼，附待確認或重比條件，沒有宣稱提高收益。"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "編輯補充：可複製模板",
+          "text": "編輯補充：共同核定資源＿＿／候選A產物與對象＿＿／A現有替代做法＿＿／候選B產物與對象＿＿／B現有替代做法＿＿／選A使B延後什麼＿＿／選B使A延後什麼＿＿／支持證據＿＿／未知假設＿＿／本輪建議與理由＿＿／核定狀態＿＿／何時需重比＿＿。編輯示範：A通知排版可沿用範本、B教材索引是主要交付，因此先建議B；兩個前提都只是上述虛構情境。",
+          "sourceIds": [
+            "source"
+          ]
+        },
+        {
+          "title": "編輯觀點：回看自己的判斷",
+          "text": "編輯觀點：比起問「用了多少」，這張表逼自己回答「同一份資源還能做什麼」。它適合把取捨講清楚，不能替代實際工作成果；若另一專案的產物寫不出來，現在的判斷可能只是偏好。",
+          "sourceIds": [
+            "source"
+          ]
+        },
+        {
+          "title": "編輯觀點：教學轉用",
+          "text": "編輯觀點：教師可用兩個虛構社團工作，讓學生練習說出選擇背後放棄的產物，而非算金錢報酬。這是編輯設計的機會成本討論，不需要學生帳號、付費額度或使用量排行。",
+          "sourceIds": [
+            "source"
+          ]
+        }
+      ],
+      "publishedAt": "2026-11-12T10:38:11.831Z",
+      "overview": {
+        "kind": "infographic",
+        "image": "/assets/overviews/scarce-token-project-opportunity-cost-map-desktop.webp",
+        "mobileImage": "/assets/overviews/scarce-token-project-opportunity-cost-map-mobile.webp",
+        "cardImage": "/assets/overviews/scarce-token-project-opportunity-cost-map-desktop.webp",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600,
+        "alt": "Token不夠分時，先比較同一批資源投向哪個專案：依本文核心關係整理的雙版資訊圖。",
+        "caption": "依來源方法製作的編輯整理；例子與操作安排為編輯設計，不代表成效保證。"
+      }
+    },
+    {
+      "id": "cross-system-entity-relationship-evidence-map",
+      "title": "讓AI先分清資料指的是誰：跨表實體與關係證據表",
+      "status": "ready",
+      "summary": "兩張表都有「閱讀分享」，就能當成同一場活動嗎？受訪者談資料本體：讓模型看懂業務，知道不同系統是否指向同一實體，以及屬性如何連到關聯紀錄。本文只把概念轉成虛構活動與場地的紙上設計草案，沒有建立代理或導入內部Atlas產品。",
+      "output": "一張含跨表判同、判不同、未知衝突與場地關係證據的資料設計草案",
+      "audience": "準備整理跨表活動資料、希望在交給AI前先釐清身份與關係的教師或小團隊",
+      "categoryId": "ai",
+      "topicIds": [
+        "workflow"
+      ],
+      "keywords": [
+        "資料實體",
+        "身份對照",
+        "關係證據"
+      ],
+      "minutes": 20,
+      "level": "入門",
+      "contentType": "article_method",
+      "reviewedAt": "2026-11-12",
+      "coverLabel": "編輯整理",
+      "sourceCoverage": "依 No Priors 英文本機 MLX Whisper large-v3-turbo 自動轉寫整理，非發布者人工字幕，未回聽完整音訊或逐句聽校。全段轉寫0.00–2562.40秒，音訊約2564.232秒，尾端約1.832秒未覆蓋；未見大於5秒相鄰空檔也不代表沒有漏轉。本篇取材1300.48–1344.00秒；專名與斷句可能誤辨。表格、中文示範、人工判準與20分鐘準備排程皆為編輯補充，不是受訪者實作教程，亦未驗證成效。",
+      "sources": [
+        {
+          "id": "source",
+          "kind": "article",
+          "title": "Re-Founding Incumbents for the AI Era with Sequence Holdings Co-Founder and CEO Michael Lee",
+          "url": "https://traffic.megaphone.fm/PDP3274846886.mp3",
+          "channel": "No Priors",
+          "note": "原紀錄MP3與發行者RSS enclosure精確相符；引用本機ASR時間，供人工對照，不承諾播放器跳轉。不是已核實的現行產品文件。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "先列實體種類與各表原始欄位",
+          "action": "先選兩份虛構活動資料，把「活動」和「場地」分開列為實體種類；保留各表代號、名稱與屬性。編輯補充：做副本、標來源列位置，不直接合併或覆寫原表。",
+          "why": "來源先以資料本體描述業務，讓模型能理解業務；本文用兩種低風險實體示範這個概念。",
+          "example": "編輯示範：虛構表甲A1：活動K7、閱讀分享、11月20日、場地R2；虛構表乙B4：活動EV9、閱讀分享、11月20日、場地RM8。另有甲場地R2與乙場地RM8的獨立紀錄。這些不是任何學校真實資料。",
+          "check": "活動與場地分開，兩側原代號與列位置仍在，沒有只留一欄名稱。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 1300.48,
+              "endSeconds": 1316.7
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "逐組說明是不是同一實體",
+          "action": "對照兩側活動候選，寫明支持判同或判不同的證據。編輯補充：不能只靠同名；本練習另給虛構主辦方對照單C1明列K7對應EV9。同名但日期不同且無對照證據者留待確認，不由AI猜合。",
+          "why": "來源明問代理如何知道不同系統中的紀錄是同一實體；具體證據表與保留未知是編輯補充。",
+          "example": "編輯示範：C1明列K7＝EV9，故A1與B4可依C1判同；乙B5同叫閱讀分享卻是11月27日的EV10，C2另列為第二場，因此與K7判不同。沒有C2時僅標日期衝突待查，不自行斷定。",
+          "check": "每個判同或判不同能指出證據位置；沒有依據的配對明標未知。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 1317.72,
+              "endSeconds": 1323.64
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "把屬性與關係分開連回證據",
+          "action": "記錄活動日期等屬性，再用「活動→使用→場地」表示關係，兩端都指向已定義的實體。編輯補充：為關係另列來源行及場地對照證據，不把同一活動與同一場地混成一次判斷。",
+          "why": "來源區分實體屬性及其如何連到關聯紀錄；本步的圖、欄位與活動場地轉用皆為編輯設計。",
+          "example": "編輯示範：虛構場地對照單C3明列R2＝RM8＝東館一樓；A1的場地欄指R2、B4指RM8，所以兩表都支持「K7/EV9→使用→同一場地」。場地名稱相同但缺C3時，只留候選關係。",
+          "check": "日期屬性與使用場地的關係分欄，每條關係都有兩端代號及兩側原資料位置。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 1323.94,
+              "endSeconds": 1333.82
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "回查衝突，輸出有證據的草案",
+          "action": "編輯補充：逐條回查對照單與兩表原列；判同有衝突、關係缺端點或證據不足就退回待確認。輸出確定對照與未知清單分開的草案，留給有權維護資料的人確認；不自動寫回系統。",
+          "why": "來源以ground truth作為代理建立的基礎，但未提供驗證程序；人工回查及停止規則是本文補充。",
+          "example": "編輯示範：若B4場地改成RM9卻沒有對照單，活動仍可依C1判同，但場地關係標衝突待查，不為了保持一張漂亮的圖改寫B4。",
+          "check": "身份與每條關係可各自回查；未知未強行合併，沒有宣稱已建成或驗證代理。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 1334.14,
+              "endSeconds": 1344
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "schedule",
+          "title": "編輯補充：20分鐘準備草案",
+          "note": "時間為編輯建議，只完成紙上比較或資料設計，不代表已執行、已獲核定或已建成代理。",
+          "columns": [
+            "動作",
+            "留下什麼"
+          ],
+          "rows": [
+            {
+              "label": "0–5分鐘",
+              "cells": [
+                "抄虛構兩表與對照單，分活動與場地",
+                "原列與實體清單"
+              ]
+            },
+            {
+              "label": "5–12分鐘",
+              "cells": [
+                "判同、判不同，寫屬性和關係證據",
+                "跨表對照草案"
+              ]
+            },
+            {
+              "label": "12–20分鐘",
+              "cells": [
+                "用衝突例回查，分確定與未知",
+                "設計草案及待查清單"
+              ]
+            }
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "此整理能改善資源分配或代理資料理解",
+          "status": "unverified",
+          "explanation": "來源是訪談觀點與公司內部設計自述，未提供本篇紙上方法的比較實驗；編輯未實測，完成表格不等於成效或系統正確。",
+          "sourceIds": [
+            "source"
+          ],
+          "checkedAt": "2026-11-12"
+        }
+      ],
+      "pitfalls": [
+        "不要因名稱一樣就合併；同名活動可能是不同場次，日期衝突也需要原始證據釐清。",
+        "不要把活動身份判同當成場地關係也正確；每個端點和關係都需分別回查。",
+        "不要只畫漂亮資料流程圖而刪掉原代號與證據列；那會失去判同依據。",
+        "本文沒有schema、去重演算法或內部Atlas安裝步驟；不要照此連接真實系統或使用客戶、學生、金融資料。"
+      ],
+      "practice": {
+        "title": "編輯補充：用虛構材料完成一張草案",
+        "minutes": 20,
+        "prompt": "編輯補充：只用下列虛構情境及已有紙筆，依四步填一張表；未知處寫待確認，不呼叫付費模型、不連外部系統、不使用私人資料。同時保留一組可判同、一組同名但不同的紀錄，並為關係列原始證據。",
+        "deliverable": "一張含跨表判同、判不同、未知衝突與場地關係證據的資料設計草案",
+        "checklist": [
+          "活動與場地分開，兩側原代號與列位置仍在，沒有只留一欄名稱。",
+          "每個判同或判不同能指出證據位置；沒有依據的配對明標未知。",
+          "日期屬性與使用場地的關係分欄，每條關係都有兩端代號及兩側原資料位置。",
+          "身份與每條關係可各自回查；未知未強行合併，沒有宣稱已建成或驗證代理。"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "編輯補充：可複製模板",
+          "text": "編輯補充：實體種類＿＿／甲表列位置與代號＿＿／乙表列位置與代號＿＿／判同、判不同或未知＿＿／支持與衝突證據位置＿＿／屬性名稱與兩側值＿＿／關係：起點代號＿＿→關係名稱＿＿→終點代號＿＿／關係在兩側原列的證據＿＿／缺漏與待確認者＿＿。編輯示範：活動甲A1/K7與乙B4/EV9依虛構C1判同，場地R2與RM8另依C3判同；兩表各自的場地欄才支持使用關係。",
+          "sourceIds": [
+            "source"
+          ]
+        },
+        {
+          "title": "編輯觀點：回看自己的判斷",
+          "text": "編輯觀點：實體和關係分開寫，才能看見「知道是誰」與「知道和誰有關」其實是兩個判斷。一個活動可確定是同一場，使用哪個場地卻仍未知；保留這個不整齊的狀態，比補一條沒有依據的線更能說明目前資料。這不是代理正確率的證明。",
+          "sourceIds": [
+            "source"
+          ]
+        },
+        {
+          "title": "編輯觀點：教學轉用",
+          "text": "編輯觀點：可讓學生用自製的虛構活動卡、場地卡與對照單練習資料識讀，一組證據足夠、一組同名不同場、一組留未知。這是編輯設計的紙上活動，不蒐集學生資料、不需要登入產品，也不能當作真實系統的合併授權。",
+          "sourceIds": [
+            "source"
+          ]
+        }
+      ],
+      "publishedAt": "2026-11-12T10:38:11.831Z",
+      "overview": {
+        "kind": "infographic",
+        "image": "/assets/overviews/cross-system-entity-relationship-evidence-map-desktop.webp",
+        "mobileImage": "/assets/overviews/cross-system-entity-relationship-evidence-map-mobile.webp",
+        "cardImage": "/assets/overviews/cross-system-entity-relationship-evidence-map-desktop.webp",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600,
+        "alt": "讓AI先分清資料指的是誰：跨表實體與關係證據表：依本文核心關係整理的雙版資訊圖。",
+        "caption": "依來源方法製作的編輯整理；例子與操作安排為編輯設計，不代表成效保證。"
+      }
+    },
+    {
+      "id": "read-author-method-failure-revision-chain",
+      "title": "讀方法時別只抄結論：追作者怎麼試、怎麼失敗、怎麼改",
+      "status": "ready",
+      "summary": "讀到一套方法，很容易只留下幾句重點，卻不清楚作者為何使用它、在哪裡碰壁、後來找誰或換了什麼做法。訪談分享把閱讀當成跟人學習，本文整理為作者經驗鏈閱讀卡；未寫的經歷保持未知，不把相信作者當作方法已有效。",
+      "output": "一張含原文位置、作者使用與修正脈絡及讀者連結的閱讀卡",
+      "audience": "正在讀方法型文章或書段，希望理解方法形成脈絡的教師、學生與一般讀者",
+      "categoryId": "reading",
+      "topicIds": [
+        "review",
+        "strategies"
+      ],
+      "keywords": [
+        "作者經驗",
+        "修正脈絡",
+        "閱讀提問"
+      ],
+      "minutes": 20,
+      "level": "入門",
+      "contentType": "article_method",
+      "reviewedAt": "2026-11-12",
+      "coverLabel": "編輯整理",
+      "sourceCoverage": "依中文本機MLX Whisper large-v3-turbo自動轉寫整理，非人工字幕，未逐句原音聽校。全文ASR 0.00–2362.18秒已審讀，首0–29.98秒有無關宣傳辨識幻覺，不取材，約30秒起進入節目介紹；2299.58秒後推廣亦不取材。本篇取2014.42–2053.58秒的閱讀提問，不保證其他段落無誤辨。閱讀卡、虛構段落與20分鐘練習為編輯補充，未讀訪談提到的原書，不把作者經驗視為成效證據。",
+      "sources": [
+        {
+          "id": "source",
+          "kind": "article",
+          "title": "瓦基：小孩不是不想學，是不想被你決定「學什麼？」自主感是學習動機的一切 ft.瓦基｜親師關鍵字 EP.110",
+          "url": "https://open.firstory.me/story/cmsstg9d1000a01zld75m0zi5",
+          "channel": "親師關鍵字",
+          "note": "原Notion同Firstory story，官方RSS enclosure解碼目標與原音訊相符，引用本機ASR時碼供核對，未逐句聽校。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "先找作者為何使用這套方法",
+          "action": "選一段自己有權閱讀、包含方法與經驗的原文，找作者為何談這件事、為何用這個方法。編輯補充：記段落位置與作者原述；沒交代的動機留未知，不用AI補小傳。",
+          "why": "來源說看書會問作者為何說這件事、為何講或使用這套方法。",
+          "example": "編輯示範：自製虛構原文：「我總在讀書會忘記問題，所以改用一張提問卡。最初把所有問題擠在一起，討論還是混亂；我請同伴看過後，改成一張只留一個問題。」原文第1句支持「怕忘記問題」，不支持其他心理動機。",
+          "check": "卡上有原文位置及作者明說的用途；猜測與不知道沒有寫成作者事實。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 2014.42,
+              "endSeconds": 2026.3
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "沿著使用、碰壁與改法往下追",
+          "action": "找作者用了之後哪些有用、哪些沒用；失敗時怎麼克服、找誰求助、改用什麼做法。編輯補充：把使用→遇到的問題→求助或改法連起來，原文沒寫的箭頭標未知，不能因結果看似合理補造成功。",
+          "why": "來源依序問方法使用的成功與失敗、如何克服、找誰和尋找什麼新方法。",
+          "example": "編輯示範：從虛構原文連出「所有問題擠一張→討論仍亂→請同伴看→一張一問」。作者沒有交代後來討論是否改善，因此結果欄寫未知，不填成功率或已有效。",
+          "check": "每個節點能回到原文；缺的結果或求助過程標未知，不為畫完整鏈條補故事。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 2026.3,
+              "endSeconds": 2037.32
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "把作者觀點和自己的連結分開寫",
+          "action": "回原文找作者如何看待這件事、為何有這個想法，再寫這個人與自己的觀點有何連結。編輯補充：先寫作者有依據的原述，再寫自己想追問或試想的事情；推測另標，不把認同當成方法驗證。",
+          "why": "來源接著問作者看世界的方式、為何有這種思想，並在乎作者和讀者觀點的連結。",
+          "example": "編輯示範：虛構段落只呈現提問卡改法，未明說整套教育觀，因此作者觀點留待查；我的連結寫「我也常把多個問題擠一頁，想知道一問一卡是否適合我的課堂」，只是一個待試問題。",
+          "check": "作者原述、未知及自己的連結各可辨認，沒有宣稱這套方法對自己已有效。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 2037.32,
+              "endSeconds": 2053.58
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "schedule",
+          "title": "編輯補充：20分鐘一段閱讀卡",
+          "note": "只完成自製短段閱讀卡，不要求讀完整本書或已試用方法。",
+          "columns": [
+            "動作",
+            "留下什麼"
+          ],
+          "rows": [
+            {
+              "label": "前5分鐘",
+              "cells": [
+                "讀自製原文，找用途",
+                "原述與位置"
+              ]
+            },
+            {
+              "label": "中間8分鐘",
+              "cells": [
+                "追使用、問題、求助與改法",
+                "經驗鏈與未知"
+              ]
+            },
+            {
+              "label": "最後7分鐘",
+              "cells": [
+                "分作者觀點與自己的連結",
+                "閱讀卡及待問問題"
+              ]
+            }
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "追作者使用與修正脈絡能增進閱讀理解",
+          "status": "unverified",
+          "explanation": "來源是閱讀經驗分享，未提供本篇閱讀卡的成效比較；編輯未在課堂實測，作者經驗也不代表方法普遍有效。",
+          "sourceIds": [
+            "source"
+          ],
+          "checkedAt": "2026-11-12"
+        }
+      ],
+      "pitfalls": [
+        "不要靠作者名氣補寫動機、失敗或世界觀；原文沒說就留未知。",
+        "一次經驗或自述成功不是方法對所有人有效的證據。",
+        "不是把故事寫得完整，而是保留哪些連線有依據、哪些尚缺。",
+        "自己的認同、問題與想試做法另標編輯或讀者想法，不回填成作者說法。"
+      ],
+      "practice": {
+        "title": "編輯補充：只讀一段自製故事",
+        "minutes": 20,
+        "prompt": "編輯補充：只用步驟1的完整虛構短段，標第1句用途，連出使用、問題、求助及改法，再把未交代的結果與作者觀點留未知，最後寫自己的待問問題。不找作者私生活、不新增AI呼叫、不冒稱已讀原書或已試方法。",
+        "deliverable": "一張含原文位置、作者使用與修正脈絡及讀者連結的閱讀卡",
+        "checklist": [
+          "卡上有原文位置及作者明說的用途；猜測與不知道沒有寫成作者事實。",
+          "每個節點能回到原文；缺的結果或求助過程標未知，不為畫完整鏈條補故事。",
+          "作者原述、未知及自己的連結各可辨認，沒有宣稱這套方法對自己已有效。"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "編輯補充：可複製模板",
+          "text": "編輯補充：書文名稱與段落位置＿＿／作者為何使用（原述或未知）＿＿／怎麼使用＿＿／遇到什麼問題＿＿／找誰或怎麼改＿＿／結果與原文依據＿＿／作者明說的觀點＿＿／我的連結或追問＿＿／尚缺哪段原文＿＿。編輯示範：自製故事寫到請同伴看過後，改成一張一問，但沒寫成效；結果欄保持未知。",
+          "sourceIds": [
+            "source"
+          ]
+        },
+        {
+          "title": "編輯觀點：回看自己的判斷",
+          "text": "編輯觀點：只抄結論，容易把一套方法當成沒有來歷的公式。追作者碰過什麼壁，能看見方法是在什麼條件下改出來的；仍要接受原文可能沒有答案，也不能以故事動人代替查證。",
+          "sourceIds": [
+            "source"
+          ]
+        },
+        {
+          "title": "編輯觀點：教學轉用",
+          "text": "編輯觀點：教師可自製一段含嘗試和修正的短文，請學生把有原文支持的箭頭和未知分開，再寫自己的連結。這是編輯設計的閱讀活動，不要求學生揭露家庭經驗或對作者作心理診斷。",
+          "sourceIds": [
+            "source"
+          ]
+        }
+      ],
+      "publishedAt": "2026-11-12T10:38:11.831Z",
+      "overview": {
+        "kind": "infographic",
+        "image": "/assets/overviews/read-author-method-failure-revision-chain-desktop.webp",
+        "mobileImage": "/assets/overviews/read-author-method-failure-revision-chain-mobile.webp",
+        "cardImage": "/assets/overviews/read-author-method-failure-revision-chain-desktop.webp",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600,
+        "alt": "讀方法時別只抄結論：追作者怎麼試、怎麼失敗、怎麼改：依本文核心關係整理的雙版資訊圖。",
+        "caption": "依來源方法製作的編輯整理；例子與操作安排為編輯設計，不代表成效保證。"
+      }
     }
   ],
   "demo": {
