@@ -213929,6 +213929,807 @@
         "alt": "單一頻道權限夠嗎？把代理借用身分與跨頻道轉送畫成資料路徑：依本文核心關係整理的雙版資訊圖。",
         "caption": "依來源方法製作的編輯整理；例子與操作安排為編輯設計，不代表成效保證。"
       }
+    },
+    {
+      "id": "screenshot-full-field-context-gap-check",
+      "title": "畫面有看到，不代表資料齊了：核對截短欄位與連結去向",
+      "status": "ready",
+      "summary": "截圖能顯示連結文字，卻未必顯示連結去向；日曆標題也可能只剩一半。來源指出視覺呈現與完整文字的差別，本文以虛構雙表練習逐欄比對，留下已知、缺口及來處，不把看得見當成資訊完整。",
+      "output": "一張畫面可見值、同筆完整欄位、缺口與待查事項的輸入核對卡",
+      "audience": "需要整理畫面資訊、交辦資料或教學生核對截圖的教師與工作者",
+      "categoryId": "ai",
+      "topicIds": [
+        "workflow"
+      ],
+      "keywords": [
+        "圈畫面缺口",
+        "對同筆欄位",
+        "標補值來處",
+        "交草案待查"
+      ],
+      "minutes": 20,
+      "level": "入門",
+      "contentType": "article_method",
+      "reviewedAt": "2026-11-12",
+      "coverLabel": "四步紙上練習",
+      "sourceCoverage": "依發布者 Latent Space 頁面 Transcript；根線已讀可取得全文，本文僅取00:10:40起與00:11:40起關於文字表示、連結去向及截短標題的段落。未逐句原音聽校，也未驗證產品現況；引文時間只用頁面現有時標，沒有標示的端點留null。雙表、同筆核對、最少欄位、停止條件與20分鐘為編輯補充。",
+      "sources": [
+        {
+          "id": "source",
+          "title": "2026-10-01 🎙 Why Dwarkesh is Wrong about Computer Use + How OpenAI shipped its Jev competitor in 1 Week",
+          "url": "https://www.latent.space/p/devday-2026",
+          "kind": "article",
+          "channel": "Latent Space",
+          "note": "發布者頁面 Transcript；本文只取畫面與文字欄位差異，不提供產品現況與快捷鍵教學。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "圈出畫面缺口",
+          "action": "編輯補充：固定一個任務，列出必需欄位，再抄畫面實際可見值。截短文字照抄，沒顯示的值寫未知，不展開猜測。",
+          "why": "來源以截短的日曆標題與看不出目的地的連結，說明畫面不必然包含任務所需資訊。",
+          "example": "編輯示範：任務是草擬E17研習資訊卡。畫面顯示「閱讀教學工作…」、14:00與「報名」；完整標題、日期及目的網址先留空。",
+          "check": "列出任務、記錄代號、必需欄位與三個缺口。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 700,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "對照同筆完整欄位",
+          "action": "來源區分畫面與可讀文字表示。編輯補充：從題目提供的完整欄位表，先比對記錄代號，再逐欄填入；代號不同就不混用。",
+          "why": "完整文字可以補足畫面呈現省略的值，但仍須確認它屬於同一筆資料。",
+          "example": "編輯示範：只採代號E17的完整表：「閱讀教學工作坊」、11月18日、14:00、https://example.org/events/e17。E18不是本次資料。",
+          "check": "每個補值都有E17完整表的欄位名稱；沒有挪用E18。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 640,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "分開可見與補得的值",
+          "action": "來源指出截圖不含連結去向、標題可能截短。編輯補充：核對卡分成「畫面可見／同筆完整欄位／來處／仍未知」，不要把補得的內容寫成截圖已顯示。",
+          "why": "保留資料來處，能讓下一位知道哪些資訊來自另一份文字材料。",
+          "example": "編輯示範：網址欄寫「畫面未知；完整表為example.org的E17示意網址」；主辦人兩表都無資料，仍未知。",
+          "check": "完整標題與網址都有來處；主辦人未知，沒有依網址推斷。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 700,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "交出必要資料與待查單",
+          "action": "編輯補充：只交付本次資訊卡所需欄位，刪掉無關備註；未知另列待查。本練習不開網址、不報名，只寫可供後續核對的草案。",
+          "why": "補足資訊與完成外部操作是不同狀態，紙上核對不能冒稱已報名。",
+          "example": "編輯示範：交付E17標題、日期、時間、示意網址及「主辦人待查」；完整表的內部座位備註不放入資訊卡。",
+          "check": "產物標示為草案，保留一項待查，沒有宣稱開啟連結或送出報名。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "schedule",
+          "title": "編輯補充：20 分鐘紙上練習",
+          "note": "每步5分鐘，總計20分鐘；為編輯安排，非來源承諾。",
+          "columns": [
+            "動作",
+            "留下的證據"
+          ],
+          "rows": [
+            {
+              "label": "0–5 分鐘",
+              "cells": [
+                "圈出畫面缺口",
+                "列出任務、記錄代號、必需欄位與三個缺口。"
+              ]
+            },
+            {
+              "label": "5–10 分鐘",
+              "cells": [
+                "對照同筆完整欄位",
+                "每個補值都有E17完整表的欄位名稱；沒有挪用E18。"
+              ]
+            },
+            {
+              "label": "10–15 分鐘",
+              "cells": [
+                "分開可見與補得的值",
+                "完整標題與網址都有來處；主辦人未知，沒有依網址推斷。"
+              ]
+            },
+            {
+              "label": "15–20 分鐘",
+              "cells": [
+                "交出必要資料與待查單",
+                "產物標示為草案，保留一項待查，沒有宣稱開啟連結或送出報名。"
+              ]
+            }
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "本文練習是否改善學習、交接或產品體驗",
+          "status": "unverified",
+          "explanation": "只核對來源與編輯設計，未做讀者試作、教學實驗、產品測試或跨團隊交接；完成紙上表格不代表成效成立。",
+          "sourceIds": [
+            "source"
+          ],
+          "checkedAt": "2026-11-12"
+        }
+      ],
+      "pitfalls": [
+        "把「報名」兩字當成目的網址：保留未知，另查有權閱讀的完整欄位。",
+        "看到相近標題就拿另一筆日期填入：先核對同筆代號。",
+        "為了完整而貼入所有欄位：只保留任務需要的值。"
+      ],
+      "practice": {
+        "title": "編輯補充：用完整虛構材料完成一張卡",
+        "minutes": 20,
+        "prompt": "編輯補充：只使用下列已提供的虛構材料，不需帳號、外部資料或聯絡他人。\n編輯示範：任務：草擬E17研習資訊卡，必需欄位是完整標題、日期、時間、報名網址、主辦人。畫面轉寫：記錄E17／「閱讀教學工作…」／14:00／連結文字「報名」。有權閱讀的完整表：E17／閱讀教學工作坊／11月18日／14:00／https://example.org/events/e17／內部備註：座位待排；E18／數位閱讀分享／11月19日／09:00／https://example.org/events/e18。兩表都沒列主辦人。所有活動與網址均為虛構示意，不需開啟。\n練習要求：填寫：任務＿＿／同筆代號＿＿／必要欄位＿＿／畫面可見值＿＿／完整表補值＿＿／補值來處＿＿／仍未知＿＿／不需交付的內容＿＿／草案狀態＿＿。",
+        "deliverable": "一張畫面可見值、同筆完整欄位、缺口與待查事項的輸入核對卡",
+        "checklist": [
+          "E17與E18沒有混用。",
+          "截短標題與網址的補值來處可見。",
+          "主辦人保留未知，產物只稱資訊卡草案。"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "編輯補充：可複製模板",
+          "text": "填寫：任務＿＿／同筆代號＿＿／必要欄位＿＿／畫面可見值＿＿／完整表補值＿＿／補值來處＿＿／仍未知＿＿／不需交付的內容＿＿／草案狀態＿＿。\n編輯示範：以下各步的填答僅示範整理方式，不是來源個案或已測結果。",
+          "sourceIds": []
+        },
+        {
+          "title": "編輯觀點：為何值得留下這張卡",
+          "text": "編輯觀點：這張卡的重點是指出畫面省略了什麼，以及補值從哪裡來。資訊多不等於資訊對，尤其同一頁有多筆相似資料時。",
+          "sourceIds": [
+            "source"
+          ]
+        },
+        {
+          "title": "編輯觀點：教學轉用與限制",
+          "text": "編輯觀點：可給學生一張截短的活動列表與完整表，請他們用不同欄位記錄看見與補得的值；不要拿真實學生資料當練習材料。",
+          "sourceIds": []
+        }
+      ],
+      "publishedAt": "2026-11-12T11:25:26.360Z",
+      "overview": {
+        "kind": "infographic",
+        "image": "/assets/overviews/screenshot-full-field-context-gap-check-desktop.webp",
+        "mobileImage": "/assets/overviews/screenshot-full-field-context-gap-check-mobile.webp",
+        "cardImage": "/assets/overviews/screenshot-full-field-context-gap-check-desktop.webp",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600,
+        "alt": "畫面有看到，不代表資料齊了：核對截短欄位與連結去向：依本文核心關係整理的雙版資訊圖。",
+        "caption": "依來源方法製作的編輯整理；例子與操作安排為編輯設計，不代表成效保證。"
+      }
+    },
+    {
+      "id": "learning-emotion-object-idea-bridge",
+      "title": "學生在意的是分數，還是問題本身？把課堂關注接回一個想懂的概念",
+      "status": "ready",
+      "summary": "學生說「我會不會答錯」，關注的可能是作答結果；這和想理解題目中的概念並不相同。來源主張讓學科技能服務有意義的問題，本文以同一份閱讀活動練習：先辨識原話的關注對象，再把本人想懂的問題接回比較證據與概念回看。",
+      "output": "關注對象、學生問題、學科技能與概念回看卡",
+      "audience": "想調整同一課堂活動中技能與概念連結的教師；不是心理評估工具",
+      "categoryId": "reading",
+      "topicIds": [
+        "teaching",
+        "learning"
+      ],
+      "keywords": [
+        "記原話對象",
+        "問同題想懂",
+        "技能接概念",
+        "回看與追問"
+      ],
+      "minutes": 20,
+      "level": "入門",
+      "contentType": "article_method",
+      "reviewedAt": "2026-11-12",
+      "coverLabel": "四步紙上練習",
+      "sourceCoverage": "依 Huberman Lab 同一canonical單集發布者完整Transcript；根線已讀可取得全文。發布者明示仍在人工審查中，可能有錯；本文取251、254、257、263行的關注對象與學科技能討論，未逐句原音聽校。來源沒有時間碼，所有起訖為null。不採神經、醫療或學習成效主張。問句、虛構閱讀材料、欄位、回看與20分鐘都是編輯補充。",
+      "sources": [
+        {
+          "id": "source",
+          "title": "2026-11-12 🎙 Essentials: How Emotions & Social Factors Impact Learning | Dr. Mary Helen Immordino-Yang",
+          "url": "https://www.hubermanlab.com/episode/essentials-how-emotions-and-social-factors-impact-learning-mary-helen-immordino-yang",
+          "kind": "article",
+          "channel": "Huberman Lab",
+          "note": "發布者註明逐字稿仍在人工審查中，可能有錯。沒有時間碼；本文不採醫療、神經機制或成效主張。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "記原話，辨識關注對象",
+          "action": "編輯補充：固定同一個閱讀活動，只記本人願意分享的原話。標出此刻談的是分數、自我評價或概念；不能從一句話推斷心理狀態，也不批評在意分數。",
+          "why": "來源區分對結果的關注與對想法本身的關注；練習要先看兩者有沒有被混在一起。",
+          "example": "編輯示範：虛構學生在比較兩則公告時說「我怕答錯會扣分」；卡上寫「這句談作答後果；尚不知道他想理解什麼」。",
+          "check": "有原話、關注對象與未知，沒有貼上焦慮或不愛學的標籤。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "在同一活動問想懂什麼",
+          "action": "邀本人提出有意義、想了解的問題。編輯補充：本題使用已提供的虛構學生第二句，不換成教師喜歡的題目；若沒有回答，可先留待談，不強迫揭露私事。",
+          "why": "來源不是只叫學生選有趣題目，而是讓學科技能成為理解世界的工具。",
+          "example": "編輯示範：學生第二句是「同一件事，為什麼兩張公告讓人有不同感覺？」保留這句，仍用原先兩則公告。",
+          "check": "卡上保留本人問題，材料與活動沒有被換掉。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "讓學科技能回答這個問題",
+          "action": "來源提議用寫作、數學、論證等技能探索在意的問題。編輯補充：只挑一項本課技能，寫它如何幫忙理解概念，並用題內材料做一次小嘗試。",
+          "why": "技能不只是拿分項目，也需說明它對眼前問題提供什麼理解；這不等於取消基礎練習。",
+          "example": "編輯示範：以「比較用詞並引證」對照A的「禁止」與B的「請」，寫「兩者都要求不追逐，但語氣不同」；概念是措辭與語氣的關係。",
+          "check": "有本人問題、所需技能、兩處原文及一個可說清的概念，而非只寫興趣。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "回看概念與下一個問題",
+          "action": "編輯補充：做完只記這次能說明的概念與仍想問的問題。分數關注可仍存在，不要求立刻消失；不把興奮、一次答對或作品完成當成方法有效。",
+          "why": "回看要回到想理解的概念，才不會又只剩完成量或自我評價。",
+          "example": "編輯示範：回看寫「同一規定可有不同語氣；只看兩句，還不知道真實讀者會怎麼感受。下一問：哪些詞還會改變語氣？」",
+          "check": "說出概念、材料限制及下一問，沒有宣稱學生動機已改善。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": null,
+              "endSeconds": null
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "schedule",
+          "title": "編輯補充：20 分鐘紙上練習",
+          "note": "每步5分鐘，總計20分鐘；為編輯安排，非來源承諾。",
+          "columns": [
+            "動作",
+            "留下的證據"
+          ],
+          "rows": [
+            {
+              "label": "0–5 分鐘",
+              "cells": [
+                "記原話，辨識關注對象",
+                "有原話、關注對象與未知，沒有貼上焦慮或不愛學的標籤。"
+              ]
+            },
+            {
+              "label": "5–10 分鐘",
+              "cells": [
+                "在同一活動問想懂什麼",
+                "卡上保留本人問題，材料與活動沒有被換掉。"
+              ]
+            },
+            {
+              "label": "10–15 分鐘",
+              "cells": [
+                "讓學科技能回答這個問題",
+                "有本人問題、所需技能、兩處原文及一個可說清的概念，而非只寫興趣。"
+              ]
+            },
+            {
+              "label": "15–20 分鐘",
+              "cells": [
+                "回看概念與下一個問題",
+                "說出概念、材料限制及下一問，沒有宣稱學生動機已改善。"
+              ]
+            }
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "本文練習是否改善學習、交接或產品體驗",
+          "status": "unverified",
+          "explanation": "只核對來源與編輯設計，未做讀者試作、教學實驗、產品測試或跨團隊交接；完成紙上表格不代表成效成立。",
+          "sourceIds": [
+            "source"
+          ],
+          "checkedAt": "2026-11-12"
+        }
+      ],
+      "pitfalls": [
+        "把在意成績當錯誤：先承認原話，不評斷人格。",
+        "只換成熱門題目，卻沒有技能與概念：保留同一活動，說清技能如何回答本人問題。",
+        "教師替學生決定感受：記學生原話，不把假設當觀察。"
+      ],
+      "practice": {
+        "title": "編輯補充：用完整虛構材料完成一張卡",
+        "minutes": 20,
+        "prompt": "編輯補充：只使用下列已提供的虛構材料，不需帳號、外部資料或聯絡他人。\n編輯示範：固定活動：比較兩則自製走廊公告。A「禁止在走廊追逐。」B「請慢步通過走廊，讓大家安全。」虛構學生第一句「我怕答錯會扣分」；教師問這兩則公告有什麼想弄懂的，學生第二句「同一件事，為什麼兩張公告讓人有不同感覺？」本課可用技能：比較用詞並引用文字證據。材料只有兩則公告，沒有真實讀者的感受資料。\n練習要求：填寫：固定活動＿＿／原話與關注對象＿＿／不能推斷的事＿＿／本人想懂的問題＿＿／本課技能＿＿／如何幫忙理解＿＿／兩處文字證據＿＿／概念小結＿＿／仍未知與下一問＿＿。",
+        "deliverable": "關注對象、學生問題、學科技能與概念回看卡",
+        "checklist": [
+          "保留同一活動及本人問題，沒有換成一般興趣選題。",
+          "技能連到概念並實際引用兩則公告。",
+          "回看談概念與未知，不用分數或情緒推斷成效。"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "編輯補充：可複製模板",
+          "text": "填寫：固定活動＿＿／原話與關注對象＿＿／不能推斷的事＿＿／本人想懂的問題＿＿／本課技能＿＿／如何幫忙理解＿＿／兩處文字證據＿＿／概念小結＿＿／仍未知與下一問＿＿。\n編輯示範：以下各步的填答僅示範整理方式，不是來源個案或已測結果。",
+          "sourceIds": []
+        },
+        {
+          "title": "編輯觀點：為何值得留下這張卡",
+          "text": "編輯觀點：重要的不是勸學生不要在意分數，而是讓同一活動還容得下「我究竟想懂什麼」。這需要課程設計，不能靠一句鼓勵就宣稱改變。",
+          "sourceIds": [
+            "source"
+          ]
+        },
+        {
+          "title": "編輯觀點：教學轉用與限制",
+          "text": "編輯觀點：共備時可對照原本的技能要求與學生問題，檢查有沒有概念橋接；不要求學生公開私密情緒，也不將這張卡用作心理分類。",
+          "sourceIds": []
+        }
+      ],
+      "publishedAt": "2026-11-12T11:25:26.360Z",
+      "overview": {
+        "kind": "infographic",
+        "image": "/assets/overviews/learning-emotion-object-idea-bridge-desktop.webp",
+        "mobileImage": "/assets/overviews/learning-emotion-object-idea-bridge-mobile.webp",
+        "cardImage": "/assets/overviews/learning-emotion-object-idea-bridge-desktop.webp",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600,
+        "alt": "學生在意的是分數，還是問題本身？把課堂關注接回一個想懂的概念：依本文核心關係整理的雙版資訊圖。",
+        "caption": "依來源方法製作的編輯整理；例子與操作安排為編輯設計，不代表成效保證。"
+      }
+    },
+    {
+      "id": "retired-experiment-lessons-recipient-handoff",
+      "title": "實驗可以停，學到的別跟著消失：把結案經驗交給下一組人",
+      "status": "ready",
+      "summary": "一個實驗結束後，原型可能不再繼續，經驗卻能交給正在探索相近問題的人。來源談團隊反思、分享及素材重用；本文限定已結案實驗，以虛構紀錄練習寫出學到什麼、誰可能接得上，以及哪些東西仍需接收者判斷。",
+      "output": "已結束實驗的經驗、限制、接收對象與可重用素材交接草案",
+      "audience": "需要整理已結束試驗、跨團隊移交經驗的專案負責人與教師",
+      "categoryId": "ai",
+      "topicIds": [
+        "workflow"
+      ],
+      "keywords": [
+        "定已結束案",
+        "拆經驗限制",
+        "找接收問題",
+        "附素材前提"
+      ],
+      "minutes": 20,
+      "level": "入門",
+      "contentType": "article_method",
+      "reviewedAt": "2026-11-12",
+      "coverLabel": "四步紙上練習",
+      "sourceCoverage": "依原Spotify單集對應的官方RSS音檔之本機MLX英文ASR；根線已讀全文，未逐句原音聽校。本文取796.28–856.42秒的結案反思、分享及重用討論，端點核對原ASR segments；不採產品版本、制度現況或效能說法。虛構記錄、欄位、接收對象配對、停止條件與20分鐘為編輯補充。",
+      "sources": [
+        {
+          "id": "source",
+          "title": "Gemini 4 Changed How Google Builds Products | Jaclyn Konzelmann",
+          "url": "https://podcasters.spotify.com/pod/show/peter-yang42/episodes/Gemini-4-Changed-How-Google-Builds-Products--Jaclyn-Konzelmann-e3rct0a",
+          "kind": "article",
+          "channel": "Behind the Craft／Peter Yang",
+          "note": "原 Spotify 單集與官方 RSS enclosure 已有比對紀錄；本機 MLX ASR 未逐句聽校，產品名稱與現況不採。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "固定一個已結束實驗",
+          "action": "編輯補充：先記原問題、結束狀態與可讀紀錄。已結束不自動等於失敗，也不為保留原型而延長實驗；本題只用提供的紙上資料。",
+          "why": "來源強調留下學到的事，不把實驗結束直接視為失敗。",
+          "example": "編輯示範：「午間借閱提醒試驗」已結案，不再運作；留下兩次文字走查與一份欄位草稿，沒有真實借閱成效資料。",
+          "check": "卡上有結案狀態、原問題與紀錄清單，沒有續跑或刪除原型。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 796.28,
+              "endSeconds": 814.66
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "拆開經驗與未證明的事",
+          "action": "來源提出團隊回看學到了什麼。編輯補充：每項經驗連到紀錄，另列限制；不把原型、推測及可轉移的經驗混為一談。",
+          "why": "有紀錄的限制也值得交接，但不能把紙上走查寫成正式成效。",
+          "example": "編輯示範：紀錄顯示兩次都看見「還書日期欄缺漏」；可交接「先檢查日期欄」。但提醒是否提高歸還率未知。",
+          "check": "至少一項經驗附紀錄，另有一項未證明主張及限制。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 814.66,
+              "endSeconds": 824.02
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "為經驗找接收問題",
+          "action": "來源提到向團隊分享，並連結以不同角度探索相近領域的人。編輯補充：從題內兩個虛構團隊挑一個，寫希望對方判斷的問題；本練習只列待邀，不發訊息。",
+          "why": "交接有具體接收問題，才不只是把心得存入資料夾。",
+          "example": "編輯示範：選正在整理器材歸還欄位的乙組，詢問「你們的歸還日期是否也需先確認？」丙組只改海報配色，暫不列接收人。",
+          "check": "有接收對象、相近問題與待討論問句；沒有宣稱對方已同意。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 824.02,
+              "endSeconds": 847.56
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "附可重用素材與使用限制",
+          "action": "來源指出有時基礎設施或程式仍可重用。編輯補充：本題只交接無個資的欄位草稿，列出適用前提與接收者待判斷事項，不假定複製就適用。",
+          "why": "經驗轉移不等於原型照搬，素材本身的限制需一起走。",
+          "example": "編輯示範：附「物件代號／歸還日期／狀態」草稿；註明未接正式系統、未試器材流程，請乙組自行判斷是否適用。",
+          "check": "交接草案含經驗、接收問題、素材、限制與未同意狀態。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 847.56,
+              "endSeconds": 856.42
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "schedule",
+          "title": "編輯補充：20 分鐘紙上練習",
+          "note": "每步5分鐘，總計20分鐘；為編輯安排，非來源承諾。",
+          "columns": [
+            "動作",
+            "留下的證據"
+          ],
+          "rows": [
+            {
+              "label": "0–5 分鐘",
+              "cells": [
+                "固定一個已結束實驗",
+                "卡上有結案狀態、原問題與紀錄清單，沒有續跑或刪除原型。"
+              ]
+            },
+            {
+              "label": "5–10 分鐘",
+              "cells": [
+                "拆開經驗與未證明的事",
+                "至少一項經驗附紀錄，另有一項未證明主張及限制。"
+              ]
+            },
+            {
+              "label": "10–15 分鐘",
+              "cells": [
+                "為經驗找接收問題",
+                "有接收對象、相近問題與待討論問句；沒有宣稱對方已同意。"
+              ]
+            },
+            {
+              "label": "15–20 分鐘",
+              "cells": [
+                "附可重用素材與使用限制",
+                "交接草案含經驗、接收問題、素材、限制與未同意狀態。"
+              ]
+            }
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "本文練習是否改善學習、交接或產品體驗",
+          "status": "unverified",
+          "explanation": "只核對來源與編輯設計，未做讀者試作、教學實驗、產品測試或跨團隊交接；完成紙上表格不代表成效成立。",
+          "sourceIds": [
+            "source"
+          ],
+          "checkedAt": "2026-11-12"
+        }
+      ],
+      "pitfalls": [
+        "把結束直接寫成失敗：保留已知狀態與未知原因。",
+        "只留下「下次加油」：補上紀錄、具體經驗與接收問題。",
+        "貼上草稿就稱重用成功：請接收者判斷前提，維持未測狀態。"
+      ],
+      "practice": {
+        "title": "編輯補充：用完整虛構材料完成一張卡",
+        "minutes": 20,
+        "prompt": "編輯補充：只使用下列已提供的虛構材料，不需帳號、外部資料或聯絡他人。\n編輯示範：已結束實驗：午間借閱提醒試驗；原問題是如何在紙上整理提醒資料。結案狀態：不再運作，原因未記錄。紀錄R1：第一次文字走查看到3筆示意資料中有1筆未填還書日期；R2：第二次走查仍出現缺日期問題。沒有真實使用、歸還率或使用者回饋資料。素材M1：自製無個資欄位草稿「物件代號／歸還日期／狀態」，未接正式系統。虛構乙組正在整理器材歸還欄位；虛構丙組正在改閱讀海報配色。兩組都還沒收到邀請。\n練習要求：填寫：實驗與結案狀態＿＿／原問題＿＿／紀錄清單＿＿／經驗與依據＿＿／未證明的事＿＿／接收團隊及相近問題＿＿／待討論問句＿＿／素材與前提＿＿／限制與尚待同意＿＿。",
+        "deliverable": "已結束實驗的經驗、限制、接收對象與可重用素材交接草案",
+        "checklist": [
+          "明確是已結束實驗，沒有替停止原因補故事。",
+          "至少一項經驗可回到R1或R2，歸還率仍未知。",
+          "有乙組接收問題及M1限制，只是交接草案。"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "編輯補充：可複製模板",
+          "text": "填寫：實驗與結案狀態＿＿／原問題＿＿／紀錄清單＿＿／經驗與依據＿＿／未證明的事＿＿／接收團隊及相近問題＿＿／待討論問句＿＿／素材與前提＿＿／限制與尚待同意＿＿。\n編輯示範：以下各步的填答僅示範整理方式，不是來源個案或已測結果。",
+          "sourceIds": []
+        },
+        {
+          "title": "編輯觀點：為何值得留下這張卡",
+          "text": "編輯觀點：結案時最容易一起消失的是「為什麼這樣做」與「哪裡不能照搬」。把經驗對上下一組的問題，比保留一個沒人理解的原型更有交接價值，但仍需接收者判斷。",
+          "sourceIds": [
+            "source"
+          ]
+        },
+        {
+          "title": "編輯觀點：教學轉用與限制",
+          "text": "編輯觀點：可用已結束的虛構班級活動，讓學生分清原型、經驗與可重用素材；若改用真實專案，須先有分享權限並去除個資。",
+          "sourceIds": []
+        }
+      ],
+      "publishedAt": "2026-11-12T11:25:26.360Z",
+      "overview": {
+        "kind": "infographic",
+        "image": "/assets/overviews/retired-experiment-lessons-recipient-handoff-desktop.webp",
+        "mobileImage": "/assets/overviews/retired-experiment-lessons-recipient-handoff-mobile.webp",
+        "cardImage": "/assets/overviews/retired-experiment-lessons-recipient-handoff-desktop.webp",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600,
+        "alt": "實驗可以停，學到的別跟著消失：把結案經驗交給下一組人：依本文核心關係整理的雙版資訊圖。",
+        "caption": "依來源方法製作的編輯整理；例子與操作安排為編輯設計，不代表成效保證。"
+      }
+    },
+    {
+      "id": "same-product-enjoyed-toil-interaction-map",
+      "title": "同一個產品，有些想親自用、有些想交出去：先畫互動去留圖",
+      "status": "ready",
+      "summary": "同一個產品中，一個人可能想親自創作、學習或看朋友成果，卻想免去某段整理工作。來源以個人體驗說明這種差別；本文以虛構作品平台練習按同一人的表達畫出互動去留圖，而不是只按能否規則化決定自動化。",
+      "output": "同產品的親自參與、可代辦與保留體驗對照圖",
+      "audience": "想檢查同一使用者哪些體驗應保留、哪些負擔可代辦的產品設計者與教師",
+      "categoryId": "ai",
+      "topicIds": [
+        "workflow"
+      ],
+      "keywords": [
+        "列同人動作",
+        "依本人去留",
+        "只代辦繁瑣",
+        "核保留體驗"
+      ],
+      "minutes": 20,
+      "level": "入門",
+      "contentType": "article_method",
+      "reviewedAt": "2026-11-12",
+      "coverLabel": "四步紙上練習",
+      "sourceCoverage": "依原Spotify單集官方RSS音檔之本機MLX英文ASR；根線已讀全文，未逐句原音聽校。本文取1199.34–1367.20秒中想親自參與與想免去繁瑣操作的對照；引用端點核對原ASR segments。產品名、版本、GPS修補結果與現行功能均不採。虛構平台、本人偏好、代辦入口、確認點與20分鐘為編輯補充；未訪談真實使用者。",
+      "sources": [
+        {
+          "id": "source",
+          "title": "Gemini 4 Changed How Google Builds Products | Jaclyn Konzelmann",
+          "url": "https://podcasters.spotify.com/pod/show/peter-yang42/episodes/Gemini-4-Changed-How-Google-Builds-Products--Jaclyn-Konzelmann-e3rct0a",
+          "kind": "article",
+          "channel": "Behind the Craft／Peter Yang",
+          "note": "原 Spotify 單集與官方 RSS enclosure 已有比對紀錄；本機 MLX ASR 未逐句聽校，產品名稱與現況不採。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "固定同一人與同一產品",
+          "action": "來源追問為什麼使用者想進入產品。編輯補充：本題固定虛構小安與作品平台，按順序列動作，不把整個產品一口氣交出去。",
+          "why": "一個產品可以同時包含想參與與想免去的部分，分動作才能看出差異。",
+          "example": "編輯示範：小安在同一平台選照片、寫心得、填重複標籤、預覽、看朋友作品；不把看作品換成另一個服務。",
+          "check": "清單所有動作都屬於同一人與同一產品。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 1199.34,
+              "endSeconds": 1240.18
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "照本人表達標去留",
+          "action": "來源提到創作、學習、娛樂等可能想親自參與的事。編輯補充：逐段引用題內小安的話，標「想親自做／想免去／未表態」，不以動作簡單與否替他決定。",
+          "why": "可以自動做不代表本人想放棄；這張圖以想保留的體驗為判準。",
+          "example": "編輯示範：小安想親自選照片與寫心得；想免去重複標籤；喜歡看朋友作品。預覽未表態，先留待問。",
+          "check": "每個去留判斷都有本人原話；預覽沒有擅自判為代辦。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 1206.68,
+              "endSeconds": 1263.9
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "只畫繁瑣段代辦構想",
+          "action": "來源以同產品中繁瑣操作與仍想看的內容作對照。編輯補充：只為已表態想免去的動作寫紙上代辦入口，列輸入與交回點；不連服務、不上傳或送出。",
+          "why": "去除負擔應保留本人想要的體驗，而非用更快完成整體取代參與。",
+          "example": "編輯示範：構想為「用小安提供的標籤草稿填入重複標籤，再交回確認」；選照片、心得與朋友頁維持本人參與。",
+          "check": "代辦範圍只有重複標籤，輸入及交回確認點清楚。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 1306.64,
+              "endSeconds": 1355.86
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "並排核對負擔與體驗",
+          "action": "編輯補充：在同一圖上比較「免去什麼」與「保留什麼」，未知列待訪談。確認沒有因省事抹掉創作或社交；紙上方案不等於可用功能。",
+          "why": "來源最後同時問如何免去繁瑣工作，以及如何讓人多做想投入的事。",
+          "example": "編輯示範：免去重複填標籤；保留選照、心得與朋友作品；預覽列待問。註明尚未訪談、未實作、未測使用感受。",
+          "check": "有雙欄對照、未知偏好與未測狀態，沒有把全流程自動化當成功。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 1355.86,
+              "endSeconds": 1367.2
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "schedule",
+          "title": "編輯補充：20 分鐘紙上練習",
+          "note": "每步5分鐘，總計20分鐘；為編輯安排，非來源承諾。",
+          "columns": [
+            "動作",
+            "留下的證據"
+          ],
+          "rows": [
+            {
+              "label": "0–5 分鐘",
+              "cells": [
+                "固定同一人與同一產品",
+                "清單所有動作都屬於同一人與同一產品。"
+              ]
+            },
+            {
+              "label": "5–10 分鐘",
+              "cells": [
+                "照本人表達標去留",
+                "每個去留判斷都有本人原話；預覽沒有擅自判為代辦。"
+              ]
+            },
+            {
+              "label": "10–15 分鐘",
+              "cells": [
+                "只畫繁瑣段代辦構想",
+                "代辦範圍只有重複標籤，輸入及交回確認點清楚。"
+              ]
+            },
+            {
+              "label": "15–20 分鐘",
+              "cells": [
+                "並排核對負擔與體驗",
+                "有雙欄對照、未知偏好與未測狀態，沒有把全流程自動化當成功。"
+              ]
+            }
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "本文練習是否改善學習、交接或產品體驗",
+          "status": "unverified",
+          "explanation": "只核對來源與編輯設計，未做讀者試作、教學實驗、產品測試或跨團隊交接；完成紙上表格不代表成效成立。",
+          "sourceIds": [
+            "source"
+          ],
+          "checkedAt": "2026-11-12"
+        }
+      ],
+      "pitfalls": [
+        "因為能寫規則就全部代辦：先看本人是否想參與。",
+        "用設計者喜好代表所有人：保留原話和未表態。",
+        "代辦一段後拿走整個介面：核對想保留的內容是否仍可親自參與。"
+      ],
+      "practice": {
+        "title": "編輯補充：用完整虛構材料完成一張卡",
+        "minutes": 20,
+        "prompt": "編輯補充：只使用下列已提供的虛構材料，不需帳號、外部資料或聯絡他人。\n編輯示範：虛構同產品「作品小徑」中的同一人小安。動作依序：選照片→寫心得→填重複標籤→預覽→看朋友作品。題內本人說法：「選哪張照片、怎麼寫心得，我喜歡自己決定。每次重填相同標籤很煩，我願意交給代辦，但送出前想自己確認。我也喜歡看朋友的新作品。」小安沒說是否想保留預覽。可提供的資料只有他自製的標籤草稿「自然／觀察」，沒有帳號、照片檔或真實平台。\n練習要求：填寫：同一人與產品＿＿／動作順序＿＿／本人原話＿＿／親自參與＿＿／想免去＿＿／未表態＿＿／只針對繁瑣段的代辦輸入與交回點＿＿／免去負擔與保留體驗對照＿＿／待訪談與未測狀態＿＿。",
+        "deliverable": "同產品的親自參與、可代辦與保留體驗對照圖",
+        "checklist": [
+          "同一人同產品的動作未被拆成互不相干的工作。",
+          "去留依本人表達，預覽仍待問。",
+          "只代辦標籤，保留創作、社交與送出前確認，沒有實作宣稱。"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "編輯補充：可複製模板",
+          "text": "填寫：同一人與產品＿＿／動作順序＿＿／本人原話＿＿／親自參與＿＿／想免去＿＿／未表態＿＿／只針對繁瑣段的代辦輸入與交回點＿＿／免去負擔與保留體驗對照＿＿／待訪談與未測狀態＿＿。\n編輯示範：以下各步的填答僅示範整理方式，不是來源個案或已測結果。",
+          "sourceIds": []
+        },
+        {
+          "title": "編輯觀點：為何值得留下這張卡",
+          "text": "編輯觀點：效率不是唯一的設計目的。相同動作對不同人可能有不同意義，這張圖要保留的是一個人明說想參與的部分；未訪談時只能稱假設。",
+          "sourceIds": [
+            "source"
+          ]
+        },
+        {
+          "title": "編輯觀點：教學轉用與限制",
+          "text": "編輯觀點：可用虛構學習平台讓學生討論哪些體驗願意保留，再用本人原話修正假設；不能為了省事自動代寫心得，或把少點幾下當成學得更好。",
+          "sourceIds": []
+        }
+      ],
+      "publishedAt": "2026-11-12T11:25:26.360Z",
+      "overview": {
+        "kind": "infographic",
+        "image": "/assets/overviews/same-product-enjoyed-toil-interaction-map-desktop.webp",
+        "mobileImage": "/assets/overviews/same-product-enjoyed-toil-interaction-map-mobile.webp",
+        "cardImage": "/assets/overviews/same-product-enjoyed-toil-interaction-map-desktop.webp",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600,
+        "alt": "同一個產品，有些想親自用、有些想交出去：先畫互動去留圖：依本文核心關係整理的雙版資訊圖。",
+        "caption": "依來源方法製作的編輯整理；例子與操作安排為編輯設計，不代表成效保證。"
+      }
     }
   ],
   "demo": {
