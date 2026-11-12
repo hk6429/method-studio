@@ -214730,6 +214730,1006 @@
         "alt": "同一個產品，有些想親自用、有些想交出去：先畫互動去留圖：依本文核心關係整理的雙版資訊圖。",
         "caption": "依來源方法製作的編輯整理；例子與操作安排為編輯設計，不代表成效保證。"
       }
+    },
+    {
+      "id": "successor-obvious-changes-own-hesitation-card",
+      "title": "假想明天換人接手：他會立刻改什麼，而你為何還沒做？",
+      "status": "ready",
+      "summary": "明明已看見能改的地方，卻一直延後，可以先換一個觀察位置。來源轉述以假想接手者找出眼前改變，再問自己為何尚未做；本文把它縮成普通工作自省，使用完整虛構材料，只交建議、阻力與待核條件，不評斷任何人的去留。",
+      "output": "一張假想接手建議、未做原因、待核條件與下一步對照卡",
+      "audience": "想檢查自己為何延後一項普通工作調整的教師與專案負責人",
+      "categoryId": "reading",
+      "topicIds": [
+        "review"
+      ],
+      "keywords": [
+        "固定現況與權責",
+        "假想接手者會改什麼",
+        "問自己為何還沒做",
+        "留下有條件的下一步"
+      ],
+      "minutes": 20,
+      "level": "入門",
+      "contentType": "article_method",
+      "reviewedAt": "2026-11-12",
+      "coverLabel": "四步紙上練習",
+      "sourceCoverage": "依原Notion指向、官方RSS GUID與enclosure已核對的同集音訊之本機MLX英文ASR；來源審稿已讀保存全文，編稿核對採用段落，未逐句原音聽校，未聲稱看影片。本文取4327.94–4412.92秒，端點來自原ASR。Podcast無影片ID，以原音檔保留來源，不捏造影片。假想接手只作自省；紙上材料、四步與20分鐘為編輯補充；不作人事處置，成效未驗證。",
+      "sources": [
+        {
+          "id": "source",
+          "title": "How Elon Musk Solves Problems | Jon McNeill",
+          "url": "https://pdst.fm/e/traffic.megaphone.fm/FSMI6834983232.mp3",
+          "kind": "article",
+          "channel": "The Knowledge Project",
+          "note": "Podcast原音檔；原Notion與官方RSS GUID/enclosure身份核對見本地source-audit。ASR未逐句聽校，非HTML與人工逐字稿。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "固定現況與權責",
+          "action": "編輯補充：只讀題內活動清單現況，圈出自己能改的欄位；本練習不以失業威脅促使行動，也不評估人事。",
+          "why": "固定資料能避免把想像當成現況。",
+          "example": "編輯示範：活動清單有三個舊連結與兩份相同表單；我可改清單文字，但刪共享表單須另確認。",
+          "check": "現況、可改與不可自行改的範圍分開。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 4327.94,
+              "endSeconds": 4348.42
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "假想接手者會改什麼",
+          "action": "先假想一位新接手者只看這些現況，會提出哪些明顯改變。編輯補充：每項接回題內資料，寫成建議而非對未來的預言。",
+          "why": "來源的接手者問題用來拉開與既有做法的距離。",
+          "example": "編輯示範：建議A「標出三個待確認連結」；建議B「將兩份表單合併」。這只是題內假想建議。",
+          "check": "至少兩項假想建議各指向題內現況。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 4348.42,
+              "endSeconds": 4362.52
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "問自己為何還沒做",
+          "action": "逐項問「我為什麼還沒做？」編輯補充：把題內原因連到建議，區分別的事優先、擔心出錯與條件未齊；不能把所有延後都說成懶惰或恐懼。",
+          "why": "來源接著追問未做原因；條件不足與心理阻力需要不同處理。",
+          "example": "編輯示範：A沒做是先忙排課；B沒做是尚不知哪份表單仍在使用，也擔心刪掉別人的資料。",
+          "check": "每項建議都有未做原因，未知未被改寫成心理缺點。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 4363.86,
+              "endSeconds": 4392.76
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "留下有條件的下一步",
+          "action": "編輯補充：回到目前權責，選一項可寫草案的小事；缺條件就保留待核，不採用也寫理由。本輪只交紙上下一步，沒有改動真清單。",
+          "why": "來源談回來決定改變；本練習保留不做與待核，避免從自省跳到任意處置。",
+          "example": "編輯示範：只寫A的標記草案；B留待確認使用情況，不把「看來重複」當刪除依據。",
+          "check": "每項有下一步或不做理由；無真刪除與人事結論。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 4392.76,
+              "endSeconds": 4412.92
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "schedule",
+          "title": "編輯補充：20分鐘紙上安排",
+          "note": "四步各5分鐘；分支只記退回規則，不在本輪反覆試驗。非來源的時間承諾。",
+          "columns": [
+            "動作",
+            "產出與判準"
+          ],
+          "rows": [
+            {
+              "label": "0–5分鐘",
+              "cells": [
+                "固定現況與權責",
+                "現況、可改與不可自行改的範圍分開。"
+              ]
+            },
+            {
+              "label": "5–10分鐘",
+              "cells": [
+                "假想接手者會改什麼",
+                "至少兩項假想建議各指向題內現況。"
+              ]
+            },
+            {
+              "label": "10–15分鐘",
+              "cells": [
+                "問自己為何還沒做",
+                "每項建議都有未做原因，未知未被改寫成心理缺點。"
+              ]
+            },
+            {
+              "label": "15–20分鐘",
+              "cells": [
+                "留下有條件的下一步",
+                "每項有下一步或不做理由；無真刪除與人事結論。"
+              ]
+            }
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "本文紙上練習是否改善學習、工作或模型表現",
+          "status": "unverified",
+          "explanation": "只核對來源段落與編輯資料契約；未真人試作、模型執行、產品/硬體測試或方法成效驗證。紙上自查不等於成效。",
+          "sourceIds": [
+            "source"
+          ],
+          "checkedAt": "2026-11-12"
+        }
+      ],
+      "pitfalls": [
+        "把假想接手者當客觀評審：標為自己的推想並接回資料。",
+        "把未做一律解讀成不敢做：保留權責與資訊未齊。",
+        "為追求立刻改變而刪資料：只寫草案與待核條件。"
+      ],
+      "practice": {
+        "title": "編輯補充：只用提供的完整虛構材料",
+        "minutes": 20,
+        "prompt": "編輯補充：只使用以下材料，不需帳號、模型、硬體、外部檔案、研究程式、真人訪談或投票。\n編輯示範：虛構活動清單L1有三個已標「舊」但尚未查有效性的連結；L2有兩份名稱相同的共享報名表，哪份仍使用未知。角色可改清單文字與做草稿，不能自行刪共享表。題內自述：先前忙排課而未整理L1；L2怕誤刪且還不知道誰在用。現況只有這些，沒有時間成效或他人評價。\n用四步填寫：現況編號＿＿／接手者可能建議＿＿／自己尚未做的原因＿＿／權責或資訊缺口＿＿／只寫草案的下一步或不做理由＿＿",
+        "deliverable": "一張假想接手建議、未做原因、待核條件與下一步對照卡",
+        "checklist": [
+          "兩項建議均可回到L1或L2，假想與事實分清。",
+          "L1的優先順序原因與L2的條件缺口分開。",
+          "只完成一張卡，不刪表單，不用自省判斷人事。"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "編輯補充：可複製模板",
+          "text": "現況編號＿＿／接手者可能建議＿＿／自己尚未做的原因＿＿／權責或資訊缺口＿＿／只寫草案的下一步或不做理由＿＿\n編輯示範：各步填答均為自製虛構例，不是來源案例或執行結果。",
+          "sourceIds": []
+        },
+        {
+          "title": "編輯觀點：這張表的用途",
+          "text": "編輯觀點：換位提問的價值在於看見「我早已知道但沒有處理」的部分；理由可能合理。卡片應幫人辨認條件，而不是羞辱自己。",
+          "sourceIds": [
+            "source"
+          ]
+        },
+        {
+          "title": "編輯觀點：教學轉用與限制",
+          "text": "編輯觀點：可讓學生用虛構社團工作清單練習，討論建議和自己能做的事是否相同；不套用到同學能力排名或人事去留。",
+          "sourceIds": []
+        }
+      ],
+      "publishedAt": "2026-11-12T11:34:55.838Z",
+      "overview": {
+        "kind": "infographic",
+        "image": "/assets/overviews/successor-obvious-changes-own-hesitation-card-desktop.webp",
+        "mobileImage": "/assets/overviews/successor-obvious-changes-own-hesitation-card-mobile.webp",
+        "cardImage": "/assets/overviews/successor-obvious-changes-own-hesitation-card-desktop.webp",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600,
+        "alt": "假想明天換人接手：他會立刻改什麼，而你為何還沒做？：依本文核心關係整理的雙版資訊圖。",
+        "caption": "依來源方法製作的編輯整理；例子與操作安排為編輯設計，不代表成效保證。"
+      }
+    },
+    {
+      "id": "user-repair-build-five-vote-priority-session",
+      "title": "想修的和想新增的分開列：用每人五票看使用者優先事項",
+      "status": "ready",
+      "summary": "回饋常把「壞掉要修」和「希望新增」混在一起。來源介紹每人列三項修正、三項新增，再將五票集中或分散的討論方式。本文提供三位完全虛構使用者的全部原話與票例，練習保留意見來源、核對十五票，再交出待決定事項；票數不能證明正確、安全或必須開發。",
+      "output": "一份三人修正與新增原話清單、十五票分布及待決定事項",
+      "audience": "想練習整理同一服務使用者優先事項的教師與產品工作者",
+      "categoryId": "reading",
+      "topicIds": [
+        "review"
+      ],
+      "keywords": [
+        "固定同一服務與三人材料",
+        "分列三修正與三新增",
+        "核對每人五票與總票",
+        "讀回原話再列待決事項"
+      ],
+      "minutes": 20,
+      "level": "入門",
+      "contentType": "article_method",
+      "reviewedAt": "2026-11-12",
+      "coverLabel": "四步紙上練習",
+      "sourceCoverage": "依原Notion指向、官方RSS GUID與enclosure已核對的同集音訊之本機MLX英文ASR；來源審稿已讀保存全文，編稿核對採用段落，未逐句原音聽校，未聲稱看影片。本文取5316.5–5401.4秒，端點來自原ASR。Podcast無影片ID，以原音檔保留來源，不捏造影片。三人18條原話與15票全為編輯示範；五票可集中或分散；偏好不等於正確、安全或一定開發。",
+      "sources": [
+        {
+          "id": "source",
+          "title": "How Elon Musk Solves Problems | Jon McNeill",
+          "url": "https://pdst.fm/e/traffic.megaphone.fm/FSMI6834983232.mp3",
+          "kind": "article",
+          "channel": "The Knowledge Project",
+          "note": "Podcast原音檔；原Notion與官方RSS GUID/enclosure身份核對見本地source-audit。ASR未逐句聽校，非HTML與人工逐字稿。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "固定同一服務與三人材料",
+          "action": "編輯補充：固定題內虛構閱讀活動板，不真邀請或蒐集個資。把甲乙丙視為題內三位使用者，三人都各有三項修正與三項新增。",
+          "why": "固定服務避免把不相干需求排在同一張表。",
+          "example": "編輯示範：三人都使用虛構閱讀活動板；只整理題內資料，不聲稱已辦真人座談。",
+          "check": "三人與同一項服務寫明，沒有真訪談聲稱。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 5316.5,
+              "endSeconds": 5336.16
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "分列三修正與三新增",
+          "action": "照原話把每人的三項修正與三項新增分欄編號。編輯補充：相同意思才可併成一項並保留對照；本題保留十八項，不硬合併。",
+          "why": "來源把修正與新增分開，有助辨識現有問題和期待。",
+          "example": "編輯示範：甲修正A1「日期字太小」，新增A4「想按月份篩選」；甲另有A2/A3/A5/A6，全部見練習材料。",
+          "check": "十八條均保留人別、編號與修正或新增類別。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 5337.32,
+              "endSeconds": 5359.88
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "核對每人五票與總票",
+          "action": "來源允許每人把五票集中在一項或分散。編輯補充：抄入提供的完整票例，逐人核對五票再加總，不替未回覆者投票，也不把票數當人數。",
+          "why": "來源明示可集中或分散，核對個人票能避免總票看似正確但超額。",
+          "example": "編輯示範：甲A1投5票；乙A1投2、B2投2、B4投1；丙C1投1、C4投2、A4投2。每人5，共15票。",
+          "check": "三人各5票；項目合計15，沒有把7票說成7人。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 5361.32,
+              "endSeconds": 5372.74
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "讀回原話再列待決事項",
+          "action": "讀回得票項及零票原話，列決策者要問的條件。編輯補充：票多只表示此票例的偏好；不自動開發、不刪少數需求，也不預設前三項必然集中所有票。",
+          "why": "來源中的集中結果是講者經驗；本題刻意保留分散票與零票意見。",
+          "example": "編輯示範：A1共7票；B2、C4、A4各2；B4、C1各1，其餘0。四項並非唯一前三名，先記並列與待問，不宣稱結論收斂。",
+          "check": "所有原話仍可查，有待決條件；沒有自動採用規則。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 5373.46,
+              "endSeconds": 5401.4
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "schedule",
+          "title": "編輯補充：20分鐘紙上安排",
+          "note": "四步各5分鐘；分支只記退回規則，不在本輪反覆試驗。非來源的時間承諾。",
+          "columns": [
+            "動作",
+            "產出與判準"
+          ],
+          "rows": [
+            {
+              "label": "0–5分鐘",
+              "cells": [
+                "固定同一服務與三人材料",
+                "三人與同一項服務寫明，沒有真訪談聲稱。"
+              ]
+            },
+            {
+              "label": "5–10分鐘",
+              "cells": [
+                "分列三修正與三新增",
+                "十八條均保留人別、編號與修正或新增類別。"
+              ]
+            },
+            {
+              "label": "10–15分鐘",
+              "cells": [
+                "核對每人五票與總票",
+                "三人各5票；項目合計15，沒有把7票說成7人。"
+              ]
+            },
+            {
+              "label": "15–20分鐘",
+              "cells": [
+                "讀回原話再列待決事項",
+                "所有原話仍可查，有待決條件；沒有自動採用規則。"
+              ]
+            }
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "本文紙上練習是否改善學習、工作或模型表現",
+          "status": "unverified",
+          "explanation": "只核對來源段落與編輯資料契約；未真人試作、模型執行、產品/硬體測試或方法成效驗證。紙上自查不等於成效。",
+          "sourceIds": [
+            "source"
+          ],
+          "checkedAt": "2026-11-12"
+        }
+      ],
+      "pitfalls": [
+        "把每人五票改成只能投五個不同項目：來源允許集中。",
+        "只抄最高三項：保留並列、少數與零票意見。",
+        "用總票直接排開發：先列條件與待決，不把偏好當安全判準。"
+      ],
+      "practice": {
+        "title": "編輯補充：只用提供的完整虛構材料",
+        "minutes": 20,
+        "prompt": "編輯補充：只使用以下材料，不需帳號、模型、硬體、外部檔案、研究程式、真人訪談或投票。\n編輯示範：虛構閱讀活動板的全部三人回饋如下，每人前三項為修正、後三項為新增。甲：A1日期字太小；A2返回按鈕沒反應；A3封面載入慢；A4想按月份篩選；A5想收藏活動；A6想看列印版。乙：B1地點文字被截；B2搜尋結果排序混亂；B3說明連結失效；B4想要報名提醒；B5想加文字放大；B6想用標籤查詢。丙：C1活動頁無返回提示；C2已結束活動仍顯示報名；C3空清單沒有說明；C4想按地區篩選；C5想分享活動；C6想看行事曆。題內完整票例：甲A1=5；乙A1=2、B2=2、B4=1；丙C1=1、C4=2、A4=2；每人的其他項目均0票。沒有棄權、未回覆或真實使用者資料。這些原話與票全是編輯示範，不是訪談結果。\n用四步填寫：原話編號＿＿／題內人別＿＿／修正或新增＿＿／原話＿＿／甲票＿＿／乙票＿＿／丙票＿＿／總票＿＿／決策前待問＿＿",
+        "deliverable": "一份三人修正與新增原話清單、十五票分布及待決定事項",
+        "checklist": [
+          "三人各三修正三新增，十八項齊全。",
+          "各人5票且合計15；A1=7，B2/C4/A4各2，B4/C1各1。",
+          "保留並列與零票原話，票數未寫成安全、正確或開發保證。"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "編輯補充：可複製模板",
+          "text": "原話編號＿＿／題內人別＿＿／修正或新增＿＿／原話＿＿／甲票＿＿／乙票＿＿／丙票＿＿／總票＿＿／決策前待問＿＿\n編輯示範：各步填答均為自製虛構例，不是來源案例或執行結果。",
+          "sourceIds": []
+        },
+        {
+          "title": "編輯觀點：這張表的用途",
+          "text": "編輯觀點：修正與新增先分開，能避免「加一個功能」掩蓋既有卡點。五票是討論材料，不是一套可取代判斷的演算法。",
+          "sourceIds": [
+            "source"
+          ]
+        },
+        {
+          "title": "編輯觀點：教學轉用與限制",
+          "text": "編輯觀點：可用這組虛構活動板材料教學生讀票表與原話，練習分清票數、人數與並列；本輪不用投票工具或真問卷。",
+          "sourceIds": []
+        }
+      ],
+      "publishedAt": "2026-11-12T11:34:55.838Z",
+      "overview": {
+        "kind": "infographic",
+        "image": "/assets/overviews/user-repair-build-five-vote-priority-session-desktop.webp",
+        "mobileImage": "/assets/overviews/user-repair-build-five-vote-priority-session-mobile.webp",
+        "cardImage": "/assets/overviews/user-repair-build-five-vote-priority-session-desktop.webp",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600,
+        "alt": "想修的和想新增的分開列：用每人五票看使用者優先事項：依本文核心關係整理的雙版資訊圖。",
+        "caption": "依來源方法製作的編輯整理；例子與操作安排為編輯設計，不代表成效保證。"
+      }
+    },
+    {
+      "id": "task-eval-synthetic-data-spec-paper-plan",
+      "title": "想產生任務合成資料，先寫評估規格與可用邊界：紙上設計草案",
+      "status": "ready",
+      "summary": "要為任務設計合成材料，不能只寫「產生很多像真的例子」。來源先談為任務設評估，再產生近似任務的合成資料。本文只做紙上規格：先定判定方法，再寫合成條件，分開評估與擬合成材料，最後用反例退回不合條件的規格；不呼叫模型、不訓練，也不聲稱泛化。",
+      "output": "一份評估先行、附合成條件及材料用途邊界的四列紙上規格",
+      "audience": "想先釐清任務評估與合成材料用途的教師和AI工作流程設計者",
+      "categoryId": "ai",
+      "topicIds": [
+        "workflow"
+      ],
+      "keywords": [
+        "固定可核對的小任務",
+        "先定評估再寫合成條件",
+        "分開材料用途與權限",
+        "用反例退回合成規格"
+      ],
+      "minutes": 20,
+      "level": "入門",
+      "contentType": "article_method",
+      "reviewedAt": "2026-11-12",
+      "coverLabel": "四步紙上練習",
+      "sourceCoverage": "依原Notion指向、官方RSS GUID與enclosure已核對的同集音訊之本機MLX英文ASR；來源審稿已讀保存全文，編稿核對採用段落，未逐句原音聽校，未聲稱看影片。本文取1087.7–1194.82秒，端點來自原ASR。Podcast無影片ID，以原音檔保留來源，不捏造影片。只寫評估→合成條件規格；不生成、不訓練；權限與泛化均未驗證。",
+      "sources": [
+        {
+          "id": "source",
+          "title": "Beam: The Great American Open Model with ReflectionAI Co-Founder and CEO Misha Laskin",
+          "url": "https://traffic.megaphone.fm/PDP1028435739.mp3",
+          "kind": "article",
+          "channel": "No Priors",
+          "note": "Podcast原音檔；原Notion與官方RSS GUID/enclosure身份核對見本地source-audit。ASR未逐句聽校，非HTML與人工逐字稿。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "固定可核對的小任務",
+          "action": "編輯補充：用題內活動代號抽取任務，先寫輸入、正確行為及禁止補猜的輸出。本輪不取得客戶文件。",
+          "why": "沒有任務定義，就無法知道「像」的是格式還是所需行為。",
+          "example": "編輯示範：輸入「活動代號：R07；地點：東廳」，應只回R07；沒有代號回「缺代號」，不從標題猜值。",
+          "check": "輸入與應答規則可由題內文字決定。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 1110.74,
+              "endSeconds": 1194.82
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "先定評估再寫合成條件",
+          "action": "來源先設任務評估再談近似合成資料。編輯補充：先寫逐字比對代號、缺值回固定字樣的判準，再將每條判準轉為合成材料必含條件，保留這個順序。",
+          "why": "來源提出評估先行的順序；合成條件需服務具體判定。",
+          "example": "編輯示範：判準P1逐字保留代號，對應S1需含不同代號字串；P2缺值回缺代號，對應S2需有省略代號的材料。",
+          "check": "P1/P2先寫，S1/S2逐項對應，含缺值條件。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 1087.7,
+              "endSeconds": 1172.76
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "分開材料用途與權限",
+          "action": "編輯補充：把題內評估材料E與擬合成規格S分欄，E不拿來充當已生成訓練資料；真實客戶資料T不在本題中，標為未取得、未確認使用權，不假稱可用。",
+          "why": "來源區分合成與直接訓練客戶資料，但不提供可使用資料的許可。",
+          "example": "編輯示範：E1/E2是題內紙上評估例；S1/S2是擬合成條件，尚未生成；T沒有內容與授權，維持不可用於本輪。",
+          "check": "E、S、T用途各異，未生成與未取得未改寫為可用。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 1140.14,
+              "endSeconds": 1172.76
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "用反例退回合成規格",
+          "action": "編輯補充：檢查反例是否只像通知卻缺少任務條件。缺條件就退回步驟二補合成規格；符合紙上條件仍只交草案，模型表現與泛化待測。",
+          "why": "反例用來檢查規格缺口，不能代替模型測試。",
+          "example": "編輯示範：反例X「歡迎參加R07閱讀展」沒有明寫活動代號欄。若規格只寫生成漂亮通知，無法判斷要回什麼；補規定只讀明示欄，X應回缺代號。",
+          "check": "X指出規格缺口並退回補寫，模型測試仍待測。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 1100.64,
+              "endSeconds": 1172.76
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "schedule",
+          "title": "編輯補充：20分鐘紙上安排",
+          "note": "四步各5分鐘；分支只記退回規則，不在本輪反覆試驗。非來源的時間承諾。",
+          "columns": [
+            "動作",
+            "產出與判準"
+          ],
+          "rows": [
+            {
+              "label": "0–5分鐘",
+              "cells": [
+                "固定可核對的小任務",
+                "輸入與應答規則可由題內文字決定。"
+              ]
+            },
+            {
+              "label": "5–10分鐘",
+              "cells": [
+                "先定評估再寫合成條件",
+                "P1/P2先寫，S1/S2逐項對應，含缺值條件。"
+              ]
+            },
+            {
+              "label": "10–15分鐘",
+              "cells": [
+                "分開材料用途與權限",
+                "E、S、T用途各異，未生成與未取得未改寫為可用。"
+              ]
+            },
+            {
+              "label": "15–20分鐘",
+              "cells": [
+                "用反例退回合成規格",
+                "X指出規格缺口並退回補寫，模型測試仍待測。"
+              ]
+            }
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "本文紙上練習是否改善學習、工作或模型表現",
+          "status": "unverified",
+          "explanation": "只核對來源段落與編輯資料契約；未真人試作、模型執行、產品/硬體測試或方法成效驗證。紙上自查不等於成效。",
+          "sourceIds": [
+            "source"
+          ],
+          "checkedAt": "2026-11-12"
+        }
+      ],
+      "pitfalls": [
+        "先大量生成再想怎麼評：先定P再寫S。",
+        "合成材料格式漂亮就算好：以任務規則和反例檢查。",
+        "把E與S混用後宣稱泛化：本題只交規格，實測另做。"
+      ],
+      "practice": {
+        "title": "編輯補充：只用提供的完整虛構材料",
+        "minutes": 20,
+        "prompt": "編輯補充：只使用以下材料，不需帳號、模型、硬體、外部檔案、研究程式、真人訪談或投票。\n編輯示範：全部是自製虛構文字。任務：只讀明示「活動代號：」欄，回欄內代號；欄不存在就回「缺代號」，不猜標題。評估例E1輸入「活動代號：R07；地點：東廳」，人工預期R07；E2輸入「地點：西廳」，人工預期缺代號。初版擬合成規格S0僅寫「做出像活動通知的文字」。待補合成條件S1涵蓋不同代號、S2涵蓋省略代號。反例X「歡迎參加R07閱讀展」只有標題，按本題應回缺代號。T指真實客戶資料，本題沒有內容、沒有授權或取得紀錄，不使用。E1/E2只作題內規格對照，不作真模型保留評估成效。\n用四步填寫：任務輸入＿＿／人工判定P＿＿／對應擬合成條件S＿＿／材料用途E或S或T＿＿／使用權或未取得狀態＿＿／反例缺口＿＿／修訂條件＿＿／模型待測＿＿",
+        "deliverable": "一份評估先行、附合成條件及材料用途邊界的四列紙上規格",
+        "checklist": [
+          "四列含P1/S1、P2/S2、E/S/T用途邊界、X退回修訂。",
+          "合成規格不是已產生資料；評估例未寫成訓練資料。",
+          "無客戶資料存取、無模型執行、無泛化成效。"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "編輯補充：可複製模板",
+          "text": "任務輸入＿＿／人工判定P＿＿／對應擬合成條件S＿＿／材料用途E或S或T＿＿／使用權或未取得狀態＿＿／反例缺口＿＿／修訂條件＿＿／模型待測＿＿\n編輯示範：各步填答均為自製虛構例，不是來源案例或執行結果。",
+          "sourceIds": []
+        },
+        {
+          "title": "編輯觀點：這張表的用途",
+          "text": "編輯觀點：把評估放在前面，會逼人說清楚合成材料究竟要模擬哪些任務條件；這和單純增加材料量不同。紙上規格的完整仍不能證明模型學會。",
+          "sourceIds": [
+            "source"
+          ]
+        },
+        {
+          "title": "編輯觀點：教學轉用與限制",
+          "text": "編輯觀點：可把任務改為題內欄位抽取，讓學生先寫人工判定再設計缺值材料，討論為何像真格式不等於能評任務。不要用學生個資替代虛構例。",
+          "sourceIds": []
+        }
+      ],
+      "publishedAt": "2026-11-12T11:34:55.838Z",
+      "overview": {
+        "kind": "infographic",
+        "image": "/assets/overviews/task-eval-synthetic-data-spec-paper-plan-desktop.webp",
+        "mobileImage": "/assets/overviews/task-eval-synthetic-data-spec-paper-plan-mobile.webp",
+        "cardImage": "/assets/overviews/task-eval-synthetic-data-spec-paper-plan-desktop.webp",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600,
+        "alt": "想產生任務合成資料，先寫評估規格與可用邊界：紙上設計草案：依本文核心關係整理的雙版資訊圖。",
+        "caption": "依來源方法製作的編輯整理；例子與操作安排為編輯設計，不代表成效保證。"
+      }
+    },
+    {
+      "id": "approximate-trial-final-signoff-boundary-paper-plan",
+      "title": "想用近似試驗加快迭代？先畫出探索與正式驗證的邊界",
+      "status": "ready",
+      "summary": "想縮短試驗等待，先分清近似探索能回答什麼、正式檢查仍要回答什麼。來源討論昂貴試驗與近似方法的研究方向，並保留最終驗證。本文借此用完整虛構版面材料畫紙上邊界，只列探索篩選、漏失風險與正式核對，不操作晶片工具，也不承諾省時或正確率。",
+      "output": "一張探索近似、漏失風險、正式檢查與退回條件的紙上流程表",
+      "audience": "要把快速探索與正式交付檢查分開設計的教師與專案工作者",
+      "categoryId": "ai",
+      "topicIds": [
+        "workflow"
+      ],
+      "keywords": [
+        "拆開思考試驗與正式檢查",
+        "限定探索近似能做什麼",
+        "保留獨立正式檢查",
+        "列差異與退回條件"
+      ],
+      "minutes": 20,
+      "level": "入門",
+      "contentType": "article_method",
+      "reviewedAt": "2026-11-12",
+      "coverLabel": "四步紙上練習",
+      "sourceCoverage": "依原Notion指向、官方RSS GUID與enclosure已核對的同集音訊之本機MLX英文ASR；來源審稿已讀保存全文，編稿核對採用段落，未逐句原音聽校，未聲稱看影片。本文取1439.12–1695.98秒，端點來自原ASR。Podcast無影片ID，以原音檔保留來源，不捏造影片。來源研究構想轉成編輯版面類比；只交計畫，無晶片操作、效能數據與正式驗證結果。",
+      "sources": [
+        {
+          "id": "source",
+          "title": "Frontier Chips for Frontier AI Labs, with Walter Goodwin, Founder/CEO of Fractile",
+          "url": "https://traffic.megaphone.fm/PDP7579412568.mp3",
+          "kind": "article",
+          "channel": "No Priors",
+          "note": "Podcast原音檔；原Notion與官方RSS GUID/enclosure身份核對見本地source-audit。ASR未逐句聽校，非HTML與人工逐字稿。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "拆開思考試驗與正式檢查",
+          "action": "編輯補充：只依題內海報版面流程，分列選版思考、試排等待及交付前完整文字核對；時間未知就寫未知，不估節省。",
+          "why": "來源區分思考與試驗等待；兩者不能混算成同一種速度。",
+          "example": "編輯示範：想選A或B是思考；做完整試排是試驗；逐字比對日期與場地是正式核對，三者耗時全未知。",
+          "check": "三階段各有用途；時間與節省均未填假值。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 1439.12,
+              "endSeconds": 1563.72
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "限定探索近似能做什麼",
+          "action": "來源提出近似方法用於探索的研究方向。編輯補充：題內只用縮小縮圖估版面位置來篩候選，寫不能看清細字的漏失，不把縮圖當正式檢查。",
+          "why": "近似能省略資訊，也就可能漏掉正式檢查要看的細節。",
+          "example": "編輯示範：縮圖A標題區留白較多，B較擠，僅能形成版面候選；兩張細字都看不清，日期仍未知。",
+          "check": "近似只限版面篩選，列出細字漏失。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 1536.04,
+              "endSeconds": 1616.4
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "保留獨立正式檢查",
+          "action": "編輯補充：把縮圖判斷僅接到候選名單，再接獨立正式核對節點；需放大逐字查題內日期與場地，未核對者維持待核，不因縮圖看起來好就交付。",
+          "why": "來源把探索近似與最終驗證區分；版面題是編輯類比而非晶片流程教程。",
+          "example": "編輯示範：候選A進正式核對草案；需以完整文字「11月18日／東廳」為基準，不用縮圖猜日期。",
+          "check": "候選之後仍有正式核對；未核對未標通過。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 1563.72,
+              "endSeconds": 1616.4
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "列差異與退回條件",
+          "action": "編輯補充：預先列遇到文字差異或放大材料缺失時退回哪一步。只完成未來檢查安排，不製作真海報、不填未發生的觀察與省時結果。",
+          "why": "先寫退回條件，讓探索通過不被誤認為正式通過。",
+          "example": "編輯示範：若正式稿日期不同，退回試排修字再正式核對；若沒有可讀大圖，停在待核，不交付。",
+          "check": "文字差異與材料缺失各有退回或停止規則。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 1616.96,
+              "endSeconds": 1695.98
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "schedule",
+          "title": "編輯補充：20分鐘紙上安排",
+          "note": "四步各5分鐘；分支只記退回規則，不在本輪反覆試驗。非來源的時間承諾。",
+          "columns": [
+            "動作",
+            "產出與判準"
+          ],
+          "rows": [
+            {
+              "label": "0–5分鐘",
+              "cells": [
+                "拆開思考試驗與正式檢查",
+                "三階段各有用途；時間與節省均未填假值。"
+              ]
+            },
+            {
+              "label": "5–10分鐘",
+              "cells": [
+                "限定探索近似能做什麼",
+                "近似只限版面篩選，列出細字漏失。"
+              ]
+            },
+            {
+              "label": "10–15分鐘",
+              "cells": [
+                "保留獨立正式檢查",
+                "候選之後仍有正式核對；未核對未標通過。"
+              ]
+            },
+            {
+              "label": "15–20分鐘",
+              "cells": [
+                "列差異與退回條件",
+                "文字差異與材料缺失各有退回或停止規則。"
+              ]
+            }
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "本文紙上練習是否改善學習、工作或模型表現",
+          "status": "unverified",
+          "explanation": "只核對來源段落與編輯資料契約；未真人試作、模型執行、產品/硬體測試或方法成效驗證。紙上自查不等於成效。",
+          "sourceIds": [
+            "source"
+          ],
+          "checkedAt": "2026-11-12"
+        }
+      ],
+      "pitfalls": [
+        "把探索的看起來可行當正式通過：保留兩種狀態。",
+        "縮圖看不到細字還猜內容：正式核對另取可讀材料。",
+        "用紙上流程宣稱近似演算法可用：本文沒有演算法與硬體測試。"
+      ],
+      "practice": {
+        "title": "編輯補充：只用提供的完整虛構材料",
+        "minutes": 20,
+        "prompt": "編輯補充：只使用以下材料，不需帳號、模型、硬體、外部檔案、研究程式、真人訪談或投票。\n編輯示範：虛構閱讀展版面題，正式文字基準為「閱讀展／11月18日／東廳」。題內縮圖描述A「標題區留白較多，細字不可讀」；B「標題區較擠，細字不可讀」。沒有真縮圖檔、放大稿、模型或排版工具輸出；只有這些文字描述可用來畫流程。待測情境Q1：未來取得可讀正式稿，日期與基準不一致；Q2：未來仍無可讀大圖。兩種情境只是規則設計，沒有真的觀察結果。所有階段耗時未知。\n用四步填寫：階段（思考/試排/正式核對）＿＿／近似輸入＿＿／可篩選項＿＿／可能漏失＿＿／正式核對基準＿＿／Q1退回＿＿／Q2待核＿＿／實測狀態＿＿",
+        "deliverable": "一張探索近似、漏失風險、正式檢查與退回條件的紙上流程表",
+        "checklist": [
+          "縮圖只導向候選，不直接導向交付。",
+          "正式核對明列日期與場地基準，未測仍待核。",
+          "Q1退回試排再核對，Q2停待核；未推估節省。"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "編輯補充：可複製模板",
+          "text": "階段（思考/試排/正式核對）＿＿／近似輸入＿＿／可篩選項＿＿／可能漏失＿＿／正式核對基準＿＿／Q1退回＿＿／Q2待核＿＿／實測狀態＿＿\n編輯示範：各步填答均為自製虛構例，不是來源案例或執行結果。",
+          "sourceIds": []
+        },
+        {
+          "title": "編輯觀點：這張表的用途",
+          "text": "編輯觀點：近似的用途要和它不能回答的問題一起寫。探索可以幫忙決定先看哪個候選，卻不能自動取代交付的核對依據。",
+          "sourceIds": [
+            "source"
+          ]
+        },
+        {
+          "title": "編輯觀點：教學轉用與限制",
+          "text": "編輯觀點：可用本題的版面文字描述，讓學生畫兩種檢查的邊界，討論「看起來可以」與「已核對」差在哪裡；不要求取得晶片或研究程式。",
+          "sourceIds": []
+        }
+      ],
+      "publishedAt": "2026-11-12T11:34:55.838Z",
+      "overview": {
+        "kind": "infographic",
+        "image": "/assets/overviews/approximate-trial-final-signoff-boundary-paper-plan-desktop.webp",
+        "mobileImage": "/assets/overviews/approximate-trial-final-signoff-boundary-paper-plan-mobile.webp",
+        "cardImage": "/assets/overviews/approximate-trial-final-signoff-boundary-paper-plan-desktop.webp",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600,
+        "alt": "想用近似試驗加快迭代？先畫出探索與正式驗證的邊界：依本文核心關係整理的雙版資訊圖。",
+        "caption": "依來源方法製作的編輯整理；例子與操作安排為編輯設計，不代表成效保證。"
+      }
+    },
+    {
+      "id": "reusable-artifact-doc-testbench-readiness-paper-audit",
+      "title": "有檔案卻交不出去？把說明、測試案例與可重用條件一起盤點",
+      "status": "ready",
+      "summary": "有一份可重用的檔案，不等於知道怎麼使用或怎麼測。來源以文件、testbench及建置說明談資產可用性。本文只用虛構代號整理卡，將每條說明連到測試輸入及預期結果，找出缺說明、缺案例與待測；不做AI訓練，不宣稱有文件就具備使用權或已可重現。",
+      "output": "一份用途卡及三列說明、測試案例、預期結果與缺口的配套盤點表",
+      "audience": "要盤點單一可重用素材之說明與測試配套的教師和專案工作者",
+      "categoryId": "ai",
+      "topicIds": [
+        "workflow"
+      ],
+      "keywords": [
+        "固定一份資產與用途",
+        "盤點說明與測試配套",
+        "逐條連回行為與預期",
+        "交出缺口與待測表"
+      ],
+      "minutes": 20,
+      "level": "入門",
+      "contentType": "article_method",
+      "reviewedAt": "2026-11-12",
+      "coverLabel": "四步紙上練習",
+      "sourceCoverage": "依原Notion指向、官方RSS GUID與enclosure已核對的同集音訊之本機MLX英文ASR；來源審稿已讀保存全文，編稿核對採用段落，未逐句原音聽校，未聲稱看影片。本文取534.36–615.42秒，端點來自原ASR。Podcast無影片ID，以原音檔保留來源，不捏造影片。只盤單一資產的說明—案例—預期關係；未執行、未訓練，不將配套存在等同合法或可重現。",
+      "sources": [
+        {
+          "id": "source",
+          "title": "Redefining Chip Architecture with Arm CEO Rene Haas",
+          "url": "https://traffic.megaphone.fm/PDP3024512727.mp3",
+          "kind": "article",
+          "channel": "No Priors",
+          "note": "Podcast原音檔；原Notion與官方RSS GUID/enclosure身份核對見本地source-audit。ASR未逐句聽校，非HTML與人工逐字稿。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "固定一份資產與用途",
+          "action": "編輯補充：只讀題內自製虛構代號整理卡，寫用途、輸入輸出與範圍；它不是可執行程式，也沒有原始IP授權問題已解決的保證。",
+          "why": "單一資產的用途固定，才能知道需要哪些說明。",
+          "example": "編輯示範：卡片用途是抄讀活動代號：輸入一行文字、輸出代號文字；不是下載工具或執行程式。",
+          "check": "寫出資產是文字卡及使用範圍，未假稱有程式。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 570.18,
+              "endSeconds": 607.64
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "盤點說明與測試配套",
+          "action": "來源強調文件、testbench及如何建置的配套。編輯補充：分別列題內說明D1/D2、使用前提、案例T1/T2/T3與預期答案，缺的寫缺，不用「有卡片」替代能測。",
+          "why": "來源指出只剩IP本體卻缺文件時，使用與測試會出問題。",
+          "example": "編輯示範：D1只讀活動代號欄、D2保留大小寫；T1/T2有預期，T3空值沒有說明與預期，先記缺。",
+          "check": "前提、說明、案例與預期分欄，T3保留缺項。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 570.18,
+              "endSeconds": 604.88
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "逐條連回行為與預期",
+          "action": "編輯補充：逐條把說明行為對到案例與預期結果。某案例沒有說明依據就記缺規則；有規則但沒案例也記缺測試，不自行補成來源既定規格。",
+          "why": "本文獨立核心是說明與案例逐條對應，不只是列交付清單。",
+          "example": "編輯示範：T1「活動代號：r02」→r02可對D1/D2；T2「活動代號：R03」→R03可對D1/D2；T3「活動代號：」沒有空值規則，預期待定。",
+          "check": "三個案例各有說明對應或明確缺口。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 583.44,
+              "endSeconds": 607.64
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "交出缺口與待測表",
+          "action": "編輯補充：交出三列對照及缺口，將未實際執行均列待測。只可說紙上對照已完成，不說可重現、可供AI訓練或配套已齊全。",
+          "why": "紙上有預期結果與真正執行過，是不同層級的證據。",
+          "example": "編輯示範：T1/T2紙上有對應但未執行；T3缺說明與預期。若未來有人補空值規則，再補對應案例，不把現在的空格填成通過。",
+          "check": "三列皆待測，缺規則未被任意補成標準答案。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 534.36,
+              "endSeconds": 615.42
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "schedule",
+          "title": "編輯補充：20分鐘紙上安排",
+          "note": "四步各5分鐘；分支只記退回規則，不在本輪反覆試驗。非來源的時間承諾。",
+          "columns": [
+            "動作",
+            "產出與判準"
+          ],
+          "rows": [
+            {
+              "label": "0–5分鐘",
+              "cells": [
+                "固定一份資產與用途",
+                "寫出資產是文字卡及使用範圍，未假稱有程式。"
+              ]
+            },
+            {
+              "label": "5–10分鐘",
+              "cells": [
+                "盤點說明與測試配套",
+                "前提、說明、案例與預期分欄，T3保留缺項。"
+              ]
+            },
+            {
+              "label": "10–15分鐘",
+              "cells": [
+                "逐條連回行為與預期",
+                "三個案例各有說明對應或明確缺口。"
+              ]
+            },
+            {
+              "label": "15–20分鐘",
+              "cells": [
+                "交出缺口與待測表",
+                "三列皆待測，缺規則未被任意補成標準答案。"
+              ]
+            }
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "本文紙上練習是否改善學習、工作或模型表現",
+          "status": "unverified",
+          "explanation": "只核對來源段落與編輯資料契約；未真人試作、模型執行、產品/硬體測試或方法成效驗證。紙上自查不等於成效。",
+          "sourceIds": [
+            "source"
+          ],
+          "checkedAt": "2026-11-12"
+        }
+      ],
+      "pitfalls": [
+        "看到檔案就標可用：另看使用前提、說明和測試。",
+        "有案例但不知道預期依據：回到具體說明，沒有就標缺。",
+        "把待測改寫成通過：保留真正執行證據的空缺。"
+      ],
+      "practice": {
+        "title": "編輯補充：只用提供的完整虛構材料",
+        "minutes": 20,
+        "prompt": "編輯補充：只使用以下材料，不需帳號、模型、硬體、外部檔案、研究程式、真人訪談或投票。\n編輯示範：自製虛構資產A是一張「代號整理文字卡」，沒有程式檔。用途：供人按說明抄讀一行活動代號。使用前提：讀得到完整文字；本題未經真人操作。說明D1：只讀「活動代號：」欄，不讀地點；D2：代號保留原大小寫。案例T1輸入「活動代號：r02；地點：東廳」，紙上預期r02；T2輸入「活動代號：R03」，紙上預期R03；T3輸入「活動代號：」，沒有空值說明，預期未定。三例都未實際執行。題內文字全為自製虛構；任何真實素材使用權不在此題確認範圍。\n用四步填寫：資產與用途＿＿／前提＿＿／說明D＿＿／測試案例T與輸入＿＿／預期結果或缺項＿＿／說明對應＿＿／實測證據（未執行填待測）＿＿／待補配套＿＿",
+        "deliverable": "一份用途卡及三列說明、測試案例、預期結果與缺口的配套盤點表",
+        "checklist": [
+          "有用途卡與T1/T2/T3三列，不把文字卡說成程式。",
+          "T1/T2連D1/D2；T3缺空值說明及預期。",
+          "三列待測，未宣稱合法訓練、可重現或完整可用。"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "編輯補充：可複製模板",
+          "text": "資產與用途＿＿／前提＿＿／說明D＿＿／測試案例T與輸入＿＿／預期結果或缺項＿＿／說明對應＿＿／實測證據（未執行填待測）＿＿／待補配套＿＿\n編輯示範：各步填答均為自製虛構例，不是來源案例或執行結果。",
+          "sourceIds": []
+        },
+        {
+          "title": "編輯觀點：這張表的用途",
+          "text": "編輯觀點：有用的配套不是一張「附README」的清單，而是使用者能從同一條說明知道某案例該怎麼判斷；對不上就是需要保留的缺口。",
+          "sourceIds": [
+            "source"
+          ]
+        },
+        {
+          "title": "編輯觀點：教學轉用與限制",
+          "text": "編輯觀點：可讓學生檢查本題文字卡：先找說明與例子的對應，再看空值為何不能自動填答案。若改用真教材，分享權限和實際試用需另確認。",
+          "sourceIds": []
+        }
+      ],
+      "publishedAt": "2026-11-12T11:34:55.838Z",
+      "overview": {
+        "kind": "infographic",
+        "image": "/assets/overviews/reusable-artifact-doc-testbench-readiness-paper-audit-desktop.webp",
+        "mobileImage": "/assets/overviews/reusable-artifact-doc-testbench-readiness-paper-audit-mobile.webp",
+        "cardImage": "/assets/overviews/reusable-artifact-doc-testbench-readiness-paper-audit-desktop.webp",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600,
+        "alt": "有檔案卻交不出去？把說明、測試案例與可重用條件一起盤點：依本文核心關係整理的雙版資訊圖。",
+        "caption": "依來源方法製作的編輯整理；例子與操作安排為編輯設計，不代表成效保證。"
+      }
     }
   ],
   "demo": {
