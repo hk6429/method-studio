@@ -216913,6 +216913,402 @@
         "alt": "先做一張關鍵畫面，再請AI擴展整段介面流程：依本文核心關係整理的雙版資訊圖。",
         "caption": "依來源方法製作的編輯整理；例子與操作安排為編輯設計，不代表成效保證。"
       }
+    },
+    {
+      "id": "greene-handwrite-recopy-dictate-print-revise",
+      "title": "先手寫、再謄改：把口述轉錄放在修稿後段",
+      "status": "ready",
+      "summary": "想試另一種修稿節奏，可以先讓內容經過手寫與重新謄改，再交給轉錄。Greene分享的是自己調整寫作方式的經驗：稿子成熟後才口述，轉錄後又印出手改。本文用同一短段示範版本如何留下，不證明手寫比打字更好。",
+      "output": "同一短段的V1、V2、假設轉錄校讀與V3修訂紀錄",
+      "audience": "想練習重讀與改寫短段的教師、學生與寫作者",
+      "categoryId": "reading",
+      "topicIds": [
+        "learning"
+      ],
+      "keywords": [
+        "手寫",
+        "謄改",
+        "口述轉錄",
+        "修稿"
+      ],
+      "minutes": 20,
+      "level": "入門",
+      "contentType": "article_method",
+      "reviewedAt": "2026-11-12",
+      "coverLabel": "紙上練習",
+      "sourceCoverage": "保存本機MLX Whisper large-v3-turbo英文ASR共162168字元1979行，由審稿代理五段全文實讀；根線讀候選原段與近鄰實際動作。原Notion集數URL與官方RSS唯一item link/GUID/enclosure相合。RSS8320秒與音檔8305.031825秒差14.968175秒未解，ASR至8305.44秒；未逐句回聽，不能宣稱完整原節目已核實或方法有效。廣告791.50–942.68、2572.80–2645.60、4510.88–4591.46、5724.02–5821.42，尾段8303.44–8305.44殘句與結尾推廣不採。本篇只採3438.62–3479.88、4097.58–4118.88與4187.18–4194.06的個人修稿流程；不採中風治療、神經變化或生理效益主張。短段、版本、假設轉錄錯詞、理由及20分鐘全部編輯補充。",
+      "sources": [
+        {
+          "id": "source",
+          "kind": "article",
+          "title": "Access the Sublime & Live Your Best Life | Robert Greene",
+          "url": "https://www.hubermanlab.com/episode/access-the-sublime-and-live-your-best-life-robert-greene",
+          "channel": "Huberman Lab",
+          "note": "指定Notion同集官方RSS音訊身份鏈；本機ASR原端點，未逐句聽校。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "先手寫同一個短段",
+          "action": "先以手寫留下自己想說的一段；編輯補充：初次只處理一段，標為V1並保留原句。本次只用下列虛構句子作紙上示意，不假稱Greene寫過。",
+          "why": "來源描述把故事先手寫在筆記本。",
+          "example": "編輯示範V1：「午休我找不到書。我很急。後來在桌下找到。」這是完整虛構素材，不是真人事件或實際手寫成果。",
+          "check": "同一短段有V1，知道是本文虛構，不另換題目。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 3438.62,
+              "endSeconds": 3442.2999999999997
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "重新謄寫時改字與關係",
+          "action": "重讀後重新手寫一遍，邊謄邊改，不只是描同樣字；編輯補充：用V2和一句理由保留差異，不規定必須重寫幾次。",
+          "why": "來源把原文重新謄寫、偶爾換字、再回頭改，原述沒有固定次數。",
+          "example": "編輯示範V2：「午休要借書時，我一時找不到書，急著翻書包，最後才在桌下找到。」理由：補上要借書與翻書包，使動作關係具體；皆編輯虛構。",
+          "check": "V2仍是同一事件，改動與理由可對回V1。",
+          "contribution": "source",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 3443.2,
+              "endSeconds": 3479.88
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "內容穩定後才口述轉錄",
+          "action": "覺得段落已足以表達時，再依自己的稿口述轉錄；編輯補充：核對是否聽錯及標點，本練習用假設轉錄代替錄音，不安裝或呼叫語音服務。",
+          "why": "來源在內容夠好之後才使用轉錄，也提醒辨識不會完全聽對，需回看。",
+          "example": "編輯示範假設轉錄T1把V2的「借書」聽成「介紹」，其餘同V2；校讀稿T2改回「借書」。T1/T2全為假設，不是模型輸出。",
+          "check": "先有V2再轉錄；錯詞更正可指出，沒有聲稱已錄音或辨識成功。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 4097.58,
+              "endSeconds": 4102.88
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "印出手改，再回到文字校讀",
+          "action": "將轉錄稿印出並以手修改，再口述與校編；編輯補充：本次在紙上模擬印出稿與再次轉錄，留一項改動及最終逐字核對，不為練習購買筆或設備。",
+          "why": "來源說轉錄後印出手改，最後再次口述與校編；本次縮短版本與假設結果是編輯安排。",
+          "example": "編輯示範在T2圈掉「急著」，手改為「先」，最後V3：「午休要借書時，我一時找不到書，先翻書包，最後才在桌下找到。」改動理由為讓順序更清楚；再次口述與逐字檢查仍未實作。",
+          "check": "手改前後版本與理由保留，最終文字可讀；未錄音、印出或驗證的欄位標未做。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 4102.88,
+              "endSeconds": 4118.88
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "schedule",
+          "title": "編輯補充：20分鐘短練習",
+          "note": "四步各5分鐘，是入門紙上安排，不是來源寫作或探索需時。",
+          "columns": [
+            "動作",
+            "留下什麼"
+          ],
+          "rows": [
+            {
+              "label": "0–5分鐘",
+              "cells": [
+                "先手寫同一個短段",
+                "同一短段有V1，知道是本文虛構，不另換題目。"
+              ]
+            },
+            {
+              "label": "5–10分鐘",
+              "cells": [
+                "重新謄寫時改字與關係",
+                "V2仍是同一事件，改動與理由可對回V1。"
+              ]
+            },
+            {
+              "label": "10–15分鐘",
+              "cells": [
+                "內容穩定後才口述轉錄",
+                "先有V2再轉錄；錯詞更正可指出，沒有聲稱已錄音或辨識成功。"
+              ]
+            },
+            {
+              "label": "15–20分鐘",
+              "cells": [
+                "印出手改，再回到文字校讀",
+                "手改前後版本與理由保留，最終文字可讀；未錄音、印出或驗證的欄位標未做。"
+              ]
+            }
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "這份書寫練習是否改善寫作修稿",
+          "status": "unverified",
+          "explanation": "只有來源自述與編輯紙上設計，未測成效，不是認知、心理或職涯測驗。",
+          "sourceIds": [
+            "source"
+          ],
+          "checkedAt": "2026-11-12"
+        }
+      ],
+      "pitfalls": [
+        "不保證手寫勝打字；個人修稿經驗不是神經、復健或寫作品質的實驗證據。",
+        "固定四步與20分鐘是編輯短練習，來源沒有規定一段多久或謄寫幾次。",
+        "假設聽錯詞不是Whisper實測；沒有真的轉錄與印出就不填已完成。"
+      ],
+      "practice": {
+        "title": "編輯補充：用完整虛構材料先走一次",
+        "minutes": 20,
+        "prompt": "用完整虛構V1/V2/T1/T2/V3，記錄每版做了什麼；T1僅將V2「借書」換成「介紹」，T2改回。V3再把「急著」改成「先」。抄在紙上即可走流程；轉錄、印出、再次口述未做就寫未做，不以模擬當成實測。",
+        "deliverable": "同一短段的V1、V2、假設轉錄校讀與V3修訂紀錄",
+        "checklist": [
+          "同一短段有V1，知道是本文虛構，不另換題目。",
+          "V2仍是同一事件，改動與理由可對回V1。",
+          "先有V2再轉錄；錯詞更正可指出，沒有聲稱已錄音或辨識成功。",
+          "手改前後版本與理由保留，最終文字可讀；未錄音、印出或驗證的欄位標未做。"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "編輯補充：轉錄校讀也要留痕",
+          "text": "表頭：版本｜文字｜改什麼｜為何改｜實際/假設。V1到V3及T1/T2均為本文虛構，讀者可以逐字抄用，不需錄音。來源4187.18–4194.06提醒標點和聽錯都需回看，本文不把轉錄當成免校稿。",
+          "sourceIds": [
+            "source"
+          ]
+        },
+        {
+          "title": "編輯觀點：少量試一輪",
+          "text": "先看自己能否說清楚改字理由，紙上版本可討論，但不能由一句更流暢便宣稱整套流程普遍優於打字。",
+          "sourceIds": [
+            "source"
+          ]
+        }
+      ],
+      "publishedAt": "2026-11-12T12:03:44.286Z",
+      "overview": {
+        "kind": "infographic",
+        "image": "/assets/overviews/greene-handwrite-recopy-dictate-print-revise-desktop.webp",
+        "mobileImage": "/assets/overviews/greene-handwrite-recopy-dictate-print-revise-mobile.webp",
+        "cardImage": "/assets/overviews/greene-handwrite-recopy-dictate-print-revise-desktop.webp",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600,
+        "alt": "先手寫、再謄改：把口述轉錄放在修稿後段：依本文核心關係整理的雙版資訊圖。",
+        "caption": "依來源方法製作的編輯整理；例子與操作安排為編輯設計，不代表成效保證。"
+      }
+    },
+    {
+      "id": "greene-childhood-impulse-external-voice-frustration-map",
+      "title": "想不清楚興趣時：把童年自發投入與別人期待分開記",
+      "status": "ready",
+      "summary": "興趣一時說不清楚，可以先回想自己曾主動投入的片段，再把別人的期待另列。Greene分享過以回憶與日記探索方向的做法；本文整理成線索草表，並限制它的用途：一次挫折或童年偏好都不能直接決定適合哪一種人生。",
+      "output": "一張自發片段、外界期待、當下排斥與未知問題的線索草表",
+      "audience": "想藉書寫整理學習方向的成人與自主學習者",
+      "categoryId": "reading",
+      "topicIds": [
+        "learning"
+      ],
+      "keywords": [
+        "童年回憶",
+        "自發興趣",
+        "外界期待",
+        "書寫線索"
+      ],
+      "minutes": 20,
+      "level": "入門",
+      "contentType": "article_method",
+      "reviewedAt": "2026-11-12",
+      "coverLabel": "紙上練習",
+      "sourceCoverage": "保存本機MLX Whisper large-v3-turbo英文ASR共162168字元1979行，由審稿代理五段全文實讀；根線讀候選原段與近鄰實際動作。原Notion集數URL與官方RSS唯一item link/GUID/enclosure相合。RSS8320秒與音檔8305.031825秒差14.968175秒未解，ASR至8305.44秒；未逐句回聽，不能宣稱完整原節目已核實或方法有效。廣告791.50–942.68、2572.80–2645.60、4510.88–4591.46、5724.02–5821.42，尾段8303.44–8305.44殘句與結尾推廣不採。本篇採4819.18–4885.42、4900.34–4984.94、4985.80–5010.96的回想與書寫動作。來源將挫折連到走錯路，本文不採其判斷，只保留可記情境與待查問題；不採唯一天命、神經生理直覺、性別或心理診斷。四欄、虛構小安與20分鐘皆編輯補充。",
+      "sources": [
+        {
+          "id": "source",
+          "kind": "article",
+          "title": "Access the Sublime & Live Your Best Life | Robert Greene",
+          "url": "https://www.hubermanlab.com/episode/access-the-sublime-and-live-your-best-life-robert-greene",
+          "channel": "Huberman Lab",
+          "note": "指定Notion同集官方RSS音訊身份鏈；本機ASR原端點，未逐句聽校。"
+        }
+      ],
+      "steps": [
+        {
+          "id": "step-1",
+          "title": "回想一個自發投入片段",
+          "action": "回想仍記得的一件童年活動，寫下當時主動做了什麼，而非只填科目或職稱；編輯補充：可以留空或用本文虛構素材，不強迫挖私人記憶。",
+          "why": "來源用回溯早年令人興奮的片段，找出不是為父母要求才投入的事情。",
+          "example": "編輯示範：虛構小安小時候自願整理借來的故事卡，常把事件順序重新排列；這是人物設定，不是讀者回憶或成效紀錄。",
+          "check": "有具體自發動作，或誠實記沒有可靠回憶；不為填表補造記憶。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 4847.66,
+              "endSeconds": 4885.42
+            }
+          ]
+        },
+        {
+          "id": "step-2",
+          "title": "把別人期待另放一欄",
+          "action": "編輯補充：把可辨識的外界要求與自己想做的動作分欄，不確定就寫不確定；同一活動可能同時有期待與興趣，不必硬分好壞。",
+          "why": "來源談他人的期待可能蓋過自發投入，並用回溯拆開；雙欄與不確定欄是本文設計。",
+          "example": "編輯示範：小安另記「大人希望我參加演講」為期待；故事卡排列為自發片段；「曾練演講，也覺得好玩」來源混合，記不確定，不推論大人都不理解他。",
+          "check": "期待與自發行動各有依據，混合情形可保留，沒有把所有建議判成壓迫。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 4819.18,
+              "endSeconds": 4885.42
+            }
+          ]
+        },
+        {
+          "id": "step-3",
+          "title": "另記目前排斥的具體情境",
+          "action": "記一件目前感到挫折或排斥的工作/學習情境；編輯補充：寫具體條件與仍未知原因，先當待查線索，不由一次不喜歡推論方向選錯。",
+          "why": "來源也追問當下排斥什麼，且將它連到人生方向；本文只採記錄問題，不採「挫折就證明走錯路」的判斷。",
+          "example": "編輯示範：小安設定「被臨時要求照別人次序重排資料時，覺得挫折」，原因可能是時間太趕或不懂要求，填未知；不填「我不適合合作」。",
+          "check": "情境、感受與原因未定分開，不跳到辭職、退選或人格結論。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 4900.34,
+              "endSeconds": 4984.9400000000005
+            }
+          ]
+        },
+        {
+          "id": "step-4",
+          "title": "用日記逐次補線索",
+          "action": "將片段留在日記，之後有可靠回憶再補，不急著得唯一答案；編輯補充：以日期、片段、來源與疑問保存，今日沒想到也能停。",
+          "why": "來源說回想需要時間，並用書寫回到記憶；本文不把他的個別成功當成普遍效用。",
+          "example": "編輯示範：小安草表列「自發：排故事卡／期待：演講／排斥：臨時重排／未知：喜歡整理內容還是自己決定順序」。下一次補記日期留待填，不假稱已追蹤。",
+          "check": "留下線索與未解問題，允許空白及後續修正，沒有命定職涯答案。",
+          "contribution": "editorial",
+          "sourceRefs": [
+            {
+              "sourceId": "source",
+              "startSeconds": 4985.8,
+              "endSeconds": 5010.96
+            }
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "schedule",
+          "title": "編輯補充：20分鐘短練習",
+          "note": "四步各5分鐘，是入門紙上安排，不是來源寫作或探索需時。",
+          "columns": [
+            "動作",
+            "留下什麼"
+          ],
+          "rows": [
+            {
+              "label": "0–5分鐘",
+              "cells": [
+                "回想一個自發投入片段",
+                "有具體自發動作，或誠實記沒有可靠回憶；不為填表補造記憶。"
+              ]
+            },
+            {
+              "label": "5–10分鐘",
+              "cells": [
+                "把別人期待另放一欄",
+                "期待與自發行動各有依據，混合情形可保留，沒有把所有建議判成壓迫。"
+              ]
+            },
+            {
+              "label": "10–15分鐘",
+              "cells": [
+                "另記目前排斥的具體情境",
+                "情境、感受與原因未定分開，不跳到辭職、退選或人格結論。"
+              ]
+            },
+            {
+              "label": "15–20分鐘",
+              "cells": [
+                "用日記逐次補線索",
+                "留下線索與未解問題，允許空白及後續修正，沒有命定職涯答案。"
+              ]
+            }
+          ]
+        }
+      ],
+      "validation": [
+        {
+          "claim": "這份書寫練習是否改善寫作或方向判斷",
+          "status": "unverified",
+          "explanation": "只有來源自述與編輯紙上設計，未測成效，不是認知、心理或職涯測驗。",
+          "sourceIds": [
+            "source"
+          ],
+          "checkedAt": "2026-11-12"
+        }
+      ],
+      "pitfalls": [
+        "童年偏好不決定職涯，挫折不等於走錯路；這份草表不是心理或職涯測驗。",
+        "記憶不可靠時可留空；不要為填滿表格編造個人經歷或把自發與期待硬分對錯。",
+        "只做自願書寫，無須公開童年私事，也不依本文作辭職、退選或治療決定。"
+      ],
+      "practice": {
+        "title": "編輯補充：用完整虛構材料先走一次",
+        "minutes": 20,
+        "prompt": "用本文完整虛構小安材料：自願排故事卡；大人期待演講；演講練習也好玩但動機混合；臨時照別人順序重排資料感到挫折，原因未知。填四欄與「喜歡整理內容還是自己決定順序？」；下一次日期留空，不用提供自己童年私事。",
+        "deliverable": "一張自發片段、外界期待、當下排斥與未知問題的線索草表",
+        "checklist": [
+          "有具體自發動作，或誠實記沒有可靠回憶；不為填表補造記憶。",
+          "期待與自發行動各有依據，混合情形可保留，沒有把所有建議判成壓迫。",
+          "情境、感受與原因未定分開，不跳到辭職、退選或人格結論。",
+          "留下線索與未解問題，允許空白及後續修正，沒有命定職涯答案。"
+        ]
+      },
+      "supplements": [
+        {
+          "title": "編輯補充：可直接抄用的四欄",
+          "text": "自發投入｜他人期待｜當下排斥的情境｜未知/待補。以小安填入即可，不要求本人回憶；不確定就保留不確定，不替記憶補細節。這份草表不是職涯、人格或心理測驗。",
+          "sourceIds": [
+            "source"
+          ]
+        },
+        {
+          "title": "編輯觀點：教學轉用要保留選擇",
+          "text": "若帶入課堂，可讓學生自願選一個普通興趣片段，或只用虛構小安；允許略過，不要求公開私人童年或不愉快經歷。是否分享與內容評價分開，未做課堂成效驗證。",
+          "sourceIds": [
+            "source"
+          ]
+        }
+      ],
+      "publishedAt": "2026-11-12T12:03:44.286Z",
+      "overview": {
+        "kind": "infographic",
+        "image": "/assets/overviews/greene-childhood-impulse-external-voice-frustration-map-desktop.webp",
+        "mobileImage": "/assets/overviews/greene-childhood-impulse-external-voice-frustration-map-mobile.webp",
+        "cardImage": "/assets/overviews/greene-childhood-impulse-external-voice-frustration-map-desktop.webp",
+        "width": 1600,
+        "height": 900,
+        "mobileWidth": 1000,
+        "mobileHeight": 1600,
+        "alt": "想不清楚興趣時：把童年自發投入與別人期待分開記：依本文核心關係整理的雙版資訊圖。",
+        "caption": "依來源方法製作的編輯整理；例子與操作安排為編輯設計，不代表成效保證。"
+      }
     }
   ],
   "demo": {
